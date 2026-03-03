@@ -1,0 +1,761 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_repeatable_quest: true
+	disable_toast: true
+	filename: "044DAA30E997DE70"
+	group: "200DE5ABA2A71E38"
+	icon: "l2complements:resonant_feather"
+	id: "044DAA30E997DE70"
+	images: [
+		{
+			height: 16.0d
+			image: "l2hostility:item/trait/teleport"
+			rotation: 0.0d
+			width: 16.0d
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 5.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "l2complements:heirophant_green"
+			id: "2764F97566FB612C"
+			rewards: [{
+				auto: "enabled"
+				id: "05511368B4A4215C"
+				item: "l2complements:heirophant_green"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "最后的绿宝石水花！"
+			tasks: [
+				{
+					count: 1728L
+					id: "000DBCE39B1DA01A"
+					item: { Count: 1728, id: "minecraft:emerald_block" }
+					type: "item"
+				}
+				{
+					id: "537DC23A2AA4A65A"
+					item: "thermal:netherite_coin"
+					type: "item"
+				}
+			]
+			title: "法皇之绿"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			icon: "l2complements:hard_ice"
+			id: "4D0C6E016A8386CF"
+			rewards: [{
+				auto: "enabled"
+				id: "0705E4124535D25B"
+				item: "l2complements:hard_ice"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2CD2B52AEA4921BB"
+					item: {
+						Count: 1
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "47288C85F596EFB8"
+					item: "thermal:netherite_coin"
+					type: "item"
+				}
+				{
+					count: 128L
+					id: "65CA8A561693693D"
+					item: { Count: 128, id: "minecraft:snow_block" }
+					type: "item"
+				}
+			]
+			title: "告死寒霜"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			icon: "l2complements:resonant_feather"
+			id: "380E788F7F50CAAF"
+			rewards: [{
+				auto: "enabled"
+				id: "66CA40547CE0CF0A"
+				item: "l2complements:resonant_feather"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 128L
+					id: "39C9092E9A20130A"
+					item: { Count: 128, id: "minecraft:chicken" }
+					type: "item"
+				}
+				{
+					count: 128L
+					id: "643C93FA87002DCF"
+					item: { Count: 128, id: "minecraft:feather" }
+					type: "item"
+				}
+				{
+					id: "76AC8F2E596E91A6"
+					item: "thermal:netherite_coin"
+					type: "item"
+				}
+			]
+			title: "共振之羽"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			icon: "l2complements:blackstone_core"
+			id: "654E96AA4BAD8208"
+			rewards: [{
+				auto: "enabled"
+				id: "0AE6A5A960CE36CE"
+				item: "l2complements:blackstone_core"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 128L
+					id: "34F0F185FFEF0BDF"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "733A0B0E85100F0D"
+					item: "thermal:netherite_coin"
+					type: "item"
+				}
+			]
+			title: "黑石核心"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			icon: "l2complements:storm_core"
+			id: "54FC6639E2086599"
+			rewards: [{
+				auto: "enabled"
+				id: "5562CAD68DDF7659"
+				item: "l2complements:storm_core"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 128L
+					id: "168BAA71AF50409D"
+					item: { Count: 128, id: "minecraft:tnt" }
+					type: "item"
+				}
+				{
+					count: 256L
+					id: "139DE8DA00857828"
+					item: { Count: 256, id: "minecraft:phantom_membrane" }
+					type: "item"
+				}
+				{
+					id: "2203163D56193936"
+					item: "thermal:netherite_coin"
+					type: "item"
+				}
+			]
+			title: "裂空结晶"
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			icon: "l2complements:soul_flame"
+			id: "2FA28DA3023FD503"
+			rewards: [{
+				auto: "enabled"
+				id: "090EE5AB376FEFAA"
+				item: "l2complements:soul_flame"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "7EB927D09D30F783"
+					item: { Count: 64, id: "minecraft:soul_sand" }
+					type: "item"
+				}
+				{
+					count: 256L
+					id: "03728DDEC68BBE17"
+					item: { Count: 256, id: "minecraft:ghast_tear" }
+					type: "item"
+				}
+				{
+					id: "19BF7827D6483342"
+					item: "thermal:netherite_coin"
+					type: "item"
+				}
+			]
+			title: "灵魂火种"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			icon: "l2complements:captured_shulker_bullet"
+			id: "6C1B80E2FA484C1F"
+			rewards: [{
+				auto: "enabled"
+				id: "12304D326E06B4E9"
+				item: "l2complements:captured_shulker_bullet"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "725290960F403C79"
+					item: "l2complements:wind_capture_bottle"
+					type: "item"
+				}
+				{
+					count: 256L
+					id: "721588C677ECB0F9"
+					item: { Count: 256, id: "minecraft:shulker_shell" }
+					type: "item"
+				}
+				{
+					id: "2B15DC644FA1A795"
+					item: "thermal:netherite_coin"
+					type: "item"
+				}
+			]
+			title: "瓶中潜影弹"
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			icon: "l2complements:explosion_shard"
+			id: "10BA7451C0D3AFC4"
+			rewards: [{
+				auto: "enabled"
+				id: "433D41A1F164DEA2"
+				item: "l2complements:explosion_shard"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 512L
+					id: "65460232AEC23FED"
+					item: { Count: 512, id: "minecraft:tnt" }
+					type: "item"
+				}
+				{
+					id: "6F9AE6502436DD4F"
+					item: "thermal:netherite_coin"
+					type: "item"
+				}
+			]
+			title: "破灭残片"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			icon: "l2complements:captured_wind"
+			id: "4BC16E0C586B77BC"
+			rewards: [{
+				auto: "enabled"
+				id: "602513A2DCA25B87"
+				item: "l2complements:captured_wind"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "079B02A7678B0DFA"
+					item: "l2complements:wind_capture_bottle"
+					type: "item"
+				}
+				{
+					count: 512L
+					id: "5859921F18CBA09B"
+					item: { Count: 512, id: "minecraft:sugar" }
+					type: "item"
+				}
+				{
+					id: "5956803F58F29C0E"
+					item: "thermal:netherite_coin"
+					type: "item"
+				}
+			]
+			title: "千风精华"
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			icon: "l2complements:warden_bone_shard"
+			id: "559C2E281634DCC7"
+			rewards: [{
+				auto: "enabled"
+				id: "425635CDA4F8D997"
+				item: "l2complements:warden_bone_shard"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 256L
+					id: "407140461334AC10"
+					item: { Count: 256, id: "minecraft:sculk" }
+					type: "item"
+				}
+				{
+					id: "06A241AA417EEB79"
+					item: "thermal:netherite_coin"
+					type: "item"
+				}
+			]
+			title: "强化骨片"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			icon: "l2complements:life_essence"
+			id: "21C8E5BE48A40A9A"
+			rewards: [{
+				auto: "enabled"
+				id: "76490C2E1BC363D3"
+				item: "l2complements:life_essence"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 15552L
+					id: "7D03C19CCFBC5ED6"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:foods/meat"
+						}
+					}
+					title: "肉类"
+					type: "item"
+				}
+				{
+					id: "34281B647B8C6814"
+					item: "thermal:netherite_coin"
+					type: "item"
+				}
+			]
+			title: "生命精华"
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			icon: "l2complements:life_essence"
+			id: "599A136F0A3658F5"
+			rewards: [{
+				auto: "enabled"
+				id: "489BC714D355471E"
+				item: "l2complements:life_essence"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "另一种兑换方式"
+			tasks: [
+				{
+					count: 64L
+					id: "4B767616D7D42F05"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "377D114AD8BFD74F"
+					item: "thermal:netherite_coin"
+					type: "item"
+				}
+			]
+			title: "生命精华"
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			icon: "l2complements:force_field"
+			id: "0CB4A642FCE7E2AD"
+			rewards: [{
+				auto: "enabled"
+				id: "5DCD6B4865BFA131"
+				item: "l2complements:force_field"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 512L
+					id: "1D2D6BBCADAFE4E1"
+					item: { Count: 512, id: "minecraft:arrow" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4DD13BBBCC7F7CE5"
+					item: { Count: 64, id: "minecraft:wither_skeleton_skull" }
+					type: "item"
+				}
+				{
+					id: "55A9772E5DA8C9AF"
+					item: "thermal:netherite_coin"
+					type: "item"
+				}
+			]
+			title: "守护立场"
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			icon: "l2complements:guardian_eye"
+			id: "5316E0CEAE0ECB92"
+			rewards: [{
+				auto: "enabled"
+				id: "1538D60265F46438"
+				item: "l2complements:guardian_eye"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "12101D5B47C0B35D"
+					item: { Count: 64, id: "hmag:lightning_particle" }
+					type: "item"
+				}
+				{
+					count: 128L
+					id: "613CCACA38765848"
+					item: { Count: 128, id: "minecraft:wet_sponge" }
+					type: "item"
+				}
+				{
+					id: "3020ACCCB948C87D"
+					item: "thermal:netherite_coin"
+					type: "item"
+				}
+			]
+			title: "守卫者之眼"
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			icon: "l2complements:cursed_droplet"
+			id: "340D5ABDDCB3514E"
+			rewards: [{
+				auto: "enabled"
+				id: "4329E225E94CF367"
+				item: "l2complements:cursed_droplet"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "60C0A7354F00D195"
+					item: { Count: 64, id: "minecraft:nether_star" }
+					type: "item"
+				}
+				{
+					id: "6A402C86D6F3FFA5"
+					item: "thermal:netherite_coin"
+					type: "item"
+				}
+			]
+			title: "亡魂之泪"
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			icon: "l2complements:void_eye"
+			id: "77ACC4C12C21FA28"
+			rewards: [{
+				auto: "enabled"
+				id: "49127B5C0FFE2C97"
+				item: "l2complements:void_eye"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "3121D262481CE7A8"
+					item: { Count: 64, id: "minecraft:ender_pearl" }
+					type: "item"
+				}
+				{
+					count: 256L
+					id: "4EB9F7D2DC42B63F"
+					item: { Count: 256, id: "minecraft:ender_eye" }
+					type: "item"
+				}
+				{
+					id: "6DA6B5B3BDA61717"
+					item: "thermal:netherite_coin"
+					type: "item"
+				}
+			]
+			title: "虚空之眼"
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			icon: "l2complements:sun_membrane"
+			id: "5C636E0B077F4F44"
+			rewards: [{
+				auto: "enabled"
+				id: "3834410F61680244"
+				item: "l2complements:sun_membrane"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 6144L
+					id: "1B6B856D2305A923"
+					item: { Count: 6144, id: "minecraft:phantom_membrane" }
+					type: "item"
+				}
+				{
+					id: "63F898C0DDB7DD76"
+					item: "thermal:netherite_coin"
+					type: "item"
+				}
+			]
+			title: "逐日之翼"
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			icon: "l2hostility:hostility_orb"
+			id: "7ED6A1E45D34AD50"
+			rewards: [{
+				auto: "enabled"
+				id: "511397E76CCE21A8"
+				item: "l2hostility:hostility_orb"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E49C578CFD4F68D"
+				item: "l2hostility:hostility_essence"
+				type: "item"
+			}]
+			title: "恶意吸收宝珠"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "pandora:pandora_necklace"
+				tag: {
+					IsInitialized: 1b
+					baublesreforked.ModifierId: "steady"
+					baublesreforked.ModifierUUID: "2c1dee21-da6d-4814-a2f6-7c24fce07d6f"
+				}
+			}
+			id: "736B3F2F547FF2BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5811832B6DB04BA0"
+				table_id: 8318517065630610136L
+				team_reward: true
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "15EE5FC0B0966861"
+				item: "wqjy:world"
+				type: "item"
+			}]
+			title: "潘多拉相关"
+			x: -0.5d
+			y: 5.0d
+		}
+	]
+	title: "·&b莱特兰材料"
+}

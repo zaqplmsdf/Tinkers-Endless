@@ -1,0 +1,190 @@
+{
+	id: "373A751051BC178D"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "tinkers_thinking:repeating_crossbow"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: [
+							"{\"text\":\"§1一§2击§3必§4杀§5！§6！§7！\"}"
+							"{\"text\":\"§a使§b用§c无§d尽§e之§f锭§1修§2复§3！§4（§5实§6际§7上§8是§9无§1限§a耐§b久§c的§d！§e）\"}"
+						]
+						Name: "{\"text\":\"§a完§b美§c解§d放§e-§f无§1尽§2与§3永§4恒§5之§6弩\"}"
+					}
+					etstlib_tool_uuid: "895a46e4-c22c-47c2-bae6-3797ec6a4d85"
+					tic_broken: 0b
+					tic_materials: [
+						"ticex:infinity"
+						"ticex:infinity"
+						"cloudertinker:arctic_fur"
+					]
+					tic_modifiers: [
+						{
+							level: 2
+							name: "ticex:omnipotence"
+						}
+						{
+							level: 2
+							name: "ticex:cosmic_unbreakable"
+						}
+						{
+							level: 1
+							name: "tconstruct:creative_slot"
+						}
+						{
+							level: 2
+							name: "ticex:cosmic_luck"
+						}
+						{
+							level: 2
+							name: "ticex:bedrock_breaker"
+						}
+						{
+							level: 1
+							name: "cloudertinker:twilight"
+						}
+						{
+							level: 1
+							name: "cloudertinker:frosttought"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.6f
+					}
+					tic_persistent: {
+						abilities: -1
+						"tconstruct:creative": {
+							abilities: 32
+							upgrades: 30
+						}
+					}
+					tic_stats: {
+						"tconstruct:accuracy": 1.0f
+						"tconstruct:attack_damage": 4996.5f
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:draw_speed": 100.700005f
+						"tconstruct:durability": 175822.42f
+						"tconstruct:velocity": 100.9f
+					}
+					tic_upgrades: [
+						{
+							level: 1
+							name: "tinker_transplant:reload_tinker_arrows"
+						}
+						{
+							level: 1
+							name: "tconstruct:creative_slot"
+						}
+					]
+					tic_volatile_data: {
+						abilities: 33
+						upgrades: 32
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkers_thinking:repeating_crossbow"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: [
+							"{\"text\":\"§1一§2击§3必§4杀§5！§6！§7！\"}"
+							"{\"text\":\"§a使§b用§c无§d尽§e之§f锭§1修§2复§3！§4（§5实§6际§7上§8是§9无§1限§a耐§b久§c的§d！§e）\"}"
+						]
+						Name: "{\"text\":\"§1至§2高§3无§4上§5-§6无§7尽§8与§9永§a恒§b之§c弩\"}"
+					}
+					etstlib_tool_uuid: "e7f63cd2-6f20-4341-802c-b95222e141ab"
+					tic_broken: 0b
+					tic_materials: [
+						"sakuratinker:infinity"
+						"tconstruct:bamboo"
+						"cloudertinker:arctic_fur"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tconstruct:creative_slot"
+						}
+						{
+							level: 1
+							name: "sakuratinker:omnipotence"
+						}
+						{
+							level: 1
+							name: "sakuratinker:super_luck"
+						}
+						{
+							level: 1
+							name: "sakuratinker:infinitum"
+						}
+						{
+							level: 1
+							name: "sakuratinker:bedrock_breaker"
+						}
+						{
+							level: 1
+							name: "tconstruct:unburdened"
+						}
+						{
+							level: 1
+							name: "cloudertinker:twilight"
+						}
+						{
+							level: 1
+							name: "cloudertinker:frosttought"
+						}
+						{
+							level: 1
+							name: "sakuratinker:natural_fit_upgrades"
+						}
+						{
+							level: 1
+							name: "sakuratinker:natural_fit_abilities"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.6f
+					}
+					tic_persistent: {
+						abilities: -1
+						"tconstruct:creative": {
+							abilities: 2
+						}
+					}
+					tic_stats: {
+						"tconstruct:accuracy": 1.0f
+						"tconstruct:attack_damage": 1.75f
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:draw_speed": 2.8f
+						"tconstruct:durability": 13376.0f
+						"tconstruct:use_item_speed": 0.3f
+						"tconstruct:velocity": 2.0f
+					}
+					tic_upgrades: [
+						{
+							level: 1
+							name: "tinker_transplant:reload_tinker_arrows"
+						}
+						{
+							level: 1
+							name: "tconstruct:creative_slot"
+						}
+					]
+					tic_volatile_data: {
+						abilities: 33
+						upgrades: 32
+					}
+				}
+			}
+		}
+	]
+	title: "弩"
+}

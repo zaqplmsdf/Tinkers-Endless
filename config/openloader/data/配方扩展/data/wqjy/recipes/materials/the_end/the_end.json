@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "item": "wqjy:the_end"
+  },
+  "material": "wqjy:the_end",
+  "needed": 1,
+  "value": 1
+}

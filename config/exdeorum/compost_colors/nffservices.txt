@@ -1,0 +1,3 @@
+// Compost colors for nffservices. You may add your own colors, change existing ones, or remove colors that aren't needed.
+instant_taming_tool, #f1f4ed
+nff_debug_sign, #ebeeea

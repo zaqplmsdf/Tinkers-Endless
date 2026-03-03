@@ -1,0 +1,22 @@
+{
+	id: "53FBF5BC273681C7"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{
+			command: "/yaoyaocoin disable @p all"
+			elevate_perms: true
+			silent: true
+			team_reward: false
+			title: "隐藏"
+			type: "command"
+		}
+		{
+			command: "/yaoyaocoin enable @p all"
+			elevate_perms: true
+			title: "启用"
+			type: "command"
+		}
+	]
+	title: "货币"
+}

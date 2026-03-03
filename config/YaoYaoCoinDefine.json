@@ -1,0 +1,46 @@
+  {
+  "coinTypes": [
+    {
+      "name": "001",
+      "money": 1,
+      "convertGroup": 0,
+      "maxStackSize": 999,
+      "itemName": "thermal:copper_coin"
+    },
+    {
+      "name": "002",
+      "money": 4,
+      "convertGroup": 0,
+      "maxStackSize": 999,
+      "itemName": "thermal:silver_coin"
+    },
+    {
+      "name": "003",
+      "money": 16,
+      "convertGroup": 0,
+      "maxStackSize": 999,
+      "itemName": "thermal:gold_coin"
+    },
+    {
+      "name": "004",
+      "money": 80,
+      "convertGroup": 0,
+      "maxStackSize": 999,
+      "itemName": "thermal:enderium_coin"
+    },
+    {
+      "name": "005",
+      "money": 160,
+      "convertGroup": 0,
+      "maxStackSize": 999,
+      "itemName": "thermal:netherite_coin"
+    },
+    {
+      "name": "006",
+      "money": 10240,
+      "convertGroup": 0,
+      "maxStackSize": 999,
+      "itemName": "kubejs:cat"
+    }
+  ]
+}

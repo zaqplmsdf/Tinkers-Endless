@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "minecraft:enchanted_golden_apple",
+      "amount_needed":4
+    },
+    {
+      "item": "tconstruct:jeweled_apple",
+      "amount_needed":8
+    }
+  ],
+  "level": 2,
+  "result": "tprt:advanced_cheer_up",
+  "tools": [
+    {
+      "tag": "tconstruct:modifiable/armor"
+    }
+  ]
+}

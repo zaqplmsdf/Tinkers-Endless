@@ -1,0 +1,95 @@
+{
+	hide_tooltip: true
+	id: "624545FF98415BD9"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ item: "hmag:banshee_spawn_egg" }
+		{ item: "hmag:alraune_spawn_egg" }
+		{ item: "hmag:catoblepas_spawn_egg" }
+		{ item: "hmag:nightwalker_spawn_egg" }
+		{ item: "hmag:giant_mummy_spawn_egg" }
+		{ item: "hmag:glaryad_spawn_egg" }
+		{ item: "hmag:imp_spawn_egg" }
+		{ item: "hmag:ghost_spawn_egg" }
+		{ item: "hmag:wither_ghost_spawn_egg" }
+		{ item: "hmag:ender_executor_spawn_egg" }
+		{ item: "hmag:spider_nest_spawn_egg" }
+		{ item: "hmag:melty_monster_spawn_egg" }
+		{ item: "hmag:cursed_doll_spawn_egg" }
+		{ item: "hmag:jack_frost_spawn_egg" }
+		{ item: "hmag:hornet_spawn_egg" }
+		{ item: "hmag:dullahan_spawn_egg" }
+		{ item: "hmag:slime_girl_spawn_egg" }
+		{ item: "hmag:redcap_spawn_egg" }
+		{ item: "hmag:ghastly_seeker_spawn_egg" }
+		{ item: "hmag:dogu_spawn_egg" }
+		{ item: "hmag:kasha_spawn_egg" }
+		{ item: "hmag:scorpion_spawn_egg" }
+		{ item: "hmag:magical_slime_spawn_egg" }
+		{ item: "hmag:monolith_spawn_egg" }
+		{ item: "hmag:crimson_slaughterer_spawn_egg" }
+		{ item: "hmag:dyssomnia_spawn_egg" }
+		{ item: "hmag:snow_canine_spawn_egg" }
+		{ item: "hmag:harpy_spawn_egg" }
+		{ item: "hmag:savagefang_spawn_egg" }
+		{ item: "hmag:necrotic_reaper_spawn_egg" }
+		{ item: "hmag:swamper_spawn_egg" }
+		{ item: "hmag:husk_girl_spawn_egg" }
+		{ item: "hmag:drowned_girl_spawn_egg" }
+		{ item: "hmag:skeleton_girl_spawn_egg" }
+		{ item: "hmag:wither_skeleton_girl_spawn_egg" }
+		{ item: "hmag:stray_girl_spawn_egg" }
+		{ item: "hmag:creeper_girl_spawn_egg" }
+		{ item: "grimoireofgaia:dullahan_spawn_egg" }
+		{ item: "grimoireofgaia:yuki_onna_spawn_egg" }
+		{ item: "grimoireofgaia:harpy_spawn_egg" }
+		{ item: "grimoireofgaia:spriggan_spawn_egg" }
+		{ item: "grimoireofgaia:succubus_spawn_egg" }
+		{ item: "grimoireofgaia:mermaid_spawn_egg" }
+		{ item: "grimoireofgaia:dryad_spawn_egg" }
+		{ item: "grimoireofgaia:mummy_spawn_egg" }
+		{ item: "grimoireofgaia:cecaelia_spawn_egg" }
+		{ item: "grimoireofgaia:banshee_spawn_egg" }
+		{ item: "grimoireofgaia:valkyrie_spawn_egg" }
+		{ item: "hmag:zombie_girl_spawn_egg" }
+		{ item: "hmag:ogre_spawn_egg" }
+		{ item: "hmag:lich_spawn_egg" }
+		{ item: "hmag:kobold_spawn_egg" }
+		{ item: "monsters_and_girls:molten_mushroom_gal_spawn_egg" }
+		{ item: "monsters_and_girls:bee_girl_worker_spawn_egg" }
+		{ item: "monsters_and_girls:maiden_of_the_skies_spawn_egg" }
+		{ item: "monsters_and_girls:globberie_spawn_egg" }
+		{ item: "monsters_and_girls:poofed_endershroom_spawn_egg" }
+		{ item: "monsters_and_girls:soul_wanderer_gal_spawn_egg" }
+		{ item: "monsters_and_girls:spook_spawn_egg" }
+		{ item: "monsters_and_girls:peach_spawn_egg" }
+		{ item: "monsters_and_girls:blue_wisp_spawn_egg" }
+		{ item: "monsters_and_girls:green_wisp_spawn_egg" }
+		{ item: "monsters_and_girls:yellow_wisp_spawn_egg" }
+		{ item: "monsters_and_girls:green_mandrake_spawn_egg" }
+		{ item: "monsters_and_girls:brown_mandragora_spawn_egg" }
+		{ item: "monsters_and_girls:fruity_mandrake_spawn_egg" }
+		{ item: "monsters_and_girls:red_mushrom_gal_spawn_egg" }
+		{ item: "monsters_and_girls:brown_mushroom_gal_spawn_egg" }
+		{ item: "monsters_and_girls:blue_slime_girl_spawn_egg" }
+		{ item: "monsters_and_girls:jack_o_gourdragora_mini_spawn_egg" }
+		{ item: "monsters_and_girls:crimson_mushroom_girl_bigspots_spawn_egg" }
+		{ item: "monsters_and_girls:warped_mushroom_gal_big_spots_spawn_egg" }
+		{ item: "monsters_and_girls:warped_mushroom_gal_spawn_egg" }
+		{ item: "monsters_and_girls:infernal_mushroom_gal_spawn_egg" }
+		{ item: "monsters_and_girls:snowball_mushroom_girl_spawn_egg" }
+		{ item: "monsters_and_girls:ink_cap_spawn_egg" }
+		{ item: "monsters_and_girls:fly_alexgaric_spawn_egg" }
+		{ item: "monsters_and_girls:gourdragora_medium_spawn_egg" }
+		{ item: "monsters_and_girls:gourdragora_large_spawn_egg" }
+		{ item: "monsters_and_girls:gourdragora_mini_spawn_egg" }
+		{ item: "monsters_and_girls:jack_o_gourdragora_m_spawn_egg" }
+		{ item: "monsters_and_girls:jack_o_gourdragora_large_spawn_egg" }
+		{ item: "monsters_and_girls:crimson_mushroom_gal_spawn_egg" }
+		{ item: "mg_secrets_of_mermaids:common_abyssal_mermaid_spawn_egg" }
+		{ item: "mg_secrets_of_mermaids:tropical_pygmy_mermaid_spawn_egg" }
+		{ item: "mg_secrets_of_mermaids:crab_girl_spawn_egg" }
+	]
+	title: "怪物娘刷怪蛋"
+}

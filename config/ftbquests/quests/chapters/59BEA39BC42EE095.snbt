@@ -1,0 +1,385 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "59BEA39BC42EE095"
+	group: "63383AA57008A157"
+	icon: "cagedmobs:hopping_mob_cage"
+	id: "59BEA39BC42EE095"
+	images: [
+		{
+			height: 2.0d
+			image: "cagedmobs:item/empty_spawn_egg"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "cagedmobs:item/netherite_dna_sampler_full"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			height: 4.0d
+			image: "cagedmobs:item/star_infused_netherite_ingot"
+			rotation: 0.0d
+			width: 4.0d
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -2.5d
+		}
+	]
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["79A967D5F26E9E81"]
+			icon: "iceandfire:dragon_skull_fire"
+			id: "25AE9E313DEA84E1"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_if_dragon"
+				criterion: ""
+				id: "23AD2077B79EEA7F"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "28125A3B0AE18AC3"
+			tasks: [{
+				id: "42F16BA374805901"
+				item: "cagedmobs:mob_cage"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["28125A3B0AE18AC3"]
+			id: "367C350FC4E60D4D"
+			tasks: [{
+				id: "235B1E58C7455F7D"
+				item: "cagedmobs:hopping_mob_cage"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "15E5143914D30A0B"
+			tasks: [{
+				id: "6911811EBAD85BC1"
+				item: "cagedmobs:dna_sampler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["15E5143914D30A0B"]
+			id: "1F52EB231C4115C9"
+			tasks: [{
+				id: "0CE7635E14C2F11C"
+				item: "cagedmobs:diamond_dna_sampler"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1F52EB231C4115C9"]
+			id: "79A967D5F26E9E81"
+			tasks: [{
+				id: "7FAFB9DF0271D858"
+				item: "cagedmobs:netherite_dna_sampler"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["25AE9E313DEA84E1"]
+			icon: "iceandfire:fire_dragon_heart"
+			id: "13BF59B9F6ABC98E"
+			rewards: [{
+				id: "56EFA1CBAA667C51"
+				item: {
+					Count: 1
+					id: "cagedmobs:netherite_dna_sampler"
+					tag: {
+						entity: "iceandfire:fire_dragon"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "3527C89F531389A0"
+					item: "thermal:netherite_coin"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "19AF150E53B9CB6D"
+					item: "cagedmobs:netherite_dna_sampler"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4F5110935CE32B2E"
+					item: "iceandfire:fire_dragon_heart"
+					type: "item"
+				}
+			]
+			title: "火龙"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["25AE9E313DEA84E1"]
+			icon: "iceandfire:ice_dragon_heart"
+			id: "7AF2CD5669CE4FE0"
+			rewards: [{
+				id: "62EFDE1367AF6A46"
+				item: {
+					Count: 1
+					id: "cagedmobs:netherite_dna_sampler"
+					tag: {
+						entity: "iceandfire:ice_dragon"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "4C457068CC00C186"
+					item: "thermal:netherite_coin"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5EBB5EB7791024AE"
+					item: "cagedmobs:netherite_dna_sampler"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3C0ECB2E6A4AEC63"
+					item: "iceandfire:ice_dragon_heart"
+					type: "item"
+				}
+			]
+			title: "冰龙"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["25AE9E313DEA84E1"]
+			icon: "iceandfire:lightning_dragon_heart"
+			id: "0DF5776555A11BAF"
+			rewards: [{
+				id: "4B19DF29AE6B6665"
+				item: {
+					Count: 1
+					id: "cagedmobs:netherite_dna_sampler"
+					tag: {
+						entity: "iceandfire:lightning_dragon"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "2AAE0CF59593019C"
+					item: "thermal:netherite_coin"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "653A137EC0521EAB"
+					item: "cagedmobs:netherite_dna_sampler"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0369AEBCC3E80A33"
+					item: "iceandfire:lightning_dragon_heart"
+					type: "item"
+				}
+			]
+			title: "电龙"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["28125A3B0AE18AC3"]
+			id: "7C7424A22DB55C61"
+			rewards: [{
+				id: "505852CB8C8F73C1"
+				item: "thermal:enderium_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "22014FC4DF91C356"
+					item: "cagedmobs:speed_i_upgrade"
+					type: "item"
+				}
+				{
+					id: "5373CCC03893E220"
+					item: "cagedmobs:speed_ii_upgrade"
+					type: "item"
+				}
+				{
+					id: "0CD80F9E9846741B"
+					item: "cagedmobs:speed_iii_upgrade"
+					type: "item"
+				}
+				{
+					id: "1A7D07BB52B3D56C"
+					item: "cagedmobs:looting_upgrade"
+					type: "item"
+				}
+				{
+					id: "438302B43E674690"
+					item: "cagedmobs:arrow_upgrade"
+					type: "item"
+				}
+				{
+					id: "11DD709EF1EE8ABB"
+					item: "cagedmobs:cooking_upgrade"
+					type: "item"
+				}
+				{
+					id: "5E57305B0D981381"
+					item: "cagedmobs:lightning_upgrade"
+					type: "item"
+				}
+				{
+					id: "57A800E554576F98"
+					item: "cagedmobs:experience_upgrade"
+					type: "item"
+				}
+			]
+			title: "笼升级"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["79A967D5F26E9E81"]
+			id: "0554C176E6A5E92E"
+			rewards: [{
+				id: "187FC6F69D07C561"
+				table_id: 7081142953183370201L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6A85012D17EA3220"
+				item: "kubejs:cat"
+				type: "item"
+			}]
+			title: "刷怪蛋兑换"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["79A967D5F26E9E81"]
+			id: "3802DDEE3714436A"
+			rewards: [{
+				id: "7831280B6DEA22F3"
+				table_id: 967698088604473449L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "06E1320C6EDE4F5B"
+				item: "kubejs:cat"
+				type: "item"
+			}]
+			title: "刷怪蛋兑换"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2F07077A46207190"]
+			hide_until_deps_complete: true
+			id: "6725EE4A2A499470"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "45D5E4F1A12ACF29"
+					table_id: 7081142953183370201L
+					team_reward: true
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C10717B65857599"
+					table_id: 967698088604473449L
+					team_reward: true
+					type: "choice"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "2F64C8B4507477C2"
+				item: "kubejs:cat"
+				type: "item"
+			}]
+			title: "另一个刷怪蛋兑换"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			icon: "minecraft:observer"
+			id: "056670FB790A8C80"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "04E8833C8B937ADA"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "22A2F5702D1E5EDD"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+	]
+	title: "·&a笼中生物"
+}

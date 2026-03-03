@@ -1,0 +1,2383 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "04D8C47AA966940E"
+	group: "3172704A8AED52C1"
+	icon: {
+		Count: 8
+		id: "tconstruct:pickaxe"
+		tag: {
+			Damage: 0
+			etstlib_tool_uuid: "34fd22d9-d278-4d3f-a3b9-326d0ef89acd"
+			tic_broken: 0b
+			tic_materials: [
+				"ticex:infinity"
+				"ticex:infinity"
+				"ticex:infinity"
+			]
+			tic_modifiers: [
+				{
+					level: 3
+					name: "ticex:omnipotence"
+				}
+				{
+					level: 3
+					name: "ticex:cosmic_unbreakable"
+				}
+				{
+					level: 3
+					name: "ticex:cosmic_luck"
+				}
+				{
+					level: 3
+					name: "ticex:bedrock_breaker"
+				}
+				{
+					level: 1
+					name: "tconstruct:pierce"
+				}
+			]
+			tic_persistent: { }
+			tic_stats: {
+				"tconstruct:attack_damage": 9990.998f
+				"tconstruct:attack_speed": 11.988f
+				"tconstruct:durability": 99890.01f
+				"tconstruct:harvest_tier": "ticex:infinity"
+				"tconstruct:mining_speed": 9980.01f
+			}
+			tic_volatile_data: {
+				abilities: 1
+				defense: 3
+				upgrades: 1
+			}
+		}
+	}
+	id: "04D8C47AA966940E"
+	images: [
+		{
+			dependency: "3DCAAB47D2989A5F"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependency: "6E79FD72D53B075A"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependency: "7E6B02C7E01C1E9E"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependency: "356BEE759D377920"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependency: "2E05294B931CB45B"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependency: "7BBC11242E3F64AB"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependency: "4E680D9C606E615E"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependency: "46754958A171539C"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependency: "7FF4855C1454F77E"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependency: "0520070FDB455E6A"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependency: "447E5DD8C6C1BB83"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependency: "0DCADDEE71545187"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependency: "26D0A83891AD4305"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			height: 8.0d
+			image: "avaritia:item/tools/infinity_sword/layer_2"
+			rotation: 0.0d
+			width: 8.0d
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			height: 8.0d
+			image: "avaritia:item/resource/infinity/infinity_catalyst"
+			rotation: 0.0d
+			width: 8.0d
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			height: 8.0d
+			image: "avaritia:item/tools/infinity_crossbow/pull_2"
+			rotation: 0.0d
+			width: 8.0d
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			height: 4.0d
+			image: "avaritia:item/misc/infinity_totem"
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.0d
+			y: 2.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "22287760172917CB"
+			subtitle: "&6以快速进入下一挖掘等级为主"
+			tasks: [{
+				id: "6D2758D1809BB32A"
+				title: "&6以快速进入下一阶段为主"
+				type: "checkmark"
+			}]
+			title: "&5材料推荐"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["22287760172917CB"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tconstruct:materials_and_you"
+				tag: {
+					mantle: {
+						book: {
+							current_page: "melee_harvest_materials.mushroom_daydream:pumpkin"
+						}
+					}
+				}
+			}
+			id: "79C227658B79B4AD"
+			tasks: [{
+				id: "3CFC3FCA9C2C5815"
+				title: "一级材料"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22287760172917CB"]
+			hide_until_deps_complete: true
+			icon: "tconstruct:puny_smelting"
+			id: "3108C4C2E1184A07"
+			tasks: [{
+				id: "1DD20AAAD14483DF"
+				title: "二级材料"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22287760172917CB"]
+			hide_until_deps_complete: true
+			icon: "tconstruct:mighty_smelting"
+			id: "406CBE2ADE224679"
+			tasks: [{
+				id: "6F5F5FD52176EB16"
+				title: "三级材料"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["22287760172917CB"]
+			description: [
+				"从该等级开始步骤将变得繁琐，难以描述。"
+				""
+				"请自行查看&ejei&r"
+				""
+				"四级材料强度都不低，所以这里只放出来几个"
+			]
+			hide_until_deps_complete: true
+			icon: "tconstruct:fantastic_foundry"
+			id: "6061038C82BD0CCF"
+			tasks: [{
+				id: "008F1D6A7CEFF21A"
+				title: "四级材料"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["22287760172917CB"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tconstruct:encyclopedia"
+				tag: {
+					mantle: {
+						book: {
+							current_page: "materials_harvest.page0"
+						}
+					}
+				}
+			}
+			id: "4613D7E1B985B29F"
+			tasks: [{
+				id: "0D0DD278B5352CAB"
+				title: "更高级的材料"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["79C227658B79B4AD"]
+			description: [
+				"挖掘等级：&7铁&r"
+				""
+				"因不明原因，需使用&e紫水晶碎片&r在工作台合成&e紫水晶绑定结&r再在&e部件制作台&r进行部件加工"
+				""
+				"可在&e部件制作台&r制作"
+				""
+				"紫水晶矿洞采集"
+			]
+			icon: "minecraft:amethyst_shard"
+			id: "6DF0E378AFC0B791"
+			tasks: [{
+				id: "1439A976C15E1FE6"
+				title: "&d紫水晶"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["79C227658B79B4AD"]
+			description: [
+				"挖掘等级：&7铁&r"
+				""
+				"可在&e部件制作台&r制作"
+				""
+				"随处可见"
+			]
+			icon: "minecraft:copper_ingot"
+			id: "5B8A6DDC4D845231"
+			tasks: [{
+				id: "179150FF6853792A"
+				title: "&6铜"
+				type: "checkmark"
+			}]
+			title: "&6铜"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["79C227658B79B4AD"]
+			description: [
+				"挖掘等级：&7铁&r"
+				""
+				"可在&e部件制作台&r制作"
+				""
+				"还算常见"
+			]
+			icon: "minecraft:pumpkin"
+			id: "17CC9935A63786B9"
+			tasks: [{
+				id: "29895BBDF381D155"
+				title: "&e南瓜"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3108C4C2E1184A07"]
+			description: [
+				"挖掘等级：&b钻石&r"
+				""
+				"需要&e匠魂冶炼炉&r"
+				""
+				"将&c熔融状态&r的&e银&r浇到任意&e黏木类&r部件上"
+				""
+				"搜索："
+				"大地黏液岛：&eEarth slime Island&r"
+				""
+				"碧空黏液岛：&eSky slime Island&r"
+				""
+				"末影黏液岛：&eEnd slime Island&r"
+				""
+				"黏血岛&eBlood Island&r"
+			]
+			icon: {
+				Count: 1
+				id: "tconstruct:repair_kit"
+				tag: {
+					Material: "mushroom_daydream:whiterose_wood"
+				}
+			}
+			id: "3ACE3C31A678CFDA"
+			tasks: [{
+				id: "6A737CA37FD7F719"
+				title: "&f白蔷薇"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3108C4C2E1184A07"]
+			description: [
+				"挖掘等级：&b钻石&r"
+				""
+				"可在&e部件制作台&r制作"
+				""
+				"&e下界石英&r+&e红石粉&r合成"
+			]
+			icon: "create:rose_quartz"
+			id: "3940B6ED71192DA4"
+			tasks: [{
+				id: "27274F0AB52947FF"
+				title: "&c玫瑰石英"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3108C4C2E1184A07"]
+			description: [
+				"挖掘等级：&b钻石&r"
+				""
+				"可在&e部件制作台&r制作"
+				""
+				"&e粘液球&r+&e铜锭&r合成"
+			]
+			icon: "mushroom_daydream:slime_pawn"
+			id: "2ED1F6CC09607774"
+			tasks: [{
+				id: "5A87C4450928AF7C"
+				title: "&a兵卒史莱姆"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3108C4C2E1184A07"]
+			description: [
+				"挖掘等级：&l&8下界合金&r&r"
+				""
+				"需要&e匠魂冶炼炉&r"
+				""
+				"&e活化水晶锭&r+&e下级精华&r合成"
+			]
+			icon: "mysticalagriculture:inferium_ingot"
+			id: "5A69E2EDA0413FEA"
+			tasks: [{
+				id: "1EE91EDB143E395F"
+				title: "&2下级精华"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["406CBE2ADE224679"]
+			description: [
+				"挖掘等级：&l&8下界合金&r&r"
+				""
+				"需要&e匠魂冶炼炉&r"
+				""
+				"&e各种矿物&r+&e矿石树树苗&r+&e活根&r合成&e矿石之核&r"
+				""
+				"熔炼&e矿石之核&r"
+			]
+			icon: "cloudertinker:orescore"
+			id: "52A7E9EE09E4E52B"
+			tasks: [{
+				id: "7409DA7D8A905CE1"
+				title: "&8矿物精粹"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["406CBE2ADE224679"]
+			description: [
+				"挖掘等级：&l&8下界合金&r&r"
+				""
+				"需要&e匠魂冶炼炉&r"
+				""
+				"熔炼&e幻影骑士护甲&r"
+			]
+			icon: "cloudertinker:phantom_ingot"
+			id: "4368CAF589B2032C"
+			tasks: [{
+				id: "5580FD607EA441A1"
+				title: "&2幻影"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["406CBE2ADE224679"]
+			description: [
+				"挖掘等级：&l&8下界合金&r&r"
+				""
+				"需要&e匠魂冶炼炉&r"
+				""
+				"&e活化水晶锭&r+&e精华&r合成"
+			]
+			icon: "mysticalagriculture:tertium_ingot"
+			id: "09FE8C3CC31F6833"
+			tasks: [{
+				id: "4DBC5F10B65C9A82"
+				title: "&a初级&r|&6中级精华"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["406CBE2ADE224679"]
+			description: [
+				"挖掘等级：&l&1戈伯&r&r"
+				""
+				"需要&e匠魂冶炼炉&r"
+				""
+				"熔炼&e戈伯锭&r（由&e戈伯团&r+&e钻石&r+&e铁锭&r+&e金锭&r合成）"
+				""
+				"ps：&4不建议&r使用戈伯系列的部件升级你的工具，会导致&4升级槽清零&r，仅建议制作&e新工具&r用来开采&b下一级别&r的&e戈伯矿&r"
+			]
+			icon: "gobber2:gobber2_ingot"
+			id: "715DE447A5DBDF2F"
+			tasks: [{
+				id: "6C3A10CD8B0ED26E"
+				title: "&1戈伯"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6061038C82BD0CCF"]
+			description: [
+				"挖掘等级：&l&7铁&r&r"
+				""
+				"需要&e匠魂冶炼炉&r"
+			]
+			icon: "projecte:dark_matter"
+			id: "6784B2C0B3F54E2A"
+			tasks: [{
+				id: "5135D5479C4B4409"
+				title: "&8暗物质"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6061038C82BD0CCF"]
+			description: [
+				"挖掘等级：&l&7铁&r&r"
+				""
+				"需要&e匠魂冶炼炉&r"
+			]
+			icon: "projecte:red_matter"
+			id: "47E7D0D16A81FA9B"
+			tasks: [{
+				id: "63EE544A5391F3E2"
+				title: "&4红物质"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6061038C82BD0CCF"]
+			description: [
+				"挖掘等级：&l&8下界合金&r&r"
+				""
+				"需要&e匠魂冶炼炉&r"
+			]
+			icon: "botania:terrasteel_ingot"
+			id: "3FA564338539C708"
+			tasks: [{
+				id: "32A54F81D405CD57"
+				title: "&a泰拉钢"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6061038C82BD0CCF"]
+			description: [
+				"挖掘等级：&l&8下界合金&r&r"
+				""
+				"需要&e匠魂冶炼炉&r"
+			]
+			icon: "sakuratinker:nihilite_ingot"
+			id: "4E012470F79C452B"
+			tasks: [{
+				id: "705D035A40AE4F8D"
+				title: "&5虚金"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6061038C82BD0CCF"]
+			description: [
+				"挖掘等级：&l&8下界合金&r&r"
+				""
+				"需要&e匠魂冶炼炉&r"
+			]
+			icon: "tinkers_advanced:densium_ingot"
+			id: "1770A66982D1E9CC"
+			tasks: [{
+				id: "776C1DFF6C4EEEDE"
+				title: "&5超致密"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6061038C82BD0CCF"]
+			description: [
+				"挖掘等级：&l&8下界合金&r&r"
+				""
+				"需要&e匠魂冶炼炉&r"
+			]
+			icon: "mysticalagriculture:supremium_ingot"
+			id: "1463737F53FA0F0D"
+			tasks: [{
+				id: "51E10EBBC4F3D512"
+				title: "&b高级&r|&c终极精华"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6061038C82BD0CCF"]
+			description: [
+				"挖掘等级：&l&8下界合金&r&r"
+				""
+				"可在&e部件制作台&r制作"
+			]
+			icon: "mushroom_daydream:dark_thing"
+			id: "10BC8F3283086343"
+			tasks: [{
+				id: "69E0A13A86FC8E04"
+				title: "&5暗物质"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6061038C82BD0CCF"]
+			description: [
+				"挖掘等级：&l&8下界合金&r&r"
+				""
+				"需要&e匠魂冶炼炉&r"
+			]
+			icon: "enigmaticlegacy:etherium_ingot"
+			id: "76372664018D2218"
+			tasks: [{
+				id: "4AD31DB169D29A86"
+				title: "&b以太"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6061038C82BD0CCF"]
+			description: [
+				"挖掘等级：&l&8下界合金&r&r"
+				""
+				"需要&e匠魂冶炼炉&r"
+			]
+			icon: "iceandfire:dragonsteel_lightning_ingot"
+			id: "76378E9AA6878D16"
+			tasks: [{
+				id: "659FA18152B8AC22"
+				title: "&c龙炎&r|&b龙霜&r|&5龙霆"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6061038C82BD0CCF"]
+			description: [
+				"挖掘等级：&l&8下界合金&r&r"
+				""
+				"需要&e匠魂冶炼炉&r"
+				""
+				"&6无视挖掘等级"
+			]
+			icon: "mekanism:pellet_antimatter"
+			id: "47ED0B46611FA8BE"
+			tasks: [{
+				id: "37327057E6060446"
+				title: "&5反物质"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6061038C82BD0CCF"]
+			description: [
+				"挖掘等级：&l&8下界合金&r&r"
+				""
+				"需要&e匠魂冶炼炉&r"
+			]
+			icon: "minecraft:netherite_ingot"
+			id: "54DDF9578C420D74"
+			tasks: [{
+				id: "0EF1B70658BF13F6"
+				title: "&8下界合金"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6061038C82BD0CCF"]
+			description: [
+				"挖掘等级：&l&8下界合金&r&r"
+				""
+				"需要&e匠魂冶炼炉&r"
+			]
+			icon: "tinkerscalibration:jazz_ingot"
+			id: "449026EF2DB2AC3C"
+			tasks: [{
+				id: "529E20216488EA34"
+				title: "&1爵士合金"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6061038C82BD0CCF"]
+			description: [
+				"挖掘等级：&l&8下界合金&r&r"
+				""
+				"需要&e匠魂冶炼炉&r"
+			]
+			icon: "sakuratinker:chimera_gamma"
+			id: "6CB6A697725030B8"
+			tasks: [{
+				id: "66329657FF5D9D2A"
+				title: "&5奇美拉-γ"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6061038C82BD0CCF"]
+			description: [
+				"挖掘等级：&l&8下界合金&r&r"
+				""
+				"需要&e匠魂冶炼炉&r"
+				""
+				"使用&e玛玉灵&r材料作为部件的&e匠魂拔刀剑&r，使用&d幻影剑&r命中实体会造成&4毁存档&r"
+				""
+				"解决方式为&4删除&r&esaves/世界名称/entieies&r文件夹内的文件，但是会造成已存在的&4生物全部消失&r"
+				""
+				"所以&4不要&r用&e玛玉灵&r作为材料"
+			]
+			icon: "tconstruct:manyullyn_ingot"
+			id: "017A8679C8B8BF01"
+			tasks: [{
+				id: "5D05FC20717B77EE"
+				title: "&d玛玉灵"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6061038C82BD0CCF"]
+			description: [
+				"挖掘等级：&l&8下界合金&r&r"
+				""
+				"需要&e匠魂冶炼炉&r"
+			]
+			icon: "tinkers_advanced:activated_chromatic_steel"
+			id: "56628598EDAE63F7"
+			tasks: [{
+				id: "504D291BD644D6C3"
+				title: "&d活化彩钢"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6061038C82BD0CCF"]
+			description: [
+				"挖掘等级：&l&8下界合金&r&r"
+				""
+				"需要&e匠魂冶炼炉&r"
+			]
+			icon: "avaritia:neutron_ingot"
+			id: "559E7B8F8DF82014"
+			tasks: [{
+				id: "5843736437F2672E"
+				title: "&l&0中子"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6061038C82BD0CCF"]
+			description: [
+				"挖掘等级：&l&c下界戈伯&r&r"
+				""
+				"需要&e匠魂冶炼炉&r"
+				""
+				"ps：&4不建议&r使用戈伯系列的部件升级你的工具，会导致&4升级槽清零&r，仅建议制作&e新工具&r用来开采&b下一级别&r的&e戈伯矿&r"
+			]
+			icon: "gobber2:gobber2_ingot_nether"
+			id: "0FEA207C82A1B090"
+			tasks: [{
+				id: "2171514AC71475BB"
+				title: "&c下界戈伯"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6061038C82BD0CCF"]
+			description: [
+				"挖掘等级：&l&8下界合金&r&r"
+				""
+				"可在&e部件制作台&r制作"
+			]
+			icon: "cloudertinker:chimera_ingot"
+			id: "17A83D4C258C6B73"
+			tasks: [{
+				id: "471A1786AA63B8AB"
+				title: "&5奇美拉α"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6061038C82BD0CCF"]
+			description: [
+				"挖掘等级：&l&8下界合金&r&r"
+				""
+				"可在&e部件制作台&r制作"
+			]
+			icon: "tinkers_delight:jinhua_ham_ingot"
+			id: "63EA28F5B90994C4"
+			tasks: [{
+				id: "2866AEAADEC1D827"
+				title: "&6金华火腿"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6061038C82BD0CCF"]
+			description: [
+				"挖掘等级：&l&8下界合金&r&r"
+				""
+				"可在&e部件制作台&r制作"
+			]
+			icon: "extrabotany:the_end"
+			id: "522888B2F30ED11A"
+			tasks: [{
+				id: "21E761464A8C2FE1"
+				title: "&3终末物质"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4613D7E1B985B29F"]
+			description: [
+				"熔炼得到的是10级材料的无尽"
+				""
+				"该类型无尽无法通过原版方式获取"
+			]
+			icon: "avaritia:infinity_ingot"
+			id: "2E05294B931CB45B"
+			rewards: [{
+				auto: "enabled"
+				id: "5DD784073B2EF494"
+				item: {
+					Count: 1
+					id: "tconstruct:seared_fuel_tank"
+					tag: {
+						tank: {
+							Amount: 4000
+							FluidName: "ticex:molten_infinity"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&e六级材料"
+			tasks: [
+				{
+					consume_items: true
+					id: "749BFCAB2C7A6A58"
+					item: "tconstruct:seared_fuel_tank"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "4AF65D2F308411A7"
+					item: { Count: 5, id: "avaritia:infinity" }
+					type: "item"
+				}
+			]
+			title: "&a无&b尽&c之&d锭"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4613D7E1B985B29F"]
+			icon: "cloudertinker:magala_ingot"
+			id: "0DCADDEE71545187"
+			subtitle: "&5五级材料"
+			tasks: [{
+				id: "0CE7E6F7E3EBDE5F"
+				title: "&5黑蚀"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4613D7E1B985B29F"]
+			icon: "avaritia:crystal_matrix_ingot"
+			id: "447E5DD8C6C1BB83"
+			subtitle: "&5五级材料"
+			tasks: [{
+				id: "6FBA14BBC2B77965"
+				title: "&b水&3晶&f矩&b阵"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4613D7E1B985B29F"]
+			icon: "sakuratinker:delusion"
+			id: "0520070FDB455E6A"
+			subtitle: "&5五级材料"
+			tasks: [{
+				id: "41D9013E458E5E23"
+				title: "&6虚妄"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4613D7E1B985B29F"]
+			icon: "sakuratinker:gluttonous"
+			id: "7FF4855C1454F77E"
+			subtitle: "&5五级材料"
+			tasks: [{
+				id: "0841ED90B733A02B"
+				title: "&6饕餮"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4613D7E1B985B29F"]
+			icon: "enigmaticlegacy:evil_ingot"
+			id: "46754958A171539C"
+			subtitle: "&5五级材料"
+			tasks: [{
+				id: "41A459003223AA1F"
+				title: "&5极恶"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4613D7E1B985B29F"]
+			icon: "ticex:etheric_ingot"
+			id: "4E680D9C606E615E"
+			subtitle: "&e六级材料"
+			tasks: [{
+				id: "2D4512DA20AE1181"
+				title: "&a以太"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4613D7E1B985B29F"]
+			icon: "mushroom_daydream:pure_horror"
+			id: "7BBC11242E3F64AB"
+			subtitle: "&e六级材料"
+			tasks: [{
+				id: "34E1BC5B09B0744C"
+				title: "&4纯粹恐惧"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4613D7E1B985B29F"]
+			icon: "sakuratinker:colorful_ingot"
+			id: "356BEE759D377920"
+			subtitle: "&6七级材料"
+			tasks: [{
+				id: "5C4E5A04B27F00E9"
+				title: "&a炫&b彩"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4613D7E1B985B29F"]
+			icon: "sakuratinker:goozma"
+			id: "7E6B02C7E01C1E9E"
+			subtitle: "&6七级材料"
+			tasks: [{
+				id: "2CB516520AC1EEAB"
+				title: "&5古泽玛"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4613D7E1B985B29F"]
+			icon: "mushroom_daydream:dragon_gobber"
+			id: "6E79FD72D53B075A"
+			subtitle: "&4八级材料"
+			tasks: [{
+				id: "3262A5324835C6FA"
+				title: "&1龙&9之&d戈&5伯"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4613D7E1B985B29F"]
+			icon: "avaritia:infinity_ingot"
+			id: "3DCAAB47D2989A5F"
+			subtitle: "&1十&2级&3材&4料"
+			tasks: [{
+				id: "4B0B86C3C452F7B6"
+				title: "&a无&b尽&c之&d锭"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"战斗女仆套装源自mod【额外植物学】"
+				""
+				"但你可以用制作匠魂式的战斗女仆套装"
+				""
+				"值得注意的是，该匠魂护甲种类仅拥有&e镶板&r和&e女仆核心&r两个部件，而女仆核心只有七种材料"
+			]
+			id: "33EC6FE943741BD4"
+			tasks: [{
+				id: "12A14AA5CC441F4D"
+				type: "checkmark"
+			}]
+			title: "&6关于战斗女仆装备"
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["33EC6FE943741BD4"]
+			description: ["最基础的核心，各方面的属性都很弱，不过拥有两点&e再生速度&r"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "marveloustinker:maid_core"
+				tag: {
+					Material: "tconstruct:wood"
+				}
+			}
+			id: "483F3B1E6C31CA59"
+			tasks: [{
+				id: "6C5F496A87B27CD2"
+				title: "&6木"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["33EC6FE943741BD4"]
+			description: [
+				"伤害减免和生命提升比木质稍高一些，且拥有1点&e护甲韧性&r"
+				""
+				"但没有再生速度"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "marveloustinker:maid_core"
+				tag: {
+					Material: "tconstruct:bone"
+				}
+			}
+			id: "2F0C8B7520846741"
+			tasks: [{
+				id: "06ECDB236C8A7B3B"
+				title: "&f骨"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["33EC6FE943741BD4"]
+			description: ["在深层防护效果更好，但高层会更弱"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "marveloustinker:maid_core"
+				tag: {
+					Material: "tconstruct:copper"
+				}
+			}
+			id: "59F773CD77CEB00D"
+			tasks: [{
+				id: "04781CA2835FB072"
+				title: "&6铜"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["33EC6FE943741BD4"]
+			description: ["属性中规中矩，拥有弹射物保护效果"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "marveloustinker:maid_core"
+				tag: {
+					Material: "tconstruct:iron"
+				}
+			}
+			id: "1EB16043E6A52891"
+			tasks: [{
+				id: "2822BF4289D7F92C"
+				title: "&f铁"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["33EC6FE943741BD4"]
+			description: ["把&e熔融黑曜石&r浇筑到&e木质部件&r上制作"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "marveloustinker:maid_core"
+				tag: {
+					Material: "tconstruct:nahuatl"
+				}
+			}
+			id: "2924BDEFC35BE76E"
+			tasks: [{
+				id: "6C3F728BDB7CFF27"
+				title: "&5纳瓦特尔"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["33EC6FE943741BD4"]
+			description: ["属性较高，且拥有1点再生速度"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "marveloustinker:maid_core"
+				tag: {
+					Material: "tconstruct:cobalt"
+				}
+			}
+			id: "5C483685E1BABC61"
+			tasks: [{
+				id: "555B2555B325EE21"
+				title: "&1钴"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["33EC6FE943741BD4"]
+			description: ["最强的核心，很高的属性外加2点再生速度"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "marveloustinker:maid_core"
+				tag: {
+					Material: "tconstruct:manyullyn"
+				}
+			}
+			id: "1B1E50240AA65C22"
+			tasks: [{
+				id: "2FCD92BAEAF49DFA"
+				title: "&d玛玉灵"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0520070FDB455E6A"
+				"7FF4855C1454F77E"
+				"4368CAF589B2032C"
+				"1770A66982D1E9CC"
+				"52A7E9EE09E4E52B"
+				"356BEE759D377920"
+				"2ED1F6CC09607774"
+				"47ED0B46611FA8BE"
+				"7BBC11242E3F64AB"
+				"522888B2F30ED11A"
+				"3940B6ED71192DA4"
+				"5C483685E1BABC61"
+				"6784B2C0B3F54E2A"
+				"17A83D4C258C6B73"
+				"56628598EDAE63F7"
+				"3FA564338539C708"
+				"0FEA207C82A1B090"
+				"47E7D0D16A81FA9B"
+				"7E6B02C7E01C1E9E"
+				"5A69E2EDA0413FEA"
+				"017A8679C8B8BF01"
+				"2F0C8B7520846741"
+				"76378E9AA6878D16"
+				"54DDF9578C420D74"
+				"1B1E50240AA65C22"
+				"46754958A171539C"
+				"4E680D9C606E615E"
+				"10BC8F3283086343"
+				"1EB16043E6A52891"
+				"76372664018D2218"
+				"4E012470F79C452B"
+				"483F3B1E6C31CA59"
+				"6CB6A697725030B8"
+				"3DCAAB47D2989A5F"
+				"63EA28F5B90994C4"
+				"6DF0E378AFC0B791"
+				"3ACE3C31A678CFDA"
+				"5B8A6DDC4D845231"
+				"447E5DD8C6C1BB83"
+				"6E79FD72D53B075A"
+				"1463737F53FA0F0D"
+				"09FE8C3CC31F6833"
+				"715DE447A5DBDF2F"
+				"449026EF2DB2AC3C"
+				"0DCADDEE71545187"
+				"17CC9935A63786B9"
+				"59F773CD77CEB00D"
+				"559E7B8F8DF82014"
+				"2924BDEFC35BE76E"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "26D0A83891AD4305"
+			rewards: [{
+				id: "195C9476AA15F3FA"
+				item: {
+					Count: 1
+					id: "marveloustinker:maid_core"
+					tag: {
+						Material: "tconstruct:manyullyn"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BBC35C4936A5650"
+				title: "&5给有耐心的人的奖励"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["22287760172917CB"]
+			description: ["应该全在这了"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "711534265C3F1ACB"
+			tasks: [{
+				id: "3984A67873404045"
+				title: "铸模"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "50EE0BF0F8E2EDB1"
+			tasks: [{
+				id: "025BDCC7A0EAED7B"
+				item: "ticex:slashblade_saya_cast"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "2F0B4DC248690C9C"
+			tasks: [{
+				id: "004F0F980027783A"
+				item: "ticex:slashblade_blade_cast"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "35B2D53A175BC7D3"
+			tasks: [{
+				id: "62175708AE23CB8A"
+				item: "tconstruct:gear_cast"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "0431D0EF4387EB13"
+			tasks: [{
+				id: "3D845F0572B4D4CD"
+				item: "tconstruct:boots_plating_cast"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "40E5817C501389E9"
+			tasks: [{
+				id: "52CFE1541F081F99"
+				item: "tconstruct:pick_head_cast"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "5D3F6DEEB6BA717C"
+			tasks: [{
+				id: "5DDFDA6DDA885C7A"
+				item: "tconstruct:ingot_cast"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "5F28614F8E48B0CA"
+			tasks: [{
+				id: "6F10EA7C7CECCC26"
+				item: "tinkers_thinking:narrow_blade_cast"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "18DF2760C6F5144E"
+			tasks: [{
+				id: "2D14A0C21DE45D85"
+				item: "tinkerscalibration:bent_blade_cast"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "60463B016DAB904F"
+			tasks: [{
+				id: "4575AE349AB0A0EC"
+				item: "tinkersjewelry:plain_ring_cast"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "6F523E435AE88551"
+			tasks: [{
+				id: "1E8F29506561FC75"
+				item: "tconstruct:small_axe_head_cast"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "69F0BA9FB2AC0466"
+			tasks: [{
+				id: "33EB2710EF7213D2"
+				item: "tconstruct:small_blade_cast"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "385A5D25B9585811"
+			tasks: [{
+				id: "08F1DEB5ADAD000E"
+				item: "tconstruct:broad_blade_cast"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "5635DF1815B066B6"
+			tasks: [{
+				id: "48980DC06C9A6BA7"
+				item: "tconstruct:gem_cast"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "33572169F438D509"
+			tasks: [{
+				id: "5C0742A84D85A393"
+				item: "tconstruct:helmet_plating_cast"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "0C45C43B16D3E141"
+			tasks: [{
+				id: "61B74BE44081929A"
+				item: "tconstruct:large_plate_cast"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "5CF4BB858ABC05D9"
+			tasks: [{
+				id: "5DBDC49841DF4354"
+				item: "tconstruct:tough_handle_cast"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "6EBB29455DF18B15"
+			tasks: [{
+				id: "6D7002640A8ADB85"
+				item: "tconstruct:tough_binding_cast"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "32510D0B6C07F7E3"
+			tasks: [{
+				id: "5F793D31F086F22B"
+				item: "tconstruct:repair_kit_cast"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "318B890E5E3D2C05"
+			tasks: [{
+				id: "072DEDFC19CD8CD3"
+				item: "tconstruct:bow_grip_cast"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "0D2493203E47D1EC"
+			tasks: [{
+				id: "6D37A6212E08C0FF"
+				item: "tconstruct:bow_limb_cast"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "18B56C1A9BD357C9"
+			tasks: [{
+				id: "008887CE34B6A753"
+				item: "tconstruct:leggings_plating_cast"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "3CA5E5E353C459C1"
+			tasks: [{
+				id: "2C0BF843E8CF2A48"
+				item: "tconstruct:rod_cast"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "20505CD5FC404F45"
+			tasks: [{
+				id: "6FA59737A7E82D45"
+				item: "tconstruct:broad_axe_head_cast"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "2CBE749551B36712"
+			tasks: [{
+				id: "7AA18E3DF9DDB480"
+				item: "tconstruct:nugget_cast"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "4724D7A7DED19D6F"
+			tasks: [{
+				id: "110DD1A70318C50A"
+				item: "tconstruct:wire_cast"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "7D89E861994F7C80"
+			tasks: [{
+				id: "50372909B567D94C"
+				item: "tconstruct:tool_binding_cast"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "527F1488301A5824"
+			tasks: [{
+				id: "367506F7B27062A3"
+				item: "tconstruct:chestplate_plating_cast"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "31497046CFCA745E"
+			tasks: [{
+				id: "54941B381D10B1FC"
+				item: "tconstruct:maille_cast"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "4C23501425BF9538"
+			tasks: [{
+				id: "53564E9D3DDCC593"
+				item: "tconstruct:adze_head_cast"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "5E0CF2FE91573D4D"
+			tasks: [{
+				id: "0BBBCFE20FBBF505"
+				item: "tinkers_things:shield_plating_gold_cast"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "002A1EA9A4EEDBBE"
+			tasks: [{
+				id: "6C763B45843E4B4E"
+				item: "tconstruct:hammer_head_cast"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "09C158293249E93B"
+			tasks: [{
+				id: "748B10F7A9935C61"
+				item: "tinkers_things:large_repair_kit_gold_cast"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "7C0FE5B0E455E03E"
+			tasks: [{
+				id: "3546668BC07A7671"
+				item: "tinkers_jewelry_ex:chain_cast"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "4A9F7B048CE9B493"
+			tasks: [{
+				id: "75BE41ABB3FF0C97"
+				item: "tinkers_jewelry_ex:curved_plate_cast"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "11E577857EC89DD8"
+			tasks: [{
+				id: "4FD367549DF2293C"
+				item: "tinkers_jewelry_ex:lining_cast"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "7659998AEFBB7EEA"
+			tasks: [{
+				id: "40FD5809E856D371"
+				item: "sakuratinker:energy_unit_cast"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "48E28B0CC95CB400"
+			tasks: [{
+				id: "18AAF01256475AFA"
+				item: "sakuratinker:axle_cast"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "12629EC27FF5046B"
+			tasks: [{
+				id: "76FA9DA079AA25B9"
+				item: "sakuratinker:swift_blade_cast"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "71C09D5270E8F05B"
+			tasks: [{
+				id: "0092C6F183826850"
+				item: "sakuratinker:swift_guard_cast"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "723EA0C757A9DA34"
+			tasks: [{
+				id: "5FBB748533F7F888"
+				item: "sakuratinker:range_core_cast"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "6F667847C7C16B81"
+			tasks: [{
+				id: "2C7DF7028C4C3DA0"
+				item: "sakuratinker:scythe_blade_cast"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "7D0F687CC0357E3C"
+			tasks: [{
+				id: "0A191BDD3A31065F"
+				item: "tconstruct:coin_cast"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "6DAECE3FEFD9EB63"
+			tasks: [{
+				id: "5F92B8A5D1190E91"
+				item: "tconstruct:tool_handle_cast"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "031D0139C4F0AFBC"
+			tasks: [{
+				id: "733F06956EE41C3F"
+				item: "tconstruct:plate_cast"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "375EE01B4264B7B1"
+			tasks: [{
+				id: "307C18DD1F0B36CE"
+				item: "sakuratinker:barrel_cast"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "5E3C410ED04AA33B"
+			tasks: [{
+				id: "038D74679D9F6DA3"
+				item: "sakuratinker:flag_cast"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "5D064AED6AB6ED76"
+			tasks: [{
+				id: "10072FC7F0C3D728"
+				item: "sakuratinker:yoyo_ring_cast"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "607E8B9192FA234C"
+			tasks: [{
+				id: "4ABBC0BD04DA76B3"
+				item: "sakuratinker:charm_core_cast"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "350239E9625CE666"
+			tasks: [{
+				id: "492CF2A881BD3D65"
+				item: "sakuratinker:charm_chain_cast"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "145CF4EA641BC549"
+			tasks: [{
+				id: "5C39429EBB208EA6"
+				item: "sakuratinker:phantom_core_cast"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "3FE8B87F3C809780"
+			tasks: [{
+				id: "04358A4F14AD3E82"
+				item: "sakuratinker:book_cover_cast"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "6DF0453767B55305"
+			tasks: [{
+				id: "372B9D8403BDCC0B"
+				item: "sakuratinker:great_blade_cast"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "28782315592DB2CD"
+			tasks: [{
+				id: "7B69B61180F076B4"
+				item: "sakuratinker:shell_cast"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "53C165F431EAC8A7"
+			tasks: [{
+				id: "26CA488DFD3B6A28"
+				item: "sakuratinker:blade_cast"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "02DA077F96006F6D"
+			tasks: [{
+				id: "3D5468C6B9686407"
+				item: "marveloustinker:maid_core_cast"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "2F0A25C01110D091"
+			tasks: [{
+				id: "4BE71221778C6F5E"
+				item: "cloudertinker:giant_blade_cast"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "0D5028B1E615C79E"
+			tasks: [{
+				id: "426668DB9F91B127"
+				item: "sakuratinker:spell_cloth_cast"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "78CBC4389C5430A3"
+			tasks: [{
+				id: "4A9E66FBB0C6E087"
+				item: "sakuratinker:laser_medium_cast"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "33042A2C6F8F071C"
+			tasks: [{
+				id: "07D99C50A432B8A2"
+				item: "sakuratinker:yoyo_body_cast"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "1A3F74CECC640C59"
+			tasks: [{
+				id: "1DEBCCE12E1646DB"
+				item: "sakuratinker:arrow_head_cast"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "34D48892B44D8986"
+			tasks: [{
+				id: "47FAE4A7B5C799DA"
+				item: "sakuratinker:arrow_shaft_cast"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "4233E32A6198E2B9"
+			tasks: [{
+				id: "496614F163C32AA1"
+				item: "sakuratinker:chord_cast"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			description: [
+				"沙漠神殿宝箱"
+				""
+				"&d远古铸模兑换&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"796C2BB2C56C169A\" } }"
+			]
+			id: "206AB186532B6387"
+			tasks: [{
+				id: "32C1CDD23D4EC936"
+				item: "tinkersancient:melting_pan_handle_cast_fragment_2"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			description: [
+				"沙漠神殿宝箱"
+				""
+				"&d远古铸模兑换&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"796C2BB2C56C169A\" } }"
+			]
+			id: "57D2D3F9F9F71E6F"
+			tasks: [{
+				id: "35DEBDC1945A5666"
+				item: "tinkersancient:melting_pan_handle_cast_fragment_1"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			description: [
+				"&d远古铸模兑换&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"796C2BB2C56C169A\" } }"
+			]
+			id: "7C2F17916404A523"
+			tasks: [{
+				id: "2D119DED7BBCB179"
+				item: "tinkersancient:incomplete_melting_pan_handle_cast"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			description: [
+				"&d远古铸模兑换&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"796C2BB2C56C169A\" } }"
+			]
+			id: "5E93FB057671E58E"
+			tasks: [{
+				id: "70FAB9B05A93490C"
+				item: "tinkersancient:melting_pan_handle_cast"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			description: [
+				"使用&e刷子&r刷&9暖水海洋群系&r遗迹的&e可疑沙子/沙砾&r获得"
+				""
+				"&d远古铸模兑换&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"796C2BB2C56C169A\" } }"
+			]
+			id: "779A5A3234350D7F"
+			tasks: [{
+				id: "2D9B4527932EE17A"
+				item: "tinkersancient:swasher_head_cast"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			description: [
+				"听说曾经有人出海寻找过熔炼锅底的铸模"
+				""
+				"&d远古铸模兑换&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"796C2BB2C56C169A\" } }"
+			]
+			id: "7F6DF5B5E38A9AB5"
+			tasks: [{
+				id: "6148DF8B006E2EBB"
+				item: "tinkersancient:melting_pan_head_cast"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			description: [
+				"使用金块与猪灵蛮兵交易获得"
+				""
+				"&d远古铸模兑换&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"796C2BB2C56C169A\" } }"
+			]
+			id: "6820161E7A4119A9"
+			tasks: [{
+				id: "080714E176B8F96E"
+				item: "tinkersancient:battlesign_head_cast"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			description: [
+				"使用金块与猪灵蛮兵交易获得"
+				""
+				"&d远古铸模兑换&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"796C2BB2C56C169A\" } }"
+			]
+			id: "65E73FE5E0ED9AC1"
+			tasks: [{
+				id: "1C12407C8682F758"
+				item: "tinkersancient:battlesign_handle_cast"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			description: [
+				"林地府邸"
+				""
+				"&d远古铸模兑换&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"796C2BB2C56C169A\" } }"
+			]
+			id: "0D568F79270B7A09"
+			tasks: [{
+				id: "2F728554A64C5C7E"
+				item: "tinkersancient:war_pick_limb_cast"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			description: [
+				"林地府邸"
+				""
+				"&d远古铸模兑换&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"796C2BB2C56C169A\" } }"
+			]
+			id: "50B04D905B7FE47D"
+			tasks: [{
+				id: "24136CC32DA90554"
+				item: "tinkersancient:war_pick_handle_cast"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 16.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["711534265C3F1ACB"]
+			icon: "tinkersancient:melting_pan_head_cast"
+			id: "796C2BB2C56C169A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B4BDD7068EB4516"
+				table_id: 4206468646227566093L
+				team_reward: true
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "7CB4B01D69D543F4"
+				item: { Count: 5, id: "thermal:netherite_coin" }
+				type: "item"
+			}]
+			title: "远古工具铸模兑换"
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "7DC65CAE63AB4CC5"
+			tasks: [{
+				id: "519417109004C210"
+				item: "tinkersinnovation:heavy_shield_plate_cast"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "3EF26FE848511996"
+			tasks: [{
+				id: "7D4F060FE3C48990"
+				item: "tinkersinnovation:light_shield_plate_cast"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 11.5d
+		}
+		{
+			description: [
+				"在&e部件制作台&r制作"
+				""
+				"&1拥有极高数值及其下位材料的词条&r"
+			]
+			id: "6EB6E0142B3C73AA"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&4挑战材料！"
+			tasks: [{
+				id: "48BF435B3E613E0A"
+				item: "wqjy:the_end"
+				type: "item"
+			}]
+			x: -2.974489795918359d
+			y: 0.27551020408163396d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "7653B224F2DCF9E0"
+			tasks: [{
+				id: "568DA644F51BF657"
+				item: "tinkers_ingenuity:medal_ribbons_cast"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "06DE8810E37EDF0B"
+			tasks: [{
+				id: "3479973C7CDB6608"
+				item: "tinkers_ingenuity:blowpipe_tube_cast"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "5769AC90EEECA171"
+			tasks: [{
+				id: "75ABF01304F760A0"
+				item: "tinkers_ingenuity:blowpipe_mouth_cast"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "049E9223B81BB8F5"
+			tasks: [{
+				id: "2B85A61A5CCCDC7D"
+				item: "tinkers_ingenuity:medal_body_cast"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "232943BE6EC13E7B"
+			tasks: [{
+				id: "765283759FB379C7"
+				item: "tgears:whisk_cast"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "5B90BB203D9A4D0E"
+			tasks: [{
+				id: "56C313067B19BDA9"
+				item: "tgears:propeller_cast"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "3E59B227564A2061"
+			tasks: [{
+				id: "695136CDD12A0B8D"
+				item: "tgears:hand_cast"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "5C51F8953FE0C10C"
+			tasks: [{
+				id: "3EB0E0B502685EA0"
+				item: "dreamtinker:chain_saw_core_cast"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["711534265C3F1ACB"]
+			id: "39466F440E1FE834"
+			tasks: [{
+				id: "4A5D942904750EB5"
+				item: "dreamtinker:chain_saw_teeth_cast"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 10.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			icon: "minecraft:observer"
+			id: "4B0A304EB6CE8171"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "600D2BFB5E27C607"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "16FFC69D6BF28C24"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+	]
+	title: "·&d材料推荐与铸模"
+}

@@ -1,0 +1,89 @@
+{
+	hide_tooltip: true
+	icon: {
+		Count: 1
+		id: "baublesreforked:modifier_book"
+		tag: {
+			baublesreforked.ModifierId: "reality"
+		}
+	}
+	id: "40539105DCE8DD49"
+	loot_crate: {
+		color: 16777045
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "传说修饰词"
+		string_id: "5"
+	}
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "reality"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "always"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "soul"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "causality"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "thought"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "have_or_not"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "timeandspace"
+				}
+			}
+		}
+	]
+	title: "传说词条"
+}

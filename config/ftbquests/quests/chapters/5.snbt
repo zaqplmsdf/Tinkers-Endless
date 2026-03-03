@@ -1,0 +1,665 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5"
+	group: "3172704A8AED52C1"
+	icon: { Count: 64, id: "mekanism:pellet_antimatter" }
+	id: "77E3970D0D7A666A"
+	images: [
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			height: 10.0d
+			image: "mekanism:item/pellet_antimatter"
+			rotation: 0.0d
+			width: 10.0d
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 22.5d
+			width: 1.0d
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: -22.5d
+			width: 1.0d
+			x: 2.0d
+			y: -0.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["67ED8DA40BED632A"]
+			id: "36262EBA59595E0E"
+			size: 1.0d
+			tasks: [{
+				id: "16F485286C2EA73B"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["50B3448ED00EFC8E"]
+			description: [
+				"结晶"
+				""
+				"(&e核废料的创造储罐&r会回收的，别买进转化桌或者改其他化学品了，除非你不想开启下一阶段了)"
+			]
+			id: "67ED8DA40BED632A"
+			rewards: [{
+				id: "76A416937F83AD9C"
+				item: "wqjy:hefl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AFA35AC6F001CAE"
+				item: "mekanism:chemical_crystallizer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"544B1612A34E0BA5"
+				"40B8A1B5ABDF40E8"
+			]
+			description: ["制备反物质"]
+			id: "50B3448ED00EFC8E"
+			rewards: [
+				{
+					id: "2978A8E236036024"
+					item: {
+						Count: 1
+						id: "create:clipboard"
+						tag: {
+							Pages: [{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "mekanism:supercharged_coil"
+										}
+										ItemAmount: 1
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"mekanism:supercharged_coil\"}},\"translate\":\"block.mekanism.supercharged_coil\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "mekanismgenerators:reactor_glass"
+										}
+										ItemAmount: 123
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"mekanismgenerators:reactor_glass\"}},\"translate\":\"block.mekanismgenerators.reactor_glass\"},{\"color\":\"black\",\"text\":\"\\n x123\"},{\"color\":\"gray\",\"text\":\" | 1▤ +59\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "mekanism:sps_casing"
+										}
+										ItemAmount: 60
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"mekanism:sps_casing\"}},\"translate\":\"block.mekanism.sps_casing\"},{\"color\":\"black\",\"text\":\"\\n x60\"},{\"color\":\"gray\",\"text\":\" | 0▤ +60\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "mekanism:sps_port"
+										}
+										ItemAmount: 3
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"mekanism:sps_port\"}},\"translate\":\"block.mekanism.sps_port\"},{\"color\":\"black\",\"text\":\"\\n x3\"},{\"color\":\"gray\",\"text\":\" | 0▤ +3\"}],\"text\":\"\"}"
+									}
+								]
+							}]
+							PreviouslyOpenedPage: 0
+							Readonly: 1b
+							Type: 1
+							display: {
+								Name: "{\"italic\":false,\"translate\":\"create.materialChecklist\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3399BD48908D11C2"
+					item: {
+						Count: 1
+						id: "create:schematic"
+						tag: {
+							Anchor: {
+								X: 0
+								Y: 0
+								Z: 0
+							}
+							Bounds: [
+								7
+								7
+								7
+							]
+							Deployed: 0b
+							File: "超临界移相器.nbt"
+							Mirror: "NONE"
+							Owner: "The_X_One"
+							Rotation: "NONE"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "3703FA6E549D35ED"
+					item: { Count: 3, id: "mekanism:sps_port" }
+					type: "item"
+				}
+				{
+					id: "5A2AFD7E83C56F6A"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+				{
+					count: 60L
+					id: "40DE5488F570303F"
+					item: { Count: 60, id: "mekanism:sps_casing" }
+					type: "item"
+				}
+				{
+					count: 123L
+					id: "1521DAFF794A4A2C"
+					item: { Count: 123, id: "mekanismgenerators:reactor_glass" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7AA398499AFECC5B"]
+			description: ["制备钋，钚"]
+			id: "544B1612A34E0BA5"
+			tasks: [
+				{
+					id: "5A9E85DAD6C496D7"
+					item: "mekanism:solar_neutron_activator"
+					type: "item"
+				}
+				{
+					id: "0522D02016827EBE"
+					item: "mekanism:isotopic_centrifuge"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["341640D349486818"]
+			description: ["制备核废料"]
+			id: "394719B5EE9A57DF"
+			rewards: [
+				{
+					id: "5FA21C1210C2EDD6"
+					item: {
+						Count: 1
+						id: "create:schematic"
+						tag: {
+							Anchor: {
+								X: 0
+								Y: 0
+								Z: 0
+							}
+							Bounds: [
+								5
+								7
+								5
+							]
+							Deployed: 0b
+							File: "核裂变反应堆.nbt"
+							Mirror: "NONE"
+							Owner: "The_X_One"
+							Rotation: "NONE"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "630C36305C236465"
+					item: {
+						Count: 1
+						id: "create:clipboard"
+						tag: {
+							Pages: [{
+								Entries: [
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "mekanismgenerators:reactor_glass"
+										}
+										ItemAmount: 65
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"mekanismgenerators:reactor_glass\"}},\"translate\":\"block.mekanismgenerators.reactor_glass\"},{\"color\":\"black\",\"text\":\"\\n x65\"},{\"color\":\"gray\",\"text\":\" | 1▤ +1\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "mekanismgenerators:control_rod_assembly"
+										}
+										ItemAmount: 5
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"mekanismgenerators:control_rod_assembly\"}},\"translate\":\"block.mekanismgenerators.control_rod_assembly\"},{\"color\":\"black\",\"text\":\"\\n x5\"},{\"color\":\"gray\",\"text\":\" | 0▤ +5\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "mekanismgenerators:fission_reactor_casing"
+										}
+										ItemAmount: 61
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"mekanismgenerators:fission_reactor_casing\"}},\"translate\":\"block.mekanismgenerators.fission_reactor_casing\"},{\"color\":\"black\",\"text\":\"\\n x61\"},{\"color\":\"gray\",\"text\":\" | 0▤ +61\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "mekanismgenerators:fission_reactor_port"
+										}
+										ItemAmount: 4
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"mekanismgenerators:fission_reactor_port\"}},\"translate\":\"block.mekanismgenerators.fission_reactor_port\"},{\"color\":\"black\",\"text\":\"\\n x4\"},{\"color\":\"gray\",\"text\":\" | 0▤ +4\"}],\"text\":\"\"}"
+									}
+									{
+										Checked: 0b
+										Icon: {
+											Count: 1b
+											id: "mekanismgenerators:fission_fuel_assembly"
+										}
+										ItemAmount: 20
+										Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"mekanismgenerators:fission_fuel_assembly\"}},\"translate\":\"block.mekanismgenerators.fission_fuel_assembly\"},{\"color\":\"black\",\"text\":\"\\n x20\"},{\"color\":\"gray\",\"text\":\" | 0▤ +20\"}],\"text\":\"\"}"
+									}
+								]
+							}]
+							PreviouslyOpenedPage: 0
+							Readonly: 1b
+							Type: 1
+							display: {
+								Name: "{\"italic\":false,\"translate\":\"create.materialChecklist\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "boom！！！"
+			tasks: [
+				{
+					count: 65L
+					id: "615900A1E55FBBB0"
+					item: { Count: 65, id: "mekanismgenerators:reactor_glass" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "438192521B58D501"
+					item: { Count: 5, id: "mekanismgenerators:control_rod_assembly" }
+					type: "item"
+				}
+				{
+					count: 61L
+					id: "75C94988773351A4"
+					item: { Count: 61, id: "mekanismgenerators:fission_reactor_casing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "18FD1E9045AC6F7C"
+					item: { Count: 4, id: "mekanismgenerators:fission_reactor_port" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "552FD48B6CC7CBF3"
+					item: { Count: 20, id: "mekanismgenerators:fission_fuel_assembly" }
+					type: "item"
+				}
+			]
+			title: "核裂变反应堆"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"394719B5EE9A57DF"
+				"36664DDB39B68BA4"
+			]
+			dependency_requirement: "one_completed"
+			description: ["需要放射性废料桶接取放射性材料"]
+			id: "7AA398499AFECC5B"
+			tasks: [{
+				id: "7E68009EF231BF9D"
+				item: {
+					Count: 1
+					id: "mekanism:radioactive_waste_barrel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1D70DBB5472CBA5B"]
+			description: ["制备裂变燃料"]
+			id: "341640D349486818"
+			tasks: [{
+				id: "5BAF3C63B438CF81"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"49E192BC5A8D08D7"
+				"423511BF500408E4"
+			]
+			description: ["制备六氟化铀"]
+			id: "1D70DBB5472CBA5B"
+			tasks: [{
+				id: "5BBAE2BD57D8C5EF"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6999328932B3053D"]
+			description: ["制备氢氟酸"]
+			id: "49E192BC5A8D08D7"
+			tasks: [{
+				id: "67F0B183FB490C71"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6811EB58DB1152B7"
+				"37D8C2B001EC6592"
+			]
+			description: ["制备硫酸"]
+			id: "6999328932B3053D"
+			tasks: [{
+				id: "2697BB8EC7DCA6AB"
+				item: {
+					Count: 1
+					id: "mekanism:chemical_infuser"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			description: ["制备水蒸气"]
+			id: "6811EB58DB1152B7"
+			tasks: [{
+				id: "28B2848A16A5A5E3"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2B66F71D2D42A17E"
+				"76CCDFA58A5C4BEB"
+			]
+			description: ["制备三氧化硫"]
+			id: "37D8C2B001EC6592"
+			tasks: [{
+				id: "2801F8A3A0C3EDC9"
+				item: {
+					Count: 1
+					id: "mekanism:chemical_infuser"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			description: ["制备二氧化硫"]
+			id: "2B66F71D2D42A17E"
+			tasks: [{
+				id: "729F190838B13861"
+				item: {
+					Count: 1
+					id: "mekanism:chemical_oxidizer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			description: ["制备氧气"]
+			id: "76CCDFA58A5C4BEB"
+			tasks: [{
+				id: "1757A41F05E174AA"
+				item: {
+					Count: 1
+					id: "mekanism:electrolytic_separator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0178FD5F848165A6"]
+			description: ["制备氧化铀"]
+			id: "423511BF500408E4"
+			tasks: [{
+				id: "692FD1510A7DF803"
+				item: {
+					Count: 1
+					id: "mekanism:chemical_oxidizer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			description: ["制备铀黄饼"]
+			id: "0178FD5F848165A6"
+			tasks: [{
+				id: "02610CFBBF8C03A5"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["544B1612A34E0BA5"]
+			id: "40B8A1B5ABDF40E8"
+			tasks: [
+				{
+					id: "37794ECF841C2803"
+					item: "mekanism:pellet_plutonium"
+					type: "item"
+				}
+				{
+					id: "4EF2B56D90AE7E8D"
+					item: "mekanism:pellet_polonium"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["40B8A1B5ABDF40E8"]
+			hide_until_deps_complete: true
+			icon: "mekanism:pellet_polonium"
+			id: "2835D837D59C9C59"
+			rewards: [{
+				auto: "enabled"
+				id: "09463B4290B100E8"
+				table_id: 6926866559260598424L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "474FA130BF35BC78"
+					item: "kubejs:cat"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "68DA028033EA2861"
+					item: "tinkers_advanced:irradium_ingot"
+					type: "item"
+				}
+			]
+			title: "钋靶丸"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["40B8A1B5ABDF40E8"]
+			hide_until_deps_complete: true
+			icon: "mekanism:pellet_plutonium"
+			id: "1AEF27A5D989020F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CF03CCE7D133DD7"
+				table_id: 7622883243112234381L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "3A22294FC777ABDB"
+					item: "kubejs:cat"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1CAF58DC4F17CAE6"
+					item: "tinkers_advanced:protocite_pellet"
+					type: "item"
+				}
+			]
+			title: "钚靶丸"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["341640D349486818"]
+			description: ["现在可以不做裂变反应堆"]
+			id: "36664DDB39B68BA4"
+			tasks: [{
+				id: "6A8BD36616484F42"
+				item: "wqjy:hefl"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7AA398499AFECC5B"]
+			description: ["要用裂变打败裂变？"]
+			id: "2BA26F35621850F5"
+			rewards: [
+				{
+					command: "/mek radiation removeAll"
+					elevate_perms: true
+					id: "2B8B6ABEF5B0BCC0"
+					title: "清除环境辐射"
+					type: "command"
+				}
+				{
+					command: "/mek radiation heal @e"
+					elevate_perms: true
+					id: "3F2A070E1CB64B88"
+					title: "治疗生物辐射"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "158116E6616F6D57"
+				item: "wqjy:hefl"
+				type: "item"
+			}]
+			title: "&d清除核污染"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			icon: "minecraft:observer"
+			id: "6AA7A4A2DD59A0D7"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "796874D325DCDCD7"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "3AA842AA229442D3"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+	]
+	title: "·&5反物质靶丸"
+}

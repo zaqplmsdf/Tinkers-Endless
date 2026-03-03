@@ -1,0 +1,200 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4A24577650C5F8A2"
+	group: "63383AA57008A157"
+	icon: "create:cogwheel"
+	id: "4A24577650C5F8A2"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			id: "008844694B4A95B2"
+			subtitle: "基础中的基础"
+			tasks: [{
+				id: "0C738503BF2EE0C9"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			description: ["按W开始思索"]
+			icon: "create:brass_hand"
+			id: "1E24242C6739483F"
+			subtitle: "俺寻思之力"
+			tasks: [{
+				id: "28787D1FEB542FE3"
+				title: "那么，屎山代码要开始了！"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "28BD529B20A055FB"
+			subtitle: "&m不如女仆动力"
+			tasks: [{
+				id: "6A2352F095FF1929"
+				title: "应力"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"当玩家对其右击时，会逆时针以 &932 RPM&r 的速度旋转 10 ticks，并消耗 转速 * 0.0099 点饥饿值。"
+				""
+				"手摇曲柄的转速固定在 &932 RPM&r，其生产的应力量也固定为 &9256 su&r。"
+				""
+				"潜行时右击可顺时针旋转。"
+				""
+				"&m所以我为什么不让女仆代工？&r"
+			]
+			id: "094C6A0A4EBB0EBA"
+			subtitle: "女仆动力，小子"
+			tasks: [{
+				id: "6CC495BF4F38A89A"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			id: "0DF41848BCA20E14"
+			tasks: [
+				{
+					id: "4691DADCEB4099E1"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "44C8AA2F6BCAC990"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "334F1816A80C64B5"
+			tasks: [
+				{
+					id: "32F6114F77A15C1B"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					id: "11745FEAB4631B4E"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			id: "55972034DE38901C"
+			tasks: [{
+				id: "49A80C80EF4C3656"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			id: "5122ED4F81BD0DB2"
+			tasks: [{
+				id: "543E17B105BF3D90"
+				item: "create:creative_motor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "78552E964CE9A2AF"
+			tasks: [
+				{
+					id: "0F679992D9729793"
+					item: "createaddition:electric_motor"
+					type: "item"
+				}
+				{
+					id: "5FCAAF605C49B3FC"
+					item: "createaddition:modular_accumulator"
+					type: "item"
+				}
+				{
+					id: "1C87382562B4E3A1"
+					item: "createaddition:alternator"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "4C289E30C45042AE"
+			tasks: [{
+				id: "13C9579344D5A40E"
+				title: "材料"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "5B4C14512C0FDD29"
+			tasks: [{
+				id: "77BFD922C1D01DAE"
+				title: "机械"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "0E44D31FC94EA5C2"
+			tasks: [{
+				id: "1F810937B82D7D30"
+				title: "匠械"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			icon: "minecraft:observer"
+			id: "7269E53C9289BB75"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "3FAEFC8619EA6AE1"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "774C7550F33D8030"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+	]
+	subtitle: ["按W开始思索"]
+	title: "·&6机械动力(WIP)"
+}

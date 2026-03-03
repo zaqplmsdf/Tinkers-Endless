@@ -1,0 +1,5 @@
+#Shortcut list only display maids that are owned by this player
+owner_only = true
+#Transform model id for more faster input.
+show_internal_name = true
+

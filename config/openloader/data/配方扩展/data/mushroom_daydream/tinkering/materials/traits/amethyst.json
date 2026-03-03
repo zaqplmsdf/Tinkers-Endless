@@ -1,0 +1,20 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "mushroom_daydream:a"
+    },
+    {
+      "level": 1,
+      "name": "mushroom_daydream:crystal"
+    }
+  ],
+  "perStat": {
+    "tconstruct:armor": [
+      {
+        "level": 1,
+        "name": "mushroom_daydream:a"
+      }
+    ]
+  }
+}

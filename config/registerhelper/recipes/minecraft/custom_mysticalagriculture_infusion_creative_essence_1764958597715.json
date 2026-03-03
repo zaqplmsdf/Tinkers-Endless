@@ -1,0 +1,39 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalagradditions:insanium_ingot"
+  },
+  "ingredients": [
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "mysticalagradditions:insanium_ingot"
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "mysticalagradditions:insanium_ingot"
+    },
+    {
+      "item": "mysticalagradditions:insanium_ingot"
+    },
+    {
+      "item": "mysticalagradditions:insanium_gemstone"
+    }
+  ],
+  "result": {
+    "item": "mysticalagradditions:creative_essence"
+  },
+  "essence": {
+    "item": "mysticalagriculture:inferium_essence",
+    "count": 4
+  }
+}

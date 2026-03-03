@@ -1,0 +1,17 @@
+{
+	id: "1669300C201E26A8"
+	loot_size: 1
+	order_index: 29
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "l2hostility:trait_adder_wand"
+				tag: { }
+			}
+		}
+		{ item: "l2hostility:ai_config_wand" }
+		{ item: "l2hostility:equipment_wand" }
+	]
+	title: "恶意手杖"
+}

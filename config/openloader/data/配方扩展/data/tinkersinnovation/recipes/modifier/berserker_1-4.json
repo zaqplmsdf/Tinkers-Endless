@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "minecraft:structure_void"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/chestplate"
+  },
+  "slots": {
+    "abilities": 1
+  },
+  "allow_crystal": true,
+  "result": "tinkersinnovation:berserker",
+  "level": {
+    "max": 4
+  }
+}

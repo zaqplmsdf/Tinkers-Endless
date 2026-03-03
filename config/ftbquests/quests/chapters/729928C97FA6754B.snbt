@@ -1,0 +1,285 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "729928C97FA6754B"
+	group: "63383AA57008A157"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "729928C97FA6754B"
+	images: [
+		{
+			height: 4.0d
+			image: "twilightforest:block/pedestal/hydra"
+			rotation: 0.0d
+			width: 4.0d
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			height: 4.0d
+			image: "twilightforest:block/pedestal/lich"
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			height: 4.0d
+			image: "twilightforest:block/pedestal/naga"
+			rotation: 0.0d
+			width: 4.0d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			height: 4.0d
+			image: "twilightforest:block/pedestal/snow_queen"
+			rotation: 0.0d
+			width: 4.0d
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			height: 4.0d
+			image: "twilightforest:block/pedestal/ur-ghast"
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -1.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3359AAB7FAD01D0B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0577CB776F41CCCF"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "0E71D3C7466D06D1"
+				type: "dimension"
+			}]
+			title: "暮色森林"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3359AAB7FAD01D0B"]
+			id: "0E7CB8E1CA7AB18C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0515109B4FD04051"
+					table_id: 915959588376886251L
+					type: "random"
+				}
+				{
+					id: "514DAC02D1C88E92"
+					item: "twilightforest:charm_of_life_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "43D6E711B470C109"
+				item: "twilightforest:naga_scale"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3359AAB7FAD01D0B"]
+			id: "62F7410A55488426"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "595A03405A38CE89"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				id: "201E2266BA8C1231"
+				item: "twilightforest:raven_feather"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0E7CB8E1CA7AB18C"]
+			id: "4D3DE4E525451B3C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D7AE290EF57E1F1"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4CD1C8F5C3FE9166"
+				item: "twilightforest:arctic_fur"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4D3DE4E525451B3C"]
+			id: "3D12B93405ED70BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "663B844A61A1E799"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6820D188F1CDD139"
+				item: "twilightforest:alpha_yeti_fur"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0E7CB8E1CA7AB18C"]
+			id: "029B8D8191D4AA07"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "026E6FA15DA47188"
+					table_id: 915959588376886251L
+					type: "random"
+				}
+				{
+					count: 8
+					id: "5CF924B68220C41B"
+					item: "twilightforest:cooked_meef"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "66C7500E9D5F63F7"
+				item: "twilightforest:steeleaf_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["029B8D8191D4AA07"]
+			id: "7A1ECE92FF6496FE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "521AB8E1E525EC17"
+					table_id: 2108578313458904176L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "443AB4B93E17710D"
+					item: "twilightforest:hydra_chop"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7DA6537575917C9D"
+				item: "twilightforest:fiery_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0E7CB8E1CA7AB18C"]
+			id: "42AC08BBE4A757C8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7F38C3A7A5A849FF"
+					table_id: 915959588376886251L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "5B1B454742343160"
+					item: "twilightforest:maze_wafer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "54C9141C7ADD0254"
+				item: "twilightforest:knightmetal_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["42AC08BBE4A757C8"]
+			id: "6300E08A3CFE6E0C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E110FDFADFDFEFE"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				id: "092A6D23899A4A93"
+				item: "twilightforest:carminite"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3359AAB7FAD01D0B"]
+			description: ["强烈推荐做一个"]
+			id: "660D0CFD0A921408"
+			tasks: [{
+				id: "56B224E4F1987734"
+				item: "twilightforest:uncrafting_table"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			icon: "minecraft:observer"
+			id: "02C5D575EDBD4AB9"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "45463CC9AD3EBEC7"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "2A55CAF1664D803F"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+	]
+	title: "·&2暮色森林"
+}

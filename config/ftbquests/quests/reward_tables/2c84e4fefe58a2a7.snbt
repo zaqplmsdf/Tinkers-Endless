@@ -1,0 +1,26 @@
+{
+	id: "2C84E4FEFE58A2A7"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			command: "/weather clear"
+			elevate_perms: true
+			title: "晴天"
+			type: "command"
+		}
+		{
+			command: "/weather rain"
+			elevate_perms: true
+			title: "雨天"
+			type: "command"
+		}
+		{
+			command: "/weather thunder"
+			elevate_perms: true
+			title: "雷雨"
+			type: "command"
+		}
+	]
+	title: "天气"
+}

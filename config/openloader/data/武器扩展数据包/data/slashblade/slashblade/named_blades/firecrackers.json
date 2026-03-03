@@ -1,0 +1,30 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 10
+    },
+    {
+      "id": "l2complements:cursed_blade",
+      "lvl": 3
+    }, 
+    {
+      "id": "l2hostility:split_suppressor", 
+      "lvl": 1
+    }
+  ],
+  "name": "slashblade:firecrackers",
+  "properties": {
+    "attack_base": 15.0,
+    "max_damage": 256,
+    "slash_art": "srelic:big_drived",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "slashblade:model/named/firecrackers/firecrackers.obj",
+    "summon_sword_color": 16763598,
+    "texture": "slashblade:model/named/firecrackers/firecrackers.png"
+  }
+}

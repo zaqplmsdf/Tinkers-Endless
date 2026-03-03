@@ -1,0 +1,5 @@
+// Compost colors for mushroom_concept. You may add your own colors, change existing ones, or remove colors that aren't needed.
+blood_ball, #e03d47
+blood_steel, #ff9baa
+gaden, #e1dce3
+shield_thing_cast, #ffffd9

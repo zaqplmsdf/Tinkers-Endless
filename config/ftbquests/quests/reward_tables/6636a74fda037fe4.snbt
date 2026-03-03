@@ -1,0 +1,15 @@
+{
+	id: "6636A74FDA037FE4"
+	loot_size: 1
+	order_index: 30
+	rewards: [
+		{ item: "minecraft:rotten_flesh", weight: 10.0f }
+		{ item: "thermal:copper_coin", weight: 8.0f }
+		{ item: "thermal:silver_coin", weight: 6.0f }
+		{ item: "thermal:gold_coin", weight: 3.0f }
+		{ item: "thermal:enderium_coin" }
+		{ item: "thermal:netherite_coin", weight: 0.5f }
+		{ item: "kubejs:cat", weight: 0.05f }
+	]
+	title: "挂机"
+}

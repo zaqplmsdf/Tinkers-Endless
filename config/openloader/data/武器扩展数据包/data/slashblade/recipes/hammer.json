@@ -1,0 +1,23 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade:hammer",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade_wood"
+    },
+    "L": {
+      "item": "mutantmonsters:hulk_hammer"
+    }
+  },
+  "pattern": [
+    "  B",
+    " L ",
+    "B  "
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

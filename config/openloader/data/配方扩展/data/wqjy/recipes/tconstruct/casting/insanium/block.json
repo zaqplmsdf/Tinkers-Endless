@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:casting_basin",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ],
+  "fluid": {
+    "name": "wqjy:insanium",
+    "amount": 810
+  },
+  "result": "mysticalagradditions:insanium_ingot_block",
+  "cooling_time": 180
+}

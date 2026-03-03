@@ -1,0 +1,596 @@
+{
+  "entries": [
+    {
+      "item": "minecraft:experience_bottle",
+      "emc": 1024
+    },
+    {
+      "item": "minecraft:ancient_debris",
+      "emc": 12288
+    },
+    {
+      "item": "farmersdelight:wheat_dough",
+      "emc": 24
+    },
+    {
+      "item": "create:dough",
+      "emc": 24
+    },
+    {
+      "item": "pneumaticcraft:sourdough",
+      "emc": 8
+    },
+    {
+      "item": "minecraft:white_dye",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:light_gray_dye",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:gray_dye",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:black_dye",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:brown_dye",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:red_dye",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:orange_dye",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:yellow_dye",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:lime_dye",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:green_dye",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:cyan_dye",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:light_blue_dye",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:blue_dye",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:purple_dye",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:magenta_dye",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:pink_dye",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:mushroom_stew",
+      "emc": 70
+    },
+    {
+      "item": "tconstruct:clear_glass",
+      "emc": 1
+    },
+    {
+      "item": "arphex:chitin",
+      "emc": 18000
+    },
+    {
+      "item": "arphex:abyssal_shard",
+      "emc": 75000
+    },
+    {
+      "item": "arphex:fire_opal_shard",
+      "emc": 90000
+    },
+    {
+      "item": "arphex:void_geode_shard",
+      "emc": 120000
+    },
+    {
+      "item": "arphex:time_prism_shard",
+      "emc": 150000
+    },
+    {
+      "item": "arphex:entropy_matrix_shard",
+      "emc": 200000
+    },
+    {
+      "item": "arphex:maggot_grub",
+      "emc": 1500
+    },
+    {
+      "item": "arphex:roach_nymph",
+      "emc": 1500
+    },
+    {
+      "item": "arphex:bloodworm_grub",
+      "emc": 1500
+    },
+    {
+      "item": "arphex:locust_larvae",
+      "emc": 1500
+    },
+    {
+      "item": "arphex:burning_glands",
+      "emc": 1500
+    },
+    {
+      "item": "arphex:antenna",
+      "emc": 5000
+    },
+    {
+      "item": "arphex:ectoplasm",
+      "emc": 5000
+    },
+    {
+      "item": "arphex:necrotic_fang",
+      "emc": 6000
+    },
+    {
+      "item": "arphex:venomous_appendage",
+      "emc": 6000
+    },
+    {
+      "item": "arphex:fly_appendage",
+      "emc": 20000
+    },
+    {
+      "item": "arphex:giant_spinneret",
+      "emc": 75000
+    },
+    {
+      "item": "arphex:crusher_claw",
+      "emc": 150000
+    },
+    {
+      "item": "arphex:brown_scarab",
+      "emc": 6000
+    },
+    {
+      "item": "arphex:green_scarab",
+      "emc": 12000
+    },
+    {
+      "item": "arphex:green_gold_scarab",
+      "emc": 48000
+    },
+    {
+      "item": "arphex:iridescent_scarab",
+      "emc": 100000
+    },
+    {
+      "item": "arphex:purple_scarab",
+      "emc": 200000
+    },
+    {
+      "item": "arphex:golden_scarab",
+      "emc": 350000
+    },
+    {
+      "item": "arphex:crawling_clay",
+      "emc": 600
+    },
+    {
+      "item": "arphex:decadent_dust",
+      "emc": 600
+    },
+    {
+      "item": "arphex:tectonic_tunneler",
+      "emc": 98000
+    },
+    {
+      "item": "arphex:prowler_pack",
+      "emc": 30000
+    },
+    {
+      "item": "arphex:heavy_chitin",
+      "emc": 150000
+    },
+    {
+      "item": "arphex:raw_hemolymph",
+      "emc": 1000
+    },
+    {
+      "item": "minecraft:bedrock",
+      "emc": 4096
+    },
+    {
+      "item": "minecraft:grass_block",
+      "emc": 2
+    },
+    {
+      "item": "gobber2:gobber2_globette",
+      "emc": 12288
+    },
+    {
+      "item": "gobber2:gobber2_globette_nether",
+      "emc": 28665
+    },
+    {
+      "item": "gobber2:gobber2_globette_end",
+      "emc": 257985
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull",
+      "emc": 4096
+    },
+    {
+      "item": "minecraft:dragon_head",
+      "emc": 8192
+    },
+    {
+      "item": "cagedmobs:dragon_scale",
+      "emc": 29127
+    },
+    {
+      "item": "cagedmobs:nether_star_fragment",
+      "emc": 34816
+    },
+    {
+      "item": "cagedmobs:sponge_fragment",
+      "emc": 14
+    },
+    {
+      "item": "cagedmobs:milk_drop",
+      "emc": 16
+    },
+    {
+      "item": "cagedmobs:honey_drop",
+      "emc": 47
+    },
+    {
+      "item": "cagedmobs:warden_receptor",
+      "emc": 4096
+    },
+    {
+      "item": "cagedmobs:crystallized_experience",
+      "emc": 256
+    },
+    {
+      "item": "youkaishomecoming:redbean",
+      "emc": 16
+    },
+    {
+      "item": "youkaishomecoming:green_coffee_bean",
+      "emc": 16
+    },
+    {
+      "item": "youkaishomecoming:tea_seeds",
+      "emc": 16
+    },
+    {
+      "item": "youkaishomecoming:udumbara_seeds",
+      "emc": 16
+    },
+    {
+      "item": "youkaishomecoming:mandrake_root",
+      "emc": 16
+    },
+    {
+      "item": "youkaishomecoming:cucumber_seeds",
+      "emc": 16
+    },
+    {
+      "item": "youkaishomecoming:red_grape_seeds",
+      "emc": 16
+    },
+    {
+      "item": "youkaishomecoming:black_grape_seeds",
+      "emc": 16
+    },
+    {
+      "item": "youkaishomecoming:white_grape_seeds",
+      "emc": 16
+    },
+    {
+      "item": "youkaishomecoming:soybean",
+      "emc": 16
+    },
+    {
+      "item": "ars_nouveau:sourceberry_bush",
+      "emc": 16
+    },
+    {
+      "item": "twilightforest:torchberries",
+      "emc": 16
+    },
+    {
+      "item": "immersiveengineering:seed",
+      "emc": 16
+    },
+    {
+      "item": "aether:berry_bush_stem",
+      "emc": 16
+    },
+    {
+      "item": "aether_redux:zanberry_bush_stem",
+      "emc": 16
+    },
+    {
+      "item": "deep_aether:goldenleaf_berries",
+      "emc": 16
+    },
+    {
+      "item": "aether_redux:wynd_oats",
+      "emc": 16
+    },
+    {
+      "item": "thermal:amaranth_seeds",
+      "emc": 16
+    },
+    {
+      "item": "thermal:strawberry_seeds",
+      "emc": 16
+    },
+    {
+      "item": "thermal:onion_seeds",
+      "emc": 16
+    },
+    {
+      "item": "thermal:flax_seeds",
+      "emc": 16
+    },
+    {
+      "item": "thermal:radish_seeds",
+      "emc": 16
+    },
+    {
+      "item": "thermal:bell_pepper_seeds",
+      "emc": 16
+    },
+    {
+      "item": "thermal:green_bean_seeds",
+      "emc": 16
+    },
+    {
+      "item": "thermal:rice_seeds",
+      "emc": 16
+    },
+    {
+      "item": "thermal:sadiroot_seeds",
+      "emc": 16
+    },
+    {
+      "item": "thermal:tea_seeds",
+      "emc": 16
+    },
+    {
+      "item": "thermal:barley_seeds",
+      "emc": 16
+    },
+    {
+      "item": "thermal:tomato_seeds",
+      "emc": 16
+    },
+    {
+      "item": "thermal:peanut_seeds",
+      "emc": 16
+    },
+    {
+      "item": "thermal:coffee_seeds",
+      "emc": 16
+    },
+    {
+      "item": "thermal:hops_seeds",
+      "emc": 16
+    },
+    {
+      "item": "thermal:eggplant_seeds",
+      "emc": 16
+    },
+    {
+      "item": "thermal:corn_seeds",
+      "emc": 16
+    },
+    {
+      "item": "thermal:spinach_seeds",
+      "emc": 16
+    },
+    {
+      "item": "thermal:frost_melon_seeds",
+      "emc": 32
+    },
+    {
+      "item": "hmag:evil_crystal_fragment",
+      "emc": 256
+    },
+    {
+      "item": "hmag:kobold_leather",
+      "emc": 256
+    },
+    {
+      "item": "hmag:lich_cloth",
+      "emc": 512
+    },
+    {
+      "item": "hmag:ogre_horn",
+      "emc": 1024
+    },
+    {
+      "item": "hmag:ender_plasm",
+      "emc": 256
+    },
+    {
+      "item": "hmag:ancient_stone",
+      "emc": 2048
+    },
+    {
+      "item": "hmag:crimson_cuticula",
+      "emc": 1024
+    },
+    {
+      "item": "hmag:dyssomnia_skin",
+      "emc": 512
+    },
+    {
+      "item": "hmag:necrofiber",
+      "emc": 512
+    },
+    {
+      "item": "hmag:bat_wing",
+      "emc": 256
+    },
+    {
+      "item": "hmag:mysterious_petal",
+      "emc": 512
+    },
+    {
+      "item": "hmag:sharp_fang",
+      "emc": 512
+    },
+    {
+      "item": "hmag:lightning_particle",
+      "emc": 1024
+    },
+    {
+      "item": "hmag:burning_core",
+      "emc": 1024
+    },
+    {
+      "item": "l2complements:heirophant_green",
+      "emc": 2048
+    },
+    {
+      "item": "l2complements:hard_ice",
+      "emc": 2048
+    },
+    {
+      "item": "l2complements:resonant_feather",
+      "emc": 2048
+    },
+    {
+      "item": "l2complements:blackstone_core",
+      "emc": 2048
+    },
+    {
+      "item": "l2complements:storm_core",
+      "emc": 2048
+    },
+    {
+      "item": "l2complements:soul_flame",
+      "emc": 2048
+    },
+    {
+      "item": "l2complements:captured_shulker_bullet",
+      "emc": 2048
+    },
+    {
+      "item": "l2complements:explosion_shard",
+      "emc": 2048
+    },
+    {
+      "item": "l2complements:captured_wind",
+      "emc": 2048
+    },
+    {
+      "item": "l2complements:warden_bone_shard",
+      "emc": 2048
+    },
+    {
+      "item": "l2complements:life_essence",
+      "emc": 2048
+    },
+    {
+      "item": "l2complements:force_field",
+      "emc": 2048
+    },
+    {
+      "item": "l2complements:guardian_eye",
+      "emc": 2048
+    },
+    {
+      "item": "l2complements:cursed_droplet",
+      "emc": 2048
+    },
+    {
+      "item": "l2complements:void_eye",
+      "emc": 2048
+    },
+    {
+      "item": "l2complements:sun_membrane",
+      "emc": 2048
+    },
+    {
+      "item": "slashblade:proudsoul_tiny",
+      "emc": 1024
+    },
+    {
+      "item": "tinkers_advanced:iridium_chunk",
+      "emc": 4096
+    },
+    {
+      "item": "miners_delight:cave_carrot",
+      "emc": 16
+    },
+    {
+      "item": "endersdelight:voidpepper",
+      "emc": 16
+    },
+    {
+      "item": "endersdelight:chorusflame",
+      "emc": 16
+    },
+    {
+      "item": "trailandtales_delight:lantern_fruit_seeds",
+      "emc": 16
+    },
+    {
+      "item": "minecraft:bowl",
+      "emc": 8
+    },
+    {
+      "item": "botania:creative_pool",
+      "emc": 2063880
+    },
+    {
+      "item": "twilightforest:cube_talisman",
+      "emc": 0
+    },
+    {
+      "item": "ae2:charged_certus_quartz_crystal",
+      "emc": 256
+    },
+    {
+      "item": "minecraft:paper",
+      "emc": 32
+    },
+    {
+      "item": "l2hostility:hostility_essence",
+      "emc": 2048
+    },
+    {
+      "item": "exdeorum:crushed_netherrack",
+      "emc": 1
+    },
+    {
+      "item": "exdeorum:crushed_end_stone",
+      "emc": 1
+    },
+    {
+      "item": "exdeorum:dust",
+      "emc": 1
+    }
+  ]
+}

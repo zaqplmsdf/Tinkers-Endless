@@ -1,0 +1,14 @@
+
+[tweak]
+	#If true, Gaia's explosive projectile (not including those from friended ones) will destroy dropped items.
+	explosiveProjectileDestroysItems = true
+	#Whether to spawn male variants.
+	spawnsMaleMobs = true
+	#Modify this to reduce the spawn of Cecaelia. Its spawn rate (0-1) is multiplied by this value.
+	#Range: 0.0 ~ 1.0
+	cecaeliaSpawnRate = 1.0
+	#(Deprecated, to be removed in 0.x.32) If false, Gaia hostile mobs will not spawn on ground in the daytime. The mob list can be configured by entity type tag "can_config_no_day_spawn"
+	allowsDayHostileMobSpawnOnGround = true
+	#If true, hostile Gaia day mobs will be neutral when the brightness is high, just like vanilla Spiders.
+	dayMobsNeutralInBrightPlaces = false
+

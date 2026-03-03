@@ -1,0 +1,264 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_repeatable_quest: true
+	disable_toast: true
+	filename: "3"
+	group: "3172704A8AED52C1"
+	icon: "sakuratinker:molten_infinity_bucket"
+	id: "39DBD49582530E23"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: false
+			description: [
+				"由于模组优先级问题，部分流体无法正常置换"
+				""
+				"&c该问题已修复，使用通用置换流体进行置换，已无需该任务&r"
+			]
+			id: "41DFAA3E754D0E15"
+			rewards: [{
+				id: "17D9F723A24C5005"
+				item: "wqjy:reborn"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60E5B83F2666B737"
+				title: "说明"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "39E07AE3716497E9"
+			rewards: [{
+				auto: "enabled"
+				id: "2CA89571E9011379"
+				item: {
+					Count: 1
+					id: "tconstruct:seared_fuel_tank"
+					tag: {
+						tank: {
+							Amount: 4000
+							FluidName: "ticex:molten_infinity"
+						}
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F43F1CC9398BB08"
+				item: {
+					Count: 1
+					id: "tconstruct:seared_fuel_tank"
+					tag: {
+						tank: {
+							Amount: 4000
+							FluidName: "sakuratinker:molten_infinity"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "15072DC66912036F"
+			rewards: [{
+				auto: "enabled"
+				id: "08AFD8C66E215CAF"
+				item: {
+					Count: 1
+					id: "tconstruct:seared_fuel_tank"
+					tag: {
+						tank: {
+							Amount: 4000
+							FluidName: "ticex:molten_neutron"
+						}
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "20BE01DA7B87850A"
+				item: {
+					Count: 1
+					id: "tconstruct:seared_fuel_tank"
+					tag: {
+						tank: {
+							Amount: 4000
+							FluidName: "sakuratinker:molten_neutron"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "2E650E796856FEC3"
+			rewards: [{
+				auto: "enabled"
+				id: "23AE4B8CB06BC6C3"
+				item: {
+					Count: 1
+					id: "tconstruct:seared_fuel_tank"
+					tag: {
+						tank: {
+							Amount: 4000
+							FluidName: "ticex:molten_crystal_matrix"
+						}
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "46C85FF2B1698CA8"
+				item: {
+					Count: 1
+					id: "tconstruct:seared_fuel_tank"
+					tag: {
+						tank: {
+							Amount: 4000
+							FluidName: "sakuratinker:molten_crystal_matrix"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "04D478F501844754"
+			rewards: [{
+				auto: "enabled"
+				id: "25D4DACDF81D552B"
+				item: {
+					Count: 1
+					id: "tconstruct:seared_fuel_tank"
+					tag: {
+						tank: {
+							Amount: 4000
+							FluidName: "sakuratinker:molten_dragon_fire_steel"
+						}
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DA65ADDFE6B1DF4"
+				item: {
+					Count: 1
+					id: "tconstruct:seared_fuel_tank"
+					tag: {
+						tank: {
+							Amount: 4000
+							FluidName: "tcintegrations:molten_dragonsteel_fire"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "1BB9C2E932F4C818"
+			rewards: [{
+				auto: "enabled"
+				id: "1ED87017660DC7A4"
+				item: {
+					Count: 1
+					id: "tconstruct:seared_fuel_tank"
+					tag: {
+						tank: {
+							Amount: 4000
+							FluidName: "sakuratinker:molten_dragon_ice_steel"
+						}
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C8DB0DD948C5230"
+				item: {
+					Count: 1
+					id: "tconstruct:seared_fuel_tank"
+					tag: {
+						tank: {
+							Amount: 4000
+							FluidName: "tcintegrations:molten_dragonsteel_ice"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "09A0DC83E7517430"
+			rewards: [{
+				auto: "enabled"
+				id: "7633A3E6BA174AE0"
+				item: {
+					Count: 1
+					id: "tconstruct:seared_fuel_tank"
+					tag: {
+						tank: {
+							Amount: 4000
+							FluidName: "tcintegrations:molten_dragonsteel_lightning"
+						}
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C123140BDE3388C"
+				item: {
+					Count: 1
+					id: "tconstruct:seared_fuel_tank"
+					tag: {
+						tank: {
+							Amount: 4000
+							FluidName: "sakuratinker:molten_dragon_lightning_steel"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			description: ["是的，&m作者被背刺了&rticex已推出更合适的置换配方"]
+			id: "4221B02DA2FA2B45"
+			tasks: [{
+				id: "727C8D3369FC4962"
+				item: "ticex:fluid_transmuter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "·&3流体置换"
+}

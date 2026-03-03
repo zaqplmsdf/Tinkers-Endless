@@ -1,0 +1,1605 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	default_quest_size: 2.0d
+	filename: "0AFFE7260D26C842"
+	group: "457E9E90E1EE2E33"
+	icon: "minecraft:ender_eye"
+	id: "0AFFE7260D26C842"
+	images: [
+		{
+			height: 1.5d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			height: 2.0d
+			image: "avaritia:item/resource/infinity/infinity_catalyst"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 5.0d
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 5.0d
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 90.0d
+			width: 5.0d
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 90.0d
+			width: 5.0d
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 90.0d
+			width: 5.0d
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 90.0d
+			width: 5.0d
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 90.0d
+			width: 5.0d
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 90.0d
+			width: 5.0d
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 5.0d
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 5.0d
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependency: "4631894C0583BD96"
+			height: 2.0d
+			image: "botania:block/ender_eye_block"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependency: "43A031B552E8DA94"
+			height: 2.0d
+			image: "botania:block/ender_eye_block"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependency: "65484590E67F0D4A"
+			height: 2.0d
+			image: "botania:block/ender_eye_block"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependency: "5FF3AC358B702B02"
+			height: 2.0d
+			image: "botania:block/ender_eye_block"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			dependency: "44370B67B3DF9A25"
+			height: 2.0d
+			image: "botania:block/ender_eye_block"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependency: "4631894C0583BD96"
+			height: 2.0d
+			image: "botania:block/ender_eye_block"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependency: "1770001C37B2F63D"
+			height: 2.0d
+			image: "botania:block/ender_eye_block"
+			order: 1
+			rotation: 90.0d
+			width: 2.0d
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependency: "6B68168A5F90AC60"
+			height: 2.0d
+			image: "botania:block/ender_eye_block"
+			order: 1
+			rotation: 90.0d
+			width: 2.0d
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependency: "1770001C37B2F63D"
+			height: 2.0d
+			image: "botania:block/ender_eye_block"
+			order: 1
+			rotation: 90.0d
+			width: 2.0d
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependency: "4631894C0583BD96"
+			height: 2.0d
+			image: "botania:block/ender_eye_block"
+			order: 1
+			rotation: 90.0d
+			width: 2.0d
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			dependency: "6B68168A5F90AC60"
+			height: 2.0d
+			image: "botania:block/ender_eye_block"
+			order: 1
+			rotation: 90.0d
+			width: 2.0d
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependency: "2D76A35CDE62FF47"
+			height: 2.0d
+			image: "botania:block/ender_eye_block"
+			order: 1
+			rotation: 90.0d
+			width: 2.0d
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependency: "44370B67B3DF9A25"
+			height: 14.0d
+			image: "minecraft:entity/end_portal"
+			order: -1
+			rotation: 0.0d
+			width: 14.0d
+			x: 0.0d
+			y: 4.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["43A031B552E8DA94"]
+			icon: "minecraft:dragon_head"
+			id: "1770001C37B2F63D"
+			rewards: [
+				{
+					id: "7FC2243338A8EB98"
+					item: {
+						Count: 1
+						id: "enigmaticaddons:dragon_bow"
+						tag: {
+							CustomPotionEffects: [
+								{
+									Ambient: 0b
+									Amplifier: 0b
+									CurativeItems: [{
+										Count: 1b
+										id: "minecraft:milk_bucket"
+									}]
+									Duration: 3600
+									Id: 20
+									ShowIcon: 1b
+									ShowParticles: 1b
+									"forge:id": "minecraft:wither"
+								}
+								{
+									Ambient: 0b
+									Amplifier: 0b
+									CurativeItems: [{
+										Count: 1b
+										id: "minecraft:milk_bucket"
+									}]
+									Duration: 1
+									Id: 7
+									ShowIcon: 1b
+									ShowParticles: 1b
+									"forge:id": "minecraft:instant_damage"
+								}
+								{
+									Ambient: 0b
+									Amplifier: 1b
+									CurativeItems: [{
+										Count: 1b
+										id: "minecraft:milk_bucket"
+									}]
+									Duration: 432
+									Id: 19
+									ShowIcon: 1b
+									ShowParticles: 1b
+									"forge:id": "minecraft:poison"
+								}
+								{
+									Ambient: 0b
+									Amplifier: 1b
+									CurativeItems: [{
+										Count: 1b
+										id: "minecraft:milk_bucket"
+									}]
+									Duration: 600
+									Id: 247
+									ShowIcon: 1b
+									ShowParticles: 1b
+									"forge:id": "l2complements:armor_reduce"
+								}
+							]
+							Damage: 0
+							Enchantments: [
+								{
+									id: "mme:whisper"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:multishot"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 5s
+								}
+								{
+									id: "minecraft:punch"
+									lvl: 2s
+								}
+								{
+									id: "ensorcellation:quick_draw"
+									lvl: 3s
+								}
+								{
+									id: "ensorcellation:soulbound"
+									lvl: 1s
+								}
+								{
+									id: "ars_nouveau:reactive"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:infinity"
+									lvl: 1s
+								}
+							]
+							RepairCost: 3
+							display: {
+								Lore: [
+									"{\"text\":\"§6谁说任务不给好装备？\"}"
+									"{\"text\":\"§6（你管能伤害到自己的玩意叫好东西？）\"}"
+								]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4EAD0D9D32A43F53"
+					table_id: 2496234257689732661L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "0A1C4265E98A5B36"
+				title: "击杀：1x末影龙"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1770001C37B2F63D"
+				"4B5760727FBE8107"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						ModelName: "slashblade_addon:model/nihil/nihil.obj"
+						RepairCounter: 100
+						SpecialAttackType: "slashblade:wave_edge"
+						StandbyRenderType: 4b
+						SummonedSwordColor: -13421569
+						SummonedSwordColorInverse: 0b
+						TargetEntity: -1
+						TextureName: "slashblade_addon:model/nihil/nihilul.png"
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						baseAttackModifier: 12.0f
+						currentCombo: "slashblade:standby"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isDefaultBewitched: 1b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 527429L
+						maxDamage: 330
+						proudSoul: 199990
+						translationKey: "item.slashblade_addon.nihilul"
+					}
+				}
+				id: "slashblade:slashblade"
+				tag: {
+					Enchantments: [
+						{
+							id: "minecraft:smite"
+							lvl: 3s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}
+						{
+							id: "minecraft:bane_of_arthropods"
+							lvl: 2s
+						}
+						{
+							id: "minecraft:fire_aspect"
+							lvl: 2s
+						}
+						{
+							id: "minecraft:looting"
+							lvl: 3s
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:power"
+							lvl: 5s
+						}
+					]
+					bladeState: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						ModelName: "slashblade_addon:model/nihil/nihil.obj"
+						RepairCounter: 100
+						SpecialAttackType: "slashblade:wave_edge"
+						StandbyRenderType: 4b
+						SummonedSwordColor: -13421569
+						SummonedSwordColorInverse: 0b
+						TargetEntity: -1
+						TextureName: "slashblade_addon:model/nihil/nihilul.png"
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						baseAttackModifier: 12.0f
+						currentCombo: "slashblade:standby"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isDefaultBewitched: 1b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 527429L
+						maxDamage: 330
+						proudSoul: 199990
+						translationKey: "item.slashblade_addon.nihilul"
+					}
+				}
+			}
+			id: "30F3F84C2A67B4CE"
+			rewards: [{
+				id: "125CA7D374CB65AB"
+				item: {
+					Count: 1
+					id: "thermal:satchel"
+					tag: {
+						ItemInv: {
+							ItemInv: [{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										AttackAmplifier: 0.0f
+										ComboRoot: "slashblade:standby"
+										Damage: 0
+										ModelName: "slashblade_addon:model/nihil/nihil.obj"
+										RepairCounter: 100
+										SpecialAttackType: "slashblade:wave_edge"
+										StandbyRenderType: 4b
+										SummonedSwordColor: -13421569
+										SummonedSwordColorInverse: 0b
+										TargetEntity: -1
+										TextureName: "slashblade_addon:model/nihil/nihilul.png"
+										_onClick: 0b
+										adjustXYZ: [
+											0.0d
+											0.0d
+											0.0d
+										]
+										baseAttackModifier: 12.0f
+										currentCombo: "slashblade:standby"
+										fallDecreaseRate: 0.0f
+										isBroken: 0b
+										isDefaultBewitched: 1b
+										isSealed: 0b
+										killCount: 0
+										lastActionTime: 542744L
+										maxDamage: 330
+										proudSoul: 199990
+										translationKey: "item.slashblade_addon.nihilul"
+									}
+								}
+								Slot: 0b
+								id: "slashblade:slashblade"
+								tag: {
+									Enchantments: [
+										{
+											id: "minecraft:smite"
+											lvl: 3s
+										}
+										{
+											id: "minecraft:unbreaking"
+											lvl: 3s
+										}
+										{
+											id: "minecraft:bane_of_arthropods"
+											lvl: 2s
+										}
+										{
+											id: "minecraft:fire_aspect"
+											lvl: 2s
+										}
+										{
+											id: "minecraft:looting"
+											lvl: 3s
+										}
+										{
+											id: "minecraft:sharpness"
+											lvl: 5s
+										}
+										{
+											id: "minecraft:power"
+											lvl: 5s
+										}
+									]
+									bladeState: {
+										AttackAmplifier: 0.0f
+										ComboRoot: "slashblade:standby"
+										Damage: 0
+										ModelName: "slashblade_addon:model/nihil/nihil.obj"
+										RepairCounter: 100
+										SpecialAttackType: "slashblade:wave_edge"
+										StandbyRenderType: 4b
+										SummonedSwordColor: -13421569
+										SummonedSwordColorInverse: 0b
+										TargetEntity: -1
+										TextureName: "slashblade_addon:model/nihil/nihilul.png"
+										_onClick: 0b
+										adjustXYZ: [
+											0.0d
+											0.0d
+											0.0d
+										]
+										baseAttackModifier: 12.0f
+										currentCombo: "slashblade:standby"
+										fallDecreaseRate: 0.0f
+										isBroken: 0b
+										isDefaultBewitched: 1b
+										isSealed: 0b
+										killCount: 0
+										lastActionTime: 542744L
+										maxDamage: 330
+										proudSoul: 199990
+										translationKey: "item.slashblade_addon.nihilul"
+									}
+								}
+							}]
+						}
+						RepairCost: 0
+						display: {
+							Lore: [ ]
+							Name: "{\"text\":\"§e拔刀剑小包\"}"
+							color: 8745619
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E526F46F3CEDD41"
+				type: "checkmark"
+			}]
+			title: "拔刀剑奖励"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "43A031B552E8DA94"
+			rewards: [
+				{
+					count: 5
+					id: "7F19876335E8D9CC"
+					item: "alexsmobs:mysterious_worm"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20D1F90BEE171FAA"
+					table_id: 2108578313458904176L
+					type: "random"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_portal_frame"
+				id: "409FBBE73CBAE862"
+				title: "&5末地"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["43A031B552E8DA94"]
+			description: ["击杀虚空蠕虫（将&b神秘蠕虫&r扔进&d虚空&r召唤）"]
+			id: "6B68168A5F90AC60"
+			rewards: [
+				{
+					id: "5CBF261503D1AD79"
+					item: {
+						Count: 1
+						id: "minecraft:green_shulker_box"
+						tag: {
+							BlockEntityTag: {
+								CustomName: "{\"text\":\"§2Alex食物盒\"}"
+								ForgeCaps: { }
+								Items: [
+									{
+										Count: 1b
+										Slot: 0b
+										id: "alexsmobs:rainbow_jelly"
+									}
+									{
+										Count: 1b
+										Slot: 1b
+										id: "alexsmobs:kangaroo_meat"
+									}
+									{
+										Count: 1b
+										Slot: 2b
+										id: "alexsmobs:kangaroo_burger"
+									}
+									{
+										Count: 1b
+										Slot: 3b
+										id: "alexsmobs:flying_fish"
+									}
+									{
+										Count: 1b
+										Slot: 4b
+										id: "alexsmobs:sopa_de_macaco"
+									}
+									{
+										Count: 1b
+										Slot: 5b
+										id: "alexsmobs:gongylidia"
+									}
+									{
+										Count: 1b
+										Slot: 6b
+										id: "alexsmobs:cooked_lobster_tail"
+									}
+									{
+										Count: 1b
+										Slot: 7b
+										id: "alexsmobs:lobster_tail"
+									}
+									{
+										Count: 1b
+										Slot: 8b
+										id: "alexsmobs:maggot"
+									}
+									{
+										Count: 1b
+										Slot: 9b
+										id: "alexsmobs:mosquito_repellent_stew"
+									}
+									{
+										Count: 1b
+										Slot: 10b
+										id: "alexsmobs:moose_ribs"
+									}
+									{
+										Count: 1b
+										Slot: 11b
+										id: "alexsmobs:raw_catfish"
+									}
+									{
+										Count: 1b
+										Slot: 12b
+										id: "alexsmobs:cooked_kangaroo_meat"
+									}
+									{
+										Count: 1b
+										Slot: 13b
+										id: "alexsmobs:cooked_moose_ribs"
+									}
+									{
+										Count: 1b
+										Slot: 14b
+										id: "alexsmobs:boiled_emu_egg"
+									}
+									{
+										Count: 1b
+										Slot: 15b
+										id: "alexsmobs:cooked_catfish"
+									}
+									{
+										Count: 1b
+										Slot: 16b
+										id: "alexsmobs:blobfish"
+									}
+									{
+										Count: 1b
+										Slot: 17b
+										id: "alexsmobs:shrimp_fried_rice"
+									}
+									{
+										Count: 1b
+										Slot: 18b
+										id: "alexsmobs:banana"
+									}
+									{
+										Count: 1b
+										Slot: 19b
+										id: "alexsmobs:fish_oil"
+									}
+									{
+										Count: 1b
+										Slot: 20b
+										id: "alexsmobs:cosmic_cod"
+									}
+								]
+								id: "minecraft:shulker_box"
+							}
+							display: {
+								Name: "{\"text\":\"§2Alex食物盒\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A915DB99F44BF1A"
+					table_id: 2496234257689732661L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/void_worm_kill"
+				criterion: ""
+				id: "205BC113412A2D0E"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["43A031B552E8DA94"]
+			description: ["搜索&eRuined Citadel&r"]
+			id: "65484590E67F0D4A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6875D30446298CF3"
+					table_id: 591576943825620324L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49D17B6EC050E4F9"
+					table_id: 2496234257689732661L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:gauntlet_of_guard"
+				id: "2088171F1BB27642"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["43A031B552E8DA94"]
+			description: ["搜索&eShulker Tower&r"]
+			id: "2D76A35CDE62FF47"
+			rewards: [
+				{
+					id: "04CC58EEB45B32E9"
+					item: {
+						Count: 1
+						id: "legendary_monsters:shulker_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C448AB0507C2897"
+					table_id: 2496234257689732661L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "legendary_monsters:shulker_mimic"
+				icon: "legendary_monsters:large_shulker_shell"
+				id: "498B9CEED2B089A4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["43A031B552E8DA94"]
+			description: ["搜索&eAncient Tower remains&r"]
+			id: "5FF3AC358B702B02"
+			rewards: [
+				{
+					id: "425D997246C125A4"
+					item: {
+						Count: 1
+						id: "legendary_monsters:chorus_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C9BC0ADEA9A4D3B"
+					table_id: 2496234257689732661L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "legendary_monsters:endersent"
+				icon: "legendary_monsters:chorus_crystal"
+				id: "2DAA0DB153FC3252"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"龙之研究最终BOSS"
+				""
+				"它在末地中的坐标为（x,z），其中x和z为10000的整数倍并且x和z不同时为0，[&b例如坐标(10000,y,0）(10000,y,-10000)  (-30000,y,70000)&r]的&e混沌之岛&r。第一圈会有8个混沌之岛。"
+				""
+				"需要先用&e带有混沌属性的装备&r（&e如龙之研究的混沌剑&r）破坏混沌水晶的护盾,而后用足够的伤害破坏14个混沌水晶，之后才能正常伤害混沌守卫"
+			]
+			id: "4631894C0583BD96"
+			rewards: [
+				{
+					id: "2255C486B54EB03C"
+					item: {
+						Count: 1
+						id: "thermal:satchel"
+						tag: {
+							ItemInv: {
+								ItemInv: [{
+									Count: 1b
+									Slot: 0b
+									id: "ticex:reforged_slashblade"
+									tag: {
+										Damage: 0
+										Enchantments: [{
+											id: "minecraft:feather_falling"
+											lvl: 4s
+										}]
+										RepairCost: 0
+										bladeState: {
+											AttackAmplifier: 0.0f
+											ComboRoot: "slashblade:standby"
+											Damage: 0
+											ModelName: "slashblade:model/named/yamato.obj"
+											RepairCounter: 0
+											SpecialAttackType: "slashblade:judgement_cut"
+											StandbyRenderType: 1b
+											SummonedSwordColor: -13421569
+											SummonedSwordColorInverse: 0b
+											TargetEntity: 0
+											TextureName: "slashblade:model/named/yamato.png"
+											_onClick: 0b
+											adjustXYZ: [
+												0.0d
+												0.0d
+												0.0d
+											]
+											baseAttackModifier: 7.0f
+											currentCombo: "slashblade:standby"
+											fallDecreaseRate: 0.0f
+											isBroken: 0b
+											isDefaultBewitched: 1b
+											isSealed: 0b
+											killCount: 0
+											lastActionTime: 102870L
+											maxDamage: 40
+											proudSoul: 0
+											translationKey: "item.slashblade.yamato"
+										}
+										etstlib_tool_uuid: "9e50b0fb-3167-459d-ba72-c0d7602a29ec"
+										tic_broken: 0b
+										tic_materials: [
+											"ticex:chaotic"
+											"ticex:chaotic"
+											"ticex:chaotic"
+										]
+										tic_modifiers: [
+											{
+												level: 1
+												name: "ticex:konpaku"
+											}
+											{
+												level: 1
+												name: "ticex:enchantment_supplier"
+											}
+											{
+												level: 5
+												name: "tconstruct:reinforced"
+											}
+											{
+												level: 1
+												name: "tconstruct:creative_slot"
+											}
+											{
+												level: 1
+												name: "tconstruct:netherite"
+											}
+											{
+												level: 1
+												name: "ticex:koshirae"
+											}
+											{
+												level: 1
+												name: "ticex:rebirth"
+											}
+											{
+												level: 9
+												name: "ticex:soul_rending"
+											}
+											{
+												level: 9
+												name: "tconstruct:lacerating"
+											}
+											{
+												level: 4
+												name: "ticex:evolved"
+											}
+										]
+										tic_multipliers: {
+											"tconstruct:attack_speed": 2.6f
+											"tconstruct:durability": 1.1f
+											"tconstruct:mining_speed": 0.5f
+										}
+										tic_persistent: {
+											abilities: -4
+											"tconstruct:creative": {
+												abilities: 3
+												upgrades: 4
+											}
+											upgrades: -7
+										}
+										tic_stats: {
+											"tconstruct:armor_toughness": 1.0f
+											"tconstruct:attack_damage": 18.960001f
+											"tconstruct:attack_speed": 6.656f
+											"tconstruct:durability": 5068.8003f
+											"tconstruct:harvest_tier": "minecraft:netherite"
+											"tconstruct:knockback_resistance": 0.05f
+											"tconstruct:mining_speed": 12.5f
+											"tconstruct:velocity": 1.1f
+										}
+										tic_upgrades: [
+											{
+												level: 1
+												name: "ticex:konpaku"
+											}
+											{
+												level: 1
+												name: "ticex:enchantment_supplier"
+											}
+											{
+												level: 5
+												name: "tconstruct:reinforced"
+											}
+											{
+												level: 1
+												name: "tconstruct:creative_slot"
+											}
+											{
+												level: 1
+												name: "tconstruct:netherite"
+											}
+											{
+												level: 4
+												name: "ticex:evolved"
+											}
+											{
+												level: 1
+												name: "ticex:koshirae"
+											}
+											{
+												level: 1
+												name: "ticex:rebirth"
+											}
+										]
+										tic_volatile_data: {
+											abilities: 4
+											"tconstruct:indestructible": 1b
+											"tconstruct:rarity": 2
+											upgrades: 7
+										}
+									}
+								}]
+							}
+							RepairCost: 0
+							display: {
+								Lore: [ ]
+								Name: "{\"text\":\"§e拔刀剑小包\"}"
+								color: 10503245
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2563B21D1738D9B1"
+					table_id: 7463283479311544588L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "draconicevolution:draconic_guardian"
+				icon: "draconicevolution:dragon_heart"
+				id: "2E29499AF3200BDA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6B68168A5F90AC60"
+				"1770001C37B2F63D"
+				"5FF3AC358B702B02"
+				"4631894C0583BD96"
+				"65484590E67F0D4A"
+				"2D76A35CDE62FF47"
+				"30F3F84C2A67B4CE"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "ticex:reforged_slashblade"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:thorns"
+							lvl: 3s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 3s
+						}
+						{
+							id: "ars_nouveau:reactive"
+							lvl: 3s
+						}
+						{
+							id: "minecraft:power"
+							lvl: 5s
+						}
+						{
+							id: "mme:critical_strike"
+							lvl: 3s
+						}
+						{
+							id: "ensorcellation:soulbound"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:feather_falling"
+							lvl: 4s
+						}
+						{
+							id: "mme:sanction"
+							lvl: 5s
+						}
+						{
+							id: "mme:judgment"
+							lvl: 5s
+						}
+						{
+							id: "mme:life_steal"
+							lvl: 3s
+						}
+						{
+							id: "ensorcellation:leech"
+							lvl: 4s
+						}
+						{
+							id: "draconicevolution:reaper_enchantment"
+							lvl: 5s
+						}
+						{
+							id: "hmag:water_aspect"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:fire_protection"
+							lvl: 4s
+						}
+						{
+							id: "mme:winter_chill"
+							lvl: 3s
+						}
+						{
+							id: "mme:soul_siphon"
+							lvl: 1s
+						}
+						{
+							id: "enigmaticaddons:frost_aspect"
+							lvl: 2s
+						}
+						{
+							id: "enigmaticlegacy:slayer"
+							lvl: 5s
+						}
+					]
+					RepairCost: 0
+					bladeState: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						ModelName: "srelic:model/honkai/end_fire.obj"
+						RepairCounter: 265
+						SpecialAttackType: "srelic:neo_drive"
+						SpecialEffects: [
+							"srelic:flamerosion"
+							"srelic:maxbreak"
+						]
+						StandbyRenderType: 2b
+						SummonedSwordColor: -16384
+						SummonedSwordColorInverse: 0b
+						TargetEntity: -1
+						TextureName: "srelic:model/honkai/end_fire.png"
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						baseAttackModifier: 32.0f
+						currentCombo: "slashblade:none"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isDefaultBewitched: 1b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 674607L
+						maxDamage: 352
+						proudSoul: 401360
+						translationKey: "item.srelic.end_fire"
+					}
+					etstlib_tool_uuid: "b12a2d97-c5f6-4d64-8fcb-fa30db61b757"
+					tic_broken: 0b
+					tic_materials: [
+						"mushroom_daydream:pure_horror"
+						"ticex:chaotic"
+						"sakuratinker:nihilite"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "ticex:konpaku"
+						}
+						{
+							level: 1
+							name: "ticex:enchantment_supplier"
+						}
+						{
+							level: 1
+							name: "ticex:koshirae"
+						}
+						{
+							level: 1
+							name: "ticex:rebirth"
+						}
+						{
+							level: 5
+							name: "tconstruct:reinforced"
+						}
+						{
+							level: 1
+							name: "tconstruct:creative_slot"
+						}
+						{
+							level: 1
+							name: "tconstruct:netherite"
+						}
+						{
+							level: 1
+							name: "mushroom_daydream:sharp_shadow"
+						}
+						{
+							level: 1
+							name: "mushroom_daydream:evil_shadow"
+						}
+						{
+							level: 3
+							name: "ticex:soul_rending"
+						}
+						{
+							level: 3
+							name: "tconstruct:lacerating"
+						}
+						{
+							level: 1
+							name: "sakuratinker:soul_devourer"
+						}
+						{
+							level: 4
+							name: "ticex:evolved"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_speed": 2.6f
+						"tconstruct:durability": 1.1f
+						"tconstruct:mining_speed": 0.5f
+					}
+					tic_name: "天火圣裁「无尽终焉」"
+					tic_persistent: {
+						abilities: -4
+						"tconstruct:creative": {
+							abilities: 3
+							upgrades: 4
+						}
+						"ticex:op_storage": {
+							energy: 0
+						}
+						upgrades: -7
+					}
+					tic_stats: {
+						"tconstruct:attack_damage": 19.511253f
+						"tconstruct:attack_speed": 4.472f
+						"tconstruct:durability": 2488.728f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:mining_speed": 7.2375f
+						"tconstruct:velocity": 1.1f
+					}
+					tic_upgrades: [
+						{
+							level: 1
+							name: "ticex:konpaku"
+						}
+						{
+							level: 1
+							name: "ticex:enchantment_supplier"
+						}
+						{
+							level: 1
+							name: "ticex:koshirae"
+						}
+						{
+							level: 1
+							name: "ticex:rebirth"
+						}
+						{
+							level: 5
+							name: "tconstruct:reinforced"
+						}
+						{
+							level: 1
+							name: "tconstruct:creative_slot"
+						}
+						{
+							level: 1
+							name: "tconstruct:netherite"
+						}
+						{
+							level: 4
+							name: "ticex:evolved"
+						}
+					]
+					tic_volatile_data: {
+						abilities: 4
+						"tconstruct:indestructible": 1b
+						"tconstruct:rarity": 2
+						upgrades: 7
+					}
+				}
+			}
+			id: "44370B67B3DF9A25"
+			rewards: [{
+				id: "0DD471B9FAA27300"
+				item: {
+					Count: 1
+					id: "thermal:satchel"
+					tag: {
+						ItemInv: {
+							ItemInv: [{
+								Count: 1b
+								Slot: 0b
+								id: "ticex:reforged_slashblade"
+								tag: {
+									Damage: 0
+									Enchantments: [
+										{
+											id: "minecraft:thorns"
+											lvl: 3s
+										}
+										{
+											id: "minecraft:sweeping"
+											lvl: 3s
+										}
+										{
+											id: "ars_nouveau:reactive"
+											lvl: 3s
+										}
+										{
+											id: "minecraft:power"
+											lvl: 5s
+										}
+										{
+											id: "mme:critical_strike"
+											lvl: 3s
+										}
+										{
+											id: "ensorcellation:soulbound"
+											lvl: 1s
+										}
+										{
+											id: "minecraft:feather_falling"
+											lvl: 4s
+										}
+										{
+											id: "mme:sanction"
+											lvl: 5s
+										}
+										{
+											id: "mme:judgment"
+											lvl: 5s
+										}
+										{
+											id: "mme:life_steal"
+											lvl: 3s
+										}
+										{
+											id: "ensorcellation:leech"
+											lvl: 4s
+										}
+										{
+											id: "draconicevolution:reaper_enchantment"
+											lvl: 5s
+										}
+										{
+											id: "hmag:water_aspect"
+											lvl: 5s
+										}
+										{
+											id: "minecraft:fire_protection"
+											lvl: 4s
+										}
+										{
+											id: "mme:winter_chill"
+											lvl: 3s
+										}
+										{
+											id: "mme:soul_siphon"
+											lvl: 1s
+										}
+										{
+											id: "enigmaticaddons:frost_aspect"
+											lvl: 2s
+										}
+										{
+											id: "enigmaticlegacy:slayer"
+											lvl: 5s
+										}
+									]
+									RepairCost: 0
+									bladeState: {
+										AttackAmplifier: 0.0f
+										ComboRoot: "slashblade:standby"
+										Damage: 0
+										ModelName: "srelic:model/honkai/end_fire.obj"
+										RepairCounter: 265
+										SpecialAttackType: "srelic:neo_drive"
+										SpecialEffects: [
+											"srelic:flamerosion"
+											"srelic:maxbreak"
+										]
+										StandbyRenderType: 2b
+										SummonedSwordColor: -16384
+										SummonedSwordColorInverse: 0b
+										TargetEntity: -1
+										TextureName: "srelic:model/honkai/end_fire.png"
+										_onClick: 0b
+										adjustXYZ: [
+											0.0d
+											0.0d
+											0.0d
+										]
+										baseAttackModifier: 32.0f
+										currentCombo: "slashblade:none"
+										fallDecreaseRate: 0.0f
+										isBroken: 0b
+										isDefaultBewitched: 1b
+										isSealed: 0b
+										killCount: 0
+										lastActionTime: 674607L
+										maxDamage: 352
+										proudSoul: 401360
+										translationKey: "item.srelic.end_fire"
+									}
+									etstlib_tool_uuid: "b12a2d97-c5f6-4d64-8fcb-fa30db61b757"
+									tic_broken: 0b
+									tic_materials: [
+										"mushroom_daydream:pure_horror"
+										"ticex:chaotic"
+										"sakuratinker:nihilite"
+									]
+									tic_modifiers: [
+										{
+											level: 1
+											name: "ticex:konpaku"
+										}
+										{
+											level: 1
+											name: "ticex:enchantment_supplier"
+										}
+										{
+											level: 1
+											name: "ticex:koshirae"
+										}
+										{
+											level: 1
+											name: "ticex:rebirth"
+										}
+										{
+											level: 5
+											name: "tconstruct:reinforced"
+										}
+										{
+											level: 1
+											name: "tconstruct:creative_slot"
+										}
+										{
+											level: 1
+											name: "tconstruct:netherite"
+										}
+										{
+											level: 1
+											name: "mushroom_concept:b_sharw"
+										}
+										{
+											level: 3
+											name: "ticex:soul_rending"
+										}
+										{
+											level: 3
+											name: "tconstruct:lacerating"
+										}
+										{
+											level: 1
+											name: "sakuratinker:soul_devourer"
+										}
+										{
+											level: 4
+											name: "ticex:evolved"
+										}
+									]
+									tic_multipliers: {
+										"tconstruct:attack_speed": 2.6f
+										"tconstruct:durability": 1.1f
+										"tconstruct:mining_speed": 0.5f
+									}
+									tic_name: "天火圣裁「无尽终焉」"
+									tic_persistent: {
+										abilities: -4
+										"tconstruct:creative": {
+											abilities: 3
+											upgrades: 4
+										}
+										upgrades: -7
+									}
+									tic_stats: {
+										"tconstruct:armor_toughness": 1.0f
+										"tconstruct:attack_damage": 19.511253f
+										"tconstruct:attack_speed": 4.472f
+										"tconstruct:durability": 2488.728f
+										"tconstruct:harvest_tier": "minecraft:netherite"
+										"tconstruct:knockback_resistance": 0.05f
+										"tconstruct:mining_speed": 7.2375f
+										"tconstruct:velocity": 1.1f
+									}
+									tic_upgrades: [
+										{
+											level: 1
+											name: "ticex:konpaku"
+										}
+										{
+											level: 1
+											name: "ticex:enchantment_supplier"
+										}
+										{
+											level: 1
+											name: "ticex:koshirae"
+										}
+										{
+											level: 1
+											name: "ticex:rebirth"
+										}
+										{
+											level: 5
+											name: "tconstruct:reinforced"
+										}
+										{
+											level: 1
+											name: "tconstruct:creative_slot"
+										}
+										{
+											level: 1
+											name: "tconstruct:netherite"
+										}
+										{
+											level: 4
+											name: "ticex:evolved"
+										}
+									]
+									tic_volatile_data: {
+										abilities: 4
+										"tconstruct:indestructible": 1b
+										"tconstruct:rarity": 2
+										upgrades: 7
+									}
+								}
+							}]
+						}
+						RepairCost: 0
+						display: {
+							Lore: [ ]
+							Name: "{\"text\":\"§e拔刀剑小包\"}"
+							color: 12416634
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "540CA10014119FC6"
+				title: "章节奖励"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+	]
+	title: "·&d末地"
+}

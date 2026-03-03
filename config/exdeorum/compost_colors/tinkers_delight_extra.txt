@@ -1,0 +1,14 @@
+// Compost colors for tinkers_delight_extra. You may add your own colors, change existing ones, or remove colors that aren't needed.
+earth_slime_burger, #55a53c
+enchant_jeweled_melon_seeds, #46d9d3
+enchanted_golden_melon_seeds, #ffbe2c
+ender_slime_burger, #944eaf
+golden_melon_seeds, #ffbe2c
+ichor_slime_burger, #d34b1c
+jeweled_melon_seeds, #46d9d3
+melon_seeds, #836436
+pumpkin_seeds, #ffb655
+rose_gold_melon_seeds, #ffd7c2
+scorched_melon_seeds, #504036
+seared_melon_seeds, #4d4744
+sky_slime_burger, #5eb6ac

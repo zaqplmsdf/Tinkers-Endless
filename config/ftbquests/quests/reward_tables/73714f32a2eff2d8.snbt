@@ -1,0 +1,22 @@
+{
+	id: "73714F32A2EFF2D8"
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{ item: "curseofpandora:dried_brain" }
+		{ item: "curseofpandora:eroded_brain" }
+		{ item: "curseofpandora:rotten_brain" }
+		{ item: "curseofpandora:dried_spine" }
+		{ item: "curseofpandora:eroded_spine" }
+		{ item: "curseofpandora:rotten_spine" }
+		{ item: "curseofpandora:spellbound_orb" }
+		{ item: "curseofpandora:barbaric_blood" }
+		{ item: "curseofpandora:shadow_fragment" }
+		{ item: "curseofpandora:hellfire_rune" }
+		{ item: "curseofpandora:angelic_feather" }
+		{ item: "curseofpandora:sculk_crystal" }
+		{ item: "curseofpandora:barbaric_edge" }
+		{ item: "curseofpandora:mini_beacon_base" }
+	]
+	title: "潘多拉相关"
+}

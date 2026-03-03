@@ -1,0 +1,131 @@
+{
+	hide_tooltip: true
+	id: "3417E2D0EDDA7AD9"
+	loot_crate: {
+		color: 16733695
+		drops: {
+			boss: 1
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "术石盲盒"
+		string_id: "6"
+	}
+	loot_size: 1
+	order_index: 26
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "enigmaticaddons:revival_leaf"
+				tag: {
+					IsInitialized: 1b
+					baublesreforked.ModifierId: "healthy"
+					baublesreforked.ModifierUUID: "6a8cab0b-14c5-4c10-bdbb-22c3331e6a1a"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:ocean_stone"
+				tag: {
+					IsInitialized: 1b
+					baublesreforked.ModifierId: "samurai"
+					baublesreforked.ModifierUUID: "5f9753dd-0e58-46b4-b675-ef2a413a1929"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:blazing_core"
+				tag: {
+					IsInitialized: 1b
+					baublesreforked.ModifierId: "tough"
+					baublesreforked.ModifierUUID: "1c25bbc6-31a8-46dd-b59a-5ec98a089b00"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:golem_heart"
+				tag: {
+					IsInitialized: 1b
+					baublesreforked.ModifierId: "tough"
+					baublesreforked.ModifierUUID: "e23a27ac-7497-4307-8758-268a1bf31f97"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "enigmaticaddons:lost_engine"
+				tag: {
+					IsInitialized: 1b
+					baublesreforked.ModifierId: "swift"
+					baublesreforked.ModifierUUID: "2119c086-242b-49b9-b22f-1a93ebfe5ea6"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:angel_blessing"
+				tag: {
+					IsInitialized: 1b
+					baublesreforked.ModifierId: "armored"
+					baublesreforked.ModifierUUID: "5d3836c6-c1ee-4027-bf67-d29400d25424"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "enigmaticaddons:forgotten_ice"
+				tag: {
+					IsInitialized: 1b
+					baublesreforked.ModifierId: "juggernaut"
+					baublesreforked.ModifierUUID: "edd82d47-68f5-4b95-83a0-ee0d8e48081b"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:eye_of_nebula"
+				tag: {
+					IsInitialized: 1b
+					baublesreforked.ModifierId: "tank"
+					baublesreforked.ModifierUUID: "55ba2fea-5a2e-4035-9a8d-2a832e7e32da"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "enigmaticaddons:illusion_lantern"
+				tag: {
+					IsInitialized: 1b
+					baublesreforked.ModifierId: "healthy"
+					baublesreforked.ModifierUUID: "1505f74b-31db-418e-8a5a-6028b8301951"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:void_pearl"
+				tag: {
+					IsInitialized: 1b
+					baublesreforked.ModifierId: "steady"
+					baublesreforked.ModifierUUID: "789319c8-91e2-40e2-8323-62190df81d1a"
+				}
+			}
+		}
+	]
+	title: "术石"
+	use_title: true
+}

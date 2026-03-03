@@ -1,0 +1,323 @@
+{
+	id: "2FF16AB393FC6FB8"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkersjewelry:glowstone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkersjewelry:prehnite"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkersjewelry:sapphire"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkers_things:hematite"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tconstruct:necronium"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkersjewelry:diamond"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkersjewelry:lapis"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tconstruct:bone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkersjewelry:scute"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkersjewelry:echo_shard"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkersjewelry:earth_crystal"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkersjewelry:milky_quartz"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkersjewelry:malachite"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tconstruct:rock"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkersjewelry:eudialyte"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkersjewelry:calcite"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tconstruct:whitestone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkersjewelry:ender_crystal"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkersjewelry:cinnabar"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkersjewelry:merlinite"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tconstruct:venombone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkersjewelry:rubellite"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkersjewelry:redstone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkersjewelry:ruby"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkersjewelry:amethyst"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tconstruct:flint"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tconstruct:seared_stone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tconstruct:scorched_stone"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkersjewelry:ichor_crystal"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkersjewelry:fire_opal"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkersjewelry:heart_of_the_sea"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkersjewelry:prismarine_crystal"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkersjewelry:prismarine"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkersjewelry:prismarine"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tinkersjewelry:gem"
+				tag: {
+					Material: "tinkersjewelry:emerald"
+				}
+			}
+		}
+	]
+	title: "珠宝"
+}

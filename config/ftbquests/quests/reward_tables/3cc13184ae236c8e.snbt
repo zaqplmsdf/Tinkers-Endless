@@ -1,0 +1,75 @@
+{
+	hide_tooltip: true
+	id: "3CC13184AE236C8E"
+	loot_crate: {
+		color: 11184810
+		drops: {
+			boss: 0
+			monster: 1
+			passive: 1
+		}
+		glow: 1b
+		item_name: "石板盲盒"
+		string_id: "7"
+	}
+	loot_size: 1
+	order_index: 27
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:toxic_caves"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:primordial_caves"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:magnetic_caves"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:forlorn_hollows"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:candy_cavity"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:abyssal_chasm"
+				}
+			}
+		}
+	]
+	title: "石板"
+	use_title: true
+}

@@ -1,0 +1,5 @@
+{"type":"immersiveengineering:blueprint","category":"components","inputs":[
+    {"base_ingredient":{"item":"mysticalagradditions:insanium_essence"},"count": 10},
+    {"base_ingredient":{"item":"mysticalagradditions:insanium_ingot"},"count": 5},
+    {"base_ingredient":{"item":"mysticalagradditions:insanium_gemstone"},"count": 5}],
+    "result":{"item": "mysticalagradditions:creative_essence"}}

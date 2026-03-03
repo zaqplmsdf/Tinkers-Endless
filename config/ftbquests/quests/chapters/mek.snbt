@@ -1,0 +1,1470 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mek"
+	group: "63383AA57008A157"
+	icon: {
+		Count: 1
+		id: "mekanism:mekasuit_helmet"
+		tag: {
+			mekData: {
+				EnergyContainers: [{
+					Container: 0b
+					stored: "16000000"
+				}]
+			}
+		}
+	}
+	id: "1C4F5A7FC79FCBA5"
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				id: "mekanism:configurator"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "60000"
+						}]
+					}
+				}
+			}
+			id: "555498F182C5A066"
+			rewards: [{
+				id: "5B1533E69648BE9E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "由于本包提供了多方块结构的蓝图和跳转百科，故本教程极为简陋，仅用于提供大致方向和简单告知主要机器用途和简单提及不常用机器，如果需要详细说明，请到百科查看。PS.由于阶段限制，在未解锁对应阶段时会使用机械动力合成"
+			tasks: [{
+				id: "663427E308F199C2"
+				title: "Mek开始"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			id: "5B0884C4C00EBE23"
+			rewards: [{
+				id: "7D7B6A38FD4CC724"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "由于本包提供了创造电源兑换，因此本模块不做过多赘述"
+			tasks: [{
+				id: "52D0C0FD2E52F2F8"
+				title: "发电设备"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5B0884C4C00EBE23"]
+			id: "69EA4059A213C982"
+			rewards: [{
+				id: "31A0BA4ABC54950E"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "热能发电机用于把热能转换成能量。是最基础的发电机，发电效率较低，但是制造时不需要钢。并且可以将放入的任意燃料转化为熔岩(用管道抽出可以量产熔岩)"
+			tasks: [{
+				id: "77697554CCA3F22F"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5B0884C4C00EBE23"]
+			id: "7A958FB283991BEE"
+			rewards: [{
+				id: "40E3DDC175151425"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "太阳能发电机，白天发电"
+			tasks: [{
+				id: "01F05E1510B6DE02"
+				item: "mekanismgenerators:solar_generator"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7A958FB283991BEE"]
+			id: "28BD487D4F399092"
+			rewards: [{
+				id: "483B59513816DA74"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "升级版"
+			tasks: [{
+				id: "2A9D7F9172C74415"
+				item: "mekanismgenerators:advanced_solar_generator"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5B0884C4C00EBE23"]
+			id: "16B9CD87AE67EBEA"
+			rewards: [{
+				id: "16C76A50BB4F012E"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "廉价，实用，高效的发电设备，发电时，正上方不能有非透明方块阻挡，周围的方块不影响发电功率，发电功率根据其转轴的y轴高度（底座y轴值＋5）决定。注意！风力发电机的渲染非常耗CPU，因此请不要在一个区域内过于密集地摆放风力发电机。如果想要建造风力发电机阵列，请建造在离工厂较远的地方。"
+			tasks: [{
+				id: "7B138280BA626C43"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5B0884C4C00EBE23"]
+			id: "35139F4866FBF170"
+			rewards: [{
+				id: "6528B73FFDBCC9B2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0F0A5D64ED0B2E9B"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5B0884C4C00EBE23"]
+			id: "6EABD99EE5649021"
+			rewards: [{
+				id: "36B9B329DB681B33"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "能高效处理多余农作物。"
+			tasks: [{
+				id: "1F6A2D3B6B1CB47A"
+				item: "mekanismgenerators:bio_generator"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["652A3356D8EC6C8C"]
+			id: "049AB63440EEB722"
+			rewards: [{
+				id: "31A1F7C9BBC62A66"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "使用粉碎机，粉碎农作物获得。"
+			tasks: [{
+				id: "35AAF04DFF04B85A"
+				item: "mekanism:bio_fuel"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["555498F182C5A066"]
+			id: "7CDA109AAF4EA2F0"
+			rewards: [{
+				id: "706A7213352AA852"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "mek的初始机器，用于制作灌注合金和控制电路"
+			tasks: [{
+				id: "200B0999C8ABCD34"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7CDA109AAF4EA2F0"]
+			id: "2E9A21AA6F76B885"
+			rewards: [{
+				id: "16350EF9D1D65BB5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4FB3012ACC974580"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EA3CDCC5D294C4E"]
+			id: "0234066C53478216"
+			rewards: [{
+				id: "34B8BC871C9B4113"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "开局给的宝典里有，可以分别控制机器在不同的面上对物体、流体、气体等的输入/输出（前提是机器能输入/输出这种东西），但是在配置管道的输入/输出模式时任意一种配置模式都能达到相同的效果"
+			tasks: [{
+				id: "7C85CE67266F68B2"
+				item: "mekanism:configurator"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			id: "4960336FEA97EF77"
+			subtitle: "同样不多赘述，不过提供充电服务(这服务真的有用吗)"
+			tasks: [{
+				id: "16A844477FE7BD0F"
+				title: "存电设备"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0F3308A08380DB1D"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "mekanism:basic_energy_cube"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "4000000"
+						}]
+					}
+				}
+			}
+			id: "64D5696E9A9CE0D3"
+			repeatable: true
+			rewards: [{
+				id: "34AF445898228D17"
+				item: {
+					Count: 1
+					id: "mekanism:basic_energy_cube"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "4000000"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "5E4CDFA6E5D25919"
+					item: "mekanism:basic_energy_cube"
+					match_nbt: false
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "03AAF25D686C855D"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["65EE407CF55FD9C3"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "mekanism:advanced_energy_cube"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "16000000"
+						}]
+					}
+				}
+			}
+			id: "2F26F0C517F9A4D5"
+			rewards: [{
+				id: "0DA19CC3DA04EC43"
+				item: {
+					Count: 1
+					id: "mekanism:advanced_energy_cube"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "16000000"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "31E1BFC2D4B50251"
+					item: "mekanism:advanced_energy_cube"
+					match_nbt: false
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					count: 3L
+					id: "6EBAF618474F216E"
+					item: { Count: 3, id: "thermal:gold_coin" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4856753DCF2A8704"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "mekanism:elite_energy_cube"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "64000000"
+						}]
+					}
+				}
+			}
+			id: "226A2B13E37022C7"
+			rewards: [{
+				id: "5FB02E82E9778E25"
+				item: {
+					Count: 1
+					id: "mekanism:elite_energy_cube"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "64000000"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "11A51E3660B83A09"
+					item: "mekanism:elite_energy_cube"
+					match_nbt: false
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					count: 12L
+					id: "6068E8BD26214A74"
+					item: { Count: 12, id: "thermal:gold_coin" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2C4C3504B3EC4D43"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "mekanism:ultimate_energy_cube"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "256000000"
+						}]
+					}
+				}
+			}
+			id: "1154631139953643"
+			rewards: [{
+				id: "54A271FCA8F7FC23"
+				item: {
+					Count: 1
+					id: "mekanism:ultimate_energy_cube"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "256000000"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "7493FFE58ACC7DA0"
+					item: "mekanism:ultimate_energy_cube"
+					match_nbt: false
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					count: 56L
+					id: "53C79D24BF482F3A"
+					item: { Count: 56, id: "thermal:gold_coin" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4960336FEA97EF77"]
+			id: "0F3308A08380DB1D"
+			tasks: [{
+				id: "36D3BA66FEE2DB4B"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4960336FEA97EF77"]
+			id: "65EE407CF55FD9C3"
+			tasks: [{
+				id: "3FE01DE325465BF8"
+				item: "mekanism:advanced_energy_cube"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4960336FEA97EF77"]
+			id: "4856753DCF2A8704"
+			tasks: [{
+				id: "2EBB64C9D062930A"
+				item: "mekanism:elite_energy_cube"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4960336FEA97EF77"]
+			id: "2C4C3504B3EC4D43"
+			tasks: [{
+				id: "695A0F8F6189E797"
+				item: "mekanism:ultimate_energy_cube"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			id: "3AC30D67B63EF3FD"
+			subtitle: "此处仅展示基础，更高级请查看JEI，高级物品可以增加容量和传输速度，大部分管道都需要使用配置器调整抽出模式才能构从容器中抽取单位"
+			tasks: [{
+				id: "6E6D35057DF535BC"
+				type: "checkmark"
+			}]
+			title: "mek的线缆和管道"
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3AC30D67B63EF3FD"]
+			id: "48D3C99A33277AE9"
+			subtitle: "用于传输流体"
+			tasks: [{
+				id: "33BE699354B460C7"
+				item: "mekanism:basic_mechanical_pipe"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3AC30D67B63EF3FD"]
+			id: "1BFBF9B63ABC797F"
+			subtitle: "用于传输能量"
+			tasks: [{
+				id: "129F6FB32BA27006"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3AC30D67B63EF3FD"]
+			id: "68F5D9DBFA532F02"
+			subtitle: "用于传输气体(化学品)和灌注类型"
+			tasks: [{
+				id: "7C711ADE883F3B94"
+				item: "mekanism:basic_pressurized_tube"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3AC30D67B63EF3FD"]
+			id: "346004C3BFCC9DD3"
+			subtitle: "用于传输物品、方块"
+			tasks: [{
+				id: "3930BED86CBC08A9"
+				item: "mekanism:basic_logistical_transporter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3AC30D67B63EF3FD"]
+			id: "56752C13AB0AE86B"
+			subtitle: "用于传输热量"
+			tasks: [{
+				id: "120BA98C1297B935"
+				item: "mekanism:basic_thermodynamic_conductor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5E47B842AE33A50A"]
+			id: "319304CDFE3DA45A"
+			rewards: [{
+				id: "5F95573789E72FF6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "强大的采矿设备，使用forge:ores/* 匹配需要的（全部）矿物。"
+			tasks: [{
+				id: "726971C3EC65768C"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "1B4AF4C24830B32B"
+			tasks: [{
+				id: "01340D8C78837190"
+				item: "mekanism:upgrade_stone_generator"
+				type: "item"
+			}]
+			title: "升级"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7CDA109AAF4EA2F0"]
+			id: "41290C4C4B7A7764"
+			rewards: [{
+				id: "7654CF7B60D19615"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "59A75CB42D0FE9DA"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7BC5C36906399D38"]
+			id: "2478514755E0A22B"
+			rewards: [{
+				id: "43DD95E735F53100"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "可以提高矿物产量，富集材料可以提供更高的灌注类型"
+			tasks: [{
+				id: "27F2495243B9E71D"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7BC5C36906399D38"
+				"59CA263802E58B9B"
+			]
+			id: "652A3356D8EC6C8C"
+			tasks: [{
+				id: "130EF661C647AA50"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2E9A21AA6F76B885"]
+			id: "58A36160979B5978"
+			rewards: [{
+				id: "52B5086C358F7C57"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "00DBF1458DB1B4AB"
+				item: "mekanism:energy_tablet"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5B0884C4C00EBE23"
+				"7BC5C36906399D38"
+			]
+			id: "08FAF0B01FC0B941"
+			rewards: [{
+				id: "2C9E94FCEA73A4D4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "64F375FB92E4039D"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7CDA109AAF4EA2F0"]
+			id: "539182529FA836BD"
+			rewards: [{
+				id: "5B8A89324A29ADF9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "使用煤炭灌注铁锭获得，第一次灌注是富集铁，第二次是钢粉，使用熔炉烧纸钢粉得到钢锭"
+			tasks: [{
+				id: "033BDAAAB7D0B365"
+				item: "mekanism:ingot_steel"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			icon: "mekanism:qio_drive_array"
+			id: "663A7CC237714AC7"
+			rewards: [{
+				id: "1ECB9D355435A4CF"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "也是存储用，此处不多赘述，如有需要，请前往百科查看"
+			tasks: [
+				{
+					id: "17D2781861E81EA4"
+					item: "mekanism:qio_drive_array"
+					type: "item"
+				}
+				{
+					id: "487F6E65FA2BA33D"
+					item: "mekanism:qio_dashboard"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["663A7CC237714AC7"]
+			id: "1BA944F7DC383432"
+			subtitle: "任意维度都可以访问"
+			tasks: [{
+				id: "34B8901D21EEDC50"
+				item: "mekanism:portable_qio_dashboard"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["663A7CC237714AC7"]
+			id: "17B4F772BCF7A81E"
+			subtitle: "与外部设备交互的端口"
+			tasks: [
+				{
+					id: "70625AED6D3C5D01"
+					item: "mekanism:qio_importer"
+					type: "item"
+				}
+				{
+					id: "2C5060B80C3B489F"
+					item: "mekanism:qio_exporter"
+					type: "item"
+				}
+				{
+					id: "1FDE944E27E2F8FB"
+					item: "mekanism:qio_redstone_adapter"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			id: "0EA3CDCC5D294C4E"
+			subtitle: "以下两个是mek必备的配置工具"
+			tasks: [{
+				id: "2CE66B0C6F89C464"
+				title: "机器配置"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0EA3CDCC5D294C4E"]
+			id: "1B7B49729A2A501B"
+			rewards: [{
+				id: "0FD537FE0EAB40EF"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "可以移除机器内添加错的气体或液体，也可以向机器内添加气体或液体。Shift+右击可以清空滴量器中的内容物。提醒：滴管不能用于清理核废料，虽然你shift＋左键看到核废料消失后悠然退出GUI的样子很靓仔，但是你事后听到盖革计数器滴答响赶忙关闭反应堆的样子真的很狼狈。"
+			tasks: [{
+				id: "28924F19285FA8FC"
+				item: "mekanism:gauge_dropper"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			id: "59C14BB6DAFF5C96"
+			subtitle: "使用工厂安装器，shift右键可以升级放置状态下的机器，需要按阶段升级"
+			tasks: [{
+				id: "4A6BF3AF9FD15282"
+				title: "我不想把机器拆下来升级怎么办"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["59C14BB6DAFF5C96"]
+			id: "5CE564174E052208"
+			tasks: [{
+				id: "2CC8E7B8FCF2F2F2"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5CE564174E052208"]
+			id: "22A7D2080F74283A"
+			tasks: [{
+				id: "07B764FF53571765"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["22A7D2080F74283A"]
+			id: "1540F09F79A24133"
+			tasks: [{
+				id: "66A4AED954963889"
+				item: "mekanism:elite_tier_installer"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1540F09F79A24133"]
+			id: "15EB31EECD7D1029"
+			tasks: [{
+				id: "60BFCB924D0F3C4B"
+				item: "mekanism:ultimate_tier_installer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			id: "48A644C490211D9B"
+			subtitle: "可以给机器加装升级，升级有具体描述"
+			tasks: [{
+				id: "7F610B192D1BDD11"
+				title: "机器太慢了或者太吵了"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["48A644C490211D9B"]
+			id: "2AD15F00D2D3D88F"
+			tasks: [{
+				id: "2DE39F3FB74ED587"
+				item: "mekanism:upgrade_speed"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["48A644C490211D9B"]
+			id: "0DF2204E1AD24475"
+			tasks: [{
+				id: "6D0577E8DF342EBF"
+				item: "mekanism:upgrade_energy"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["48A644C490211D9B"]
+			id: "28AEDF3C1B5D4B01"
+			tasks: [{
+				id: "78A419E1A507D210"
+				item: "mekanism:upgrade_filter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["48A644C490211D9B"]
+			id: "00CF558FCF509106"
+			tasks: [{
+				id: "0C27FB0506212D7E"
+				item: "mekanism:upgrade_muffling"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["48A644C490211D9B"]
+			id: "74DE83CF2D82B504"
+			tasks: [{
+				id: "01A9CE8901AE147D"
+				item: "mekanism:upgrade_gas"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			id: "6C25CE27D282C8D6"
+			tasks: [{
+				id: "4ED14DF84DCE7720"
+				item: "mekanism:upgrade_anchor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["539182529FA836BD"]
+			id: "7BC5C36906399D38"
+			rewards: [{
+				id: "76C86795292E5BC1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6377D85F19B4D1E5"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"539182529FA836BD"
+				"7BC5C36906399D38"
+			]
+			id: "3B306EB432CF4AAB"
+			rewards: [{
+				id: "3808DD0A18960BBB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6909C4A0B411CB82"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7BC5C36906399D38"]
+			id: "43F6B8F6F183DFC0"
+			rewards: [{
+				id: "3BA099D887966899"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "775CAD59494A298E"
+				item: "mekanism:precision_sawmill"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43F6B8F6F183DFC0"]
+			id: "1AAFAC16DF79E48C"
+			subtitle: "什么都能搬，并且能保留方块NBT(我不知道啊，代码是这么写的)"
+			tasks: [{
+				id: "151EE18B73981C10"
+				item: "mekanism:cardboard_box"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BC5C36906399D38"]
+			id: "195025EEAF932B53"
+			rewards: [{
+				id: "50EB085BA65B6C6A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "17D3FF71101E7CF8"
+				item: "mekanism:combiner"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7BC5C36906399D38"]
+			id: "2B1C3797D67D7882"
+			rewards: [{
+				id: "2D9BA33043A15184"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4EBDDE0A0A59B49E"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7BC5C36906399D38"]
+			id: "2A474B160C32CA1E"
+			rewards: [{
+				id: "74F2EFEB4FC02FA5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "504C220F53D43C72"
+				item: "mekanism:chemical_injection_chamber"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B306EB432CF4AAB"]
+			id: "5E47B842AE33A50A"
+			rewards: [{
+				id: "11CC2AC58AA58DD9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "418FEF710C47A1CF"
+				item: "mekanism:robit"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			icon: "mekanism:mekasuit_helmet"
+			id: "24743F65C0FC5F95"
+			rewards: [{
+				id: "738251B7E8A75F8D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			size: 2.5d
+			subtitle: "非常强大"
+			tasks: [
+				{
+					id: "7A0585503CD5CF36"
+					item: "mekanism:mekasuit_helmet"
+					type: "item"
+				}
+				{
+					id: "771865E3F19EF0C7"
+					item: "mekanism:mekasuit_bodyarmor"
+					type: "item"
+				}
+				{
+					id: "72DFEFB1CC7F13EF"
+					item: "mekanism:mekasuit_pants"
+					type: "item"
+				}
+				{
+					id: "5BCA32EA44B1A0F9"
+					item: "mekanism:mekasuit_boots"
+					type: "item"
+				}
+			]
+			title: "Mek套装"
+			x: 1.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["49588860F6453F2C"]
+			id: "6D1D75342FA015A7"
+			rewards: [{
+				id: "620ABB0683EB5A7A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "395D2528C8D2B586"
+				item: "mekanism:meka_tool"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "76B224FA18435861"
+			rewards: [{
+				id: "61C2426978C563F6"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "放入mek套装改装"
+			tasks: [{
+				id: "59B01B57FD85A9C7"
+				item: "mekanism:modification_station"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "19399A40B545606C"
+			subtitle: "制作单元，给mek套装加装"
+			tasks: [{
+				id: "3343E9FC89B25714"
+				item: "mekanism:module_base"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "30D60DCEF956C898"
+			subtitle: "工具也能浇筑"
+			tasks: [{
+				id: "6CFECEC7D6550188"
+				item: {
+					Count: 1
+					id: "ticex:catalyst_meka_tool"
+					tag: {
+						Material: "ticex:reconstruction"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "0D4AB71568C6B0D5"
+			subtitle: "使用星构素浇筑制作"
+			tasks: [
+				{
+					id: "09015DF0D39CED17"
+					item: {
+						Count: 1
+						id: "ticex:catalyst_mekasuit_helmet"
+						tag: {
+							Material: "ticex:reconstruction"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EA7C74CB1F64EC2"
+					item: {
+						Count: 1
+						id: "ticex:catalyst_mekasuit_chestplate"
+						tag: {
+							Material: "ticex:reconstruction"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A6F3A2511EBF203"
+					item: {
+						Count: 1
+						id: "ticex:catalyst_mekasuit_leggings"
+						tag: {
+							Material: "ticex:reconstruction"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53897193C060C3DE"
+					item: {
+						Count: 1
+						id: "ticex:catalyst_mekasuit_boots"
+						tag: {
+							Material: "ticex:reconstruction"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1584D450B0911032"]
+			id: "19DBD86D9EBEA970"
+			tasks: [{
+				id: "07D54A9ED4667CFE"
+				item: { Count: 2, id: "mekanism:pellet_polonium" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7B05C9B4E61ED392"]
+			id: "70C67DB101640EC3"
+			tasks: [{
+				id: "400B6EA953ED1F6C"
+				item: "mekanism:basic_induction_cell"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4B6A23D50352E1CD"]
+			id: "422F69194BE5A839"
+			subtitle: "富集后获取"
+			tasks: [{
+				id: "08A45520B612F4FD"
+				item: "mekanism:hdpe_sheet"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["223C80B0B4578E3A"]
+			id: "728C0D317D5550BA"
+			tasks: [{
+				id: "6B2F1041EA265DA1"
+				item: "mekanism:substrate"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2478514755E0A22B"
+				"049AB63440EEB722"
+				"3C12B0CA06DAC5DA"
+			]
+			id: "223C80B0B4578E3A"
+			subtitle: "加水和氢气制取基片和乙烯(乙烯可以发电)"
+			tasks: [{
+				id: "1A2C9E018D439E24"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			id: "3C12B0CA06DAC5DA"
+			subtitle: "电解制取氢气和氧气"
+			tasks: [{
+				id: "061B0EF9A7B99869"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			id: "59CA263802E58B9B"
+			subtitle: "作为mek套制作原材料，下面是制作方法"
+			tasks: [{
+				id: "13A5AC919049F3A0"
+				title: "乙烯制取"
+				type: "checkmark"
+			}]
+			title: "高密度乙烯片制取"
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["223C80B0B4578E3A"]
+			id: "41B9C1BE3687719D"
+			subtitle: "导入乙烯转化为液态"
+			tasks: [{
+				id: "4B6DF351E2783917"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"728C0D317D5550BA"
+				"41B9C1BE3687719D"
+			]
+			id: "4B6A23D50352E1CD"
+			subtitle: "将氧气和液态乙烯、基片放入加压反应室内"
+			tasks: [{
+				id: "363BF6D2A730C0F5"
+				item: "mekanism:hdpe_pellet"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "1584D450B0911032"
+			subtitle: "请前往反物质靶丸章节查看"
+			tasks: [{
+				id: "5F87DF9F6C8A7A39"
+				title: "1"
+				type: "checkmark"
+			}]
+			title: "靶丸制备"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "49588860F6453F2C"
+			rewards: [{
+				id: "619A9C1FE9AA32D0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "559F502374DD226C"
+				item: "mekanism:atomic_disassembler"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["663A7CC237714AC7"]
+			id: "2664191A93E1CFD2"
+			tasks: [{
+				id: "7B37532FF580F064"
+				item: "mekanism:qio_drive_base"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2664191A93E1CFD2"]
+			id: "57E0BDCEBB76C135"
+			tasks: [{
+				id: "29D54E8045452EF0"
+				item: "mekanism:qio_drive_hyper_dense"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["57E0BDCEBB76C135"]
+			id: "2906653F0D29D0D3"
+			tasks: [{
+				id: "70CB0EE6AC3EAA07"
+				item: "mekanism:qio_drive_time_dilating"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2906653F0D29D0D3"]
+			id: "787A9C31C3DED9FA"
+			tasks: [{
+				id: "13F8DC3982390DBB"
+				item: "mekanism:qio_drive_supermassive"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			id: "627617F77DF96D91"
+			rewards: [{
+				id: "4DEF55CF25D93837"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "蒸馏制取液态锂，多方快结构，请查看百科"
+			tasks: [
+				{
+					id: "3A8711D8A1247498"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+				{
+					id: "04C3B7577F1EECE7"
+					item: "mekanism:thermal_evaporation_valve"
+					type: "item"
+				}
+				{
+					id: "43EAD1D0318F46FA"
+					item: "mekanism:thermal_evaporation_block"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["627617F77DF96D91"]
+			id: "6E12FA3635D05019"
+			rewards: [{
+				id: "3DDB39637082B1F2"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "将液态锂转化成锂"
+			tasks: [{
+				id: "1953F416CC2BC908"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6E12FA3635D05019"]
+			id: "6EA1E8BE731084CF"
+			rewards: [{
+				id: "312FAAF28ECB2122"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "将锂导入结晶成锂粉"
+			tasks: [{
+				id: "2A6086E43349A5FF"
+				item: "mekanism:chemical_crystallizer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6EA1E8BE731084CF"]
+			id: "7B05C9B4E61ED392"
+			tasks: [{
+				id: "373A77FD0120A35C"
+				item: "mekanism:dust_lithium"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			id: "17A6788B7DEC0D39"
+			subtitle: "其他物品暂不说明(如有需要再添加)"
+			tasks: [{
+				id: "65027DA60CB4F5C1"
+				title: "其他mek物品"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+	]
+	subtitle: ["&b感谢群友.栖松听风的提供"]
+	title: "·&b[Mek]通用机械"
+}

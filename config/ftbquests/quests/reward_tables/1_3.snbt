@@ -1,0 +1,23 @@
+{
+	icon: "thermal:copper_coin"
+	id: "0CB6246485D13BEB"
+	loot_crate: {
+		color: 16755200
+		drops: {
+			boss: 3
+			monster: 1
+			passive: 1
+		}
+		glow: 1b
+		item_name: "铜币箱"
+		string_id: "1"
+	}
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "thermal:copper_coin", weight: 20.0f }
+		{ count: 10, item: "thermal:copper_coin", weight: 3.0f }
+		{ count: 15, item: "thermal:copper_coin" }
+	]
+	title: "1"
+}

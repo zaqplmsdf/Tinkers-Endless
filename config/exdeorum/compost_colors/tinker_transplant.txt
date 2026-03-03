@@ -1,0 +1,6 @@
+// Compost colors for tinker_transplant. You may add your own colors, change existing ones, or remove colors that aren't needed.
+arrowhead_cast, #ffff91
+arrowhead_red_sand_cast, #ffaa50
+arrowhead_sand_cast, #fffff7
+feather, #ffffff
+paper, #ffffff

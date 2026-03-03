@@ -1,0 +1,20 @@
+{
+	id: "36B9A9E22C377D10"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{
+			command: "/gamerule doInsomnia false"
+			elevate_perms: true
+			title: "关闭"
+			type: "command"
+		}
+		{
+			command: "/gamerule doInsomnia true"
+			elevate_perms: true
+			title: "开启"
+			type: "command"
+		}
+	]
+	title: "幻翼生成"
+}

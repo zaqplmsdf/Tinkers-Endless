@@ -1,0 +1,6293 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_repeatable_quest: true
+	disable_toast: true
+	filename: "5691DFEC5062C876"
+	group: "200DE5ABA2A71E38"
+	icon: "thermal:netherite_coin"
+	id: "5691DFEC5062C876"
+	images: [
+		{
+			height: 3.0d
+			image: "thermal:item/netherite_coin_0"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependency: "35ACD1962D72E6DF"
+			height: 1.0d
+			image: "avaritia:item/tools/infinity_crossbow/pull_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			height: 1.5d
+			image: "thermal:item/bronze_coin_0"
+			rotation: 0.0d
+			width: 1.5d
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			height: 1.5d
+			image: "thermal:item/invar_coin_1"
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			height: 1.5d
+			image: "thermal:item/gold_coin_2"
+			rotation: 0.0d
+			width: 1.5d
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "thermal:item/enderium_coin_3"
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/invar_coin_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/gold_coin_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/enderium_coin_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/netherite_coin_4"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/enderium_coin_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/gold_coin_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/invar_coin_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/bronze_coin_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/netherite_coin_4"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/enderium_coin_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/enderium_coin_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/bronze_coin_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/gold_coin_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/gold_coin_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/invar_coin_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/invar_coin_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/bronze_coin_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/invar_coin_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/gold_coin_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/enderium_coin_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/netherite_coin_4"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/enderium_coin_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/gold_coin_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/invar_coin_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/bronze_coin_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/netherite_coin_4"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/enderium_coin_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/enderium_coin_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/gold_coin_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/invar_coin_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/gold_coin_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/enderium_coin_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/netherite_coin_4"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/enderium_coin_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/gold_coin_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/invar_coin_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/bronze_coin_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/invar_coin_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/enderium_coin_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/netherite_coin_4"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/enderium_coin_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/invar_coin_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/bronze_coin_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/gold_coin_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/gold_coin_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/invar_coin_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/invar_coin_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/gold_coin_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/gold_coin_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/enderium_coin_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/enderium_coin_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/netherite_coin_4"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/netherite_coin_4"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/enderium_coin_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/enderium_coin_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/gold_coin_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: -10
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			height: 4.0d
+			image: "draconicevolution:block/draconium_ore_overlay"
+			rotation: 0.0d
+			width: 4.0d
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			height: 6.0d
+			image: "avaritia:item/resource/singularity/eternal_singularity2"
+			rotation: 0.0d
+			width: 6.0d
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/cat"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 2.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["0A92EF96F43A3085"]
+			icon: "ringsofascension:ring_flight"
+			id: "7A53AF1FE631EDB0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "143197554C15C79B"
+				table_id: 6490705181109698767L
+				team_reward: true
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1038CBAA8CE26D1B"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			title: "指环"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2663F92195AC57A6"]
+			icon: "botania:lens_storm"
+			id: "63FA2833ACF59A5C"
+			rewards: [{
+				auto: "enabled"
+				id: "615085DAA166F71F"
+				item: "botania:lens_storm"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1A7BE2119AE8C5FC"
+				item: "kubejs:cat"
+				type: "item"
+			}]
+			title: "&5魔力透镜"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2663F92195AC57A6"]
+			icon: "botania:creative_pool"
+			id: "277D01CD9833EF79"
+			rewards: [{
+				auto: "enabled"
+				id: "4DE6D1180DC6A147"
+				item: "botania:creative_pool"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2C49F02A75B4BD5B"
+				item: "kubejs:cat"
+				type: "item"
+			}]
+			title: "&d永恒魔力池"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2663F92195AC57A6"]
+			icon: {
+				Count: 1
+				id: "botania:mana_tablet"
+				tag: {
+					creative: 1b
+					mana: 500000
+				}
+			}
+			id: "3EA1EE97392788BA"
+			rewards: [{
+				auto: "enabled"
+				id: "32C94193134BBB57"
+				item: {
+					Count: 1
+					id: "botania:mana_tablet"
+					tag: {
+						creative: 1b
+						mana: 500000
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2E281BF71E7A473C"
+				item: "kubejs:cat"
+				type: "item"
+			}]
+			title: "&d创造石板"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2663F92195AC57A6"]
+			icon: {
+				Count: 1
+				id: "tacz:ammo_box"
+				tag: {
+					Creative: 1b
+				}
+			}
+			id: "795EBC849D644E6E"
+			rewards: [{
+				auto: "enabled"
+				id: "7FF04BB1F7455FAD"
+				item: {
+					Count: 1
+					id: "tacz:ammo_box"
+					tag: {
+						Creative: 1b
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "737195BBCE44BE87"
+				item: { Count: 32, id: "thermal:netherite_coin" }
+				type: "item"
+			}]
+			title: "&1创造弹药盒"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2663F92195AC57A6"]
+			icon: {
+				Count: 1
+				id: "tacz:ammo_box"
+				tag: {
+					AllTypeCreative: 1b
+				}
+			}
+			id: "1EF667B867E7FF17"
+			rewards: [{
+				auto: "enabled"
+				id: "403113BBAFB9F8E3"
+				item: {
+					Count: 1
+					id: "tacz:ammo_box"
+					tag: {
+						AllTypeCreative: 1b
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "7CB71A656BCA583D"
+					item: { Count: 64, id: "thermal:netherite_coin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "134D6807F2452003"
+					item: {
+						Count: 1
+						id: "tacz:ammo_box"
+						tag: {
+							Creative: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&5全类型创造弹药盒"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2663F92195AC57A6"]
+			icon: "createaddition:creative_energy"
+			id: "45C9596E0ECAD394"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "1DEB3D8703D26B6F"
+					item: "createaddition:creative_energy"
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "5687FDDDF2066187"
+					item: "create:creative_motor"
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "3984E4AC0EC6FCCC"
+					item: "immersiveengineering:capacitor_creative"
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "0A018667CD415E29"
+					item: "create:creative_fluid_tank"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "3B89BB2C61E88EE8"
+				item: "kubejs:cat"
+				type: "item"
+			}]
+			title: "&6应力与电力"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2663F92195AC57A6"]
+			icon: {
+				Count: 1
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "abilities"
+				}
+			}
+			id: "34A5D8AAFCFFB02C"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "58241A3C88C28F9A"
+					item: "kubejs:creative_2"
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "71E97A6B441367EB"
+					item: "kubejs:creative_3"
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "197E910987348131"
+					item: "kubejs:creative_1"
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "1640E807CEF40452"
+					item: "kubejs:creative_4"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "55424718E9CF292F"
+				item: "kubejs:cat"
+				type: "item"
+			}]
+			title: "&6创造槽位"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2663F92195AC57A6"]
+			icon: "botania:creative_pool"
+			id: "03AAC324C616EB34"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "0F58714F8F0C3FCE"
+					item: "botania:creative_pool"
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "4DF34A5B9AD75946"
+					item: "botania:lens_storm"
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "55CB77DEEF4A2E00"
+					item: {
+						Count: 1
+						id: "botania:mana_tablet"
+						tag: {
+							creative: 1b
+							mana: 500000
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "08EC71A2827F2B52"
+				item: "kubejs:cat"
+				type: "item"
+			}]
+			title: "&a植物魔法三件套"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2663F92195AC57A6"]
+			icon: "ars_nouveau:creative_source_jar"
+			id: "58ACE806754485D0"
+			rewards: [{
+				auto: "enabled"
+				id: "5ED6A3F88052BAA3"
+				item: "ars_nouveau:creative_source_jar"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "51A2B876BF6736CF"
+				item: "kubejs:cat"
+				type: "item"
+			}]
+			title: "&5创造魔源罐"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2663F92195AC57A6"]
+			icon: {
+				Count: 1
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "abilities"
+				}
+			}
+			id: "6E3408A7D12CC1B2"
+			rewards: [{
+				auto: "enabled"
+				id: "23149C0C28810480"
+				item: "kubejs:creative_2"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5D2EED45C5420B57"
+				item: "kubejs:cat"
+				type: "item"
+			}]
+			title: "能力槽"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2663F92195AC57A6"]
+			icon: {
+				Count: 1
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "upgrades"
+				}
+			}
+			id: "788370A9F3DB202E"
+			rewards: [{
+				auto: "enabled"
+				id: "20CB1989BF8C7C2D"
+				item: "kubejs:creative_1"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "683DA13EF8C53AF7"
+				item: "kubejs:cat"
+				type: "item"
+			}]
+			title: "升级槽"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2663F92195AC57A6"]
+			icon: {
+				Count: 1
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "defense"
+				}
+			}
+			id: "6503934B0944B4AD"
+			rewards: [{
+				auto: "enabled"
+				id: "624EDFB22E0AD0B2"
+				item: "kubejs:creative_3"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3D356CF4F5A8E8D8"
+				item: "kubejs:cat"
+				type: "item"
+			}]
+			title: "防御槽"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2663F92195AC57A6"]
+			icon: {
+				Count: 1
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "souls"
+				}
+			}
+			id: "60434C6D94A4456C"
+			rewards: [{
+				auto: "enabled"
+				id: "20C8527C3FC21960"
+				item: "kubejs:creative_4"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "64E1CE9D5CF993C4"
+				item: "kubejs:cat"
+				type: "item"
+			}]
+			title: "灵魂槽"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2663F92195AC57A6"]
+			icon: "createaddition:creative_energy"
+			id: "2037B1B9E30D2864"
+			rewards: [{
+				auto: "enabled"
+				id: "575A9E68E0D6E727"
+				item: "createaddition:creative_energy"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1AB233FC27C40F14"
+				item: "kubejs:cat"
+				type: "item"
+			}]
+			title: "创造发电机"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2663F92195AC57A6"]
+			icon: "create:creative_motor"
+			id: "3E759725DB5743D3"
+			rewards: [{
+				auto: "enabled"
+				id: "0F6CCB272C66B2C0"
+				item: "create:creative_motor"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5AB270CAC7A3ECC7"
+				item: "kubejs:cat"
+				type: "item"
+			}]
+			title: "创造马达"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2663F92195AC57A6"]
+			icon: "immersiveengineering:capacitor_creative"
+			id: "5B1AE08BB2C0E58C"
+			rewards: [{
+				auto: "enabled"
+				id: "1FDD2AB8A95996D8"
+				item: "immersiveengineering:capacitor_creative"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2DBC7E42310E4CFA"
+				item: "kubejs:cat"
+				type: "item"
+			}]
+			title: "创造蓄电池"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2663F92195AC57A6"]
+			description: ["推荐使用通用机械的&e机械管道&r"]
+			icon: "create:creative_fluid_tank"
+			id: "4218A8CF62E5C386"
+			rewards: [{
+				auto: "enabled"
+				id: "1622705A926A0D1B"
+				item: "create:creative_fluid_tank"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "提供无限的流体（需要管道提取）"
+			tasks: [{
+				consume_items: true
+				id: "74573A593E6B1AA0"
+				item: "kubejs:cat"
+				type: "item"
+			}]
+			title: "创造流体储罐"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"2663F92195AC57A6"
+				"1AD033F330CB07A6"
+			]
+			icon: "botania:bauble_box"
+			id: "3C22DBED3A91F1A3"
+			rewards: [{
+				auto: "enabled"
+				id: "457A7B6C5863F9E6"
+				table_id: 7463283479311544588L
+				team_reward: false
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5419FBC730A491DC"
+				item: "thermal:netherite_coin"
+				type: "item"
+			}]
+			title: "抽卡"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2663F92195AC57A6"]
+			icon: "enigmaticlegacy:soul_crystal"
+			id: "5AA62A99B00ADF68"
+			rewards: [{
+				id: "4FC03EA577049BB8"
+				item: "enigmaticlegacy:soul_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "73860827801FA85F"
+				item: "thermal:enderium_coin"
+				type: "item"
+			}]
+			title: "灵魂"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"没用的东西可以拿来换钱"
+				"（所以我为什么不直接卖进转化桌？）"
+			]
+			id: "20F14AA83DDD8100"
+			rewards: [{
+				auto: "enabled"
+				id: "1C0BF057BBDEB482"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "原版工具已全部禁用"
+			tasks: [{
+				id: "3F90D9B5DE8AF6D7"
+				title: "确认"
+				type: "checkmark"
+			}]
+			title: "一个简单的说明"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: false
+			description: ["这里是一些创造模式专属物品"]
+			id: "2663F92195AC57A6"
+			tasks: [{
+				id: "590ADE9907F083F7"
+				title: "兑换窗口"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20F14AA83DDD8100"]
+			id: "0862121F49B46AEA"
+			rewards: [{
+				auto: "enabled"
+				id: "31F0806702B234C7"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7C3FEE0D21787DE3"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20F14AA83DDD8100"]
+			id: "3B9BF9BA57F731DA"
+			rewards: [{
+				auto: "enabled"
+				id: "1AC5EB0CB6A40103"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "677D488FF515FBF4"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20F14AA83DDD8100"]
+			id: "4F09E8E3A27B3B15"
+			rewards: [{
+				auto: "enabled"
+				id: "033E39C889A43560"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2C7193B5CB7A8D47"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20F14AA83DDD8100"]
+			id: "443A641BF3EAF3C2"
+			rewards: [{
+				auto: "enabled"
+				id: "427ECB031E46BC41"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "2319B30929ACB5BE"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20F14AA83DDD8100"]
+			id: "14AA5197C906A6C8"
+			rewards: [{
+				auto: "enabled"
+				id: "28E2954503C261DF"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2582D64D7FDAC31F"
+				item: {
+					Count: 1
+					id: "minecraft:stone_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20F14AA83DDD8100"]
+			id: "49B0D16A2A6F968F"
+			rewards: [{
+				auto: "enabled"
+				id: "1727DF3E57757062"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4C934EE65E34CBA8"
+				item: {
+					Count: 1
+					id: "minecraft:stone_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20F14AA83DDD8100"]
+			id: "0D84DD8969884487"
+			rewards: [{
+				auto: "enabled"
+				id: "0A4AF2D29EFB5800"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2B1E33623D5CF026"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20F14AA83DDD8100"]
+			id: "39047F9255C1CDD8"
+			rewards: [{
+				auto: "enabled"
+				id: "6AC6712A8FD25601"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "631E9D65DA9BB67B"
+				item: {
+					Count: 1
+					id: "minecraft:stone_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20F14AA83DDD8100"]
+			id: "15648728E1D6DEE5"
+			rewards: [{
+				auto: "enabled"
+				id: "1C9C7667C064E4F6"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "41FB6A8DEA7956C1"
+				item: {
+					Count: 1
+					id: "minecraft:iron_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20F14AA83DDD8100"]
+			id: "111AB9412D5738D0"
+			rewards: [{
+				auto: "enabled"
+				id: "3C20351089C433D7"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1FC1CEFDA6DEDB77"
+				item: {
+					Count: 1
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20F14AA83DDD8100"]
+			id: "085DCDAFBD3E13F3"
+			rewards: [{
+				auto: "enabled"
+				id: "789037E2553EBBD4"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "78606D99ED89490C"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20F14AA83DDD8100"]
+			id: "3842C6A50FBC4308"
+			rewards: [{
+				auto: "enabled"
+				id: "4D980D2488036133"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "291C95FB23299726"
+				item: {
+					Count: 1
+					id: "minecraft:iron_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20F14AA83DDD8100"]
+			id: "2289B1F1F72BD916"
+			rewards: [{
+				auto: "enabled"
+				id: "0FC9CD566E9CA3FE"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6E1950ED8DA0CE61"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20F14AA83DDD8100"]
+			id: "5FC0FCF3A6FF3544"
+			rewards: [{
+				auto: "enabled"
+				id: "3403964255FE8662"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "15C8E74F7B1D0316"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20F14AA83DDD8100"]
+			id: "24B9F05FEE1E847F"
+			rewards: [{
+				auto: "enabled"
+				id: "1B51EC07E0D957DE"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3E1CCF173149B8BF"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20F14AA83DDD8100"]
+			id: "50E29D03176C7164"
+			rewards: [{
+				auto: "enabled"
+				id: "64A61EE04DFF132A"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7FAEA0CEC6A3DACE"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20F14AA83DDD8100"]
+			id: "7AC0BCFBF2A1CD42"
+			rewards: [{
+				auto: "enabled"
+				id: "27E36605FDB46A04"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "12427E9448EF959A"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20F14AA83DDD8100"]
+			id: "1F22C1C8EBBA7CE6"
+			rewards: [{
+				auto: "enabled"
+				id: "39CD222CFB0AB114"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1B3F4EC96AEF42F9"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20F14AA83DDD8100"]
+			id: "0FA75966AC62B9A6"
+			rewards: [{
+				auto: "enabled"
+				id: "5E157A6338A97F4E"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0C4884D3FDF61B43"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20F14AA83DDD8100"]
+			id: "2E4580BBF5C920A0"
+			rewards: [{
+				auto: "enabled"
+				id: "659E742FFA373A6E"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "63F8958013DBE949"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"送的&e阿卡什宝典&r已含有&e除匠魂教程书&r以外的&4几乎所有&r教程书"
+				"多余的可以拿来换钱"
+			]
+			id: "30A65566832E7492"
+			tasks: [{
+				id: "6ADC10F6A03F0626"
+				type: "checkmark"
+			}]
+			title: "多余的教程书"
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["30A65566832E7492"]
+			id: "34EAB643931FCDB1"
+			rewards: [{
+				auto: "enabled"
+				id: "3ED370F0952CF957"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2F62C627BC5EF80A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:lectern_books"
+					}
+				}
+				title: "Any #minecraft:lectern_books"
+				type: "item"
+			}]
+			title: "一部分"
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["30A65566832E7492"]
+			id: "7397A67EBEBE2E20"
+			rewards: [{
+				auto: "enabled"
+				id: "2F67D6315BF6F2D7"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "317F2744EB2715B2"
+				item: "mekanism:dictionary"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["30A65566832E7492"]
+			id: "19AB8076996AEC95"
+			rewards: [{
+				auto: "enabled"
+				id: "7FBFC338AE9AB4C1"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "58E9FAD88BD7AE64"
+				item: "alexsmobs:animal_dictionary"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["30A65566832E7492"]
+			id: "55AA25C692DDE71A"
+			rewards: [{
+				auto: "enabled"
+				id: "2FD1CE72368EEBB1"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0A0D7E5A34CC599C"
+				item: "alexscaves:cave_book"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["30A65566832E7492"]
+			id: "4B098ECC494028CD"
+			rewards: [{
+				auto: "enabled"
+				id: "60EDAAF65F96C923"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4C5DDD4CEF086FD8"
+				item: "enigmaticlegacy:the_acknowledgment"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["30A65566832E7492"]
+			id: "20F7265D53386024"
+			rewards: [{
+				auto: "enabled"
+				id: "636CA3677AD0A93B"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2A53E350FBD99C4D"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["30A65566832E7492"]
+			id: "53F1F0F0A073D4A8"
+			rewards: [{
+				auto: "enabled"
+				id: "5D6FB089F45CD634"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "75C6F2D7C631355A"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["30A65566832E7492"]
+			id: "1A77B60AF9B7E142"
+			rewards: [{
+				auto: "enabled"
+				id: "53EF5668D1E73CC2"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3D641965D7FF9B75"
+				item: "aether:book_of_lore"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["30A65566832E7492"]
+			id: "3A76C995960DBCC8"
+			rewards: [{
+				auto: "enabled"
+				id: "78B6B849442487A7"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "172A1B19FE9A168B"
+				item: {
+					Count: 1
+					id: "iceandfire:bestiary"
+					tag: {
+						Pages: [I;0]
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["30A65566832E7492"]
+			id: "7929CA0D50C187EF"
+			rewards: [{
+				auto: "enabled"
+				id: "1E0B7FBA631250B5"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "63919B77849155D1"
+				item: "tinkersjewelry:book"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["30A65566832E7492"]
+			id: "013E3AF36491E4C2"
+			rewards: [{
+				auto: "enabled"
+				id: "75C3DA6727754723"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "46E3B1B6BA0B8959"
+				item: "nffgirls:mob_dictionary"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["30A65566832E7492"]
+			icon: "nffgirlsgaia:mob_dictionary"
+			id: "48D966A62FF9DEF1"
+			rewards: [{
+				auto: "enabled"
+				id: "31372F9268513468"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "055C353BACA3A8AF"
+				item: "nffgirlsgaia:mob_dictionary"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["30A65566832E7492"]
+			id: "5B1C9A15E6F09452"
+			rewards: [{
+				auto: "enabled"
+				id: "4B07BCA1F86ED78B"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7D57920868FB9A8B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 0
+						}
+					}
+					id: "mg_secrets_of_mermaids:of_mermaids_and_other_sea_monsters"
+					tag: {
+						Inventory: {
+							Items: [ ]
+							Size: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["30A65566832E7492"]
+			id: "6E9732C4618957B3"
+			rewards: [{
+				auto: "enabled"
+				id: "00588A364053E913"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "760A18F2B858CCD2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 0
+						}
+					}
+					id: "monsters_and_girls:monster_girls_bestiary"
+					tag: {
+						Inventory: {
+							Items: [ ]
+							Size: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: false
+			id: "0A92EF96F43A3085"
+			tasks: [{
+				id: "49BD344875FCA3E6"
+				type: "checkmark"
+			}]
+			title: "一些小东西的兑换"
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0A92EF96F43A3085"]
+			description: [
+				"用炉子融化后看合成表"
+				"（tacz枪械、拔刀剑、铁魔法法术书等）"
+			]
+			disable_toast: true
+			icon: "ticex:flickering_reconstruction_core"
+			id: "53F65073CCEFAEF6"
+			rewards: [{
+				auto: "enabled"
+				id: "43C07B7CC3CDAB5E"
+				item: "ticex:flickering_reconstruction_core"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "414F401536C7AE9C"
+				item: "thermal:netherite_coin"
+				type: "item"
+			}]
+			title: "用于重铸某些装备"
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["35ACD1962D72E6DF"]
+			description: [
+				"&m是的，它其实可以升级！&r"
+				"&m在升级到最高等级前，只能修复，千万&4不能强化&r"
+				"&m否则将无法继续升级"
+				""
+				"&c由于现版本已可以正常替换连弩部件，因此该任务条目已无效&r"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tinkers_thinking:repeating_crossbow"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: ["{\"text\":\"§6没想到吧，其实是可以升级的！\"}"]
+						Name: "{\"text\":\"§f稍加强化骨弩\"}"
+					}
+					etstlib_tool_uuid: "9d089d4d-32ea-4ce0-ac74-1128b56152ec"
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:bone"
+						"tconstruct:bone"
+						"cloudertinker:arctic_fur"
+					]
+					tic_modifiers: [
+						{
+							level: 2
+							name: "tconstruct:pierce"
+						}
+						{
+							level: 1
+							name: "cloudertinker:twilight"
+						}
+						{
+							level: 1
+							name: "cloudertinker:frosttought"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.6f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:accuracy": 0.85f
+						"tconstruct:attack_damage": 3.25f
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:draw_speed": 0.85f
+						"tconstruct:durability": 120.0f
+						"tconstruct:velocity": 0.95f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			id: "2D3009F79EEB42BA"
+			rewards: [{
+				id: "4FAE7A8423119904"
+				item: {
+					Count: 1
+					id: "tinkers_thinking:repeating_crossbow"
+					tag: {
+						Damage: 0
+						display: {
+							Lore: ["{\"text\":\"§6没想到吧，其实是可以升级的！\"}"]
+							Name: "{\"text\":\"§f稍加强化骨弩\"}"
+						}
+						etstlib_tool_uuid: "9d089d4d-32ea-4ce0-ac74-1128b56152ec"
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:bone"
+							"tconstruct:bone"
+							"cloudertinker:arctic_fur"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+							{
+								level: 2
+								name: "tconstruct:pierce"
+							}
+							{
+								level: 1
+								name: "cloudertinker:twilight"
+							}
+							{
+								level: 1
+								name: "cloudertinker:frosttought"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.6f
+						}
+						tic_persistent: {
+							abilities: -1
+							"tconstruct:creative": {
+								upgrades: -2
+							}
+						}
+						tic_stats: {
+							"tconstruct:accuracy": 0.85f
+							"tconstruct:attack_damage": 3.25f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:draw_speed": 0.85f
+							"tconstruct:durability": 120.0f
+							"tconstruct:velocity": 0.95f
+						}
+						tic_upgrades: [
+							{
+								level: 1
+								name: "tinker_transplant:reload_tinker_arrows"
+							}
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+						]
+						tic_volatile_data: {
+							abilities: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "78853AAC9941BF0D"
+					item: {
+						Count: 1
+						id: "tinkers_thinking:repeating_crossbow"
+						tag: {
+							Damage: 0
+							display: {
+								Lore: ["{\"text\":\"§6可以一次性装填三根箭，但是无法升级\"}"]
+								Name: "{\"text\":\"§7前途渺茫连弩\"}"
+							}
+							etstlib_tool_uuid: "bd534006-fafa-4bf7-95aa-98addda3a071"
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:wood"
+								"tconstruct:wood"
+								"cloudertinker:arctic_fur"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+								{
+									level: 2
+									name: "tconstruct:cultivated"
+								}
+								{
+									level: 2
+									name: "mushroom_daydream:ecological"
+								}
+								{
+									level: 1
+									name: "cloudertinker:twilight"
+								}
+								{
+									level: 1
+									name: "cloudertinker:frosttought"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.6f
+							}
+							tic_persistent: {
+								abilities: -1
+								"tconstruct:creative": {
+									upgrades: -2
+								}
+							}
+							tic_stats: {
+								"tconstruct:attack_damage": 1.0f
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:draw_speed": 0.8f
+								"tconstruct:durability": 96.0f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tinker_transplant:reload_tinker_arrows"
+								}
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					count: 64L
+					id: "20391CA8C97808D7"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "56453283C042D465"
+					item: { Count: 16, id: "thermal:copper_coin" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["2D3009F79EEB42BA"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tinkers_thinking:repeating_crossbow"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: [
+							"{\"text\":\"§6二次升级后已经是龙骨材质了\"}"
+							"{\"text\":\"§6用“龙之骨”修复\"}"
+						]
+						Name: "{\"text\":\"§f龙骨弩\"}"
+					}
+					etstlib_tool_uuid: "35497cc7-87f9-428c-a909-f846debc6c58"
+					tic_broken: 0b
+					tic_materials: [
+						"mushroom_concept:dragonbone"
+						"mushroom_concept:dragonbone"
+						"cloudertinker:arctic_fur"
+					]
+					tic_modifiers: [
+						{
+							level: 2
+							name: "mushroom_concept:dragon_angry"
+						}
+						{
+							level: 4
+							name: "tconstruct:pierce"
+						}
+						{
+							level: 1
+							name: "cloudertinker:twilight"
+						}
+						{
+							level: 1
+							name: "cloudertinker:frosttought"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.6f
+					}
+					tic_persistent: {
+						abilities: -1
+					}
+					tic_stats: {
+						"tconstruct:accuracy": 0.85f
+						"tconstruct:attack_damage": 8.0f
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:draw_speed": 0.85f
+						"tconstruct:durability": 873.60004f
+						"tconstruct:velocity": 1.05f
+					}
+					tic_upgrades: [{
+						level: 1
+						name: "tinker_transplant:reload_tinker_arrows"
+					}]
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			id: "5FA6F54893508DE3"
+			rewards: [{
+				id: "0CB65D7E4A450D5A"
+				item: {
+					Count: 1
+					id: "tinkers_thinking:repeating_crossbow"
+					tag: {
+						Damage: 0
+						display: {
+							Lore: [
+								"{\"text\":\"§6二次升级后已经是龙骨材质了\"}"
+								"{\"text\":\"§6用“龙之骨”修复\"}"
+							]
+							Name: "{\"text\":\"§f龙骨弩\"}"
+						}
+						etstlib_tool_uuid: "35497cc7-87f9-428c-a909-f846debc6c58"
+						tic_broken: 0b
+						tic_materials: [
+							"mushroom_concept:dragonbone"
+							"mushroom_concept:dragonbone"
+							"cloudertinker:arctic_fur"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+							{
+								level: 2
+								name: "mushroom_concept:dragon_angry"
+							}
+							{
+								level: 4
+								name: "tconstruct:pierce"
+							}
+							{
+								level: 1
+								name: "cloudertinker:twilight"
+							}
+							{
+								level: 1
+								name: "cloudertinker:frosttought"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.6f
+						}
+						tic_persistent: {
+							abilities: -1
+							"tconstruct:creative": {
+								upgrades: -2
+							}
+						}
+						tic_stats: {
+							"tconstruct:accuracy": 0.85f
+							"tconstruct:attack_damage": 8.0f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:draw_speed": 0.85f
+							"tconstruct:durability": 873.60004f
+							"tconstruct:velocity": 1.05f
+						}
+						tic_upgrades: [
+							{
+								level: 1
+								name: "tinker_transplant:reload_tinker_arrows"
+							}
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+						]
+						tic_volatile_data: {
+							abilities: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "48DB478A06363D88"
+					item: {
+						Count: 1
+						id: "tinkers_thinking:repeating_crossbow"
+						tag: {
+							Damage: 0
+							display: {
+								Lore: ["{\"text\":\"§6没想到吧，其实是可以升级的！\"}"]
+								Name: "{\"text\":\"§f稍加强化骨弩\"}"
+							}
+							etstlib_tool_uuid: "9d089d4d-32ea-4ce0-ac74-1128b56152ec"
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:bone"
+								"tconstruct:bone"
+								"cloudertinker:arctic_fur"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+								{
+									level: 2
+									name: "tconstruct:pierce"
+								}
+								{
+									level: 1
+									name: "cloudertinker:twilight"
+								}
+								{
+									level: 1
+									name: "cloudertinker:frosttought"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.6f
+							}
+							tic_persistent: {
+								abilities: -1
+								"tconstruct:creative": {
+									upgrades: -2
+								}
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 0.85f
+								"tconstruct:attack_damage": 3.25f
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:draw_speed": 0.85f
+								"tconstruct:durability": 120.0f
+								"tconstruct:velocity": 0.95f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tinker_transplant:reload_tinker_arrows"
+								}
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					count: 64L
+					id: "5412004FD955FA39"
+					item: { Count: 64, id: "iceandfire:dragonbone" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "1E79F361AF7B00F1"
+					item: { Count: 64, id: "thermal:copper_coin" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0A92EF96F43A3085"]
+			icon: "minecraft:netherite_upgrade_smithing_template"
+			id: "10E81872EDDF22F4"
+			rewards: [{
+				auto: "enabled"
+				id: "535D30630F1597D0"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "418E79EDFA684D84"
+				item: "thermal:netherite_coin"
+				type: "item"
+			}]
+			title: "锻造模板"
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["5FA6F54893508DE3"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tinkers_thinking:repeating_crossbow"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: [
+							"{\"text\":\"§bCRAZY DIAMOND!!!\"}"
+							"{\"text\":\"§B使用钻石修复\"}"
+						]
+						Name: "{\"text\":\"§b疯狂钻石\"}"
+					}
+					etstlib_tool_uuid: "276b00a0-6a5c-48da-ad14-33a7e1bfbcff"
+					tic_broken: 0b
+					tic_materials: [
+						"tinkerscalibration:diamond"
+						"tinkerscalibration:diamond"
+						"cloudertinker:arctic_fur"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "tconstruct:diamond"
+						}
+						{
+							level: 2
+							name: "tinkerscalibration:glisten"
+						}
+						{
+							level: 1
+							name: "cloudertinker:twilight"
+						}
+						{
+							level: 1
+							name: "cloudertinker:frosttought"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.6f
+					}
+					tic_persistent: {
+						abilities: -1
+					}
+					tic_stats: {
+						"tconstruct:accuracy": 0.85f
+						"tconstruct:attack_damage": 3.5f
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:draw_speed": 1.1f
+						"tconstruct:durability": 2000.0f
+						"tconstruct:harvest_tier": "minecraft:diamond"
+						"tconstruct:projectile_damage": 2.5f
+						"tconstruct:velocity": 1.1f
+					}
+					tic_upgrades: [
+						{
+							level: 1
+							name: "tconstruct:diamond"
+						}
+						{
+							level: 1
+							name: "tinker_transplant:reload_tinker_arrows"
+						}
+					]
+					tic_volatile_data: {
+						abilities: 1
+						"tconstruct:rarity": 1
+						upgrades: 2
+					}
+				}
+			}
+			id: "28E22C4759382E22"
+			rewards: [{
+				id: "706131F37C20AE93"
+				item: {
+					Count: 1
+					id: "tinkers_thinking:repeating_crossbow"
+					tag: {
+						Damage: 0
+						display: {
+							Lore: [
+								"{\"text\":\"§bCRAZY DIAMOND!!!\"}"
+								"{\"text\":\"§B使用钻石修复\"}"
+							]
+							Name: "{\"text\":\"§b疯狂钻石\"}"
+						}
+						etstlib_tool_uuid: "276b00a0-6a5c-48da-ad14-33a7e1bfbcff"
+						tic_broken: 0b
+						tic_materials: [
+							"tinkerscalibration:diamond"
+							"tinkerscalibration:diamond"
+							"cloudertinker:arctic_fur"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "tconstruct:diamond"
+							}
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+							{
+								level: 2
+								name: "tinkerscalibration:glisten"
+							}
+							{
+								level: 1
+								name: "cloudertinker:twilight"
+							}
+							{
+								level: 1
+								name: "cloudertinker:frosttought"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.6f
+						}
+						tic_persistent: {
+							abilities: -1
+							"tconstruct:creative": {
+								upgrades: -2
+							}
+						}
+						tic_stats: {
+							"tconstruct:accuracy": 0.85f
+							"tconstruct:attack_damage": 3.5f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:draw_speed": 1.1f
+							"tconstruct:durability": 2000.0f
+							"tconstruct:harvest_tier": "minecraft:diamond"
+							"tconstruct:projectile_damage": 2.5f
+							"tconstruct:velocity": 1.1f
+						}
+						tic_upgrades: [
+							{
+								level: 1
+								name: "tconstruct:diamond"
+							}
+							{
+								level: 1
+								name: "tinker_transplant:reload_tinker_arrows"
+							}
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+						]
+						tic_volatile_data: {
+							abilities: 1
+							"tconstruct:rarity": 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "167E1DF6F3299B2E"
+					item: {
+						Count: 1
+						id: "tinkers_thinking:repeating_crossbow"
+						tag: {
+							Damage: 0
+							display: {
+								Lore: [
+									"{\"text\":\"§6二次升级后已经是龙骨材质了\"}"
+									"{\"text\":\"§6用“龙之骨”修复\"}"
+								]
+								Name: "{\"text\":\"§f龙骨弩\"}"
+							}
+							etstlib_tool_uuid: "35497cc7-87f9-428c-a909-f846debc6c58"
+							tic_broken: 0b
+							tic_materials: [
+								"mushroom_concept:dragonbone"
+								"mushroom_concept:dragonbone"
+								"cloudertinker:arctic_fur"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+								{
+									level: 2
+									name: "mushroom_concept:dragon_angry"
+								}
+								{
+									level: 4
+									name: "tconstruct:pierce"
+								}
+								{
+									level: 1
+									name: "cloudertinker:twilight"
+								}
+								{
+									level: 1
+									name: "cloudertinker:frosttought"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.6f
+							}
+							tic_persistent: {
+								abilities: -1
+								"tconstruct:creative": {
+									upgrades: -2
+								}
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 0.85f
+								"tconstruct:attack_damage": 8.0f
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:draw_speed": 0.85f
+								"tconstruct:durability": 873.60004f
+								"tconstruct:velocity": 1.05f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tinker_transplant:reload_tinker_arrows"
+								}
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					count: 64L
+					id: "43156F871C0BC3A7"
+					item: { Count: 64, id: "minecraft:diamond" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7064B5C8D35A07BA"
+					item: { Count: 8, id: "thermal:silver_coin" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["28E22C4759382E22"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tinkers_thinking:repeating_crossbow"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: [
+							"{\"text\":\"§6是的，需要用合金锭修复\"}"
+							"{\"text\":\"§6不要尝试给它用远古残骸，否则就无法继续进化了\"}"
+						]
+						Name: "{\"text\":\"§8下界合金连弩\"}"
+					}
+					etstlib_tool_uuid: "0854e1a3-9f14-427d-afec-467404fe7094"
+					tic_broken: 0b
+					tic_materials: [
+						"tinkerscalibration:netherite"
+						"tinkerscalibration:netherite"
+						"cloudertinker:arctic_fur"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "tconstruct:diamond"
+						}
+						{
+							level: 3
+							name: "tconstruct:netherite"
+						}
+						{
+							level: 2
+							name: "tinkerscalibration:blacksmith"
+						}
+						{
+							level: 1
+							name: "cloudertinker:twilight"
+						}
+						{
+							level: 1
+							name: "cloudertinker:frosttought"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.6f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:accuracy": 0.8f
+						"tconstruct:attack_damage": 4.2000003f
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:draw_speed": 0.7f
+						"tconstruct:durability": 4008.9604f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:projectile_damage": 2.5f
+						"tconstruct:velocity": 1.32f
+					}
+					tic_upgrades: [
+						{
+							level: 1
+							name: "tconstruct:diamond"
+						}
+						{
+							level: 1
+							name: "tconstruct:netherite"
+						}
+					]
+					tic_volatile_data: {
+						abilities: 1
+						"tconstruct:indestructible": 1b
+						"tconstruct:rarity": 2
+						upgrades: 2
+					}
+				}
+			}
+			id: "0DB056201386F955"
+			rewards: [{
+				id: "1D72A1380D1F7370"
+				item: {
+					Count: 1
+					id: "tinkers_thinking:repeating_crossbow"
+					tag: {
+						Damage: 0
+						display: {
+							Lore: [
+								"{\"text\":\"§6对，没错，需要下界合金锭修复\"}"
+								"{\"text\":\"§6不要尝试用下界合金碎片修复，会附上一个强化导致无法继续升级\"}"
+							]
+							Name: "{\"text\":\"§8下界合金连弩\"}"
+						}
+						etstlib_tool_uuid: "0854e1a3-9f14-427d-afec-467404fe7094"
+						tic_broken: 0b
+						tic_materials: [
+							"tinkerscalibration:netherite"
+							"tinkerscalibration:netherite"
+							"cloudertinker:arctic_fur"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "tconstruct:diamond"
+							}
+							{
+								level: 3
+								name: "tconstruct:netherite"
+							}
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+							{
+								level: 2
+								name: "tinkerscalibration:blacksmith"
+							}
+							{
+								level: 1
+								name: "cloudertinker:twilight"
+							}
+							{
+								level: 1
+								name: "cloudertinker:frosttought"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.6f
+						}
+						tic_persistent: {
+							abilities: -1
+							"tconstruct:creative": {
+								upgrades: -2
+							}
+						}
+						tic_stats: {
+							"tconstruct:accuracy": 0.8f
+							"tconstruct:attack_damage": 4.2000003f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:draw_speed": 0.7f
+							"tconstruct:durability": 4008.9604f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:projectile_damage": 2.5f
+							"tconstruct:velocity": 1.32f
+						}
+						tic_upgrades: [
+							{
+								level: 1
+								name: "tconstruct:diamond"
+							}
+							{
+								level: 1
+								name: "tconstruct:netherite"
+							}
+							{
+								level: 1
+								name: "tinker_transplant:reload_tinker_arrows"
+							}
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+						]
+						tic_volatile_data: {
+							abilities: 1
+							"tconstruct:indestructible": 1b
+							"tconstruct:rarity": 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5F9F75BABA9234FB"
+					item: {
+						Count: 1
+						id: "tinkers_thinking:repeating_crossbow"
+						tag: {
+							Damage: 0
+							display: {
+								Lore: [
+									"{\"text\":\"§bCRAZY DIAMOND!!!\"}"
+									"{\"text\":\"§B使用钻石修复\"}"
+								]
+								Name: "{\"text\":\"§b疯狂钻石\"}"
+							}
+							etstlib_tool_uuid: "276b00a0-6a5c-48da-ad14-33a7e1bfbcff"
+							tic_broken: 0b
+							tic_materials: [
+								"tinkerscalibration:diamond"
+								"tinkerscalibration:diamond"
+								"cloudertinker:arctic_fur"
+							]
+							tic_modifiers: [
+								{
+									level: 3
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+								{
+									level: 2
+									name: "tinkerscalibration:glisten"
+								}
+								{
+									level: 1
+									name: "cloudertinker:twilight"
+								}
+								{
+									level: 1
+									name: "cloudertinker:frosttought"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.6f
+							}
+							tic_persistent: {
+								abilities: -1
+								"tconstruct:creative": {
+									upgrades: -2
+								}
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 0.85f
+								"tconstruct:attack_damage": 3.5f
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:draw_speed": 1.1f
+								"tconstruct:durability": 2000.0f
+								"tconstruct:harvest_tier": "minecraft:diamond"
+								"tconstruct:projectile_damage": 2.5f
+								"tconstruct:velocity": 1.1f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tinker_transplant:reload_tinker_arrows"
+								}
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+								"tconstruct:rarity": 1
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "3DF8176E2655D306"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "320B06E5568DDFC5"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0DB056201386F955"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tinkers_thinking:repeating_crossbow"
+				tag: {
+					Damage: 0
+					etstlib_tool_uuid: "e47f6823-bf09-45e5-ba50-fa9f35ba5038"
+					tic_broken: 0b
+					tic_materials: [
+						"tinkerscalibration:darkmatter"
+						"tinkerscalibration:darkmatter"
+						"cloudertinker:arctic_fur"
+					]
+					tic_modifiers: [
+						{
+							level: 2
+							name: "tinkerscalibration:subdue"
+						}
+						{
+							level: 1
+							name: "cloudertinker:twilight"
+						}
+						{
+							level: 1
+							name: "cloudertinker:frosttought"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.6f
+					}
+					tic_persistent: {
+						abilities: -1
+					}
+					tic_stats: {
+						"tconstruct:accuracy": 1.0f
+						"tconstruct:attack_damage": 3.0f
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:durability": 2208.0f
+						"tconstruct:velocity": 1.05f
+					}
+					tic_upgrades: [{
+						level: 1
+						name: "tinker_transplant:reload_tinker_arrows"
+					}]
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			id: "5B7684C49402F3C1"
+			rewards: [{
+				id: "4806D49786B529EB"
+				item: {
+					Count: 1
+					id: "tinkers_thinking:repeating_crossbow"
+					tag: {
+						Damage: 0
+						display: {
+							Lore: [
+								"{\"text\":\"§c这是一把暗物质连弩！\"}"
+								"{\"text\":\"§c用暗物质（等价交换的）修复\"}"
+							]
+							Name: "{\"text\":\"§c黑洞物质\"}"
+						}
+						etstlib_tool_uuid: "e47f6823-bf09-45e5-ba50-fa9f35ba5038"
+						tic_broken: 0b
+						tic_materials: [
+							"tinkerscalibration:darkmatter"
+							"tinkerscalibration:darkmatter"
+							"cloudertinker:arctic_fur"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+							{
+								level: 2
+								name: "tinkerscalibration:subdue"
+							}
+							{
+								level: 1
+								name: "cloudertinker:twilight"
+							}
+							{
+								level: 1
+								name: "cloudertinker:frosttought"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.6f
+						}
+						tic_persistent: {
+							abilities: -1
+							"tconstruct:creative": {
+								upgrades: -2
+							}
+						}
+						tic_stats: {
+							"tconstruct:accuracy": 1.0f
+							"tconstruct:attack_damage": 3.0f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:durability": 2208.0f
+							"tconstruct:velocity": 1.05f
+						}
+						tic_upgrades: [
+							{
+								level: 1
+								name: "tinker_transplant:reload_tinker_arrows"
+							}
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+						]
+						tic_volatile_data: {
+							abilities: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0C1A79B457BE5E15"
+					item: {
+						Count: 1
+						id: "tinkers_thinking:repeating_crossbow"
+						tag: {
+							Damage: 0
+							display: {
+								Lore: [
+									"{\"text\":\"§6对，没错，需要下界合金锭修复\"}"
+									"{\"text\":\"§6不要尝试用下界合金碎片修复，会附上一个强化导致无法继续升级\"}"
+								]
+								Name: "{\"text\":\"§8下界合金连弩\"}"
+							}
+							etstlib_tool_uuid: "0854e1a3-9f14-427d-afec-467404fe7094"
+							tic_broken: 0b
+							tic_materials: [
+								"tinkerscalibration:netherite"
+								"tinkerscalibration:netherite"
+								"cloudertinker:arctic_fur"
+							]
+							tic_modifiers: [
+								{
+									level: 3
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 3
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+								{
+									level: 2
+									name: "tinkerscalibration:blacksmith"
+								}
+								{
+									level: 1
+									name: "cloudertinker:twilight"
+								}
+								{
+									level: 1
+									name: "cloudertinker:frosttought"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.6f
+							}
+							tic_persistent: {
+								abilities: -1
+								"tconstruct:creative": {
+									upgrades: -2
+								}
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 0.8f
+								"tconstruct:attack_damage": 4.2000003f
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:draw_speed": 0.7f
+								"tconstruct:durability": 4008.9604f
+								"tconstruct:harvest_tier": "minecraft:netherite"
+								"tconstruct:projectile_damage": 2.5f
+								"tconstruct:velocity": 1.32f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tinker_transplant:reload_tinker_arrows"
+								}
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+								"tconstruct:indestructible": 1b
+								"tconstruct:rarity": 2
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					count: 64L
+					id: "1A4A8046CFCC08CD"
+					item: { Count: 64, id: "projecte:dark_matter" }
+					type: "item"
+				}
+				{
+					id: "1CD3B52E3D769D18"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0DB056201386F955"]
+			icon: {
+				Count: 1
+				id: "tinkers_thinking:repeating_crossbow"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: [
+							"{\"text\":\"§b钻石晶格与下界之星的完美结合\"}"
+							"{\"text\":\"§b使用水晶矩阵锭修复\"}"
+						]
+						Name: "{\"text\":\"§b星尘闪烁之弩\"}"
+					}
+					etstlib_tool_uuid: "31928035-93db-4b94-a787-dd04f107d9db"
+					tic_broken: 0b
+					tic_materials: [
+						"sakuratinker:crystal_matrix"
+						"sakuratinker:crystal_matrix"
+						"cloudertinker:arctic_fur"
+					]
+					tic_modifiers: [
+						{
+							level: 2
+							name: "sakuratinker:crystalline"
+						}
+						{
+							level: 1
+							name: "cloudertinker:twilight"
+						}
+						{
+							level: 1
+							name: "cloudertinker:frosttought"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.6f
+					}
+					tic_persistent: {
+						abilities: -1
+					}
+					tic_stats: {
+						"tconstruct:accuracy": 1.0f
+						"tconstruct:attack_damage": 11.0f
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:draw_speed": 1.1f
+						"tconstruct:durability": 1920.0f
+						"tconstruct:velocity": 1.3f
+					}
+					tic_upgrades: [{
+						level: 1
+						name: "tinker_transplant:reload_tinker_arrows"
+					}]
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			id: "3BA9DE6AAEC181E7"
+			rewards: [{
+				id: "55CD99CF05B3D51F"
+				item: {
+					Count: 1
+					id: "tinkers_thinking:repeating_crossbow"
+					tag: {
+						Damage: 0
+						display: {
+							Lore: [
+								"{\"text\":\"§b钻石晶格与下界之星的完美结合\"}"
+								"{\"text\":\"§b使用水晶矩阵锭修复\"}"
+							]
+							Name: "{\"text\":\"§b星尘闪烁之弩\"}"
+						}
+						etstlib_tool_uuid: "31928035-93db-4b94-a787-dd04f107d9db"
+						tic_broken: 0b
+						tic_materials: [
+							"sakuratinker:crystal_matrix"
+							"sakuratinker:crystal_matrix"
+							"cloudertinker:arctic_fur"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+							{
+								level: 2
+								name: "sakuratinker:crystalline"
+							}
+							{
+								level: 1
+								name: "cloudertinker:twilight"
+							}
+							{
+								level: 1
+								name: "cloudertinker:frosttought"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.6f
+						}
+						tic_persistent: {
+							abilities: -1
+							"tconstruct:creative": {
+								upgrades: -2
+							}
+						}
+						tic_stats: {
+							"tconstruct:accuracy": 1.0f
+							"tconstruct:attack_damage": 11.0f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:draw_speed": 1.1f
+							"tconstruct:durability": 1920.0f
+							"tconstruct:velocity": 1.3f
+						}
+						tic_upgrades: [
+							{
+								level: 1
+								name: "tinker_transplant:reload_tinker_arrows"
+							}
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+						]
+						tic_volatile_data: {
+							abilities: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3F0D67F3C3208D69"
+					item: {
+						Count: 1
+						id: "tinkers_thinking:repeating_crossbow"
+						tag: {
+							Damage: 0
+							display: {
+								Lore: [
+									"{\"text\":\"§c这是一把暗物质连弩！\"}"
+									"{\"text\":\"§c用暗物质（等价交换的）修复\"}"
+								]
+								Name: "{\"text\":\"§c黑洞物质\"}"
+							}
+							etstlib_tool_uuid: "e47f6823-bf09-45e5-ba50-fa9f35ba5038"
+							tic_broken: 0b
+							tic_materials: [
+								"tinkerscalibration:darkmatter"
+								"tinkerscalibration:darkmatter"
+								"cloudertinker:arctic_fur"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+								{
+									level: 2
+									name: "tinkerscalibration:subdue"
+								}
+								{
+									level: 1
+									name: "cloudertinker:twilight"
+								}
+								{
+									level: 1
+									name: "cloudertinker:frosttought"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.6f
+							}
+							tic_persistent: {
+								abilities: -1
+								"tconstruct:creative": {
+									upgrades: -2
+								}
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 1.0f
+								"tconstruct:attack_damage": 3.0f
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:durability": 2208.0f
+								"tconstruct:velocity": 1.05f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tinker_transplant:reload_tinker_arrows"
+								}
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					count: 64L
+					id: "765FCD297BABBEE4"
+					item: { Count: 64, id: "avaritia:crystal_matrix_ingot" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "167CE96F5C7B29E7"
+					item: { Count: 16, id: "thermal:gold_coin" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0DB056201386F955"]
+			icon: {
+				Count: 1
+				id: "tinkers_thinking:repeating_crossbow"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: [
+							"{\"text\":\"§4距离最终形态已经很近了！\"}"
+							"{\"text\":\"§4使用纯粹恐惧修复\"}"
+						]
+						Name: "{\"text\":\"§4恐惧龙颅连弩\"}"
+					}
+					etstlib_tool_uuid: "6c8b72ab-6c1a-43cc-8d5c-57ecb46b9113"
+					tic_broken: 0b
+					tic_materials: [
+						"mushroom_daydream:pure_horror"
+						"mushroom_daydream:pure_horror"
+						"cloudertinker:arctic_fur"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tconstruct:creative_slot"
+						}
+						{
+							level: 2
+							name: "mushroom_daydream:sharp_shadow"
+						}
+						{
+							level: 2
+							name: "mushroom_daydream:evil_shadow"
+						}
+						{
+							level: 1
+							name: "cloudertinker:twilight"
+						}
+						{
+							level: 1
+							name: "cloudertinker:frosttought"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.6f
+					}
+					tic_persistent: {
+						abilities: -1
+						"tconstruct:creative": {
+							upgrades: -2
+						}
+					}
+					tic_stats: {
+						"tconstruct:accuracy": 1.0f
+						"tconstruct:attack_damage": 8.0f
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:draw_speed": 0.65f
+						"tconstruct:durability": 1305.6f
+						"tconstruct:velocity": 1.25f
+					}
+					tic_upgrades: [
+						{
+							level: 1
+							name: "tinker_transplant:reload_tinker_arrows"
+						}
+						{
+							level: 1
+							name: "tconstruct:creative_slot"
+						}
+					]
+					tic_volatile_data: {
+						abilities: 1
+					}
+				}
+			}
+			id: "1139EBF53D6684B2"
+			rewards: [{
+				id: "0BCAA2C00A9EEBC1"
+				item: {
+					Count: 1
+					id: "tinkers_thinking:repeating_crossbow"
+					tag: {
+						Damage: 0
+						display: {
+							Lore: [
+								"{\"text\":\"§4距离最终形态已经很近了！\"}"
+								"{\"text\":\"§4使用纯粹恐惧修复\"}"
+							]
+							Name: "{\"text\":\"§4恐惧龙颅连弩\"}"
+						}
+						etstlib_tool_uuid: "6c8b72ab-6c1a-43cc-8d5c-57ecb46b9113"
+						tic_broken: 0b
+						tic_materials: [
+							"mushroom_daydream:pure_horror"
+							"mushroom_daydream:pure_horror"
+							"cloudertinker:arctic_fur"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+							{
+								level: 2
+								name: "mushroom_daydream:sharp_shadow"
+							}
+							{
+								level: 2
+								name: "mushroom_daydream:evil_shadow"
+							}
+							{
+								level: 1
+								name: "cloudertinker:twilight"
+							}
+							{
+								level: 1
+								name: "cloudertinker:frosttought"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.6f
+						}
+						tic_persistent: {
+							abilities: -1
+							"tconstruct:creative": {
+								upgrades: -2
+							}
+						}
+						tic_stats: {
+							"tconstruct:accuracy": 1.0f
+							"tconstruct:attack_damage": 8.0f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:draw_speed": 0.65f
+							"tconstruct:durability": 1305.6f
+							"tconstruct:velocity": 1.25f
+						}
+						tic_upgrades: [
+							{
+								level: 1
+								name: "tinker_transplant:reload_tinker_arrows"
+							}
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+						]
+						tic_volatile_data: {
+							abilities: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4D572B3898DA0A06"
+					item: {
+						Count: 1
+						id: "tinkers_thinking:repeating_crossbow"
+						tag: {
+							Damage: 0
+							display: {
+								Lore: [
+									"{\"text\":\"§b钻石晶格与下界之星的完美结合\"}"
+									"{\"text\":\"§b使用水晶矩阵锭修复\"}"
+								]
+								Name: "{\"text\":\"§b星尘闪烁之弩\"}"
+							}
+							etstlib_tool_uuid: "31928035-93db-4b94-a787-dd04f107d9db"
+							tic_broken: 0b
+							tic_materials: [
+								"sakuratinker:crystal_matrix"
+								"sakuratinker:crystal_matrix"
+								"cloudertinker:arctic_fur"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+								{
+									level: 2
+									name: "sakuratinker:crystalline"
+								}
+								{
+									level: 1
+									name: "cloudertinker:twilight"
+								}
+								{
+									level: 1
+									name: "cloudertinker:frosttought"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.6f
+							}
+							tic_persistent: {
+								abilities: -1
+								"tconstruct:creative": {
+									upgrades: -2
+								}
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 1.0f
+								"tconstruct:attack_damage": 11.0f
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:draw_speed": 1.1f
+								"tconstruct:durability": 1920.0f
+								"tconstruct:velocity": 1.3f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tinker_transplant:reload_tinker_arrows"
+								}
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					count: 32L
+					id: "3CCFA2F5B29C6A9F"
+					item: { Count: 32, id: "mushroom_daydream:pure_horror" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "588940A2B85E444B"
+					item: { Count: 32, id: "thermal:enderium_coin" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0DB056201386F955"]
+			icon: {
+				Count: 1
+				id: "tinkers_thinking:repeating_crossbow"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: [
+							"{\"text\":\"§d当它觉醒之时便是那至高无上的神话之弩\"}"
+							"{\"text\":\"§d使用龙之戈伯修复\"}"
+						]
+						Name: "{\"text\":\"§d龙心沉眠之弩\"}"
+					}
+					etstlib_tool_uuid: "dcd49b11-1a20-46ac-9d91-13bc2a8decd4"
+					tic_broken: 0b
+					tic_materials: [
+						"mushroom_daydream:gobber_dragon"
+						"mushroom_daydream:gobber_dragon"
+						"cloudertinker:arctic_fur"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tconstruct:creative_slot"
+						}
+						{
+							level: 2
+							name: "mushroom_daydream:arrogant"
+						}
+						{
+							level: 2
+							name: "mushroom_daydream:gobber_max"
+						}
+						{
+							level: 1
+							name: "cloudertinker:twilight"
+						}
+						{
+							level: 1
+							name: "cloudertinker:frosttought"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.6f
+					}
+					tic_persistent: {
+						abilities: -1
+						"tconstruct:creative": {
+							abilities: 4
+							upgrades: 2
+						}
+					}
+					tic_stats: {
+						"tconstruct:accuracy": 1.0f
+						"tconstruct:attack_damage": 18.0f
+						"tconstruct:attack_speed": 10.8f
+						"tconstruct:draw_speed": 7.2000003f
+						"tconstruct:durability": 28800.002f
+						"tconstruct:mining_speed": 9.0f
+						"tconstruct:projectile_damage": 18.0f
+						"tconstruct:velocity": 9.0f
+					}
+					tic_upgrades: [
+						{
+							level: 1
+							name: "tconstruct:creative_slot"
+						}
+						{
+							level: 1
+							name: "tinker_transplant:reload_tinker_arrows"
+						}
+					]
+					tic_volatile_data: {
+						abilities: 1
+					}
+				}
+			}
+			id: "7A62F63D3A88F32B"
+			rewards: [{
+				id: "1EA8AD4CB3E5630B"
+				item: {
+					Count: 1
+					id: "tinkers_thinking:repeating_crossbow"
+					tag: {
+						Damage: 0
+						display: {
+							Lore: [
+								"{\"text\":\"§d当它觉醒之时便是那至高无上的神话之弩\"}"
+								"{\"text\":\"§d使用龙之戈伯修复\"}"
+							]
+							Name: "{\"text\":\"§d龙心沉眠之弩\"}"
+						}
+						etstlib_tool_uuid: "dcd49b11-1a20-46ac-9d91-13bc2a8decd4"
+						tic_broken: 0b
+						tic_materials: [
+							"mushroom_daydream:gobber_dragon"
+							"mushroom_daydream:gobber_dragon"
+							"cloudertinker:arctic_fur"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+							{
+								level: 2
+								name: "mushroom_daydream:arrogant"
+							}
+							{
+								level: 2
+								name: "mushroom_daydream:gobber_max"
+							}
+							{
+								level: 1
+								name: "cloudertinker:twilight"
+							}
+							{
+								level: 1
+								name: "cloudertinker:frosttought"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.6f
+						}
+						tic_persistent: {
+							abilities: -1
+							"tconstruct:creative": {
+								abilities: 4
+								upgrades: 2
+							}
+						}
+						tic_stats: {
+							"tconstruct:accuracy": 1.0f
+							"tconstruct:attack_damage": 18.0f
+							"tconstruct:attack_speed": 10.8f
+							"tconstruct:draw_speed": 7.2000003f
+							"tconstruct:durability": 28800.002f
+							"tconstruct:mining_speed": 9.0f
+							"tconstruct:projectile_damage": 18.0f
+							"tconstruct:velocity": 9.0f
+						}
+						tic_upgrades: [
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+							{
+								level: 1
+								name: "tinker_transplant:reload_tinker_arrows"
+							}
+						]
+						tic_volatile_data: {
+							abilities: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "490F287E6C26DC38"
+					item: {
+						Count: 1
+						id: "tinkers_thinking:repeating_crossbow"
+						tag: {
+							Damage: 0
+							display: {
+								Lore: [
+									"{\"text\":\"§4距离最终形态已经很近了！\"}"
+									"{\"text\":\"§4使用纯粹恐惧修复\"}"
+								]
+								Name: "{\"text\":\"§4恐惧龙颅连弩\"}"
+							}
+							etstlib_tool_uuid: "6c8b72ab-6c1a-43cc-8d5c-57ecb46b9113"
+							tic_broken: 0b
+							tic_materials: [
+								"mushroom_daydream:pure_horror"
+								"mushroom_daydream:pure_horror"
+								"cloudertinker:arctic_fur"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+								{
+									level: 2
+									name: "mushroom_daydream:sharp_shadow"
+								}
+								{
+									level: 2
+									name: "mushroom_daydream:evil_shadow"
+								}
+								{
+									level: 1
+									name: "cloudertinker:twilight"
+								}
+								{
+									level: 1
+									name: "cloudertinker:frosttought"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.6f
+							}
+							tic_persistent: {
+								abilities: -1
+								"tconstruct:creative": {
+									upgrades: -2
+								}
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 1.0f
+								"tconstruct:attack_damage": 8.0f
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:draw_speed": 0.65f
+								"tconstruct:durability": 1305.6f
+								"tconstruct:velocity": 1.25f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tinker_transplant:reload_tinker_arrows"
+								}
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					count: 64L
+					id: "568FC36756375530"
+					item: { Count: 64, id: "gobber2:dragon_star" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "0A4F1A10B2BAD660"
+					item: { Count: 32, id: "mushroom_daydream:dragon_gobber" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0DB056201386F955"]
+			icon: {
+				Count: 1
+				id: "tinkers_thinking:repeating_crossbow"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: [
+							"{\"text\":\"§1一§2击§3必§4杀§5！§6！§7！\"}"
+							"{\"text\":\"§a使§b用§c无§d尽§e之§f锭§1修§2复§3！§4（§5实§6际§7上§8是§9无§1限§a耐§b久§c的§d！§e）\"}"
+						]
+						Name: "{\"text\":\"§a完§b美§c解§d放§e-§f无§1尽§2与§3永§4恒§5之§6弩\"}"
+					}
+					etstlib_tool_uuid: "895a46e4-c22c-47c2-bae6-3797ec6a4d85"
+					tic_broken: 0b
+					tic_materials: [
+						"ticex:infinity"
+						"ticex:infinity"
+						"cloudertinker:arctic_fur"
+					]
+					tic_modifiers: [
+						{
+							level: 2
+							name: "ticex:omnipotence"
+						}
+						{
+							level: 2
+							name: "ticex:cosmic_unbreakable"
+						}
+						{
+							level: 1
+							name: "tconstruct:creative_slot"
+						}
+						{
+							level: 2
+							name: "ticex:cosmic_luck"
+						}
+						{
+							level: 2
+							name: "ticex:bedrock_breaker"
+						}
+						{
+							level: 1
+							name: "cloudertinker:twilight"
+						}
+						{
+							level: 1
+							name: "cloudertinker:frosttought"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.6f
+					}
+					tic_persistent: {
+						abilities: -1
+						"tconstruct:creative": {
+							abilities: 32
+							upgrades: 30
+						}
+					}
+					tic_stats: {
+						"tconstruct:accuracy": 1.0f
+						"tconstruct:attack_damage": 4996.5f
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:draw_speed": 100.700005f
+						"tconstruct:durability": 175822.42f
+						"tconstruct:velocity": 100.9f
+					}
+					tic_upgrades: [
+						{
+							level: 1
+							name: "tinker_transplant:reload_tinker_arrows"
+						}
+						{
+							level: 1
+							name: "tconstruct:creative_slot"
+						}
+					]
+					tic_volatile_data: {
+						abilities: 33
+						upgrades: 32
+					}
+				}
+			}
+			id: "3596276F640DF446"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23EBAB3857616C70"
+				table_id: 3979621933686462349L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "6D992A0FC917F3F8"
+					item: {
+						Count: 1
+						id: "tinkers_thinking:repeating_crossbow"
+						tag: {
+							Damage: 0
+							display: {
+								Lore: [
+									"{\"text\":\"§d当它觉醒之时便是那至高无上的神话之弩\"}"
+									"{\"text\":\"§d使用龙之戈伯修复\"}"
+								]
+								Name: "{\"text\":\"§d龙心沉眠之弩\"}"
+							}
+							etstlib_tool_uuid: "dcd49b11-1a20-46ac-9d91-13bc2a8decd4"
+							tic_broken: 0b
+							tic_materials: [
+								"mushroom_daydream:gobber_dragon"
+								"mushroom_daydream:gobber_dragon"
+								"cloudertinker:arctic_fur"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+								{
+									level: 2
+									name: "mushroom_daydream:arrogant"
+								}
+								{
+									level: 2
+									name: "mushroom_daydream:gobber_max"
+								}
+								{
+									level: 1
+									name: "cloudertinker:twilight"
+								}
+								{
+									level: 1
+									name: "cloudertinker:frosttought"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.6f
+							}
+							tic_persistent: {
+								abilities: -1
+								"tconstruct:creative": {
+									abilities: 4
+									upgrades: 2
+								}
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 1.0f
+								"tconstruct:attack_damage": 18.0f
+								"tconstruct:attack_speed": 10.8f
+								"tconstruct:draw_speed": 7.2000003f
+								"tconstruct:durability": 28800.002f
+								"tconstruct:mining_speed": 9.0f
+								"tconstruct:projectile_damage": 18.0f
+								"tconstruct:velocity": 9.0f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+								{
+									level: 1
+									name: "tinker_transplant:reload_tinker_arrows"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					count: 8L
+					id: "19292944453E4DC5"
+					item: { Count: 8, id: "avaritia:infinity_catalyst" }
+					type: "item"
+				}
+				{
+					count: 19L
+					id: "0B10E823990815F3"
+					item: { Count: 19, id: "avaritia:infinity_ingot" }
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "3FAECF5FC3E81619"
+					item: { Count: 7, id: "avaritia:crystal_matrix" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "6F8263592DC5039C"
+					item: { Count: 10, id: "avaritia:neutron_ingot" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "05BA6AD18B6DBB15"
+					item: { Count: 64, id: "thermal:netherite_coin" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["30A65566832E7492"]
+			description: ["似乎每次进入世界都会给一本，但是用这玩意刷经验属实没必要"]
+			id: "34D5D7113406C8CA"
+			rewards: [{
+				auto: "enabled"
+				id: "2A1C19E0CA439354"
+				team_reward: true
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "7B5DE14BA3D4737B"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "附魔导师"
+						generation: 0
+						pages: [
+							"{\"color\":\"light_purple\",\"extra\":[{\"color\":\"dark_purple\",\"text\":\"本书将为你介绍附魔和机制等信息（书中出现的所有数值均为默认数值，可以自行在配置文件调控）。\"}],\"text\":\"欢迎！\\n\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"时空斩 - 攻击间隔>2秒时造成额外伤害并使目标时间回溯（仅可附魔于近战武器；回溯level+1秒，追加level*2伤害）。\\n\"},{\"color\":\"light_purple\",\"text\":\"灵吸 - 击杀叠加印记层数以提升武器造成的伤害（仅可作用于武器；每层印记+0.1武器攻击伤害，上限150层）。\\n\"}],\"text\":\"基础附魔指南01：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"轻语 - 无视护甲造成真实伤害(仅可作用于弓箭；无视目标护甲，并使弓箭+7固定伤害)。\\n\"},{\"color\":\"light_purple\",\"text\":\"潮涌 - 生成水柱弹飞敌人（仅可作用于三叉戟；level*0.5+1格垂直击退）。\\n\"}],\"text\":\"基础附魔指南02：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"凛冬 - 攻击目标以施加减速并生成积雪（仅可作用于武器；level减速等级，level个积雪）。\\n\"},{\"color\":\"light_purple\",\"text\":\"制裁 -对生命>50%的敌人造成倍数伤害（仅可附魔于武器；level*0.3+1倍数）。\\n\"}],\"text\":\"基础附魔指南03：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"审判 - 对生命≤50%的敌人造成倍数伤害（仅可附魔于武器；level*0.3+1倍数）。\\n\"},{\"color\":\"light_purple\",\"text\":\"生命汲取 - 按伤害比例回复生命（仅可作用于武器；level*0.1的比例恢复）。\\n\"}],\"text\":\"基础附魔指南04：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"暴击 - 概率造成3倍伤害（仅可附魔于武器；level*0.2的概率）。\\n\"},{\"color\":\"light_purple\",\"text\":\"宽恕 - 根据最大生命值提升伤害（仅可作用于防具；每1点最大生命+2%造成的伤害）。\\n\"}],\"text\":\"基础附魔指南05：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"淬魂 - 基于目标最大生命比例造成额外伤害（仅可作用于武器；level*0.01比例）。\\n\"},{\"color\":\"light_purple\",\"text\":\"坚毅 - 固定减伤（仅可作用于防具；-1点受到的所有伤害。）。\\n\"}],\"text\":\"基础附魔指南06：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"泄火 - 受到伤害时爆发造成level*2点范围伤害（仅可作用于防具；伤害数值会随“全魔”等级而提升）。\\n\"},{\"color\":\"light_purple\",\"text\":\"闪避 - 概率瞬移躲避攻击（仅可作用于防具；level*0.04的概率）。\\n\"}],\"text\":\"基础附魔指南07：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"圣佑 - 提升最大生命值（仅可作用于防具；level*2最大生命值）。\\n\"},{\"color\":\"light_purple\",\"text\":\"全魔 - 牺牲生命换取近战攻击力（仅可作用于防具；+ level*2近战攻击力，- level*2+2最大生命）。\\n\"}],\"text\":\"基础附魔指南08：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"传承 - 防止装备损毁并叠加层数以提升生命，但是装备耐久度下降翻倍（仅可作用于防具；每层+2最大生命）。\\n\"},{\"color\":\"light_purple\",\"text\":\"复仇 - 免疫死亡（45s冷却）并恢复生命，对周边所有生物造成伤害（消耗耐久值）（仅可附魔于胸甲；恢复level*2+2生命，造成level*5+5伤害）。\\n\"}],\"text\":\"基础附魔指南09：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"盾反 - 治疗并击退攻击者（仅可作用于盾牌；恢复2点生命值+1.5倍击退前方3*3内所有生物）。\\n\"},{\"color\":\"light_purple\",\"text\":\"自然愈合 - 8秒未受伤害自动回血（仅可附魔于胸甲；极速恢复自身生命值）。\\n\"}],\"text\":\"基础附魔指南10：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"光耀 - 驱散怪物并提供照明（仅可作用于头盔；3格范围驱散敌对生物+发光效果）。\\n\"},{\"color\":\"light_purple\",\"text\":\"暗影步 - 潜行时隐身并加速（仅可作用于鞋子；level*0.2+0.2加速）。\\n\"}],\"text\":\"基础附魔指南11：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"邪行 - 生成毒雾并免疫中毒（仅可附魔于鞋子；level*3点伤害/0.5秒，level 2级减速，level 3级减速加虚弱）。\\n\"},{\"color\":\"light_purple\",\"text\":\"疾风 - 提升疾跑速度（仅可附魔于护腿；level*0.3加速）。\\n\"}],\"text\":\"基础附魔指南12：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"大地之怒 - 疾跑时发动震地攻击（仅可作用于护腿；3*3格范围击飞，1.5秒冷却）。\\n\"},{\"color\":\"light_purple\",\"text\":\"至高 - 免疫击退并免疫负面状态（仅可作用于头盔；完全击退抗性+大部分debuff免疫）。\\n\"}],\"text\":\"基础附魔指南13：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"沃土 - 右键锄地时会有概率产出一定数量的骨粉（仅可作用于锄；level*0.15+0.1概率，level个骨粉）。\\n\"},{\"color\":\"light_purple\",\"text\":\"勘探 - 挖掘时有几率掉落任意矿石（仅可作用于铲，可被“时运”加成；level*0.8*（1+时运等级*0.4）概率）。\\n\"}],\"text\":\"基础附魔指南14：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"引渡 - 钓鱼时获得额外经验（仅可作用于钓鱼竿；level*12到level*20点经验值）。\\n\"},{\"color\":\"light_purple\",\"text\":\"连锁 - 挖掘3x3x3范围内的同种方块（仅可作用于镐，可被“时运”和“精准采集”加成）。\\n\"}],\"text\":\"基础附魔指南15：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"灵性 - 吸引附近的动物（仅可作用于头盔）。\\n\"},{\"color\":\"light_purple\",\"text\":\"海之安抚 - 在水中或雨中时持续恢复生命值（仅可作用于胸甲）。\\n\"}],\"text\":\"基础附魔指南16：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"沉眠 - 睡觉后获得额外1点生命值（仅可作用于护腿）。\\n\"},{\"color\":\"light_purple\",\"text\":\"复苏 - 使周围的花草生长（仅可作用于鞋）。\\n\"}],\"text\":\"基础附魔指南17：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"狂战 - 攻击时增加可无限叠加的3秒的攻击速度和移速效果，并击退敌人（仅可作用于斧）。\\n\"},{\"color\":\"light_purple\",\"text\":\"引爆 - 用弩击杀生物时引发大范围的爆炸（仅可作用于弩）。\\n\"}],\"text\":\"基础附魔指南18：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"裁剪 - 用剪刀右键生物时获得额外掉落物（仅可作用于剪刀，可被“时运”加成；level*0.03-1+0.02*时运等级 概率，4+时运等级*2经验值）。\\n\"},{\"color\":\"light_purple\",\"text\":\"呼唤来者 - 在玩家附近召唤一个隶属于玩家的铁傀儡。（仅可附魔于“呼唤”类型的山羊角）。\\n\"}],\"text\":\"基础附魔指南19：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"憧憬未来 - 使大范围内（半径32格）的所有生物获得短暂的加速效果。（仅可附魔于“憧憬”类型的山羊角）。\\n\"},{\"color\":\"light_purple\",\"text\":\"想象彼岸 - 使大范围内（半径32格）的所有生物短暂浮空。（仅可附魔于“想象”类型的山羊角）。\\n\"}],\"text\":\"基础附魔指南20：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"沉思过往 - 使大范围内（半径32格）的所有生物获得短暂的减速效果。（仅可附魔于“沉思”类型的山羊角）。\\n\"},{\"color\":\"light_purple\",\"text\":\"歌颂生灵 - 为大范围内（半径32格）的所有生物恢复少量生命值。（仅可附魔于“歌颂”类型的山羊角）。\\n\"}],\"text\":\"基础附魔指南21：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"寻觅何物 - 为吹奏者指引超大范围内最近的特殊结构。（仅可附魔于“寻觅”类型的山羊角）。\\n\"},{\"color\":\"light_purple\",\"text\":\"感受当下 - 清除大范围（半径32格）内的所有生物的所有buff效果。（仅可附魔于“感受”类型的山羊角）。\\n\"}],\"text\":\"基础附魔指南22：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"仰慕星辰 - 为吹奏者指引超大范围内最近的特殊结构。（仅可附魔于“寻觅”类型的山羊角）。\\n\"},{\"color\":\"light_purple\",\"text\":\"时停斩 - 概率时停生物3秒并取消生物无敌帧（仅可附魔于武器；level*0.1概率）。\\n\"}],\"text\":\"基础附魔指南23：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"爱弦之诗·终章 - 玩家饥饿值始终为满，每次攻击有50%概率附加12点物理伤害（仅可附魔于“书与笔”，且物品须在副手才会生效）。\\n\"},{\"color\":\"light_purple\",\"text\":\"爱弦之诗·如梦 - 玩家的最大生命值+14（仅可附魔于“书与笔”，且物品须在副手才会生效）。\\n\"}],\"text\":\"基础附魔指南24：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"爱弦之诗·星眸 - 攻击目标会引发小范围的爆炸（仅可附魔于“书与笔”，且物品须在副手才会生效）。\\n\"},{\"color\":\"light_purple\",\"text\":\"爱弦之诗·月尘 - 获得+9近战攻击力，生命恢复效果×2（仅可附魔于“书与笔”，且物品须在副手才会生效）。\\n\"}],\"text\":\"基础附魔指南25：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"爱弦之诗·神颂 - 为周围友方单位每秒恢复3点生命（仅可附魔于“书与笔”，且物品须在副手才会生效）。\\n\"},{\"color\":\"light_purple\",\"text\":\"爱弦之诗·旅谣 - 所有的经验获取×2（仅可附魔于“书与笔”，且物品须在副手才会生效）。\\n\"}],\"text\":\"基础附魔指南26：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"混乱 - 每13s使玩家半径13格内的所有生物的仇恨转移到非玩家的其他随机生物上（仅可附魔于头盔）。\\n\"},{\"color\":\"light_purple\",\"text\":\"挺进 - 移速随时间增加而增加（仅可附魔于胸甲；移速增加有上限）。\\n\"}],\"text\":\"基础附魔指南27：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"终焉之咒源 - 每一段时间对周围所有生物添加负面效果并对自身造成伤害（仅可附魔于头盔；13-(level-1)*3秒间隔，添加level个负面效果，自身受到2点伤害）。\\n\"}],\"text\":\"基础附魔指南28：\\n\"}"
+							"{\"text\":\"Buff效果（下一面）\\n\"}"
+							"{\"extra\":[{\"color\":\"dark_purple\",\"text\":\"任何具有此效果的实体都会被神秘气流推动向后移动。等级越高，推动强度越大。\"}],\"text\":\"厄风：\\n\"}"
+							"{\"extra\":[{\"color\":\"dark_red\",\"text\":\"任何具有此效果的实体受到的所有伤害增加。每级增加20%所有受到的伤害。\"}],\"text\":\"悲劫：\\n\"}"
+							"{\"extra\":[{\"color\":\"gold\",\"text\":\"在此效果存在期间，玩家击杀生物后会掉落大量矿物，玩家每秒获得(level+1)*7的经验值，等级越高掉落的矿物也越多。\"}],\"text\":\"奇迹星光：\\n\"}"
+							"{\"text\":\"这个世界的机制（下一面）\\n\"}"
+							"{\"extra\":[{\"italic\":true,\"text\":\"玩家在任意0.585s的时间内若进行了连续2次的跳跃，则会触发二段跳（可被跳跃药水增益），同时消耗1点饥饿值。默认“L”键开关哦。\"}],\"text\":\"二段跳：\\n\"}"
+							"{\"extra\":[{\"color\":\"red\",\"text\":\"唤魔者将有50%概率免疫死亡并恢复自身12点生命值，可无限触发。唤魔者会使用不死图腾很合理吧？\"}],\"text\":\"不死：\\n\"}"
+							"{\"extra\":[{\"color\":\"aqua\",\"text\":\"雪傀儡发射的雪球有35%的概率造成2点伤害并对目标附加减速和虚弱效果。\"}],\"text\":\"臻冰：\\n\"}"
+							"{\"extra\":[{\"color\":\"dark_purple\",\"text\":\"末影人在对目标造成伤害后，有30%的概率将目标传送到半径13格内的随机位置。\"}],\"text\":\"干扰：\\n\"}"
+							"{\"extra\":[{\"color\":\"dark_green\",\"text\":\"女巫丢置药水时有50%概率额外丢出4种负面药水（中毒、虚弱、缓慢和瞬间伤害药水）。\"}],\"text\":\"狂乱：\\n\"}"
+							"{\"extra\":[{\"color\":\"blue\",\"text\":\"悦灵每隔12秒为最近的玩家恢复2点生命值和增加1点经验值；恼鬼受到虚弱buff影响时会转变为悦灵\"}],\"text\":\"悦舞：\\n\"}"
+							"{\"extra\":[{\"color\":\"green\",\"text\":\"嗅探兽刨挖时有概率掉落额外的稀有物品（嗅探兽死亡后会掉落1个苔藓块)：\\n附魔之瓶:50%概率掉落2-4个\\n光灵箭:40%概率掉落4-6个\\n附魔金苹果:10%概率掉落1-2个\\n嗅探兽蛋:15%概率掉落1个\"}],\"text\":\"探魔：\\n\"}"
+							"{\"extra\":[{\"color\":\"gold\",\"text\":\"亡灵生物的发光效果存在期间，每秒会受到2点魔法伤害。\"}],\"text\":\"光灼：\\n\"}"
+							"{\"extra\":[{\"color\":\"blue\",\"text\":\"当玩家右键磁石指针时，玩家将传送至相关绑定的磁石半径2格内的随机的合法位置，有150秒冷却时间（磁石和磁石指针必须在同一个维度）。\"}],\"text\":\"回溯：\\n\"}"
+							"{\"extra\":[{\"color\":\"red\",\"text\":\"铁傀儡和雪傀儡会优先攻击玩家最近攻击过的目标（需要傀儡在玩家半径20/16格内）。\"}],\"text\":\"统领：\\n\"}"
+							"{\"extra\":[{\"color\":\"red\",\"text\":\"僵尸击杀目标后会生成一个新的僵尸；骷髅射手在攻击后有概率后撤并提高移速。\"}],\"text\":\"同化/游走：\\n\"}"
+							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"在铁砧中将需要的附魔物品放在左侧，附魔容器（EnchantLoader）放在右侧，同时花费1级经验，即可使附魔物品的任意一项附魔等级+1（不可超过最大值）\"}],\"text\":\"注魔：\\n\"}"
+							"{\"extra\":[{\"color\":\"gray\",\"text\":\"在高度（Y轴=0为参考水平高度）130格至530格的区间内，玩家从高度100格起每20格增加%5概率获得2秒的不同等级的“厄风”的负面效果（13秒冷却）。\"}],\"text\":\"来自高处的恶意：\\n\"}"
+							"{\"text\":\"添加的合成配方（下一面）\\n\"}"
+							"{\"extra\":[{\"color\":\"gold\",\"text\":\"鞍：3个皮革+1个铁锭。\"},{\"color\":\"gold\",\"text\":\"附魔金苹果：8个附魔之瓶+1个金苹果。\"}],\"text\":\"合成配方：\\n\"}"
+						]
+						resolved: 1b
+						title: "我的更多附魔说明书"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["20F14AA83DDD8100"]
+			id: "746213B4C8CA6FD6"
+			rewards: [{
+				auto: "enabled"
+				id: "08A2DB13C552AF0D"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DA5E96FADBDA7EC"
+				item: {
+					Count: 1
+					id: "minecraft:golden_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["20F14AA83DDD8100"]
+			id: "0B528B3CA3DFEC6D"
+			rewards: [{
+				auto: "enabled"
+				id: "7A3521FC9289C002"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D08E13B7DF82CF5"
+				item: {
+					Count: 1
+					id: "minecraft:golden_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["20F14AA83DDD8100"]
+			id: "768327AF080E3F5A"
+			rewards: [{
+				auto: "enabled"
+				id: "5AEF7C68A29FD956"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "640589294A729ABC"
+				item: {
+					Count: 1
+					id: "minecraft:golden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["20F14AA83DDD8100"]
+			id: "36BA47E93163453D"
+			rewards: [{
+				auto: "enabled"
+				id: "104CDBDA2A982D0B"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E3683EFB4205F79"
+				item: {
+					Count: 1
+					id: "minecraft:golden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2663F92195AC57A6"]
+			description: [
+				"温度最高的冶炼炉燃料"
+				""
+				"相关链接："
+				""
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"36262EBA59595E0E\" } }"
+			]
+			icon: {
+				Count: 1
+				id: "tconstruct:seared_fuel_tank"
+				tag: {
+					tank: {
+						Amount: 4000
+						FluidName: "tinkers_advanced:plasmatic_lava"
+					}
+				}
+			}
+			id: "0377D1B18649CF3E"
+			rewards: [{
+				auto: "enabled"
+				id: "42A3D7E9A844E4EC"
+				item: {
+					Count: 1
+					id: "tconstruct:seared_fuel_tank"
+					tag: {
+						tank: {
+							Amount: 4000
+							FluidName: "tinkers_advanced:molten_antimatter"
+						}
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "40C21A54C1CC117C"
+					item: "tconstruct:seared_fuel_tank"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1F8757BA8E79665A"
+					item: { Count: 16, id: "mekanism:pellet_antimatter" }
+					type: "item"
+				}
+				{
+					id: "6B0FC55A61A90811"
+					item: "kubejs:cat"
+					type: "item"
+				}
+			]
+			title: "&5极致的燃料"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0A92EF96F43A3085"]
+			description: ["包含可运行的最大体积的&e冶炼炉&r所需的所有材料"]
+			icon: "tconstruct:smeltery_controller"
+			id: "29266C1D3E8DB385"
+			rewards: [{
+				id: "78AABC143DDB88EC"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							id: "sophisticatedstorage:shulker_box"
+							storageWrapper: {
+								accentColor: 16351261
+								contents: {
+									inventory: {
+										Items: [
+											{
+												Count: 1b
+												Slot: 0
+												id: "tconstruct:smeltery_controller"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 1
+												id: "create:creative_fluid_tank"
+												realCount: 1
+											}
+											{
+												Count: 60b
+												Slot: 2
+												id: "minecraft:lever"
+												realCount: 60
+											}
+											{
+												Count: 68b
+												Slot: 3
+												id: "minecraft:hopper"
+												realCount: 68
+											}
+											{
+												Count: 56b
+												Slot: 4
+												id: "tconstruct:seared_drain"
+												realCount: 56
+											}
+											{
+												Count: 3b
+												Slot: 5
+												id: "tconstruct:seared_ladder"
+												realCount: 3
+											}
+											{
+												Count: 60b
+												Slot: 6
+												id: "tconstruct:seared_faucet"
+												realCount: 60
+											}
+											{
+												Count: 6b
+												Slot: 7
+												id: "tconstruct:seared_soul_glass"
+												realCount: 6
+											}
+											{
+												Count: 1b
+												Slot: 8
+												id: "tconstruct:seared_fuel_tank"
+												realCount: 1
+											}
+											{
+												Count: -67b
+												Slot: 9
+												id: "tconstruct:seared_glass"
+												realCount: 3517
+											}
+											{
+												Count: 30b
+												Slot: 11
+												id: "tconstruct:seared_table"
+												realCount: 30
+											}
+											{
+												Count: 30b
+												Slot: 12
+												id: "tconstruct:seared_basin"
+												realCount: 30
+											}
+											{
+												Count: -60b
+												Slot: 10
+												id: "tconstruct:seared_bricks"
+												realCount: 196
+											}
+											{
+												Count: 1b
+												Slot: 13
+												id: "mekanism:ultimate_mechanical_pipe"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 14
+												id: "mekanism:configurator"
+												realCount: 1
+											}
+											{
+												Count: 2b
+												Slot: 15
+												id: "sophisticatedstorage:iron_chest"
+												realCount: 2
+												tag: {
+													accentColor: 16383998
+													mainColor: 16383998
+												}
+											}
+											{
+												Count: 1b
+												Slot: 16
+												id: "farmersdelight:black_canvas_sign"
+												realCount: 1
+											}
+										]
+										Size: 27
+									}
+									partitioner: {
+										baseIndexes: [I;0]
+										inventoryPartNames: ["default"]
+									}
+									upgradeInventory: {
+										Items: [{
+											Count: 1b
+											Slot: 0
+											id: "sophisticatedstorage:stack_upgrade_omega_tier"
+										}]
+										Size: 1
+									}
+								}
+								mainColor: 16351261
+								numberOfInventorySlots: 27
+								numberOfUpgradeSlots: 1
+								renderInfo: {
+									upgradeItems: [{
+										Count: 1b
+										id: "sophisticatedstorage:stack_upgrade_omega_tier"
+									}]
+								}
+								sortBy: "name"
+								uuid: [I;
+									-1554300663
+									203375336
+									-1454890328
+									-280454659
+								]
+							}
+						}
+						accentColor: 16351261
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+						mainColor: 16351261
+						numberOfInventorySlots: 27
+						numberOfUpgradeSlots: 1
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "6E1C9DAA27602CFC"
+				item: "kubejs:cat"
+				type: "item"
+			}]
+			title: "&6极限冶炼炉"
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0A92EF96F43A3085"]
+			id: "08697260A4DC96F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75A46167F9D93680"
+				table_id: 6887373792373766841L
+				team_reward: true
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "2C5E76DA859A3787"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:trim_templates"
+						}
+					}
+					title: "Any #minecraft:trim_templates"
+					type: "item"
+				}
+				{
+					id: "0CA042C564F3AA6B"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+			]
+			title: "纹饰模板兑换"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["20F14AA83DDD8100"]
+			id: "0A3888CD2E61309E"
+			rewards: [{
+				auto: "enabled"
+				id: "3A7829CE49946495"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EA502CE4B43E74B"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["20F14AA83DDD8100"]
+			id: "73BE96FFC4DB9C3F"
+			rewards: [{
+				auto: "enabled"
+				id: "04404179C684120E"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E8224221AA99B0B"
+				item: {
+					Count: 1
+					id: "minecraft:stone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["20F14AA83DDD8100"]
+			id: "5FCE9870E45992AF"
+			rewards: [{
+				auto: "enabled"
+				id: "67AE17C433E80F3F"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "78946F2C114323D9"
+				item: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["20F14AA83DDD8100"]
+			id: "5600D9C3799998E1"
+			rewards: [{
+				auto: "enabled"
+				id: "410278C56E67B73E"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B58E96A1EDF8F6C"
+				item: {
+					Count: 1
+					id: "minecraft:golden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["20F14AA83DDD8100"]
+			id: "79A6AE00441023AC"
+			rewards: [{
+				auto: "enabled"
+				id: "76E20BA0635D61E5"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "33A34B3C731D66A2"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["20F14AA83DDD8100"]
+			id: "2AEE880EC2C31564"
+			rewards: [{
+				auto: "enabled"
+				id: "04D887F435E45443"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E662594C8F70699"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			description: ["用&6成就奖牌&r换&e饰品槽&r"]
+			icon_scale: 2.0d
+			id: "71AC646FAB1BF7F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: "curseofpandora:mini_beacon"
+				id: "350AAF72BBA070C4"
+				table_id: 4365445118785943488L
+				team_reward: true
+				title: "&6添加饰品栏"
+				type: "choice"
+			}]
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				id: "35AEBF353AD15421"
+				item: "kubejs:achievement"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A92EF96F43A3085"]
+			description: [
+				"可在铁砧上花费&93级&r经验替换&e饰品&r的&e修饰词&r"
+				""
+				"可使用相同物品在工作台合成"
+			]
+			icon: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "tough"
+				}
+			}
+			id: "7C63E30B5924CBD0"
+			rewards: [{
+				auto: "enabled"
+				id: "25D458D2993924CE"
+				table_id: 6411093013403371045L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "37ADFEACC16CCCD9"
+					item: "bountifulbaubles:resplendent_token"
+					type: "item"
+				}
+				{
+					id: "6C7E7C8A8CCFEF25"
+					item: "thermal:enderium_coin"
+					type: "item"
+				}
+			]
+			title: "&6修饰词"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A92EF96F43A3085"]
+			description: [
+				"可用于合成无法随机到的七种修饰词"
+				""
+				"&e空白修饰词书&r可以用&e任意数量修饰词书&r合成获得对应数量"
+				""
+				"可使用相同物品在工作台合成"
+			]
+			icon: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "chaos"
+				}
+			}
+			id: "64DBCEE290C6B656"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					Count: 1
+					id: "baublesreforked:modifier_book"
+					tag: {
+						baublesreforked.ModifierId: "chaos"
+					}
+				}
+				id: "69929533AE35D370"
+				table_id: 4635207895861484873L
+				team_reward: true
+				type: "random"
+			}]
+			subtitle: "一些难以获得的强大饰品修饰词"
+			tasks: [
+				{
+					id: "6306F5CF71529498"
+					item: "thermal:netherite_coin"
+					type: "item"
+				}
+				{
+					id: "1ED480D8FF6ACD6B"
+					item: "kubejs:xiushichi"
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "&e传说修饰词"
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A92EF96F43A3085"]
+			description: ["包含可运行的最大体积的&e熔铸炉&r所需的所有材料"]
+			icon: "tconstruct:foundry_controller"
+			id: "214CD4F76F7D8D7A"
+			rewards: [{
+				id: "5DB6EC8DE31747BB"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							id: "sophisticatedstorage:shulker_box"
+							storageWrapper: {
+								accentColor: 8991416
+								contents: {
+									inventory: {
+										Items: [
+											{
+												Count: 1b
+												Slot: 0
+												id: "create:creative_fluid_tank"
+												realCount: 1
+											}
+											{
+												Count: 64b
+												Slot: 1
+												id: "minecraft:lever"
+												realCount: 64
+											}
+											{
+												Count: 68b
+												Slot: 2
+												id: "minecraft:hopper"
+												realCount: 68
+											}
+											{
+												Count: 64b
+												Slot: 4
+												id: "tconstruct:scorched_faucet"
+												realCount: 64
+											}
+											{
+												Count: 60b
+												Slot: 3
+												id: "tconstruct:scorched_drain"
+												realCount: 60
+											}
+											{
+												Count: 1b
+												Slot: 5
+												id: "tconstruct:scorched_fuel_tank"
+												realCount: 1
+											}
+											{
+												Count: -62b
+												Slot: 6
+												id: "tconstruct:scorched_glass"
+												realCount: 3778
+											}
+											{
+												Count: 0b
+												Slot: 7
+												id: "tconstruct:scorched_bricks"
+												realCount: 256
+											}
+											{
+												Count: 33b
+												Slot: 8
+												id: "tconstruct:scorched_table"
+												realCount: 33
+											}
+											{
+												Count: 31b
+												Slot: 9
+												id: "tconstruct:scorched_basin"
+												realCount: 31
+											}
+											{
+												Count: 1b
+												Slot: 10
+												id: "tconstruct:foundry_controller"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 11
+												id: "mekanism:ultimate_mechanical_pipe"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 12
+												id: "mekanism:configurator"
+												realCount: 1
+											}
+											{
+												Count: 2b
+												Slot: 13
+												id: "sophisticatedstorage:iron_chest"
+												realCount: 2
+												tag: {
+													accentColor: 16383998
+													mainColor: 16383998
+												}
+											}
+											{
+												Count: 1b
+												Slot: 14
+												id: "farmersdelight:black_canvas_sign"
+												realCount: 1
+											}
+										]
+										Size: 27
+									}
+									partitioner: {
+										baseIndexes: [I;0]
+										inventoryPartNames: ["default"]
+									}
+									upgradeInventory: {
+										Items: [{
+											Count: 1b
+											Slot: 0
+											id: "sophisticatedstorage:stack_upgrade_omega_tier"
+										}]
+										Size: 1
+									}
+								}
+								mainColor: 8991416
+								numberOfInventorySlots: 27
+								numberOfUpgradeSlots: 1
+								renderInfo: {
+									upgradeItems: [{
+										Count: 1b
+										id: "sophisticatedstorage:stack_upgrade_omega_tier"
+									}]
+								}
+								sortBy: "name"
+							}
+						}
+						accentColor: 8991416
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+						mainColor: 8991416
+						numberOfInventorySlots: 27
+						numberOfUpgradeSlots: 1
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "04796BBC0EB74BF7"
+				item: "kubejs:cat"
+				type: "item"
+			}]
+			title: "&5极限熔铸炉"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"因为未知问题，部分珠宝宝石无法正常合成，所以在这里兑换"
+				""
+				"（其实是作者懒得加合成表了）"
+			]
+			id: "1733A24E5847FC3A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10EAA803ED0C1371"
+				table_id: 3454659708684365752L
+				team_reward: true
+				type: "choice"
+			}]
+			tasks: [{
+				id: "434E91E3652479C3"
+				item: "thermal:netherite_coin"
+				type: "item"
+			}]
+			title: "珠宝"
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2663F92195AC57A6"]
+			icon: "pneumaticcraft:creative_compressor"
+			id: "1AAF6D7EB8B65757"
+			rewards: [{
+				auto: "enabled"
+				id: "6D590F5AD3B66439"
+				item: "pneumaticcraft:creative_compressor"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "580FCA2BAEAEE092"
+				item: "kubejs:cat"
+				type: "item"
+			}]
+			title: "创造模式压缩机"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: ["可使用&e末影币*4&r+&e合金币*5&r合成&e术石盲盒&r"]
+			id: "31207116CB91663C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BEA1EF242EC32A1"
+				table_id: 3753718201408191193L
+				team_reward: true
+				type: "choice"
+			}]
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "69C92B98E1D9CACF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "curios:spellstone"
+					}
+				}
+				title: "任意术石"
+				type: "item"
+			}]
+			title: "术石兑换"
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			id: "7F4DBAF50BFD6207"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3592495F03DB93E6"
+				table_id: 4377834758707833998L
+				team_reward: true
+				type: "choice"
+			}]
+			size: 1.25d
+			tasks: [{
+				consume_items: true
+				id: "0D9B3C68953B57F0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "alexscaves:cave_tablet"
+					}
+				}
+				title: "石板兑换"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			id: "6C0F489564283328"
+			rewards: [{
+				id: "539F12FC8E23D3FC"
+				item: "thermal:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				disable_toast: true
+				entity: "minecraft:zombie"
+				id: "756802C4F8AC1890"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6C0F489564283328"
+				"658E18B143986CA6"
+			]
+			dependency_requirement: "one_completed"
+			icon: "l2hostility:ai_config_wand"
+			id: "0A96ADACA916C5EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FC67592B8315609"
+				table_id: 1614874770025621160L
+				team_reward: true
+				type: "choice"
+			}]
+			tasks: [{
+				id: "2683302665DC364A"
+				item: "kubejs:cat"
+				type: "item"
+			}]
+			title: "恶意手杖"
+			x: -8.5d
+			y: 1.5d
+		}
+	]
+	title: "·&6兑换"
+}

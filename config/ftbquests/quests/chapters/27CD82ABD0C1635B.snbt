@@ -1,0 +1,521 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "27CD82ABD0C1635B"
+	group: "63383AA57008A157"
+	icon: "ars_nouveau:archmage_spell_book"
+	id: "27CD82ABD0C1635B"
+	images: [
+		{
+			height: 6.0d
+			image: "ars_nouveau:item/blank_parchment"
+			rotation: 0.0d
+			width: 6.0d
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			height: 6.0d
+			image: "ars_nouveau:item/ring_of_greater_discount"
+			rotation: 0.0d
+			width: 6.0d
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			height: 0.5d
+			image: "minecraft:textures/particle/sga_m.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			height: 0.5d
+			image: "minecraft:textures/particle/sga_a.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			height: 0.5d
+			image: "minecraft:textures/particle/sga_g.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			height: 0.5d
+			image: "minecraft:textures/particle/sga_i.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			height: 0.5d
+			image: "minecraft:textures/particle/sga_c.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/sga_a.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/sga_r.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/sga_s.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/sga_n.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/sga_o.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/sga_u.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/sga_v.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/sga_e.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/sga_a.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/sga_u.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			height: 0.5d
+			image: "minecraft:textures/particle/sga_a.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			height: 0.5d
+			image: "minecraft:textures/particle/sga_r.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			height: 0.5d
+			image: "minecraft:textures/particle/sga_s.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			height: 0.5d
+			image: "minecraft:textures/particle/sga_n.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			height: 0.5d
+			image: "minecraft:textures/particle/sga_o.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			height: 0.5d
+			image: "minecraft:textures/particle/sga_u.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			height: 0.5d
+			image: "minecraft:textures/particle/sga_v.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 0.5d
+			image: "minecraft:textures/particle/sga_e.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			height: 0.5d
+			image: "minecraft:textures/particle/sga_a.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			height: 0.5d
+			image: "minecraft:textures/particle/sga_u.png"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: -0.5d
+			y: -1.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["418A682BE565AEC3"]
+			id: "74FA7D61F5C7734A"
+			rewards: [{
+				id: "7508273F9A613210"
+				item: "ars_nouveau:experience_gem"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75EC3FA239084E91"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["74FA7D61F5C7734A"]
+			id: "2BB1DCBB90BDCD3F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B03D5EF889C3D02"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				id: "690DF66D3C6E82BE"
+				item: {
+					Count: 1
+					id: "ars_nouveau:novice_spell_book"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["74FA7D61F5C7734A"]
+			id: "2A4ABAA60ACC7C7F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "417B0CCEC300C92A"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7E07D6A3281073B2"
+				item: "ars_nouveau:mundane_belt"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["74FA7D61F5C7734A"]
+			id: "33549A3DCF9C600A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12AB37F4C1C565CD"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0805C3E842F17D0F"
+				item: "ars_nouveau:dull_trinket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["74FA7D61F5C7734A"]
+			id: "3479C0A38B39CD4F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C8099D1AE5ECF8E"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7192DDB9081A8BE1"
+				item: "ars_nouveau:ring_of_potential"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2BB1DCBB90BDCD3F"]
+			id: "50A285FBD1A00410"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3557AB5319636C71"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				id: "78F9C52C008E3FC9"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["50A285FBD1A00410"]
+			id: "3B60197422FA3C0E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D639BC87DF93186"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				id: "727576D6BA7213F4"
+				item: { Count: 63, id: "ars_nouveau:blank_parchment" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["50A285FBD1A00410"]
+			id: "767101845EFB5A03"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28C1CD02F0D69995"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0D8FF626FBB61AE6"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["767101845EFB5A03"]
+			id: "3AD6DC787FC77FD4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18D1818BE704F6DF"
+				table_id: 2496234257689732661L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5690041323E63017"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["33549A3DCF9C600A"]
+			id: "7869252AA4E9EC06"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D47551E11400ED5"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6762D0C859345B9D"
+				item: "ars_nouveau:amulet_of_mana_regen"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["33549A3DCF9C600A"]
+			id: "334900145F84DC71"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5589C5D7715A6FA9"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				id: "083277DA42B03DB6"
+				item: "ars_nouveau:amulet_of_mana_boost"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3479C0A38B39CD4F"]
+			id: "35A9AB79D66F97CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09D34489396437F6"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				id: "33A9A6430E46BB07"
+				item: "ars_nouveau:ring_of_lesser_discount"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["35A9AB79D66F97CC"]
+			id: "0D06B63285D884E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EA20DF14B3B1C0E"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				id: "62F196EF3D53D0E1"
+				item: "ars_nouveau:ring_of_greater_discount"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2A4ABAA60ACC7C7F"]
+			id: "11FD1D0E8B4654E8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76768015468E9BDB"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				id: "569F1AE9663552C0"
+				item: "ars_nouveau:belt_of_unstable_gifts"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			icon: "minecraft:observer"
+			id: "4AA869D5DCE791EF"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "713E86C44316F1A0"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "36EBB6E522568C30"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+	]
+	title: "·&d新生魔艺"
+}

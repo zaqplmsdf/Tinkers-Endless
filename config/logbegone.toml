@@ -1,0 +1,5 @@
+
+[logbegone]
+	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "Tool stack constructed using non-modifiable tool, this may cause issues as it has no NBT", "Attempted to fetch modifier with ID tprt:mixeddragon_armor", "GL_INVALID_OPERATION error generated. Framebuffer name must be generated before being bound."]
+	regex = ["Disconnecting VANILLA connection attempt", "Channels "]
+

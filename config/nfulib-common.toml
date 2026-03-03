@@ -1,0 +1,13 @@
+
+[common]
+	#If true, SaveDataLocationRedirector will take effect. Setting it false could improve the performance, but it may cause objects (entities, items, blocks etc.) to disappear if you're using save data from an old version.
+	enablesSaveDataPorter = true
+
+[debug]
+	#If true, it will enable debug actions defined in NFUDebugStatics, like debug output in the chatting box.
+	debugMode = false
+
+[fixes]
+	#Vanilla has an issue that some flying mobs' flying speed is not multiplied by AI speed modifiers (MC-172801). Fix this issue. If some mob's flying speed goes wrong, consider disabling this config entry.
+	enablesFlyingSpeedScalingFix = true
+

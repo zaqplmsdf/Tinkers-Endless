@@ -1,0 +1,5136 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6wip"
+	group: "3172704A8AED52C1"
+	icon: "wqjy:the_end"
+	id: "34A3DF6C0342BD8D"
+	images: [
+		{
+			height: 2.5d
+			image: "regions_unexplored:block/alpha_oak_log"
+			rotation: 0.0d
+			width: 12.0d
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:block/copper_block"
+			rotation: 0.0d
+			width: 12.0d
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			height: 10.5d
+			image: "minecraft:block/gold_block"
+			rotation: 0.0d
+			width: 12.0d
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			height: 18.0d
+			image: "l2complements:block/totemic_gold_block"
+			rotation: 0.0d
+			width: 12.0d
+			x: 2.0d
+			y: 17.0d
+		}
+		{
+			height: 18.8d
+			image: "botania:block/terrasteel_block"
+			rotation: 0.0d
+			width: 12.0d
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			height: 10.0d
+			image: "avaritia:block/resource/infinity"
+			rotation: 0.0d
+			width: 12.0d
+			x: 12.5d
+			y: 13.5d
+		}
+		{
+			height: 1.5d
+			image: "tinkers_advanced:block/fluid/molten_neutronite/still"
+			rotation: 0.0d
+			width: 12.0d
+			x: 12.5d
+			y: 19.0d
+		}
+		{
+			height: 2.5d
+			image: "tconstruct:block/slime/storage/ender"
+			rotation: 0.0d
+			width: 12.0d
+			x: 12.5d
+			y: 21.0d
+		}
+		{
+			height: 1.2d
+			image: "ticex:fluid/molten/reconstruction_core/still"
+			rotation: 0.0d
+			width: 12.0d
+			x: 12.5d
+			y: 23.0d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "tconstruct:materials_and_you"
+			id: "68F66B207BEDF110"
+			tasks: [{
+				id: "225A51152BC42FF8"
+				title: "一级材料"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			icon: "tconstruct:puny_smelting"
+			id: "13964DED0AFC4063"
+			tasks: [{
+				id: "53B16BFEE1DD9FB7"
+				title: "二级材料"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			icon: "tconstruct:mighty_smelting"
+			id: "6B9ED722C73677CC"
+			tasks: [{
+				id: "50DDD41D0B9E07AB"
+				title: "三级材料"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			icon: "tconstruct:fantastic_foundry"
+			id: "46BE8F000422FD48"
+			tasks: [{
+				id: "7BC2BA8E5E552210"
+				title: "四级材料"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -6.5d
+		}
+		{
+			icon: "tconstruct:encyclopedia"
+			id: "45FEB9BC04BE576B"
+			tasks: [{
+				id: "531DB2AF4A8C7FD0"
+				title: "更高级的材料"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			icon: "tinkers_advanced:ultra_dense_book"
+			id: "4BE63B74CB1E57A5"
+			subtitle: "不显示材料等级，且不在jei显示材料数据，但可以制作部件的材料"
+			tasks: [{
+				id: "18059968F7554647"
+				title: "隐藏材料"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 19.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "tconstruct:pickaxe"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_display: 1b
+					tic_materials: [
+						"tconstruct:ui_render#head"
+						"tconstruct:ui_render#handle"
+						"tconstruct:ui_render#extra"
+						"tconstruct:ui_render#large"
+						"tconstruct:ui_render#extra_large"
+					]
+					tic_modifiers: [{
+						level: 1
+						name: "tconstruct:pierce"
+					}]
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 2.0f
+						"tconstruct:attack_speed": 1.2f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						defense: 3
+						upgrades: 1
+					}
+				}
+			}
+			id: "6E5258FEE64901B6"
+			tasks: [{
+				id: "0DA7280E7F1E4EDD"
+				title: "0级材料"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			id: "53ECA6FF97F8AEE0"
+			tasks: [{
+				id: "7AE480B271A6455E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:wood_variants/logs"
+					}
+				}
+				title: "Any #tconstruct:wood_variants/logs"
+				type: "item"
+			}]
+			title: "木"
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			id: "1B72853C67C1B3A8"
+			tasks: [{
+				id: "34F75936BD20F606"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:leather"
+					}
+				}
+				title: "Any #forge:leather"
+				type: "item"
+			}]
+			title: "皮革"
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			id: "2F4B55617FE92C74"
+			tasks: [{
+				id: "187D2A9E6A10687C"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			id: "709CAEC897AFEB61"
+			tasks: [{
+				id: "486FC131CB3D9428"
+				item: "alexscaves:candy_cane"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			id: "0F328127D0682DAD"
+			tasks: [{
+				id: "333DE7310887DD4E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "aether:skyroot_repairing"
+					}
+				}
+				title: "Any #aether:skyroot_repairing"
+				type: "item"
+			}]
+			title: "天根木"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			id: "385DA0645EC37EB2"
+			tasks: [{
+				id: "328170816395E96D"
+				item: "alexscaves:tough_hide"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			id: "37B1C4CD524989B4"
+			tasks: [{
+				id: "1760BE221F7406E7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:cobblestone"
+					}
+				}
+				title: "Any #forge:cobblestone"
+				type: "item"
+			}]
+			title: "岩石"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			id: "0610CC9590E8F472"
+			tasks: [{
+				id: "0939DFD3DA7384D1"
+				item: "alexscaves:archaic_vine"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			id: "7F9B8939C981AF17"
+			tasks: [{
+				id: "1AD7AEE4914861CA"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			id: "3FC7E79293DE6992"
+			tasks: [{
+				id: "38F7338600DA6CAF"
+				item: "brain_delight:brain"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			id: "2935E5ED6E90D575"
+			tasks: [{
+				id: "1683F6E9D46561C3"
+				item: "minecraft:cactus"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			id: "363420C3C21CED24"
+			tasks: [{
+				id: "55656D2B025D354E"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			id: "5D75D9210BF160A7"
+			tasks: [{
+				id: "70658F1C0B21B45C"
+				item: "youkaishomecoming:fairy_ice_crystal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			id: "5C666DFD41083FD6"
+			tasks: [{
+				id: "50491ADD83A07565"
+				item: "tinkers_delight:cotton_candy"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			id: "19D461FB21A86369"
+			tasks: [{
+				id: "0FD79D847BC0D179"
+				item: "thermal:apatite"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			id: "1A94BD7995322429"
+			tasks: [{
+				id: "6DD324863AD87AA1"
+				item: "twilightforest:arctic_fur"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			id: "2B04792E456DDD91"
+			tasks: [{
+				id: "5B12D5559562F83B"
+				item: "twilightforest:naga_scale"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			id: "061F09A141BFB4FA"
+			tasks: [{
+				id: "04FE0D42F329F53B"
+				item: "twilightforest:raven_feather"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			id: "3950B9F5D484309E"
+			tasks: [{
+				id: "4AFB8AF03418F5C6"
+				item: "rats:cheese"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			id: "46589204C2B5CC41"
+			tasks: [{
+				id: "6C2467878D310D3B"
+				item: "iceandfire:amphithere_feather"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			id: "31B8D5FB58AD5B0A"
+			tasks: [{
+				id: "4C2134B619B9AD9E"
+				item: "iceandfire:myrmex_stinger"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			id: "6C8915A49AC090B7"
+			tasks: [{
+				id: "442F19B8795C1D1C"
+				item: "iceandfire:myrmex_jungle_chitin"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			id: "1D6BBBF83A2F69DC"
+			tasks: [{
+				id: "2AFBCE9612D7D602"
+				item: "alexscaves:dark_tatters"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			id: "6A52DAFD90806532"
+			tasks: [{
+				id: "210D3BB97B525E71"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			id: "6825505685D10B36"
+			tasks: [{
+				id: "197378261B2A9443"
+				item: "minecraft:sponge"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			id: "7634D16C34B41D6F"
+			tasks: [{
+				id: "6EA13DD75DD3BA8D"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			id: "5092985A30DF14CE"
+			tasks: [{
+				id: "0CD14ADAC3D5738C"
+				item: "minecraft:popped_chorus_fruit"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			id: "0F711F38E02D19B7"
+			tasks: [{
+				id: "2B9DE51DEC952126"
+				item: "alexscaves:licoroot_vine"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			id: "0C021AD12F86EEF6"
+			tasks: [{
+				id: "110A47A2A576F6D0"
+				item: "minecraft:bamboo"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			id: "10C65255E4377359"
+			tasks: [{
+				id: "377C62250AD47596"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			id: "56F4F9AECFC91732"
+			tasks: [{
+				id: "5BEE4A6833EB4652"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "086EC60152FEB412"
+			tasks: [{
+				id: "04E27CF4D055B1B7"
+				item: "alexscaves:cycad"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			id: "3DBAD646B924FA11"
+			tasks: [{
+				id: "5F0E126E7858F2E2"
+				item: "alexscaves:thornwood_branch"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			id: "7298E2D7491BFA35"
+			tasks: [{
+				id: "4056DC7D19C157F1"
+				item: "minecraft:vine"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "3649AF389EF3BFFC"
+			tasks: [{
+				id: "5BFEA27CBA7F7971"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			id: "70E968744CA48FA6"
+			tasks: [{
+				id: "461679809DCBF42D"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			id: "52E9DCE2F24B817D"
+			tasks: [{
+				id: "298A1C1AD27CBBCA"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			id: "1CD6EAF33ACCE06E"
+			tasks: [{
+				id: "506BE4B29EBD1781"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tcintegrations:livingwood_logs"
+					}
+				}
+				title: "Any #tcintegrations:livingwood_logs"
+				type: "item"
+			}]
+			title: "活木"
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			id: "46564BCD22090EC0"
+			tasks: [{
+				id: "28BB5C890050CA2F"
+				item: "alexscaves:heavy_bone"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			id: "5D2D5BC6024565CF"
+			tasks: [{
+				id: "5961B132CD011A2B"
+				item: "irons_spellbooks:magic_cloth"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "68DF7DAB63170B9C"
+			tasks: [{
+				id: "58E5E2C2FBF96111"
+				item: "mysticalagriculture:inferium_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			id: "704C8A930D430A33"
+			tasks: [{
+				id: "344D917533608E4E"
+				item: "mushroom_daydream:slime_pawn"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "47ED54CFD8010E5C"
+			tasks: [{
+				id: "3F3B209E0DBB34F3"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "58586B30E0C7B4AC"
+			tasks: [{
+				id: "6165250A6A55AF00"
+				item: "cloudertinker:colairon_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "5A5FEAEAEAB628B7"
+			tasks: [{
+				id: "764262AB94D75E50"
+				item: "cloudertinker:bloodshed_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "1B15311EF809318A"
+			tasks: [{
+				id: "060DB1D887D1F31F"
+				item: "tconstruct:necrotic_bone"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			id: "2D13BA4A3E74C90D"
+			tasks: [{
+				id: "4C14A137E5C0363C"
+				item: "minecraft:weeping_vines"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "568E28592D9A3D89"
+			tasks: [{
+				id: "7055F7F65C29B4DF"
+				item: "sakuratinker:youkai_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			id: "0B51C68B4A2A6477"
+			tasks: [{
+				id: "3FAD89C6DF3014BC"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			id: "12E2DE0524780D07"
+			tasks: [{
+				id: "0D69ECC04E59C0AC"
+				item: "dreamtinker:larimar"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "30A5CA954725AE56"
+			tasks: [{
+				id: "5B3DC7B718E2AA3A"
+				item: "alexsmobs:bear_fur"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			id: "77E1656B9561C178"
+			tasks: [{
+				id: "11062DE8C8045188"
+				item: "mysticalagriculture:soulium_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "7E2C2061FF9CCFB8"
+			tasks: [{
+				id: "71E56B25D72FDE76"
+				item: "tinkersinnovation:cooked_bone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "0C86B7AB5F259B10"
+			tasks: [{
+				id: "559B7A707A2BCF2C"
+				item: "tconstruct:scorched_brick"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			id: "01DABAD81C484638"
+			tasks: [{
+				id: "419BC0312CD9B4DD"
+				item: "tconstruct:seared_brick"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			id: "574F0FBFA78AD372"
+			tasks: [{
+				id: "7415B88E472B4422"
+				item: "create:rose_quartz_tiles"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "0F94B0F43D569BD9"
+			tasks: [{
+				id: "120A590DBB4DAA2B"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			id: "61A361E898534DFE"
+			tasks: [{
+				id: "3B8AE726B97ACCA9"
+				item: "tinkers_thinking:pearlescent_frogcroaking"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			id: "5A25A99B57C1DA2E"
+			tasks: [{
+				id: "34986D9198EB620E"
+				item: "dreamtinker:amber"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			id: "0DD617366C88FB0A"
+			tasks: [{
+				id: "106406E0D2A1A984"
+				item: "irons_spellbooks:hogskin"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			id: "5EE402F543FD8504"
+			tasks: [{
+				id: "56AA0EA0F5863B73"
+				item: "cloudertinker:magnet_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			id: "65404D69399E3746"
+			tasks: [{
+				id: "61E7896DC330212F"
+				item: "tconstruct:venombone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			id: "54D59ADBBCE6F78C"
+			tasks: [{
+				id: "34D9DF4BEECD2928"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			id: "1EED5AC1BC33B199"
+			tasks: [{
+				id: "1596604436667EDD"
+				item: "minecraft:end_stone"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "43BF7A395180099C"
+			tasks: [{
+				id: "29717B9198703CF5"
+				item: "dreamtinker:orichalcum_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			id: "1E4A65F723420E70"
+			tasks: [{
+				id: "2585EFA1673B7365"
+				item: "alexscaves:shadow_silk"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			id: "2F48DB7A69747405"
+			tasks: [{
+				id: "631B2E7FFF286335"
+				item: "mushroom_daydream:no_head"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			id: "2D1D5260E924D5DC"
+			tasks: [{
+				id: "5815696AD79C7F0D"
+				item: "tinkerscalibration:vibrating_crystal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "02E14152DF59D754"
+			tasks: [{
+				id: "031E1C6061F8DEFB"
+				item: "cloudertinker:devil_chain"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			id: "5C7244A0BB52BED6"
+			tasks: [{
+				id: "2D9F4CFDA2DF1117"
+				item: "cloudertinker:evilmare_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			id: "0C1B759B995A8B65"
+			tasks: [{
+				id: "4803FE905192C685"
+				item: "dreamtinker:shadow_silver_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "0379EB6852F958FF"
+			tasks: [{
+				id: "637249E4066FFBF6"
+				item: "dreamtinker:cold_iron_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			id: "7E7B053DC50B9BEF"
+			tasks: [{
+				id: "38E0F84A63A394B3"
+				item: "cloudertinker:forestbone"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			id: "63B18A19D21AE44B"
+			tasks: [{
+				id: "529BAB25CDE1DC9F"
+				item: "iceandfire:dread_shard"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			id: "3B981095B1C1394E"
+			tasks: [{
+				id: "4D5F8D1BF96036A3"
+				item: "minecraft:nether_brick"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			id: "094D015C2E75AEA4"
+			tasks: [{
+				id: "56A32AFDB1A1863B"
+				item: "aether:ambrosium_shard"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			id: "76BE271054A90AF0"
+			tasks: [{
+				id: "17AFC8CFDABFAFD5"
+				item: "create:cardboard"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "7B744C64FA0BA19A"
+			tasks: [{
+				id: "6EFAC3C5C14AE175"
+				item: "twilightforest:red_thread"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			id: "62FC082E3A48C47C"
+			tasks: [{
+				id: "3337C2048288945C"
+				item: "cataclysm:amethyst_crab_shell"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			id: "71EA8679FC12F31F"
+			tasks: [{
+				id: "524727C7A3131D3F"
+				item: "iceandfire:pixie_wings"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "6D266B8E95078052"
+			tasks: [{
+				id: "6E7DB22F332724FD"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			id: "4951A690743930DB"
+			tasks: [{
+				id: "31E6CBD08655E290"
+				item: "cloudertinker:minogold_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			id: "0C2B70A2AC98690D"
+			tasks: [{
+				id: "41D43F6D23A18DBE"
+				item: "tinkerscalibration:bamboo_steel"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			id: "03EA1D6F7870590B"
+			tasks: [{
+				id: "4039C2EE45FEA0DB"
+				item: "tinkers_thinking:stabilized_gunpowder"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			id: "30B07BFBA6B887F0"
+			tasks: [{
+				id: "7F68B0D7CE6C8E82"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			id: "3A138B602D304961"
+			tasks: [{
+				id: "512EBAB183D7F8D0"
+				item: "iceandfire:dragonbone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			id: "5635895C1246A5F9"
+			tasks: [{
+				id: "73D4BE414778B5A9"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			id: "423B2AE0619877B7"
+			tasks: [{
+				id: "604D3969E5E8B8D0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/silver"
+					}
+				}
+				title: "Any #forge:ingots/silver"
+				type: "item"
+			}]
+			title: "银锭"
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			id: "3B40EBB434EEF1E7"
+			tasks: [{
+				id: "7EFDBECCC2474911"
+				item: "immersiveengineering:ingot_aluminum"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			id: "74C619A32B7AC212"
+			tasks: [{
+				id: "41E39F7B9477EDF0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/lead"
+					}
+				}
+				title: "Any #forge:ingots/lead"
+				type: "item"
+			}]
+			title: "铅锭"
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			id: "3C17E3E1A0849CB9"
+			tasks: [{
+				id: "2D5A52DF9AE96A1C"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			id: "506A873A6B3839D3"
+			tasks: [{
+				id: "00301C5FCD5D646A"
+				item: "twilightforest:ironwood_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			id: "6568DA0A366923D7"
+			tasks: [{
+				id: "0D648D1F6F4F8B30"
+				item: "dreamtinker:scolecite"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			id: "5AEECC14014E18FC"
+			tasks: [{
+				id: "5789F9A4F356031A"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			id: "12F81EBDF90C9B27"
+			tasks: [{
+				id: "011625BE76196F3D"
+				item: "alexscaves:polymer_plate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			id: "629B49A375D7D101"
+			tasks: [{
+				id: "38B74AA1A33CE66C"
+				item: "tinkers_thinking:dusk_chunk"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			id: "0DF9E631974349E8"
+			tasks: [{
+				id: "4270DB55333F69CA"
+				item: "tinkersinnovation:gorgon_hair"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			id: "7AE5D3CFD7AB742D"
+			tasks: [{
+				id: "036A54AFE01A4F60"
+				item: "tinkersinnovation:honey_bone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			id: "50F62A02A5D8CAAA"
+			tasks: [{
+				id: "68EB5B60F6545D70"
+				item: "tinkersinnovation:blood_bone"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			id: "73B19690376BEEC3"
+			tasks: [{
+				id: "5F62CF3090100FB6"
+				item: "alexsmobs:capsid"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			id: "0AE329E6042B57AB"
+			tasks: [{
+				id: "249D453F9966F5A3"
+				item: "cloudertinker:dectird_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			id: "58CAB95801E50D3B"
+			tasks: [{
+				id: "29A0E9DED330D6D0"
+				item: "cloudertinker:questiron_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			id: "4602B8684C846CDA"
+			tasks: [{
+				id: "64927E3967BAACD2"
+				item: "tinkerscalibration:grain_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			id: "49CA5A2B5FE5DF03"
+			tasks: [{
+				id: "00EEEF676E2D3EF0"
+				item: "tinkers_thinking:ochre_frogcroaking"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			id: "3CCA4AD8AEE87FEA"
+			tasks: [{
+				id: "61AACD0D9CA9145B"
+				item: "tinkers_advanced:bismuthinite"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			id: "252447CC9B96795D"
+			tasks: [{
+				id: "3DCDFB0E60A1FCC9"
+				item: "cloudertinker:prublaze_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			id: "7975B9097C5BD289"
+			tasks: [{
+				id: "6E2F96F7AC9F16C0"
+				item: "minecraft:twisting_vines"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			id: "572D7BC6F9A1A8E6"
+			tasks: [{
+				id: "654936D290C75B76"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:slimy_planks"
+					}
+				}
+				title: "Any #tconstruct:slimy_planks"
+				type: "item"
+			}]
+			title: "黏木"
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			id: "14D15946C097DA31"
+			tasks: [{
+				id: "2417AE44BB4B4A60"
+				item: "tinkersinnovation:slime_bone"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			id: "7377045763AEE863"
+			tasks: [{
+				id: "0CF6766AF13640A1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tinkers_advanced:plastic"
+					}
+				}
+				title: "Any #tinkers_advanced:plastic"
+				type: "item"
+			}]
+			title: "塑料"
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			id: "0A5360D96C912988"
+			tasks: [{
+				id: "212E3C8DBF9965D7"
+				item: "tinkers_thinking:verdant_frogcroaking"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			id: "62BEB1C1E6547731"
+			tasks: [{
+				id: "5A76CCDEC6AD2779"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			id: "505BF9FAEC4D3977"
+			tasks: [{
+				id: "1070C4D49533F676"
+				item: "immersiveengineering:treated_wood_horizontal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			id: "0E2FF1401C13C3DA"
+			tasks: [{
+				id: "0F1E0D96414118E4"
+				item: "dreamtinker:shining_flint"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			id: "45FA69B427C0E804"
+			tasks: [{
+				id: "6FBE5BD1E012BA0D"
+				item: "tinkers_thinking:gilded_silky_cloth"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			id: "2DFA8CA76E5B9E65"
+			tasks: [{
+				id: "348A1B7D5E42B86D"
+				item: "dreamtinker:valentinite"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			id: "256F794AC71448C5"
+			tasks: [{
+				id: "507DC66AA0FAAE20"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			id: "28534C3EF85E64F9"
+			tasks: [{
+				id: "07CE88AFB018940C"
+				item: "tconstruct:sky_slime_vine"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			id: "732BDD9C7E41D3D6"
+			tasks: [{
+				id: "584F46975DE5775D"
+				item: "irons_spellbooks:frosted_helve"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			id: "7B060656BD04591D"
+			tasks: [{
+				id: "1124E6F8EA85C2D6"
+				item: "minecraft:ice"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			id: "530E4DACEFDDD753"
+			tasks: [{
+				id: "6E12BE9210C7E04C"
+				item: "mushroom_daydream:bee_man"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			id: "071893BEF251D762"
+			tasks: [{
+				id: "6767EF998D20EA1B"
+				item: "tinkerscalibration:rabbit_iron_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			id: "71B561F4B26C6D75"
+			tasks: [{
+				id: "5914CC287B7AB19B"
+				item: "thermal:signalum_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			id: "7905A8D6AAEF83D3"
+			tasks: [{
+				id: "1F72206267929B8C"
+				item: "tinkerscalibration:magiga_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			id: "1B3387F6D5F22109"
+			tasks: [{
+				id: "43B7B0B84DED2463"
+				item: "tinkerscalibration:lizanite_crystal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			id: "4CFB48EC5B2A98E4"
+			tasks: [{
+				id: "54CF742D065924D8"
+				item: "mysticalagriculture:tertium_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			id: "53669C3307E1036B"
+			tasks: [{
+				id: "5E254DA9C06F2D73"
+				item: "tconstruct:silky_cloth"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			id: "6B71E3C379970FCC"
+			tasks: [{
+				id: "48987B1444CAC514"
+				item: "dreamtinker:poisonous_homunculus"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.0d
+		}
+		{
+			id: "2DDEDC65A171710D"
+			tasks: [{
+				id: "3E8D2BF589A66E7E"
+				item: "tinkerscalibration:stellarium_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 11.0d
+		}
+		{
+			id: "6E66A7CC968D7ADA"
+			tasks: [{
+				id: "7CC8FFD9461D7283"
+				item: "mekanism:ingot_refined_glowstone"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.0d
+		}
+		{
+			id: "5C0D73ACAC7554B2"
+			tasks: [{
+				id: "5441A783C27089A7"
+				item: "tinkerscalibration:refinedquartz"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			id: "5CD15E1C330FC424"
+			tasks: [{
+				id: "042470497354B154"
+				item: "alexsmobs:elastic_tendon"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			id: "25222A07B156C092"
+			tasks: [{
+				id: "17E509F305A5A836"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/constantan"
+					}
+				}
+				title: "Any #forge:ingots/constantan"
+				type: "item"
+			}]
+			title: "康铜"
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			id: "01DBA973F494ED47"
+			tasks: [{
+				id: "5C6175247BDF2ED0"
+				item: "tinkers_thinking:spectre_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			id: "4DF851DA9EE31E07"
+			tasks: [{
+				id: "40587043E0022580"
+				item: "cloudertinker:phantom_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 11.0d
+		}
+		{
+			id: "4A061C15754555E0"
+			tasks: [{
+				id: "238A8C69AFE0E061"
+				item: "twilightforest:giant_cobblestone"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 11.0d
+		}
+		{
+			id: "3F94ACFC71719BCB"
+			tasks: [{
+				id: "36D9C6FD85AC1EB4"
+				item: "tinkers_thinking:tinkers_bronze_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.0d
+		}
+		{
+			id: "7F47D79157083D36"
+			tasks: [{
+				id: "21C76A34860CA10E"
+				item: "sakuratinker:orichalcum_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.0d
+		}
+		{
+			id: "579D5E5DBDD2858E"
+			tasks: [{
+				id: "5D1C63B64ED76526"
+				item: "tinkerscalibration:spinel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 12.0d
+		}
+		{
+			id: "633B6EA82479E36B"
+			tasks: [{
+				id: "2F921E807856B510"
+				item: "cloudertinker:changeheart"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			id: "6FEEEEBEB400F2B0"
+			tasks: [{
+				id: "71545909E9EF76EA"
+				item: "mushroom_daydream:slime_court_jester"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 12.0d
+		}
+		{
+			id: "27A1E67A2C6191B9"
+			tasks: [{
+				id: "37E95CAAD86305B5"
+				item: "tinkers_thinking:chlorophyte_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 12.0d
+		}
+		{
+			id: "490408FDE84EED03"
+			tasks: [{
+				id: "3682E33AFF53E4E6"
+				item: "tinkerscalibration:halleium_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.0d
+		}
+		{
+			id: "513CBC783D88AD8F"
+			tasks: [{
+				id: "38E8E5FA9087E51E"
+				item: "minecraft:crying_obsidian"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 12.0d
+		}
+		{
+			id: "3BC7999AFF258603"
+			tasks: [{
+				id: "5BAC78B16C305957"
+				item: "mushroom_daydream:nightmare_fuel"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 12.0d
+		}
+		{
+			id: "31A1075347B00120"
+			tasks: [{
+				id: "4D15C0176DC9D781"
+				item: "tinkers_thinking:echo_bronze_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 13.0d
+		}
+		{
+			id: "491B41403FBB9AE0"
+			tasks: [{
+				id: "3F6F958A8B2111B4"
+				item: "tinkers_advanced:basalz_signalum"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 13.0d
+		}
+		{
+			id: "3A799C7D4269B5A4"
+			tasks: [{
+				id: "51D48E8C07DFE447"
+				item: "cloudertinker:compositesteeleaf_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 13.0d
+		}
+		{
+			id: "3FF60BD8387A2519"
+			tasks: [{
+				id: "108414B657CED42A"
+				item: "irons_spellbooks:arcane_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 13.0d
+		}
+		{
+			id: "072F182253108836"
+			tasks: [{
+				id: "022CF1B5B85F4591"
+				item: "cloudertinker:frostiron_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 13.0d
+		}
+		{
+			id: "4198E66D14966A61"
+			tasks: [{
+				id: "5E539F450F294826"
+				item: "tinkers_thinking:chillslime_cryogel"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 13.0d
+		}
+		{
+			id: "0BA7FB503DB13F18"
+			tasks: [{
+				id: "38645E2658708F09"
+				item: "mushroom_daydream:liga"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 13.0d
+		}
+		{
+			id: "77ABE2BFD2C7F63E"
+			tasks: [{
+				id: "264A4E17DCAEDACE"
+				item: "mysticalagriculture:prudentium_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 13.0d
+		}
+		{
+			id: "7846DF5B6EA11D3E"
+			tasks: [{
+				id: "581228AA52E3B444"
+				item: "tinkerscalibration:corundum"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 13.0d
+		}
+		{
+			id: "3E6AC873B6B98480"
+			tasks: [{
+				id: "223B9E358F78F97F"
+				item: "tinkerscalibration:immersed_silver_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 14.0d
+		}
+		{
+			id: "175BD365BCA3754F"
+			tasks: [{
+				id: "72E675F7FA7C0D42"
+				item: "tinkerscalibration:steamium_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 14.0d
+		}
+		{
+			id: "61A264059032F1C6"
+			tasks: [{
+				id: "01EC881918FC15F2"
+				item: "thermal:invar_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 14.0d
+		}
+		{
+			id: "1C869CA793C0B12E"
+			tasks: [{
+				id: "5D2AD18B3B76F1E6"
+				item: "alexscaves:tectonic_shard"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 14.0d
+		}
+		{
+			id: "7DE24361C5F6E2F9"
+			tasks: [{
+				id: "6986DC676E5D5AA9"
+				item: "dreamtinker:transmutation_gold_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 14.0d
+		}
+		{
+			id: "16BB4003E0E14D94"
+			tasks: [{
+				id: "21A7A572EB42380C"
+				item: "cloudertinker:timering"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 14.0d
+		}
+		{
+			id: "7FDE104F442FE8CE"
+			tasks: [{
+				id: "77EB783B5B81B382"
+				item: "gobber2:gobber2_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 14.0d
+		}
+		{
+			id: "17D0340F1F8FA3C6"
+			tasks: [{
+				id: "269CE978A3F5ACAA"
+				item: "tinkersinnovation:fools_gold_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 14.0d
+		}
+		{
+			id: "561F5878587D5A47"
+			tasks: [{
+				id: "4E6D6C42C75B9CD5"
+				item: "tinkerscalibration:inert_witherium_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 14.0d
+		}
+		{
+			id: "46B0EEF691B31366"
+			tasks: [{
+				id: "70FB7A4938CF69C7"
+				item: "aether:zanite_gemstone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 15.0d
+		}
+		{
+			id: "35CF1FFC96B9D6D0"
+			tasks: [{
+				id: "1CD4363CEB9636AA"
+				item: "cloudertinker:minodiamond_gem"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 15.0d
+		}
+		{
+			id: "17914AA032D4522A"
+			tasks: [{
+				id: "099F51F334C0E503"
+				item: "deep_aether:skyjade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 15.0d
+		}
+		{
+			id: "7A778AEBE4B3105C"
+			tasks: [{
+				id: "344289545A83042A"
+				item: "ae2:silicon"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 15.0d
+		}
+		{
+			id: "6F070243FD3DFAC5"
+			tasks: [{
+				id: "2297AF94A0E0B1F1"
+				item: "twilightforest:carminite"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 15.0d
+		}
+		{
+			id: "00784CB76E57D279"
+			tasks: [{
+				id: "19E2B3DF1C64B827"
+				item: "cloudertinker:orescore"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 15.0d
+		}
+		{
+			id: "1F5A02A3368B0346"
+			tasks: [{
+				id: "7F73940889913D30"
+				item: "tinkers_thinking:white_chocolate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 15.0d
+		}
+		{
+			id: "6681B73D3E74B60B"
+			tasks: [{
+				id: "72D511AB3225724C"
+				item: "mushroom_daydream:plague_steel"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 15.0d
+		}
+		{
+			id: "6394D4DC7ADEBB69"
+			tasks: [{
+				id: "1AF7620A7393B1C0"
+				item: "tinkers_ingenuity:plague_bone"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 15.0d
+		}
+		{
+			id: "5A8C3DF910A7B2D2"
+			tasks: [{
+				id: "039839D914EE7B45"
+				item: "tinkerscalibration:tourmaline"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 16.0d
+		}
+		{
+			id: "11BE34925415B6D8"
+			tasks: [{
+				id: "50839F0D013060AD"
+				item: "tinkers_thinking:electrical_steel_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 16.0d
+		}
+		{
+			id: "1021334632558AC8"
+			tasks: [{
+				id: "5D9EEE1A6840DF15"
+				item: "tconstruct:pig_iron_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 16.0d
+		}
+		{
+			id: "6DC511207CB48D85"
+			tasks: [{
+				id: "4F572869A440AD07"
+				item: "l2complements:poseidite_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 16.0d
+		}
+		{
+			id: "430FF41B112693C0"
+			tasks: [{
+				id: "1FDBBD2E22BFAFC3"
+				item: "tinkerscalibration:hymon"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 16.0d
+		}
+		{
+			id: "4B8698191BED4E9A"
+			tasks: [{
+				id: "0447D88DD4CDD438"
+				item: "l2hostility:chaos_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 16.0d
+		}
+		{
+			id: "2D199CED319EA65A"
+			tasks: [{
+				id: "3A4AFC65716A1C7C"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 16.0d
+		}
+		{
+			id: "1B3F13911BF7E264"
+			tasks: [{
+				id: "66F4283F737B4EEB"
+				item: "tinkers_delight:hot_pot_iron_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 16.0d
+		}
+		{
+			id: "0C9D37B660945468"
+			tasks: [{
+				id: "419C02E1A971A28C"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 16.0d
+		}
+		{
+			id: "10354F79C8AB8726"
+			tasks: [{
+				id: "56D12C5DEE27C5CD"
+				item: "tconstruct:rose_gold_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 17.0d
+		}
+		{
+			id: "1EEE68722F135B71"
+			tasks: [{
+				id: "38FB66B8DC078BCE"
+				item: "tinkerscalibration:fiberglass"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 17.0d
+		}
+		{
+			id: "78196E87C5377FE6"
+			tasks: [{
+				id: "78FA977B0E88DCB2"
+				item: "createaddition:electrum_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 17.0d
+		}
+		{
+			id: "292529A29C2AE72F"
+			tasks: [{
+				id: "2D5DF956F9C1D915"
+				item: "tinkers_thinking:beetron_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 17.0d
+		}
+		{
+			id: "5431C3D7DC03A0E8"
+			tasks: [{
+				id: "64F71C8ED987DCA9"
+				item: "tinkerscalibration:beetroot_iron_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 17.0d
+		}
+		{
+			id: "20876731CFAE5BEF"
+			tasks: [{
+				id: "230DF669EFFA69FF"
+				item: "l2complements:totemic_gold_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 17.0d
+		}
+		{
+			id: "150B245E2447DBFD"
+			tasks: [{
+				id: "3D7A69F5C4FA47AC"
+				item: "tinkers_ingenuity:sea_snail"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 17.0d
+		}
+		{
+			id: "54892D0426B65E46"
+			tasks: [{
+				id: "6E0FDB746D838686"
+				item: "aquaculture:neptunium_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 17.0d
+		}
+		{
+			id: "251A838409991485"
+			tasks: [{
+				id: "7FD62E8E8F6BF6B6"
+				item: "tinkersinnovation:mudslime_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 17.0d
+		}
+		{
+			id: "49ABE13A08AE0580"
+			tasks: [{
+				id: "4DEDA891A34F5D6A"
+				item: "tinkerscalibration:prehnite_crystal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 18.0d
+		}
+		{
+			id: "0929DA0C39636AA1"
+			tasks: [{
+				id: "31BFD0A333AB9522"
+				item: "tinkers_advanced:nutrition_slime_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 18.0d
+		}
+		{
+			id: "7789B518F2948CEE"
+			tasks: [{
+				id: "44A330B8743742CA"
+				item: "tinkerscalibration:alumite_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 18.0d
+		}
+		{
+			id: "06BF7289E15D9A1A"
+			tasks: [{
+				id: "2517D66AE50CAA95"
+				item: "wqjy:black_steel_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 18.0d
+		}
+		{
+			id: "72A3352E4CECE042"
+			tasks: [{
+				id: "5D2125B103EA556B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 18.0d
+		}
+		{
+			id: "1CCD3B755B2D1023"
+			tasks: [{
+				id: "21A974CDBE7D9691"
+				item: "tconstruct:nahuatl"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 18.0d
+		}
+		{
+			id: "5A8C59929B87B4EF"
+			tasks: [{
+				id: "28119D1AE9E884F1"
+				item: "thermal:ruby"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 18.0d
+		}
+		{
+			id: "7B16CBD5583A1E81"
+			tasks: [{
+				id: "7ED9C9CBC1C6B40C"
+				item: "minecraft:purpur_block"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 18.0d
+		}
+		{
+			id: "610EA79B18103FE4"
+			tasks: [{
+				id: "30FD1FAD2E308350"
+				item: "tconstruct:amethyst_bronze_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 18.0d
+		}
+		{
+			id: "4A528A244B4ACEC4"
+			tasks: [{
+				id: "426DA794B43A3A32"
+				item: "tinkers_delight:gildedfern"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 19.0d
+		}
+		{
+			id: "7C491DBC408186DC"
+			tasks: [{
+				id: "03563203C8C7BE3D"
+				item: "tinkers_thinking:bacium"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 19.0d
+		}
+		{
+			id: "5233050998340F0A"
+			tasks: [{
+				id: "3D8D2D26D2F5D167"
+				item: "tinkers_advanced:bismuth_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 19.0d
+		}
+		{
+			id: "6D356ED67556AC15"
+			tasks: [{
+				id: "2FAA0C328B970558"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 19.0d
+		}
+		{
+			id: "3CC00A9F931DA655"
+			tasks: [{
+				id: "384791FD627B1E46"
+				item: "tconstruct:cobalt_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 19.0d
+		}
+		{
+			id: "16E19942F12EDC31"
+			tasks: [{
+				id: "36D0D03E223B1E92"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "Any #forge:ingots/steel"
+				type: "item"
+			}]
+			title: "钢"
+			x: 3.5d
+			y: 19.0d
+		}
+		{
+			id: "7EBD6BBF4EFD9F76"
+			tasks: [{
+				id: "73264B090EB01D05"
+				item: "cloudertinker:steeleafalloy"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 19.0d
+		}
+		{
+			id: "0EF38CB9C715766F"
+			tasks: [{
+				id: "5DC023EF3028FF17"
+				item: "twilightforest:steeleaf_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 19.0d
+		}
+		{
+			id: "6BF27AF85351DDD7"
+			tasks: [{
+				id: "15CE24DA59449DC9"
+				item: "tinkerscalibration:tonium_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 19.0d
+		}
+		{
+			id: "2E207F1510672C06"
+			tasks: [{
+				id: "1566DA2C6796DE68"
+				item: "tinkers_thinking:ardite_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 20.0d
+		}
+		{
+			id: "501BD12321CDE106"
+			tasks: [{
+				id: "7FE5B8CE2E807784"
+				item: "tinkerscalibration:titanium_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 20.0d
+		}
+		{
+			id: "574EB973C502F34F"
+			tasks: [{
+				id: "654E87E685ACCC60"
+				item: "cloudertinker:mazeslime_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 20.0d
+		}
+		{
+			id: "7F7EFC25738E4911"
+			tasks: [{
+				id: "25B547218E537DE9"
+				item: "tinkers_thinking:shroomite_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 20.0d
+		}
+		{
+			id: "02631C2B7A96665A"
+			tasks: [{
+				id: "49A07E875E736374"
+				item: "tinkers_delight:mushroom_gold_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 20.0d
+		}
+		{
+			id: "5E53098C08E3140B"
+			tasks: [{
+				id: "4DD0967BEBD84700"
+				item: "tinkerscalibration:mushroom_iron_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 20.0d
+		}
+		{
+			id: "32564102C538C79F"
+			tasks: [{
+				id: "4D7C91C718FCAD9B"
+				item: "tinkersinnovation:void_crystal_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 20.0d
+		}
+		{
+			id: "40E2F1FFE330CE79"
+			tasks: [{
+				id: "7A4234FA13F1A5CF"
+				item: "twilightforest:alpha_yeti_fur"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 20.0d
+		}
+		{
+			id: "2401E4D847D2F998"
+			tasks: [{
+				id: "1A70824ED4197522"
+				item: "dreamtinker:rainbow_honey_crystal"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 20.0d
+		}
+		{
+			id: "4C512CCAB96B73A1"
+			tasks: [{
+				id: "1700C210BEEA02AB"
+				item: "sakuratinker:blood_bound_steel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 21.0d
+		}
+		{
+			id: "70D0C118D4BFBB3F"
+			tasks: [{
+				id: "3F92D2C5242D2919"
+				item: "momotinker:jujube_wood_log"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 21.0d
+		}
+		{
+			id: "0E8F9DDE31B81E4B"
+			tasks: [{
+				id: "1A751E5E24E2C4CC"
+				item: "tinkers_thinking:lightite_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 21.0d
+		}
+		{
+			id: "43990F0EF9D6A377"
+			tasks: [{
+				id: "1578ECC6B6F6901F"
+				item: "tconstruct:necronium_bone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 21.0d
+		}
+		{
+			id: "77EAF07DF2129317"
+			tasks: [{
+				id: "25EA2A200904DAFE"
+				item: "cloudertinker:sorteye"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 21.0d
+		}
+		{
+			id: "1E01C3F88945F92A"
+			tasks: [{
+				id: "434C98D5F76334D0"
+				item: "cataclysm:ancient_metal_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 21.0d
+		}
+		{
+			id: "3FD7C3AB950BCEA4"
+			tasks: [{
+				id: "4B03A87C5A994C2D"
+				item: "botania:mana_string"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 21.0d
+		}
+		{
+			id: "79F9E5D199057A26"
+			tasks: [{
+				id: "1E60176DCA34B658"
+				item: "iceandfire:sapphire_gem"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 21.0d
+		}
+		{
+			id: "016081A393E43E20"
+			tasks: [{
+				id: "36815D875FB73E3E"
+				item: "thermal:sapphire"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 21.0d
+		}
+		{
+			id: "4C2818BAA225DB19"
+			tasks: [{
+				id: "713782C5DA74C61C"
+				item: "tinkersinnovation:enchantment_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 22.0d
+		}
+		{
+			id: "5AC50B604B9CC4C0"
+			tasks: [{
+				id: "6C4A3AFB8A77D5B3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/brass"
+					}
+				}
+				title: "Any #forge:ingots/brass"
+				type: "item"
+			}]
+			title: "黄铜"
+			x: -0.5d
+			y: 22.0d
+		}
+		{
+			id: "5DF774BA58B2E3CC"
+			tasks: [{
+				id: "3D89BE06AEE63EFA"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 22.0d
+		}
+		{
+			id: "761454148212F148"
+			tasks: [{
+				id: "72B33EAD222055E9"
+				item: "dreamtinker:soul_steel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 22.0d
+		}
+		{
+			id: "1FE3488DB2AA3B3A"
+			tasks: [{
+				id: "54C212B8E5B1EA10"
+				item: "cataclysm:koboleton_bone"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 22.0d
+		}
+		{
+			id: "060DECB34F5E6387"
+			tasks: [{
+				id: "1D98CC16E5216136"
+				item: "ticex:wyvern_crystal"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 22.0d
+		}
+		{
+			id: "7D6D205EEF63E634"
+			tasks: [{
+				id: "30CBF16F303A598E"
+				item: "thermal:bronze_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 22.0d
+		}
+		{
+			id: "61A680979F9A9E27"
+			tasks: [{
+				id: "6813178DD4CC97B3"
+				item: "mushroom_daydream:copper_green"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 22.0d
+		}
+		{
+			id: "3C193A272E32952F"
+			tasks: [{
+				id: "6068761F19BE8600"
+				item: "tinkerscalibration:hothium_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 22.0d
+		}
+		{
+			id: "1E1DC4E50FA1615A"
+			tasks: [{
+				id: "53686CA6B2C0F580"
+				item: "dreamtinker:nigrescence_antimony"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 23.0d
+		}
+		{
+			id: "244E0D611BFC8734"
+			tasks: [{
+				id: "0C0746B20376A193"
+				item: "tinkers_thinking:black_chocolate"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 23.0d
+		}
+		{
+			id: "4DE42EF297B62DE0"
+			tasks: [{
+				id: "5E67006B2C56469E"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 23.0d
+		}
+		{
+			id: "2F1DCA9FA2CAE00D"
+			tasks: [{
+				id: "2EF52F211BFCA461"
+				item: "tinkers_thinking:obsidian_bronze_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 23.0d
+		}
+		{
+			id: "6BF995CF278BAA87"
+			tasks: [{
+				id: "2AE190383F364072"
+				item: "tinkers_ingenuity:black_gold_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 23.0d
+		}
+		{
+			id: "02664DF2D9C02F4E"
+			tasks: [{
+				id: "63B200BEC1CB9DD8"
+				item: "cataclysm:black_steel_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 23.0d
+		}
+		{
+			id: "0EC9EE32C64073DA"
+			tasks: [{
+				id: "10F8BD28AAE7049A"
+				item: "ticex:draconium_crystal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 23.0d
+		}
+		{
+			id: "294B6D9B454A6225"
+			tasks: [{
+				id: "14F9C9F12C47B8A1"
+				item: "tconstruct:slimesteel_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 23.0d
+		}
+		{
+			icon: "tinkersjewelry:book"
+			id: "3BE2283A19BA53AB"
+			subtitle: "准备添加但暂未实装；\\n是的，依旧画饼； \\n已完成"
+			tasks: [{
+				id: "58FCAC1B78842EB1"
+				title: "预添加"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 23.0d
+		}
+		{
+			id: "702CEA83C1BFB4A1"
+			tasks: [{
+				id: "03C3C9A4CA8630E0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:leaves"
+					}
+				}
+				title: "Any #minecraft:leaves"
+				type: "item"
+			}]
+			title: "树叶"
+			x: 12.0d
+			y: 20.5d
+		}
+		{
+			icon: "tconstruct:tinkers_gadgetry"
+			id: "0F06CACE2F32FC37"
+			subtitle: "一共三种箭羽，请认真识别；\\n已有材料不再额外添加"
+			tasks: [{
+				id: "6FA5AEA25F2BF808"
+				title: "箭羽材料"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 20.5d
+		}
+		{
+			id: "38712ABB50F4DBD5"
+			tasks: [{
+				id: "61B05D930FDBF873"
+				item: "minecraft:feather"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 20.5d
+		}
+		{
+			id: "4B579F7424E309A2"
+			tasks: [{
+				id: "05D3F354DC1B940B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:slimy_leaves"
+					}
+				}
+				title: "Any #tconstruct:slimy_leaves"
+				type: "item"
+			}]
+			title: "黏液树叶"
+			x: 13.0d
+			y: 20.5d
+		}
+		{
+			id: "01D2CEB88394A331"
+			tasks: [{
+				id: "414DB7E786E705DB"
+				item: "minecraft:phantom_membrane"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 20.5d
+		}
+		{
+			id: "46FE4AD137E1015F"
+			tasks: [{
+				id: "5136BDCCFB04E28F"
+				item: "tconstruct:ender_slime_ball"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 20.5d
+		}
+		{
+			id: "73A2FE131E1C4CBC"
+			tasks: [{
+				id: "7B9852A0E16B645B"
+				item: "tinkers_thinking:shroomite_compound"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 20.5d
+		}
+		{
+			id: "4C63BF27217500F1"
+			tasks: [{
+				id: "5FFA00FA863494F7"
+				item: "tinkers_thinking:lightite_compound"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 20.5d
+		}
+		{
+			id: "4C852F3317693ADB"
+			tasks: [{
+				id: "06B74721C573743D"
+				item: "tinkers_thinking:spectre_compound"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 21.5d
+		}
+		{
+			id: "5A5531025CB8A8D4"
+			tasks: [{
+				id: "7D680C23A57F9724"
+				item: "tinkers_thinking:chlorophyte_compound"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 21.5d
+		}
+		{
+			id: "3DF1EE5E0E3BA82A"
+			tasks: [{
+				id: "231730A298489A27"
+				item: "minecraft:magma_cream"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 21.5d
+		}
+		{
+			id: "292A362740F72BAE"
+			tasks: [{
+				id: "76DF903203F0C256"
+				item: "iceandfire:stymphalian_bird_feather"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 21.5d
+		}
+		{
+			id: "246A8182016014E8"
+			tasks: [{
+				id: "046BAECB4294A06F"
+				item: "l2hostility:miracle_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.5d
+		}
+		{
+			id: "5182B64158F0D9A1"
+			tasks: [{
+				id: "08899C8D6BF0929B"
+				item: "extrabotany:orichalcos_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			id: "41EA89A0E25E9C69"
+			tasks: [{
+				id: "507F985E36F0D783"
+				item: "sakuratinker:arcane_alloy"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -6.5d
+		}
+		{
+			id: "35CDED68126E7B64"
+			tasks: [{
+				id: "134072981692344C"
+				item: "sakuratinker:aurumos"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.5d
+		}
+		{
+			id: "59B59E85E824F24C"
+			tasks: [{
+				id: "7EFAEB36887C585B"
+				item: "sakuratinker:cold_iron_alloy"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -6.5d
+		}
+		{
+			id: "6405976495CD75D6"
+			tasks: [{
+				id: "01D2B6CECC9B3E71"
+				item: "cloudertinker:forest_gem"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -6.5d
+		}
+		{
+			id: "2C6B30208F25F01B"
+			tasks: [{
+				id: "6383FDF9458E2BEF"
+				item: "sakuratinker:frost_slimesteel"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -6.5d
+		}
+		{
+			id: "6597CAC318C435EB"
+			tasks: [{
+				id: "0A0B0032C31EAFD5"
+				item: "enigmaticlegacy:etherium_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -6.5d
+		}
+		{
+			id: "18D17748BFEB09BD"
+			tasks: [{
+				id: "7535EA9565DFC38A"
+				item: "sakuratinker:prometheum_ingot"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -6.5d
+		}
+		{
+			id: "6BFB77E14F2D0F90"
+			tasks: [{
+				id: "14443C0B6BC692A5"
+				item: "tconstruct:cinderslime_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			id: "46933CA8E792A1B3"
+			tasks: [{
+				id: "48A28983389E0728"
+				item: "dreamtinker:black_sapphire"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			id: "670AE367A86C4596"
+			tasks: [{
+				id: "34605F3642ACD155"
+				item: "tinkerscalibration:witherium_ingot"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.5d
+		}
+		{
+			id: "7F0D96B54593DC81"
+			tasks: [{
+				id: "751BED64F705EE89"
+				item: "dreamtinker:desire_gem"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.5d
+		}
+		{
+			id: "4BBCA5A184EB4DB8"
+			tasks: [{
+				id: "3925F97FAA1313E6"
+				item: "cloudertinker:chimera_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -5.5d
+		}
+		{
+			id: "499887752F35D773"
+			tasks: [{
+				id: "1228C8158B1C25F8"
+				item: "mushroom_daydream:sjngp"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -5.5d
+		}
+		{
+			id: "6DD7A7569D9D6624"
+			tasks: [{
+				id: "47743BE46ADA8F4A"
+				item: "cloudertinker:hydra_scale"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -5.5d
+		}
+		{
+			id: "4DA5FB20BD784C88"
+			tasks: [{
+				id: "4B5569D141FD6C32"
+				item: "sakuratinker:south_star"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -5.5d
+		}
+		{
+			id: "1574352C43D4E744"
+			tasks: [{
+				id: "07F53DC4BF84AF59"
+				item: "l2complements:sculkium_ingot"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -5.5d
+		}
+		{
+			description: [""]
+			id: "20A3D9C4534FDB2E"
+			subtitle: "暂不添加详细说明，请使用jei查看材料数据"
+			tasks: [{
+				id: "70B24579E596F214"
+				title: "说明"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			id: "7B88D6D0B33092E5"
+			tasks: [{
+				id: "408C57381E6FBB14"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			id: "5D6EE55372930C5C"
+			tasks: [{
+				id: "446E765426B0C0BD"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			id: "42C4247180A49269"
+			tasks: [{
+				id: "108BD04ABE471A9E"
+				item: "deep_aether:stratus_ingot"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			id: "5CD1356B5A9CEE89"
+			tasks: [{
+				id: "3389BA937FF242B3"
+				item: "tinkers_ingenuity:colorful_slime_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			id: "383CB5F12F96F5ED"
+			tasks: [{
+				id: "0DE6E1824430F873"
+				item: "tinkersinnovation:polychrome_alloy_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.5d
+		}
+		{
+			id: "0063F00ED5C4D4E1"
+			tasks: [{
+				id: "6060F7AE80A3B26D"
+				item: "twilightforest:castle_brick"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.5d
+		}
+		{
+			id: "1BD0AF96EB5390D5"
+			tasks: [{
+				id: "726FA197898DE658"
+				item: "sakuratinker:terracryst"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			id: "7A2D5159710FD65F"
+			tasks: [{
+				id: "128A5EE0DC34A4D9"
+				item: "extrabotany:aerialite_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -4.5d
+		}
+		{
+			id: "76318BA5A249AE8F"
+			tasks: [{
+				id: "3DB85C33A2347C18"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -4.5d
+		}
+		{
+			id: "031CEDA92C05C98C"
+			tasks: [{
+				id: "5C9E5E5680E69C29"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			id: "56D0E6293605B021"
+			tasks: [{
+				id: "0E0D51369F96E30F"
+				item: "cloudertinker:steelbone"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			id: "234C77859361B242"
+			tasks: [{
+				id: "2736364A4F0918BB"
+				item: "tinkers_delight:tasty_bone"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			id: "4618C69CFD93CD2F"
+			tasks: [{
+				id: "43DD7F3906FB0B77"
+				item: "cataclysm:cursium_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			id: "772FE01AE9C29831"
+			tasks: [{
+				id: "5F4DAC4C33E6C6CF"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			id: "29F53B62FA59D7A6"
+			tasks: [{
+				id: "370CE8447A5AA445"
+				item: "dreamtinker:echo_alloy"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.5d
+		}
+		{
+			id: "317907B4BC30AD5D"
+			tasks: [{
+				id: "152C10F9A5DF15CE"
+				item: "sakuratinker:echo_slimesteel"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.5d
+		}
+		{
+			id: "5F3F5874438E05DD"
+			tasks: [{
+				id: "2BFC58F33579BB8B"
+				item: "tinkerscalibration:emperorslime_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.5d
+		}
+		{
+			id: "4690FE45CAB0C49D"
+			tasks: [{
+				id: "242B9C1DBB7B1395"
+				item: "sakuratinker:chimera_gamma"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -3.5d
+		}
+		{
+			id: "73228BF5D92446A8"
+			tasks: [{
+				id: "663F26313A658EED"
+				item: "mushroom_daydream:dark_thing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			id: "28C8D3E53A60181E"
+			tasks: [{
+				id: "57F31B57E9F6DAC8"
+				item: "thermal:enderium_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			id: "07536835AFFDA28B"
+			tasks: [{
+				id: "5BC6CEB2B6382622"
+				item: "projecte:dark_matter"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			id: "015C06B3842DA021"
+			tasks: [{
+				id: "63DB470DBBA8AB01"
+				item: "extrabotany:shadowium_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			id: "55706DB309C1B5EC"
+			tasks: [{
+				id: "579C987758B2CC46"
+				item: "tinkersinnovation:slimton_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			id: "46DE30592DAC3833"
+			tasks: [{
+				id: "253591F2C0DE4263"
+				item: "tinkersinnovation:hostilium_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.5d
+		}
+		{
+			id: "7EF74011C9B1661E"
+			tasks: [{
+				id: "20E53C3E3428D493"
+				item: "tprt:evil_beast_alloy_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			id: "0FF0F373774C27BE"
+			tasks: [{
+				id: "54E12FB892D9BFDE"
+				item: "extrabotany:photonium_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.5d
+		}
+		{
+			id: "2635796376009009"
+			tasks: [{
+				id: "631036BD7EC1D869"
+				item: "gobber2:gobber2_ingot_nether"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -2.5d
+		}
+		{
+			id: "040D038F8FD21887"
+			tasks: [{
+				id: "637C9E0333367B82"
+				item: "tinkers_ingenuity:coloured_glaze_star"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			id: "3CD723BBE8437318"
+			tasks: [{
+				id: "4DE603F20D1EFD9C"
+				item: "tinkerscalibration:mandite_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			id: "29720DAB53BDC953"
+			tasks: [{
+				id: "68F66D1855330359"
+				item: "tconstruct:manyullyn_ingot"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			id: "0DE1C0537BF92DA2"
+			tasks: [{
+				id: "7721CF96EEDA93CD"
+				item: "tinkerscalibration:mangobberslime_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			id: "67E3D64C174B5949"
+			tasks: [{
+				id: "66C8B39DECC67714"
+				item: "tinkers_advanced:blaze_netherite"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			id: "6B1671090787D197"
+			tasks: [{
+				id: "25B90724E20029A7"
+				item: "tinkerscalibration:jazz_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			id: "31FE8379F9653420"
+			tasks: [{
+				id: "05CC3E202F1C38A3"
+				item: "tinkers_ingenuity:flame_steel_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			id: "5727BA6B8598A9E5"
+			tasks: [{
+				id: "7D615CA2A1CC2D3D"
+				item: "tconstruct:blazewood"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.5d
+		}
+		{
+			id: "2DE71C727F62001C"
+			tasks: [{
+				id: "4F99496BE4C69E6F"
+				item: "tconstruct:blazing_bone"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -1.5d
+		}
+		{
+			id: "0EFCC84DE056372E"
+			tasks: [{
+				id: "638DC25F87804D88"
+				item: "twilightforest:fiery_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			id: "76FA6CC1584EBA0A"
+			tasks: [{
+				id: "0AABF37602F0516D"
+				item: "tinkerscalibration:fazelle_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			id: "750EEDF56F636F96"
+			tasks: [{
+				id: "20FB55ADBA2AA21C"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			id: "18DB28970B404707"
+			tasks: [{
+				id: "0495464095DED864"
+				item: "thermal:lumium_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			id: "1621D2643983D629"
+			tasks: [{
+				id: "220E8593C2FB8405"
+				item: "mushroom_daydream:heimdallr"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			id: "1F3D5637C1B13AE1"
+			tasks: [{
+				id: "5972B74AB6845C68"
+				item: "ticex:chaotic_crystal"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -0.5d
+		}
+		{
+			id: "58758FFC8838510A"
+			tasks: [{
+				id: "62876FE3360E72BE"
+				item: "minecraft:shulker_shell"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -0.5d
+		}
+		{
+			id: "1D8774E837106E9E"
+			tasks: [{
+				id: "294F215340B1679C"
+				item: "l2complements:shulkerate_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -0.5d
+		}
+		{
+			id: "7623CA22CDB81FBB"
+			tasks: [{
+				id: "0C87CC317DE81386"
+				item: "tinkers_ingenuity:elfs_crystal"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -0.5d
+		}
+		{
+			id: "5F25A4114A361B2F"
+			tasks: [{
+				id: "1BB9D7E42AC4DAFA"
+				item: "cloudertinker:glavenus_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			id: "18B6440FB24147DE"
+			tasks: [{
+				id: "59247C69804F4731"
+				item: "cloudertinker:fierdistear"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			id: "38C17A410F608BD6"
+			tasks: [{
+				id: "3B09B9F28A0F80AD"
+				item: "sakuratinker:pyrothium"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			id: "502D5F878FAD7080"
+			tasks: [{
+				id: "7CEC22D0133EAB41"
+				item: "sakuratinker:fiery_crystal"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			id: "0EDBBA554B836B54"
+			tasks: [{
+				id: "01D630B265A6BD59"
+				item: "l2complements:eternium_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			id: "49676BD836F2634F"
+			tasks: [{
+				id: "41D445612313C44E"
+				item: "tinkers_advanced:penumatic_reinforced_steel"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.5d
+		}
+		{
+			id: "1EF0DCA49096591C"
+			tasks: [{
+				id: "790F5E897DDADC4C"
+				item: "tinkerscalibration:breashell"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.5d
+		}
+		{
+			id: "7F006D88759FA4EA"
+			tasks: [{
+				id: "6A391B7680D4494A"
+				item: "tinkers_advanced:blizz_enderium"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.5d
+		}
+		{
+			id: "376901D7A2D39D9A"
+			tasks: [{
+				id: "2951817A6F3314F5"
+				item: "tinkers_thinking:bound_chain"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.5d
+		}
+		{
+			id: "541DD3E3DA9C916E"
+			tasks: [{
+				id: "445E6716F9A0660D"
+				item: "tinkerscalibration:oraclium_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			id: "1E224252F55F061D"
+			tasks: [{
+				id: "716EC9BE75D8CA6F"
+				item: "ticex:draconic_crystal"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			id: "38F8080316B2027C"
+			tasks: [{
+				id: "31140189FAF68C51"
+				item: "tinkers_ingenuity:mithril_ingot"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			id: "36C69AE8BC361CA9"
+			tasks: [{
+				id: "0472F53281D3CB79"
+				item: "sakuratinker:steady_alloy"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			id: "2ADA69798F880D65"
+			tasks: [{
+				id: "2EE693586B2095C5"
+				item: "mysticalagradditions:insanium_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			id: "29B39C320788F83A"
+			tasks: [{
+				id: "47EEB27BE2C68249"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			id: "02B35057B9E5F178"
+			tasks: [{
+				id: "0BA1C7705283E12F"
+				item: "extrabotany:the_end"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			id: "1F41FC72F63AF6FD"
+			tasks: [{
+				id: "418C8A7F3A6D90F8"
+				item: "sakuratinker:bear_interest_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			id: "74D8D46E416F7834"
+			tasks: [{
+				id: "399D6E06D1E89401"
+				item: "cloudertinker:glaze_ingot"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.5d
+		}
+		{
+			id: "3306E42AA7FA17BC"
+			tasks: [{
+				id: "1EFAA4143CDE8DAF"
+				item: "tinkers_advanced:resonance_crystal"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			id: "7A4EDF4998676E1E"
+			tasks: [{
+				id: "0B4513CFC6F74004"
+				item: "tprt:advanced_manyullyn"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			id: "190549F74344EA41"
+			tasks: [{
+				id: "6A3521AB921DE7B6"
+				item: "tinkersinnovation:straddlite_alloy_ingot"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			id: "2970C3721ACEDB2A"
+			tasks: [{
+				id: "7B01722B5C21E2E0"
+				item: "tinkers_advanced:stibnite"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			id: "7D52776A278E1705"
+			tasks: [{
+				id: "062BDA8A635C6FC5"
+				item: "tinkers_thinking:ancient_ceramic"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			id: "46273D0B9B0B0A7D"
+			tasks: [{
+				id: "4F1D465105C473E6"
+				item: "tinkerscalibration:gravity_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			id: "5E40BA47BD7BD06F"
+			tasks: [{
+				id: "24747D3E92334CD9"
+				item: "aether_redux:gravitite_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			id: "37E1E3E8B5EB23A2"
+			tasks: [{
+				id: "6D64E5FB2BB83F33"
+				item: "tinkers_delight:jinhua_ham_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.5d
+		}
+		{
+			id: "3A6C3A32428F474C"
+			tasks: [{
+				id: "76271AC30D73A8FC"
+				item: "tinkers_advanced:osgloglas_ingot"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.5d
+		}
+		{
+			id: "566FBCF72D8E4735"
+			tasks: [{
+				id: "56FA52DB66253331"
+				item: "tinkers_advanced:antimony_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			id: "004C15204F481725"
+			tasks: [{
+				id: "53D5FFFDF377CAFA"
+				item: "mushroom_concept:blood_steel"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			id: "6E8391873BA8CC17"
+			tasks: [{
+				id: "28483E20071F5E15"
+				item: "tinkersinnovation:hemolymph_bone"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			id: "2D21577DB6FA88C1"
+			tasks: [{
+				id: "6D7883BD4A09B0CA"
+				item: "tinkers_things:hematite"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			id: "7C959A1B012F6110"
+			tasks: [{
+				id: "77FE040BB39964A0"
+				item: "sakuratinker:nihilite_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.5d
+		}
+		{
+			id: "28A8CC606C114E11"
+			tasks: [{
+				id: "166FA5FD7BE90611"
+				item: "sakuratinker:mycelium_slimesteel"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			id: "4A75129A5E57BE2C"
+			tasks: [{
+				id: "1FDE66FF695E7161"
+				item: "twilightforest:thorn_rose"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			id: "138BDCB8A1B9AE2C"
+			tasks: [{
+				id: "40078B72E338ECE7"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.5d
+		}
+		{
+			id: "78AA9C8E38C3A1B1"
+			tasks: [{
+				id: "5E844C1CB9EBE150"
+				item: "wqjy:ignitium_ingot"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.5d
+		}
+		{
+			id: "2C454656E3402821"
+			tasks: [{
+				id: "791580855474BAF0"
+				item: "wqjy:cursium_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			id: "4AFFDF3101F19245"
+			tasks: [{
+				id: "0665CB3FAB17284E"
+				item: "wqjy:witherite_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			id: "40AE53E1FBF09321"
+			tasks: [{
+				id: "3C985D9B3C43029D"
+				item: "tinkers_ingenuity:final_shell"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			id: "7F0469FD10B9D24A"
+			tasks: [{
+				id: "2B9C0CB03D36341A"
+				item: "mysticalagriculture:supremium_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			id: "670587DD5684EB52"
+			tasks: [{
+				id: "15B84103CC93E658"
+				item: "tinkerscalibration:lindsteel_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 4.5d
+		}
+		{
+			id: "5B87911C28E2BF84"
+			tasks: [{
+				id: "5EF7D3494E02CC63"
+				item: "tconstruct:queens_slime_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.5d
+		}
+		{
+			id: "0B323B4711F2E20C"
+			tasks: [{
+				id: "5EE5646FF2B536B3"
+				item: "tinkers_thinking:warden_steel_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			id: "63EC126B80B0D585"
+			tasks: [{
+				id: "0FF3D7E04762F8A7"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.5d
+		}
+		{
+			id: "05C769A335D6B54A"
+			tasks: [{
+				id: "4BE0D36039D19D7E"
+				item: "tinkersinnovation:farseeing_alloy_ingot"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.5d
+		}
+		{
+			id: "5955D3E9657FCBCC"
+			tasks: [{
+				id: "2A7DC9BC884DE870"
+				item: "tinkers_ingenuity:knight_crystal_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			id: "2E0CA4BB155F6FB6"
+			tasks: [{
+				id: "02D9F8A9DA69E7A2"
+				item: "tinkers_advanced:blitz_lumium"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			id: "1AC44B2AC9FDA743"
+			tasks: [{
+				id: "632D27BB843728E9"
+				item: "mushroom_daydream:shiguan"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.5d
+		}
+		{
+			id: "7872213728F11A67"
+			tasks: [{
+				id: "20B41C662154D2AA"
+				item: "sakuratinker:wu_yu"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.5d
+		}
+		{
+			id: "644254E753267BC0"
+			tasks: [{
+				id: "631489128E3ABE12"
+				item: "momotinker:lightning_strike_wood"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.5d
+		}
+		{
+			id: "6A5E38D6DFE1EBC5"
+			tasks: [{
+				id: "415D8616242F5843"
+				item: "tprt:forged_steel"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 5.5d
+		}
+		{
+			id: "2F9683942699227A"
+			tasks: [{
+				id: "5AE86336238BC1FC"
+				item: "tinkersinnovation:decline_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 5.5d
+		}
+		{
+			id: "775AFAFE1B295739"
+			tasks: [{
+				id: "68C58D0589BE480A"
+				item: "sakuratinker:eezo_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 5.5d
+		}
+		{
+			id: "6936B3265A0B02C3"
+			tasks: [{
+				id: "7AA8611EC5D84E7B"
+				item: "tinkers_advanced:disintegrate_crystal"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 5.5d
+		}
+		{
+			id: "1754B2FECD29CDEA"
+			tasks: [{
+				id: "037B9937B48FF8B3"
+				item: "tinkers_thinking:soul_vine"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			id: "76EE781D73E09512"
+			tasks: [{
+				id: "7EA907AF084C4F5A"
+				item: "tinkerscalibration:soulgold_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			id: "3FBD98D74DE5B1B2"
+			tasks: [{
+				id: "7DBB98F6E838F14D"
+				item: "tconstruct:ender_slime_vine"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.5d
+		}
+		{
+			id: "158E6F73C0B132F9"
+			tasks: [{
+				id: "3C849D6D09207FBB"
+				item: "tconstruct:hepatizon_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.5d
+		}
+		{
+			id: "04626AFDB5B84566"
+			tasks: [{
+				id: "3F8E119A2E8F3F5E"
+				item: "tinkers_ingenuity:black_flash_alloy_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 6.5d
+		}
+		{
+			id: "6B0A69EBABFBA16A"
+			tasks: [{
+				id: "6B9F04E77740A076"
+				item: "tinkers_ingenuity:black_dragon_substance"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.5d
+		}
+		{
+			id: "31F22DA0053A2D7A"
+			tasks: [{
+				id: "1925E6713AF7FDDF"
+				item: "iceandfire:dragonsteel_fire_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.5d
+		}
+		{
+			id: "2252DC60CE11AD43"
+			tasks: [{
+				id: "1ED3B92E783AFA95"
+				item: "sakuratinker:dragon_sinew"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.5d
+		}
+		{
+			id: "374E2BAA8CAD99DA"
+			tasks: [{
+				id: "258CEF879C4E1E45"
+				item: "iceandfire:dragonsteel_lightning_ingot"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 6.5d
+		}
+		{
+			id: "10E2C74A5180BCD0"
+			tasks: [{
+				id: "7DC925A795524E2A"
+				item: "iceandfire:dragonsteel_ice_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			id: "7770A4F793C0F527"
+			tasks: [{
+				id: "68B617690FD54DEA"
+				item: "tconstruct:dragon_scale"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			id: "59ACF1C48094EEBA"
+			tasks: [{
+				id: "79C4B602B6E418D4"
+				item: "irons_spellbooks:dragonskin"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 7.5d
+		}
+		{
+			id: "2E9ABB3B3D71E6A9"
+			tasks: [{
+				id: "299B52C85EA07711"
+				item: "sakuratinker:soul_sakura"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.5d
+		}
+		{
+			id: "08CEC09BC1C847B8"
+			tasks: [{
+				id: "39CFD7BB4454AB3E"
+				item: "tinkersinnovation:soul_bone"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 7.5d
+		}
+		{
+			id: "6CAEDC40F8CFE838"
+			tasks: [{
+				id: "6DB63996D25F2259"
+				item: "mysticalagriculture:imperium_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 7.5d
+		}
+		{
+			id: "21E834EEEB40D29C"
+			tasks: [{
+				id: "75457DB327D5C0E7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/knightmetal"
+					}
+				}
+				title: "Any #forge:ingots/knightmetal"
+				type: "item"
+			}]
+			title: "骑士金属"
+			x: 15.0d
+			y: 7.5d
+		}
+		{
+			id: "7C8A9169C697DC65"
+			tasks: [{
+				id: "0EAF2E1A7AC0171A"
+				item: "momotinker:compassion_mask"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 10.0d
+		}
+		{
+			id: "1089A5D7987DF8E3"
+			tasks: [{
+				id: "396BD32A27C7C954"
+				item: "tprt:mixeddragon"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			id: "7054BFB88DA8D64D"
+			tasks: [{
+				id: "7820412619B0B706"
+				item: "momotinker:meteor_nucleus"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 10.0d
+		}
+		{
+			id: "05F25F8618D39D42"
+			tasks: [{
+				id: "257C18A1DE480B17"
+				item: "momotinker:lazy_grail"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			id: "15B3516D9D9DA785"
+			tasks: [{
+				id: "756B38325E80F944"
+				item: "momotinker:heartsteel"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 10.0d
+		}
+		{
+			id: "147B459E5DA32AAF"
+			tasks: [{
+				id: "392AF6B3E52EDA0D"
+				item: "momotinker:lust_mirror"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 10.0d
+		}
+		{
+			id: "414D6FAEDFC6F8FB"
+			tasks: [{
+				id: "7CE80114C36DC52A"
+				item: "momotinker:dragon_jade"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.0d
+		}
+		{
+			id: "24ACADF6DF81D47A"
+			tasks: [{
+				id: "106771B267554908"
+				item: "momotinker:arriving_at_the_other_shore"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 10.0d
+		}
+		{
+			id: "697814F298E8C72B"
+			tasks: [{
+				id: "4ADD7774D8083389"
+				item: "momotinker:gluttony_core"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 10.0d
+		}
+		{
+			id: "1B72DF432AC803A1"
+			tasks: [{
+				id: "53A6995C2E55A969"
+				item: "tprt:source_alloy"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 11.0d
+		}
+		{
+			id: "45942DB3D5631C93"
+			tasks: [{
+				id: "18834DF627F50376"
+				item: "momotinker:hadal_platinum"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 11.0d
+		}
+		{
+			id: "12FF2F70D3D61FB5"
+			tasks: [{
+				id: "7FBEF6179213F66A"
+				item: "tinkers_advanced:activated_chromatic_steel"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 11.0d
+		}
+		{
+			id: "21444A380CAE8BF2"
+			tasks: [{
+				id: "3EDABC09ADE97083"
+				item: "avaritia:crystal_matrix_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 11.0d
+		}
+		{
+			id: "0E7B58C62D478B4D"
+			tasks: [{
+				id: "04E2D761917865A7"
+				item: "momotinker:nihilism"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 11.0d
+		}
+		{
+			id: "6F12B0F340080935"
+			tasks: [{
+				id: "5EBC3C4E193F53E1"
+				item: "momotinker:stained_blood_gold"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 11.0d
+		}
+		{
+			id: "32F531D33984F859"
+			tasks: [{
+				id: "78D912E694D59A9B"
+				item: "momotinker:twilight_purple_gold"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 11.0d
+		}
+		{
+			id: "282B392019A7BDB8"
+			tasks: [{
+				id: "6E47D2291ECBC873"
+				item: "momotinker:crystallized_platinum"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 11.0d
+		}
+		{
+			id: "06B115E62DE9D406"
+			tasks: [{
+				id: "269CE997BEB24532"
+				item: "momotinker:starry_mysterious_gold"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 11.0d
+		}
+		{
+			id: "1973995F10CDC868"
+			tasks: [{
+				id: "3E1798461255DC2F"
+				item: "momotinker:timetrace_purple_gold"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.0d
+		}
+		{
+			id: "50FDDC90F95FCBBE"
+			tasks: [{
+				id: "635F037D9CBDBD8E"
+				item: "momotinker:mountain_river_paintings"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			id: "31FA703566ABDC45"
+			tasks: [{
+				id: "07EF437AB4DB633E"
+				item: "tinkers_advanced:iridium_chunk"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 12.0d
+		}
+		{
+			id: "6F9CE823253C2ADF"
+			tasks: [{
+				id: "3D6545D260BF6593"
+				item: "momotinker:dimensional_prism"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			id: "500EDC8942742EE7"
+			tasks: [{
+				id: "20FC6DC1A357CFC2"
+				item: "momotinker:arrogance_proof"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 12.0d
+		}
+		{
+			id: "6DFD4D4B5591DD72"
+			tasks: [{
+				id: "548055AF8BEFCA47"
+				item: "momotinker:interdimensional_crystal"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 12.0d
+		}
+		{
+			id: "1C7D59D77218490A"
+			tasks: [{
+				id: "4539708837A00F03"
+				item: "momotinker:rhythm_slime"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			id: "362AFEBA565547AB"
+			tasks: [{
+				id: "6E84724D8083C1CE"
+				item: "momotinker:jealous_notes"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 12.0d
+		}
+		{
+			id: "49D8F64344FDBAB1"
+			tasks: [{
+				id: "027B5BAC0D76C8EE"
+				item: "sakuratinker:two_form_mist_star"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 12.0d
+		}
+		{
+			id: "590E4BE1ED826E42"
+			tasks: [{
+				id: "7A4C5928341C9C03"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 13.0d
+		}
+		{
+			id: "209C60141B815198"
+			tasks: [{
+				id: "65BF8A2593428E27"
+				item: "momotinker:living_platinum"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 13.0d
+		}
+		{
+			id: "633DD6AB63057CFD"
+			tasks: [{
+				id: "7F0D28A0724FE0F7"
+				item: "tinkers_advanced:voltaic_crystal"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 13.0d
+		}
+		{
+			id: "5E90F89C84AC6302"
+			tasks: [{
+				id: "37F21E7E96704551"
+				item: "tinkers_advanced:protocite_pellet"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 13.0d
+		}
+		{
+			id: "307EA587BA3173C6"
+			tasks: [{
+				id: "428A5D616BF17254"
+				item: "tinkers_advanced:anti_neutronium_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 13.0d
+		}
+		{
+			id: "4CEC40AFF6518478"
+			tasks: [{
+				id: "441CA9700565064F"
+				item: "momotinker:devouring_demon_gold"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 13.0d
+		}
+		{
+			id: "40DD2AB58C72E827"
+			tasks: [{
+				id: "043124F1CA2192ED"
+				item: "momotinker:spirit_visage"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 13.0d
+		}
+		{
+			id: "1C6D6419162D97A8"
+			tasks: [{
+				id: "172EF301AB22EFA5"
+				item: "momotinker:greedy_contract"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 13.0d
+		}
+		{
+			id: "25403A937DA91D59"
+			tasks: [{
+				id: "2451BB6DAB48F75E"
+				item: "momotinker:rage_stone_statue"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 13.0d
+		}
+		{
+			id: "171E99E5C1192C43"
+			tasks: [{
+				id: "57385FBE6742505F"
+				item: "sakuratinker:gluttonous"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 14.0d
+		}
+		{
+			id: "16FF1CA6ECDE5EC2"
+			tasks: [{
+				id: "0DB52B4176D00E22"
+				item: "tinkers_advanced:irradium_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 14.0d
+		}
+		{
+			id: "214C4EB42E77246F"
+			tasks: [{
+				id: "3034D5BD2A299766"
+				item: "sakuratinker:delusion"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 14.0d
+		}
+		{
+			id: "52ED4C9D009E75E8"
+			tasks: [{
+				id: "19D4ECB1FFD7CB1A"
+				item: "momotinker:immortal_weiqi"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 14.0d
+		}
+		{
+			id: "34D7FB3E2BD59A25"
+			tasks: [{
+				id: "24AAB95681BEB782"
+				item: "dreamtinker:metallivorous_stibium_lupus"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 14.0d
+		}
+		{
+			id: "2307F92C969814EC"
+			tasks: [{
+				id: "0CA23DDF5E98A457"
+				item: "momotinker:stellar_core_platinum"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 14.0d
+		}
+		{
+			id: "2DA6BA2BD93025BC"
+			tasks: [{
+				id: "26EAF2F4F22DE0CE"
+				item: "momotinker:ashen_platinum"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 14.0d
+		}
+		{
+			id: "7E4E3539B6CFD858"
+			tasks: [{
+				id: "45FA9F77D1AD86A6"
+				item: "tprt:dark_knight_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 14.0d
+		}
+		{
+			id: "74E2FD55886F6C44"
+			tasks: [{
+				id: "641C6FF62803E1F0"
+				item: "momotinker:reversetime_purple_gold"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 14.0d
+		}
+		{
+			id: "046BA921AB4E633B"
+			tasks: [{
+				id: "420776176CD3F65F"
+				item: "momotinker:dim_dark_gold"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 15.0d
+		}
+		{
+			id: "22C073A6A67379EC"
+			tasks: [{
+				id: "178816B36A46F4D9"
+				item: "cloudertinker:magala_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 15.0d
+		}
+		{
+			id: "296056129E683074"
+			tasks: [{
+				id: "18527DA50CE4E70F"
+				item: "dreamtinker:soul_etherium"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 15.0d
+		}
+		{
+			id: "3A89AC5AA6747FE6"
+			tasks: [{
+				id: "171795FAF6BBA3B9"
+				item: "tinkers_advanced:densium_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 15.0d
+		}
+		{
+			id: "32FDDC068EDC3208"
+			tasks: [{
+				id: "1C187632928CE9C8"
+				item: "ticex:etheric_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 16.0d
+		}
+		{
+			id: "39D2139184F8AD5D"
+			tasks: [{
+				id: "5345E342609BCEBE"
+				item: "dreamtinker:star_regulus"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 16.0d
+		}
+		{
+			id: "743BD4AF93CC2D46"
+			tasks: [{
+				id: "203C06921CF22067"
+				item: "mushroom_daydream:pure_horror"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 16.0d
+		}
+		{
+			id: "68E562C1163736BD"
+			tasks: [{
+				id: "0BBB952C2C9960A0"
+				item: "dreamtinker:despair_gem"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 16.0d
+		}
+		{
+			id: "13849F00BFCF3A8C"
+			tasks: [{
+				id: "4F9D3C2C4463DA69"
+				item: "sakuratinker:colorful_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 17.0d
+		}
+		{
+			id: "3336C310EDF02EDC"
+			tasks: [{
+				id: "31769F64AE3C277D"
+				item: "sakuratinker:goozma"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 17.0d
+		}
+		{
+			id: "18271B6E920F5349"
+			tasks: [{
+				id: "11A0A6EC37DB53CF"
+				item: "mushroom_daydream:dragon_gobber"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 17.0d
+		}
+		{
+			id: "2824F17235272E5F"
+			tasks: [{
+				id: "05FA692DF9E51A29"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 17.0d
+		}
+		{
+			id: "17E0CF4D59C04A9B"
+			tasks: [{
+				id: "3C56A7A3E3306699"
+				item: "mushroom_daydream:rat_world"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 19.0d
+		}
+		{
+			id: "779088A795A8128C"
+			tasks: [{
+				id: "6F07D26CF28A3E29"
+				item: "tinkers_advanced:neutronite_ingot"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 19.0d
+		}
+		{
+			id: "34E324479F68D6C9"
+			tasks: [{
+				id: "7161D2978DC2EC3D"
+				item: "mushroom_daydream:mizi"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 19.0d
+		}
+		{
+			id: "262AD94CD94984D2"
+			tasks: [{
+				id: "50E9C3E2C4F7B078"
+				item: "mushroom_daydream:ultimate_alchemical_compound"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 19.0d
+		}
+		{
+			id: "338EE8150C4CB538"
+			tasks: [{
+				id: "71163A39B419CF18"
+				item: "mushroom_daydream:zero_mushroom"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 19.0d
+		}
+		{
+			id: "59B297994CB4A654"
+			tasks: [{
+				id: "36A1D153D715F6C6"
+				item: "wqjy:the_end"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 19.0d
+		}
+		{
+			id: "394CA4E574F40047"
+			tasks: [{
+				id: "02C1679441C4E133"
+				item: "mythicbotany:alfsteel_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 8.5d
+		}
+		{
+			id: "75FDC0600CF13F40"
+			tasks: [{
+				id: "2F76E9F4817D1E0C"
+				item: "graveyard:dark_iron_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			id: "1D661E78EE560736"
+			tasks: [{
+				id: "42B1E7BEEC5FF380"
+				item: "wqjy:eternal"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 15.0d
+		}
+		{
+			id: "339D60F954D7250B"
+			tasks: [{
+				id: "0D800D0096B19E80"
+				item: "wqjy:world"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 15.0d
+		}
+		{
+			id: "621342D9841B6389"
+			tasks: [{
+				id: "4E521F2F6FC9E483"
+				item: "wqjy:hong"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 16.0d
+		}
+		{
+			id: "748FAA1EE8B92A92"
+			tasks: [{
+				id: "409E07E359986628"
+				item: "wqjy:myth"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 16.0d
+		}
+		{
+			id: "471F95022621C537"
+			tasks: [{
+				id: "67271ABC73215D37"
+				item: "rats:oratchalcum_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 7.5d
+		}
+		{
+			id: "4EE26F9C108E6C1F"
+			tasks: [{
+				id: "7F1C57B963BE5078"
+				item: "hmag:evil_crystal"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 24.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			icon: "minecraft:observer"
+			id: "251827145D99DD2B"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "06D35CB73E6AF47E"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "1F4986272678D1A8"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -9.0d
+		}
+		{
+			id: "720D6C9FB2833461"
+			tasks: [{
+				id: "392C99D0E9AD21EE"
+				item: "tprt:composite_dragon_scales"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 23.0d
+		}
+		{
+			id: "60B303F64360BD59"
+			tasks: [{
+				id: "56949690B046CB21"
+				item: "composite_material:prismarine_alloy_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 24.0d
+		}
+		{
+			id: "48298854992888E9"
+			tasks: [{
+				id: "5C46AE27E28F5F48"
+				item: "composite_material:obsidian_steel_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 24.0d
+		}
+		{
+			id: "3BD147201C9B3411"
+			tasks: [{
+				id: "046E7A9E4A52B188"
+				item: "mushroom_concept:chariot_slime"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 7.5d
+		}
+		{
+			id: "6481594874D50A3E"
+			tasks: [{
+				id: "0709467760B14C84"
+				item: "mushroom_concept:chimera_beta"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.5d
+		}
+		{
+			id: "04A2B6D1B0A583FD"
+			tasks: [{
+				id: "6565656A87A4C78F"
+				item: "composite_material:dungeon_steel_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 15.0d
+		}
+		{
+			id: "4BAE5422B8604E54"
+			tasks: [{
+				id: "44B439491D0F4C1E"
+				item: "composite_material:allay_steel_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 15.0d
+		}
+		{
+			id: "3D4CE61CB945E28C"
+			tasks: [{
+				id: "0AAAD3D6E8BB3F01"
+				item: "mushroom_concept:almighty"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 15.0d
+		}
+		{
+			id: "2386093DDDB65876"
+			tasks: [{
+				id: "360EF3F7BBEBB40A"
+				item: "composite_material:echoium_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 16.0d
+		}
+		{
+			id: "6681B1125EA858BC"
+			tasks: [{
+				id: "6372C98575C05D0A"
+				item: "composite_material:etherite_ingot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 17.0d
+		}
+		{
+			id: "3C82B567350C7E6E"
+			tasks: [{
+				id: "32C7ED2A36D56E26"
+				item: "mushroom_concept:kira_knight_slime"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 17.0d
+		}
+		{
+			id: "0D8C78CCBDDD1404"
+			tasks: [{
+				id: "028BF4ACB7A0D6AA"
+				item: "wqjy:ancient_metal_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.5d
+		}
+		{
+			id: "0397E23B66545AA2"
+			tasks: [{
+				id: "72ED6FEBADAC5165"
+				item: "aether_tinker:warding_steel"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 8.5d
+		}
+		{
+			id: "6B0272E98F581B2C"
+			tasks: [{
+				id: "058F922097001645"
+				item: "aether_tinker:firefly"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 19.0d
+		}
+		{
+			id: "5DD63CE44A20053D"
+			tasks: [{
+				id: "024711BEED554B7E"
+				item: "aether_tinker:valkyrie"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.5d
+		}
+		{
+			id: "3BEC3FAA29F3F08E"
+			tasks: [{
+				id: "74A55E38C4B3ADCA"
+				item: "aether_tinker:slime_bishop"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 8.5d
+		}
+		{
+			id: "6655D5390728A837"
+			tasks: [{
+				id: "5F8DC60ACAAF75C3"
+				item: "aether_tinker:mushroom_steel"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.5d
+		}
+		{
+			id: "30B94DF3A6B8B9CC"
+			tasks: [{
+				id: "27ED4B76930FE299"
+				item: "aether_tinker:cloud_steel"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.5d
+		}
+	]
+	subtitle: ["先画个饼"]
+	title: "·&7材料图鉴（WIP）"
+}

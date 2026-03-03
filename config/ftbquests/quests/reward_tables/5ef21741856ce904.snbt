@@ -1,0 +1,43 @@
+{
+	id: "5EF21741856CE904"
+	loot_size: 1
+	order_index: 28
+	rewards: [
+		{
+			command: "/locate biome alexscaves:primordial_caves"
+			elevate_perms: true
+			title: "原始洞窟"
+			type: "command"
+		}
+		{
+			command: "/locate biome alexscaves:magnetic_caves"
+			title: "磁场洞穴"
+			type: "command"
+		}
+		{
+			command: "/locate biome alexscaves:toxic_caves"
+			elevate_perms: true
+			title: "毒化洞穴"
+			type: "command"
+		}
+		{
+			command: "/locate biome alexscaves:abyssal_chasm"
+			elevate_perms: true
+			title: "深海陷窟"
+			type: "command"
+		}
+		{
+			command: "/locate biome alexscaves:forlorn_hollows"
+			elevate_perms: true
+			title: "异寂空谷"
+			type: "command"
+		}
+		{
+			command: "/locate biome alexscaves:candy_cavity"
+			elevate_perms: true
+			title: "糖果龋洞"
+			type: "command"
+		}
+	]
+	title: "群系"
+}

@@ -1,0 +1,707 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2A23AF86CCF79705"
+	group: "457E9E90E1EE2E33"
+	icon: "rats:chunky_cheese_token"
+	id: "2A23AF86CCF79705"
+	images: [
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			height: 8.0d
+			image: "rats:item/chunky_cheese_token"
+			rotation: 0.0d
+			width: 8.0d
+			x: 1.0d
+			y: 0.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "68FB523E5274DFF8"
+			tasks: [{
+				id: "1B6443A2DED434B2"
+				type: "checkmark"
+			}]
+			title: "需要在试验性玩法中打开鼠西洲内容"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68FB523E5274DFF8"]
+			id: "17A1DF7813C40529"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F81A241C6D9FFF4"
+				table_id: 2496234257689732661L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3CDEE5A5F2B23F71"
+				item: "rats:chunky_cheese_token"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17A1DF7813C40529"]
+			id: "06853B9DCFE29E07"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BA3A087E6F94B7F"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				dimension: "rats:ratlantis"
+				icon: {
+					Count: 1
+					id: "rats:chunky_cheese_token"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+						RepairCost: 1
+					}
+				}
+				id: "03F7984186F70C85"
+				type: "dimension"
+			}]
+			title: "进入鼠西洲"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06853B9DCFE29E07"]
+			description: [
+				"需要&e鼠西族战机核心&r*1、&e鼠西族战机头颅&r*1、&e任意奶酪大理石&r*3，像铁傀儡一样召唤（可以平放）"
+				"{image:ftbquests:textures/picture/001.png width:100 height:100 align:center}"
+			]
+			id: "6BBFCDC08A2FA69B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "018813B5E1103624"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "rats:ratlantean_automaton"
+				icon: "rats:ancient_sawblade"
+				id: "63E094EDD7C2B38F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["06853B9DCFE29E07"]
+			id: "43614E6120C504FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "539F15EC854F8AF7"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				id: "785D0AB9415DF471"
+				item: "rats:air_raid_siren"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["43614E6120C504FE"]
+			description: ["右击&e防空警报&r召唤"]
+			id: "560C521AE093FDD6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F063315037B54F9"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "rats:rat_baron"
+				icon: "rats:aviator_hat"
+				id: "6B49A40F03F88F51"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["06853B9DCFE29E07"]
+			id: "1DBC8066DF4F22A0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45EB4A5BC749C108"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				id: "54E301319EEEFC13"
+				item: "rats:dutchrat_bell"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1DBC8066DF4F22A0"]
+			description: ["&e夜晚&r敲响&e飞翔的荷兰鼠的钟&r召唤"]
+			icon: "rats:dutchrat_wheel"
+			id: "6A8F1D9AC0DF9B2F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43845A282231517E"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "rats:dutchrat"
+				id: "01B70684F9CCEC01"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["06853B9DCFE29E07"]
+			id: "6B3C0FA042A9E63A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F3E86761697265F"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				id: "64AE018E2DD09F88"
+				item: "rats:vial_of_sentience"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6B3C0FA042A9E63A"]
+			description: ["对野生的&e野蛮鼠西族&r使用&e知性小瓶&r召唤"]
+			id: "5B7DD6FB342B9BA7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E6DAF1C404B17B7"
+				table_id: 2496234257689732661L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "rats:neo_ratlantean"
+				icon: "rats:psionic_rat_brain"
+				id: "4C562F3B30DAA372"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"560C521AE093FDD6"
+				"6A8F1D9AC0DF9B2F"
+				"5B7DD6FB342B9BA7"
+				"6BBFCDC08A2FA69B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "ticex:reforged_slashblade"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:thorns"
+							lvl: 3s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 3s
+						}
+						{
+							id: "ars_nouveau:reactive"
+							lvl: 3s
+						}
+						{
+							id: "minecraft:power"
+							lvl: 5s
+						}
+						{
+							id: "mme:critical_strike"
+							lvl: 3s
+						}
+						{
+							id: "ensorcellation:soulbound"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:feather_falling"
+							lvl: 4s
+						}
+						{
+							id: "mme:sanction"
+							lvl: 5s
+						}
+						{
+							id: "mme:judgment"
+							lvl: 5s
+						}
+						{
+							id: "mme:life_steal"
+							lvl: 3s
+						}
+						{
+							id: "ensorcellation:leech"
+							lvl: 4s
+						}
+						{
+							id: "draconicevolution:reaper_enchantment"
+							lvl: 5s
+						}
+						{
+							id: "hmag:water_aspect"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:fire_protection"
+							lvl: 4s
+						}
+						{
+							id: "mme:winter_chill"
+							lvl: 3s
+						}
+						{
+							id: "mme:soul_siphon"
+							lvl: 1s
+						}
+						{
+							id: "enigmaticaddons:frost_aspect"
+							lvl: 2s
+						}
+						{
+							id: "enigmaticlegacy:slayer"
+							lvl: 5s
+						}
+					]
+					RepairCost: 0
+					bladeState: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						ModelName: "srelic:model/wuwa/older.obj"
+						RepairCounter: 265
+						SpecialAttackType: "srelic:explashon"
+						StandbyRenderType: 2b
+						SummonedSwordColor: -14774017
+						SummonedSwordColorInverse: 0b
+						TargetEntity: -1
+						TextureName: "srelic:model/wuwa/eternal_vows.png"
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						baseAttackModifier: 17.0f
+						currentCombo: "slashblade:none"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isDefaultBewitched: 1b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 594221L
+						maxDamage: 377
+						proudSoul: 270460
+						translationKey: "item.srelic.eternal_vows"
+					}
+					etstlib_tool_uuid: "75ddeae6-ca2c-487b-b5b6-58ff1b8c3dfc"
+					tic_broken: 0b
+					tic_materials: [
+						"cloudertinker:fiery"
+						"cloudertinker:magnet"
+						"cloudertinker:phantom"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "ticex:konpaku"
+						}
+						{
+							level: 1
+							name: "ticex:enchantment_supplier"
+						}
+						{
+							level: 1
+							name: "ticex:koshirae"
+						}
+						{
+							level: 1
+							name: "ticex:rebirth"
+						}
+						{
+							level: 2
+							name: "cloudertinker:twilight"
+						}
+						{
+							level: 1
+							name: "cloudertinker:superheat"
+						}
+						{
+							level: 1
+							name: "tconstruct:autosmelt"
+						}
+						{
+							level: 1
+							name: "tconstruct:fiery"
+						}
+						{
+							level: 1
+							name: "cloudertinker:magent"
+						}
+						{
+							level: 1
+							name: "tconstruct:magnetic"
+						}
+						{
+							level: 1
+							name: "cloudertinker:knight_honorable"
+						}
+						{
+							level: 1
+							name: "cloudertinker:breakphantom"
+						}
+						{
+							level: 1
+							name: "tconstruct:soulbound"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_speed": 2.6f
+						"tconstruct:durability": 1.1f
+						"tconstruct:mining_speed": 0.5f
+					}
+					tic_name: "千古「伏流」"
+					tic_persistent: {
+						upgrades: -1
+					}
+					tic_stats: {
+						"tconstruct:attack_damage": 7.9312496f
+						"tconstruct:attack_speed": 4.68f
+						"tconstruct:durability": 815.9251f
+						"tconstruct:harvest_tier": "minecraft:diamond"
+						"tconstruct:mining_speed": 4.6062503f
+					}
+					tic_upgrades: [
+						{
+							level: 1
+							name: "ticex:konpaku"
+						}
+						{
+							level: 1
+							name: "ticex:enchantment_supplier"
+						}
+						{
+							level: 1
+							name: "ticex:koshirae"
+						}
+						{
+							level: 1
+							name: "ticex:rebirth"
+						}
+					]
+					tic_volatile_data: {
+						abilities: 1
+						"tconstruct:soulbound": 1b
+						upgrades: 3
+					}
+				}
+			}
+			id: "501FB8ED6CDA503F"
+			rewards: [{
+				id: "6B9F5F7F4123A142"
+				item: {
+					Count: 1
+					id: "thermal:satchel"
+					tag: {
+						ItemInv: {
+							ItemInv: [{
+								Count: 1b
+								Slot: 0b
+								id: "ticex:reforged_slashblade"
+								tag: {
+									Damage: 0
+									Enchantments: [
+										{
+											id: "minecraft:thorns"
+											lvl: 3s
+										}
+										{
+											id: "minecraft:sweeping"
+											lvl: 3s
+										}
+										{
+											id: "ars_nouveau:reactive"
+											lvl: 3s
+										}
+										{
+											id: "minecraft:power"
+											lvl: 5s
+										}
+										{
+											id: "mme:critical_strike"
+											lvl: 3s
+										}
+										{
+											id: "ensorcellation:soulbound"
+											lvl: 1s
+										}
+										{
+											id: "minecraft:feather_falling"
+											lvl: 4s
+										}
+										{
+											id: "mme:sanction"
+											lvl: 5s
+										}
+										{
+											id: "mme:judgment"
+											lvl: 5s
+										}
+										{
+											id: "mme:life_steal"
+											lvl: 3s
+										}
+										{
+											id: "ensorcellation:leech"
+											lvl: 4s
+										}
+										{
+											id: "draconicevolution:reaper_enchantment"
+											lvl: 5s
+										}
+										{
+											id: "hmag:water_aspect"
+											lvl: 5s
+										}
+										{
+											id: "minecraft:fire_protection"
+											lvl: 4s
+										}
+										{
+											id: "mme:winter_chill"
+											lvl: 3s
+										}
+										{
+											id: "mme:soul_siphon"
+											lvl: 1s
+										}
+										{
+											id: "enigmaticaddons:frost_aspect"
+											lvl: 2s
+										}
+										{
+											id: "enigmaticlegacy:slayer"
+											lvl: 5s
+										}
+									]
+									RepairCost: 0
+									bladeState: {
+										AttackAmplifier: 0.0f
+										ComboRoot: "slashblade:standby"
+										Damage: 0
+										ModelName: "srelic:model/wuwa/older.obj"
+										RepairCounter: 265
+										SpecialAttackType: "srelic:explashon"
+										StandbyRenderType: 2b
+										SummonedSwordColor: -14774017
+										SummonedSwordColorInverse: 0b
+										TargetEntity: -1
+										TextureName: "srelic:model/wuwa/eternal_vows.png"
+										_onClick: 0b
+										adjustXYZ: [
+											0.0d
+											0.0d
+											0.0d
+										]
+										baseAttackModifier: 17.0f
+										currentCombo: "slashblade:none"
+										fallDecreaseRate: 0.0f
+										isBroken: 0b
+										isDefaultBewitched: 1b
+										isSealed: 0b
+										killCount: 0
+										lastActionTime: 594221L
+										maxDamage: 377
+										proudSoul: 270460
+										translationKey: "item.srelic.eternal_vows"
+									}
+									etstlib_tool_uuid: "75ddeae6-ca2c-487b-b5b6-58ff1b8c3dfc"
+									tic_broken: 0b
+									tic_materials: [
+										"cloudertinker:fiery"
+										"cloudertinker:magnet"
+										"cloudertinker:phantom"
+									]
+									tic_modifiers: [
+										{
+											level: 1
+											name: "ticex:konpaku"
+										}
+										{
+											level: 1
+											name: "ticex:enchantment_supplier"
+										}
+										{
+											level: 1
+											name: "ticex:koshirae"
+										}
+										{
+											level: 1
+											name: "ticex:rebirth"
+										}
+										{
+											level: 2
+											name: "cloudertinker:twilight"
+										}
+										{
+											level: 1
+											name: "cloudertinker:superheat"
+										}
+										{
+											level: 1
+											name: "tconstruct:autosmelt"
+										}
+										{
+											level: 1
+											name: "tconstruct:fiery"
+										}
+										{
+											level: 1
+											name: "cloudertinker:magent"
+										}
+										{
+											level: 1
+											name: "tconstruct:magnetic"
+										}
+										{
+											level: 1
+											name: "cloudertinker:knight_honorable"
+										}
+										{
+											level: 1
+											name: "cloudertinker:breakphantom"
+										}
+										{
+											level: 1
+											name: "tconstruct:soulbound"
+										}
+									]
+									tic_multipliers: {
+										"tconstruct:attack_speed": 2.6f
+										"tconstruct:durability": 1.1f
+										"tconstruct:mining_speed": 0.5f
+									}
+									tic_name: "千古「伏流」"
+									tic_persistent: {
+										upgrades: -1
+									}
+									tic_stats: {
+										"tconstruct:attack_damage": 7.9312496f
+										"tconstruct:attack_speed": 4.68f
+										"tconstruct:durability": 815.9251f
+										"tconstruct:harvest_tier": "minecraft:diamond"
+										"tconstruct:mining_speed": 4.6062503f
+									}
+									tic_upgrades: [
+										{
+											level: 1
+											name: "ticex:konpaku"
+										}
+										{
+											level: 1
+											name: "ticex:enchantment_supplier"
+										}
+										{
+											level: 1
+											name: "ticex:koshirae"
+										}
+										{
+											level: 1
+											name: "ticex:rebirth"
+										}
+									]
+									tic_volatile_data: {
+										abilities: 1
+										"tconstruct:soulbound": 1b
+										upgrades: 3
+									}
+								}
+							}]
+						}
+						RepairCost: 0
+						display: {
+							Lore: [ ]
+							Name: "{\"text\":\"§e拔刀剑小包\"}"
+							color: 12816981
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D515CD07171F3DE"
+				title: "章节奖励"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			icon: "minecraft:observer"
+			id: "0C26D242FD4B343A"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "780523E88F77E08A"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "620641295B173DD8"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+	]
+	title: "·&e鼠西洲"
+}

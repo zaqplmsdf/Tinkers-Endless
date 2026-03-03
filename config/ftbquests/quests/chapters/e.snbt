@@ -1,0 +1,619 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "e"
+	group: "3172704A8AED52C1"
+	icon: "mushroom_daydream:dragon_gobber"
+	id: "0F434718994364ED"
+	images: [
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -0.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"更推荐使用&e强化金属块&r在&e拆解台&r上分解获取"
+				""
+				"相关链接："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"660D0CFD0A921408\" } }"
+			]
+			id: "3FB125FEB8800D67"
+			tasks: [{
+				id: "14491B6558EB8B11"
+				item: "tconstruct:dragon_scale"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			description: ["被&d凋零&r效果杀死的生物会掉落"]
+			id: "14E4A158F4730D24"
+			tasks: [{
+				id: "5AE8B395E5295F62"
+				item: "minecraft:wither_rose"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"3FB125FEB8800D67"
+				"14E4A158F4730D24"
+			]
+			id: "776E0F9DC0D481AE"
+			tasks: [{
+				id: "3C76C021CF67E48A"
+				item: "cloudertinker:bloodlust_power"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"3117559A2CFD3D77"
+				"269C6D84E467F7D4"
+				"7020CF59381D5C7B"
+			]
+			description: ["合金"]
+			id: "5F2A6ECF91254C2C"
+			tasks: [{
+				id: "316D97FE23FEED58"
+				item: "tconstruct:manyullyn_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			description: ["古城宝箱获取"]
+			id: "16AD284DB3CB719B"
+			tasks: [{
+				id: "721999E6D9FDA819"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"16AD284DB3CB719B"
+				"776E0F9DC0D481AE"
+				"5F2A6ECF91254C2C"
+			]
+			id: "6FB1E614AA27ACC6"
+			tasks: [{
+				id: "4C3985C313CA06D9"
+				item: "cloudertinker:magala_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: ["下界矿物"]
+			id: "3117559A2CFD3D77"
+			tasks: [{
+				id: "7B2B5AD98466E451"
+				item: "tconstruct:cobalt_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			description: ["下界矿物"]
+			id: "269C6D84E467F7D4"
+			tasks: [{
+				id: "31021AD870055885"
+				item: "tinkers_thinking:ardite_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "1854E5ECA160E798"
+			tasks: [{
+				id: "5EF42E0A86C57FA8"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			id: "0CC6E8F4B2EDFB84"
+			tasks: [{
+				id: "793A457EAA43C06A"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "35E9DA67BCF7ABAF"
+			tasks: [{
+				id: "01F41CA69F576BEB"
+				item: "sakuratinker:terracryst"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			id: "684807DFFC881D50"
+			tasks: [{
+				id: "4EEB630CFB7B5D07"
+				item: { Count: 2, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1854E5ECA160E798"
+				"35E9DA67BCF7ABAF"
+				"0CC6E8F4B2EDFB84"
+				"684807DFFC881D50"
+			]
+			description: ["较为便宜的材料"]
+			id: "10B3CC922B990C70"
+			tasks: [{
+				id: "1BF0AF9C165328D8"
+				item: "sakuratinker:delusion"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "40226598304F611A"
+			tasks: [{
+				id: "3E22F552711F5C46"
+				item: "sakuratinker:orichalcum_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "75C634D03F47D0DB"
+			tasks: [{
+				id: "543D24D270CE73AE"
+				item: "sakuratinker:prometheum_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"75C634D03F47D0DB"
+				"40226598304F611A"
+			]
+			id: "34DB3DAD033ECECD"
+			tasks: [{
+				id: "412611E7CEE6FAEB"
+				item: "sakuratinker:aurumos"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			description: ["下界矿物"]
+			id: "30C867D391C1593E"
+			tasks: [{
+				id: "7CA1C6B78C6BC0B7"
+				item: "tconstruct:cobalt_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			description: ["下界矿物"]
+			id: "42B4BED466F9E108"
+			tasks: [{
+				id: "15CCF963F910E67C"
+				item: "tinkers_thinking:ardite_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7020CF59381D5C7B"
+				"42B4BED466F9E108"
+				"30C867D391C1593E"
+			]
+			description: ["合金"]
+			id: "60ED35A4CEF0AC50"
+			tasks: [{
+				id: "0F6E2A0FAC97949B"
+				item: "tconstruct:manyullyn_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "0763E3186B5903AE"
+			tasks: [{
+				id: "7ABBFD6C9309D017"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "6348EE4FE4A66CAF"
+			tasks: [{
+				id: "446DF8E11B243F7A"
+				item: "sakuratinker:eezo_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"34DB3DAD033ECECD"
+				"60ED35A4CEF0AC50"
+				"0763E3186B5903AE"
+				"6348EE4FE4A66CAF"
+			]
+			id: "03FEBCA1523DA36A"
+			tasks: [{
+				id: "55204F0D58CBF360"
+				item: "sakuratinker:nihilite_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"03FEBCA1523DA36A"
+				"60ED35A4CEF0AC50"
+			]
+			description: ["&e虚金&r+&e玛玉灵&r"]
+			id: "3EEA28273D58BF45"
+			tasks: [{
+				id: "55DB261FF8DE0C77"
+				item: "sakuratinker:gluttonous"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			id: "1E6D0DEACCA4C3E2"
+			tasks: [{
+				id: "5AF8173FD757D122"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "496EC404F3F3A68A"
+			tasks: [{
+				id: "7990CECB5E686981"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			description: ["穿戴&e七咒之戒&r杀死&b凋灵&r获得"]
+			id: "017D64F6D9D30156"
+			tasks: [{
+				id: "24AFCA2943D428DB"
+				item: "enigmaticlegacy:evil_essence"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1E6D0DEACCA4C3E2"
+				"496EC404F3F3A68A"
+				"017D64F6D9D30156"
+			]
+			id: "2D75E9D6039EE172"
+			tasks: [{
+				id: "368E29AF5DBDC768"
+				item: "enigmaticlegacy:evil_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			id: "1D53CEDC49255837"
+			tasks: [{
+				id: "1F2CB0FA527958D3"
+				item: "tconstruct:seared_brick"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			id: "7D2D91460050C490"
+			tasks: [{
+				id: "20F3A862BE03CEC3"
+				item: "tconstruct:sky_slime_ball"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			id: "65AEE3A9A01D2123"
+			tasks: [{
+				id: "150B49D90939702B"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"65AEE3A9A01D2123"
+				"7D2D91460050C490"
+				"1D53CEDC49255837"
+			]
+			id: "7687323F526B97E8"
+			tasks: [{
+				id: "069CB7E9C2F19F44"
+				item: "tconstruct:slimesteel_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "2C5D8A5E397C85DE"
+			tasks: [{
+				id: "5F466FEC77BF19DE"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			description: ["下界矿物"]
+			id: "3B2E7DDD0771EC42"
+			tasks: [{
+				id: "2FCBE9B34E78FFD9"
+				item: "tconstruct:cobalt_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "600864FA9B334AD4"
+			tasks: [{
+				id: "41F713B7F5F4893C"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3B2E7DDD0771EC42"
+				"2C5D8A5E397C85DE"
+				"600864FA9B334AD4"
+			]
+			id: "0DBE8AC904731DB0"
+			tasks: [{
+				id: "66CFB9100D54C839"
+				item: "tconstruct:hepatizon_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "112B5550D96E56A5"
+			tasks: [{
+				id: "3893D43C32AB304C"
+				item: { Count: 2, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "2389E02E9073E910"
+			tasks: [{
+				id: "1222FD4DA19545B8"
+				item: "ticex:flickering_reconstruction_core"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"112B5550D96E56A5"
+				"2389E02E9073E910"
+				"0DBE8AC904731DB0"
+				"7687323F526B97E8"
+			]
+			id: "0962CEE757C7AECC"
+			tasks: [{
+				id: "63D6ABDB83A4315B"
+				item: "ticex:etheric_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			id: "3C4351DC52E691FC"
+			tasks: [{
+				id: "1125EB6B8A8A971C"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "11C13ED72EB8E199"
+			tasks: [{
+				id: "2D5CFA7F6F08E0CA"
+				item: "minecraft:magma_cream"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3C4351DC52E691FC"
+				"11C13ED72EB8E199"
+			]
+			id: "487636F04B35E9BB"
+			tasks: [{
+				id: "52B42F76D00C1681"
+				item: "mushroom_daydream:nightmare_fuel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			id: "5BAFE7D85FECFF19"
+			tasks: [{
+				id: "765610BE8037D41B"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5BAFE7D85FECFF19"
+				"487636F04B35E9BB"
+			]
+			id: "25429254D6063480"
+			tasks: [{
+				id: "4D32E2DBFC897900"
+				item: "mushroom_daydream:pure_horror"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			icon: "minecraft:observer"
+			id: "7B20CFDBD3A3B2CE"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "53D838D2B238AC08"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "31B4A71762C16705"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+	]
+	title: "·&e其他材料"
+}

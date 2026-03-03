@@ -1,0 +1,8 @@
+// Compost colors for better_minoshroomtaur. You may add your own colors, change existing ones, or remove colors that aren't needed.
+maze_diamond, #4e788a
+maze_diamond_armor_boots, #476e7f
+maze_diamond_armor_helmet, #44687a
+maze_mushroom, #bfccbf
+maze_remnant_page_minoshroomtaur, #c8a082
+mushroom_key, #824a44
+warrior_mushroom_stew, #734129

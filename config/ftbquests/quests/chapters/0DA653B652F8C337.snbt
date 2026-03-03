@@ -1,0 +1,355 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "octagon"
+	default_quest_size: 1.5d
+	filename: "0DA653B652F8C337"
+	group: "457E9E90E1EE2E33"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "0DA653B652F8C337"
+	images: [
+		{
+			height: 1.5d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.5d
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			height: 4.0d
+			image: "twilightforest:block/pedestal/naga"
+			order: 1
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			height: 4.0d
+			image: "twilightforest:block/pedestal/lich"
+			order: 1
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			height: 4.0d
+			image: "twilightforest:block/pedestal/ur-ghast"
+			order: 1
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			height: 4.0d
+			image: "twilightforest:block/pedestal/snow_queen"
+			order: 1
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			height: 4.0d
+			image: "twilightforest:block/pedestal/hydra"
+			order: 1
+			rotation: 0.0d
+			width: 4.0d
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependency: "466B726790E15E48"
+			height: 4.0d
+			image: "twilightforest:block/pedestal/hydra_glow"
+			rotation: 0.0d
+			width: 4.0d
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependency: "57165F0AAD04E67D"
+			height: 4.0d
+			image: "twilightforest:block/pedestal/lich_glow"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependency: "3BE949D04C19417F"
+			height: 4.0d
+			image: "twilightforest:block/pedestal/naga_glow"
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependency: "0C14D3119DD25EC2"
+			height: 4.0d
+			image: "twilightforest:block/pedestal/snow_queen_glow"
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependency: "06D1D6EEFFF6A9DB"
+			height: 4.0d
+			image: "twilightforest:block/pedestal/ur-ghast_glow"
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.5d
+			y: -3.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3BE949D04C19417F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C5D3C1CF9378CA0"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_naga"
+				criterion: ""
+				icon: "twilightforest:naga_trophy"
+				id: "3EEC67A762F76E4D"
+				type: "advancement"
+			}]
+			title: "娜迦"
+			x: -0.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BE949D04C19417F"]
+			id: "57165F0AAD04E67D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34C404DEA1760FB1"
+				table_id: 2496234257689732661L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_lich"
+				criterion: ""
+				icon: "twilightforest:lich_trophy"
+				id: "35FFF423D454F0DC"
+				type: "advancement"
+			}]
+			title: "巫妖"
+			x: -0.75d
+			y: 2.25d
+		}
+		{
+			id: "27E90573AB91B6A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14E12C3B6E7528EF"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_yeti"
+				criterion: ""
+				icon: "twilightforest:alpha_yeti_trophy"
+				id: "51376EB3EBF6EA48"
+				type: "advancement"
+			}]
+			title: "雪怪首领"
+			x: 0.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27E90573AB91B6A1"]
+			id: "0C14D3119DD25EC2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E9C8571B0579F52"
+				table_id: 2496234257689732661L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "twilightforest:progress_glacier"
+				criterion: ""
+				id: "223F4AE0BAB6304E"
+				type: "advancement"
+			}]
+			title: "冰雪女王"
+			x: 0.75d
+			y: 2.25d
+		}
+		{
+			id: "120B36084EC5286A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59377F4044DD2D7F"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				icon: "twilightforest:knight_phantom_trophy"
+				id: "070AF8B049619919"
+				type: "kill"
+				value: 1L
+			}]
+			title: "幻影骑士"
+			x: 2.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["120B36084EC5286A"]
+			id: "06D1D6EEFFF6A9DB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5857F732D9BE48FC"
+				table_id: 2496234257689732661L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				icon: "twilightforest:ur_ghast_trophy"
+				id: "53E75F6C18A1B0CC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "暮初恶魂"
+			x: 2.25d
+			y: 2.25d
+		}
+		{
+			id: "6B3DBD0637ACB635"
+			rewards: [
+				{
+					count: 64
+					id: "40DC6AE99EA7D696"
+					item: "better_minoshroomtaur:maze_mushroom"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FB8F5390AC5E5DA"
+					table_id: 2108578313458904176L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				icon: "twilightforest:minoshroom_trophy"
+				id: "7851A667173DFED7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "米诺菇"
+			x: 3.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B3DBD0637ACB635"]
+			id: "466B726790E15E48"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "275B450CDF49432E"
+				table_id: 2496234257689732661L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "twilightforest:hydra"
+				icon: "twilightforest:hydra_trophy"
+				id: "51211FD8E368F40D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "九头蛇"
+			x: 3.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["6B3DBD0637ACB635"]
+			description: ["使用米诺菇的掉落物召唤"]
+			id: "3ADFFC6F817E9CFF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CB39FB5C5CDAD8C"
+				table_id: 2496234257689732661L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "better_minoshroomtaur:better_minoshroomtaur"
+				icon: "twilightforest:minoshroom_spawn_egg"
+				id: "790EAB43134AF980"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3ADFFC6F817E9CFF"
+				"06D1D6EEFFF6A9DB"
+				"57165F0AAD04E67D"
+				"0C14D3119DD25EC2"
+				"466B726790E15E48"
+			]
+			id: "4DD6ED5989B88806"
+			rewards: [
+				{
+					id: "7B78490420FEADF8"
+					item: "twilightdelight:meef_wellington_block"
+					type: "item"
+				}
+				{
+					id: "2CBB08535F401EB4"
+					item: "twilightdelight:lily_chicken_block"
+					type: "item"
+				}
+				{
+					id: "7193CB885A581715"
+					item: "twilightdelight:fiery_snakes_block"
+					type: "item"
+				}
+				{
+					id: "5666A8E02020E430"
+					item: "twilightdelight:maze_stove"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "785526EEC6FDC072"
+					item: "twilightdelight:fiery_cooking_pot"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0B8EE1654C2D74DB"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "twilightdelight:twilight_guide"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1EDD16A70A005FC6"
+				type: "checkmark"
+			}]
+			title: "&6章节奖励"
+			x: 5.0d
+			y: 4.5d
+		}
+	]
+	title: "·&2暮色森林"
+}

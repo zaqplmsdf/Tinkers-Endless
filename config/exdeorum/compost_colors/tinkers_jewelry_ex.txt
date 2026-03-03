@@ -1,0 +1,10 @@
+// Compost colors for tinkers_jewelry_ex. You may add your own colors, change existing ones, or remove colors that aren't needed.
+chain_cast, #ffff7f
+chain_red_sand_cast, #ff942f
+chain_sand_cast, #ffffed
+curved_plate_cast, #ffff79
+curved_plate_red_sand_cast, #ff942f
+curved_plate_sand_cast, #ffffeb
+lining_cast, #ffff80
+lining_red_sand_cast, #ff932f
+lining_sand_cast, #ffffea

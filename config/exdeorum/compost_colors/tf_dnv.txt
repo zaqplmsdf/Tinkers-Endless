@@ -1,0 +1,4 @@
+// Compost colors for tf_dnv. You may add your own colors, change existing ones, or remove colors that aren't needed.
+miner_helmet, #5f5555
+moss_pickaxe, #6e7633
+trader_token, #ffa747

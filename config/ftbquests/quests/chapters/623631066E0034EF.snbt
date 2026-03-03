@@ -1,0 +1,863 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "623631066E0034EF"
+	group: "1212196CDDCD1199"
+	id: "623631066E0034EF"
+	images: [
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependency: "57423C3CEB8557EB"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependency: "2BA898A27BB89CF6"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependency: "79B91DB31401ABA8"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependency: "4B5C7D96D4E715CA"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependency: "2A3AA8511A0EB6FB"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependency: "438C88EF646890E4"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependency: "1295B77FBF5181A7"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependency: "6E504B1CC0F52D05"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependency: "1AA83EB362E894E7"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 1.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6A106E532BB34DEC"
+			rewards: [
+				{
+					id: "569219EDA67E25F2"
+					item: "grimoireofgaia:bust_minotaur"
+					type: "item"
+				}
+				{
+					id: "1C479400A114EF98"
+					item: "kubejs:achievement"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:minotaur"
+				icon: "grimoireofgaia:bust_minotaur"
+				id: "29708181C4EBA202"
+				type: "kill"
+				value: 100L
+			}]
+			title: "&6纯爱战士"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "05C244A95059D137"
+			rewards: [
+				{
+					id: "075D19D4FDD55F80"
+					item: "grimoireofgaia:bust_sphinx"
+					type: "item"
+				}
+				{
+					id: "198D07C314E76C0E"
+					item: "kubejs:achievement"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:desert"
+				icon: "grimoireofgaia:bust_sphinx"
+				id: "63CC46D9461AB94D"
+				title: "到达沙漠"
+				type: "biome"
+			}]
+			title: "&6这有金字塔吗？"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "3E619CB40E6A251B"
+			rewards: [
+				{
+					id: "5DC1E9AC576C7502"
+					item: "grimoireofgaia:bust_valkyrie"
+					type: "item"
+				}
+				{
+					id: "1893CB312886BD26"
+					item: "kubejs:achievement"
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "grimoireofgaia:bust_valkyrie"
+				id: "7C4D053911B66792"
+				title: "前往天境"
+				type: "dimension"
+			}]
+			title: "&6飞上高天"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			description: [""]
+			id: "239CEB7E259A4174"
+			rewards: [
+				{
+					id: "502E9E70CBE12517"
+					item: "grimoireofgaia:bust_vampire"
+					type: "item"
+				}
+				{
+					id: "37C9E373A7641735"
+					item: "kubejs:achievement"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "graveyard:graveyard/vial_of_blood"
+				criterion: ""
+				icon: "grimoireofgaia:bust_vampire"
+				id: "28661A562B13358F"
+				type: "advancement"
+			}]
+			title: "&6要用来干嘛？"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			description: ["&8“是不是该付钱了？”"]
+			id: "33AC013942138A44"
+			rewards: [
+				{
+					id: "1B8789DCD408E2A6"
+					item: "grimoireofgaia:bust_gorgon"
+					type: "item"
+				}
+				{
+					id: "00C8E3DF38B2B41E"
+					item: "kubejs:achievement"
+					type: "item"
+				}
+			]
+			tasks: [{
+				block: "minecraft:stone"
+				block_type: 0
+				checkItem: false
+				icon: "grimoireofgaia:bust_gorgon"
+				id: "047C70A52FB41C20"
+				type: "questsadditions:break"
+				value: 10000L
+			}]
+			title: "&6完美的合作伙伴"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			id: "4B5C7D96D4E715CA"
+			invisible: true
+			rewards: [
+				{
+					id: "62039255466BBFAE"
+					item: "grimoireofgaia:doll_creeper_girl"
+					type: "item"
+				}
+				{
+					id: "0BF6A71A3A161DA4"
+					item: "grimoireofgaia:spawn_creeper_girl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/hatch_tremorzilla_egg"
+				criterion: ""
+				icon: "grimoireofgaia:doll_creeper_girl"
+				id: "4380C68146F25757"
+				type: "advancement"
+			}]
+			title: "&e核爆下的新生"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			description: ["太阳下石化的。。。"]
+			id: "57423C3CEB8557EB"
+			invisible: true
+			rewards: [{
+				id: "446355334AABF49C"
+				item: {
+					Count: 1
+					id: "grimoireofgaia:deco_garden_gnome"
+					tag: {
+						display: {
+							Lore: [
+								"{\"text\":\"§5可以加幸运值吗？\"}"
+								"{\"text\":\"§5§m这里不是Terraria\"}"
+							]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				icon: {
+					Count: 1
+					id: "grimoireofgaia:deco_garden_gnome"
+					tag: {
+						display: {
+							Lore: [
+								"{\"text\":\"§5可以加幸运值吗？\"}"
+								"{\"text\":\"§5§m这里不是Terraria\"}"
+							]
+						}
+					}
+				}
+				id: "5DDB92623D9C2579"
+				item: "iceandfire:stone_statue"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&e野生雕塑？"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "2BA898A27BB89CF6"
+			invisible: true
+			rewards: [{
+				id: "73823D33E4D28855"
+				item: "grimoireofgaia:deco_mandragora_pot"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "grimoireofgaia:mandragora"
+				icon: "grimoireofgaia:deco_mandragora_pot"
+				id: "1CA84B290C2A4F18"
+				type: "kill"
+				value: 10L
+			}]
+			title: "&e小心有毒"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "79B91DB31401ABA8"
+			invisible: true
+			rewards: [{
+				id: "23C865648BEA70BB"
+				item: "grimoireofgaia:deco_nest_harpy"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/rotten_egg"
+				criterion: ""
+				icon: "grimoireofgaia:deco_nest_harpy"
+				id: "39911E8442145D7B"
+				type: "advancement"
+			}]
+			title: "&e还能孵出小鸡吗？"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "2A3AA8511A0EB6FB"
+			invisible: true
+			rewards: [{
+				id: "21D548900BABE5F6"
+				item: "grimoireofgaia:doll_dryad"
+				type: "item"
+			}]
+			tasks: [{
+				block: "minecraft:saplings"
+				block_type: 1
+				icon: "grimoireofgaia:doll_dryad"
+				id: "3E52E1DF191B85BA"
+				replace: false
+				replaced: "minecraft:air"
+				title: "种植树苗"
+				type: "questsadditions:place"
+				value: 100L
+			}]
+			title: "&e植树造林"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "438C88EF646890E4"
+			invisible: true
+			rewards: [{
+				id: "5665D680A2A83BA2"
+				item: "grimoireofgaia:doll_dullahan"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "grimoireofgaia:doll_dullahan"
+				id: "4F965E56FFA7E082"
+				item: "minecraft:creeper_head"
+				type: "item"
+			}]
+			title: "&e让人摸不着头脑"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "1295B77FBF5181A7"
+			invisible: true
+			rewards: [
+				{
+					id: "144E58B34B59FD09"
+					item: "grimoireofgaia:doll_ender_girl"
+					type: "item"
+				}
+				{
+					id: "6AE69FD7474C8173"
+					item: "grimoireofgaia:spawn_ender_girl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "grimoireofgaia:ender_dragon_girl"
+				icon: "grimoireofgaia:doll_ender_girl"
+				id: "5EC94D895305592E"
+				type: "kill"
+				value: 10L
+			}]
+			title: "&e下蛋了！"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "6E504B1CC0F52D05"
+			invisible: true
+			rewards: [
+				{
+					id: "79D9840314E516A7"
+					item: "grimoireofgaia:doll_maid"
+					type: "item"
+				}
+				{
+					id: "161E8E3F32A775F6"
+					item: "grimoireofgaia:spawn_trader"
+					type: "item"
+				}
+				{
+					id: "7E6DC1150711CB43"
+					item: "kubejs:achievement"
+					type: "item"
+				}
+			]
+			tasks: [{
+				days: 100
+				icon: "grimoireofgaia:doll_maid"
+				id: "6AE3575C883F4BFB"
+				type: "questsadditions:days"
+			}]
+			title: "&e百日苦痛"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"相关链接"
+				""
+				"{ \"text\": \"点击跳转相关任务\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"27FC5891E0063D52\" } }"
+			]
+			id: "7C77503A0FAB709A"
+			rewards: [{
+				id: "02C935A06D21A952"
+				item: "grimoireofgaia:doll_mermaid"
+				type: "item"
+			}]
+			tasks: [{
+				amount: 100000L
+				fluid: "minecraft:water"
+				icon: "grimoireofgaia:doll_mermaid"
+				id: "6DC065686FD70024"
+				type: "fluid"
+			}]
+			title: "&e水视频"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"相关链接"
+				""
+				""
+				"{ \"text\": \"点击跳转相关任务\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"27FC5891E0063D52\" } }"
+			]
+			id: "73C20A5D309D799F"
+			rewards: [{
+				id: "4BC610C58DEE03A5"
+				item: "grimoireofgaia:doll_nine_tails"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "grimoireofgaia:doll_nine_tails"
+				id: "1403E2D6C4FC9C32"
+				max_input: 1000000L
+				type: "forge_energy"
+				value: 1000000000L
+			}]
+			title: "&e电动玩偶？"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			icon: "grimoireofgaia:doll_slime_girl"
+			id: "1AA83EB362E894E7"
+			invisible: true
+			rewards: [{
+				id: "67889FC540759D74"
+				item: "grimoireofgaia:doll_slime_girl"
+				type: "item"
+			}]
+			tasks: [
+				{
+					entity: "minecraft:slime"
+					icon: {
+						Count: 1
+						id: "draconicevolution:mob_soul"
+						tag: {
+							EntityName: "minecraft:slime"
+						}
+					}
+					id: "3B5BBA3900957E66"
+					type: "kill"
+					value: 100L
+				}
+				{
+					entity: "tconstruct:sky_slime"
+					icon: {
+						Count: 1
+						id: "draconicevolution:mob_soul"
+						tag: {
+							EntityName: "grimoireofgaia:slime_girl"
+						}
+					}
+					id: "7815EDEF66B116E3"
+					type: "kill"
+					value: 50L
+				}
+				{
+					entity: "tconstruct:ender_slime"
+					icon: {
+						Count: 1
+						id: "draconicevolution:mob_soul"
+						tag: {
+							EntityName: "hmag:slime_girl"
+						}
+					}
+					id: "26033A3D0B7E77F0"
+					type: "kill"
+					value: 50L
+				}
+			]
+			title: "&e指数繁殖"
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependency_requirement: "all_started"
+			icon: "minecraft:barrier"
+			id: "03FA631D240E88AA"
+			incompatible: ["3B9BD1DF2EB5D7CF"]
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/hostility player @p difficulty total set 3000"
+					elevate_perms: true
+					id: "58807D5BBD451906"
+					title: "挑战"
+					type: "command"
+				}
+				{
+					id: "6F4E9E8308721E99"
+					item: "bountifulbaubles:mad_aura"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6598622C996C8296"
+					item: "kubejs:achievement"
+					type: "item"
+				}
+				{
+					command: "/astages add @p stage_1"
+					elevate_perms: true
+					icon: "thermal:lock"
+					id: "15E02496071FB85F"
+					title: "解锁阶段1"
+					type: "command"
+				}
+				{
+					command: "/astages add @p stage_2"
+					elevate_perms: true
+					icon: "thermal:lock"
+					id: "3D04F50F4E2079E5"
+					title: "解锁阶段2"
+					type: "command"
+				}
+				{
+					id: "7A380016E7DAF6E2"
+					item: "l2hostility:charm_of_looting_2"
+					type: "item"
+				}
+				{
+					id: "56B1035D5E242C60"
+					item: "l2hostility:curse_of_envy"
+					type: "item"
+				}
+				{
+					id: "31A00E86D38455FC"
+					item: {
+						Count: 1
+						id: "bountifulbaubles:infinite_totem_of_undying"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49736AAD025AA8E1"
+					item: {
+						Count: 1
+						id: "curseofpandora:angelic_protection"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&c谨慎开启！！！"
+			tasks: [{
+				id: "1D15A2ED7E756C81"
+				title: "挑战"
+				type: "checkmark"
+			}]
+			title: "&4挑战·开局3000级"
+			x: 2.000000000000007d
+			y: 4.942857142857143d
+		}
+		{
+			can_repeat: true
+			dependencies: ["418A682BE565AEC3"]
+			id: "4231796E58D26F1E"
+			rewards: [{
+				auto: "disabled"
+				id: "326776AAEDA8017D"
+				table_id: 7365258202012942308L
+				team_reward: false
+				type: "random"
+			}]
+			tasks: [{
+				disable_toast: true
+				elapsedTime: 900L
+				id: "092B6F2A7B9C82BA"
+				title: "&b挂机ing"
+				type: "questsadditions:time"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["03FA631D240E88AA"]
+			id: "0340B6F2E9E0AF8B"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/astages remove @p stage_1"
+					elevate_perms: true
+					icon: "thermal:lock"
+					id: "55C3589C73676E04"
+					title: "移除阶段1"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/astages remove @p stage_2"
+					elevate_perms: true
+					icon: "thermal:lock"
+					id: "170100E588ED1D7C"
+					title: "移除阶段2"
+					type: "command"
+				}
+				{
+					command: "/hostility player @p difficulty total set 0"
+					elevate_perms: true
+					id: "26CF1821F123BB99"
+					title: "难度设置为0"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/curios remove curio @p 1"
+					elevate_perms: true
+					id: "7111E977E86D6327"
+					team_reward: false
+					title: "移除万能饰品槽"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/kill @e"
+					elevate_perms: true
+					id: "27692012304330D6"
+					team_reward: true
+					type: "command"
+				}
+			]
+			subtitle: "&c当然，需要付出极大的代价"
+			tasks: [
+				{
+					consume_items: true
+					id: "1767571FDCAB4566"
+					item: {
+						Count: 1
+						id: "bountifulbaubles:infinite_totem_of_undying"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "587878D836930D15"
+					item: {
+						Count: 1
+						id: "curseofpandora:angelic_protection"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "78069C5E1502CE30"
+					item: {
+						Count: 1
+						id: "bountifulbaubles:mad_aura"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7626F175D67783CD"
+					item: {
+						Count: 1
+						id: "l2hostility:charm_of_looting_2"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "38E2DF0E071C4797"
+					item: {
+						Count: 1
+						id: "l2hostility:curse_of_envy"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "0F0C94DD2B333EF0"
+					item: {
+						Count: 2
+						id: "kubejs:achievement"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&4如果你反悔了"
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			id: "3B9BD1DF2EB5D7CF"
+			incompatible: ["03FA631D240E88AA"]
+			invisible: true
+			tasks: [{
+				elapsedTime: 3600L
+				id: "152BF62B3493DCDE"
+				secret: true
+				type: "questsadditions:time"
+			}]
+			title: "禁用挑战模式"
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			icon: "minecraft:observer"
+			id: "3A4ED7A2AF98E30E"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "7315911D448F3C13"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "1CBC2A66A2B44ADE"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+	]
+	title: "·&d成就？"
+}

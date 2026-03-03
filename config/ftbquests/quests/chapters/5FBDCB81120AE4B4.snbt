@@ -1,0 +1,1163 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "pentagon"
+	default_quest_size: 1.5d
+	filename: "5FBDCB81120AE4B4"
+	group: "457E9E90E1EE2E33"
+	icon: "mysticalagriculture:awakening_altar"
+	id: "5FBDCB81120AE4B4"
+	images: [
+		{
+			height: 2.0d
+			image: "graveyard:block/altar"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			height: 1.5d
+			image: "graveyard:block/altar_middle_alt"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "graveyard:block/altar_bottom_left"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "graveyard:block/altar_bottom_middle"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "graveyard:block/altar_bottom_right"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "graveyard:block/altar_middle_left"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "graveyard:block/altar_middle_right"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "graveyard:block/altar_top_left"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "graveyard:block/altar_top_middle"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "graveyard:block/altar_top_right"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "mutantmonsters:item/mutant_skeleton/rib_cage"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "mysticalagriculture:item/essence/skeleton_essence"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "aether:textures/gui/perks/skins/icons/skeleton_moa_icon.png"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			height: 1.5d
+			image: "graveyard:block/altar_middle_alt"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			height: 1.5d
+			image: "graveyard:block/altar_middle_alt"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "graveyard:block/altar_middle_right"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "graveyard:block/altar_middle_right"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "graveyard:block/altar_middle_left"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "graveyard:block/altar_middle_left"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "graveyard:block/altar_top_left"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "graveyard:block/altar_top_left"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "graveyard:block/altar_top_middle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "graveyard:block/altar_top_middle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "graveyard:block/altar_top_right"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "graveyard:block/altar_top_right"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "graveyard:block/altar_bottom_left"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "graveyard:block/altar_bottom_left"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "graveyard:block/altar_bottom_middle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "graveyard:block/altar_bottom_middle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "graveyard:block/altar_bottom_right"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "graveyard:block/altar_bottom_right"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			height: 1.3d
+			image: "graveyard:item/vial_of_blood_08"
+			order: 1
+			rotation: 0.0d
+			width: 1.3d
+			x: 1.5d
+			y: 4.5d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&e植物魔法词典&r内&e精灵学-盖亚仪式&r（需完成&e精灵学-精灵传送门&r条目）处查看祭坛摆放方式及所需祭品"]
+			id: "7DCC5F268D904C80"
+			rewards: [
+				{
+					id: "7EAAE8B82CCF1F6B"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B5F8A7760BD2DF4"
+					table_id: 2496234257689732661L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "botania:main/gaia_guardian_kill"
+				criterion: ""
+				id: "2CC9584B7C882343"
+				type: "advancement"
+			}]
+			title: "盖亚守护者"
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["7DCC5F268D904C80"]
+			description: ["使用盖亚魂锭在盖亚守护者仪式上召唤"]
+			id: "0AD6FE578BAA6C4D"
+			rewards: [
+				{
+					id: "4FC6D703B0BE8CA9"
+					item: "botania:gaia_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42FBFC4320506BF4"
+					table_id: 2496234257689732661L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "botania:challenge/gaia_guardian_hardmode"
+				criterion: ""
+				id: "5BE16F6EB7C1A53B"
+				type: "advancement"
+			}]
+			title: "盖亚守护者II"
+			x: 5.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["0AD6FE578BAA6C4D"]
+			description: [
+				"使用&e挑战券&r在&e盖亚守护者仪式&r上召唤"
+				"挑战&e盖亚守护者III&r时&e仅可原版及植物魔法相关物品及装备&r"
+				"建议使用&e恶意吸收宝珠&r或&e恶意刷怪笼&r清除区块等级后再打"
+			]
+			id: "03089997C59957E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "296ABD3BEEFF8825"
+				table_id: 7463283479311544588L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "extrabotany:main/gaia_trial"
+				criterion: ""
+				id: "1D56439747BB6EC1"
+				type: "advancement"
+			}]
+			title: "盖亚守护者III"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			id: "1EDDBA882C73E60A"
+			tasks: [
+				{
+					id: "7748EC66FB51A878"
+					item: "ars_nouveau:ritual_brazier"
+					type: "item"
+				}
+				{
+					id: "318585C4C738435A"
+					item: "ars_nouveau:ritual_wilden_summon"
+					type: "item"
+				}
+				{
+					id: "659901ED477DD405"
+					item: "ars_nouveau:wilden_wing"
+					type: "item"
+				}
+				{
+					id: "0A39562A6FFCABAB"
+					item: "ars_nouveau:wilden_horn"
+					type: "item"
+				}
+				{
+					id: "18069BBFDAB93AD2"
+					item: "ars_nouveau:wilden_spike"
+					type: "item"
+				}
+			]
+			title: "准备"
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["1EDDBA882C73E60A"]
+			description: [
+				"&4不要使用&r秒杀类武器（&e红物质拳剑&r，&e寰宇支配之剑&r等），不然实体会卡死"
+				""
+				"用&e荒野召唤之板&r右键&e仪式火盆&r会使其进入&e等待激活&r状态，在该状态下直接右键会召唤&7荒野伏击者&r、&7荒野猎手&r、&7荒野守卫者&r、&7被召唤的狼&r，&4并不会&r召唤荒野奇美拉。"
+				""
+				"将&e荒野之角&r、&e荒野膜翼&r、&e荒野尖刺&r投入&e等待激活&r状态的仪式火盆后再右键，只会召唤&e荒野奇美拉&r。"
+				""
+				"&4在生成荒野奇美拉以及荒野奇美拉切换形态时，会破坏以仪式火盆/自己为中心5x4x5范围内的可破坏方块，应当注意避免可能的损失&r。"
+			]
+			id: "0367BAF41B67998E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64139E2F5EE238BD"
+				table_id: 2496234257689732661L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:wilden_boss"
+				icon: "ars_nouveau:wilden_tribute"
+				id: "358C408501BE1578"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.25d
+			y: 2.25d
+		}
+		{
+			id: "02499CD17C00CF85"
+			rewards: [{
+				id: "051803A17317ED1F"
+				item: {
+					Count: 1
+					id: "graveyard:bone_dagger"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "mme:judgment"
+								lvl: 5s
+							}
+							{
+								id: "ensorcellation:soulbound"
+								lvl: 1s
+							}
+							{
+								id: "mme:sanction"
+								lvl: 5s
+							}
+							{
+								id: "minecraft:sharpness"
+								lvl: 5s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "mme:soul_siphon"
+								lvl: 1s
+							}
+						]
+						SoulSiphonStacks: 150
+						display: {
+							Lore: ["{\"text\":\"§4这把刀沾满了村民的鲜血\"}"]
+							Name: "{\"text\":\"§4血腥骨刀\"}"
+						}
+						tic_persistent: { }
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "066ED17A86D3E6EC"
+				item: {
+					Count: 1
+					id: "graveyard:bone_dagger"
+					tag: {
+						Damage: 0
+						tic_persistent: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["02499CD17C00CF85"]
+			description: [
+				"主手拿骨刀，副手拿玻璃瓶，杀死村民可补充血瓶"
+				"需要一个满的血瓶（八个村民）"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4579F4C1EDBF8FD6"
+			tasks: [{
+				advancement: "graveyard:graveyard/vial_of_blood"
+				criterion: ""
+				id: "6EA2B02749428447"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"4579F4C1EDBF8FD6"
+				"4478A2DA439815B7"
+			]
+			description: [
+				"搜索&eLich Prison&r"
+				""
+				"必须在&4夜晚&r依次将上、中、下共3块&e骨杖残片骨杖残片&r依次&5从左至右&r放置于祭坛前的&e碎裂深石中心&r，然后将&e一瓶血&r倒在祭坛中央的&e祭坛方块&r上。"
+				""
+				"{image:ftbquests:textures/picture/005.png width:160 height:90 align:center}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7C1243CA921114B0"
+			tasks: [{
+				advancement: "graveyard:graveyard/lich_prison"
+				criterion: ""
+				id: "7480E850F17E9FB7"
+				type: "advancement"
+			}]
+			x: 3.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["02499CD17C00CF85"]
+			description: [
+				"埋藏着&e骨杖碎片&r的遗迹，生成于&2森林群系&r，分为&6旧哨塔&r、&6血祀坑&r和&6破败营地&r三个变种。"
+				""
+				"探险家指南针搜索：&eRuins&r"
+				""
+				"对，三个变种共用一个注册名"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4478A2DA439815B7"
+			tasks: [
+				{
+					advancement: "graveyard:graveyard/lower_bone_staff"
+					criterion: ""
+					id: "7FE43AA17C2CDDE3"
+					type: "advancement"
+				}
+				{
+					advancement: "graveyard:graveyard/middle_bone_staff"
+					criterion: ""
+					id: "695DEAA24AF2A538"
+					type: "advancement"
+				}
+				{
+					advancement: "graveyard:graveyard/upper_bone_staff"
+					criterion: ""
+					id: "74D91DB768BAE90F"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["7C1243CA921114B0"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "16282EADB9E8C83D"
+			tasks: [{
+				advancement: "graveyard:graveyard/summon_lich"
+				criterion: ""
+				id: "5974C6DBCAFD1D48"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["16282EADB9E8C83D"]
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "76A83054A0EBAA6B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A83D1B7F45B31B4"
+					table_id: 7463283479311544588L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CAD058A427C5F02"
+					table_id: 2496234257689732661L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "graveyard:lich"
+				icon: {
+					Count: 1
+					id: "graveyard:cyan_bone_staff"
+					tag: {
+						GhoulingUUID: [I;
+							518675699
+							870533361
+							-1412717369
+							-367801547
+						]
+						OwnerUUID: [I;
+							-2094034348
+							1131430011
+							-1898624662
+							521106182
+						]
+					}
+				}
+				id: "48A148DE051AD9F3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["02499CD17C00CF85"]
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "graveyard:vial_of_blood"
+				tag: {
+					Blood: 0.8000001f
+				}
+			}
+			id: "7AABD1FD8FC67E72"
+			rewards: [
+				{
+					id: "010755C2FAE8A216"
+					item: "graveyard:upper_bone_staff"
+					type: "item"
+				}
+				{
+					id: "67F30B13E5EA0532"
+					item: "graveyard:middle_bone_staff"
+					type: "item"
+				}
+				{
+					id: "7E32F606A42954A9"
+					item: "graveyard:lower_bone_staff"
+					type: "item"
+				}
+				{
+					id: "5897F0D3FF9C7B01"
+					item: {
+						Count: 1
+						id: "graveyard:vial_of_blood"
+						tag: {
+							Blood: 0.8000001f
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "49B0401A45D1EDDC"
+					item: { Count: 32, id: "thermal:netherite_coin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 640L
+					id: "3462BE8145A66840"
+					item: { Count: 640, id: "minecraft:bone" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "751D7040C2F7F4B4"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+			]
+			title: "一些物品的兑换"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"03089997C59957E5"
+				"0367BAF41B67998E"
+				"76A83054A0EBAA6B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "ticex:reforged_slashblade"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:thorns"
+							lvl: 3s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 3s
+						}
+						{
+							id: "ars_nouveau:reactive"
+							lvl: 3s
+						}
+						{
+							id: "minecraft:power"
+							lvl: 5s
+						}
+						{
+							id: "mme:critical_strike"
+							lvl: 3s
+						}
+						{
+							id: "ensorcellation:soulbound"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:feather_falling"
+							lvl: 4s
+						}
+						{
+							id: "mme:sanction"
+							lvl: 5s
+						}
+						{
+							id: "mme:judgment"
+							lvl: 5s
+						}
+						{
+							id: "mme:life_steal"
+							lvl: 3s
+						}
+						{
+							id: "ensorcellation:leech"
+							lvl: 4s
+						}
+						{
+							id: "draconicevolution:reaper_enchantment"
+							lvl: 5s
+						}
+						{
+							id: "hmag:water_aspect"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:fire_protection"
+							lvl: 4s
+						}
+						{
+							id: "mme:winter_chill"
+							lvl: 3s
+						}
+						{
+							id: "mme:soul_siphon"
+							lvl: 1s
+						}
+						{
+							id: "enigmaticaddons:frost_aspect"
+							lvl: 2s
+						}
+						{
+							id: "enigmaticlegacy:slayer"
+							lvl: 5s
+						}
+					]
+					RepairCost: 0
+					bladeState: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						ModelName: "srelic:model/stairail/rappa.obj"
+						RepairCounter: 265
+						SpecialAttackType: "srelic:rappa"
+						StandbyRenderType: 2b
+						SummonedSwordColor: -65519
+						SummonedSwordColorInverse: 0b
+						TargetEntity: -1
+						TextureName: "srelic:model/util/rappa.png"
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						baseAttackModifier: 18.0f
+						currentCombo: "slashblade:none"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isDefaultBewitched: 1b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 704066L
+						maxDamage: 352
+						proudSoul: 401360
+						translationKey: "item.srelic.rappa"
+					}
+					display: {
+						Lore: [ ]
+						Name: "{\"text\":\"§d缭乱忍法「缭乱破魔」\"}"
+					}
+					etstlib_tool_uuid: "7bbc329a-9191-45b9-9da3-3af7365497b0"
+					tic_broken: 0b
+					tic_materials: [
+						"mysticalagradditions:supremium"
+						"tinkerscalibration:redmatter"
+						"sakuratinker:gaia"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "ticex:konpaku"
+						}
+						{
+							level: 1
+							name: "ticex:enchantment_supplier"
+						}
+						{
+							level: 1
+							name: "ticex:koshirae"
+						}
+						{
+							level: 1
+							name: "ticex:rebirth"
+						}
+						{
+							level: 1
+							name: "tconstruct:shiny"
+						}
+						{
+							level: 1
+							name: "mysticalagradditions:prosperous"
+						}
+						{
+							level: 1
+							name: "tinkerscalibration:dominate"
+						}
+						{
+							level: 1
+							name: "tinkerscalibration:subdue"
+						}
+						{
+							level: 2
+							name: "etstlib:mana_repair"
+						}
+						{
+							level: 1
+							name: "sakuratinker:gaia_wrath"
+						}
+						{
+							level: 1
+							name: "sakuratinker:gaia_soul"
+						}
+						{
+							level: 3
+							name: "sakuratinker:mana_ray"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_speed": 2.6f
+						"tconstruct:durability": 1.1f
+						"tconstruct:mining_speed": 0.5f
+					}
+					tic_persistent: {
+						upgrades: -1
+					}
+					tic_stats: {
+						"tconstruct:attack_damage": 19.536188f
+						"tconstruct:attack_speed": 4.888f
+						"tconstruct:durability": 7415.1f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:mining_speed": 12.364844f
+					}
+					tic_upgrades: [
+						{
+							level: 1
+							name: "ticex:konpaku"
+						}
+						{
+							level: 1
+							name: "ticex:enchantment_supplier"
+						}
+						{
+							level: 1
+							name: "ticex:koshirae"
+						}
+						{
+							level: 1
+							name: "ticex:rebirth"
+						}
+						{
+							level: 1
+							name: "tconstruct:shiny"
+						}
+					]
+					tic_volatile_data: {
+						abilities: 1
+						"tconstruct:rarity": 3
+						"tconstruct:shiny": 1b
+						upgrades: 3
+					}
+				}
+			}
+			id: "2FD8FBDBA2D037A6"
+			rewards: [{
+				id: "2EEBFDBD235BC917"
+				item: {
+					Count: 1
+					id: "thermal:satchel"
+					tag: {
+						ItemInv: {
+							ItemInv: [{
+								Count: 1b
+								Slot: 0b
+								id: "ticex:reforged_slashblade"
+								tag: {
+									Damage: 0
+									Enchantments: [
+										{
+											id: "minecraft:thorns"
+											lvl: 3s
+										}
+										{
+											id: "minecraft:sweeping"
+											lvl: 3s
+										}
+										{
+											id: "ars_nouveau:reactive"
+											lvl: 3s
+										}
+										{
+											id: "minecraft:power"
+											lvl: 5s
+										}
+										{
+											id: "mme:critical_strike"
+											lvl: 3s
+										}
+										{
+											id: "ensorcellation:soulbound"
+											lvl: 1s
+										}
+										{
+											id: "minecraft:feather_falling"
+											lvl: 4s
+										}
+										{
+											id: "mme:sanction"
+											lvl: 5s
+										}
+										{
+											id: "mme:judgment"
+											lvl: 5s
+										}
+										{
+											id: "mme:life_steal"
+											lvl: 3s
+										}
+										{
+											id: "ensorcellation:leech"
+											lvl: 4s
+										}
+										{
+											id: "draconicevolution:reaper_enchantment"
+											lvl: 5s
+										}
+										{
+											id: "hmag:water_aspect"
+											lvl: 5s
+										}
+										{
+											id: "minecraft:fire_protection"
+											lvl: 4s
+										}
+										{
+											id: "mme:winter_chill"
+											lvl: 3s
+										}
+										{
+											id: "mme:soul_siphon"
+											lvl: 1s
+										}
+										{
+											id: "enigmaticaddons:frost_aspect"
+											lvl: 2s
+										}
+										{
+											id: "enigmaticlegacy:slayer"
+											lvl: 5s
+										}
+									]
+									RepairCost: 0
+									bladeState: {
+										AttackAmplifier: 0.0f
+										ComboRoot: "slashblade:standby"
+										Damage: 0
+										ModelName: "srelic:model/stairail/rappa.obj"
+										RepairCounter: 265
+										SpecialAttackType: "srelic:rappa"
+										StandbyRenderType: 2b
+										SummonedSwordColor: -65519
+										SummonedSwordColorInverse: 0b
+										TargetEntity: -1
+										TextureName: "srelic:model/util/rappa.png"
+										_onClick: 0b
+										adjustXYZ: [
+											0.0d
+											0.0d
+											0.0d
+										]
+										baseAttackModifier: 18.0f
+										currentCombo: "slashblade:none"
+										fallDecreaseRate: 0.0f
+										isBroken: 0b
+										isDefaultBewitched: 1b
+										isSealed: 0b
+										killCount: 0
+										lastActionTime: 704066L
+										maxDamage: 352
+										proudSoul: 401360
+										translationKey: "item.srelic.rappa"
+									}
+									display: {
+										Lore: [ ]
+										Name: "{\"text\":\"§d缭乱忍法「缭乱破魔」\"}"
+									}
+									etstlib_tool_uuid: "7bbc329a-9191-45b9-9da3-3af7365497b0"
+									tic_broken: 0b
+									tic_materials: [
+										"mysticalagradditions:supremium"
+										"tinkerscalibration:redmatter"
+										"tcintegrations:neptunium"
+									]
+									tic_modifiers: [
+										{
+											level: 1
+											name: "tcintegrations:water_powered"
+										}
+										{
+											level: 1
+											name: "ticex:konpaku"
+										}
+										{
+											level: 1
+											name: "ticex:enchantment_supplier"
+										}
+										{
+											level: 1
+											name: "ticex:koshirae"
+										}
+										{
+											level: 1
+											name: "ticex:rebirth"
+										}
+										{
+											level: 1
+											name: "tconstruct:shiny"
+										}
+										{
+											level: 1
+											name: "mysticalagradditions:prosperous"
+										}
+										{
+											level: 1
+											name: "tinkerscalibration:dominate"
+										}
+										{
+											level: 1
+											name: "tinkerscalibration:subdue"
+										}
+									]
+									tic_multipliers: {
+										"tconstruct:attack_speed": 2.6f
+										"tconstruct:durability": 1.1f
+										"tconstruct:mining_speed": 0.5f
+									}
+									tic_persistent: {
+										upgrades: -1
+									}
+									tic_stats: {
+										"tconstruct:attack_damage": 15.3225f
+										"tconstruct:attack_speed": 4.576f
+										"tconstruct:durability": 5693.738f
+										"tconstruct:harvest_tier": "minecraft:netherite"
+										"tconstruct:mining_speed": 11.355469f
+									}
+									tic_upgrades: [
+										{
+											level: 1
+											name: "ticex:konpaku"
+										}
+										{
+											level: 1
+											name: "ticex:enchantment_supplier"
+										}
+										{
+											level: 1
+											name: "ticex:koshirae"
+										}
+										{
+											level: 1
+											name: "ticex:rebirth"
+										}
+										{
+											level: 1
+											name: "tconstruct:shiny"
+										}
+									]
+									tic_volatile_data: {
+										abilities: 1
+										"tconstruct:rarity": 3
+										"tconstruct:shiny": 1b
+										upgrades: 3
+									}
+								}
+							}]
+						}
+						RepairCost: 0
+						display: {
+							Lore: [ ]
+							Name: "{\"text\":\"§e拔刀剑小包\"}"
+							color: 8242265
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46CCA51708E859A1"
+				title: "章节奖励"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			icon: "minecraft:observer"
+			id: "523A7947653FA6D6"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "7E8AEBA62F50D614"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "002478D4538A3F41"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: "·&6仪式召唤"
+}

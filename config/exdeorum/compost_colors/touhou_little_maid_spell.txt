@@ -1,0 +1,22 @@
+// Compost colors for touhou_little_maid_spell. You may add your own colors, change existing ones, or remove colors that aren't needed.
+anchor_core, #9ad2e3
+bleeding_heart, #801616
+blue_note, #8d7c6f
+chaos_book, #4b374e
+double_heart_chain, #ed6e9b
+ender_pocket, #5c4b22
+far_task_icon, #a77965
+flow_core, #dd22af
+fragrant_ingenuity, #e4af6b
+hairpin, #ffffcf
+melee_task_icon, #b17f7c
+owner_clear_tool, #612c3a
+quick_chant_ring, #87b1b4
+rock_crystal, #fe7f39
+sliver_cercis, #a59ac9
+soul_book, #477c9e
+spell_enhancement_core, #fb7fff
+spell_overlimit_core, #c87d7f
+spring_ring, #be8275
+wind_seeking_bell, #ffab9b
+wound_rime_blade, #86411f

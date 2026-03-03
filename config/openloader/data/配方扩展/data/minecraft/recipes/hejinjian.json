@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tconstruct:creative_slot",
+      "nbt": {
+        "slot": "upgrades"
+      }
+    }
+  ],
+  "result": {
+    "item": "minecraft:netherite_sword",
+    "count": 1,
+    "nbt": {
+      "Damage": 0
+    }
+  }
+}

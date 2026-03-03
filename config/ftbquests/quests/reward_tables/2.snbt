@@ -1,0 +1,23 @@
+{
+	icon: "thermal:silver_coin"
+	id: "1D432CCDEACF6C70"
+	loot_crate: {
+		color: 11184810
+		drops: {
+			boss: 1
+			monster: 1
+			passive: 0
+		}
+		glow: 1b
+		item_name: "银币箱"
+		string_id: "2"
+	}
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ item: "thermal:silver_coin", weight: 20.0f }
+		{ count: 10, item: "thermal:silver_coin", weight: 3.0f }
+		{ count: 15, item: "thermal:silver_coin" }
+	]
+	title: "2"
+}

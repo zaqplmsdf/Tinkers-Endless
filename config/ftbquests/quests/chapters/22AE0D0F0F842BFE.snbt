@@ -1,0 +1,534 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "22AE0D0F0F842BFE"
+	group: "63383AA57008A157"
+	icon: "avaritia:infinity_catalyst"
+	id: "22AE0D0F0F842BFE"
+	images: [
+		{
+			height: 10.0d
+			image: "avaritia:item/resource/infinity/infinity_catalyst"
+			rotation: 0.0d
+			width: 10.0d
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -1.0d
+		}
+	]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"74A237A5DD82A27F"
+				"77780D4C8D623AEE"
+			]
+			id: "42B57AF45A42C20B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "013303C48FD32810"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				id: "26CFA8452DC5A528"
+				item: "avaritia:diamond_lattice"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["42B57AF45A42C20B"]
+			id: "0893F70D65728717"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DD1E4E362A05E18"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				id: "23CD2644DAC24218"
+				item: "avaritia:crystal_matrix_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["418A682BE565AEC3"]
+			id: "74A237A5DD82A27F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BAE573D4AFD53FC"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "minecraft:story/mine_diamond"
+				criterion: ""
+				icon: "minecraft:diamond"
+				id: "320E4F0AA601DAA7"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2DAE2974B7732189"
+				"0893F70D65728717"
+			]
+			id: "65D5C891E8C4AF7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F800A59A88E2D67"
+				table_id: 2496234257689732661L
+				type: "random"
+			}]
+			tasks: [{
+				id: "36C794473AE2FE54"
+				item: "avaritia:extreme_crafting_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["771746593A18C203"]
+			id: "2DAE2974B7732189"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45AB655FF0DFE8AE"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				id: "28B22FC44538669F"
+				item: "avaritia:end_crafting_table"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["77780D4C8D623AEE"]
+			id: "771746593A18C203"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "437EB0D5C11DF03B"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6EA6BF7915F746BC"
+				item: "avaritia:nether_crafting_table"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A296092769D1912"]
+			id: "77780D4C8D623AEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "084315A15EC54DBF"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				id: "78A85384F8783471"
+				item: "avaritia:sculk_crafting_table"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["65D5C891E8C4AF7D"]
+			id: "2C99F95DD1DB62D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75DEEDE64D8E0F94"
+				table_id: 2496234257689732661L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4CF2A24711F4FE3E"
+				item: "avaritia:neutron_collector"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C99F95DD1DB62D5"]
+			id: "02682F53AD81D516"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66D566EA95BC2A27"
+				table_id: 2496234257689732661L
+				type: "random"
+			}]
+			tasks: [{
+				id: "75261DA7E6552EB1"
+				item: "avaritia:dense_neutron_collector"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["02682F53AD81D516"]
+			id: "1D62EC3747EB2AA3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13EF04D69ADE7BBF"
+				table_id: 2496234257689732661L
+				type: "random"
+			}]
+			tasks: [{
+				id: "11C1630403475268"
+				item: "avaritia:densest_neutron_collector"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["65D5C891E8C4AF7D"]
+			id: "605332A1CDD261AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BD3AA0A67C1DAD8"
+				table_id: 2496234257689732661L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5FED99B8B6006B2C"
+				item: "avaritia:neutron_compressor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"605332A1CDD261AE"
+				"2C99F95DD1DB62D5"
+				"65D5C891E8C4AF7D"
+				"193A2841DEFFF05E"
+			]
+			id: "69BE3AB111096933"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01C568E087A8829E"
+				table_id: 2496234257689732661L
+				type: "random"
+			}]
+			tasks: [{
+				id: "73E704398AE13EFE"
+				item: "avaritia:infinity_catalyst"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["69BE3AB111096933"]
+			id: "639E26FDD3125720"
+			rewards: [
+				{
+					count: 2
+					id: "3F46ED6C89418229"
+					item: "thermal:enderium_coin"
+					type: "item"
+				}
+				{
+					command: "/curios add hostility_curse @p 1"
+					elevate_perms: true
+					icon: "l2hostility:greed_of_nidhoggur"
+					id: "3496396C502C7EA4"
+					title: "恶意-诅咒槽"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "3C7A7B203A3338E2"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2DAE2974B7732189"]
+			id: "7EF252C7B4684728"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "603AB4638DA88F75"
+				table_id: 2496234257689732661L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1EC1FEDB09502318"
+				item: {
+					Count: 1
+					id: "avaritia:crystal_pickaxe"
+					tag: {
+						Damage: 0
+						tic_persistent: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7EF252C7B4684728"]
+			id: "193A2841DEFFF05E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44B2E1078B008660"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1A9F9841FA0E0A06"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["418A682BE565AEC3"]
+			description: ["使用带有&e精准采集&r的工具搜集"]
+			id: "1A296092769D1912"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30786C2E936D970A"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				id: "35F205BA4187CD02"
+				item: "minecraft:sculk_shrieker"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["605332A1CDD261AE"]
+			icon: "avaritia:eternal_singularity"
+			id: "57E5140751B47658"
+			rewards: [{
+				id: "6E64B2FBC69F5752"
+				item: "avaritia:eternal_singularity"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 1214L
+					id: "1C97C8B92386509D"
+					item: { Count: 80, id: "projecte:dark_matter_block" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "7010BDC734C7C1D4"
+					item: "thermal:netherite_coin"
+					type: "item"
+				}
+			]
+			title: "&3永恒奇点"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			icon: "minecraft:observer"
+			id: "37AABAE98215EABE"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "24481FFDCA8B53B4"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "13971EFC4DDA5381"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+	]
+	title: "·&a无&b尽&c贪&d婪"
+}

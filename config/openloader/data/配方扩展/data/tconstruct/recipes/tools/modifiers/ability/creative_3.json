@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "kubejs:creative_4"
+    }
+  ],
+  "result": "tconstruct:creative_3",
+  "tools": {
+    "tag": "tconstruct:modifiable/bonus_slots"
+  }
+}

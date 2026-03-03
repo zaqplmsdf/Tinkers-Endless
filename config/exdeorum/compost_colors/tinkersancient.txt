@@ -1,0 +1,11 @@
+// Compost colors for tinkersancient. You may add your own colors, change existing ones, or remove colors that aren't needed.
+battlesign_handle_cast, #ffffa8
+battlesign_head_cast, #ffffe7
+incomplete_melting_pan_handle_cast, #ffffa5
+melting_pan_handle_cast, #ffff9d
+melting_pan_handle_cast_fragment_1, #ffffff
+melting_pan_handle_cast_fragment_2, #ffffff
+melting_pan_head_cast, #ffffff
+swasher_head_cast, #ffff9d
+war_pick_handle_cast, #ffffb5
+war_pick_limb_cast, #ffffa5

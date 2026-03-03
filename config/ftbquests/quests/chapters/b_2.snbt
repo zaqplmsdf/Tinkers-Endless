@@ -1,0 +1,745 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "b_2"
+	group: "4E1EC9498C14ECA0"
+	icon: "exdeorum:oak_sieve"
+	id: "4FA82AC5EE800064"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			id: "73FEA2F4FE3E071D"
+			rewards: [{
+				id: "353E1C1E54D3EFC8"
+				item: {
+					Count: 1
+					id: "exdeorum:wooden_watering_can"
+					tag: {
+						Fluid: {
+							Amount: 300
+							FluidName: "minecraft:water"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "78DE42852A4902D9"
+				item: "exdeorum:wooden_watering_can"
+				type: "item"
+			}]
+			title: "装水"
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			id: "66C07E3E85019556"
+			rewards: [
+				{
+					id: "65250E58913E9A69"
+					item: {
+						Count: 1
+						id: "exdeorum:crook"
+						tag: {
+							Damage: 0
+							Unbreakable: 1b
+							display: {
+								Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"dark_purple\",\"text\":\"其实就是个无限耐久的钩子\"}],\"text\":\"\"}"]
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"red\",\"text\":\"无尽钩子\"}],\"text\":\"\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1034431C65A74C3C"
+					item: "exdeorum:wooden_watering_can"
+					type: "item"
+				}
+				{
+					id: "27FBED1A9271EF22"
+					item: {
+						Count: 1
+						id: "constructionwand:stone_wand"
+						tag: {
+							Damage: 0
+							Unbreakable: 1b
+							display: {
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"red\",\"text\":\"无尽手杖·伪\"}],\"text\":\"\"}"
+							}
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "06C87AF1B35C7034"
+				item: {
+					Count: 1
+					id: "exdeorum:crook"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "开启你的空岛之旅"
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["66C07E3E85019556"]
+			description: ["空岛玩法较为特殊，所以直接开启全部阶段"]
+			id: "0714FDD6C1A41DAC"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/astages add @p stage_1"
+					elevate_perms: true
+					id: "74F4FF6278F4EDF8"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/astages add @p stage_2"
+					elevate_perms: true
+					id: "532339D971BE2040"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/astages add @p stage_3"
+					elevate_perms: true
+					id: "54C97AA426DE0F4E"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/astages add @p stage_4"
+					elevate_perms: true
+					id: "66CCADE6DA579760"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/astages add @p stage_5"
+					elevate_perms: true
+					id: "0D563F180D1966E9"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/astages add @p stage_6"
+					elevate_perms: true
+					id: "26A0C5A95FE0E46F"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "7F0FD21FA351FDED"
+				title: "开启全部阶段"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["66C07E3E85019556"]
+			id: "17508DA4BE6DF108"
+			tasks: [{
+				id: "450B865986F1BE30"
+				item: "exdeorum:silk_worm"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["17508DA4BE6DF108"]
+			id: "3BAE48BA8454C1E2"
+			tasks: [{
+				id: "2B9F9EBAE2A7819D"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66C07E3E85019556"]
+			icon: {
+				Count: 1
+				id: "constructionwand:iron_wand"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+					display: {
+						Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"red\",\"text\":\"无尽手杖·伪·强化版\"}],\"text\":\"\"}"
+					}
+					wand_options: { }
+				}
+			}
+			id: "08944B9B69614B28"
+			rewards: [{
+				id: "65A04160FCA78D16"
+				item: {
+					Count: 1
+					id: "constructionwand:iron_wand"
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"red\",\"text\":\"无尽手杖·伪·强化版\"}],\"text\":\"\"}"
+						}
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "4C7802BEFC97A42D"
+					item: {
+						Count: 1
+						id: "constructionwand:stone_wand"
+						tag: {
+							Damage: 0
+							Unbreakable: 1b
+							display: {
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"red\",\"text\":\"无尽手杖·伪\"}],\"text\":\"\"}"
+							}
+							wand_options: { }
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "6D63665424065A1A"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["08944B9B69614B28"]
+			icon: {
+				Count: 1
+				id: "constructionwand:diamond_wand"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+					display: {
+						Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"red\",\"text\":\"无尽手杖·伪·二次强化\"}],\"text\":\"\"}"
+					}
+					wand_options: { }
+				}
+			}
+			id: "2BF9C4AA72CB6A5F"
+			rewards: [{
+				id: "5694212D5882822E"
+				item: {
+					Count: 1
+					id: "constructionwand:diamond_wand"
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"red\",\"text\":\"无尽手杖·伪·二次强化\"}],\"text\":\"\"}"
+						}
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "38A90A41E6B60F65"
+					item: {
+						Count: 1
+						id: "constructionwand:iron_wand"
+						tag: {
+							Damage: 0
+							Unbreakable: 1b
+							display: {
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"red\",\"text\":\"无尽手杖·伪·强化版\"}],\"text\":\"\"}"
+							}
+							wand_options: { }
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "09CD1C1DE1B8B2B9"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			icon: "minecraft:observer"
+			id: "3FD2E666FF847033"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "7217432B9288AB5F"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "10CB849A88D993D5"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["66C07E3E85019556"]
+			description: [
+				"在桶中填入有机物可制作泥土"
+				""
+				"具体支持物品可打开背包页面里对桶按U键查看桶内堆肥"
+			]
+			id: "04B36E39216C4C35"
+			tasks: [{
+				id: "203E208F88A7A32F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "exdeorum:barrels"
+					}
+				}
+				title: "任意桶"
+				type: "item"
+			}]
+			title: "可再生的泥土"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["66C07E3E85019556"]
+			id: "19044904176BCCCC"
+			tasks: [{
+				id: "415C72275CC05D5E"
+				item: "exdeorum:oak_sieve"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3BAE48BA8454C1E2"]
+			id: "7780873B1644A5FB"
+			tasks: [{
+				id: "1B7E317ABF3710C8"
+				item: "exdeorum:string_mesh"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19044904176BCCCC"]
+			id: "2B883F56AA388AC6"
+			tasks: [{
+				id: "41415C4AA95EF0E3"
+				item: "exdeorum:oak_compressed_sieve"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["04B36E39216C4C35"]
+			id: "4B746F56F8244D23"
+			tasks: [{
+				id: "63A3E8CA66211476"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"空岛玩法用于召唤BOSS的必要措施"
+				""
+				"通过背包内对物品按U查看具体可召唤列表"
+			]
+			id: "50F96F0E3DDA98B0"
+			tasks: [{
+				id: "3BEA86535DA30EFE"
+				item: "summoningrituals:altar"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"是的，仍有部分物品需要使用凝矿兰获取"
+				""
+				"链接魔力池后每隔一段时间可将周围的方块转化为其他方块"
+				""
+				"在背包内对凝矿兰按U可查看具体列表"
+				""
+				"重要的被转化方块：岩浆块、钴块、玛玉灵块"
+			]
+			id: "5919711936E77DA9"
+			tasks: [{
+				id: "059EBBD31D82CAA4"
+				item: "botania:orechid"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"用于替换原阶段玩法的内容"
+				""
+				"需要使用强敌战利品制作，制作后可进行复制"
+			]
+			id: "1D2B684D95537257"
+			tasks: [{
+				id: "21CF492FC7FB6819"
+				item: "wqjy:lv_1_mesh"
+				type: "item"
+			}]
+			title: "材料筛网"
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["66C07E3E85019556"]
+			description: [
+				"任意对应部件兑换空材料的工具"
+				""
+				"（在工匠砧替换部件）"
+			]
+			icon: {
+				Count: 1
+				id: "momotinker:divine_punishment_spear"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:ui_render#head"
+						"tconstruct:ui_render#handle"
+						"tconstruct:ui_render#extra"
+						"tconstruct:ui_render#large"
+						"tconstruct:ui_render#extra_large"
+					]
+					tic_modifiers: [
+						{
+							level: 4
+							name: "tconstruct:reach"
+						}
+						{
+							level: 1
+							name: "momotinker:frombrilliance"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 0.8f
+						"tconstruct:attack_speed": 3.0f
+						"tconstruct:durability": 1.2f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 0.8f
+						"tconstruct:attack_speed": 3.0f
+						"tconstruct:durability": 1.2f
+					}
+					tic_volatile_data: {
+						abilities: 2
+						upgrades: 3
+					}
+				}
+			}
+			id: "4871DFFCE6FB8E16"
+			rewards: [{
+				id: "3808F4E4816FA525"
+				item: {
+					Count: 1
+					id: "momotinker:divine_punishment_spear"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 4
+								name: "tconstruct:reach"
+							}
+							{
+								level: 1
+								name: "momotinker:frombrilliance"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.8f
+							"tconstruct:attack_speed": 3.0f
+							"tconstruct:durability": 1.2f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 0.8f
+							"tconstruct:attack_speed": 3.0f
+							"tconstruct:durability": 1.2f
+						}
+						tic_volatile_data: {
+							abilities: 2
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "天谴之矛"
+			tasks: [
+				{
+					consume_items: true
+					id: "3123F47A08F3C7C6"
+					item: "tconstruct:small_blade"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "01E0DCEB295C7D61"
+					item: "tconstruct:large_plate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "575C9FCECFA9E71E"
+					item: { Count: 3, id: "tconstruct:tough_handle" }
+					type: "item"
+				}
+			]
+			title: "远古工具兑换"
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["66C07E3E85019556"]
+			description: [
+				"任意对应部件兑换空材料的工具"
+				""
+				"（在工匠砧替换部件）"
+			]
+			icon: {
+				Count: 1
+				id: "momotinker:entropy_burning_cube"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:ui_render#head"
+						"tconstruct:ui_render#handle"
+						"tconstruct:ui_render#extra"
+						"tconstruct:ui_render#large"
+						"tconstruct:ui_render#extra_large"
+					]
+					tic_modifiers: [{
+						level: 1
+						name: "momotinker:frombrilliance"
+					}]
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 2.0f
+						"tconstruct:durability": 2.0f
+						"tconstruct:mining_speed": 2.0f
+					}
+					tic_volatile_data: {
+						abilities: 2
+						upgrades: 3
+					}
+				}
+			}
+			id: "7DB4BF19CDED95A6"
+			rewards: [{
+				id: "4CF8F1D7BC6099A7"
+				item: {
+					Count: 1
+					id: "momotinker:entropy_burning_cube"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "momotinker:frombrilliance"
+						}]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 2.0f
+							"tconstruct:durability": 2.0f
+							"tconstruct:mining_speed": 2.0f
+						}
+						tic_volatile_data: {
+							abilities: 2
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "焓变遗骸·熵烬之心"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "34B7667E91B2D53A"
+				item: { Count: 5, id: "tconstruct:large_plate" }
+				type: "item"
+			}]
+			title: "远古工具兑换"
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["66C07E3E85019556"]
+			description: [
+				"任意对应部件兑换空材料的工具"
+				""
+				"（在工匠站或工匠砧替换部件）"
+			]
+			icon: {
+				Count: 1
+				id: "momotinker:pocket_watch"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:ui_render#head"
+						"tconstruct:ui_render#handle"
+						"tconstruct:ui_render#extra"
+						"tconstruct:ui_render#large"
+						"tconstruct:ui_render#extra_large"
+					]
+					tic_modifiers: [{
+						level: 1
+						name: "momotinker:frombrilliance"
+					}]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 0.5f
+						"tconstruct:attack_speed": 0.5f
+						"tconstruct:durability": 0.8f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 0.5f
+						"tconstruct:attack_speed": 0.5f
+						"tconstruct:durability": 1.0f
+					}
+					tic_volatile_data: {
+						abilities: 2
+						upgrades: 3
+					}
+				}
+			}
+			id: "5F85F32365F6D01E"
+			rewards: [{
+				id: "5CA74C1DDB5FFAE3"
+				item: {
+					Count: 1
+					id: "momotinker:pocket_watch"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "momotinker:frombrilliance"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.5f
+							"tconstruct:attack_speed": 0.5f
+							"tconstruct:durability": 0.8f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 0.5f
+							"tconstruct:attack_speed": 0.5f
+							"tconstruct:durability": 1.0f
+						}
+						tic_volatile_data: {
+							abilities: 2
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "遗落怀表"
+			tasks: [
+				{
+					consume_items: true
+					id: "73AF38A90A18D1F8"
+					item: { Count: 64, id: "tconstruct:large_plate" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "29D4A08836DC14C8"
+					item: { Count: 2, id: "tconstruct:tool_handle" }
+					type: "item"
+				}
+			]
+			title: "远古工具兑换"
+			x: -8.5d
+			y: -0.5d
+		}
+	]
+	subtitle: ["为什么选无中生有？因为找不到别的合适的了"]
+	title: "·&bDLC-空岛进行时"
+}

@@ -1,0 +1,10 @@
+{
+	id: "69C9EBEBFDFB7D8D"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{ item: "mekanism:pellet_plutonium" }
+		{ count: 2, item: "mekanism:pellet_plutonium" }
+	]
+	title: "钚靶丸"
+}

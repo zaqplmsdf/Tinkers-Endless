@@ -1,0 +1,5810 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6wip_2"
+	group: "3172704A8AED52C1"
+	id: "4FCA806CB5F10E1A"
+	images: [
+		{
+			height: 6.0d
+			image: "minecraft:block/iron_block"
+			rotation: 0.0d
+			width: 12.0d
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			height: 7.0d
+			image: "minecraft:block/gold_block"
+			rotation: 0.0d
+			width: 12.0d
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			height: 4.0d
+			image: "minecraft:block/diamond_block"
+			rotation: 0.0d
+			width: 12.0d
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			height: 1.2d
+			image: "ticex:fluid/molten/reconstruction_core/still"
+			rotation: 0.0d
+			width: 12.0d
+			x: 1.0d
+			y: 13.0d
+		}
+	]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["可直接在工匠站制作及替换部件的工具"]
+			icon: "tconstruct:tinker_station"
+			id: "578C71D1C74DD60D"
+			tasks: [{
+				id: "70C59BCFD670FB0A"
+				title: "基本工具"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			description: ["部件大于等于四，因此需要再工匠砧制作和替换部件的工具"]
+			icon: "tconstruct:tinkers_anvil"
+			id: "6BC3B5CF48A7C461"
+			tasks: [{
+				id: "4895ABD85D8025BA"
+				title: "重型工具"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"本应无法制作及替换部件，只能通过奖励箱获取随机部件的工具"
+				""
+				"本整合包所有远古工具均移除战利品并修改配方，可制作及替换部件，除骷髅鱼剑和静默手套因为部件的特殊性，无法在工匠站或工匠砧替换部件，需使用流体浇筑替换"
+				""
+				"墨工坊的远古工具因初始材料固定，因此未移除战利品列表"
+			]
+			icon: "mushroom_daydream:legend_paper"
+			id: "4491D03DA44F6CDD"
+			tasks: [{
+				id: "240B09DB7BFF5A42"
+				title: "远古工具"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 9.5d
+		}
+		{
+			description: [
+				"宽刃+小型剑刃+坚韧手柄"
+				""
+				"属性较弱的近战武器，持续战斗可增加充能条，充能增加可提高伤害，充能为满且副手为“新月之锁”时按下工具技能按键（默认z）可与其合体为“日蚀容器”"
+			]
+			id: "0B0106D078830978"
+			tasks: [{
+				id: "345325DC17EA96F5"
+				item: {
+					Count: 1
+					id: "momotinker:coronal_key"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "momotinker:projectionofsuffering"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.8f
+							"tconstruct:attack_speed": 1.4f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 1.12f
+							"tconstruct:attack_speed": 1.4f
+							"tconstruct:durability": 1.4f
+							"tconstruct:mining_speed": 1.4f
+						}
+						tic_volatile_data: {
+							abilities: 2
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"[不存在之影]"
+				"右键使用期间可获得50%的减伤并有50%的概率无视弹射物攻击，满足一定条件下时按下工具技能（默认z）可合体为“日蚀容器”"
+			]
+			id: "6486E64DF50A3665"
+			tasks: [{
+				id: "0687CD399E1534D9"
+				item: {
+					Count: 1
+					id: "momotinker:moon_lock"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "momotinker:expandedequipment"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.1f
+							"tconstruct:attack_speed": 0.2f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 0.2f
+							"tconstruct:attack_speed": 0.2f
+							"tconstruct:durability": 2.0f
+							"tconstruct:mining_speed": 2.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			description: ["防守端的佼佼者，就连攻击伤害也不容小觑"]
+			id: "66B665A29F5A2A12"
+			tasks: [{
+				id: "7A4AE76023C1B287"
+				item: {
+					Count: 1
+					id: "mushroom_daydream:battle_door"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "tconstruct:blocking"
+						}]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 8.0f
+							"tconstruct:attack_speed": 0.4f
+							"tconstruct:block_amount": 180.0f
+							"tconstruct:block_angle": 180.0f
+							"tconstruct:use_item_speed": 0.7f
+						}
+						tic_volatile_data: {
+							abilities: 2
+							defense: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"来自蘑菇幻想mod"
+				""
+				"喜欢爱抚奇偶的贡献者工具。非常长距离的高攻速近战武器。在异世界时会发挥出它的真正实力"
+			]
+			id: "2537A56F6690F590"
+			tasks: [{
+				id: "0C628BD65838AEE2"
+				item: {
+					Count: 1
+					id: "mushroom_daydream:whip"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 4
+								name: "tconstruct:reach"
+							}
+							{
+								level: 1
+								name: "tconstruct:bonking"
+							}
+							{
+								level: 1
+								name: "mushroom_daydream:go_work"
+							}
+							{
+								level: 1
+								name: "mushroom_daydream:pioneer"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.5f
+							"tconstruct:attack_speed": 1.8f
+							"tconstruct:durability": 1.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 1.0f
+							"tconstruct:attack_speed": 3.2399998f
+							"tconstruct:durability": 1.65f
+						}
+						tic_volatile_data: {
+							abilities: 4
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"使用两种部件组成的能够连发的模块"
+				"化远程武器，但发射的箭矢速度偏"
+				"低。"
+			]
+			id: "5DE237DB57C116C4"
+			tasks: [{
+				id: "71A7A0F17235241D"
+				item: {
+					Count: 1
+					id: "tinkers_ingenuity:blowpipe"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [ ]
+						tic_multipliers: {
+							"tconstruct:durability": 0.9f
+							"tconstruct:velocity": 0.9f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:accuracy": 0.85f
+							"tconstruct:durability": 1.0f
+							"tconstruct:velocity": 0.9f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"准确来说是星构素装备，需要先制作星构素核心再进行组装"
+				""
+				"包含通用机械meka套装，等价交换炼狱套装，tacz枪械等"
+			]
+			icon: "ticex:flickering_reconstruction_core"
+			id: "7F953206E4F39542"
+			tasks: [{
+				id: "3E2452794DA44391"
+				title: "特殊工具"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 13.0d
+		}
+		{
+			id: "71B553BC8C945BD4"
+			tasks: [{
+				id: "55646CBEE738B5FA"
+				item: {
+					Count: 1
+					id: "mushroom_daydream:microphone"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "mushroom_daydream:sky_song"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_speed": 1.2f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 3.0f
+							"tconstruct:attack_speed": 1.8000001f
+						}
+						tic_volatile_data: {
+							abilities: 2
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			id: "298800761E0251CD"
+			tasks: [{
+				id: "426FA38C7867334E"
+				item: {
+					Count: 1
+					id: "mushroom_daydream:gun"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 2
+							name: "tconstruct:reach"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_speed": 1.3f
+							"tconstruct:durability": 1.2f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 5.0f
+							"tconstruct:attack_speed": 1.5600001f
+							"tconstruct:durability": 1.2f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 5
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			id: "509C93606A29899C"
+			tasks: [{
+				id: "5A556FEAA54E7C04"
+				item: {
+					Count: 1
+					id: "tinkers_ingenuity:tinkers_medal"
+					tag: {
+						Damage: 0
+						IsInitialized: 1b
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [ ]
+						tic_persistent: { }
+						tic_stats: { }
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			id: "61AC07A0C00D8F6A"
+			tasks: [{
+				id: "76FEECC5C0F929A7"
+				item: {
+					Count: 1
+					id: "aether_tinker:crosier"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "aether_tinker:magical"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.4f
+							"tconstruct:durability": 1.4f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 5.6f
+							"tconstruct:durability": 1.4f
+						}
+						tic_volatile_data: {
+							abilities: 2
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			id: "46689EDF34EB79BC"
+			tasks: [{
+				id: "6A9F4B62EB61C4EA"
+				item: {
+					Count: 1
+					id: "sakuratinker:tinker_bullet"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [ ]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.4f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 1.12f
+							"tconstruct:durability": 2.1f
+							"tconstruct:mining_speed": 2.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "351EE017DD09646E"
+			tasks: [{
+				id: "0870693CA6AB6745"
+				item: {
+					Count: 1
+					id: "tinkers_delight:skillet"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:bonking"
+							}
+							{
+								level: 1
+								name: "tconstruct:knockback"
+							}
+							{
+								level: 1
+								name: "tconstruct:fiery"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.1f
+							"tconstruct:durability": 1.1f
+							"tconstruct:mining_speed": 0.7f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 9.900001f
+							"tconstruct:attack_speed": 0.8f
+							"tconstruct:durability": 1.1f
+							"tconstruct:mining_speed": 0.7f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "272856361D4FC82D"
+			tasks: [{
+				id: "51C516CF76373044"
+				item: {
+					Count: 1
+					id: "tinkers_thinking:paxel"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:killager"
+							}
+							{
+								level: 1
+								name: "tconstruct:stripping"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.25f
+							"tconstruct:mining_speed": 0.8f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 5.5f
+							"tconstruct:attack_speed": 1.1f
+							"tconstruct:durability": 1.25f
+							"tconstruct:mining_speed": 0.8f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "129FABC77EEB4C55"
+			tasks: [{
+				id: "15BC721F8085627D"
+				item: {
+					Count: 1
+					id: "tconstruct:pickaxe"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "tconstruct:pierce"
+						}]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 2.0f
+							"tconstruct:attack_speed": 1.2f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 3
+							upgrades: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "5B252EA901498919"
+			tasks: [{
+				id: "02F15E83BE6E91DF"
+				item: {
+					Count: 1
+					id: "tconstruct:kama"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:tilling"
+							}
+							{
+								level: 1
+								name: "tconstruct:shears"
+							}
+							{
+								level: 1
+								name: "tconstruct:harvest"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 1.0f
+							"tconstruct:attack_speed": 1.6f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 3
+							upgrades: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "6B01286778BC2BCF"
+			tasks: [{
+				id: "7EE933D476BE8BFE"
+				item: {
+					Count: 1
+					id: "tinkersjewelry:ring"
+					tag: {
+						Damage: 0
+						IsInitialized: 1b
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [ ]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:durability": 100.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "14E35CBF50522245"
+			tasks: [{
+				id: "669F53D335345277"
+				item: {
+					Count: 1
+					id: "tconstruct:mattock"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "tconstruct:tilling"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.1f
+							"tconstruct:durability": 1.25f
+							"tconstruct:mining_speed": 1.1f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 2.75f
+							"tconstruct:attack_speed": 0.9f
+							"tconstruct:durability": 1.25f
+							"tconstruct:mining_speed": 1.1f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 3
+							upgrades: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			id: "01D7DEC66D6A10F0"
+			tasks: [{
+				id: "51C0362E437BCDD9"
+				item: {
+					Count: 1
+					id: "tconstruct:hand_axe"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "tconstruct:stripping"
+						}]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 7.0f
+							"tconstruct:attack_speed": 0.9f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 3
+							upgrades: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			id: "690F34C8DA6551DF"
+			tasks: [
+				{
+					id: "78A80F230A97B846"
+					item: {
+						Count: 1
+						id: "tconstruct:shuriken"
+						tag: {
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [ ]
+							tic_multipliers: {
+								"tconstruct:projectile_damage": 2.0f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:projectile_damage": 3.0f
+								"tconstruct:velocity": 1.5f
+								"tconstruct:water_inertia": 0.8f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24EDCB8F28879F62"
+					item: {
+						Count: 1
+						id: "tconstruct:throwing_axe"
+						tag: {
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [ ]
+							tic_multipliers: {
+								"tconstruct:projectile_damage": 3.0f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:accuracy": 0.5f
+								"tconstruct:projectile_damage": 4.5f
+								"tconstruct:velocity": 0.75f
+								"tconstruct:water_inertia": 0.5f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			id: "1DDEA49C6633994A"
+			tasks: [{
+				id: "198D437C5CCC124A"
+				item: {
+					Count: 1
+					id: "tinkers_things:shortbow"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [ ]
+						tic_multipliers: {
+							"tconstruct:velocity": 0.8f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:accuracy": 0.6f
+							"tconstruct:durability": 122.0f
+							"tconstruct:use_item_speed": 0.8f
+							"tconstruct:velocity": 0.8f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "5FE21F0154132E8A"
+			tasks: [{
+				id: "13F6278435B01AF0"
+				item: {
+					Count: 1
+					id: "tconstruct:fishing_rod"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "tconstruct:fishing"
+						}]
+						tic_multipliers: {
+							"tconstruct:durability": 1.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_speed": 2.0f
+							"tconstruct:durability": 1.5f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							"tconstruct:hook_material": 2
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "6499B76C0D1F97B4"
+			tasks: [{
+				id: "53CA2225EB397069"
+				item: {
+					Count: 1
+					id: "tconstruct:crossbow"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [ ]
+						tic_multipliers: {
+							"tconstruct:durability": 2.0f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:durability": 2.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 3
+							upgrades: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "48B1087FC6D788CC"
+			tasks: [{
+				id: "725FF451C822ED0C"
+				item: {
+					Count: 1
+					id: "sakuratinker:revolver"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "sakuratinker:revolver_bullet"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_speed": 1.1f
+							"tconstruct:durability": 2.0f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 1.0f
+							"tconstruct:attack_speed": 1.375f
+							"tconstruct:durability": 2.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							"sakuratinker:is_modifiable": 1b
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "569A5E3DA32085EA"
+			subtitle: "可能无法使用"
+			tasks: [{
+				id: "0CE6301DD518B91F"
+				item: {
+					Count: 1
+					id: "sakuratinker:tinker_arrow"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [ ]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.4f
+							"tconstruct:durability": 0.2f
+							"tconstruct:mining_speed": 0.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 0.71999997f
+							"tconstruct:durability": 1.0f
+							"tconstruct:mining_speed": 0.5f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "662805F76872EB30"
+			tasks: [{
+				id: "44828D908CB00D77"
+				item: {
+					Count: 1
+					id: "tinkers_rapiers:rapier"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "tconstruct:pierce"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.65f
+							"tconstruct:durability": 1.25f
+							"tconstruct:mining_speed": 0.4f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 3.0874999f
+							"tconstruct:attack_speed": 2.1f
+							"tconstruct:durability": 2.1875f
+							"tconstruct:mining_speed": 0.7f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "5A76BF3C4BFECD0E"
+			tasks: [{
+				id: "089C9098F423B22D"
+				item: {
+					Count: 1
+					id: "tinker_transplant:arrow"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [ ]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.5f
+							"tconstruct:durability": 0.1f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 0.5f
+							"tconstruct:attack_speed": 3.0f
+							"tconstruct:durability": 1.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			id: "3F1A0F0EFF54EEA8"
+			tasks: [{
+				id: "1FA7DD5EA37E7F40"
+				item: {
+					Count: 1
+					id: "tinkers_jewelry_ex:glove"
+					tag: {
+						Damage: 0
+						IsInitialized: 1b
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [ ]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:durability": 200.0f
+							"tinkersjewelry:amplification": 2.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "3629C3EAA8DA3E25"
+			tasks: [{
+				id: "0865C5FE2C22984E"
+				item: {
+					Count: 1
+					id: "tinkers_jewelry_ex:charm"
+					tag: {
+						Damage: 0
+						IsInitialized: 1b
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [ ]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:durability": 200.0f
+							"tinkersjewelry:amplification": 2.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "71F38B91032D4FD9"
+			tasks: [{
+				id: "661BF30DF8F3300A"
+				item: {
+					Count: 1
+					id: "tinkers_jewelry_ex:bracelet"
+					tag: {
+						Damage: 0
+						IsInitialized: 1b
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [ ]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:durability": 100.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			id: "068BD242F2102AD6"
+			tasks: [{
+				id: "5F6D0858776397B7"
+				item: {
+					Count: 1
+					id: "sakuratinker:tinker_charm"
+					tag: {
+						Damage: 0
+						IsInitialized: 1b
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [ ]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:armor": 1.0f
+							"tconstruct:attack_damage": 1.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "7F200E4F5E5999FC"
+			tasks: [{
+				id: "478924BD0200C2F2"
+				item: {
+					Count: 1
+					id: "sakuratinker:tinker_spell_book"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						IsInitialized: 1b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "sakuratinker:arcane_tinkering"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.2f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"sakuratinker:cast_time": 0.0f
+							"tconstruct:attack_damage": 3.0f
+							"tconstruct:attack_speed": 0.8f
+						}
+						tic_volatile_data: {
+							upgrades: 5
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			id: "59EE7585F9E4D142"
+			tasks: [{
+				id: "01453577C1DB7483"
+				item: {
+					Count: 1
+					id: "ticex:reforged_slashblade"
+					tag: {
+						Damage: 0
+						bladeState: { }
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [ ]
+						tic_multipliers: {
+							"tconstruct:attack_speed": 2.6f
+							"tconstruct:durability": 1.1f
+							"tconstruct:mining_speed": 0.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 4.25f
+							"tconstruct:attack_speed": 4.16f
+							"tconstruct:durability": 1.375f
+							"tconstruct:mining_speed": 0.625f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			id: "1977F87A646D4C77"
+			tasks: [{
+				id: "5BE22D0FE3B4F692"
+				item: {
+					Count: 1
+					id: "tinkers_thinking:arrow_thrower"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [ ]
+						tic_multipliers: {
+							"tconstruct:draw_speed": 10.0f
+							"tconstruct:durability": 1.15f
+							"tconstruct:projectile_damage": 1.25f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:accuracy": 0.65f
+							"tconstruct:attack_damage": 2.25f
+							"tconstruct:draw_speed": 10.0f
+							"tconstruct:durability": 144.9f
+							"tconstruct:projectile_damage": 2.5f
+							"tconstruct:use_item_speed": 0.6f
+							"tconstruct:velocity": 0.45f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			id: "76A374A335003365"
+			tasks: [
+				{
+					id: "3715391A1E2E8D77"
+					item: {
+						Count: 1
+						id: "marveloustinker:combat_maid_helmet"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [{
+								level: 1
+								name: "marveloustinker:combat_maid"
+							}]
+							tic_persistent: { }
+							tic_stats: { }
+							tic_volatile_data: {
+								defense: 3
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7358EB651FCC0EC1"
+					item: {
+						Count: 1
+						id: "marveloustinker:combat_maid_chestplate"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [{
+								level: 1
+								name: "marveloustinker:combat_maid"
+							}]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.4f
+							}
+							tic_persistent: { }
+							tic_stats: { }
+							tic_volatile_data: {
+								defense: 3
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AB802EC77C8D9A0"
+					item: {
+						Count: 1
+						id: "marveloustinker:combat_maid_leggings"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [{
+								level: 1
+								name: "marveloustinker:combat_maid"
+							}]
+							tic_persistent: { }
+							tic_stats: { }
+							tic_volatile_data: {
+								defense: 3
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "799C2330EC216FBE"
+					item: {
+						Count: 1
+						id: "marveloustinker:combat_maid_boots"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [{
+								level: 1
+								name: "marveloustinker:combat_maid"
+							}]
+							tic_persistent: { }
+							tic_stats: { }
+							tic_volatile_data: {
+								defense: 3
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "战斗女仆套"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			id: "4AF2F8962EBC15ED"
+			tasks: [
+				{
+					id: "0C76DF93EAE12B47"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_helmet"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [ ]
+							tic_persistent: { }
+							tic_stats: { }
+							tic_volatile_data: {
+								abilities: 3
+								defense: 2
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C9CE7BB3B934F7E"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_chestplate"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [ ]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.4f
+							}
+							tic_persistent: { }
+							tic_stats: { }
+							tic_volatile_data: {
+								abilities: 3
+								defense: 2
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C81C4727C393632"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_leggings"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [ ]
+							tic_persistent: { }
+							tic_stats: { }
+							tic_volatile_data: {
+								abilities: 3
+								defense: 2
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60D712DBA0E0349B"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_boots"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [ ]
+							tic_persistent: { }
+							tic_stats: { }
+							tic_volatile_data: {
+								abilities: 3
+								defense: 2
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "镶板护甲"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			id: "1530BFFBE2C9DF33"
+			tasks: [
+				{
+					id: "708D1487819BDE42"
+					item: {
+						Count: 1
+						id: "sakuratinker:embedded_helmet"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [ ]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:durability": 2.0f
+							}
+							tic_volatile_data: {
+								upgrades: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "163F48F623949A29"
+					item: {
+						Count: 1
+						id: "sakuratinker:embedded_chestplate"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [ ]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.4f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:durability": 2.0f
+							}
+							tic_volatile_data: {
+								upgrades: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1223B20B3F99AE36"
+					item: {
+						Count: 1
+						id: "sakuratinker:embedded_leggings"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [ ]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:durability": 2.0f
+							}
+							tic_volatile_data: {
+								upgrades: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27564A6ADE0F0C81"
+					item: {
+						Count: 1
+						id: "sakuratinker:embedded_boots"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [ ]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:durability": 2.0f
+							}
+							tic_volatile_data: {
+								upgrades: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "内嵌护甲"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "7FE703C6D340CE0B"
+			tasks: [{
+				id: "174B0EBA06831669"
+				item: {
+					Count: 1
+					id: "tinkers_jewelry_ex:necklace"
+					tag: {
+						Damage: 0
+						IsInitialized: 1b
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [ ]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:durability": 100.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "0B5542F93C611188"
+			tasks: [{
+				id: "7F9AA064D8E11376"
+				item: {
+					Count: 1
+					id: "dreamtinker:tntarrow"
+					tag: {
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "dreamtinker:strong_explode"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.5f
+							"tconstruct:attack_speed": 0.0f
+							"tconstruct:durability": 0.1f
+							"tconstruct:mining_speed": 0.0f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 9.0f
+							"tconstruct:attack_speed": 0.0f
+							"tconstruct:durability": 1.0f
+							"tconstruct:mining_speed": 0.1f
+						}
+						tic_volatile_data: {
+							abilities: 2
+							upgrades: 4
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "102E91E7F1638A64"
+			tasks: [{
+				id: "3F48927F2FE73173"
+				item: {
+					Count: 1
+					id: "tconstruct:dagger"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:offhand_attack"
+							}
+							{
+								level: 1
+								name: "tconstruct:padded"
+							}
+							{
+								level: 1
+								name: "tconstruct:silky_shears"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.65f
+							"tconstruct:durability": 0.75f
+							"tconstruct:mining_speed": 0.75f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 2.6f
+							"tconstruct:attack_speed": 2.0f
+							"tconstruct:block_amount": 10.0f
+							"tconstruct:durability": 1.0f
+							"tconstruct:mining_speed": 0.75f
+							"tconstruct:use_item_speed": 1.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 3
+							"tconstruct:duel_wielding": 1b
+							upgrades: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "79751FA90528F830"
+			tasks: [{
+				id: "13DE6DA6DFD2835B"
+				item: {
+					Count: 1
+					id: "tconstruct:sword"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "tconstruct:silky_shears"
+						}]
+						tic_multipliers: {
+							"tconstruct:durability": 1.1f
+							"tconstruct:mining_speed": 0.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 4.0f
+							"tconstruct:attack_speed": 1.6f
+							"tconstruct:block_amount": 10.0f
+							"tconstruct:durability": 1.1f
+							"tconstruct:mining_speed": 0.5f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 3
+							upgrades: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			id: "5BE358C632A2ADF8"
+			tasks: [{
+				id: "39EA2C5E235B1E49"
+				item: {
+					Count: 1
+					id: "tinkersinnovation:long_sword"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "tconstruct:silky_shears"
+						}]
+						tic_multipliers: {
+							"tconstruct:durability": 0.75f
+							"tconstruct:mining_speed": 0.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 4.0f
+							"tconstruct:attack_speed": 1.4f
+							"tconstruct:block_amount": 15.0f
+							"tconstruct:durability": 1.5f
+							"tconstruct:mining_speed": 0.5f
+							"tconstruct:use_item_speed": 0.4f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 1
+							upgrades: 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			icon: {
+				Count: 1
+				id: "dreamtinker:silence_glove"
+				tag: {
+					Damage: 0
+					IsInitialized: 1b
+					baublesreforked.ModifierId: "duelist"
+					baublesreforked.ModifierUUID: "c3dbb06f-d1b6-4ae4-a990-d7d2142b2d2a"
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:ui_render#head"
+						"tconstruct:ui_render#handle"
+						"tconstruct:ui_render#extra"
+						"tconstruct:ui_render#large"
+						"tconstruct:ui_render#extra_large"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "dreamtinker:weapon_dreams"
+						}
+						{
+							level: 1
+							name: "dreamtinker:weapon_slots"
+						}
+					]
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 1.0f
+						"tconstruct:attack_speed": 1.2f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						souls: 2
+						"tconstruct:total_item_slots": 5
+						upgrades: 3
+					}
+				}
+			}
+			id: "3CCED10D4B3E04B6"
+			rewards: [{
+				id: "6CA4FEB46659BCDF"
+				item: {
+					Count: 1
+					id: "dreamtinker:silence_glove"
+					tag: {
+						Damage: 0
+						IsInitialized: 1b
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:wood"
+							"tconstruct:string"
+							"tconstruct:leather"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "dreamtinker:weapon_dreams"
+							}
+							{
+								level: 1
+								name: "dreamtinker:weapon_slots"
+							}
+							{
+								level: 1
+								name: "tconstruct:tanned"
+							}
+							{
+								level: 1
+								name: "tconstruct:cultivated"
+							}
+							{
+								level: 1
+								name: "mushroom_daydream:ecological"
+							}
+							{
+								level: 1
+								name: "tconstruct:stringy"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:durability": 60.0f
+							"tconstruct:mining_speed": 2.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							souls: 2
+							"tconstruct:total_item_slots": 5
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7E92162C1BF77427"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "静默手套"
+			x: -2.5d
+			y: 9.5d
+		}
+		{
+			id: "58D1AEA44F1DDFC0"
+			tasks: [{
+				id: "2151991BED580E2D"
+				item: {
+					Count: 1
+					id: "tinkersinnovation:skelewag_sword"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:silky_shears"
+							}
+							{
+								level: 1
+								name: "tconstruct:blocking"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 0.75f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 3.0f
+							"tconstruct:attack_speed": 4.0f
+							"tconstruct:block_amount": 10.0f
+							"tconstruct:durability": 75.75f
+							"tconstruct:use_item_speed": 1.0f
+						}
+						tic_volatile_data: {
+							abilities: 2
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			id: "447A846A07A26786"
+			tasks: [{
+				id: "028855A3B71D0FE6"
+				item: {
+					Count: 1
+					id: "tinkers_things:blockram"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:throwing"
+							}
+							{
+								level: 1
+								name: "tconstruct:returning"
+							}
+							{
+								level: 1
+								name: "tinkers_things:hyperoptic"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 2.0f
+							"tconstruct:attack_speed": 1.7f
+							"tconstruct:block_amount": 15.0f
+							"tconstruct:durability": 2.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							"tconstruct:loyalty": 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			id: "2204CA841AD73754"
+			tasks: [{
+				id: "6FC66350F3C51648"
+				item: {
+					Count: 1
+					id: "tinkersinnovation:teleport_staff"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "tinkersinnovation:teleport"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.75f
+							"tconstruct:durability": 1.25f
+							"tconstruct:mining_speed": 0.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 0.75f
+							"tconstruct:durability": 1.25f
+							"tconstruct:mining_speed": 0.5f
+							"tconstruct:use_item_speed": 1.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			id: "5D4992180249DF8A"
+			tasks: [{
+				id: "200ECA767403B996"
+				item: {
+					Count: 1
+					id: "tinkers_thinking:repeating_crossbow"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [ ]
+						tic_multipliers: {
+							"tconstruct:durability": 1.6f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 1.0f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:draw_speed": 0.8f
+							"tconstruct:durability": 1.6f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			id: "7188E0A7FD495A92"
+			tasks: [{
+				id: "50352EA550564852"
+				item: {
+					Count: 1
+					id: "tconstruct:minotaur_axe"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "tconstruct:charge_attack"
+						}]
+						tic_persistent: {
+							"momotinker:edible": 20.0f
+						}
+						tic_stats: {
+							"tconstruct:attack_damage": 5.0f
+							"tconstruct:attack_speed": 0.9f
+							"tconstruct:durability": 2.0f
+							"tconstruct:mining_speed": 2.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			id: "438AFDAC5CC60AE6"
+			tasks: [{
+				id: "1AE3375DB666B073"
+				item: {
+					Count: 1
+					id: "tconstruct:swasher"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "tconstruct:tank_handler"
+							}
+							{
+								level: 1
+								name: "tconstruct:spitting"
+							}
+							{
+								level: 1
+								name: "tconstruct:spilling"
+							}
+							{
+								level: 1
+								name: "tconstruct:bucketing"
+							}
+							{
+								level: 1
+								name: "tconstruct:silky_shears"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 1.0f
+							"tconstruct:attack_speed": 1.5f
+							"tconstruct:draw_speed": 1.5f
+							"tconstruct:durability": 2.0f
+							"tconstruct:tank_capacity": 3000.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 3
+							"tconstruct:total_tanks": 1
+							upgrades: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			id: "49F52A03518C3DCD"
+			tasks: [{
+				id: "5BF19EDA4DE26F75"
+				item: {
+					Count: 1
+					id: "tconstruct:melting_pan"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 2
+								name: "tconstruct:tank_handler"
+							}
+							{
+								level: 2
+								name: "tconstruct:melting"
+							}
+							{
+								level: 1
+								name: "tconstruct:tank"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:block_amount": 10.0f
+							"tconstruct:durability": 2.0f
+							"tconstruct:harvest_tier": "minecraft:stone"
+							"tconstruct:knockback_resistance": 0.1f
+							"tconstruct:mining_speed": 6.0f
+							"tconstruct:tank_capacity": 3000.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 1
+							"tconstruct:force_melting": 1b
+							"tconstruct:total_tanks": 1
+							upgrades: 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			id: "76388E3FB4B965F8"
+			tasks: [{
+				id: "50CF6E9023D81424"
+				item: {
+					Count: 1
+					id: "momotinker:divine_punishment_spear"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 4
+								name: "tconstruct:reach"
+							}
+							{
+								level: 1
+								name: "momotinker:frombrilliance"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.8f
+							"tconstruct:attack_speed": 3.0f
+							"tconstruct:durability": 1.2f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 0.8f
+							"tconstruct:attack_speed": 3.0f
+							"tconstruct:durability": 1.2f
+						}
+						tic_volatile_data: {
+							abilities: 2
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			id: "3E24EF80A08D071D"
+			tasks: [{
+				id: "14EF6F7157C501D3"
+				item: {
+					Count: 1
+					id: "tinkers_thinking:cutlass"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "tinkers_thinking:counter_attack"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.2f
+							"tconstruct:durability": 0.9f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 4.8f
+							"tconstruct:attack_speed": 0.7f
+							"tconstruct:block_amount": 40.0f
+							"tconstruct:block_angle": 60.0f
+							"tconstruct:durability": 1.0f
+							"tconstruct:use_item_speed": 0.1f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.5d
+		}
+		{
+			id: "550869D12C09097C"
+			tasks: [{
+				id: "52F66CD0DED4FD0F"
+				item: {
+					Count: 1
+					id: "momotinker:pocket_watch"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "momotinker:frombrilliance"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.5f
+							"tconstruct:attack_speed": 0.5f
+							"tconstruct:durability": 0.8f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 0.5f
+							"tconstruct:attack_speed": 0.5f
+							"tconstruct:durability": 1.0f
+						}
+						tic_volatile_data: {
+							abilities: 2
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.5d
+		}
+		{
+			id: "56D94E6E61693643"
+			tasks: [{
+				id: "060E7D1836AEF464"
+				item: {
+					Count: 1
+					id: "tconstruct:battlesign"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:bonking"
+							}
+							{
+								level: 1
+								name: "tconstruct:knockback"
+							}
+							{
+								level: 1
+								name: "tconstruct:blocking"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 5.0f
+							"tconstruct:attack_speed": 1.8f
+							"tconstruct:block_amount": 50.0f
+							"tconstruct:durability": 2.0f
+						}
+						tic_volatile_data: {
+							abilities: 3
+							defense: 3
+							upgrades: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			id: "33F6A48AEA648994"
+			tasks: [{
+				id: "672CFE80AA1F0076"
+				item: {
+					Count: 1
+					id: "tconstruct:war_pick"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [ ]
+						tic_multipliers: {
+							"tconstruct:draw_speed": 1.4f
+							"tconstruct:mining_speed": 1.3f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:accuracy": 1.0f
+							"tconstruct:attack_damage": 1.0f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:draw_speed": 2.24f
+							"tconstruct:durability": 202.0f
+							"tconstruct:mining_speed": 1.3f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 3
+							upgrades: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			id: "1E05EACB37E38968"
+			tasks: [{
+				id: "30F3E96C50D29578"
+				item: {
+					Count: 1
+					id: "tinkers_thinking:mace"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "tinkers_thinking:falling_attack"
+						}]
+						tic_multipliers: {
+							"tconstruct:durability": 0.8f
+							"tconstruct:mining_speed": 1.4f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 5.0f
+							"tconstruct:attack_speed": 0.6f
+							"tconstruct:durability": 1.0f
+							"tconstruct:mining_speed": 1.4f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			id: "1B949295E51BB91A"
+			tasks: [{
+				id: "644A9F902D0033DE"
+				item: {
+					Count: 1
+					id: "momotinker:entropy_burning_cube"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "momotinker:frombrilliance"
+						}]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 2.0f
+							"tconstruct:durability": 2.0f
+							"tconstruct:mining_speed": 2.0f
+						}
+						tic_volatile_data: {
+							abilities: 2
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			id: "314731E071C9D35A"
+			tasks: [{
+				id: "344C2B77A19EC175"
+				item: {
+					Count: 1
+					id: "momotinker:entropy_burning_sword"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 2
+								name: "tconstruct:reach"
+							}
+							{
+								level: 1
+								name: "momotinker:frombrilliance"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 2.0f
+							"tconstruct:attack_speed": 0.4f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 3.2f
+							"tconstruct:attack_speed": 0.4f
+							"tconstruct:durability": 1.6f
+							"tconstruct:mining_speed": 1.6f
+						}
+						tic_upgrades: [ ]
+						tic_volatile_data: {
+							abilities: 2
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			id: "7708E6647F39D36D"
+			tasks: [{
+				id: "60728FF4BB067847"
+				item: {
+					Count: 1
+					id: "momotinker:entropy_burning_riding_spear"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 4
+								name: "tconstruct:reach"
+							}
+							{
+								level: 1
+								name: "momotinker:frombrilliance"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.6f
+							"tconstruct:attack_speed": 0.8f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 2.5600002f
+							"tconstruct:attack_speed": 0.8f
+							"tconstruct:durability": 1.6f
+							"tconstruct:mining_speed": 1.6f
+						}
+						tic_volatile_data: {
+							abilities: 2
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.5d
+		}
+		{
+			id: "23D4C5B561639196"
+			tasks: [{
+				id: "10FCD5F3D48DA2CE"
+				item: {
+					Count: 1
+					id: "momotinker:entropy_burning_cannon"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "momotinker:frombrilliance"
+						}]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 0.8f
+							"tconstruct:durability": 1.8f
+							"tconstruct:mining_speed": 0.8f
+						}
+						tic_volatile_data: {
+							abilities: 2
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.5d
+		}
+		{
+			id: "42938CE88A7EBC30"
+			tasks: [{
+				id: "67932C02995B2DD3"
+				item: {
+					Count: 1
+					id: "momotinker:trigger_blade"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [ ]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.8f
+							"tconstruct:attack_speed": 1.6f
+							"tconstruct:durability": 1.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 0.8f
+							"tconstruct:attack_speed": 1.6f
+							"tconstruct:durability": 3.0f
+						}
+						tic_volatile_data: {
+							abilities: 2
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			id: "2E04ED656CC48773"
+			tasks: [{
+				id: "32A16DABA2B259DF"
+				item: {
+					Count: 1
+					id: "momotinker:chain_sword"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [ ]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.6f
+							"tconstruct:attack_speed": 1.2f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 1.9200001f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:durability": 1.2f
+							"tconstruct:mining_speed": 1.2f
+						}
+						tic_volatile_data: {
+							abilities: 2
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "7A5421A409A1DEEA"
+			tasks: [{
+				id: "28CC54D1FABEA7A6"
+				item: {
+					Count: 1
+					id: "momotinker:pneumatic_sword"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "momotinker:resonance"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.2f
+							"tconstruct:attack_speed": 1.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 1.8000001f
+							"tconstruct:attack_speed": 1.5f
+							"tconstruct:durability": 1.5f
+							"tconstruct:mining_speed": 1.5f
+						}
+						tic_volatile_data: {
+							abilities: 2
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			id: "1AD72C5AAD1421DD"
+			tasks: [{
+				id: "01F4197FC4055D98"
+				item: {
+					Count: 1
+					id: "cloudertinker:giantsword"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 3
+							name: "tconstruct:reach"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 2.5f
+							"tconstruct:attack_speed": 0.5f
+							"tconstruct:durability": 3.75f
+							"tconstruct:mining_speed": 0.25f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 22.625f
+							"tconstruct:attack_speed": 0.3f
+							"tconstruct:durability": 3.9375002f
+							"tconstruct:mining_speed": 0.26250002f
+						}
+						tic_volatile_data: {
+							abilities: 2
+							upgrades: 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			id: "70AFF72F7066B048"
+			tasks: [{
+				id: "4B807D07BC635710"
+				item: {
+					Count: 1
+					id: "mushroom_daydream:baomihua"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "mushroom_daydream:boom"
+						}]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 5.0f
+							"tconstruct:attack_speed": 0.8f
+						}
+						tic_volatile_data: {
+							abilities: 3
+							upgrades: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "1A8758D65BE20BD0"
+			tasks: [{
+				id: "22BE797C5280AF8B"
+				item: {
+					Count: 1
+					id: "mushroom_daydream:guitar"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "mushroom_daydream:kira_doki"
+						}]
+						tic_multipliers: {
+							"tconstruct:durability": 1.7f
+							"tconstruct:mining_speed": 1.2f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 3.5f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:durability": 1.7f
+							"tconstruct:mining_speed": 1.2f
+						}
+						tic_volatile_data: {
+							abilities: 3
+							upgrades: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			id: "5E1FB39E2AD91552"
+			tasks: [{
+				id: "42609A2CCEFC9607"
+				item: {
+					Count: 1
+					id: "tinkers_ingenuity:meteor_spear"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "tconstruct:throwing"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.2f
+							"tconstruct:mining_speed": 0.65f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 5.76f
+							"tconstruct:attack_speed": 1.3f
+							"tconstruct:block_amount": 10.0f
+							"tconstruct:durability": 2.8f
+							"tconstruct:mining_speed": 1.8199999f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			id: "19D74CBB2ABA2CFE"
+			tasks: [{
+				id: "7330651912ED2825"
+				item: {
+					Count: 1
+					id: "mushroom_daydream:tachi"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "mushroom_daydream:on_dragon"
+							}
+							{
+								level: 1
+								name: "mushroom_daydream:more_fast"
+							}
+							{
+								level: 2
+								name: "tconstruct:padded"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.2f
+							"tconstruct:attack_speed": 1.4f
+							"tconstruct:durability": 2.4f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 6.0f
+							"tconstruct:attack_speed": 1.6800001f
+							"tconstruct:durability": 2.4f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "124CC615D1D7E56E"
+			tasks: [{
+				id: "70411B1FF3F3ABD9"
+				item: {
+					Count: 1
+					id: "mushroom_daydream:longjian"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 2
+								name: "tconstruct:reach"
+							}
+							{
+								level: 1
+								name: "mushroom_daydream:b_m"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_speed": 1.4f
+							"tconstruct:durability": 2.85f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 4.75f
+							"tconstruct:attack_speed": 1.9599999f
+							"tconstruct:durability": 7.8374996f
+							"tconstruct:mining_speed": 2.75f
+						}
+						tic_volatile_data: {
+							abilities: 2
+							upgrades: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			id: "56B25A5538E553DA"
+			tasks: [{
+				id: "008DC581C6C9866A"
+				item: {
+					Count: 1
+					id: "tprt:magic_blade"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 2
+								name: "tprt:spell_power_improved"
+							}
+							{
+								level: 1
+								name: "tconstruct:silky_shears"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.25f
+							"tconstruct:durability": 1.8f
+							"tconstruct:mining_speed": 0.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 6.25f
+							"tconstruct:attack_speed": 1.6f
+							"tconstruct:durability": 1.8f
+							"tconstruct:mining_speed": 0.5f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			id: "46F314F96724289F"
+			tasks: [{
+				id: "2CD839879E65A9AB"
+				item: {
+					Count: 1
+					id: "tinkersinnovation:claw"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:offhand_attack"
+							}
+							{
+								level: 1
+								name: "tinkersinnovation:double_attack"
+							}
+							{
+								level: 1
+								name: "tconstruct:silky_shears"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.9f
+							"tconstruct:durability": 0.75f
+							"tconstruct:mining_speed": 0.75f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 3.6f
+							"tconstruct:attack_speed": 1.8f
+							"tconstruct:block_amount": 10.0f
+							"tconstruct:durability": 1.0f
+							"tconstruct:mining_speed": 0.75f
+							"tconstruct:use_item_speed": 1.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							"tconstruct:duel_wielding": 1b
+							upgrades: 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			id: "4673FF7CA15FBB6A"
+			tasks: [{
+				id: "629BB067B8B6A798"
+				item: {
+					Count: 1
+					id: "sakuratinker:blade_convergence"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "sakuratinker:blade_convergence"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.5f
+							"tconstruct:durability": 2.0f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"sakuratinker:range": 1.0f
+							"tconstruct:attack_damage": 7.5f
+							"tconstruct:attack_speed": 2.0f
+							"tconstruct:durability": 4.0f
+							"tconstruct:mining_speed": 2.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			id: "7797FBC2F49D2C34"
+			tasks: [{
+				id: "500B0F2CB049DEA4"
+				item: {
+					Count: 1
+					id: "tprt:anchor_sword"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "tprt:fear_nothing"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.5f
+							"tconstruct:attack_speed": 0.8f
+							"tconstruct:durability": 3.25f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 11.25f
+							"tconstruct:attack_speed": 0.8f
+							"tconstruct:durability": 4.875f
+							"tconstruct:mining_speed": 1.5f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			id: "751EDB24F2A8345D"
+			tasks: [{
+				id: "3195B0A889285EE6"
+				item: {
+					Count: 1
+					id: "sakuratinker:yoyo"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [ ]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.45f
+							"tconstruct:durability": 1.2f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"sakuratinker:attack_interval": 0.01f
+							"sakuratinker:length": 1.0f
+							"sakuratinker:time": 0.0f
+							"sakuratinker:weight": 0.1f
+							"tconstruct:attack_damage": 1.125f
+							"tconstruct:attack_speed": 0.8f
+							"tconstruct:durability": 2.4f
+							"tconstruct:mining_speed": 2.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			id: "00118DFF3216F21D"
+			tasks: [{
+				id: "25CAA7FF5E871175"
+				item: {
+					Count: 1
+					id: "sakuratinker:swift_sword"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "sakuratinker:swift_sword_technique"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.6f
+							"tconstruct:durability": 1.25f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 1.32f
+							"tconstruct:attack_speed": 2.5f
+							"tconstruct:durability": 1.25f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			id: "21A5208883AAE631"
+			tasks: [{
+				id: "2DFDA53ED0A2EFEE"
+				item: {
+					Count: 1
+					id: "sakuratinker:vampire_knife"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "tconstruct:silky_shears"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.6f
+							"tconstruct:durability": 1.25f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 2.52f
+							"tconstruct:attack_speed": 2.5f
+							"tconstruct:durability": 3.75f
+							"tconstruct:mining_speed": 3.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			id: "0BBAF28F20E1060E"
+			tasks: [{
+				id: "3597D1CFA9552D55"
+				item: {
+					Count: 1
+					id: "sakuratinker:grappling_hook"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [ ]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.4f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 4.2f
+							"tconstruct:durability": 3.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			id: "0B52ACE2D5E211D1"
+			tasks: [{
+				id: "45BE290D4CF7A8DC"
+				item: {
+					Count: 1
+					id: "dreamtinker:narcissus_wing"
+					tag: {
+						Damage: 0
+						dreamtinkerOwnerName: "The_X_One"
+						dreamtinkerowner_uuid: [I;
+							-2094034348
+							1131430011
+							-1898624662
+							521106182
+						]
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "dreamtinker:foundation_will"
+							}
+							{
+								level: 1
+								name: "dreamtinker:splendour_heart"
+							}
+							{
+								level: 1
+								name: "dreamtinker:memory_base"
+							}
+							{
+								level: 1
+								name: "tconstruct:tank_handler"
+							}
+							{
+								level: 1
+								name: "tconstruct:soulbound"
+							}
+							{
+								level: 1
+								name: "dreamtinker:malum_sol_tiferet"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:draw_speed": 1.5f
+							"tconstruct:durability": 0.6f
+						}
+						tic_persistent: {
+							"dreamtinker:adv_percentage": 0.040374488f
+						}
+						tic_stats: {
+							"tconstruct:attack_damage": 2.25f
+							"tconstruct:attack_speed": 2.4f
+							"tconstruct:draw_speed": 4.5f
+							"tconstruct:durability": 1.95f
+							"tconstruct:mining_speed": 1.25f
+							"tconstruct:tank_capacity": 1000.0f
+						}
+						tic_volatile_data: {
+							abilities: 2
+							souls: 6
+							"tconstruct:soulbound": 1b
+							"tconstruct:total_tanks": 1
+							upgrades: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			id: "230CCDACC0AF5D23"
+			tasks: [{
+				id: "38213694DE6B30D0"
+				item: {
+					Count: 1
+					id: "dreamtinker:chain_saw_blade"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "dreamtinker:death_shredder"
+							}
+							{
+								level: 1
+								name: "tconstruct:tank_handler"
+							}
+							{
+								level: 1
+								name: "tconstruct:energy_handler"
+							}
+							{
+								level: 1
+								name: "tconstruct:stripping"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.7f
+							"tconstruct:durability": 1.15f
+							"tconstruct:mining_speed": 0.4f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 3.7400002f
+							"tconstruct:attack_speed": 0.4f
+							"tconstruct:block_amount": 10.0f
+							"tconstruct:durability": 1.38f
+							"tconstruct:max_energy": 50000.0f
+							"tconstruct:mining_speed": 0.48000002f
+							"tconstruct:tank_capacity": 10000.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							"tconstruct:total_tanks": 1
+							upgrades: 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			id: "5919969AA62AF7E7"
+			tasks: [{
+				id: "78EFFC5348FBF19E"
+				item: {
+					Count: 1
+					id: "sakuratinker:great_sword"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:reach"
+							}
+							{
+								level: 1
+								name: "sakuratinker:heavy"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.8f
+							"tconstruct:durability": 4.0f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 14.849999f
+							"tconstruct:attack_speed": 0.5f
+							"tconstruct:durability": 9.0f
+							"tconstruct:mining_speed": 2.25f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			id: "7B3520132546AC2E"
+			tasks: [{
+				id: "1A12C317D2F93BBA"
+				item: {
+					Count: 1
+					id: "sakuratinker:scythe"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "sakuratinker:scythe_sweeping"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.25f
+							"tconstruct:attack_speed": 0.6f
+							"tconstruct:durability": 2.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 6.875f
+							"tconstruct:attack_speed": 1.08f
+							"tconstruct:durability": 3.75f
+							"tconstruct:mining_speed": 1.5f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			id: "70E248E7E9966877"
+			tasks: [{
+				id: "5CC5AD8824F94063"
+				item: {
+					Count: 1
+					id: "sakuratinker:first_fractal"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "sakuratinker:first_fractal"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.6f
+							"tconstruct:durability": 1.6f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"sakuratinker:phantom_amount": 1.0f
+							"sakuratinker:range": 1.0f
+							"tconstruct:attack_damage": 9.6f
+							"tconstruct:durability": 1.6f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			id: "52478D08CBCCD333"
+			tasks: [{
+				id: "102F7888B1E0206B"
+				item: {
+					Count: 1
+					id: "tinker_transplant:shuriken"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [ ]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.6f
+							"tconstruct:durability": 0.05f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 1.8000001f
+							"tconstruct:attack_speed": 1.5f
+							"tconstruct:durability": 1.0f
+							"tconstruct:mining_speed": 2.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "6AE7EB6D4FBFC95B"
+			tasks: [{
+				id: "6930B205606DD973"
+				item: {
+					Count: 1
+					id: "tinkers_advanced:electron_tuner"
+					tag: {
+						Damage: 0
+						etstlib_tool_uuid: "6cfc9cbd-bd48-49fa-8cbb-2e1ef5ed1808"
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tinkers_advanced:ender_tuner"
+							}
+							{
+								level: 1
+								name: "tconstruct:energy_handler"
+							}
+							{
+								level: 1
+								name: "tconstruct:silky_shears"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"etstlib:power_multiplier": 2.0f
+							"tconstruct:attack_damage": 1.7142859f
+							"tconstruct:attack_speed": 2.4f
+							"tconstruct:max_energy": 100000.0f
+						}
+						tic_volatile_data: {
+							abilities: 4
+							upgrades: 5
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			id: "400C147251501518"
+			tasks: [{
+				id: "27ABAAD84E4444C5"
+				item: {
+					Count: 1
+					id: "tconstruct:cleaver"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 2
+								name: "tconstruct:severing"
+							}
+							{
+								level: 1
+								name: "tconstruct:silky_aoe_shears"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.5f
+							"tconstruct:durability": 3.5f
+							"tconstruct:mining_speed": 0.25f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 6.0f
+							"tconstruct:block_amount": 10.0f
+							"tconstruct:durability": 3.5f
+							"tconstruct:mining_speed": 0.25f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 2
+							upgrades: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			id: "2BD32A72F2650FE5"
+			tasks: [{
+				id: "07D1D286C901A5F5"
+				item: {
+					Count: 1
+					id: "mushroom_concept:shuriken"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 2
+							name: "tconstruct:reach"
+						}]
+						tic_multipliers: {
+							"tconstruct:durability": 0.2f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 2.5f
+							"tconstruct:durability": 1.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			id: "367E4E85D51A4236"
+			tasks: [{
+				id: "2FC8535D0ACF7E32"
+				item: {
+					Count: 1
+					id: "tinkers_advanced:ionized_cannon"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tinkers_advanced:sculk_resonance"
+							}
+							{
+								level: 1
+								name: "tconstruct:tank_handler"
+							}
+							{
+								level: 1
+								name: "tinkers_advanced:ionized_cannon_cd"
+							}
+							{
+								level: 2
+								name: "tconstruct:tank"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"etstlib:range": 1.0f
+							"etstlib:scale": 8.0f
+							"tconstruct:attack_damage": 3.0f
+							"tconstruct:tank_capacity": 2000.0f
+						}
+						tic_volatile_data: {
+							abilities: 2
+							"tconstruct:total_tanks": 1
+							upgrades: 4
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			id: "2CD27AB8EF8E21C0"
+			tasks: [{
+				id: "1FB7CCD71EBAC0DD"
+				item: {
+					Count: 1
+					id: "sakuratinker:battle_flag"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "tconstruct:reach"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.5f
+							"tconstruct:durability": 1.2f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"sakuratinker:attack_buff_time": 0.0f
+							"sakuratinker:charging_time": 0.0f
+							"sakuratinker:defence_buff_time": 0.0f
+							"sakuratinker:range": 1.0f
+							"tconstruct:attack_damage": 2.0f
+							"tconstruct:attack_speed": 0.5f
+							"tconstruct:durability": 1.2f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			id: "28AA0C7728B87449"
+			tasks: [{
+				id: "01CD2FBF647DC2A1"
+				item: {
+					Count: 1
+					id: "tinkers_things:halberd"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "tinkers_things:range"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.25f
+							"tconstruct:durability": 2.25f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 7.5f
+							"tconstruct:attack_speed": 0.8f
+							"tconstruct:durability": 2.25f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			id: "15D097B5B049EAA4"
+			tasks: [{
+				id: "5B7503A061015237"
+				item: {
+					Count: 1
+					id: "tinkersinnovation:heavy_shield"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tinkersinnovation:shield_amount"
+							}
+							{
+								level: 1
+								name: "tconstruct:blocking"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.5f
+							"tconstruct:durability": 4.0f
+							"tconstruct:mining_speed": 0.3f
+							"tinkersinnovation:shield_amount": 3.0f
+						}
+						tic_persistent: {
+							"tinkersinnovation:shield_amount": 63
+						}
+						tic_stats: {
+							"tconstruct:attack_damage": 9.0f
+							"tconstruct:attack_speed": 0.6f
+							"tconstruct:block_amount": 100.0f
+							"tconstruct:block_angle": 180.0f
+							"tconstruct:durability": 8.0f
+							"tconstruct:mining_speed": 0.3f
+							"tinkersinnovation:shield_amount": 63.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 3
+							upgrades: 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			id: "12765741E62D04C8"
+			tasks: [{
+				id: "6E48F12E27D5C2AF"
+				item: {
+					Count: 1
+					id: "tinkers_katanas:fuma_shuriken"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:throwing"
+							}
+							{
+								level: 2
+								name: "tconstruct:returning"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.9f
+							"tconstruct:durability": 0.75f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 3.6f
+							"tconstruct:attack_speed": 1.3f
+							"tconstruct:durability": 2.25f
+							"tconstruct:mining_speed": 2.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							"tconstruct:loyalty": 2
+							upgrades: 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			id: "7DE7E0E105F36E2C"
+			tasks: [{
+				id: "320E490D0F1B6262"
+				item: {
+					Count: 1
+					id: "sakuratinker:power_bank"
+					tag: {
+						Damage: 0
+						IsInitialized: 1b
+						baublesreforked.ModifierId: "swift"
+						baublesreforked.ModifierUUID: "56c74548-f1ba-4918-b9fe-ceb786b00e67"
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_persistent: {
+							"sakuratinker:charge_mode": 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			id: "48CA864A0539ACD5"
+			tasks: [{
+				id: "3D2CCC02A159F9E0"
+				item: {
+					Count: 1
+					id: "sakuratinker:shuriken"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [ ]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.6f
+							"tconstruct:durability": 0.05f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 3.0f
+							"tconstruct:attack_speed": 1.5f
+							"tconstruct:durability": 1.0f
+							"tconstruct:mining_speed": 4.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			id: "0F80E39A15712060"
+			tasks: [{
+				id: "6D1CCCC5788360C5"
+				item: {
+					Count: 1
+					id: "tconstruct:scythe"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:tilling"
+							}
+							{
+								level: 1
+								name: "tconstruct:silky_aoe_shears"
+							}
+							{
+								level: 1
+								name: "tconstruct:harvest"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 2.5f
+							"tconstruct:mining_speed": 0.45f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 2.0f
+							"tconstruct:attack_speed": 0.7f
+							"tconstruct:durability": 2.5f
+							"tconstruct:mining_speed": 0.45f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 2
+							upgrades: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			id: "2CEB4E3767A51D90"
+			tasks: [{
+				id: "5D9C64E8B7687637"
+				item: {
+					Count: 1
+					id: "tconstruct:vein_hammer"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 2
+							name: "tconstruct:pierce"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.25f
+							"tconstruct:durability": 5.0f
+							"tconstruct:mining_speed": 0.3f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 6.25f
+							"tconstruct:attack_speed": 0.85f
+							"tconstruct:durability": 5.0f
+							"tconstruct:mining_speed": 0.3f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 2
+							upgrades: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			id: "6E2884375B24D2E2"
+			tasks: [{
+				id: "29BD296CBAB181F2"
+				item: {
+					Count: 1
+					id: "mushroom_concept:shroomitezhua"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:tilling"
+							}
+							{
+								level: 1
+								name: "tconstruct:shears"
+							}
+							{
+								level: 1
+								name: "tconstruct:harvest"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.4f
+							"tconstruct:attack_speed": 1.5f
+							"tconstruct:durability": 3.0f
+							"tconstruct:mining_speed": 1.85f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 0.88000005f
+							"tconstruct:attack_speed": 2.25f
+							"tconstruct:durability": 3.0f
+							"tconstruct:mining_speed": 1.85f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			id: "6E5D11D854B2713D"
+			tasks: [{
+				id: "54FD373F7E335356"
+				item: {
+					Count: 1
+					id: "tinkers_jewelry_ex:crown"
+					tag: {
+						Damage: 0
+						IsInitialized: 1b
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [ ]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:durability": 100.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			id: "1EA99FFA91416683"
+			tasks: [
+				{
+					id: "51E59825F7350E7E"
+					item: {
+						Count: 1
+						id: "tinkers_things:laminar_helmet"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [ ]
+							tic_multipliers: {
+								"tconstruct:durability": 1.5f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor_toughness": 1.0f
+								"tconstruct:durability": 1.5f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05924A13641B486E"
+					item: {
+						Count: 1
+						id: "tinkers_things:laminar_chestplate"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [ ]
+							tic_multipliers: {
+								"tconstruct:durability": 1.5f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor_toughness": 1.0f
+								"tconstruct:durability": 1.5f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44AF1C5235626FB2"
+					item: {
+						Count: 1
+						id: "tinkers_things:laminar_leggings"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [ ]
+							tic_multipliers: {
+								"tconstruct:durability": 1.5f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor_toughness": 1.0f
+								"tconstruct:durability": 1.5f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56888EE420B4E6DE"
+					item: {
+						Count: 1
+						id: "tinkers_things:laminar_boots"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [ ]
+							tic_multipliers: {
+								"tconstruct:durability": 1.5f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor_toughness": 1.0f
+								"tconstruct:durability": 1.5f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "层板护甲"
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			id: "240E0E72B09CA0C8"
+			tasks: [
+				{
+					id: "72D06E1D7A62C970"
+					item: {
+						Count: 1
+						id: "dreamtinker:under_plate_helmet"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:thorns"
+								}
+								{
+									level: 1
+									name: "dreamtinker:nova_magic_armor"
+								}
+								{
+									level: 1
+									name: "dreamtinker:weapon_transformation"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:armor": 0.5f
+								"tconstruct:durability": 0.8f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor_toughness": 2.0f
+								"tconstruct:durability": 1.0f
+							}
+							tic_volatile_data: {
+								abilities: 2
+								defense: 1
+								souls: 2
+								upgrades: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0EF95735DD6DCC4B"
+					item: {
+						Count: 1
+						id: "dreamtinker:under_plate_chestplate"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "dreamtinker:nova_magic_armor"
+								}
+								{
+									level: 1
+									name: "dreamtinker:weapon_transformation"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:armor": 0.5f
+								"tconstruct:durability": 0.8f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor_toughness": 2.0f
+								"tconstruct:durability": 1.0f
+							}
+							tic_volatile_data: {
+								abilities: 2
+								defense: 1
+								souls: 2
+								upgrades: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FA0165F127A62E9"
+					item: {
+						Count: 1
+						id: "dreamtinker:under_plate_leggings"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "dreamtinker:nova_magic_armor"
+								}
+								{
+									level: 1
+									name: "dreamtinker:weapon_transformation"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:armor": 0.5f
+								"tconstruct:durability": 0.8f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor_toughness": 2.0f
+								"tconstruct:durability": 1.0f
+							}
+							tic_volatile_data: {
+								abilities: 2
+								defense: 1
+								souls: 2
+								upgrades: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4884E7AFBDC2ECDF"
+					item: {
+						Count: 1
+						id: "dreamtinker:under_plate_boots"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "dreamtinker:nova_magic_armor"
+								}
+								{
+									level: 1
+									name: "dreamtinker:weapon_transformation"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:armor": 0.5f
+								"tconstruct:durability": 0.8f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor_toughness": 2.0f
+								"tconstruct:durability": 1.0f
+							}
+							tic_volatile_data: {
+								abilities: 2
+								defense: 1
+								souls: 2
+								upgrades: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "贴身护甲"
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			id: "10216956E29D86F5"
+			tasks: [{
+				id: "59CD439301348956"
+				item: {
+					Count: 1
+					id: "tconstruct:javelin"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "tconstruct:throwing"
+						}]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 4.0f
+							"tconstruct:attack_speed": 1.1f
+							"tconstruct:block_amount": 10.0f
+							"tconstruct:durability": 2.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			id: "49036C05C1174F55"
+			tasks: [{
+				id: "59143556F402800D"
+				item: {
+					Count: 1
+					id: "dreamtinker:per_aspera_scriptum"
+					tag: {
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "dreamtinker:nova_spell_tiers"
+							}
+							{
+								level: 1
+								name: "dreamtinker:nova_scriptum_attributes"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 2.0f
+							"tconstruct:durability": 4.5f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							souls: 1
+							upgrades: 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			id: "32702A53F3C7C848"
+			tasks: [{
+				id: "1D0EBE367EB0897D"
+				item: {
+					Count: 1
+					id: "tconstruct:longbow"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [ ]
+						tic_multipliers: {
+							"tconstruct:durability": 1.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:durability": 183.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 2
+							upgrades: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			id: "0B51B7B0420265AB"
+			tasks: [{
+				id: "5C1C9BBF62E1AEB7"
+				item: {
+					Count: 1
+					id: "tconstruct:sledge_hammer"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 2
+							name: "tconstruct:smite"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.35f
+							"tconstruct:durability": 4.0f
+							"tconstruct:mining_speed": 0.4f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 5.4f
+							"tconstruct:attack_speed": 0.75f
+							"tconstruct:durability": 4.0f
+							"tconstruct:mining_speed": 0.4f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 2
+							upgrades: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			id: "2284EE6993DA1729"
+			tasks: [{
+				id: "288F9AF70922A888"
+				item: {
+					Count: 1
+					id: "tconstruct:broad_axe"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "tconstruct:stripping"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.65f
+							"tconstruct:durability": 4.25f
+							"tconstruct:mining_speed": 0.3f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 9.9f
+							"tconstruct:attack_speed": 0.6f
+							"tconstruct:durability": 4.25f
+							"tconstruct:mining_speed": 0.3f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 2
+							upgrades: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			id: "3680F5C826CB5866"
+			tasks: [{
+				id: "7EDA7C155AE61C6D"
+				item: {
+					Count: 1
+					id: "tconstruct:excavator"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 2
+								name: "tconstruct:knockback"
+							}
+							{
+								level: 1
+								name: "tconstruct:pathing"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.2f
+							"tconstruct:durability": 3.75f
+							"tconstruct:mining_speed": 0.3f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 3.0f
+							"tconstruct:durability": 3.75f
+							"tconstruct:mining_speed": 0.3f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 2
+							upgrades: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			id: "314F538FE91B0396"
+			tasks: [{
+				id: "5C6D6A5CEF643EE0"
+				item: {
+					Count: 1
+					id: "tinkers_things:amethyst_staff"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [ ]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:block_amount": 15.0f
+							"tconstruct:durability": 2.0f
+							"tconstruct:use_item_speed": 0.4f
+						}
+						tic_volatile_data: {
+							abilities: 2
+							upgrades: 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			id: "48C38B9A20EF26A4"
+			tasks: [{
+				id: "2610B33CF33FD171"
+				item: {
+					Count: 1
+					id: "tinkers_thinking:quartz_staff"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 2
+							name: "tinkers_thinking:targeted"
+						}]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 1.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 2.5f
+							"tconstruct:attack_speed": 1.8f
+							"tconstruct:block_amount": 17.5f
+							"tconstruct:durability": 126.0f
+							"tconstruct:use_item_speed": 0.4f
+						}
+						tic_volatile_data: {
+							abilities: 2
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			description: ["使用星构素催化剂强化任意对应位置的护甲可获得对应装备效果"]
+			id: "5F4F4C331E5283EB"
+			tasks: [
+				{
+					id: "0349B4948C04827C"
+					item: {
+						Count: 1
+						id: "ticex:catalyst_gem_helmet"
+						tag: {
+							Material: "ticex:reconstruction"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3910BEFDF3F1FE85"
+					item: {
+						Count: 1
+						id: "ticex:catalyst_gem_chestplate"
+						tag: {
+							Material: "ticex:reconstruction"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A1D7C9F45E4C9FC"
+					item: {
+						Count: 1
+						id: "ticex:catalyst_gem_leggings"
+						tag: {
+							Material: "ticex:reconstruction"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79739C717C4ABFBF"
+					item: {
+						Count: 1
+						id: "ticex:catalyst_gem_boots"
+						tag: {
+							Material: "ticex:reconstruction"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "任意星构素炼狱套"
+			x: -2.5d
+			y: 13.0d
+		}
+		{
+			description: ["使用星构素催化剂强化任意对应位置的护甲可获得对应装备效果"]
+			id: "5BBC6E6C55A59BCF"
+			tasks: [
+				{
+					id: "32E4EA904307BCF8"
+					item: {
+						Count: 1
+						id: "ticex:catalyst_mekasuit_helmet"
+						tag: {
+							Material: "ticex:reconstruction"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "486606FDB9061F87"
+					item: {
+						Count: 1
+						id: "ticex:catalyst_mekasuit_chestplate"
+						tag: {
+							Material: "ticex:reconstruction"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11BF981F450E3A5B"
+					item: {
+						Count: 1
+						id: "ticex:catalyst_mekasuit_leggings"
+						tag: {
+							Material: "ticex:reconstruction"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CDE6C4BE6B89F7F"
+					item: {
+						Count: 1
+						id: "ticex:catalyst_mekasuit_boots"
+						tag: {
+							Material: "ticex:reconstruction"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "任意meka镶板套"
+			x: -1.5d
+			y: 13.0d
+		}
+		{
+			id: "57033C337C54274D"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 7
+						GunFireMode: "SEMI"
+						GunId: "tacz:deagle"
+						HasBulletInBarrel: 1b
+					}
+				}
+				id: "3F38F560BE6735FA"
+				item: {
+					Count: 1
+					id: "ticex:blitz_gun"
+					tag: {
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [ ]
+						tic_multipliers: {
+							"tconstruct:durability": 1.1f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 4.0f
+							"tconstruct:attack_speed": 1.6f
+							"tconstruct:durability": 1.1f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				title: "任意闪击枪"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 13.0d
+		}
+		{
+			id: "23A4311CB8F4EB55"
+			tasks: [{
+				id: "7EB6AE7B7CA39BB7"
+				item: {
+					Count: 1
+					id: "ticex:meka_tool"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "ticex:mekanic"
+						}]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 1.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 13.0d
+		}
+		{
+			id: "587DDBC862242F74"
+			tasks: [{
+				id: "600826031721EF0E"
+				item: {
+					Count: 1
+					id: "ticex:revival_spellbook_irons"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						IsInitialized: 1b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [{
+							level: 1
+							name: "ticex:overcasting"
+						}]
+						tic_multipliers: {
+							"tconstruct:durability": 1.1f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 4.0f
+							"tconstruct:attack_speed": 1.6f
+							"tconstruct:durability": 1.1f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 13.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			icon: "minecraft:observer"
+			id: "440344D6A0A718AC"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "5C587909B899A819"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "304BD2A0B375C527"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			id: "595FF98DD09DD009"
+			tasks: [
+				{
+					id: "7E74CB7B1EBE6B34"
+					item: {
+						Count: 1
+						id: "aether_tinker:soar_armor_helmet"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "aether_tinker:soar"
+								}
+								{
+									level: 1
+									name: "tconstruct:zoom"
+								}
+							]
+							tic_persistent: { }
+							tic_stats: { }
+							tic_volatile_data: {
+								defense: 3
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4CDA9523AF507006"
+					item: {
+						Count: 1
+						id: "aether_tinker:soar_armor_chestplate"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [{
+								level: 1
+								name: "tconstruct:wings"
+							}]
+							tic_persistent: { }
+							tic_stats: { }
+							tic_volatile_data: {
+								defense: 3
+								"tconstruct:elyta": 1b
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31D34330E50BFF68"
+					item: {
+						Count: 1
+						id: "aether_tinker:soar_armor_leggings"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [{
+								level: 1
+								name: "aether_tinker:soar"
+							}]
+							tic_persistent: { }
+							tic_stats: { }
+							tic_volatile_data: {
+								defense: 3
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57355666DBE372AB"
+					item: {
+						Count: 1
+						id: "aether_tinker:soar_armor_boots"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [{
+								level: 1
+								name: "aether_tinker:soar"
+							}]
+							tic_persistent: { }
+							tic_stats: { }
+							tic_volatile_data: {
+								defense: 3
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "任意翱翔者护甲"
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+	subtitle: ["先画个饼"]
+	title: "·&7工具图鉴（WIP）"
+}

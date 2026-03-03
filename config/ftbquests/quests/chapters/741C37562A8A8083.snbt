@@ -1,0 +1,210 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "741C37562A8A8083"
+	group: "63383AA57008A157"
+	icon: "projecte:transmutation_tablet"
+	id: "741C37562A8A8083"
+	images: [
+		{
+			height: 4.0d
+			image: "projecte:item/philosophers_stone"
+			rotation: 0.0d
+			width: 4.0d
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -3.0d
+		}
+	]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"emc尽量控制在&e9.2quintillion（百兆）&r以下"
+				""
+				"emc在&e9.2quintillion（百兆）&r以上时，会导致奥术平板无法使用jei合成"
+			]
+			id: "59D678FEFA7EE9AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BEFBE337338A69E"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1138523A761B5A20"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59D678FEFA7EE9AC"]
+			description: [
+				"等价交换团队："
+				""
+				"指令"
+				""
+				"主要指令：&e/team_projecte&r；"
+				""
+				"邀请玩家加入团队：&e/team_projecte invite&r；"
+				""
+				"列出团队成员：&e/team_projecte members&r；"
+				""
+				"踢出团队成员：&e/team_projecte kick&r；"
+				""
+				"离开团队：&e/team_projecte leave&r；"
+				""
+				"转让队长：&e/team_projecte transfer_ownership&r；"
+				""
+				"设置是否可以共享EMC（默认: true）：&e/team_projecte settings share_emc false/true&r；"
+				""
+				"设置是否可以共享知识（默认: true）：&e/team_projecte settings share_knowledge false/true&r。"
+			]
+			id: "05BAD8B545A0643A"
+			rewards: [{
+				id: "1AD93ED8F2B26E68"
+				item: "projecte:transmutation_table"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08D4551BC692AEE5"
+				item: "projecte:transmutation_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59D678FEFA7EE9AC"]
+			id: "53BAA3ACFA396A1C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DCB55DCF630544A"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				id: "72701E85988A3F46"
+				item: "projecte:aeternalis_fuel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["53BAA3ACFA396A1C"]
+			id: "106E88610949A65D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D202A48D057F449"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				id: "21C40BDC40DDB023"
+				item: "projecte:dark_matter"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"106E88610949A65D"
+				"05BAD8B545A0643A"
+			]
+			id: "6534D2B5B220298E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54640E05074A027F"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				id: "74C58847AFE72B47"
+				item: "projecte:transmutation_tablet"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["106E88610949A65D"]
+			id: "239348B84DF9A321"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03B7A48056A953AE"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				id: "50D52E57A239F48E"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6534D2B5B220298E"]
+			id: "7A9247011A10F708"
+			rewards: [{
+				id: "1E492C37D73442D3"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C9D1DFBF82EE747"
+				item: "projex:arcane_tablet"
+				type: "item"
+			}]
+			title: "更好的转化桌"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			icon: "minecraft:observer"
+			id: "0BF745F8F3932A9F"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "207198D17F085090"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "5FCAA079582183F5"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+	]
+	title: "·&c等价交换"
+}

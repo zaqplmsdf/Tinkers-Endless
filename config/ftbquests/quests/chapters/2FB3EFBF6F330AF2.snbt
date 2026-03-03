@@ -1,0 +1,866 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2FB3EFBF6F330AF2"
+	group: "3172704A8AED52C1"
+	id: "2FB3EFBF6F330AF2"
+	images: [
+		{
+			height: 1.5d
+			image: "tconstruct:block/table/crafting_station_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "tinkersancient:item/casts/war_pick_limb"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -0.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"050C746D73171DCB"
+				"052971BAC754FF0C"
+			]
+			id: "60583C8989E592F3"
+			rewards: [{
+				count: 16
+				id: "50E6893151C7382E"
+				item: "tconstruct:pattern"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FCC31BE3DF744D8"
+				item: "tconstruct:pattern"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["60583C8989E592F3"]
+			id: "12B5A24A68554CCF"
+			rewards: [{
+				auto: "enabled"
+				count: 10
+				id: "66F459E9177F1031"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "47DEC0C28013E5A8"
+					item: "tconstruct:crafting_station"
+					type: "item"
+				}
+				{
+					id: "64EC33651317D750"
+					item: "tconstruct:part_builder"
+					type: "item"
+				}
+				{
+					id: "6F4A107ABFA18493"
+					item: "tconstruct:tinker_station"
+					type: "item"
+				}
+				{
+					id: "5F1EC45C046D78B8"
+					item: "tconstruct:part_chest"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["418A682BE565AEC3"]
+			id: "050C746D73171DCB"
+			rewards: [{
+				auto: "enabled"
+				id: "0EC2F56B50CB5637"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "201B6A63338CFC8E"
+				item: {
+					Count: 1
+					id: "tconstruct:materials_and_you"
+					tag: {
+						mantle: {
+							book: {
+								current_page: "further_reading.punysmelting_craft"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["12B5A24A68554CCF"]
+			id: "344F9D729BEC6153"
+			rewards: [{
+				auto: "enabled"
+				count: 5
+				id: "2673688827A22C37"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DD6BB33270FB8B0"
+				item: "tconstruct:tinkers_chest"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["050C746D73171DCB"]
+			id: "6904D41020ED7821"
+			rewards: [{
+				auto: "enabled"
+				id: "7948EF676EBACD67"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "6309AB2288FE274C"
+				item: "tconstruct:puny_smelting"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["050C746D73171DCB"]
+			id: "190928230A7A2698"
+			rewards: [{
+				auto: "enabled"
+				id: "44F1D28347D2F8D5"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "462EF64226DDDCAC"
+				item: "tconstruct:fantastic_foundry"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6904D41020ED7821"]
+			id: "2677F37B9EC46D2A"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "0597D4126CA7ADD2"
+				item: "thermal:silver_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "798DDC299E75E37B"
+				item: "tconstruct:mighty_smelting"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7020CF59381D5C7B"]
+			id: "35ACD1962D72E6DF"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "717B4DCFEF4D9B61"
+					item: "thermal:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7881F2582A6EB349"
+					item: {
+						Count: 1
+						id: "tinkers_advanced:ultra_dense_book"
+						tag: {
+							mantle: {
+								book: {
+									current_page: "special_modifiers.generator_modifier.tinkers_advanced.transition_catalyst"
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32CC325D1B3EBFE8"
+				item: "tconstruct:encyclopedia"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6904D41020ED7821"]
+			id: "7020CF59381D5C7B"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "43033E11184D759B"
+				item: "thermal:copper_coin"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "和冶炼炉的区别在于无法合金及存储多种流体"
+			tasks: [
+				{
+					id: "30B343F685FE939E"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "77F9A26E9C7C4DFA"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+				{
+					id: "7ABC98CE873846A4"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "37457ADFBB2A7CC5"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					id: "7A842FD27473E833"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7020CF59381D5C7B"]
+			id: "750A66096E3D9FB6"
+			rewards: [
+				{
+					id: "664AFFB7629F2841"
+					item: {
+						Count: 1
+						id: "create:schematic"
+						tag: {
+							Anchor: {
+								X: 0
+								Y: 0
+								Z: 0
+							}
+							Bounds: [
+								18
+								66
+								19
+							]
+							Deployed: 0b
+							File: "极限冶炼炉_.nbt"
+							Mirror: "NONE"
+							Owner: "The_X_One"
+							Rotation: "NONE"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "795C4D89E4391E09"
+					item: {
+						Count: 1
+						id: "create:clipboard"
+						tag: {
+							Pages: [
+								{
+									Entries: [
+										{
+											Checked: 0b
+											Icon: {
+												Count: 1b
+												id: "tconstruct:smeltery_controller"
+											}
+											ItemAmount: 1
+											Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"tconstruct:smeltery_controller\"}},\"translate\":\"block.tconstruct.smeltery_controller\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+										}
+										{
+											Checked: 0b
+											Icon: {
+												Count: 1b
+												id: "create:creative_fluid_tank"
+											}
+											ItemAmount: 1
+											Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"create:creative_fluid_tank\"}},\"translate\":\"block.create.creative_fluid_tank\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+										}
+										{
+											Checked: 0b
+											Icon: {
+												Count: 1b
+												id: "minecraft:hopper"
+											}
+											ItemAmount: 68
+											Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"minecraft:hopper\"}},\"translate\":\"block.minecraft.hopper\"},{\"color\":\"black\",\"text\":\"\\n x68\"},{\"color\":\"gray\",\"text\":\" | 1▤ +4\"}],\"text\":\"\"}"
+										}
+										{
+											Checked: 0b
+											Icon: {
+												Count: 1b
+												id: "tconstruct:seared_drain"
+											}
+											ItemAmount: 56
+											Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"tconstruct:seared_drain\"}},\"translate\":\"block.tconstruct.seared_drain\"},{\"color\":\"black\",\"text\":\"\\n x56\"},{\"color\":\"gray\",\"text\":\" | 0▤ +56\"}],\"text\":\"\"}"
+										}
+										{
+											Checked: 0b
+											Icon: {
+												Count: 1b
+												id: "tconstruct:seared_faucet"
+											}
+											ItemAmount: 60
+											Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"tconstruct:seared_faucet\"}},\"translate\":\"block.tconstruct.seared_faucet\"},{\"color\":\"black\",\"text\":\"\\n x60\"},{\"color\":\"gray\",\"text\":\" | 0▤ +60\"}],\"text\":\"\"}"
+										}
+										{
+											Checked: 0b
+											Icon: {
+												Count: 1b
+												id: "tconstruct:seared_fuel_tank"
+											}
+											ItemAmount: 1
+											Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"tconstruct:seared_fuel_tank\"}},\"translate\":\"block.tconstruct.seared_fuel_tank\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+										}
+										{
+											Checked: 0b
+											Icon: {
+												Count: 1b
+												id: "tconstruct:seared_glass"
+											}
+											ItemAmount: 3526
+											Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"tconstruct:seared_glass\"}},\"translate\":\"block.tconstruct.seared_glass\"},{\"color\":\"black\",\"text\":\"\\n x3526\"},{\"color\":\"gray\",\"text\":\" | 55▤ +6\"}],\"text\":\"\"}"
+										}
+										{
+											Checked: 0b
+											Text: "{\"color\":\"dark_gray\",\"text\":\">>>\"}"
+										}
+									]
+								}
+								{
+									Entries: [
+										{
+											Checked: 0b
+											Icon: {
+												Count: 1b
+												id: "tconstruct:seared_bricks"
+											}
+											ItemAmount: 196
+											Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"tconstruct:seared_bricks\"}},\"translate\":\"block.tconstruct.seared_bricks\"},{\"color\":\"black\",\"text\":\"\\n x196\"},{\"color\":\"gray\",\"text\":\" | 3▤ +4\"}],\"text\":\"\"}"
+										}
+										{
+											Checked: 0b
+											Icon: {
+												Count: 1b
+												id: "tconstruct:seared_table"
+											}
+											ItemAmount: 30
+											Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"tconstruct:seared_table\"}},\"translate\":\"block.tconstruct.seared_table\"},{\"color\":\"black\",\"text\":\"\\n x30\"},{\"color\":\"gray\",\"text\":\" | 0▤ +30\"}],\"text\":\"\"}"
+										}
+										{
+											Checked: 0b
+											Icon: {
+												Count: 1b
+												id: "tconstruct:seared_basin"
+											}
+											ItemAmount: 30
+											Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"tconstruct:seared_basin\"}},\"translate\":\"block.tconstruct.seared_basin\"},{\"color\":\"black\",\"text\":\"\\n x30\"},{\"color\":\"gray\",\"text\":\" | 0▤ +30\"}],\"text\":\"\"}"
+										}
+										{
+											Checked: 0b
+											Icon: {
+												Count: 1b
+												id: "minecraft:chest"
+											}
+											ItemAmount: 2
+											Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"minecraft:chest\"}},\"translate\":\"block.minecraft.chest\"},{\"color\":\"black\",\"text\":\"\\n x2\"},{\"color\":\"gray\",\"text\":\" | 0▤ +2\"}],\"text\":\"\"}"
+										}
+										{
+											Checked: 0b
+											Icon: {
+												Count: 1b
+												id: "mekanism:ultimate_mechanical_pipe"
+											}
+											ItemAmount: 1
+											Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"mekanism:ultimate_mechanical_pipe\"}},\"translate\":\"block.mekanism.ultimate_mechanical_pipe\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+										}
+										{
+											Checked: 0b
+											Icon: {
+												Count: 1b
+												id: "farmersdelight:black_canvas_sign"
+											}
+											ItemAmount: 1
+											Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"farmersdelight:black_canvas_sign\"}},\"translate\":\"block.farmersdelight.black_canvas_sign\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+										}
+									]
+								}
+							]
+							PreviouslyOpenedPage: 0
+							Readonly: 1b
+							Type: 1
+							display: {
+								Name: "{\"italic\":false,\"translate\":\"create.materialChecklist\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4C9708DB0FBC551D"
+					item: "tconstruct:seared_drain"
+					type: "item"
+				}
+				{
+					id: "112C6077A24DE7C3"
+					item: "tconstruct:smeltery_controller"
+					type: "item"
+				}
+				{
+					id: "5925E4D289BFFDC6"
+					item: "tconstruct:seared_fuel_tank"
+					type: "item"
+				}
+			]
+			title: "冶炼炉"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["050C746D73171DCB"]
+			id: "232226EBF6DA2DDD"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "7F0984DE870FE954"
+					item: "thermal:copper_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1673389AF170F81C"
+					item: "tconstruct:earth_slime_sapling"
+					type: "item"
+				}
+				{
+					id: "1681B84C74EFFE79"
+					item: "tconstruct:sky_slime_sapling"
+					type: "item"
+				}
+				{
+					id: "53CE23ACD32AB0EF"
+					item: "tconstruct:ender_slime_sapling"
+					type: "item"
+				}
+				{
+					id: "60888BBDAB23A918"
+					item: "tconstruct:blood_slime_sapling"
+					type: "item"
+				}
+				{
+					id: "3C4B84F49F4F3645"
+					item: "tconstruct:ender_slime_grass_seeds"
+					type: "item"
+				}
+				{
+					id: "7FAFDA89A8996C41"
+					item: "tconstruct:blood_slime_grass_seeds"
+					type: "item"
+				}
+				{
+					id: "4EB8A01DD3A52FF0"
+					item: "tconstruct:sky_slime_grass_seeds"
+					type: "item"
+				}
+				{
+					id: "32836373496DB3BE"
+					item: "tconstruct:earth_slime_grass_seeds"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7B0CBC8EC9A6D5DB"
+				item: "tconstruct:tinkers_gadgetry"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["750A66096E3D9FB6"]
+			description: ["{image:ftbquests:textures/picture/007.png width:100 height:100 align:center}"]
+			id: "59F69FB176B53928"
+			rewards: [{
+				auto: "enabled"
+				id: "6A023E49BF1C6F00"
+				item: "thermal:gold_coin"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "铸币机"
+			tasks: [{
+				id: "298B0112E673D451"
+				item: "tconstruct:coin_cast"
+				type: "item"
+			}]
+			title: "&6铸币机"
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["12B5A24A68554CCF"]
+			id: "6959F577D52F0B9E"
+			rewards: [{
+				auto: "enabled"
+				id: "51CF93A72595EC9E"
+				item: "thermal:gold_coin"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "536BCCF86F08111B"
+				item: "tconstruct:tinkers_anvil"
+				type: "item"
+			}]
+			title: "任意工匠砧"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7020CF59381D5C7B"]
+			description: ["&e熔铸炉&r可保留流体&9不合并&r为合金，且产生部分特有流体"]
+			id: "6CDC5DFDB1BCB034"
+			rewards: [
+				{
+					id: "04A75FF2A455B6CC"
+					item: {
+						Count: 1
+						id: "create:schematic"
+						tag: {
+							Anchor: {
+								X: 0
+								Y: 0
+								Z: 0
+							}
+							Bounds: [
+								18
+								66
+								19
+							]
+							Deployed: 0b
+							File: "极限熔铸炉.nbt"
+							Mirror: "NONE"
+							Owner: "The_X_One"
+							Rotation: "NONE"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37DE37A5F8C4462C"
+					item: {
+						Count: 1
+						id: "create:clipboard"
+						tag: {
+							Pages: [
+								{
+									Entries: [
+										{
+											Checked: 0b
+											Icon: {
+												Count: 1b
+												id: "sophisticatedstorage:iron_chest"
+											}
+											ItemAmount: 2
+											Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"sophisticatedstorage:iron_chest\"}},\"translate\":\"block.sophisticatedstorage.iron_chest\"},{\"color\":\"black\",\"text\":\"\\n x2\"},{\"color\":\"gray\",\"text\":\" | 0▤ +2\"}],\"text\":\"\"}"
+										}
+										{
+											Checked: 0b
+											Icon: {
+												Count: 1b
+												id: "create:creative_fluid_tank"
+											}
+											ItemAmount: 1
+											Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"create:creative_fluid_tank\"}},\"translate\":\"block.create.creative_fluid_tank\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+										}
+										{
+											Checked: 0b
+											Icon: {
+												Count: 1b
+												id: "minecraft:lever"
+											}
+											ItemAmount: 64
+											Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"minecraft:lever\"}},\"translate\":\"block.minecraft.lever\"},{\"color\":\"black\",\"text\":\"\\n x64\"},{\"color\":\"gray\",\"text\":\" | 1▤ +0\"}],\"text\":\"\"}"
+										}
+										{
+											Checked: 0b
+											Icon: {
+												Count: 1b
+												id: "minecraft:hopper"
+											}
+											ItemAmount: 68
+											Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"minecraft:hopper\"}},\"translate\":\"block.minecraft.hopper\"},{\"color\":\"black\",\"text\":\"\\n x68\"},{\"color\":\"gray\",\"text\":\" | 1▤ +4\"}],\"text\":\"\"}"
+										}
+										{
+											Checked: 0b
+											Icon: {
+												Count: 1b
+												id: "tconstruct:scorched_drain"
+											}
+											ItemAmount: 60
+											Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"tconstruct:scorched_drain\"}},\"translate\":\"block.tconstruct.scorched_drain\"},{\"color\":\"black\",\"text\":\"\\n x60\"},{\"color\":\"gray\",\"text\":\" | 0▤ +60\"}],\"text\":\"\"}"
+										}
+										{
+											Checked: 0b
+											Icon: {
+												Count: 1b
+												id: "tconstruct:scorched_faucet"
+											}
+											ItemAmount: 64
+											Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"tconstruct:scorched_faucet\"}},\"translate\":\"block.tconstruct.scorched_faucet\"},{\"color\":\"black\",\"text\":\"\\n x64\"},{\"color\":\"gray\",\"text\":\" | 1▤ +0\"}],\"text\":\"\"}"
+										}
+										{
+											Checked: 0b
+											Icon: {
+												Count: 1b
+												id: "tconstruct:scorched_fuel_tank"
+											}
+											ItemAmount: 1
+											Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"tconstruct:scorched_fuel_tank\"}},\"translate\":\"block.tconstruct.scorched_fuel_tank\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+										}
+										{
+											Checked: 0b
+											Text: "{\"color\":\"dark_gray\",\"text\":\">>>\"}"
+										}
+									]
+								}
+								{
+									Entries: [
+										{
+											Checked: 0b
+											Icon: {
+												Count: 1b
+												id: "tconstruct:scorched_glass"
+											}
+											ItemAmount: 3778
+											Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"tconstruct:scorched_glass\"}},\"translate\":\"block.tconstruct.scorched_glass\"},{\"color\":\"black\",\"text\":\"\\n x3778\"},{\"color\":\"gray\",\"text\":\" | 59▤ +2\"}],\"text\":\"\"}"
+										}
+										{
+											Checked: 0b
+											Icon: {
+												Count: 1b
+												id: "tconstruct:scorched_bricks"
+											}
+											ItemAmount: 256
+											Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"tconstruct:scorched_bricks\"}},\"translate\":\"block.tconstruct.scorched_bricks\"},{\"color\":\"black\",\"text\":\"\\n x256\"},{\"color\":\"gray\",\"text\":\" | 4▤ +0\"}],\"text\":\"\"}"
+										}
+										{
+											Checked: 0b
+											Icon: {
+												Count: 1b
+												id: "tconstruct:scorched_table"
+											}
+											ItemAmount: 33
+											Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"tconstruct:scorched_table\"}},\"translate\":\"block.tconstruct.scorched_table\"},{\"color\":\"black\",\"text\":\"\\n x33\"},{\"color\":\"gray\",\"text\":\" | 0▤ +33\"}],\"text\":\"\"}"
+										}
+										{
+											Checked: 0b
+											Icon: {
+												Count: 1b
+												id: "tconstruct:scorched_basin"
+											}
+											ItemAmount: 31
+											Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"tconstruct:scorched_basin\"}},\"translate\":\"block.tconstruct.scorched_basin\"},{\"color\":\"black\",\"text\":\"\\n x31\"},{\"color\":\"gray\",\"text\":\" | 0▤ +31\"}],\"text\":\"\"}"
+										}
+										{
+											Checked: 0b
+											Icon: {
+												Count: 1b
+												id: "tconstruct:foundry_controller"
+											}
+											ItemAmount: 1
+											Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"tconstruct:foundry_controller\"}},\"translate\":\"block.tconstruct.foundry_controller\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+										}
+										{
+											Checked: 0b
+											Icon: {
+												Count: 1b
+												id: "mekanism:ultimate_mechanical_pipe"
+											}
+											ItemAmount: 1
+											Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"mekanism:ultimate_mechanical_pipe\"}},\"translate\":\"block.mekanism.ultimate_mechanical_pipe\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+										}
+										{
+											Checked: 0b
+											Icon: {
+												Count: 1b
+												id: "farmersdelight:black_canvas_sign"
+											}
+											ItemAmount: 1
+											Text: "{\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"farmersdelight:black_canvas_sign\"}},\"translate\":\"block.farmersdelight.black_canvas_sign\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\"}],\"text\":\"\"}"
+										}
+									]
+								}
+							]
+							Readonly: 1b
+							Type: 1
+							display: {
+								Name: "{\"italic\":false,\"translate\":\"create.materialChecklist\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "38B8D97DEA85BF78"
+					item: "tconstruct:foundry_controller"
+					type: "item"
+				}
+				{
+					id: "1AFB22340AEBB11E"
+					item: "tconstruct:scorched_drain"
+					type: "item"
+				}
+				{
+					id: "4344E421EB366F27"
+					item: "tconstruct:scorched_fuel_tank"
+					type: "item"
+				}
+			]
+			title: "熔铸炉"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6904D41020ED7821"]
+			description: [
+				"用于制作强化水晶"
+				"或提取工具的强化，并返还对应槽位"
+			]
+			id: "72633101A2C95CC7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21C50D1DA939BAE0"
+				table_id: 915959588376886251L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3D0ABC96115EA97A"
+				item: "tconstruct:modifier_worktable"
+				match_nbt: false
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			icon: "minecraft:observer"
+			id: "20C8349AAD98E844"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "0A14CABB7D2AC46D"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "7413C0FBA7168542"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["60583C8989E592F3"]
+			description: [
+				"不会消耗的模板"
+				""
+				"但并不能制作全部部件"
+			]
+			id: "2723695D5C2313F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18DF5D869DCEF1AA"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7F1E5CDF6C156BF5"
+				item: "mushroom_concept:almighty_ban"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+	]
+	title: "·&e基本"
+}

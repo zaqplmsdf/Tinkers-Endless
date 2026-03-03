@@ -1,0 +1,2378 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "51EE0F515826F1A9"
+	group: "1212196CDDCD1199"
+	icon: "minecraft:grass_block"
+	id: "51EE0F515826F1A9"
+	images: [
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/logo"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/cat"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 2.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"新手奖励"
+				"&m可&4千万不要&f在连弩上浪费材料升级呢&r"
+				""
+				"开局建议先搞到25个铜币合成1个金币换一个&e飞行戒指&r（对应当前版本堪称简单）"
+				""
+				"{ \"text\": \"点击跳转相关任务\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7A53AF1FE631EDB0\" } }"
+			]
+			id: "418A682BE565AEC3"
+			rewards: [
+				{
+					auto: "disabled"
+					count: 8
+					exclude_from_claim_all: true
+					id: "4DB8684BAC2A0916"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					count: 10
+					id: "6C9DC36104C2BD6D"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F765F4A043DB9D1"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5652D36AE6664084"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					count: 5
+					exclude_from_claim_all: true
+					id: "026DBA917ED20C93"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74C560BDB7F7D157"
+					item: {
+						Count: 1
+						id: "minecraft:axolotl_bucket"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"§b一个可爱的小家伙\"}"]
+								Name: "{\"text\":\"§b螈神\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5492AB9FBF10A9C5"
+					item: "sophisticatedbackpacks:diamond_backpack"
+					type: "item"
+				}
+				{
+					id: "745E3D1F9D18372A"
+					item: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "传送门方块"
+							display: {
+								Lore: ["{\"text\":\"并没有什么实际作用，只是用来跳转网页\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"]
+								Name: "[{\"text\":\"工匠手稿\",\"color\":\"gold\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+							}
+							generation: 3
+							pages: ["{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"yellow\",\"text\":\"相关网址：\\n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.mcmod.cn/modpack/1257.html\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"单击跳转\"}},\"text\":\"百科站整合包主页\\n\\n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://bbsmc.net/modpack/tinkers-endless\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"单击跳转\"}},\"text\":\"BBSMC整合包主页\\n\\n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://qm.qq.com/q/pEchddxbAO\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"单击跳转\"}},\"text\":\"官方讨论群\"}],\"text\":\"声明：本整合包完全免费，如果你花钱了，那么恭喜你被骗了\\n\"}"]
+							resolved: 1b
+							title: "工匠书稿"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CD6D2F5A55FC0F5"
+					item: {
+						Count: 1
+						id: "thermal:satchel"
+						tag: {
+							ItemInv: {
+								ItemInv: [
+									{
+										Count: 1b
+										Slot: 0b
+										id: "create:cardboard_helmet"
+										tag: {
+											AttributeModifiers: [
+												{
+													Amount: -0.25d
+													AttributeName: "l2damagetracker:damage_reduction"
+													Operation: 1
+													Slot: "head"
+													UUID: [I;
+														288890888
+														-1418509225
+														-1748448699
+														1083805918
+													]
+												}
+												{
+													Amount: -1.0d
+													AttributeName: "minecraft:generic.attack_damage"
+													Operation: 2
+													Slot: "head"
+													UUID: [I;
+														197919512
+														-1347270721
+														-1237322215
+														-1610162727
+													]
+												}
+											]
+											Damage: 24
+											display: {
+												Lore: [
+													"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"穿上它，你将不会受到伤害\"}],\"text\":\"\"}"
+													"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"dark_red\",\"text\":\"（虽然debuff也挺狠的就是了）\"}],\"text\":\"\"}"
+												]
+												Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"无敌的纸壳\"}],\"text\":\"\"}"
+											}
+										}
+									}
+									{
+										Count: 1b
+										Slot: 1b
+										id: "create:cardboard_chestplate"
+										tag: {
+											AttributeModifiers: [
+												{
+													Amount: -0.25d
+													AttributeName: "l2damagetracker:damage_reduction"
+													Operation: 1
+													Slot: "chest"
+													UUID: [I;
+														539823295
+														-1896134284
+														-1088578429
+														2089831366
+													]
+												}
+												{
+													Amount: -1.0d
+													AttributeName: "minecraft:generic.attack_damage"
+													Operation: 2
+													Slot: "chest"
+													UUID: [I;
+														1771409493
+														122372232
+														-1186077402
+														-424939856
+													]
+												}
+											]
+											Damage: 44
+											display: {
+												Lore: [
+													"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"穿上它，你将不会受到伤害\"}],\"text\":\"\"}"
+													"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"dark_red\",\"text\":\"（虽然debuff也挺狠的就是了）\"}],\"text\":\"\"}"
+												]
+												Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"无敌的纸壳\"}],\"text\":\"\"}"
+											}
+										}
+									}
+									{
+										Count: 1b
+										Slot: 2b
+										id: "create:cardboard_leggings"
+										tag: {
+											AttributeModifiers: [
+												{
+													Amount: -0.25d
+													AttributeName: "l2damagetracker:damage_reduction"
+													Operation: 1
+													Slot: "legs"
+													UUID: [I;
+														302079433
+														931218987
+														-2008663755
+														686439710
+													]
+												}
+												{
+													Amount: -1.0d
+													AttributeName: "minecraft:generic.attack_damage"
+													Operation: 2
+													Slot: "legs"
+													UUID: [I;
+														-1451675860
+														1988510343
+														-1988145850
+														-464935966
+													]
+												}
+											]
+											Damage: 40
+											display: {
+												Lore: [
+													"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"穿上它，你将不会受到伤害\"}],\"text\":\"\"}"
+													"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"dark_red\",\"text\":\"（虽然debuff也挺狠的就是了）\"}],\"text\":\"\"}"
+												]
+												Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"无敌的纸壳\"}],\"text\":\"\"}"
+											}
+										}
+									}
+									{
+										Count: 1b
+										Slot: 3b
+										id: "create:cardboard_boots"
+										tag: {
+											AttributeModifiers: [
+												{
+													Amount: -0.25d
+													AttributeName: "l2damagetracker:damage_reduction"
+													Operation: 1
+													Slot: "feet"
+													UUID: [I;
+														-10711607
+														-926135503
+														-1808014939
+														846819005
+													]
+												}
+												{
+													Amount: -1.0d
+													AttributeName: "minecraft:generic.attack_damage"
+													Operation: 1
+													Slot: "feet"
+													UUID: [I;
+														81052423
+														2060206241
+														-1468701768
+														504305980
+													]
+												}
+											]
+											Damage: 32
+											display: {
+												Lore: [
+													"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"穿上它，你将不会受到伤害\"}],\"text\":\"\"}"
+													"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"dark_red\",\"text\":\"（虽然debuff也挺狠的就是了）\"}],\"text\":\"\"}"
+												]
+												Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"无敌的纸壳\"}],\"text\":\"\"}"
+											}
+										}
+									}
+									{
+										Count: 1b
+										Slot: 4b
+										id: "marveloustinker:combat_maid_helmet"
+										tag: {
+											Damage: 0
+											display: {
+												Lore: [ ]
+												Name: "{\"text\":\"§6女仆帽\"}"
+											}
+											etstlib_tool_uuid: "c43a2e69-af7d-4989-b388-5a0bd0e17b9e"
+											tic_broken: 0b
+											tic_materials: [
+												"tconstruct:wood"
+												"tconstruct:wood"
+											]
+											tic_modifiers: [
+												{
+													level: 2
+													name: "tconstruct:cultivated"
+												}
+												{
+													level: 2
+													name: "mushroom_daydream:ecological"
+												}
+												{
+													level: 1
+													name: "marveloustinker:combat_maid"
+												}
+											]
+											tic_persistent: { }
+											tic_stats: {
+												"marveloustinker:empty_hand_damage": 1.0f
+												"marveloustinker:health_bonus": 2.0f
+												"marveloustinker:regeneration_bonus": 2.0f
+												"tconstruct:armor": 1.0f
+												"tconstruct:durability": 85.0f
+												"tconstruct:knockback_resistance": 0.05f
+											}
+											tic_volatile_data: {
+												defense: 3
+												upgrades: 2
+											}
+										}
+									}
+									{
+										Count: 1b
+										Slot: 5b
+										id: "marveloustinker:combat_maid_chestplate"
+										tag: {
+											Damage: 0
+											display: {
+												Lore: [ ]
+												Name: "{\"text\":\"§6女仆衣\"}"
+											}
+											etstlib_tool_uuid: "f11f1426-219e-476f-8020-f0a5f2a366c0"
+											tic_broken: 0b
+											tic_materials: [
+												"tconstruct:wood"
+												"tconstruct:wood"
+											]
+											tic_modifiers: [
+												{
+													level: 2
+													name: "tconstruct:cultivated"
+												}
+												{
+													level: 2
+													name: "mushroom_daydream:ecological"
+												}
+												{
+													level: 1
+													name: "marveloustinker:combat_maid"
+												}
+											]
+											tic_multipliers: {
+												"tconstruct:attack_damage": 0.4f
+											}
+											tic_persistent: { }
+											tic_stats: {
+												"marveloustinker:empty_hand_damage": 1.0f
+												"marveloustinker:health_bonus": 2.0f
+												"marveloustinker:regeneration_bonus": 2.0f
+												"tconstruct:armor": 1.5f
+												"tconstruct:durability": 160.0f
+												"tconstruct:knockback_resistance": 0.05f
+											}
+											tic_volatile_data: {
+												defense: 3
+												upgrades: 2
+											}
+										}
+									}
+									{
+										Count: 1b
+										Slot: 6b
+										id: "marveloustinker:combat_maid_leggings"
+										tag: {
+											Damage: 0
+											display: {
+												Lore: [ ]
+												Name: "{\"text\":\"§6女仆裙\"}"
+											}
+											etstlib_tool_uuid: "aabaf5be-3861-4aa9-8497-a12335119564"
+											tic_broken: 0b
+											tic_materials: [
+												"tconstruct:wood"
+												"tconstruct:wood"
+											]
+											tic_modifiers: [
+												{
+													level: 2
+													name: "tconstruct:cultivated"
+												}
+												{
+													level: 2
+													name: "mushroom_daydream:ecological"
+												}
+												{
+													level: 1
+													name: "marveloustinker:combat_maid"
+												}
+											]
+											tic_persistent: { }
+											tic_stats: {
+												"marveloustinker:empty_hand_damage": 1.0f
+												"marveloustinker:health_bonus": 2.0f
+												"marveloustinker:regeneration_bonus": 2.0f
+												"tconstruct:armor": 1.5f
+												"tconstruct:durability": 125.0f
+												"tconstruct:knockback_resistance": 0.05f
+											}
+											tic_volatile_data: {
+												defense: 3
+												upgrades: 2
+											}
+										}
+									}
+									{
+										Count: 1b
+										Slot: 7b
+										id: "marveloustinker:combat_maid_boots"
+										tag: {
+											Damage: 0
+											display: {
+												Lore: [ ]
+												Name: "{\"text\":\"§6女仆靴\"}"
+											}
+											etstlib_tool_uuid: "d833cd0d-3a31-441d-8500-62059dc61806"
+											tic_broken: 0b
+											tic_materials: [
+												"tconstruct:wood"
+												"tconstruct:wood"
+											]
+											tic_modifiers: [
+												{
+													level: 2
+													name: "tconstruct:cultivated"
+												}
+												{
+													level: 2
+													name: "mushroom_daydream:ecological"
+												}
+												{
+													level: 1
+													name: "marveloustinker:combat_maid"
+												}
+											]
+											tic_persistent: { }
+											tic_stats: {
+												"marveloustinker:empty_hand_damage": 1.0f
+												"marveloustinker:health_bonus": 2.0f
+												"marveloustinker:regeneration_bonus": 2.0f
+												"tconstruct:armor": 1.0f
+												"tconstruct:durability": 55.0f
+												"tconstruct:knockback_resistance": 0.05f
+											}
+											tic_volatile_data: {
+												defense: 3
+												upgrades: 2
+											}
+										}
+									}
+									{
+										Count: 1b
+										Slot: 8b
+										id: "ticex:reforged_slashblade"
+										tag: {
+											Damage: 0
+											bladeState: { }
+											display: {
+												Lore: [
+													"{\"text\":\"§6村里最好的刀\"}"
+													"{\"text\":\"§4（谁家村里最好的刀是木头做的啊？）\"}"
+												]
+												Name: "{\"text\":\"§6村好刀\"}"
+											}
+											etstlib_tool_uuid: "0295ad90-a0a6-4589-9878-065ea2da4241"
+											tic_broken: 0b
+											tic_materials: [
+												"tconstruct:wood"
+												"tconstruct:wood"
+												"tconstruct:wood"
+											]
+											tic_modifiers: [
+												{
+													level: 3
+													name: "tconstruct:cultivated"
+												}
+												{
+													level: 3
+													name: "mushroom_daydream:ecological"
+												}
+											]
+											tic_multipliers: {
+												"tconstruct:attack_speed": 2.6f
+												"tconstruct:durability": 1.1f
+												"tconstruct:mining_speed": 0.5f
+											}
+											tic_persistent: { }
+											tic_stats: {
+												"tconstruct:attack_damage": 3.0f
+												"tconstruct:attack_speed": 4.16f
+												"tconstruct:durability": 82.5f
+												"tconstruct:mining_speed": 1.25f
+											}
+											tic_volatile_data: {
+												abilities: 1
+												upgrades: 3
+											}
+										}
+									}
+								]
+							}
+							display: {
+								Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"dark_purple\",\"text\":\"背包内物品暂时封禁\"}],\"text\":\"\"}"]
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"新手装备小包\"}],\"text\":\"\"}"
+								color: 9394751
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B6D24E48E7459FB"
+					item: {
+						Count: 1
+						id: "minecraft:brown_shulker_box"
+						tag: {
+							BlockEntityTag: {
+								CustomName: "{\"text\":\"§6新手装备盒\"}"
+								ForgeCaps: {
+									"astages:owners": {
+										owner: [I;
+											-2094034348
+											1131430011
+											-1898624662
+											521106182
+										]
+									}
+								}
+								Items: [
+									{
+										Count: 1b
+										Slot: 0b
+										id: "tconstruct:plate_helmet"
+										tag: {
+											Damage: 0
+											display: {
+												Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"工匠的新人头盔\"}],\"text\":\"\"}"
+											}
+											etstlib_tool_uuid: "17acb77c-7ad1-4857-a99c-99f8d69bcec3"
+											tic_broken: 0b
+											tic_materials: [
+												"tconstruct:wood"
+												"tconstruct:wood"
+											]
+											tic_modifiers: [
+												{
+													level: 2
+													name: "tconstruct:cultivated"
+												}
+												{
+													level: 2
+													name: "mushroom_daydream:ecological"
+												}
+											]
+											tic_persistent: { }
+											tic_stats: {
+												"tconstruct:armor": 1.0f
+												"tconstruct:durability": 85.0f
+												"tconstruct:knockback_resistance": 0.05f
+											}
+											tic_volatile_data: {
+												abilities: 3
+												defense: 2
+												upgrades: 2
+											}
+										}
+									}
+									{
+										Count: 1b
+										Slot: 3b
+										id: "tinkers_thinking:repeating_crossbow"
+										tag: {
+											Damage: 0
+											display: {
+												Lore: [
+													"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"这分明是一把木连弩！\"}],\"text\":\"\"}"
+													"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"可以一次性装填三根箭矢\"}],\"text\":\"\"}"
+													"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"作为前途渺茫连弩的继任者，它已经可以替换部件了\"}],\"text\":\"\"}"
+												]
+												Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"red\",\"text\":\"地狱升华之弩\"}],\"text\":\"\"}"
+											}
+											tic_broken: 0b
+											tic_materials: [
+												"tconstruct:wood"
+												"tconstruct:wood"
+												"tconstruct:string"
+											]
+											tic_modifiers: [
+												{
+													level: 2
+													name: "tconstruct:cultivated"
+												}
+												{
+													level: 2
+													name: "mushroom_daydream:ecological"
+												}
+												{
+													level: 1
+													name: "tconstruct:stringy"
+												}
+											]
+											tic_multipliers: {
+												"tconstruct:durability": 1.6f
+											}
+											tic_persistent: { }
+											tic_stats: {
+												"tconstruct:attack_damage": 1.0f
+												"tconstruct:attack_speed": 1.2f
+												"tconstruct:draw_speed": 0.8f
+												"tconstruct:durability": 96.0f
+											}
+											tic_volatile_data: {
+												abilities: 1
+												upgrades: 2
+											}
+										}
+									}
+									{
+										Count: 1b
+										Slot: 5b
+										id: "tinker_transplant:arrow"
+										tag: {
+											Damage: 0
+											display: {
+												Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"是的，需要你一步步把它升级成配得上它名字的地步\"}],\"text\":\"\"}"]
+												Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"传奇工匠之箭\"}],\"text\":\"\"}"
+											}
+											tic_broken: 0b
+											tic_materials: [
+												"tconstruct:wood"
+												"tconstruct:wood"
+												"tconstruct:wood"
+												"tconstruct:wood"
+												"tconstruct:feather"
+											]
+											tic_modifiers: [
+												{
+													level: 1
+													name: "tconstruct:unbreakable"
+												}
+												{
+													level: 5
+													name: "tconstruct:reinforced"
+												}
+												{
+													level: 1
+													name: "tconstruct:netherite"
+												}
+												{
+													level: 1
+													name: "tinker_transplant:durability_substitution"
+												}
+												{
+													level: 2
+													name: "tconstruct:economical"
+												}
+												{
+													level: 2
+													name: "tconstruct:cultivated"
+												}
+												{
+													level: 2
+													name: "mushroom_daydream:ecological"
+												}
+												{
+													level: 1
+													name: "mushroom_concept:break_wind"
+												}
+											]
+											tic_multipliers: {
+												"tconstruct:attack_damage": 0.5f
+												"tconstruct:durability": 0.1f
+												"tconstruct:projectile_damage": 0.5f
+											}
+											tic_persistent: {
+												abilities: 0
+												upgrades: 0
+											}
+											tic_stats: {
+												"tconstruct:accuracy": 0.6f
+												"tconstruct:durability": 7.2000003f
+												"tconstruct:harvest_tier": "minecraft:netherite"
+												"tconstruct:mining_speed": 2.0f
+												"tconstruct:velocity": 0.935f
+												"tconstruct:water_inertia": 0.7f
+											}
+											tic_upgrades: [
+												{
+													level: 5
+													name: "tconstruct:reinforced"
+												}
+												{
+													level: 1
+													name: "tconstruct:netherite"
+												}
+												{
+													level: 1
+													name: "tinker_transplant:durability_substitution"
+												}
+												{
+													level: 1
+													name: "tconstruct:unbreakable"
+												}
+											]
+											tic_volatile_data: {
+												abilities: 1
+												"tconstruct:indestructible": 1b
+												"tconstruct:rarity": 2
+												upgrades: 3
+											}
+										}
+									}
+									{
+										Count: 1b
+										Slot: 8b
+										id: "tconstruct:plate_leggings"
+										tag: {
+											Damage: 0
+											display: {
+												Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"工匠的新人护腿\"}],\"text\":\"\"}"
+											}
+											etstlib_tool_uuid: "cc41fa43-2cb8-4f71-b49a-fec7bdc9dab2"
+											tic_broken: 0b
+											tic_materials: [
+												"tconstruct:wood"
+												"tconstruct:wood"
+											]
+											tic_modifiers: [
+												{
+													level: 2
+													name: "tconstruct:cultivated"
+												}
+												{
+													level: 2
+													name: "mushroom_daydream:ecological"
+												}
+											]
+											tic_persistent: { }
+											tic_stats: {
+												"tconstruct:armor": 1.5f
+												"tconstruct:durability": 125.0f
+												"tconstruct:knockback_resistance": 0.05f
+											}
+											tic_volatile_data: {
+												abilities: 3
+												defense: 2
+												upgrades: 2
+											}
+										}
+									}
+									{
+										Count: 1b
+										Slot: 11b
+										id: "tinkers_thinking:paxel"
+										tag: {
+											Damage: 0
+											display: {
+												Lore: [
+													"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"作为新一代的新手挖掘工具\"}],\"text\":\"\"}"
+													"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"世一镐的继任者\"}],\"text\":\"\"}"
+												]
+												Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"#0000FF\",\"text\":\"世\"},{\"color\":\"#0050FF\",\"text\":\"界\"},{\"color\":\"#00A0FF\",\"text\":\"第\"},{\"color\":\"#00FFFF\",\"text\":\"一\"},{\"color\":\"#00FFA0\",\"text\":\"把\"},{\"color\":\"#00FF50\",\"text\":\"木\"},{\"color\":\"#00FF00\",\"text\":\"镐\"},{\"color\":\"#50FF00\",\"text\":\"斧\"}],\"text\":\"\"}"
+											}
+											etstlib_tool_uuid: "4ada7664-fa3d-4b52-a6a4-9c289579c75a"
+											tic_broken: 0b
+											tic_materials: [
+												"tconstruct:wood"
+												"tconstruct:wood"
+												"tconstruct:wood"
+											]
+											tic_modifiers: [
+												{
+													level: 3
+													name: "tconstruct:cultivated"
+												}
+												{
+													level: 3
+													name: "mushroom_daydream:ecological"
+												}
+												{
+													level: 1
+													name: "tconstruct:killager"
+												}
+												{
+													level: 1
+													name: "tconstruct:stripping"
+												}
+											]
+											tic_multipliers: {
+												"tconstruct:durability": 1.25f
+												"tconstruct:mining_speed": 0.8f
+											}
+											tic_persistent: { }
+											tic_stats: {
+												"tconstruct:attack_damage": 4.5f
+												"tconstruct:attack_speed": 1.1f
+												"tconstruct:durability": 75.0f
+												"tconstruct:mining_speed": 1.6f
+											}
+											tic_volatile_data: {
+												abilities: 1
+												upgrades: 3
+											}
+										}
+									}
+									{
+										Count: 1b
+										Slot: 12b
+										id: "sakuratinker:blade_convergence"
+										tag: {
+											Damage: 0
+											display: {
+												Lore: [
+													"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"万剑归一！\"}],\"text\":\"\"}"
+													"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"右键发射循环剑刃\"}],\"text\":\"\"}"
+													"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"需要在工匠砧替换部件\"}],\"text\":\"\"}"
+													"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"作为暂时封禁重铸拔刀剑的补偿\"}],\"text\":\"\"}"
+												]
+												Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"red\",\"text\":\"天顶剑\"}],\"text\":\"\"}"
+											}
+											etstlib_tool_uuid: "b811aa03-2ff7-44c1-85e4-cc1e826296fd"
+											tic_broken: 0b
+											tic_materials: [
+												"tconstruct:wood"
+												"tconstruct:wood"
+												"tconstruct:bone"
+												"tconstruct:wood"
+											]
+											tic_modifiers: [
+												{
+													level: 2
+													name: "tconstruct:cultivated"
+												}
+												{
+													level: 2
+													name: "mushroom_daydream:ecological"
+												}
+												{
+													level: 1
+													name: "tconstruct:pierce"
+												}
+												{
+													level: 1
+													name: "sakuratinker:blade_convergence"
+												}
+											]
+											tic_multipliers: {
+												"tconstruct:attack_damage": 1.6f
+												"tconstruct:durability": 2.2f
+											}
+											tic_persistent: { }
+											tic_stats: {
+												"tconstruct:attack_damage": 5.6f
+												"tconstruct:attack_speed": 2.75f
+												"tconstruct:durability": 198.0f
+												"tconstruct:mining_speed": 4.0f
+											}
+											tic_volatile_data: {
+												abilities: 2
+												upgrades: 2
+											}
+										}
+									}
+									{
+										Count: 1b
+										Slot: 13b
+										id: "irons_spellbooks:graybeard_staff"
+										tag: {
+											display: {
+												Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"实际上就是个破木杖\"}],\"text\":\"\"}"]
+												Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"red\",\"text\":\"世界树法杖\"}],\"text\":\"\"}"
+											}
+										}
+									}
+									{
+										Count: 1b
+										Slot: 14b
+										id: "sakuratinker:first_fractal"
+										tag: {
+											Damage: 0
+											display: {
+												Lore: [
+													"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"左键向指定位置远程发射剑气\"}],\"text\":\"\"}"
+													"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"需要在工匠砧替换部件\"}],\"text\":\"\"}"
+													"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"作为暂时封禁重铸拔刀剑的补偿\"}],\"text\":\"\"}"
+												]
+												Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"red\",\"text\":\"最初分形\"}],\"text\":\"\"}"
+											}
+											etstlib_tool_uuid: "f4d5c6d3-a5bd-421b-8596-2b3acf367222"
+											tic_broken: 0b
+											tic_materials: [
+												"tconstruct:wood"
+												"tconstruct:bone"
+												"tconstruct:wood"
+												"tconstruct:wood"
+											]
+											tic_modifiers: [
+												{
+													level: 3
+													name: "tconstruct:cultivated"
+												}
+												{
+													level: 3
+													name: "mushroom_daydream:ecological"
+												}
+												{
+													level: 1
+													name: "tconstruct:pierce"
+												}
+												{
+													level: 1
+													name: "sakuratinker:first_fractal"
+												}
+											]
+											tic_multipliers: {
+												"tconstruct:attack_damage": 1.6f
+												"tconstruct:durability": 1.6f
+											}
+											tic_persistent: { }
+											tic_stats: {
+												"sakuratinker:range": 8.0f
+												"tconstruct:attack_damage": 8.8f
+												"tconstruct:durability": 96.0f
+												"tconstruct:mining_speed": 2.0f
+											}
+											tic_volatile_data: {
+												abilities: 1
+												upgrades: 2
+											}
+										}
+									}
+									{
+										Count: 1b
+										Slot: 15b
+										id: "sakuratinker:tinker_spell_book"
+										tag: {
+											Damage: 0
+											ISB_Spells: {
+												data: [
+													{
+														id: "irons_spellbooks:magic_missile"
+														index: 0
+														level: 1
+														locked: 0b
+													}
+													{
+														id: "irons_spellbooks:magic_arrow"
+														index: 1
+														level: 1
+														locked: 0b
+													}
+												]
+												maxSpells: 10
+												mustEquip: 1b
+												spellWheel: 1b
+											}
+											display: {
+												Lore: [
+													"{\"text\":\"§eshift+r§6轮盘切换魔法\"}"
+													"{\"text\":\"§eshift+g+鼠标滚轮§6快速切换魔法\"}"
+													"{\"text\":\"§e默认鼠标键5§6释放魔法\"}"
+												]
+												Name: "{\"text\":\"§6传奇工匠の魔法书\"}"
+											}
+											etstlib_tool_uuid: "f9452258-119d-4aa0-92b0-c34e932c8bc9"
+											tic_materials: [
+												"tconstruct:wood"
+												"tconstruct:wood"
+												"tconstruct:wood"
+											]
+											tic_modifiers: [
+												{
+													level: 2
+													name: "tconstruct:cultivated"
+												}
+												{
+													level: 2
+													name: "mushroom_daydream:ecological"
+												}
+												{
+													level: 1
+													name: "tprt:nature_affinity"
+												}
+												{
+													level: 1
+													name: "sakuratinker:arcane_tinkering"
+												}
+											]
+											tic_multipliers: {
+												"tconstruct:attack_damage": 1.2f
+											}
+											tic_persistent: { }
+											tic_stats: {
+												"sakuratinker:base_spell_damage": 5.0f
+												"sakuratinker:cast_time": 2.0f
+												"sakuratinker:spell_power": 0.0f
+												"sakuratinker:spell_reduce": 0.2f
+												"tconstruct:attack_damage": 1.8000001f
+												"tconstruct:attack_speed": 0.8f
+												"tconstruct:durability": 60.0f
+												"tconstruct:mining_speed": 2.0f
+											}
+											tic_volatile_data: {
+												upgrades: 5
+											}
+										}
+									}
+									{
+										Count: 1b
+										Slot: 18b
+										id: "tconstruct:plate_chestplate"
+										tag: {
+											Damage: 0
+											display: {
+												Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"工匠的新人盔甲\"}],\"text\":\"\"}"
+											}
+											etstlib_tool_uuid: "e51ac595-1b61-4c7a-9c08-8588608715e9"
+											tic_broken: 0b
+											tic_materials: [
+												"tconstruct:wood"
+												"tconstruct:wood"
+											]
+											tic_modifiers: [
+												{
+													level: 2
+													name: "tconstruct:cultivated"
+												}
+												{
+													level: 2
+													name: "mushroom_daydream:ecological"
+												}
+											]
+											tic_multipliers: {
+												"tconstruct:attack_damage": 0.4f
+											}
+											tic_persistent: { }
+											tic_stats: {
+												"tconstruct:armor": 1.5f
+												"tconstruct:durability": 160.0f
+												"tconstruct:knockback_resistance": 0.05f
+											}
+											tic_volatile_data: {
+												abilities: 3
+												defense: 2
+												upgrades: 2
+											}
+										}
+									}
+									{
+										Count: 1b
+										Slot: 21b
+										id: "tinkers_things:shortbow"
+										tag: {
+											Damage: 0
+											display: {
+												Lore: ["{\"text\":\"§6是的，需要你一步步把它升级成配得上它名字的地步\"}"]
+												Name: "{\"text\":\"§6传奇工匠之弓\"}"
+											}
+											etstlib_tool_uuid: "a3d189f1-604b-40da-954d-58cfb2a1e703"
+											tic_broken: 0b
+											tic_materials: [
+												"tconstruct:wood"
+												"tconstruct:wood"
+												"tconstruct:string"
+											]
+											tic_modifiers: [
+												{
+													level: 2
+													name: "tconstruct:cultivated"
+												}
+												{
+													level: 2
+													name: "mushroom_daydream:ecological"
+												}
+												{
+													level: 1
+													name: "tconstruct:stringy"
+												}
+											]
+											tic_multipliers: {
+												"tconstruct:velocity": 0.8f
+											}
+											tic_persistent: {
+												abilities: 0
+											}
+											tic_stats: {
+												"tconstruct:accuracy": 0.6f
+												"tconstruct:durability": 240.0f
+												"tconstruct:use_item_speed": 0.8f
+												"tconstruct:velocity": 0.8f
+											}
+											tic_volatile_data: {
+												abilities: 1
+												upgrades: 3
+											}
+										}
+									}
+									{
+										Count: 1b
+										Slot: 22b
+										id: "sakuratinker:tinker_charm"
+										tag: {
+											Damage: 0
+											display: {
+												Lore: [
+													"{\"text\":\"§6一件增加属性的装备\"}"
+													"{\"text\":\"§6你需要通过升级让它配得上它的名字\"}"
+												]
+												Name: "{\"text\":\"§6传奇工匠护符\"}"
+											}
+											etstlib_tool_uuid: "18dfdebc-fade-4302-83c2-898ea8fe7566"
+											tic_broken: 0b
+											tic_materials: [
+												"tconstruct:wood"
+												"tconstruct:wood"
+											]
+											tic_modifiers: [{
+												level: 2
+												name: "tprt:nature_affinity"
+											}]
+											tic_persistent: { }
+											tic_stats: {
+												"sakuratinker:armor": 0.05f
+												"sakuratinker:health": 8.0f
+												"sakuratinker:movement_speed": 0.1f
+												"tconstruct:armor": 1.0f
+												"tconstruct:attack_damage": 1.0f
+											}
+											tic_volatile_data: {
+												abilities: 1
+												upgrades: 3
+											}
+										}
+									}
+									{
+										Count: 1b
+										Slot: 23b
+										id: "tconstruct:sword"
+										tag: {
+											Damage: 0
+											display: {
+												Lore: [
+													"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"red\",\"text\":\"（分明就是把木剑）\"}],\"text\":\"\"}"
+													"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"但或许真能达到差不多的强度？\"}],\"text\":\"\"}"
+												]
+												Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"red\",\"text\":\"寰宇支配之剑\"}],\"text\":\"\"}"
+											}
+											etstlib_tool_uuid: "77eb1a7c-1ca5-4320-8201-433dd11e0c53"
+											tic_broken: 0b
+											tic_materials: [
+												"tconstruct:wood"
+												"tconstruct:wood"
+												"tconstruct:wood"
+											]
+											tic_modifiers: [
+												{
+													level: 3
+													name: "tconstruct:cultivated"
+												}
+												{
+													level: 3
+													name: "mushroom_daydream:ecological"
+												}
+												{
+													level: 1
+													name: "tconstruct:silky_shears"
+												}
+											]
+											tic_multipliers: {
+												"tconstruct:durability": 1.1f
+												"tconstruct:mining_speed": 0.5f
+											}
+											tic_persistent: { }
+											tic_stats: {
+												"tconstruct:attack_damage": 3.0f
+												"tconstruct:attack_speed": 1.6f
+												"tconstruct:block_amount": 10.0f
+												"tconstruct:durability": 66.0f
+											}
+											tic_volatile_data: {
+												abilities: 1
+												defense: 3
+												upgrades: 1
+											}
+										}
+									}
+									{
+										Count: 1b
+										Slot: 26b
+										id: "tconstruct:plate_boots"
+										tag: {
+											Damage: 0
+											display: {
+												Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"工匠的新人靴子\"}],\"text\":\"\"}"
+											}
+											etstlib_tool_uuid: "455c437f-77cb-4112-8bbb-a0ea66b309e0"
+											tic_broken: 0b
+											tic_materials: [
+												"tconstruct:wood"
+												"tconstruct:wood"
+											]
+											tic_modifiers: [
+												{
+													level: 2
+													name: "tconstruct:cultivated"
+												}
+												{
+													level: 2
+													name: "mushroom_daydream:ecological"
+												}
+											]
+											tic_persistent: { }
+											tic_stats: {
+												"tconstruct:armor": 1.0f
+												"tconstruct:durability": 55.0f
+												"tconstruct:knockback_resistance": 0.05f
+											}
+											tic_volatile_data: {
+												abilities: 3
+												defense: 2
+												upgrades: 2
+											}
+										}
+									}
+								]
+								id: "minecraft:shulker_box"
+							}
+							display: {
+								Name: "{\"text\":\"§6新手装备盒\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "2A2B8338E7D5B10F"
+				type: "checkmark"
+			}]
+			title: "新手奖励"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["418A682BE565AEC3"]
+			icon: "minecraft:oak_log"
+			id: "052971BAC754FF0C"
+			rewards: [{
+				auto: "enabled"
+				count: 10
+				id: "3C134D03210DF14C"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45BA148C12B1502E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "获得木头"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["418A682BE565AEC3"]
+			description: [
+				"&m&c原任务兑换方式已删除，现在通过合成兑换&r&r"
+				""
+				"&c合成配方转化已修改为通过货币槽等比兑换（按住shift）&r"
+				""
+				"可使用&e妖妖币mod&r进行存储，&e每种货币&r的上限为&e999&r"
+				""
+				"可整体移动存储框的位置，按住&ecrtl键&r可单格微调"
+				"{image:ftbquests:textures/picture/008.png width:200 height:43 align:center}"
+			]
+			id: "508D6A8FCAA795DE"
+			rewards: [{
+				auto: "enabled"
+				id: "5B2B480B029A4F27"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F62DDD014B54A16"
+				type: "checkmark"
+			}]
+			title: "货币兑换"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["418A682BE565AEC3"]
+			description: [
+				"在工作台将&e阿卡什宝典&r与&e其他模组手册&r合成，右击即可点击手册查看，左击空气即可切换回&e阿卡什宝典&r。"
+				""
+				"当然，你也可以将&e许多工具&r与&e阿卡什宝典&r融合，包括&e便携式转化桌&r，&e奥术平板&r，&e群系指南针&r等"
+				""
+				"将&e阿卡什宝典&r切换到想拆卸的手册，&eShift （潜行按键）+ Q （丢弃物品按键）&r即可拆卸下来。"
+				""
+				"包含近乎所有&e教程书&r及&e扳手&r"
+				""
+				"是的，&e阿卡什宝典&r还能放&e扳手&r"
+				""
+				"可重复领取"
+			]
+			icon: "akashictome:tome"
+			id: "2FD0D71C13478BD6"
+			rewards: [
+				{
+					id: "002F481E0BC1D95E"
+					item: {
+						Count: 1
+						id: "akashictome:tome"
+						tag: {
+							"akashictome:data": {
+								aether: {
+									Count: 1b
+									id: "aether:book_of_lore"
+								}
+								alexscaves: {
+									Count: 1b
+									id: "alexscaves:cave_book"
+								}
+								alexsmobs: {
+									Count: 1b
+									id: "alexsmobs:animal_dictionary"
+								}
+								ars_nouveau: {
+									Count: 1b
+									id: "ars_nouveau:worn_notebook"
+								}
+								botania: {
+									Count: 1b
+									id: "botania:lexicon"
+									tag: {
+										"botania:elven_unlock": 1b
+									}
+								}
+								enigmaticlegacy: {
+									Count: 1b
+									id: "enigmaticlegacy:the_acknowledgment"
+								}
+								ftbquests: {
+									Count: 1b
+									id: "ftbquests:book"
+								}
+								grimoireofgaia: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "grimoireofgaia:gaiapedia"
+									}
+								}
+								ice_and_fire_delight: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "ice_and_fire_delight:cookbook"
+									}
+								}
+								iceandfire: {
+									Count: 1b
+									id: "iceandfire:bestiary"
+									tag: {
+										Pages: [I;
+											0
+											24
+											6
+											7
+											5
+											17
+											2
+											3
+											12
+											16
+											10
+											14
+											23
+											1
+											8
+											9
+											26
+											25
+											15
+											4
+											13
+											20
+											22
+											21
+											11
+											19
+											18
+										]
+										"akashictome:displayName": {
+											text: "{\"translate\":\"item.iceandfire.bestiary\"}"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.iceandfire.bestiary\"}]}"
+										}
+									}
+								}
+								immersiveengineering: {
+									Count: 1b
+									id: "immersiveengineering:manual"
+								}
+								irons_spellbooks: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "irons_spellbooks:iss_guide_book"
+									}
+								}
+								l2hostility: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "l2hostility:hostility_guide"
+									}
+								}
+								mekanism: {
+									Count: 1b
+									id: "mekanism:dictionary"
+								}
+								mg_secrets_of_mermaids: {
+									Count: 1b
+									ForgeCaps: {
+										Parent: {
+											Items: [ ]
+											Size: 0
+										}
+									}
+									id: "mg_secrets_of_mermaids:of_mermaids_and_other_sea_monsters"
+									tag: {
+										Inventory: {
+											Items: [ ]
+											Size: 0
+										}
+									}
+								}
+								monsters_and_girls: {
+									Count: 1b
+									ForgeCaps: {
+										Parent: {
+											Items: [ ]
+											Size: 0
+										}
+									}
+									id: "monsters_and_girls:monster_girls_bestiary"
+									tag: {
+										Inventory: {
+											Items: [ ]
+											Size: 0
+										}
+									}
+								}
+								mysticalagriculture: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "mysticalagriculture:guide"
+									}
+								}
+								nffgirls: {
+									Count: 1b
+									id: "nffgirls:mob_dictionary"
+								}
+								nffgirlsgaia: {
+									Count: 1b
+									id: "nffgirlsgaia:mob_dictionary"
+								}
+								pneumaticcraft: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "pneumaticcraft:book"
+									}
+								}
+								solcarrot: {
+									Count: 1b
+									id: "solcarrot:food_book"
+									tag: {
+										"akashictome:displayName": {
+											text: "{\"translate\":\"item.solcarrot.food_book\"}"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.solcarrot.food_book\"}]}"
+										}
+									}
+								}
+								thermal: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "thermal:guidebook"
+									}
+								}
+								tinkersjewelry: {
+									Count: 1b
+									id: "tinkersjewelry:book"
+								}
+							}
+							"akashictome:is_morphing": 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77B44DF7AE37BCFA"
+					item: {
+						Count: 1
+						id: "akashictome:tome"
+						tag: {
+							"akashictome:data": {
+								ae2: {
+									Count: 1b
+									id: "ae2:certus_quartz_wrench"
+									tag: {
+										"akashictome:displayName": {
+											text: "{\"translate\":\"item.ae2.certus_quartz_wrench\"}"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.ae2.certus_quartz_wrench\"}]}"
+										}
+									}
+								}
+								botania: {
+									Count: 1b
+									id: "botania:twig_wand"
+									tag: {
+										"akashictome:displayName": {
+											text: "{\"extra\":[{\"extra\":[{\"color\":\"dark_green\",\"translate\":\"botaniamisc.wandMode.bind\"},{\"text\":\")\"}],\"text\":\" (\"}],\"translate\":\"item.botania.twig_wand\"}"
+										}
+										"akashictome:is_morphing": 1b
+										color1: 0
+										color2: 0
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"extra\":[{\"extra\":[{\"color\":\"dark_green\",\"translate\":\"botaniamisc.wandMode.bind\"},{\"text\":\")\"}],\"text\":\" (\"}],\"translate\":\"item.botania.twig_wand\"}]}"
+										}
+									}
+								}
+								create: {
+									Count: 1b
+									id: "create:wrench"
+									tag: {
+										"akashictome:displayName": {
+											text: "{\"translate\":\"item.create.wrench\"}"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.create.wrench\"}]}"
+										}
+									}
+								}
+								draconicevolution: {
+									Count: 1b
+									id: "draconicevolution:crystal_binder"
+									tag: {
+										"akashictome:displayName": {
+											text: "{\"translate\":\"item.draconicevolution.crystal_binder\"}"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.draconicevolution.crystal_binder\"}]}"
+										}
+									}
+								}
+								immersiveengineering: {
+									Count: 1b
+									id: "immersiveengineering:hammer"
+									tag: {
+										Damage: 0
+										Unbreakable: 1b
+										"akashictome:displayName": {
+											text: "{\"translate\":\"item.immersiveengineering.hammer\"}"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.immersiveengineering.hammer\"}]}"
+										}
+									}
+								}
+								immersiveengineering_0: {
+									Count: 1b
+									id: "immersiveengineering:wirecutter"
+									tag: {
+										Damage: 0
+										Unbreakable: 1b
+										"akashictome:definedMod": "immersiveengineering_0"
+										"akashictome:displayName": {
+											text: "{\"translate\":\"item.immersiveengineering.wirecutter\"}"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.immersiveengineering.wirecutter\"}]}"
+										}
+									}
+								}
+								immersiveengineering_1: {
+									Count: 1b
+									id: "immersiveengineering:screwdriver"
+									tag: {
+										"akashictome:definedMod": "immersiveengineering_1"
+										"akashictome:displayName": {
+											text: "{\"translate\":\"item.immersiveengineering.screwdriver\"}"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.immersiveengineering.screwdriver\"}]}"
+										}
+									}
+								}
+								mekanism: {
+									Count: 1b
+									id: "mekanism:configurator"
+									tag: {
+										"akashictome:displayName": {
+											text: "{\"color\":\"#30FFF9\",\"translate\":\"item.mekanism.configurator\"}"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.mekanism.configurator\"}]}"
+										}
+									}
+								}
+								pipez: {
+									Count: 1b
+									id: "pipez:wrench"
+									tag: {
+										"akashictome:displayName": {
+											text: "{\"translate\":\"item.pipez.wrench\"}"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.pipez.wrench\"}]}"
+										}
+									}
+								}
+								pneumaticcraft: {
+									Count: 1b
+									id: "pneumaticcraft:pneumatic_wrench"
+									tag: {
+										"akashictome:displayName": {
+											text: "{\"translate\":\"item.pneumaticcraft.pneumatic_wrench\"}"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.pneumaticcraft.pneumatic_wrench\"}]}"
+										}
+										"pneumaticcraft:air": 30000
+									}
+								}
+								pneumaticcraft_0: {
+									Count: 1b
+									id: "pneumaticcraft:logistics_configurator"
+									tag: {
+										"akashictome:definedMod": "pneumaticcraft_0"
+										"akashictome:displayName": {
+											text: "{\"translate\":\"item.pneumaticcraft.logistics_configurator\"}"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.pneumaticcraft.logistics_configurator\"}]}"
+										}
+										"pneumaticcraft:air": 30000
+									}
+								}
+								thermal: {
+									Count: 1b
+									id: "thermal:wrench"
+									tag: {
+										Damage: 10
+										"akashictome:displayName": {
+											text: "{\"translate\":\"item.thermal.wrench\"}"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.thermal.wrench\"}]}"
+										}
+									}
+								}
+							}
+							"akashictome:is_morphing": 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4157EEE6DCDCBE79"
+				type: "checkmark"
+			}]
+			title: "&5阿卡什宝典"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["418A682BE565AEC3"]
+			icon: "artifacts:digging_claws"
+			id: "220ED9051B4694A0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06C573F3F4E8F67E"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3BFA5EA8BCD6B570"
+				item: "artifacts:digging_claws"
+				type: "item"
+			}]
+			title: "一件不错的饰品"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["418A682BE565AEC3"]
+			description: ["动物不再直接掉肉，你需要用&e屠刀&r切割它们的尸体"]
+			icon: {
+				Count: 1
+				id: "butchersdelight:cleaver"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1B1EAD6CE8296E86"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3A02085EBCFA2EA7"
+					item: {
+						Count: 1
+						id: "butchersdelight:cleaver"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+							]
+							RepairCost: 1
+							display: {
+								Lore: ["{\"text\":\"§5用于肢解动物尸体\"}"]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19D7D7AB63F2A765"
+					item: {
+						Count: 1
+						id: "butchersdelight:hook"
+						tag: {
+							display: {
+								Lore: [
+									"{\"text\":\"§5只能放置在方块底部。\"}"
+									"{\"text\":\"§5将除了死鸡以外的动物右击钩子就可以挂起尸体。\"}"
+									"{\"text\":\"§5用钩子挂起的生物可以肢解出更多食物。\"}"
+								]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FDF95B4188FA16F"
+					item: {
+						Count: 1
+						id: "butchersdelight:rack"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"§5将动物皮毛放上去，用剪刀可以获取对应产物\"}"]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41D6548853699E84"
+					item: {
+						Count: 1
+						id: "minecraft:shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "756EFB42F6A8B608"
+				title: "屠夫乐事"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["418A682BE565AEC3"]
+			description: [
+				"可以用&e加速火把&r加速建造"
+				""
+				"蓝图可能失效，使用&e蓝图桌重&r新打印即可"
+				""
+				"ps.方块状态无法直接建造，比如&e通用机械的管道&r，需要自行调整"
+			]
+			icon: "create:schematicannon"
+			id: "1D8588EE082E8BB3"
+			rewards: [
+				{
+					id: "3AD676565BE0A034"
+					item: "create:schematicannon"
+					type: "item"
+				}
+				{
+					id: "45DDB7819D930352"
+					item: "create:schematic_table"
+					type: "item"
+				}
+				{
+					id: "37A95A47266F8C70"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "72F357A173B418B6"
+				type: "checkmark"
+			}]
+			title: "蓝图的运用"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["508D6A8FCAA795DE"]
+			description: [""]
+			id: "6B58F88C0A56D800"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CFD19786F977660"
+				table_id: 6051700712762933703L
+				type: "choice"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "601BA9FF6DA2F0A1"
+				title: "隐藏|启用货币槽"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: "wqjy:wqjy_logo"
+			icon_scale: 1.75d
+			id: "4BF056D4FC527AA0"
+			rewards: [
+				{
+					id: "2292B086679933EE"
+					item: {
+						Count: 1
+						id: "minecraft:zombie_spawn_egg"
+						tag: {
+							EntityTag: {
+								Attributes: [
+									{
+										Base: 90000
+										Name: "generic.attackDamage"
+									}
+									{
+										Base: 1024
+										Name: "generic.maxHealth"
+									}
+									{
+										Base: 200
+										Name: "generic.armor"
+									}
+									{
+										Base: 20
+										Name: "generic.armorToughness"
+									}
+									{
+										Base: 1
+										Name: "zombie.spawnReinforcements"
+									}
+								]
+								CanBreakDoors: 1b
+								CanPickUpLoot: 0b
+								CustomName: "[{\\\"text\\\":\\\"牢尸\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]"
+								CustomNameVisible: 1b
+								DeathLootTable: "chests/desert_pyramid"
+								Glowing: 1b
+								Health: 1024
+								IsBaby: 1b
+								PersistenceRequired: 1b
+								id: "minecraft:zombie"
+							}
+							display: {
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"牢尸\"}],\"text\":\"\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0387F0A9CACCB78B"
+					item: {
+						Count: 1
+						id: "minecraft:stray_spawn_egg"
+						tag: {
+							EntityTag: {
+								Attributes: [
+									{
+										Base: 90000
+										Name: "generic.attackDamage"
+									}
+									{
+										Base: 102400
+										Name: "generic.maxHealth"
+									}
+									{
+										Base: 5
+										Name: "generic.movementSpeed"
+									}
+									{
+										Base: 200
+										Name: "generic.armor"
+									}
+									{
+										Base: 20
+										Name: "generic.armorToughness"
+									}
+								]
+								CanPickUpLoot: 0b
+								CustomName: "[{\\\"text\\\":\\\"牢骨\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]"
+								CustomNameVisible: 1b
+								DeathLootTable: "chests/abandoned_mineshaft"
+								Glowing: 1b
+								HandDropChances: [
+									0.01f
+									0.0f
+								]
+								HandItems: [
+									{
+										Count: 1b
+										id: "minecraft:diamond_axe"
+										tag: {
+											AttributeModifiers: [
+												{
+													Amount: 999999
+													AttributeName: "generic.attackDamage"
+													Name: "generic.attackDamage"
+													Operation: 0
+													UUIDLeast: -1476823412394831856L
+													UUIDMost: 2669955491219863528L
+												}
+												{
+													Amount: 4
+													AttributeName: "generic.attackSpeed"
+													Name: "generic.attackSpeed"
+													Operation: 0
+													UUIDLeast: -1568762749882468347L
+													UUIDMost: 2442855551658836253L
+												}
+												{
+													Amount: 0.1d
+													AttributeName: "generic.movementSpeed"
+													Name: "generic.movementSpeed"
+													Operation: 1
+													UUIDLeast: -1229354454111622796L
+													UUIDMost: 2257955985373345695L
+												}
+											]
+											Damage: 1560
+											display: {
+												Lore: ["{\\\"text\\\":\\\"实际上根本没用\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}"]
+												Name: "[{\\\"text\\\":\\\"斧头\\\",\\\"color\\\":\\\"aqua\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]"
+											}
+										}
+									}
+									{ }
+								]
+								Health: 102400
+								Passengers: [{
+									Attributes: [
+										{
+											Base: 90000
+											Name: "generic.attackDamage"
+										}
+										{
+											Base: 102400
+											Name: "generic.maxHealth"
+										}
+										{
+											Base: 200
+											Name: "generic.armor"
+										}
+										{
+											Base: 20
+											Name: "generic.armorToughness"
+										}
+										{
+											Base: 1
+											Name: "zombie.spawnReinforcements"
+										}
+									]
+									CanBreakDoors: 1b
+									CanPickUpLoot: 0b
+									CustomName: "[{\\\\\\\"text\\\\\\\":\\\\\\\"牢尸\\\\\\\",\\\\\\\"color\\\\\\\":\\\\\\\"gold\\\\\\\",\\\\\\\"bold\\\\\\\":true,\\\\\\\"italic\\\\\\\":false,\\\\\\\"underlined\\\\\\\":false,\\\\\\\"strikethrough\\\\\\\":false,\\\\\\\"obfuscated\\\\\\\":false}]"
+									CustomNameVisible: 1b
+									DeathLootTable: "chests/desert_pyramid"
+									Glowing: 1b
+									Health: 102400
+									IsBaby: 1b
+									PersistenceRequired: 1b
+									id: "minecraft:zombie"
+								}]
+								PersistenceRequired: 1b
+								id: "minecraft:stray"
+							}
+							display: {
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"牢骨\"}],\"text\":\"\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				id: "47245DCBDC0E9461"
+				type: "checkmark"
+			}]
+			title: "   "
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			icon: "minecraft:observer"
+			id: "020530F41BF2C89E"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "3283A0FE698744FF"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "3C05088F5490836A"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						ModelName: "slashblade:model/named/firecrackers/firecrackers.obj"
+						RepairCounter: 0
+						SpecialAttackType: "srelic:big_drived"
+						StandbyRenderType: 2b
+						SummonedSwordColor: -13618
+						SummonedSwordColorInverse: 0b
+						TargetEntity: 0
+						TextureName: "slashblade:model/named/firecrackers/firecrackers.png"
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						baseAttackModifier: 15.0f
+						currentCombo: "slashblade:none"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isDefaultBewitched: 1b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 2916579L
+						maxDamage: 256
+						proudSoul: 0
+						translationKey: "item.slashblade.firecrackers"
+					}
+				}
+				id: "slashblade:slashblade"
+				tag: {
+					Enchantments: [
+						{
+							id: "minecraft:unbreaking"
+							lvl: 10s
+						}
+						{
+							id: "l2complements:cursed_blade"
+							lvl: 3s
+						}
+						{
+							id: "l2hostility:split_suppressor"
+							lvl: 1s
+						}
+					]
+					bladeState: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						ModelName: "slashblade:model/named/firecrackers/firecrackers.obj"
+						RepairCounter: 0
+						SpecialAttackType: "srelic:big_drived"
+						StandbyRenderType: 2b
+						SummonedSwordColor: -13618
+						SummonedSwordColorInverse: 0b
+						TargetEntity: 0
+						TextureName: "slashblade:model/named/firecrackers/firecrackers.png"
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						baseAttackModifier: 15.0f
+						currentCombo: "slashblade:none"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isDefaultBewitched: 1b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 2916579L
+						maxDamage: 256
+						proudSoul: 0
+						translationKey: "item.slashblade.firecrackers"
+					}
+				}
+			}
+			id: "7A5D19F2CF1F24CC"
+			rewards: [{
+				id: "7DAA26AAB14B01B8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/firecrackers/firecrackers.obj"
+							RepairCounter: 0
+							SpecialAttackType: "srelic:big_drived"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13618
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/named/firecrackers/firecrackers.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 15.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 2916579L
+							maxDamage: 256
+							proudSoul: 0
+							translationKey: "item.slashblade.firecrackers"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:unbreaking"
+								lvl: 10s
+							}
+							{
+								id: "l2complements:cursed_blade"
+								lvl: 3s
+							}
+							{
+								id: "l2hostility:split_suppressor"
+								lvl: 1s
+							}
+						]
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/firecrackers/firecrackers.obj"
+							RepairCounter: 0
+							SpecialAttackType: "srelic:big_drived"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13618
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/named/firecrackers/firecrackers.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 15.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 2916579L
+							maxDamage: 256
+							proudSoul: 0
+							translationKey: "item.slashblade.firecrackers"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1795B59B445715E3"
+				type: "checkmark"
+			}]
+			title: "&c新年好呀~"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"未解锁的物品&4大部分都无法拾取&r，可借助&e拾取升级&r和&e磁铁升级&r暂时保存到背包里"
+				""
+				"阶段任务位置："
+				""
+				"{ \"text\": \"点击跳转相关任务\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"002A8323600F86EC\" } }"
+			]
+			icon: "sophisticatedbackpacks:advanced_magnet_upgrade"
+			id: "2C74727E098A23BF"
+			rewards: [{
+				id: "484BB6339CECF392"
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37949C281748067A"
+				title: "说明"
+				type: "checkmark"
+			}]
+			title: "关于阶段"
+			x: -0.5d
+			y: 2.5d
+		}
+	]
+	title: "·&e基础"
+}

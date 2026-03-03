@@ -1,0 +1,2214 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "octagon"
+	default_quest_size: 1.5d
+	filename: "2F07077A46207190"
+	group: "457E9E90E1EE2E33"
+	icon: "minecraft:grass_block"
+	id: "2F07077A46207190"
+	images: [
+		{
+			height: 1.5d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/snowy_cloud"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			color: 16764791
+			height: 2.0d
+			image: "alexscaves:textures/particle/sundrop.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbchunks:textures/faces/minecraft/pig.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbchunks:textures/faces/minecraft/sheep.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbchunks:textures/faces/minecraft/parrot.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 3.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:sponge"
+			id: "618D70B3AE3045C5"
+			rewards: [
+				{
+					id: "3C8C53BDE81060DA"
+					item: {
+						Count: 1
+						id: "bountifulbaubles:vitamins"
+						tag: {
+							BaubleModifier: {
+								Attribute: "minecraft:generic.attack_damage"
+								TranslationKey: "modifier.bountifulbaubles.menacing"
+								UUID: [I;
+									-834464889
+									296242047
+									-1847679742
+									-547158399
+								]
+								Value: 0.08d
+							}
+							IsInitialized: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A6ECFAD74219C1F"
+					table_id: 2108578313458904176L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "4863A971DD09A2FA"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 0.75d
+		}
+		{
+			description: [
+				"一种前期精英怪"
+				"可以自然刷新，也可以通过将&e突变药剂&r丢到&e对应生物&r身上生成"
+				"突变有概率失败"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:splash_potion"
+				tag: {
+					Potion: "mutantmonsters:chemical_x"
+				}
+			}
+			id: "6896DEE10D2D83F5"
+			rewards: [{
+				count: 16
+				id: "72F698DDA918681F"
+				item: {
+					Count: 1
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "mutantmonsters:chemical_x"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "45A5B394432DD2F5"
+				type: "checkmark"
+			}]
+			title: "突变生物"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6896DEE10D2D83F5"]
+			description: [
+				"突变雪傀儡会让周围的水变成冰，会沿路制造雪。会自动攻击怪物，他会把冰丢向怪物"
+				""
+				"如果雪傀儡受到伤害，可以给他丢一个雪球来治疗他；如果你想让他跟过来，你可以用鼠标右键它，它的头顶上会出现你的id。"
+			]
+			icon: "mutantmonsters:mutant_snow_golem_spawn_egg"
+			id: "55F04C6452EC145E"
+			rewards: [{
+				id: "75987EC8F5360CD3"
+				item: "mutantmonsters:mutant_snow_golem_spawn_egg"
+				type: "item"
+			}]
+			subtitle: "并非敌人"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "0B5A45FC3D121816"
+					item: { Count: 64, id: "minecraft:snowball" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "0BD61C66886E61FA"
+					item: "thermal:silver_coin"
+					type: "item"
+				}
+			]
+			title: "突变雪傀儡"
+			x: -3.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["6896DEE10D2D83F5"]
+			description: ["可复活三次，点燃尸体可阻止其复活"]
+			id: "5AAD9C526FBE923F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "262150D953FEBF4D"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "mutantmonsters:mutant_zombie"
+				icon: "mutantmonsters:mutant_zombie_spawn_egg"
+				id: "321A800C76B4B4D8"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["6896DEE10D2D83F5"]
+			id: "352071CEA79C6E79"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59AC30F47BA6CC53"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton"
+				icon: "mutantmonsters:mutant_skeleton_spawn_egg"
+				id: "5F6221ED7ADEB92A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["6896DEE10D2D83F5"]
+			description: ["死亡后会发生大范围爆炸"]
+			id: "4017657DE7738ED2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "450D980A0EE92C48"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "mutantmonsters:mutant_creeper"
+				icon: "mutantmonsters:mutant_creeper_spawn_egg"
+				id: "25456240D1A1843F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: -0.75d
+		}
+		{
+			description: [
+				"搜索&eAncient Factory&r"
+				"用下界之星唤醒"
+			]
+			id: "788AF9F367FB5492"
+			rewards: [
+				{
+					id: "342F3DF9F8F8EFF5"
+					item: "cataclysm:meat_shredder"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20EB170670D7E456"
+					table_id: 2496234257689732661L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:meat_shredder"
+				id: "09FF3B34D23408C4"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"搜索&eCursed Pyramid&r"
+				""
+				"使用&e沙漠项链&r（用&e刷子&r刷遗迹内&e可疑沙子&r获取）唤醒"
+			]
+			id: "37889F2814800EFE"
+			rewards: [
+				{
+					id: "1A61AFA9F3EE1221"
+					item: {
+						Count: 1
+						id: "cataclysm:ancient_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19E792949F8B4A77"
+					table_id: 2496234257689732661L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: {
+					Count: 1
+					id: "cataclysm:ancient_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "71AE64A1C48ABFCE"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"搜索&eSunken City&r"
+				""
+				"使用&e深渊祭品&r（&5遗迹内生物&r掉落物及部分&e原版物品&r合成）在&e深渊祭坛&r上召唤"
+			]
+			id: "6C8216A363280FC5"
+			rewards: [
+				{
+					count: 3
+					id: "715EA2577E7C26FE"
+					item: "mushroom_daydream:dark_thing"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1049307812FC6E20"
+					table_id: 2496234257689732661L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:tidal_claws"
+				id: "5FF205CA8227C44E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			description: ["搜索&eFrosted Prison&r"]
+			id: "18A67F72FCE5E680"
+			rewards: [
+				{
+					id: "10473BF79207015E"
+					item: {
+						Count: 1
+						id: "cataclysm:cursed_bow"
+						tag: {
+							PrevUseTime: 0
+							UseTime: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FEBD5D034019ABA"
+					table_id: 2496234257689732661L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: "cataclysm:soul_render"
+				id: "754E571CE2A757A3"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			description: ["搜索&eAcropolis&r"]
+			id: "1BC56AD28DF42AEA"
+			rewards: [
+				{
+					id: "73FDC14348513ABE"
+					item: "cataclysm:astrape"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76FBC6DBD1C70B0C"
+					table_id: 2496234257689732661L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:scylla"
+				icon: "cataclysm:astrape"
+				id: "6310BCD645DB8BCB"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6896DEE10D2D83F5"]
+			id: "35961F46175F4ECF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D795C66B7F8EBCE"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "mutantmonsters:mutant_enderman"
+				icon: "mutantmonsters:mutant_enderman_spawn_egg"
+				id: "688A5C49A4E15B7C"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				""
+				"地图上随机生成"
+				"在海湾的独眼巨人海湾较多"
+			]
+			id: "46D988296970D7C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5239CBC57C183DB5"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:cyclops"
+				icon: "iceandfire:spawn_egg_cyclops"
+				id: "38B1D0A6E3AB038A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.75d
+			y: -4.5d
+		}
+		{
+			description: ["搜索&eGorgon temple&r"]
+			id: "43268EB4400C2F40"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A4C9118407F4535"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:gorgon"
+				icon: "iceandfire:spawn_egg_gorgon"
+				id: "4984F25704A89120"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: -5.25d
+		}
+		{
+			description: [
+				"冰火传说的九头蛇"
+				"在沼泽的九头蛇巢穴生成"
+			]
+			id: "5DCD542E5A771902"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "174E91BCE2144864"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:hydra"
+				icon: "iceandfire:spawn_egg_hydra"
+				id: "14108C1D0C79E184"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.25d
+			y: -4.5d
+		}
+		{
+			description: ["对&5瘟疫医生&r使用&e瘟疫古卷&r召唤"]
+			id: "0C19BB46A7CC5697"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "056C3462DDE82907"
+				table_id: 2496234257689732661L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "rats:black_death"
+				icon: {
+					Count: 1
+					id: "rats:black_death_mask"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "098B3776FF6F746E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.25d
+			y: -3.0d
+		}
+		{
+			description: ["搜索&ecloudy temple&r"]
+			id: "3B541353494D2DCB"
+			rewards: [
+				{
+					id: "740120EFBE6206E0"
+					item: {
+						Count: 1
+						id: "legendary_monsters:wand_of_clouds"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5BCAFA48CD00E762"
+					table_id: 2496234257689732661L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "legendary_monsters:cloud_golem"
+				icon: {
+					Count: 1
+					id: "legendary_monsters:wand_of_clouds"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "59E09D489950D456"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.75d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0C7FEB4B22538EBB"]
+			id: "756D16C1CC5A2C0B"
+			rewards: [{
+				command: "/locate biome alexscaves:primordial_caves"
+				id: "3127717BE39AF4B3"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "6D8757DCC68455F7"
+				type: "checkmark"
+			}]
+			title: "寻找原始洞穴"
+			x: -9.75d
+			y: 0.75d
+		}
+		{
+			description: ["搜索&eRuined Pyramid&r"]
+			id: "11E072CBD113AC7C"
+			rewards: [
+				{
+					id: "207DDB39499F989F"
+					item: {
+						Count: 1
+						id: "legendary_monsters:sand_cannon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "266A0421437DAA68"
+					table_id: 2108578313458904176L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "legendary_monsters:dune_sentinel"
+				icon: {
+					Count: 1
+					id: "legendary_monsters:sand_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4082C2200650FCD5"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: 0.75d
+		}
+		{
+			description: ["搜索&eFrostbitten Temple&r"]
+			id: "53042977E4D73DC5"
+			rewards: [
+				{
+					id: "7B721F6ABC7506CB"
+					item: {
+						Count: 1
+						id: "legendary_monsters:the_great_frost"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A334B545C9C1BD5"
+					table_id: 2108578313458904176L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "legendary_monsters:frostbitten_golem"
+				icon: {
+					Count: 1
+					id: "legendary_monsters:the_great_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "26C24F56F3BD4520"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			description: ["搜索&eAncient Stronghold&r"]
+			id: "6386AEE54F521728"
+			rewards: [
+				{
+					id: "1D7F0C042FBBAFD7"
+					item: {
+						Count: 1
+						id: "legendary_monsters:monstrous_anchor"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34FEA5C7781C8573"
+					table_id: 2108578313458904176L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "legendary_monsters:ancient_guardian"
+				icon: {
+					Count: 1
+					id: "legendary_monsters:monstrous_anchor"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "615F74135C8BDA7B"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			description: ["搜索&eAbandoned Crypt&r"]
+			id: "19BF65777771D739"
+			rewards: [
+				{
+					id: "0F85EBC3142D468E"
+					item: {
+						Count: 1
+						id: "legendary_monsters:soul_great_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11848581B5ADA3B5"
+					table_id: 2108578313458904176L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "legendary_monsters:posessed_paladin"
+				icon: {
+					Count: 1
+					id: "legendary_monsters:soul_great_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4409543B56E618A1"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 0.75d
+		}
+		{
+			description: ["搜索&eMossy Temple&r"]
+			id: "3D9028D744A2299D"
+			rewards: [
+				{
+					id: "2D62816D09C0E464"
+					item: {
+						Count: 1
+						id: "legendary_monsters:mossy_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E0D7F5293B5CAC8"
+					table_id: 2108578313458904176L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "legendary_monsters:overgrown_colossus"
+				icon: {
+					Count: 1
+					id: "legendary_monsters:mossy_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4085FB7B4021F9EE"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.75d
+			y: -0.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6C8216A363280FC5"]
+			description: [
+				"暗物质兑换"
+				"并非等价交换的暗物质"
+			]
+			icon: "mushroom_daydream:dark_thing"
+			id: "33A70D1E6E9C23D0"
+			rewards: [{
+				auto: "enabled"
+				id: "079537EEBA2328C7"
+				item: "mushroom_daydream:dark_thing"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0D2D9B4E94A32C4A"
+				item: "thermal:netherite_coin"
+				type: "item"
+			}]
+			x: -5.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0C7FEB4B22538EBB"]
+			description: [
+				"在&e火山核心&r周围丢出&e灾厄触媒&r"
+				""
+				"{@pagebreak}"
+				"&c核爆&r可以孵化撼地斯拉，用废料桶驯服"
+			]
+			id: "5D6F43ED929084C1"
+			rewards: [
+				{
+					id: "654982F978DE81A1"
+					item: "alexscaves:tremorzilla_egg"
+					type: "item"
+				}
+				{
+					id: "20D81A7B8684A771"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7676642799CBE247"
+					item: "alexscaves:nuclear_bomb"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				icon: "alexscaves:tectonic_shard"
+				id: "5B19BF82CA122839"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.5d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"788AF9F367FB5492"
+				"18A67F72FCE5E680"
+				"1BC56AD28DF42AEA"
+				"6C8216A363280FC5"
+				"37889F2814800EFE"
+			]
+			icon: {
+				Count: 1
+				id: "ticex:reforged_slashblade"
+				tag: {
+					Damage: 0
+					bladeState: { }
+					etstlib_tool_uuid: "98d4f286-656b-4dda-acc2-4d4600f9ac74"
+					tic_broken: 0b
+					tic_materials: [
+						"mushroom_concept:cursium"
+						"mushroom_concept:ignitium"
+						"mushroom_daydream:witherite_ingot"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "mushroom_concept:soul_forge"
+						}
+						{
+							level: 1
+							name: "mushroom_concept:fire"
+						}
+						{
+							level: 1
+							name: "mushroom_daydream:gear_of_war"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_speed": 2.6f
+						"tconstruct:durability": 1.1f
+						"tconstruct:mining_speed": 0.5f
+					}
+					tic_persistent: {
+						"aether_tinker:heroic_spirit": 41.0f
+						"mushroom_concept:heroic_spirit": 41.0f
+						"mushroom_daydream:flare": 41.0f
+					}
+					tic_stats: {
+						"tconstruct:attack_damage": 10.725f
+						"tconstruct:attack_speed": 4.3679996f
+						"tconstruct:durability": 1963.4999f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:mining_speed": 2.625f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			id: "4515509DA191B56E"
+			rewards: [{
+				id: "4DD0D6B136A98703"
+				item: {
+					Count: 1
+					id: "ticex:reforged_slashblade"
+					tag: {
+						Damage: 0
+						bladeState: { }
+						etstlib_tool_uuid: "98d4f286-656b-4dda-acc2-4d4600f9ac74"
+						tic_broken: 0b
+						tic_materials: [
+							"mushroom_concept:cursium"
+							"mushroom_concept:ignitium"
+							"mushroom_daydream:witherite_ingot"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "mushroom_concept:soul_forge"
+							}
+							{
+								level: 1
+								name: "mushroom_concept:fire"
+							}
+							{
+								level: 1
+								name: "mushroom_daydream:gear_of_war"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_speed": 2.6f
+							"tconstruct:durability": 1.1f
+							"tconstruct:mining_speed": 0.5f
+						}
+						tic_persistent: {
+							"aether_tinker:heroic_spirit": 41.0f
+							"mushroom_concept:heroic_spirit": 41.0f
+							"mushroom_daydream:flare": 41.0f
+						}
+						tic_stats: {
+							"tconstruct:attack_damage": 10.725f
+							"tconstruct:attack_speed": 4.3679996f
+							"tconstruct:durability": 1963.4999f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 2.625f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AC83A8706C5F298"
+				type: "checkmark"
+			}]
+			x: -3.75d
+			y: 4.5d
+		}
+		{
+			id: "0C7FEB4B22538EBB"
+			tasks: [{
+				id: "2571D934DBA6AB02"
+				type: "checkmark"
+			}]
+			x: -8.25d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"19BF65777771D739"
+				"35961F46175F4ECF"
+				"53042977E4D73DC5"
+				"3B541353494D2DCB"
+				"46D988296970D7C3"
+				"11E072CBD113AC7C"
+				"0C19BB46A7CC5697"
+				"55F04C6452EC145E"
+				"618D70B3AE3045C5"
+				"4017657DE7738ED2"
+				"352071CEA79C6E79"
+				"5D6F43ED929084C1"
+				"5DCD542E5A771902"
+				"3D9028D744A2299D"
+				"6386AEE54F521728"
+				"43268EB4400C2F40"
+				"5AAD9C526FBE923F"
+				"1BC56AD28DF42AEA"
+				"788AF9F367FB5492"
+				"18A67F72FCE5E680"
+				"6C8216A363280FC5"
+				"37889F2814800EFE"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "ticex:reforged_slashblade"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:thorns"
+							lvl: 3s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 3s
+						}
+						{
+							id: "ars_nouveau:reactive"
+							lvl: 3s
+						}
+						{
+							id: "minecraft:power"
+							lvl: 5s
+						}
+						{
+							id: "mme:critical_strike"
+							lvl: 3s
+						}
+						{
+							id: "ensorcellation:soulbound"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:feather_falling"
+							lvl: 4s
+						}
+						{
+							id: "mme:sanction"
+							lvl: 5s
+						}
+						{
+							id: "mme:judgment"
+							lvl: 5s
+						}
+						{
+							id: "mme:life_steal"
+							lvl: 3s
+						}
+						{
+							id: "ensorcellation:leech"
+							lvl: 4s
+						}
+						{
+							id: "draconicevolution:reaper_enchantment"
+							lvl: 5s
+						}
+						{
+							id: "hmag:water_aspect"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:fire_protection"
+							lvl: 4s
+						}
+						{
+							id: "mme:winter_chill"
+							lvl: 3s
+						}
+						{
+							id: "mme:soul_siphon"
+							lvl: 1s
+						}
+						{
+							id: "enigmaticaddons:frost_aspect"
+							lvl: 2s
+						}
+						{
+							id: "enigmaticlegacy:slayer"
+							lvl: 5s
+						}
+					]
+					RepairCost: 0
+					bladeState: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						ModelName: "srelic:model/genshine/raiden.obj"
+						RepairCounter: 265
+						SpecialAttackType: "srelic:tho"
+						StandbyRenderType: 2b
+						SummonedSwordColor: -8322828
+						SummonedSwordColorInverse: 0b
+						TargetEntity: -1
+						TextureName: "srelic:model/genshine/raiden.png"
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						baseAttackModifier: 25.0f
+						currentCombo: "slashblade:none"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isDefaultBewitched: 1b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 567309L
+						maxDamage: 391
+						proudSoul: 245460
+						translationKey: "item.srelic.raiden"
+					}
+					etstlib_tool_uuid: "cd333630-f4b3-4129-81bf-e10225908288"
+					tic_broken: 0b
+					tic_materials: [
+						"sakuratinker:dragon_ice_steel"
+						"tcintegrations:dragonsteel_fire"
+						"sakuratinker:nihilite"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "ticex:konpaku"
+						}
+						{
+							level: 1
+							name: "ticex:enchantment_supplier"
+						}
+						{
+							level: 1
+							name: "ticex:koshirae"
+						}
+						{
+							level: 1
+							name: "ticex:rebirth"
+						}
+						{
+							level: 1
+							name: "sakuratinker:frozen"
+						}
+						{
+							level: 1
+							name: "sakuratinker:dragon_martyr"
+						}
+						{
+							level: 1
+							name: "tcintegrations:flamed"
+						}
+						{
+							level: 1
+							name: "sakuratinker:soul_devourer"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_speed": 2.6f
+						"tconstruct:durability": 1.1f
+						"tconstruct:mining_speed": 0.5f
+					}
+					tic_name: "梦之刃「梦想一心」"
+					tic_persistent: {
+						upgrades: -1
+					}
+					tic_stats: {
+						"tconstruct:attack_damage": 22.0375f
+						"tconstruct:attack_speed": 4.472f
+						"tconstruct:durability": 2601.5f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:mining_speed": 5.1000004f
+					}
+					tic_upgrades: [
+						{
+							level: 1
+							name: "ticex:konpaku"
+						}
+						{
+							level: 1
+							name: "ticex:enchantment_supplier"
+						}
+						{
+							level: 1
+							name: "ticex:koshirae"
+						}
+						{
+							level: 1
+							name: "ticex:rebirth"
+						}
+					]
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			id: "4C6D16ED58350BAF"
+			rewards: [{
+				id: "173B0F89A8EF6B5F"
+				item: {
+					Count: 1
+					id: "thermal:satchel"
+					tag: {
+						ItemInv: {
+							ItemInv: [{
+								Count: 1b
+								Slot: 0b
+								id: "ticex:reforged_slashblade"
+								tag: {
+									Damage: 0
+									Enchantments: [
+										{
+											id: "minecraft:thorns"
+											lvl: 3s
+										}
+										{
+											id: "minecraft:sweeping"
+											lvl: 3s
+										}
+										{
+											id: "ars_nouveau:reactive"
+											lvl: 3s
+										}
+										{
+											id: "minecraft:power"
+											lvl: 5s
+										}
+										{
+											id: "mme:critical_strike"
+											lvl: 3s
+										}
+										{
+											id: "ensorcellation:soulbound"
+											lvl: 1s
+										}
+										{
+											id: "minecraft:feather_falling"
+											lvl: 4s
+										}
+										{
+											id: "mme:sanction"
+											lvl: 5s
+										}
+										{
+											id: "mme:judgment"
+											lvl: 5s
+										}
+										{
+											id: "mme:life_steal"
+											lvl: 3s
+										}
+										{
+											id: "ensorcellation:leech"
+											lvl: 4s
+										}
+										{
+											id: "draconicevolution:reaper_enchantment"
+											lvl: 5s
+										}
+										{
+											id: "hmag:water_aspect"
+											lvl: 5s
+										}
+										{
+											id: "minecraft:fire_protection"
+											lvl: 4s
+										}
+										{
+											id: "mme:winter_chill"
+											lvl: 3s
+										}
+										{
+											id: "mme:soul_siphon"
+											lvl: 1s
+										}
+										{
+											id: "enigmaticaddons:frost_aspect"
+											lvl: 2s
+										}
+										{
+											id: "enigmaticlegacy:slayer"
+											lvl: 5s
+										}
+									]
+									RepairCost: 0
+									bladeState: {
+										AttackAmplifier: 0.0f
+										ComboRoot: "slashblade:standby"
+										Damage: 0
+										ModelName: "srelic:model/genshine/raiden.obj"
+										RepairCounter: 265
+										SpecialAttackType: "srelic:tho"
+										StandbyRenderType: 2b
+										SummonedSwordColor: -8322828
+										SummonedSwordColorInverse: 0b
+										TargetEntity: -1
+										TextureName: "srelic:model/genshine/raiden.png"
+										_onClick: 0b
+										adjustXYZ: [
+											0.0d
+											0.0d
+											0.0d
+										]
+										baseAttackModifier: 25.0f
+										currentCombo: "slashblade:none"
+										fallDecreaseRate: 0.0f
+										isBroken: 0b
+										isDefaultBewitched: 1b
+										isSealed: 0b
+										killCount: 0
+										lastActionTime: 567309L
+										maxDamage: 391
+										proudSoul: 245460
+										translationKey: "item.srelic.raiden"
+									}
+									etstlib_tool_uuid: "cd333630-f4b3-4129-81bf-e10225908288"
+									tic_broken: 0b
+									tic_materials: [
+										"sakuratinker:dragon_ice_steel"
+										"tcintegrations:dragonsteel_fire"
+										"sakuratinker:nihilite"
+									]
+									tic_modifiers: [
+										{
+											level: 1
+											name: "ticex:konpaku"
+										}
+										{
+											level: 1
+											name: "ticex:enchantment_supplier"
+										}
+										{
+											level: 1
+											name: "ticex:koshirae"
+										}
+										{
+											level: 1
+											name: "ticex:rebirth"
+										}
+										{
+											level: 1
+											name: "sakuratinker:frozen"
+										}
+										{
+											level: 1
+											name: "sakuratinker:dragon_martyr"
+										}
+										{
+											level: 1
+											name: "tcintegrations:flamed"
+										}
+										{
+											level: 1
+											name: "sakuratinker:soul_devourer"
+										}
+									]
+									tic_multipliers: {
+										"tconstruct:attack_speed": 2.6f
+										"tconstruct:durability": 1.1f
+										"tconstruct:mining_speed": 0.5f
+									}
+									tic_name: "梦之刃「梦想一心」"
+									tic_persistent: {
+										upgrades: -1
+									}
+									tic_stats: {
+										"tconstruct:attack_damage": 12.63125f
+										"tconstruct:attack_speed": 4.472f
+										"tconstruct:durability": 1845.25f
+										"tconstruct:harvest_tier": "minecraft:netherite"
+										"tconstruct:mining_speed": 5.1000004f
+									}
+									tic_upgrades: [
+										{
+											level: 1
+											name: "ticex:konpaku"
+										}
+										{
+											level: 1
+											name: "ticex:enchantment_supplier"
+										}
+										{
+											level: 1
+											name: "ticex:koshirae"
+										}
+										{
+											level: 1
+											name: "ticex:rebirth"
+										}
+									]
+									tic_volatile_data: {
+										abilities: 1
+										upgrades: 3
+									}
+								}
+							}]
+						}
+						RepairCost: 0
+						display: {
+							Lore: [ ]
+							Name: "{\"text\":\"§e拔刀剑小包\"}"
+							color: 11842396
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FDF9B6D184CF0D2"
+				type: "checkmark"
+			}]
+			title: "章节奖励"
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			description: ["搜索&eCata Combs&r"]
+			id: "57190DA3CDF384A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51D3185117B0DC75"
+				table_id: 2496234257689732661L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: "irons_spellbooks:blood_staff"
+				id: "170E4C00A2A2C1EA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -0.75d
+		}
+	]
+	title: "·&a主世界"
+}

@@ -1,0 +1,479 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5F71B07AEFE3A25A"
+	group: "63383AA57008A157"
+	icon: {
+		Count: 1
+		id: "botania:lexicon"
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
+	id: "5F71B07AEFE3A25A"
+	images: [
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			height: 3.0d
+			image: "botania:block/alfheim_portal_activated"
+			rotation: 0.0d
+			width: 3.0d
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			height: 3.0d
+			image: "botania:block/livingwood_log_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			height: 3.0d
+			image: "botania:block/mana_pool_inside"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			color: 5635925
+			height: 3.0d
+			image: "mysticalagriculture:item/essence/nether_quartz_essence"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			height: 3.0d
+			image: "botania:block/livingwood_log_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			height: 3.0d
+			image: "botania:block/livingwood_log_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			height: 3.0d
+			image: "botania:block/livingwood_log_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			height: 3.0d
+			image: "botania:block/livingwood_log_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			height: 3.0d
+			image: "botania:block/livingwood_log_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			height: 3.0d
+			image: "botania:block/livingwood_log_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			height: 3.0d
+			image: "botania:block/livingwood_log_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			height: 3.0d
+			image: "botania:block/glimmering_livingwood_log"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			height: 3.0d
+			image: "botania:block/glimmering_livingwood_log"
+			rotation: 0.0d
+			width: 3.0d
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			height: 3.0d
+			image: "botania:block/glimmering_livingwood_log"
+			rotation: 0.0d
+			width: 3.0d
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			height: 3.0d
+			image: "botania:block/mana_pool_inside"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			color: 5635925
+			height: 3.0d
+			image: "mysticalagriculture:item/essence/nether_quartz_essence"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			height: 8.8d
+			image: "botania:block/alfheim_portal_swirl"
+			order: -1
+			rotation: 0.0d
+			width: 8.8d
+			x: 1.0d
+			y: -2.0d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6C47D72ECE4FFD79"
+			rewards: [{
+				count: 3
+				id: "3E70396726B5D5FB"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13CDD7F21970D55C"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C47D72ECE4FFD79"]
+			id: "2A2B5A5158039886"
+			rewards: [{
+				id: "5067E9C503CFF4A0"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5975934FF5D6E950"
+				item: "botania:livingwood_log"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2A2B5A5158039886"]
+			id: "6701EFE96174A936"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57DB6B31DF8EA5B1"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				id: "71E424FE17E0E2E3"
+				item: "botania:glimmering_livingwood_log"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C47D72ECE4FFD79"]
+			id: "664EDDA38142D04B"
+			rewards: [{
+				id: "0AC6F5FBB4035328"
+				item: "botania:black_lotus"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B7ECFF84947CB4A"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6701EFE96174A936"]
+			id: "6B958369496EAC72"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DBE6AF9FAC58F9E"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3C0E4A3AB559460E"
+				item: "botania:dreamwood_log"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6B958369496EAC72"]
+			id: "7B035C19D51CC7EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "327037566C7104E1"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2ACA84AA62C7318E"
+				item: "botania:glimmering_dreamwood_log"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["664EDDA38142D04B"]
+			id: "629929CA79F7B6CE"
+			rewards: [{
+				id: "0C1841F17A44AFDA"
+				item: "botania:blacker_lotus"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49C39A5FB3756A00"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["629929CA79F7B6CE"]
+			id: "22AA0422485210B8"
+			rewards: [{
+				id: "2ED4E36F21724189"
+				item: {
+					Count: 1
+					id: "botania:mana_tablet"
+					tag: {
+						mana: 500000
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "289B33C76FE02047"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["629929CA79F7B6CE"]
+			id: "2DE4654C074C3E04"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15AFA26CDF8D742E"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0E7533ED610EEFB5"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["22AA0422485210B8"]
+			id: "05ED2F9B77B437F1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "110E2BC94C7D7523"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2BE6E7CB807EE27D"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["05ED2F9B77B437F1"]
+			id: "0A395685B3F283AB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E9C54F4F56152CF"
+				table_id: 2496234257689732661L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0CDF59076B7AEB00"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2DE4654C074C3E04"]
+			id: "07DD5EA9B9373258"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B62A29B115AE2BC"
+				table_id: 2496234257689732661L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0733681D6C301229"
+				item: "mythicbotany:alfsteel_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["629929CA79F7B6CE"]
+			id: "208860D02E16B259"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "549697E71C437184"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				id: "519EADABAC1645FF"
+				item: "extrabotany:aerialite_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2DE4654C074C3E04"]
+			id: "7E1E14BABF786D88"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21AF9AA0C0C0B08C"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3D72ADC65ADF26BB"
+				item: "extrabotany:shadowium_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2DE4654C074C3E04"]
+			id: "668897D572879C3F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "201F886C25A1E0CC"
+				table_id: 2496234257689732661L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4E1C05CDC1F95D4C"
+				item: "extrabotany:photonium_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0A395685B3F283AB"]
+			id: "0D05C8A21809AFE3"
+			rewards: [{
+				id: "14016506BACA6790"
+				item: "thermal:enderium_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E8E5E63BEA6D7FF"
+				item: "extrabotany:orichalcos_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			icon: "minecraft:observer"
+			id: "70206F2BC98F6FE5"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "635A133BCCA98205"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "11733636BDC7396F"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+	]
+	title: "·&a植物魔法"
+}

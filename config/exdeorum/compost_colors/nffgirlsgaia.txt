@@ -1,0 +1,4 @@
+// Compost colors for nffgirlsgaia. You may add your own colors, change existing ones, or remove colors that aren't needed.
+evil_grindstone, #c8aba7
+mob_dictionary, #f5d0c9
+wooden_staff, #ffffff

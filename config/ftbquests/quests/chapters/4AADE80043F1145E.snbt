@@ -1,0 +1,259 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4AADE80043F1145E"
+	group: "63383AA57008A157"
+	icon: "toms_storage:ts.inventory_connector"
+	id: "4AADE80043F1145E"
+	images: [
+		{
+			dependency: "6195EF29C3EC0232"
+			height: 7.0d
+			image: "toms_storage:item/adv_wireless_terminal"
+			order: 3
+			rotation: 0.0d
+			width: 7.0d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependency: "5043CFE2CC8E09E9"
+			height: 7.0d
+			image: "toms_storage:item/wireless_terminal"
+			order: 2
+			rotation: 0.0d
+			width: 7.0d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			height: 5.0d
+			image: "toms_storage:block/inventory_connector"
+			rotation: 0.0d
+			width: 5.0d
+			x: -1.0d
+			y: -0.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["418A682BE565AEC3"]
+			id: "4F4D5F5DC967D714"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1BD2DEC481DED146"
+					table_id: 915959588376886251L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "4B8FEC5EF90FCA46"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:barrel"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "614B51972CE4E008"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F4D5F5DC967D714"]
+			id: "7CF9556A5D2BB3B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34A882D96589362E"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7082C54C995BAA29"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F4D5F5DC967D714"]
+			id: "54CB944590477881"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12403DAE13864722"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				id: "39A97EB28BD6819B"
+				item: "toms_storage:ts.trim"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7CF9556A5D2BB3B3"]
+			id: "5A9EA9A1E9956C0D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06492AE5E87FB37D"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0A05440A80B8CAB1"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7CF9556A5D2BB3B3"]
+			id: "5043CFE2CC8E09E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08672263BE69E173"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				id: "22CADD0FA448605A"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5043CFE2CC8E09E9"]
+			id: "6195EF29C3EC0232"
+			rewards: [{
+				id: "6AE2F2D0BC010376"
+				table_id: 2496234257689732661L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4CE7383D54E4FA39"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6195EF29C3EC0232"]
+			description: ["四级信标以达成无限制访问"]
+			id: "0FC6F4DBD3925AEA"
+			tasks: [{
+				id: "419B6B0419C4EB55"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			icon: "minecraft:observer"
+			id: "378EED9E32A995E6"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "73EEEA651A05E137"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "70DC422AAC4D3274"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+	]
+	subtitle: ["极简收容"]
+	title: "·&6汤姆存储"
+}

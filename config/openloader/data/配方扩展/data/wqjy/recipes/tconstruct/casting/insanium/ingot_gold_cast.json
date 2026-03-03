@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:casting_table",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ],
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/ingot"
+  },
+  "fluid": {
+    "name": "wqjy:insanium",
+    "amount": 90
+  },
+  "result": "mysticalagradditions:insanium_ingot",
+  "cooling_time": 60
+}

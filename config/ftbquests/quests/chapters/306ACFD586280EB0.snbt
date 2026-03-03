@@ -1,0 +1,648 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "306ACFD586280EB0"
+	group: "1212196CDDCD1199"
+	icon: "minecraft:command_block"
+	id: "306ACFD586280EB0"
+	images: [
+		{
+			height: 4.0d
+			image: "minecraft:block/command_block_back"
+			order: 2
+			rotation: 45.0d
+			width: 4.0d
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/repeating_command_block_front"
+			order: 1
+			rotation: 30.0d
+			width: 3.0d
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/chain_command_block_conditional"
+			rotation: 20.0d
+			width: 2.0d
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:item/command_block_minecart"
+			order: -1
+			rotation: 25.0d
+			width: 1.5d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 0.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"把鼠标指针放在物品上按&eB&r(默认按键)"
+				"可以跳转到对应的百科词条"
+				""
+				"“百科里什么都有！”"
+				"——无名匠人"
+			]
+			id: "7F0CF8BE46CDE658"
+			rewards: [
+				{
+					id: "02FA61EE4A2AA689"
+					item: {
+						Count: 1
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "265BCE13D9F519AF"
+					item: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "45B6027A5752036E"
+				type: "checkmark"
+			}]
+			title: "跳转百科站"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"默认按住&ecaps lock（大写）&r键使用连锁"
+				""
+				"指令&e/ftbultimine serverconfig&r"
+				"可以调整连锁设置"
+				""
+				"&9建议最大方块数设置为256&r"
+			]
+			id: "0B106AE76F7EC4AA"
+			rewards: [{
+				command: "/ftbultimine serverconfig"
+				elevate_perms: true
+				id: "0C1B87A76B819E3A"
+				team_reward: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "2322ABCD563A8381"
+				title: "说明"
+				type: "checkmark"
+			}]
+			title: "连锁挖矿"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			description: ["默认&ey&r键打开技能页面"]
+			id: "60FE029F1FA6CC2E"
+			rewards: [{
+				auto: "enabled"
+				id: "7F68462E8E1870F1"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "01D818B93C9062CC"
+				title: "说明"
+				type: "checkmark"
+			}]
+			title: "技能"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:command_block"
+			id: "66AB37FDB8E82AF8"
+			tasks: [{
+				id: "2F11CCEB4230A2D7"
+				title: "指令"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["66AB37FDB8E82AF8"]
+			disable_toast: true
+			id: "1363E076DD0C0114"
+			rewards: [{
+				auto: "enabled"
+				command: "/kill @e[type=minecraft:item]"
+				elevate_perms: true
+				id: "0459424940D81028"
+				team_reward: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "588E91F7441859DD"
+				title: "清理掉落物"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["66AB37FDB8E82AF8"]
+			id: "6C2972B31510347B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0087832D2B4667CF"
+				table_id: 835613071728573737L
+				team_reward: true
+				type: "choice"
+			}]
+			tasks: [{
+				id: "576161321930F0A5"
+				type: "checkmark"
+			}]
+			title: "死亡掉落"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["66AB37FDB8E82AF8"]
+			id: "0A0938A7A1270282"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1030A1249CCDA594"
+				table_id: 3207940618434683559L
+				team_reward: true
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "3AC702C2541B5ADB"
+				item: { Count: 16, id: "thermal:copper_coin" }
+				type: "item"
+			}]
+			title: "天气"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			description: ["默认&cctrl&r+&c鼠标右键&r可以抱起&e实体&r|&e容器&r"]
+			id: "3F15F8F5E70E57C8"
+			rewards: [{
+				auto: "enabled"
+				id: "638CFF96B482C00E"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "583A533DCDE1ED63"
+				title: "说明"
+				type: "checkmark"
+			}]
+			title: "carry on"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"&eX+C&r打开&9tweakerge&r配置页面"
+				""
+				"&e~&r键灵魂出窍"
+				"&eCtrl+~&r键覆写伽马值"
+			]
+			id: "48EA7EA221033477"
+			rewards: [{
+				auto: "enabled"
+				id: "15ECC134BBE87A54"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "46A7CA19454DB1E6"
+				title: "说明"
+				type: "checkmark"
+			}]
+			title: "tweakerge"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["66AB37FDB8E82AF8"]
+			id: "764F200C34C7A53A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13C7781FAC053AAC"
+				table_id: 6822557429350050126L
+				team_reward: true
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "0F669A17157DB7DA"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			title: "时间"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"该整合共有&c1300+&r可增长生命值的食物，针对不想搜集的玩家，任意&e下界合金潜影盒&r和部分物品可在&e终极合成台&r上合成&e食物盒兑换道具&r"
+				"可用于兑换不同类型的&e食物盒&r（包含数量不少的食物）"
+				"&e共十九种&r"
+				""
+				"相关链接："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"44E02FE535B1B20D\" } }"
+			]
+			id: "740A0511D18048DE"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "03DA2BCF21B0CEF2"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "00E22634C387C6DE"
+					item: "bountifulbaubles:gluttony_pendant"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "36C41AA428FDAE69"
+				title: "说明"
+				type: "checkmark"
+			}]
+			title: "食品"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&e目标显示器&r可用于自动完成任务"
+				""
+				"且部分任务必要"
+				""
+				"&c选中任意目标后保存并退出ui再次进入才能搜索&r"
+			]
+			id: "27FC5891E0063D52"
+			rewards: [{
+				id: "4D819E002E8215A8"
+				item: "ftbquests:screen_1"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3786BADC1000AB51"
+				type: "checkmark"
+			}]
+			title: "目标显示器"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&e修饰词&r说明"
+				"在获得饰品时会自动打上修饰词"
+				"&e修饰词&r的功能非常强大"
+				"使用&e闪耀币&r在&e铁砧&r处可&c重置&r饰品的修饰词"
+				""
+				"基础概率如下"
+				"&f常见&r修饰词（约&e31.4%&r概率）"
+				"&a优秀&r修饰词（约&e23.6%&r概率）"
+				"&b稀有&r修饰词（约&e39.3%&r概率）"
+				"&d史诗&r修饰词（约&e4.5%&r概率）"
+				"&e传说&r修饰词（约&e0.9%&r概率）"
+				"&c神话&r修饰词（&c不可&r随机获得，只能通过&e传说修饰词&r的修饰词书&c合成获得&r修饰词书）"
+				""
+				"ps.存在&4纯负面&r修饰词，且稀有度大多为稀有级"
+				""
+				"相关链接："
+				"&b修饰词：&r"
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7C63E30B5924CBD0\" } }"
+				"&b传说修饰词：&r"
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"64DBCEE290C6B656\" } }"
+			]
+			hide_dependency_lines: false
+			id: "767FDF7F90D4601B"
+			rewards: [{
+				id: "48F6936AD636AC0A"
+				item: "bountifulbaubles:resplendent_token"
+				type: "item"
+			}]
+			tasks: [{
+				id: "732FB22BB81A923B"
+				title: "说明"
+				type: "checkmark"
+			}]
+			title: "饰品修饰语"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["66AB37FDB8E82AF8"]
+			disable_toast: true
+			id: "7B43A82BABC3429E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C13BC74FAE32561"
+				table_id: 3943369737609116944L
+				team_reward: true
+				type: "choice"
+			}]
+			tasks: [{
+				id: "4EFC1E3111B9A143"
+				title: "幻翼生成"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["66AB37FDB8E82AF8"]
+			id: "412EE7B279E03EBC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FD322B2AE83053A"
+				table_id: 5516774041154403294L
+				team_reward: true
+				type: "choice"
+			}]
+			tasks: [{
+				id: "579AF7E05D6B397A"
+				title: "生物防爆"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"使用&e玛玉灵&r和&e凋灵合金&r材料作为部件的&e匠魂拔刀剑&r，使用&d幻影剑&r命中实体会造成&4毁存档&r"
+				""
+				"解决方式为&4删除&r&esaves/世界名称/entieies&r文件夹内的文件，但是会造成已存在的&4生物全部消失&r"
+				""
+				"所以&4不要&r用&e玛玉灵&r和&e凋灵合金&r作为&e匠魂拔刀剑&r的材料"
+				""
+				"所有涉及生命值和护甲值的&e百分比伤害&r的词条都有可能出现该问题"
+				""
+				""
+				"{@pagebreak}"
+				""
+				"因未知原因，带有&e盖亚魂部件&r的武器造成伤害时&c可能会崩&r"
+				""
+				"所以&c尽量不要使用&r盖亚魂作为&e武器部件&r了"
+				""
+				"经群友测试，&e魔力钢&r同样存在该问题"
+				""
+				"（已有三位群友中招，但作者并未出现该问题）"
+				""
+				""
+				"{@pagebreak}"
+				""
+				"已知使用&e奇美拉-γ&r作为&e枪械部件&r明知实体时有概率崩溃"
+				""
+				"使用精妙背包&e喂食升级&r自动投喂&eProject Expansion&rmod的无限牛排会崩溃（该问题已修复，将无限牛排配方的产物修改为永恒牛排）"
+			]
+			icon: "botania:gaia_ingot"
+			id: "3E2D8AB4CA158816"
+			rewards: [{
+				id: "15D8002FFC6349A8"
+				item: "hmag:cureberry"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FBF86073939EA39"
+				type: "checkmark"
+			}]
+			title: "已知崩溃内容"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"备份的目录在：游戏的根目录下的 &esimplebackups&r 文件夹内，进行回档需要&e手动解压&r到存档文件夹内。"
+				""
+				"如果是全量备份,可以删掉原本的存档再解压"
+				""
+				"模组默认为&e120分钟&r备份一次。默认为全量备份，具体可以查看百科站的教程。"
+				""
+				"也可以使用命令在游戏中手动备份。"
+				""
+				"&e/simplebackups backup start&r"
+			]
+			icon: "thermal:upgrade_augment_3"
+			id: "164C1A665A8C15E9"
+			rewards: [{
+				auto: "enabled"
+				command: "/simplebackups backup start"
+				elevate_perms: true
+				id: "6699D478FEBE323C"
+				team_reward: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "23EDE61F10558778"
+				title: "备份"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			id: "351D57AF8793518A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EFC8F9E9EECA9B0"
+				table_id: 6841556354108025092L
+				title: "查找洞穴"
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "31B2A7A62DFA3F46"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "alexscaves:cave_tablet"
+					}
+				}
+				title: "任意石板"
+				type: "item"
+			}]
+			title: "查找洞穴"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			description: ["群号：854637057"]
+			icon: "wqjy:wqjy_logo"
+			id: "1ED94B629EC8E8CA"
+			tasks: [{
+				id: "66A92A81D93B0895"
+				title: "讨论群"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+	]
+	title: "·&f说明与命令"
+}

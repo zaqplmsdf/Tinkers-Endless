@@ -1,0 +1,213 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4D6A20317257F6F5"
+	group: "63383AA57008A157"
+	icon: "tacz:gun_smith_table"
+	id: "4D6A20317257F6F5"
+	images: [
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "tacz:textures/ammo/slot/308.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.5d
+			y: 0.5d
+		}
+	]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				""
+				"虽然匠魂可以做枪，但还是要发展一下的"
+			]
+			id: "1D1556F7F1AC5825"
+			rewards: [{
+				id: "66DE746DC1A4F372"
+				item: {
+					Count: 1
+					id: "ticex:catalyst_kinetic_gun"
+					tag: {
+						Material: "ticex:reconstruction"
+						display: {
+							Lore: [
+								"{\"text\":\"§6一个核心\"}"
+								"{\"text\":\"§5用这个做出的枪械是!§4.50 沙漠之鹰\"}"
+							]
+						}
+						embossed: {
+							GunCurrentAmmoCount: 7
+							GunFireMode: "SEMI"
+							GunId: "tacz:deagle"
+							HasBulletInBarrel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C154EC9EF92F4B2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["002A8323600F86EC"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tacz:workbench_a"
+				tag: {
+					BlockId: "tacz:ammo_workbench"
+				}
+			}
+			id: "5C7B48E302965B9D"
+			rewards: [
+				{
+					id: "3F6ECB7491E4362D"
+					item: {
+						Count: 1
+						id: "tacz:workbench_a"
+						tag: {
+							BlockId: "tacz:ammo_workbench"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07B82A0FF799841C"
+					item: {
+						Count: 1
+						id: "tacz:workbench_c"
+						tag: {
+							BlockId: "tacz:attachment_workbench"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "721D58BA71D88BAD"
+					item: "tacz:gun_smith_table"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "768D38573D013EB4"
+				item: { Count: 64, id: "thermal:copper_coin" }
+				type: "item"
+			}]
+			title: "对于不想做枪械工作台的玩家"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1D1556F7F1AC5825"]
+			icon: {
+				Count: 48
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:50ae"
+				}
+			}
+			id: "041066836D1B61DC"
+			rewards: [{
+				auto: "enabled"
+				count: 48
+				id: "134B74DE024658FB"
+				item: {
+					Count: 1
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:50ae"
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "05D85C7F4DF92FC8"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			title: "前期用的弹药"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"233C513F84268EB9"
+				"1D1556F7F1AC5825"
+			]
+			id: "0D91DF645F79B005"
+			rewards: [{
+				id: "45A89A7571245A80"
+				item: {
+					Count: 1
+					id: "ticex:catalyst_kinetic_gun"
+					tag: {
+						Material: "ticex:reconstruction"
+						display: {
+							Lore: [
+								"{\"text\":\"§6一个核心\"}"
+								"{\"text\":\"§5用这个做出来的枪械是§4苦力怕\"}"
+								"{\"text\":\"§5使用.50ae弹的连射火箭筒，但伤害很低\"}"
+							]
+						}
+						embossed: {
+							Count: 1b
+							id: "tacz:modern_kinetic_gun"
+							tag: {
+								GunCurrentAmmoCount: 60
+								GunFireMode: "AUTO"
+								GunId: "wqjy:creeper"
+								HasBulletInBarrel: 1b
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "0BDAA578EE9B0B4F"
+					item: {
+						Count: 1
+						id: "mutantmonsters:creeper_shard"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 20L
+					id: "57249699C06AA6FE"
+					item: { Count: 20, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+			]
+			title: "哭力怕"
+			x: 0.0d
+			y: -1.0d
+		}
+	]
+	title: "·&1枪械"
+}

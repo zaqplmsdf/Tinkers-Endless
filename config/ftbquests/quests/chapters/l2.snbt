@@ -1,0 +1,1104 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l2"
+	group: "63383AA57008A157"
+	icon: "l2hostility:teleport"
+	id: "0E03479B2E60A83D"
+	images: [{
+		height: 10.0d
+		image: "ftbquests:textures/picture/010.png"
+		rotation: 0.0d
+		width: 4.0d
+		x: 4.5d
+		y: -6.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"kouno"
+				"教程书哒！"
+			]
+			id: "35FCEDB9AADB8B0A"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "1B6F1548180C0970"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "l2hostility:hostility_guide"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.902210884353735d
+			y: -0.001700680272143984d
+		}
+		{
+			dependencies: ["35FCEDB9AADB8B0A"]
+			description: [
+				"使用后会使 &e5 * 5 * 5&r 的子区块&c不再生成&r带有等级的怪物。"
+				""
+				"玩家&e难度值提升时给予的奖励&r是获取它的唯一方式（本整合包可使用&e恶意精华&r兑换），可以用于制作&e混沌锭&r和&e恶意净化&r药水。"
+			]
+			id: "024A81C494379DD8"
+			rewards: [{
+				id: "0E7DF757CC95CF61"
+				item: "l2hostility:hostility_orb"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "56E28558CE342474"
+				item: "l2hostility:hostility_orb"
+				type: "item"
+			}]
+			x: 4.902210884353735d
+			y: 1.998299319727856d
+		}
+		{
+			dependencies: ["2DEB8C16E4E9F7C2"]
+			description: ["火药、恶魂之泪、凋灵玫瑰、不死图腾、烈焰棒、钻石、苦力怕的头、墨囊、潜影壳、发酵蛛眼、河豚、龙息、兔子脚、附魔金苹果、鳞甲、蜘蛛眼、蜘蛛网、下界合金碎片、凋灵骷髅头颅、诅咒药水"]
+			id: "70EAAB14C4732AC9"
+			shape: "circle"
+			tasks: [{
+				id: "0BC45DBEC5C63998"
+				item: "l2hostility:charm_of_looting_1"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70EAAB14C4732AC9"]
+			description: ["瓶中潜影弹、破灭残片、生命精华、亡魂之泪、告死寒霜、女巫浓缩凝露、潜影锭、潜影粒、灵魂火种、守卫者之眼"]
+			id: "43F3198CC5C3E393"
+			shape: "circle"
+			tasks: [{
+				id: "63AD91673A59E2C1"
+				item: "l2hostility:charm_of_looting_2"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43F3198CC5C3E393"]
+			description: ["生命粒、黑石核心、守护力场、千风精华、幽匿粒、附魔影本、烈空结晶"]
+			id: "39DDC4990A6696DA"
+			shape: "circle"
+			tasks: [{
+				id: "5ED8E7A090FC9A7A"
+				item: "l2hostility:charm_of_looting_3"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"39DDC4990A6696DA"
+				"5D84FAF3D452C4FF"
+			]
+			description: ["法皇之绿、破咒遗骨、共振之羽、混沌锭、永恒粒、虚空之眼、逐日之翼"]
+			id: "48603B0EACDAB563"
+			shape: "circle"
+			tasks: [{
+				id: "5A4965E4B7A2CA23"
+				item: "l2hostility:charm_of_looting_4"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["35FCEDB9AADB8B0A"]
+			description: [
+				"佩戴这类饰品后击杀&e带有词条&r的怪物会获取对应的掉落物，部分掉落物需要&e特殊的获取条件&r"
+				"具体对应材料可以查看&eJEI&r。"
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:pearl"
+				tag: {
+					Enchantments: [{
+						id: "minecraft:protection"
+						lvl: 1s
+					}]
+					RepairCost: 1
+				}
+			}
+			id: "2DEB8C16E4E9F7C2"
+			shape: "circle"
+			tasks: [{
+				id: "475AE6415BEAD8A5"
+				title: "抢夺宝珠"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35FCEDB9AADB8B0A"]
+			description: [
+				"在击杀了带有一种词条的怪物后"
+				"下一等级的该词条将可以生成"
+				""
+				"已添加词条配置手杖的兑换"
+				""
+				"相关链接："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0A96ADACA916C5EC\" } }"
+			]
+			icon: {
+				Count: 1
+				id: "enigmaticlegacy:lore_fragment"
+				tag: {
+					display: { }
+				}
+			}
+			id: "51218BF55D333F9F"
+			rewards: [{
+				count: 16
+				id: "50643AB0758E25DD"
+				item: {
+					Count: 1
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "l2complements:curse"
+					}
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "14A46CC4741E02D1"
+				title: "词条"
+				type: "checkmark"
+			}]
+			x: 4.928571428571431d
+			y: -2.097789115646286d
+		}
+		{
+			dependencies: ["35FCEDB9AADB8B0A"]
+			description: [
+				"&c问题较多，不建议使用&r"
+				""
+				"放置后右键使用后会生成&e16&r只当前&e生物群系&r对应的&e带词条&r的强力怪物，"
+				""
+				"同时显示剩余怪物进度条，&e击败所有怪物&r后使恶意刷怪笼所处的子区块&e不再生成&r带有等级的怪物。"
+				""
+				"也即是净化范围是恶意吸收宝珠的&e1/125&r，但好在它是可以&e重复使用&r的。"
+				""
+				"该方块使用&e任意工具&r都可以挖掘掉落。召唤出来的怪物都会有&e红色的发光效果&r显示，且&e没有任何掉落物&r。"
+				""
+				"（建议等怪物全部出现后再进行击杀，如果击杀过快可能判定失败而无法消除难度而需要再次使用激活）"
+			]
+			id: "5A82044FED11C07F"
+			shape: "circle"
+			tasks: [{
+				id: "025BC509850515E7"
+				item: "l2hostility:hostility_spawner"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43F3198CC5C3E393"]
+			id: "55C76A9D226A086C"
+			shape: "circle"
+			tasks: [{
+				id: "4B4A968E8DD98721"
+				item: "l2hostility:chaos_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"4E4FF4AC03A9BD9D"
+				"39DDC4990A6696DA"
+			]
+			id: "5D84FAF3D452C4FF"
+			shape: "circle"
+			tasks: [{
+				id: "32B309A2C39620E1"
+				item: "l2hostility:miracle_ingot"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -6.5d
+		}
+		{
+			description: [
+				"使怪物能够快速破坏目标的装备。"
+				""
+				"怪物会随机选择&e【词条等级】&r个玩家的装备，消耗其&e【词条等级】* 10%&r 的当前耐久，每少一件提升&e【词条等级】* 25%&r 的伤害。"
+			]
+			id: "46C58B01B8BE9729"
+			shape: "none"
+			tasks: [{
+				id: "0A5DCE1D51F3810A"
+				item: "l2hostility:erosion"
+				type: "item"
+			}]
+			x: 5.792346938775516d
+			y: -2.8877551020408134d
+		}
+		{
+			description: [
+				"使怪物拥有&e发射会爆炸的潜影弹&r的能力。"
+				""
+				"怪物能够发射会爆炸的潜影弹，在上一个子弹消失后的 &e3.0秒&r 发射下一个，爆炸&e不会破坏方块&r，每级使爆炸威力额外增加。 "
+				""
+				"拥有该词条的怪物&e免疫爆炸伤害&r。"
+			]
+			id: "55E5510CBA07C330"
+			shape: "none"
+			tasks: [{
+				id: "42DA1B781803F593"
+				item: "l2hostility:grenade"
+				type: "item"
+			}]
+			x: 5.812755102040818d
+			y: -3.6632653061224403d
+		}
+		{
+			description: [
+				"使怪物周围的生物&e跳跃高度&r提升。"
+				""
+				"怪物会对范围内&e所有生物（包括自身）&r施加等同于词条等级的月步效果，提高能够跳跃的高度。"
+				""
+				"&m内鬼词条&r"
+			]
+			id: "418E87BDCE07C623"
+			shape: "none"
+			tasks: [{
+				id: "6BBA4726517559AD"
+				item: "l2hostility:moonwalk"
+				type: "item"
+			}]
+			x: 5.812755102040818d
+			y: -4.459183673469383d
+		}
+		{
+			description: [
+				"药水词条，使怪物攻击能够施加&e反胃&r效果。"
+				""
+				"怪物攻击时施加反胃效果，每级使药水效果&e持续时间 +10 秒&r。"
+			]
+			id: "1D2AC7F0F9769DFB"
+			shape: "none"
+			tasks: [{
+				id: "126537F3B55A62A5"
+				item: "l2hostility:nausea"
+				type: "item"
+			}]
+			x: 5.812755102040818d
+			y: -5.214285714285715d
+		}
+		{
+			description: [
+				"使怪物获得强大的&e同类伤害减免&r的效果。"
+				""
+				"每级使怪物能够记忆的&e伤害类型 +1&r，受到来自记忆类型的伤害时&e降低50%的该伤害（可无限叠加）&r。"
+			]
+			id: "0B0345DD1180D0D6"
+			shape: "none"
+			tasks: [{
+				id: "2FF823FDA8EB2262"
+				item: "l2hostility:adaptive"
+				type: "item"
+			}]
+			x: 5.812755102040818d
+			y: -6.010204081632658d
+		}
+		{
+			description: [
+				"使怪物周围的生物&e跳跃高度降低&r。"
+				""
+				"怪物会对范围内&e所有生物（包括自身）&r施加等同于词条等级的重力效果，降低能够跳跃的高度。"
+			]
+			id: "231B6B0B9BFE8E2A"
+			shape: "none"
+			tasks: [{
+				id: "241E35B70A71549A"
+				item: "l2hostility:gravity"
+				type: "item"
+			}]
+			x: 5.812755102040811d
+			y: -6.785714285714285d
+		}
+		{
+			description: [
+				"提升怪物的&e血量&r与&e护甲值&r。"
+				""
+				"每级提升&e 50% 的生命上限&r，&e10点护甲值&r，&e4点盔甲韧性&r。"
+			]
+			id: "58B7A7894FDE41B8"
+			shape: "none"
+			tasks: [{
+				id: "6466905520501409"
+				item: "l2hostility:tank"
+				type: "item"
+			}]
+			x: 5.812755102040818d
+			y: -7.561224489795926d
+		}
+		{
+			description: [
+				"使怪物拥有&e隐身&r的效果。"
+				""
+				"怪物常驻 &e隐身&r 效果，护甲自带 &e遁隐&r。"
+			]
+			id: "61AA28F08D54847D"
+			shape: "none"
+			tasks: [{
+				id: "0DDD65363A03803A"
+				item: "l2hostility:invisible"
+				type: "item"
+			}]
+			x: 5.812755102040818d
+			y: -8.336734693877553d
+		}
+		{
+			description: [
+				"使怪物周围的玩家&e无法放置和破坏方块&r。"
+				""
+				"怪物会对范围内&e所有生物（包括自身）&r施加领域压制，拥有领域压制的玩家无法放置和破坏方块，&e只会受到拥有领域压制实体的伤害&r。"
+			]
+			id: "3BF2CBFB7775EEB7"
+			shape: "none"
+			tasks: [{
+				id: "2744DE589430C5AF"
+				item: "l2hostility:arena"
+				type: "item"
+			}]
+			x: 5.819557823129266d
+			y: -9.105442176870753d
+		}
+		{
+			description: [
+				"药水词条，使怪物攻击能够施加&e缓慢&r效果。"
+				""
+				"怪物攻击时施加缓慢效果，每级使&e药水效果等级+1&r，&e持续 10 秒&r。"
+			]
+			id: "7003702CEEC1D4D8"
+			shape: "none"
+			tasks: [{
+				id: "049EAEBBF8B39400"
+				item: "l2hostility:slowness"
+				type: "item"
+			}]
+			x: 5.799149659863964d
+			y: -9.901360544217695d
+		}
+		{
+			description: [
+				"使怪物拥有&e抗性提升&r的效果。"
+				""
+				"怪物常驻 &e抗性提升&r 效果，每级使效果等级+1"
+			]
+			id: "6E9C06ACB7B3E565"
+			shape: "none"
+			tasks: [{
+				id: "1CCBF5958F38A7B0"
+				item: "l2hostility:protection"
+				type: "item"
+			}]
+			x: 4.942006802721103d
+			y: -2.880952380952394d
+		}
+		{
+			description: [""]
+			id: "10C87819BC0B1DEB"
+			shape: "none"
+			tasks: [{
+				id: "5C67F16EC5F6E9ED"
+				item: "l2hostility:wither"
+				type: "item"
+			}]
+			x: 4.942006802721103d
+			y: -3.6564625850340207d
+		}
+		{
+			description: [""]
+			id: "49259BB9BA9DC540"
+			shape: "none"
+			tasks: [{
+				id: "3340288BCA351A7B"
+				item: "l2hostility:counter_strike"
+				type: "item"
+			}]
+			x: 4.942006802721103d
+			y: -4.452380952380963d
+		}
+		{
+			description: [""]
+			id: "27EA1D34C47A9824"
+			shape: "none"
+			tasks: [{
+				id: "5ABC39948473F8B5"
+				item: "l2hostility:reflect"
+				type: "item"
+			}]
+			x: 4.962414965986412d
+			y: -5.2074829931972815d
+		}
+		{
+			description: [""]
+			id: "410D6AAAA87EEC6E"
+			shape: "none"
+			tasks: [{
+				id: "36171FEAF8980E39"
+				item: "l2hostility:split"
+				type: "item"
+			}]
+			x: 4.9624149659864045d
+			y: -5.98299319727893d
+		}
+		{
+			description: [""]
+			id: "633F14EFB0220FAA"
+			shape: "none"
+			tasks: [{
+				id: "4F4C6BC66521AF87"
+				item: "l2hostility:corrosion"
+				type: "item"
+			}]
+			x: 4.9624149659864045d
+			y: -6.758503401360564d
+		}
+		{
+			description: [""]
+			id: "49D9BBBFA3BC4666"
+			shape: "none"
+			tasks: [{
+				id: "29E21BF0F792DBF1"
+				item: "l2hostility:reprint"
+				type: "item"
+			}]
+			x: 4.962414965986412d
+			y: -7.554421768707499d
+		}
+		{
+			description: [""]
+			id: "28E40AB6005A7126"
+			shape: "none"
+			tasks: [{
+				id: "40CDDE122B6DAD76"
+				item: "l2hostility:freezing"
+				type: "item"
+			}]
+			x: 4.942006802721096d
+			y: -8.329931972789133d
+		}
+		{
+			description: [""]
+			id: "28B4214B855099CE"
+			shape: "none"
+			tasks: [{
+				id: "3F8DFA9F4716474A"
+				item: "l2hostility:poison"
+				type: "item"
+			}]
+			x: 4.942006802721096d
+			y: -9.105442176870767d
+		}
+		{
+			description: [""]
+			id: "05F48BF0A180BC68"
+			shape: "none"
+			tasks: [{
+				id: "6AF8CAD151D06B2F"
+				item: "l2hostility:fiery"
+				type: "item"
+			}]
+			x: 4.952551020408158d
+			y: -9.86224489795924d
+		}
+		{
+			description: [""]
+			id: "0F2250C97CA397A6"
+			shape: "none"
+			tasks: [{
+				id: "083A66FBAB5A844A"
+				item: "l2hostility:shulker"
+				type: "item"
+			}]
+			x: 4.0828231292517145d
+			y: -2.862585034013641d
+		}
+		{
+			description: [""]
+			id: "23916E80A9AAEC1B"
+			shape: "none"
+			tasks: [{
+				id: "4A4B6046E9819A78"
+				item: "l2hostility:speedy"
+				type: "item"
+			}]
+			x: 4.0828231292517145d
+			y: -3.678911564625878d
+		}
+		{
+			description: [""]
+			id: "3C27D463C2C4E7C8"
+			shape: "none"
+			tasks: [{
+				id: "30B0706C4A551C9F"
+				item: "l2hostility:growth"
+				type: "item"
+			}]
+			x: 4.0828231292517145d
+			y: -4.413605442176902d
+		}
+		{
+			description: [""]
+			id: "1172D4762D279B14"
+			shape: "none"
+			tasks: [{
+				id: "4D1655153406B9D4"
+				item: "l2hostility:levitation"
+				type: "item"
+			}]
+			x: 4.0828231292517145d
+			y: -5.209523809523837d
+		}
+		{
+			description: [""]
+			id: "151FDDA2EBC20840"
+			shape: "none"
+			tasks: [{
+				id: "2D625B6C9310E2A1"
+				item: "l2hostility:drain"
+				type: "item"
+			}]
+			x: 4.062414965986406d
+			y: -6.005442176870773d
+		}
+		{
+			description: [""]
+			id: "6D9497FD26D11FEC"
+			shape: "none"
+			tasks: [{
+				id: "1A68D9A465D66415"
+				item: "l2hostility:weakness"
+				type: "item"
+			}]
+			x: 4.10323129251703d
+			y: -6.780952380952414d
+		}
+		{
+			description: [""]
+			id: "2011491F39BDEE10"
+			shape: "none"
+			tasks: [{
+				id: "00F78C7C34E3C3F9"
+				item: "l2hostility:soul_burner"
+				type: "item"
+			}]
+			x: 4.082823129251722d
+			y: -7.536054421768739d
+		}
+		{
+			description: [""]
+			id: "6E995DA80A773494"
+			rewards: [{
+				id: "6040DAE03B15090C"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "l2complements:cursed_blade"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "057A09C495947026"
+				item: "l2hostility:regenerate"
+				type: "item"
+			}]
+			x: 4.062414965986413d
+			y: -8.331972789115682d
+		}
+		{
+			description: [""]
+			id: "31DCF767BA0503B9"
+			shape: "none"
+			tasks: [{
+				id: "0D3C2DB442AD4855"
+				item: "l2hostility:blindness"
+				type: "item"
+			}]
+			x: 4.10323129251703d
+			y: -9.107482993197308d
+		}
+		{
+			description: [""]
+			id: "2D2EC8D6CF5E6ADD"
+			shape: "none"
+			tasks: [{
+				id: "0559B62A6FD72744"
+				item: "l2hostility:cursed"
+				type: "item"
+			}]
+			x: 4.082823129251722d
+			y: -9.882993197278942d
+		}
+		{
+			description: [""]
+			id: "2BEE8E08B4D11BD7"
+			shape: "none"
+			subtitle: "并非传奇词条，凑数用的"
+			tasks: [{
+				id: "33A445E9A160FF74"
+				item: "curseofpandora:reality"
+				type: "item"
+			}]
+			x: 3.2256802721088533d
+			y: -2.8829931972789495d
+		}
+		{
+			description: [""]
+			id: "420C0696FDF01C85"
+			shape: "none"
+			tasks: [{
+				id: "1AF1E2110D41E992"
+				item: "l2hostility:pulling"
+				type: "item"
+			}]
+			x: 3.2256802721088533d
+			y: -3.6585034013605764d
+		}
+		{
+			description: [""]
+			id: "6A94CAC30826425C"
+			shape: "none"
+			tasks: [{
+				id: "28D83E989DD7A476"
+				item: "l2hostility:repelling"
+				type: "item"
+			}]
+			x: 3.2256802721088533d
+			y: -4.454421768707519d
+		}
+		{
+			description: [""]
+			id: "7252712423D564C8"
+			shape: "none"
+			tasks: [{
+				id: "0A1CA675F4343C58"
+				item: "l2hostility:dementor"
+				type: "item"
+			}]
+			x: 3.2256802721088604d
+			y: -5.229931972789146d
+		}
+		{
+			description: [""]
+			id: "7EA0CE5E445F6742"
+			shape: "none"
+			tasks: [{
+				id: "14B8276F04D8929E"
+				item: "l2hostility:killer_aura"
+				type: "item"
+			}]
+			x: 3.205272108843552d
+			y: -8.291156462585064d
+		}
+		{
+			description: [""]
+			id: "47464F08643A12EC"
+			shape: "none"
+			tasks: [{
+				id: "02FCC9CC84348A96"
+				item: "l2hostility:dispell"
+				type: "item"
+			}]
+			x: 3.2256802721088604d
+			y: -6.780952380952414d
+		}
+		{
+			description: [""]
+			id: "0F154432233EDD91"
+			shape: "none"
+			tasks: [{
+				id: "5EEE92AC66607ED4"
+				item: "l2hostility:master"
+				type: "item"
+			}]
+			x: 3.2256802721088604d
+			y: -7.556462585034041d
+		}
+		{
+			description: [""]
+			id: "3AC6A8B4CB071B58"
+			shape: "none"
+			tasks: [{
+				id: "2AACC8BA7AD4FB10"
+				item: "l2hostility:teleport"
+				type: "item"
+			}]
+			x: 3.2256802721088604d
+			y: -5.985034013605478d
+		}
+		{
+			description: [""]
+			id: "16AEE1D3A603667A"
+			rewards: [{
+				id: "6F856B9098F8090E"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "l2complements:cursed_blade"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "59BE5923071E7C16"
+				item: "l2hostility:undying"
+				type: "item"
+			}]
+			x: 3.2256802721088604d
+			y: -9.107482993197308d
+		}
+		{
+			description: [
+				"&o&l&9传奇词条，使怪物能够封印你的装备。&r&r&r"
+				""
+				"怪物击中目标时随机封印&e【词条等级】个饰品和装备&r，需要像吃食物一样使用&e【词条等级】&r秒来解封，&e不会封印部分饰品与所有能够提供饰品栏位的装备和饰品&r。"
+				""
+				"可以使用 &e解咒口袋&r 来辅助解除封印，或者使用 &e扭曲之魂&r 来一劳永逸。"
+				""
+				"&9解咒口袋&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"38F4135A744CF1C4\" } }"
+				""
+				"&9扭曲之魂&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"29A87F421DBCF966\" } }"
+			]
+			id: "658E18B143986CA6"
+			rewards: [{
+				id: "2A09C2369D8FAF0A"
+				item: "kubejs:cat"
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "2C1E26526D560CE6"
+				item: "l2hostility:ragnarok"
+				type: "item"
+			}]
+			x: 3.209693877551018d
+			y: -9.87653061224496d
+		}
+		{
+			dependencies: ["51218BF55D333F9F"]
+			description: ["在玩家解锁五级词条的同时解锁传奇词条"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "curseofpandora:golden_heart"
+				tag: {
+					IsInitialized: 1b
+					baublesreforked.ModifierId: "duelist"
+					baublesreforked.ModifierUUID: "10587a4e-101a-4a9a-8b4e-d7fdd9949d44"
+				}
+			}
+			id: "7340C1B498532241"
+			shape: "none"
+			tasks: [{
+				id: "467B499AACC260B9"
+				title: "传奇词条"
+				type: "checkmark"
+			}]
+			x: 3.190476190476197d
+			y: -2.097789115646286d
+		}
+		{
+			dependencies: ["4E4FF4AC03A9BD9D"]
+			id: "38F4135A744CF1C4"
+			tasks: [{
+				id: "71FA02FC8B4E71E7"
+				item: {
+					Count: 1
+					id: "l2hostility:pocket_of_restoration"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"5D84FAF3D452C4FF"
+				"41AC92856C49178E"
+			]
+			id: "29A87F421DBCF966"
+			tasks: [{
+				id: "35510C1C89E34771"
+				item: {
+					Count: 1
+					id: "l2hostility:abrahadabra"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["55C76A9D226A086C"]
+			id: "4E4FF4AC03A9BD9D"
+			tasks: [{
+				id: "7CE5B24EC0263ACC"
+				item: {
+					Count: 1
+					id: "l2hostility:curse_of_envy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4E4FF4AC03A9BD9D"]
+			id: "095C6EBE758D3797"
+			tasks: [{
+				id: "482D396D0D790894"
+				item: {
+					Count: 1
+					id: "l2hostility:curse_of_sloth"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5D84FAF3D452C4FF"]
+			id: "6B3A58EF5825A768"
+			tasks: [{
+				id: "4190DCAF59DC50E3"
+				item: {
+					Count: 1
+					id: "l2hostility:curse_of_pride"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5D84FAF3D452C4FF"]
+			id: "2FAC3D119FB33DAC"
+			tasks: [{
+				id: "3D235F73DC44C989"
+				item: {
+					Count: 1
+					id: "l2hostility:curse_of_wrath"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4E4FF4AC03A9BD9D"]
+			id: "1EB10D1F6331B201"
+			tasks: [{
+				id: "0123D3B97AED28DD"
+				item: {
+					Count: 1
+					id: "l2hostility:curse_of_gluttony"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4E4FF4AC03A9BD9D"]
+			id: "3F51B28C62A63537"
+			tasks: [{
+				id: "205B33A93A078EBC"
+				item: {
+					Count: 1
+					id: "l2hostility:curse_of_lust"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4E4FF4AC03A9BD9D"]
+			id: "694CBB5F0C1D8A33"
+			tasks: [{
+				id: "7C9AF6FFE651E982"
+				item: {
+					Count: 1
+					id: "l2hostility:curse_of_greed"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"5D84FAF3D452C4FF"
+				"095C6EBE758D3797"
+			]
+			id: "05C101B0FC92E8B0"
+			tasks: [{
+				id: "04B62609673F323C"
+				item: {
+					Count: 1
+					id: "l2hostility:divinity_light"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"5D84FAF3D452C4FF"
+				"694CBB5F0C1D8A33"
+			]
+			id: "4493A8343DB1A757"
+			tasks: [{
+				id: "5D3531922AFA8569"
+				item: {
+					Count: 1
+					id: "l2hostility:greed_of_nidhoggur"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["024A81C494379DD8"]
+			id: "07E92CA96E110315"
+			tasks: [
+				{
+					id: "172929711EDEE994"
+					item: "l2hostility:hostility_detector"
+					type: "item"
+				}
+				{
+					id: "17F717FEF89EE250"
+					item: {
+						Count: 1
+						id: "l2hostility:detector_glasses"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 4.895408163265273d
+			y: 3.066326530612187d
+		}
+		{
+			dependencies: ["4E4FF4AC03A9BD9D"]
+			id: "41AC92856C49178E"
+			tasks: [{
+				id: "27AE37C3036208CD"
+				item: {
+					Count: 1
+					id: "l2hostility:ring_of_reflection"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5D84FAF3D452C4FF"]
+			id: "1C75316318F96EB4"
+			tasks: [{
+				id: "73E867549AF00503"
+				item: {
+					Count: 1
+					id: "l2hostility:divinity_cross"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5D84FAF3D452C4FF"]
+			id: "127D08BE04F7AAB5"
+			tasks: [{
+				id: "650AD3A3EBE959D1"
+				item: {
+					Count: 1
+					id: "l2hostility:abyssal_thorn"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			icon: "minecraft:observer"
+			id: "74B43DB860CEA5A6"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "22974D6D2D58E2B5"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "4789C73625FE1811"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+	]
+	title: "·&5莱特兰·恶意"
+}

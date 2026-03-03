@@ -1,0 +1,887 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "09278AB8C392DBB6"
+	group: "457E9E90E1EE2E33"
+	icon: "minecraft:netherrack"
+	id: "09278AB8C392DBB6"
+	images: [
+		{
+			height: 1.0d
+			image: "avaritia:item/resource/infinity/infinity_catalyst"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			height: 2.5d
+			image: "aether:block/miscellaneous/unstable_obsidian_0"
+			order: 1
+			rotation: 0.0d
+			width: 2.5d
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			height: 2.5d
+			image: "aether:block/miscellaneous/unstable_obsidian_1"
+			order: 1
+			rotation: 0.0d
+			width: 2.5d
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			height: 2.5d
+			image: "aether:block/miscellaneous/unstable_obsidian_2"
+			order: 2
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			height: 2.5d
+			image: "aether:block/miscellaneous/unstable_obsidian_3"
+			order: 3
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependency: "65436E86A45F9052"
+			height: 2.5d
+			image: "minecraft:block/nether_portal"
+			order: -1
+			rotation: 0.0d
+			width: 2.5d
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			height: 2.5d
+			image: "aether:block/miscellaneous/unstable_obsidian_0"
+			rotation: 0.0d
+			width: 2.5d
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			height: 2.5d
+			image: "aether:block/miscellaneous/unstable_obsidian_0"
+			rotation: 0.0d
+			width: 2.5d
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			height: 2.5d
+			image: "aether:block/miscellaneous/unstable_obsidian_0"
+			rotation: 0.0d
+			width: 2.5d
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			height: 2.5d
+			image: "aether:block/miscellaneous/unstable_obsidian_0"
+			rotation: 0.0d
+			width: 2.5d
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			height: 2.5d
+			image: "aether:block/miscellaneous/unstable_obsidian_0"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			height: 2.5d
+			image: "aether:block/miscellaneous/unstable_obsidian_0"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			height: 2.5d
+			image: "aether:block/miscellaneous/unstable_obsidian_0"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			height: 2.5d
+			image: "aether:block/miscellaneous/unstable_obsidian_0"
+			order: 1
+			rotation: 0.0d
+			width: 2.5d
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			height: 2.5d
+			image: "aether:block/miscellaneous/unstable_obsidian_0"
+			rotation: 0.0d
+			width: 2.5d
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependency: "65436E86A45F9052"
+			height: 2.5d
+			image: "minecraft:block/nether_portal"
+			order: -1
+			rotation: 0.0d
+			width: 2.5d
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependency: "65436E86A45F9052"
+			height: 2.5d
+			image: "minecraft:block/nether_portal"
+			order: -1
+			rotation: 0.0d
+			width: 2.5d
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependency: "65436E86A45F9052"
+			height: 2.5d
+			image: "minecraft:block/nether_portal"
+			order: -1
+			rotation: 0.0d
+			width: 2.5d
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependency: "65436E86A45F9052"
+			height: 2.5d
+			image: "minecraft:block/nether_portal"
+			order: -1
+			rotation: 0.0d
+			width: 2.5d
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependency: "65436E86A45F9052"
+			height: 2.5d
+			image: "minecraft:block/nether_portal"
+			order: -1
+			rotation: 0.0d
+			width: 2.5d
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			height: 2.5d
+			image: "minecraft:block/magma"
+			order: -1
+			rotation: 0.0d
+			width: 2.5d
+			x: 6.5d
+			y: -0.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["65436E86A45F9052"]
+			description: ["这个应该不用我教吧？"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "4B5760727FBE8107"
+			rewards: [
+				{
+					id: "699BC43FEC57A693"
+					item: "ticex:flickering_reconstruction_core"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21F79735E3ADC8A7"
+					table_id: 2496234257689732661L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "193E394024BE0760"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["65436E86A45F9052"]
+			description: ["搜索&eLava Eater Spawn&r"]
+			id: "7C63275E6691E35A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63770D4F53392A23"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:lava_eater"
+				icon: "legendary_monsters:lava_eaters_skin"
+				id: "412DB6ED102A3F04"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["65436E86A45F9052"]
+			description: ["搜索&eSkeletosaurus Nest&r"]
+			id: "2447B449DDBD74BA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CBDED459CD2A226"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:skeletosaurus"
+				icon: "legendary_monsters:dinosaur_bone"
+				id: "06AF6B792644E88A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["65436E86A45F9052"]
+			description: ["搜索&eSoul Fortress Remains&r"]
+			id: "50BF3DDAA0BE9712"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40BE6CFC1DD7D157"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:withered_abomination"
+				icon: {
+					Count: 1
+					id: "legendary_monsters:withered_horn"
+					tag: {
+						Enchantments: [ ]
+					}
+				}
+				id: "177704550E6C23E3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["65436E86A45F9052"]
+			description: ["搜索&eBurning Arena&r"]
+			id: "4B79D32F86ACF6E8"
+			rewards: [{
+				count: 10
+				id: "52AE545D499DEB84"
+				item: "cataclysm:burning_ashes"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2812650AEFFF6D11"
+				structure: "cataclysm:burning_arena"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4B79D32F86ACF6E8"]
+			id: "10DBC9A405B0B625"
+			rewards: [
+				{
+					count: 3
+					id: "6B01F76A849F147E"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63F5DE396BBDAFB5"
+					table_id: 2108578313458904176L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:the_incinerator"
+				id: "61674286CFBBA7AA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"3ADFFC6F817E9CFF"
+				"06D1D6EEFFF6A9DB"
+				"57165F0AAD04E67D"
+				"0C14D3119DD25EC2"
+				"466B726790E15E48"
+				"10DBC9A405B0B625"
+			]
+			disable_toast: true
+			icon: "cataclysm:ignitium_ingot"
+			id: "600538C952A3BE4E"
+			rewards: [{
+				auto: "enabled"
+				id: "1D77AF1CA3D28E6B"
+				item: "cataclysm:ignitium_ingot"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "405A96CEB9F8BE30"
+				item: "thermal:netherite_coin"
+				type: "item"
+			}]
+			title: "腾炎锭兑换"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["65436E86A45F9052"]
+			description: ["搜索&eSoul black Smith&r"]
+			id: "0EF37AD3F36D7AF2"
+			tasks: [{
+				id: "4BC22DEC8050EFC2"
+				structure: "cataclysm:soul_black_smith"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0EF37AD3F36D7AF2"]
+			id: "685B88A1D978885E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FEC8696A8F71213"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: "cataclysm:lava_power_cell"
+				id: "745E48B513314BFD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7C63275E6691E35A"
+				"2447B449DDBD74BA"
+				"50BF3DDAA0BE9712"
+				"10DBC9A405B0B625"
+				"685B88A1D978885E"
+				"4B5760727FBE8107"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "ticex:reforged_slashblade"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:thorns"
+							lvl: 3s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 3s
+						}
+						{
+							id: "ars_nouveau:reactive"
+							lvl: 3s
+						}
+						{
+							id: "minecraft:power"
+							lvl: 5s
+						}
+						{
+							id: "mme:critical_strike"
+							lvl: 3s
+						}
+						{
+							id: "ensorcellation:soulbound"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:feather_falling"
+							lvl: 4s
+						}
+						{
+							id: "mme:sanction"
+							lvl: 5s
+						}
+						{
+							id: "mme:judgment"
+							lvl: 5s
+						}
+						{
+							id: "mme:life_steal"
+							lvl: 3s
+						}
+						{
+							id: "ensorcellation:leech"
+							lvl: 4s
+						}
+						{
+							id: "draconicevolution:reaper_enchantment"
+							lvl: 5s
+						}
+						{
+							id: "hmag:water_aspect"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:fire_protection"
+							lvl: 4s
+						}
+						{
+							id: "mme:winter_chill"
+							lvl: 3s
+						}
+						{
+							id: "mme:soul_siphon"
+							lvl: 1s
+						}
+						{
+							id: "enigmaticaddons:frost_aspect"
+							lvl: 2s
+						}
+						{
+							id: "enigmaticlegacy:slayer"
+							lvl: 5s
+						}
+					]
+					RepairCost: 0
+					bladeState: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						ModelName: "srelic:model/stairail/none.obj"
+						RepairCounter: 265
+						SpecialAttackType: "srelic:dead_cry"
+						StandbyRenderType: 2b
+						SummonedSwordColor: -3273202
+						SummonedSwordColorInverse: 0b
+						TargetEntity: 0
+						TextureName: "srelic:model/stairail/none_red.jpg"
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						baseAttackModifier: 21.0f
+						currentCombo: "slashblade:none"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isDefaultBewitched: 1b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 601865L
+						maxDamage: 391
+						proudSoul: 270460
+						translationKey: "item.srelic.none_red"
+					}
+					etstlib_tool_uuid: "b7911721-a3f6-4e19-9e65-95b8e3f34957"
+					tic_broken: 0b
+					tic_materials: [
+						"tinkerscalibration:fazelle"
+						"tconstruct:manyullyn"
+						"tinkers_things:hematite"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "ticex:konpaku"
+						}
+						{
+							level: 1
+							name: "ticex:enchantment_supplier"
+						}
+						{
+							level: 1
+							name: "ticex:koshirae"
+						}
+						{
+							level: 1
+							name: "ticex:rebirth"
+						}
+						{
+							level: 1
+							name: "tinkerscalibration:dash"
+						}
+						{
+							level: 1
+							name: "tinkerscalibration:envy"
+						}
+						{
+							level: 1
+							name: "mushroom_daydream:insatiable_more"
+						}
+						{
+							level: 1
+							name: "mushroom_daydream:cold_blood"
+						}
+						{
+							level: 1
+							name: "mushroom_daydream:abusive"
+						}
+						{
+							level: 1
+							name: "tinkers_things:hemodynamic"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_speed": 2.6f
+						"tconstruct:durability": 1.1f
+						"tconstruct:mining_speed": 0.5f
+					}
+					tic_name: "「无」"
+					tic_persistent: {
+						"mushroom_daydream:insatiable": 12
+						upgrades: -1
+					}
+					tic_stats: {
+						"tconstruct:attack_damage": 7.81625f
+						"tconstruct:attack_speed": 3.952f
+						"tconstruct:durability": 2009.7688f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:mining_speed": 4.265625f
+					}
+					tic_upgrades: [
+						{
+							level: 1
+							name: "ticex:konpaku"
+						}
+						{
+							level: 1
+							name: "ticex:enchantment_supplier"
+						}
+						{
+							level: 1
+							name: "ticex:koshirae"
+						}
+						{
+							level: 1
+							name: "ticex:rebirth"
+						}
+					]
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 5
+					}
+				}
+			}
+			id: "17F21531C04E30BA"
+			rewards: [{
+				id: "4E993C85438F125A"
+				item: {
+					Count: 1
+					id: "thermal:satchel"
+					tag: {
+						ItemInv: {
+							ItemInv: [{
+								Count: 1b
+								Slot: 0b
+								id: "ticex:reforged_slashblade"
+								tag: {
+									Damage: 0
+									Enchantments: [
+										{
+											id: "minecraft:thorns"
+											lvl: 3s
+										}
+										{
+											id: "minecraft:sweeping"
+											lvl: 3s
+										}
+										{
+											id: "ars_nouveau:reactive"
+											lvl: 3s
+										}
+										{
+											id: "minecraft:power"
+											lvl: 5s
+										}
+										{
+											id: "mme:critical_strike"
+											lvl: 3s
+										}
+										{
+											id: "ensorcellation:soulbound"
+											lvl: 1s
+										}
+										{
+											id: "minecraft:feather_falling"
+											lvl: 4s
+										}
+										{
+											id: "mme:sanction"
+											lvl: 5s
+										}
+										{
+											id: "mme:judgment"
+											lvl: 5s
+										}
+										{
+											id: "mme:life_steal"
+											lvl: 3s
+										}
+										{
+											id: "ensorcellation:leech"
+											lvl: 4s
+										}
+										{
+											id: "draconicevolution:reaper_enchantment"
+											lvl: 5s
+										}
+										{
+											id: "hmag:water_aspect"
+											lvl: 5s
+										}
+										{
+											id: "minecraft:fire_protection"
+											lvl: 4s
+										}
+										{
+											id: "mme:winter_chill"
+											lvl: 3s
+										}
+										{
+											id: "mme:soul_siphon"
+											lvl: 1s
+										}
+										{
+											id: "enigmaticaddons:frost_aspect"
+											lvl: 2s
+										}
+										{
+											id: "enigmaticlegacy:slayer"
+											lvl: 5s
+										}
+									]
+									RepairCost: 0
+									bladeState: {
+										AttackAmplifier: 0.0f
+										ComboRoot: "slashblade:standby"
+										Damage: 0
+										ModelName: "srelic:model/stairail/none.obj"
+										RepairCounter: 265
+										SpecialAttackType: "srelic:dead_cry"
+										StandbyRenderType: 2b
+										SummonedSwordColor: -3273202
+										SummonedSwordColorInverse: 0b
+										TargetEntity: 0
+										TextureName: "srelic:model/stairail/none_red.jpg"
+										_onClick: 0b
+										adjustXYZ: [
+											0.0d
+											0.0d
+											0.0d
+										]
+										baseAttackModifier: 21.0f
+										currentCombo: "slashblade:none"
+										fallDecreaseRate: 0.0f
+										isBroken: 0b
+										isDefaultBewitched: 1b
+										isSealed: 0b
+										killCount: 0
+										lastActionTime: 601865L
+										maxDamage: 391
+										proudSoul: 270460
+										translationKey: "item.srelic.none_red"
+									}
+									etstlib_tool_uuid: "b7911721-a3f6-4e19-9e65-95b8e3f34957"
+									tic_broken: 0b
+									tic_materials: [
+										"tinkerscalibration:fazelle"
+										"tinkers_advanced:blaze_netherite"
+										"tinkers_things:hematite"
+									]
+									tic_modifiers: [
+										{
+											level: 1
+											name: "ticex:konpaku"
+										}
+										{
+											level: 1
+											name: "ticex:enchantment_supplier"
+										}
+										{
+											level: 1
+											name: "ticex:koshirae"
+										}
+										{
+											level: 1
+											name: "ticex:rebirth"
+										}
+										{
+											level: 1
+											name: "tinkerscalibration:dash"
+										}
+										{
+											level: 1
+											name: "tinkerscalibration:envy"
+										}
+										{
+											level: 1
+											name: "tinkers_advanced:flame_adaptive"
+										}
+										{
+											level: 1
+											name: "tconstruct:netherite"
+										}
+										{
+											level: 1
+											name: "tinkers_things:hemodynamic"
+										}
+									]
+									tic_multipliers: {
+										"tconstruct:attack_speed": 2.6f
+										"tconstruct:durability": 1.1f
+										"tconstruct:mining_speed": 0.5f
+									}
+									tic_name: "「无」"
+									tic_persistent: {
+										"mushroom_daydream:insatiable": 13
+										upgrades: -1
+									}
+									tic_stats: {
+										"tconstruct:armor_toughness": 1.0f
+										"tconstruct:attack_damage": 8.436001f
+										"tconstruct:attack_speed": 3.952f
+										"tconstruct:durability": 2595.4004f
+										"tconstruct:harvest_tier": "minecraft:netherite"
+										"tconstruct:knockback_resistance": 0.05f
+										"tconstruct:mining_speed": 5.003906f
+										"tconstruct:velocity": 1.1f
+									}
+									tic_upgrades: [
+										{
+											level: 1
+											name: "ticex:konpaku"
+										}
+										{
+											level: 1
+											name: "ticex:enchantment_supplier"
+										}
+										{
+											level: 1
+											name: "ticex:koshirae"
+										}
+										{
+											level: 1
+											name: "ticex:rebirth"
+										}
+									]
+									tic_volatile_data: {
+										abilities: 1
+										"tconstruct:indestructible": 1b
+										"tconstruct:rarity": 2
+										upgrades: 5
+									}
+								}
+							}]
+						}
+						RepairCost: 0
+						display: {
+							Lore: [ ]
+							Name: "{\"text\":\"§e拔刀剑小包\"}"
+							color: 9910600
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "122731DD9C662898"
+				title: "章节奖励"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependency_requirement: "all_started"
+			hide_dependent_lines: true
+			id: "65436E86A45F9052"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47E4C2EB9BEF0546"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "264F8BF15BC29077"
+				title: "&e勇往直下"
+				type: "dimension"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["65436E86A45F9052"]
+			id: "53F207167E4592F9"
+			tasks: [{
+				id: "12C3E2C987AB07DA"
+				item: "irons_spellbooks:cinderous_soulcaller"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["53F207167E4592F9"]
+			description: [
+				"搜索&ecitadel&r"
+				""
+				"使用&e寻魂烬灯&r右键&e炽魂符文&r召唤"
+			]
+			id: "1FBF5569F48474F9"
+			tasks: [{
+				disable_toast: true
+				entity: "irons_spellbooks:fire_boss"
+				id: "6B66CDBFBBE0BE81"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+	]
+	title: "·&c下界"
+}

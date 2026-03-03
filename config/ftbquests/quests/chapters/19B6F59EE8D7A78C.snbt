@@ -1,0 +1,812 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	default_repeatable_quest: true
+	disable_toast: true
+	filename: "19B6F59EE8D7A78C"
+	group: "200DE5ABA2A71E38"
+	icon: "minecraft:wheat_seeds"
+	id: "19B6F59EE8D7A78C"
+	images: [
+		{
+			height: 5.0d
+			image: "minecraft:item/wheat_seeds"
+			order: 1
+			rotation: 0.0d
+			width: 5.0d
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:block/farmland"
+			rotation: 0.0d
+			width: 6.0d
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "thermal:item/spinach_seeds"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "farmersdelight:item/cabbage_seeds"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			height: 2.0d
+			image: "trailandtales_delight:item/baked_torchflower_seeds"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: false
+			description: [
+				""
+				"在这里可以买到所有&e农作物&r种子（应该不会有遗漏）"
+				"开局赠送一个价值64铜币的盒子（雾），要好好利用哦"
+			]
+			icon: "minecraft:apple"
+			id: "1EDE17DA7745A0B5"
+			rewards: [{
+				id: "6009C5EA5A14D710"
+				item: {
+					Count: 1
+					id: "minecraft:lime_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 1b
+									Slot: 0b
+									id: "minecraft:glow_berries"
+								}
+								{
+									Count: 1b
+									Slot: 1b
+									id: "minecraft:carrot"
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "minecraft:torchflower_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 3b
+									id: "minecraft:cocoa_beans"
+								}
+								{
+									Count: 1b
+									Slot: 4b
+									id: "minecraft:potato"
+								}
+								{
+									Count: 1b
+									Slot: 5b
+									id: "minecraft:pumpkin_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 6b
+									id: "minecraft:pitcher_pod"
+								}
+								{
+									Count: 1b
+									Slot: 7b
+									id: "minecraft:beetroot_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 8b
+									id: "minecraft:sweet_berries"
+								}
+								{
+									Count: 1b
+									Slot: 9b
+									id: "minecraft:melon_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 10b
+									id: "minecraft:nether_wart"
+								}
+								{
+									Count: 1b
+									Slot: 11b
+									id: "minecraft:wheat_seeds"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+						display: {
+							Lore: ["{\"text\":\"§5各原版种子*1\"}"]
+							Name: "{\"text\":\"§2原版种子盒\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E3F0DBB833C3992"
+				type: "checkmark"
+			}]
+			title: "说明"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EDE17DA7745A0B5"]
+			icon: "minecraft:grass_block"
+			id: "348058802CB54E54"
+			rewards: [{
+				id: "250E7F61181DD81A"
+				item: {
+					Count: 1
+					id: "minecraft:lime_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 1b
+									Slot: 0b
+									id: "minecraft:glow_berries"
+								}
+								{
+									Count: 1b
+									Slot: 1b
+									id: "minecraft:carrot"
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "minecraft:torchflower_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 3b
+									id: "minecraft:cocoa_beans"
+								}
+								{
+									Count: 1b
+									Slot: 4b
+									id: "minecraft:potato"
+								}
+								{
+									Count: 1b
+									Slot: 5b
+									id: "minecraft:pumpkin_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 6b
+									id: "minecraft:pitcher_pod"
+								}
+								{
+									Count: 1b
+									Slot: 7b
+									id: "minecraft:beetroot_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 8b
+									id: "minecraft:sweet_berries"
+								}
+								{
+									Count: 1b
+									Slot: 9b
+									id: "minecraft:melon_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 10b
+									id: "minecraft:nether_wart"
+								}
+								{
+									Count: 1b
+									Slot: 11b
+									id: "minecraft:wheat_seeds"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+						display: {
+							Lore: ["{\"text\":\"§5各原版种子*1\"}"]
+							Name: "{\"text\":\"§2原版种子盒\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "0C69C222A923C560"
+				item: { Count: 64, id: "thermal:copper_coin" }
+				type: "item"
+			}]
+			title: "原版种子盒"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1EDE17DA7745A0B5"]
+			icon: {
+				Count: 1
+				id: "youkaishomecoming:suwako_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "03EB45294CDC587D"
+			rewards: [{
+				id: "134A37066233BC22"
+				item: {
+					Count: 1
+					id: "minecraft:white_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 1b
+									Slot: 0b
+									id: "youkaishomecoming:soybean"
+								}
+								{
+									Count: 1b
+									Slot: 1b
+									id: "youkaishomecoming:redbean"
+									tag: {
+										display: {
+											Lore: ["{\"text\":\"§a种植在黏土或砂土上\"}"]
+										}
+									}
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "youkaishomecoming:green_coffee_bean"
+									tag: {
+										display: {
+											Lore: ["{\"text\":\"§a在灰化土上种植\"}"]
+										}
+									}
+								}
+								{
+									Count: 1b
+									Slot: 3b
+									id: "youkaishomecoming:tea_seeds"
+									tag: {
+										display: {
+											Lore: ["{\"text\":\"§a在草方块上种植\"}"]
+										}
+									}
+								}
+								{
+									Count: 1b
+									Slot: 4b
+									id: "youkaishomecoming:udumbara_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 5b
+									id: "youkaishomecoming:mandrake_root"
+								}
+								{
+									Count: 1b
+									Slot: 6b
+									id: "youkaishomecoming:cucumber_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 7b
+									id: "youkaishomecoming:red_grape_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 8b
+									id: "youkaishomecoming:black_grape_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 9b
+									id: "youkaishomecoming:white_grape_seeds"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+						display: {
+							Lore: [ ]
+							Name: "{\"text\":\"§a怪物们的归家种子盒\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "6703497CEBCC9E07"
+				item: { Count: 64, id: "thermal:copper_coin" }
+				type: "item"
+			}]
+			title: "怪物们的归家种子盒"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: ["提供了所有种植用方块"]
+			icon: "minecraft:farmland"
+			id: "54136C55DC4D8798"
+			rewards: [
+				{
+					id: "53FAD4B23B04D547"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+				{
+					id: "71329FC263D1652F"
+					item: "minecraft:podzol"
+					type: "item"
+				}
+				{
+					id: "77697CDF8A7E4EA2"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+				{
+					id: "213258E80E6DF4C3"
+					item: "minecraft:grass_block"
+					type: "item"
+				}
+				{
+					id: "443C775C08E107D5"
+					item: "minecraft:mycelium"
+					type: "item"
+				}
+				{
+					id: "134C7CC6DD152873"
+					item: "minecraft:clay"
+					type: "item"
+				}
+				{
+					id: "1AC776FF1F39912B"
+					item: "minecraft:farmland"
+					type: "item"
+				}
+				{
+					id: "75D9873C79B0C2E8"
+					item: "aether:quicksoil"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 10L
+				id: "1F47FB29F38FCAA7"
+				item: { Count: 10, id: "thermal:copper_coin" }
+				type: "item"
+			}]
+			title: "耕地方块"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EDE17DA7745A0B5"]
+			icon: "farmersdelight:stove"
+			id: "401F58293A1209DF"
+			rewards: [{
+				id: "758CDE0F83AEC3A4"
+				item: {
+					Count: 1
+					id: "minecraft:brown_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							CustomName: "{\"text\":\"§6农夫乐事种子盒\"}"
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 1b
+									Slot: 0b
+									id: "endersdelight:chorusflame"
+								}
+								{
+									Count: 1b
+									Slot: 1b
+									id: "endersdelight:voidpepper"
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "farmersdelight:rice"
+									tag: {
+										display: {
+											Lore: ["{\"text\":\"§a种植在上方有且仅有一格高的水源方块的泥土上\"}"]
+										}
+									}
+								}
+								{
+									Count: 1b
+									Slot: 3b
+									id: "trailandtales_delight:lantern_fruit_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 4b
+									id: "miners_delight:cave_carrot"
+								}
+								{
+									Count: 1b
+									Slot: 5b
+									id: "farmersdelight:tomato_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 6b
+									id: "farmersdelight:cabbage_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 7b
+									id: "rusticdelight:coffee_beans"
+								}
+								{
+									Count: 1b
+									Slot: 8b
+									id: "rusticdelight:cotton_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 9b
+									id: "rusticdelight:bell_pepper_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 10b
+									id: "farmersdelight:onion"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+						display: {
+							Name: "{\"text\":\"§6农夫乐事种子盒\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "40528CAEE1110694"
+				item: { Count: 64, id: "thermal:copper_coin" }
+				type: "item"
+			}]
+			title: "农夫乐事种子盒"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1EDE17DA7745A0B5"]
+			icon: "ars_nouveau:creative_spell_book"
+			id: "2D3CA98F5D071867"
+			rewards: [
+				{
+					id: "55C6774F8668DA39"
+					item: "ars_nouveau:magebloom_crop"
+					type: "item"
+				}
+				{
+					id: "08044599B2426374"
+					item: "ars_nouveau:sourceberry_bush"
+					type: "item"
+				}
+			]
+			subtitle: "不建议购买"
+			tasks: [{
+				count: 64L
+				id: "3B0C53F2AB6F3A5D"
+				item: { Count: 64, id: "thermal:copper_coin" }
+				type: "item"
+			}]
+			title: "新生魔艺种子"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1EDE17DA7745A0B5"]
+			description: ["没错，只有火炬浆果"]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "266762EC03EE027E"
+			rewards: [{
+				id: "0870A9CEE243B1BA"
+				item: "twilightforest:torchberries"
+				type: "item"
+			}]
+			subtitle: "不建议购买"
+			tasks: [{
+				count: 64L
+				id: "62E7C84E6525E68E"
+				item: { Count: 64, id: "thermal:copper_coin" }
+				type: "item"
+			}]
+			title: "暮色森林种子"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1EDE17DA7745A0B5"]
+			description: ["所以我为什么不直接打草呢？"]
+			icon: "immersiveengineering:wirecoil_copper"
+			id: "4F8B880B0DFC0719"
+			rewards: [{
+				id: "2EF4C0715FF0BFD8"
+				item: "immersiveengineering:seed"
+				type: "item"
+			}]
+			subtitle: "极度不建议购买"
+			tasks: [{
+				count: 64L
+				id: "0B7799EFD7113BCD"
+				item: { Count: 64, id: "thermal:copper_coin" }
+				type: "item"
+			}]
+			title: "沉浸工程种子"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1EDE17DA7745A0B5"]
+			icon: "aether:aether_portal_frame"
+			id: "5D47C2A644ACE21C"
+			rewards: [{
+				id: "612538214356925C"
+				item: {
+					Count: 1
+					id: "minecraft:light_blue_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 1b
+									Slot: 0b
+									id: "aether:berry_bush_stem"
+								}
+								{
+									Count: 1b
+									Slot: 1b
+									id: "aether_redux:zanberry_bush_stem"
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "deep_aether:squash_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 3b
+									id: "deep_aether:goldenleaf_berries"
+									tag: {
+										display: {
+											Lore: ["{\"text\":\"§a种植在速沙上\"}"]
+										}
+									}
+								}
+								{
+									Count: 1b
+									Slot: 4b
+									id: "aether_redux:wynd_oats"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+						display: {
+							Lore: [ ]
+							Name: "{\"text\":\"§b天境传说种子盒\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "31AA70882FF40A31"
+				item: { Count: 64, id: "thermal:copper_coin" }
+				type: "item"
+			}]
+			title: "天境传说种子盒"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1EDE17DA7745A0B5"]
+			icon: {
+				Count: 1
+				id: "thermal:wrench"
+				tag: { }
+			}
+			id: "2F35C6FD647EAAEF"
+			rewards: [{
+				id: "17739041BC8F7636"
+				item: {
+					Count: 1
+					id: "minecraft:orange_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 1b
+									Slot: 0b
+									id: "thermal:gunpowder_mushroom_spores"
+									tag: {
+										display: {
+											Lore: ["{\"text\":\"§a种植在菌丝或灰化土上\"}"]
+										}
+									}
+								}
+								{
+									Count: 1b
+									Slot: 1b
+									id: "thermal:spinach_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "thermal:strawberry_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 3b
+									id: "thermal:tea_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 4b
+									id: "thermal:barley_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 5b
+									id: "thermal:tomato_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 6b
+									id: "thermal:glowstone_mushroom_spores"
+									tag: {
+										display: {
+											Lore: ["{\"text\":\"§a种植在菌丝或灰化土上\"}"]
+										}
+									}
+								}
+								{
+									Count: 1b
+									Slot: 7b
+									id: "thermal:peanut_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 8b
+									id: "thermal:coffee_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 9b
+									id: "thermal:hops_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 10b
+									id: "thermal:eggplant_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 11b
+									id: "thermal:sadiroot_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 12b
+									id: "thermal:slime_mushroom_spores"
+									tag: {
+										display: {
+											Lore: ["{\"text\":\"§a种植在菌丝或灰化土上\"}"]
+										}
+									}
+								}
+								{
+									Count: 1b
+									Slot: 13b
+									id: "thermal:frost_melon_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 14b
+									id: "thermal:rice_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 15b
+									id: "thermal:green_bean_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 16b
+									id: "thermal:bell_pepper_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 17b
+									id: "thermal:redstone_mushroom_spores"
+									tag: {
+										display: {
+											Lore: ["{\"text\":\"§a种植在菌丝或灰化土上\"}"]
+										}
+									}
+								}
+								{
+									Count: 1b
+									Slot: 18b
+									id: "thermal:radish_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 19b
+									id: "thermal:flax_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 20b
+									id: "thermal:onion_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 21b
+									id: "thermal:corn_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 22b
+									id: "thermal:amaranth_seeds"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+						display: {
+							Lore: [ ]
+							Name: "{\"text\":\"§6热力系列种子盒\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "50183E775B23E51D"
+				item: { Count: 64, id: "thermal:copper_coin" }
+				type: "item"
+			}]
+			title: "热力系列种子盒"
+			x: 2.0d
+			y: 2.0d
+		}
+	]
+	title: "·&a农贸市场"
+}

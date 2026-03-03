@@ -1,0 +1,26 @@
+{
+	id: "5EAE97D5A41CA94E"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			command: "/time set day"
+			elevate_perms: true
+			title: "白天"
+			type: "command"
+		}
+		{
+			command: "/time set night"
+			elevate_perms: true
+			title: "夜晚"
+			type: "command"
+		}
+		{
+			command: "/time set midnight"
+			elevate_perms: true
+			title: "午夜"
+			type: "command"
+		}
+	]
+	title: "时间"
+}

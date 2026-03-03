@@ -1,0 +1,19 @@
+[paths]
+resourcepackRoot = "resourcepacks"
+datapackRoot = "datapacks"
+taczRoot = "tacz"
+dlcRoot = "DLC"
+
+[ui]
+isUpdateManagerOn = true
+isUButtomShown = true
+isConfigButtonShown = true
+isEnableAllButtonShown = true
+
+[downloads]
+minSegmentMB = 1
+connectTimeoutSeconds = 10
+maxRetryCount = 5
+maxSegmentsPerFile = 8
+maxConcurrentDownloads = 64
+taskTimeoutSeconds = 180

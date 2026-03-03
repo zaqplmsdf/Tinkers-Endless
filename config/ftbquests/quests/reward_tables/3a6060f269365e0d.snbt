@@ -1,0 +1,16 @@
+{
+	id: "3A6060F269365E0D"
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{ item: "tinkersancient:melting_pan_handle_cast_fragment_2" }
+		{ item: "tinkersancient:melting_pan_handle_cast_fragment_1" }
+		{ item: "tinkersancient:swasher_head_cast" }
+		{ item: "tinkersancient:battlesign_head_cast" }
+		{ item: "tinkersancient:battlesign_handle_cast" }
+		{ item: "tinkersancient:war_pick_limb_cast" }
+		{ item: "tinkersancient:war_pick_handle_cast" }
+		{ item: "tinkersancient:melting_pan_head_cast" }
+	]
+	title: "远古"
+}

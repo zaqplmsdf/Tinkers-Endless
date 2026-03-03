@@ -1,0 +1,594 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	default_quest_size: 2.0d
+	filename: "02497BBEAE6CF48C"
+	group: "457E9E90E1EE2E33"
+	icon: "aether:aether_portal_frame"
+	id: "02497BBEAE6CF48C"
+	images: [
+		{
+			height: 20.0d
+			image: "aether:item/miscellaneous/aether_portal_frame"
+			rotation: 0.0d
+			width: 20.0d
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependency: "3E619CB40E6A251B"
+			height: 20.0d
+			image: "aether:item/miscellaneous/aether_portal_frame_inside"
+			rotation: 0.0d
+			width: 20.0d
+			x: 2.0d
+			y: 1.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"一个简单的精英怪"
+				"探险家指南针搜索“&ebrass fungeon&r”"
+			]
+			id: "48E74E781746B8D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58F55D8F3F868349"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			tasks: [{
+				id: "40197C2F292EDED1"
+				item: "deep_aether:brass_dungeon_key"
+				type: "item"
+			}]
+			title: "狂瞳龙卷"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"需要用镐子才能造成伤害"
+				"搜索“&e青铜地牢&r”"
+			]
+			icon: {
+				Count: 1
+				id: "deep_aether:slider_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4780386C792007F7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "567F7B0D8B17CB30"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "aether:slider"
+				id: "3D4D1C71B9DD5A80"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"地点“&e白银地牢&r”"
+				"挑战武神女王前需要先打女武神"
+				"凑齐十个奖牌"
+			]
+			id: "33056E97C361FD7B"
+			rewards: [{
+				count: 10
+				id: "371E916295DB9D20"
+				item: "aether:victory_medal"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "aether:valkyrie"
+				icon: "aether_redux:grand_victory_medal"
+				id: "3A707258B4CDEACB"
+				type: "kill"
+				value: 10L
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["33056E97C361FD7B"]
+			id: "5B1105EE88A5E42C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43034415585BED6E"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				icon: "deep_aether:medal_of_honor"
+				id: "0568672ECB5DD061"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			description: ["地点“&e黄金地牢&r”"]
+			id: "3A4C90C37CF59DA6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38F98980937A4E0C"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "aether:sun_spirit"
+				icon: "deep_aether:sun_core"
+				id: "27AF43BF503D16E0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			description: ["搜索&ecloudy temple&r"]
+			id: "5AA5E5D95266D19A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FFFAB498FC5BA37"
+				table_id: 2108578313458904176L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:cloud_golem"
+				icon: {
+					Count: 1
+					id: "legendary_monsters:atmospheric_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "23D2387D7B467C8D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5B1105EE88A5E42C"
+				"48E74E781746B8D3"
+				"4780386C792007F7"
+				"3A4C90C37CF59DA6"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "ticex:reforged_slashblade"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:thorns"
+							lvl: 3s
+						}
+						{
+							id: "minecraft:sweeping"
+							lvl: 3s
+						}
+						{
+							id: "ars_nouveau:reactive"
+							lvl: 3s
+						}
+						{
+							id: "minecraft:power"
+							lvl: 5s
+						}
+						{
+							id: "mme:critical_strike"
+							lvl: 3s
+						}
+						{
+							id: "ensorcellation:soulbound"
+							lvl: 1s
+						}
+						{
+							id: "minecraft:feather_falling"
+							lvl: 4s
+						}
+						{
+							id: "mme:sanction"
+							lvl: 5s
+						}
+						{
+							id: "mme:judgment"
+							lvl: 5s
+						}
+						{
+							id: "mme:life_steal"
+							lvl: 3s
+						}
+						{
+							id: "ensorcellation:leech"
+							lvl: 4s
+						}
+						{
+							id: "draconicevolution:reaper_enchantment"
+							lvl: 5s
+						}
+						{
+							id: "hmag:water_aspect"
+							lvl: 5s
+						}
+						{
+							id: "minecraft:fire_protection"
+							lvl: 4s
+						}
+						{
+							id: "mme:winter_chill"
+							lvl: 3s
+						}
+						{
+							id: "mme:soul_siphon"
+							lvl: 1s
+						}
+						{
+							id: "enigmaticaddons:frost_aspect"
+							lvl: 2s
+						}
+						{
+							id: "enigmaticlegacy:slayer"
+							lvl: 5s
+						}
+					]
+					RepairCost: 0
+					bladeState: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						ModelName: "srelic:model/stairail/jinyuan.obj"
+						RepairCounter: 265
+						SpecialAttackType: "srelic:bigslash"
+						StandbyRenderType: 2b
+						SummonedSwordColor: -2111995
+						SummonedSwordColorInverse: 0b
+						TargetEntity: -1
+						TextureName: "srelic:model/stairail/jinyuan.png"
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						baseAttackModifier: 22.0f
+						currentCombo: "slashblade:none"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isDefaultBewitched: 1b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 578148L
+						maxDamage: 391
+						proudSoul: 245460
+						translationKey: "item.srelic.jinyuan"
+					}
+					etstlib_tool_uuid: "b3b9c776-5d95-4657-b70e-23c2266404ab"
+					tic_broken: 0b
+					tic_materials: [
+						"aether_tinker:stratus"
+						"aether_tinker:gravitite"
+						"aether_tinker:skyjade"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "ticex:konpaku"
+						}
+						{
+							level: 1
+							name: "ticex:enchantment_supplier"
+						}
+						{
+							level: 1
+							name: "ticex:koshirae"
+						}
+						{
+							level: 1
+							name: "ticex:rebirth"
+						}
+						{
+							level: 1
+							name: "aether_tinker:incomplete_dream"
+						}
+						{
+							level: 1
+							name: "aether_tinker:c_moon"
+						}
+						{
+							level: 1
+							name: "aether_tinker:sky_tinker_thing"
+						}
+						{
+							level: 1
+							name: "aether_tinker:elegant"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_speed": 2.6f
+						"tconstruct:durability": 1.1f
+						"tconstruct:mining_speed": 0.5f
+					}
+					tic_name: "阵刀「神策」"
+					tic_persistent: {
+						upgrades: -1
+					}
+					tic_stats: {
+						"tconstruct:accuracy": 0.90000004f
+						"tconstruct:attack_damage": 13.7025f
+						"tconstruct:attack_speed": 5.7408004f
+						"tconstruct:draw_speed": 1.2f
+						"tconstruct:durability": 2809.62f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:mining_speed": 6.0750003f
+						"tconstruct:projectile_damage": 2.4f
+						"tconstruct:velocity": 1.2f
+					}
+					tic_upgrades: [
+						{
+							level: 1
+							name: "ticex:konpaku"
+						}
+						{
+							level: 1
+							name: "ticex:enchantment_supplier"
+						}
+						{
+							level: 1
+							name: "ticex:koshirae"
+						}
+						{
+							level: 1
+							name: "ticex:rebirth"
+						}
+					]
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			id: "0D9A76B6F735FE21"
+			rewards: [{
+				id: "356A71F8DD92117E"
+				item: {
+					Count: 1
+					id: "thermal:satchel"
+					tag: {
+						ItemInv: {
+							ItemInv: [{
+								Count: 1b
+								Slot: 0b
+								id: "ticex:reforged_slashblade"
+								tag: {
+									Damage: 0
+									Enchantments: [
+										{
+											id: "minecraft:thorns"
+											lvl: 3s
+										}
+										{
+											id: "minecraft:sweeping"
+											lvl: 3s
+										}
+										{
+											id: "ars_nouveau:reactive"
+											lvl: 3s
+										}
+										{
+											id: "minecraft:power"
+											lvl: 5s
+										}
+										{
+											id: "mme:critical_strike"
+											lvl: 3s
+										}
+										{
+											id: "ensorcellation:soulbound"
+											lvl: 1s
+										}
+										{
+											id: "minecraft:feather_falling"
+											lvl: 4s
+										}
+										{
+											id: "mme:sanction"
+											lvl: 5s
+										}
+										{
+											id: "mme:judgment"
+											lvl: 5s
+										}
+										{
+											id: "mme:life_steal"
+											lvl: 3s
+										}
+										{
+											id: "ensorcellation:leech"
+											lvl: 4s
+										}
+										{
+											id: "draconicevolution:reaper_enchantment"
+											lvl: 5s
+										}
+										{
+											id: "hmag:water_aspect"
+											lvl: 5s
+										}
+										{
+											id: "minecraft:fire_protection"
+											lvl: 4s
+										}
+										{
+											id: "mme:winter_chill"
+											lvl: 3s
+										}
+										{
+											id: "mme:soul_siphon"
+											lvl: 1s
+										}
+										{
+											id: "enigmaticaddons:frost_aspect"
+											lvl: 2s
+										}
+										{
+											id: "enigmaticlegacy:slayer"
+											lvl: 5s
+										}
+									]
+									RepairCost: 0
+									bladeState: {
+										AttackAmplifier: 0.0f
+										ComboRoot: "slashblade:standby"
+										Damage: 0
+										ModelName: "srelic:model/stairail/jinyuan.obj"
+										RepairCounter: 265
+										SpecialAttackType: "srelic:bigslash"
+										StandbyRenderType: 2b
+										SummonedSwordColor: -2111995
+										SummonedSwordColorInverse: 0b
+										TargetEntity: -1
+										TextureName: "srelic:model/stairail/jinyuan.png"
+										_onClick: 0b
+										adjustXYZ: [
+											0.0d
+											0.0d
+											0.0d
+										]
+										baseAttackModifier: 22.0f
+										currentCombo: "slashblade:none"
+										fallDecreaseRate: 0.0f
+										isBroken: 0b
+										isDefaultBewitched: 1b
+										isSealed: 0b
+										killCount: 0
+										lastActionTime: 578148L
+										maxDamage: 391
+										proudSoul: 245460
+										translationKey: "item.srelic.jinyuan"
+									}
+									etstlib_tool_uuid: "b3b9c776-5d95-4657-b70e-23c2266404ab"
+									tic_broken: 0b
+									tic_materials: [
+										"aether_tinker:stratus"
+										"aether_tinker:gravitite"
+										"aether_tinker:skyjade"
+									]
+									tic_modifiers: [
+										{
+											level: 1
+											name: "ticex:konpaku"
+										}
+										{
+											level: 1
+											name: "ticex:enchantment_supplier"
+										}
+										{
+											level: 1
+											name: "ticex:koshirae"
+										}
+										{
+											level: 1
+											name: "ticex:rebirth"
+										}
+										{
+											level: 1
+											name: "aether_tinker:incomplete_dream"
+										}
+										{
+											level: 1
+											name: "aether_tinker:c_moon"
+										}
+										{
+											level: 1
+											name: "aether_tinker:sky_tinker_thing"
+										}
+										{
+											level: 1
+											name: "aether_tinker:elegant"
+										}
+									]
+									tic_multipliers: {
+										"tconstruct:attack_speed": 2.6f
+										"tconstruct:durability": 1.1f
+										"tconstruct:mining_speed": 0.5f
+									}
+									tic_name: "阵刀「神策」"
+									tic_persistent: {
+										upgrades: -1
+									}
+									tic_stats: {
+										"tconstruct:accuracy": 0.90000004f
+										"tconstruct:attack_damage": 13.7025f
+										"tconstruct:attack_speed": 5.7408004f
+										"tconstruct:draw_speed": 1.2f
+										"tconstruct:durability": 2809.62f
+										"tconstruct:harvest_tier": "minecraft:netherite"
+										"tconstruct:mining_speed": 6.0750003f
+										"tconstruct:projectile_damage": 2.4f
+										"tconstruct:velocity": 1.2f
+									}
+									tic_upgrades: [
+										{
+											level: 1
+											name: "ticex:konpaku"
+										}
+										{
+											level: 1
+											name: "ticex:enchantment_supplier"
+										}
+										{
+											level: 1
+											name: "ticex:koshirae"
+										}
+										{
+											level: 1
+											name: "ticex:rebirth"
+										}
+									]
+									tic_volatile_data: {
+										abilities: 1
+										upgrades: 3
+									}
+								}
+							}]
+						}
+						RepairCost: 0
+						display: {
+							Lore: [ ]
+							Name: "{\"text\":\"§e拔刀剑小包\"}"
+							color: 7648980
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A5B2F5ED72D671F"
+				title: "章节奖励"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+	]
+	title: "·&b天境"
+}

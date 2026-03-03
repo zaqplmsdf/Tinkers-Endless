@@ -1,0 +1,514 @@
+{
+	hide_tooltip: true
+	id: "58F8C720D5E58625"
+	loot_crate: {
+		color: 5636095
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "修饰词"
+		string_id: "4"
+	}
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "tough"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "paladin"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "vampiric"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "powerful"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "assassin"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "duelist"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "juggernaut"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "focused"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "unlucky"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "hunter"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "berserker"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "flame"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "advanced_jumper"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "titan"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "heavy"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "aquatic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "samurai"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "monk"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "acrobat"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "warlock"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "scout"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "quick"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "battle_master"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "warrior"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "demonic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "reach"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "lucky_basic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "guardian"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "scholar"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "celestial"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "angel"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "earth"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "tank"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "durable"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "fragile"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "armored"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "cursed"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "super_jumper"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "jumper"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "nimble"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "healthy"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "glass_cannon"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "dragon"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "storm"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "frost"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "thunder"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "defender"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "ancient"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "swift"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "sprinter"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "wind"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "rogue"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "steady"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "clumsy"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "baublesreforked:modifier_book"
+				tag: {
+					baublesreforked.ModifierId: "chaos"
+				}
+			}
+		}
+	]
+	title: "修饰词"
+}

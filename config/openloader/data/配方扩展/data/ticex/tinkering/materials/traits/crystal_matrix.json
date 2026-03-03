@@ -1,0 +1,26 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "ticex:aftershock"
+    },
+    {
+      "level": 1,
+      "name": "tconstruct:insatiable"
+    }
+  ],
+  "perStat": {
+    "tconstruct:armor": [
+      {
+        "level": 1,
+        "name": "sakuratinker:crystalline_armor"
+      }
+    ],
+    "sakuratinker:charm": [
+      {
+        "level": 1,
+        "name": "sakuratinker:crystalline_armor"
+      }
+    ]
+  }
+}

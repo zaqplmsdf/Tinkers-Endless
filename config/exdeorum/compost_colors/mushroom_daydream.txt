@@ -1,0 +1,26 @@
+// Compost colors for mushroom_daydream. You may add your own colors, change existing ones, or remove colors that aren't needed.
+bee_man, #f5e4e7
+blue_eye_white_dragon, #9b97af
+copper_green, #dafff5
+dark_thing, #d0c5d0
+dark_thing_bucket, #e1e0e0
+dragon_gobber, #deb6eb
+heimdallr, #fffeda
+holy, #fffff5
+legend_paper, #e3a45f
+liga, #eaf0ff
+mizi, #ffffff
+nightmare_fuel, #141414
+nightmare_fuel_bucket, #e1e0e0
+no_head, #ffe1c2
+no_head_bucket, #fff7e7
+plague_steel, #ffffff
+pure_horror, #80413d
+rat_world, #ffffcf
+shiguan, #fffff1
+sjngp, #ffffff
+slime_court_jester, #b66e93
+slime_pawn, #ffffea
+sublimation_substance, #ffffff
+ultimate_alchemical_compound, #ffffff
+zero_mushroom, #b6ddff

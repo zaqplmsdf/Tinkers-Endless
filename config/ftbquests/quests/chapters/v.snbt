@@ -1,0 +1,1644 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "v"
+	group: "63383AA57008A157"
+	icon: "enigmaticlegacy:cursed_ring"
+	id: "6A9F94532F83D067"
+	images: [
+		{
+			dependency: "37E138355AAC2846"
+			height: 12.0d
+			image: "enigmaticaddons:item/bless_ring"
+			order: 10
+			rotation: 0.0d
+			width: 12.0d
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependency: "1DD99B351A75C6E1"
+			height: 5.0d
+			image: "enigmaticlegacy:item/cursed_ring"
+			rotation: 0.0d
+			width: 5.0d
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependency: "308985B7C87650E1"
+			height: 7.0d
+			image: "enigmaticaddons:item/bless_stone"
+			order: 5
+			rotation: 0.0d
+			width: 7.0d
+			x: -0.5d
+			y: -2.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1DD99B351A75C6E1"]
+			id: "099CD58FB7F6C936"
+			rewards: [{
+				id: "27E7254C1336571E"
+				item: "bountifulbaubles:resplendent_token"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C01FA3C5FE018C9"
+				item: "enigmaticlegacy:the_acknowledgment"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["418A682BE565AEC3"]
+			hide_until_deps_complete: false
+			id: "1DD99B351A75C6E1"
+			rewards: [
+				{
+					id: "72B4D5A23C386A51"
+					item: "ringsofascension:ring_undying"
+					type: "item"
+				}
+				{
+					id: "28A32A6EC5DE3BE1"
+					item: "artifacts:crystal_heart"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				advancement: "enigmaticlegacy:main/cursed_ring"
+				criterion: ""
+				id: "3F0C10482765A5B5"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1DD99B351A75C6E1"]
+			id: "43CC5A888D18D73B"
+			rewards: [{
+				id: "72B49B665EDEF0D9"
+				item: "bountifulbaubles:resplendent_token"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07BE36D8B46674ED"
+				item: "enigmaticaddons:antique_bag"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			id: "19FCF52499504180"
+			rewards: [{
+				id: "2151D8DA02CB3EEF"
+				item: {
+					Count: 1
+					id: "bountifulbaubles:mossy_ring"
+					tag: {
+						BaubleModifier: {
+							Attribute: "minecraft:generic.max_health"
+							TranslationKey: "modifier.bountifulbaubles.hearty"
+							UUID: [I;
+								-1160555235
+								-1484960036
+								-1942061442
+								1512915853
+							]
+							Value: 2.0d
+						}
+						IsInitialized: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2574D07693D185C3"
+				item: "enigmaticlegacy:animal_guidebook"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"19FCF52499504180"
+				"24D083790690CCDF"
+			]
+			id: "1C0F0DA511233C53"
+			rewards: [{
+				id: "577C8673899AAC2E"
+				item: {
+					Count: 1
+					id: "bountifulbaubles:mossy_belt"
+					tag: {
+						BaubleModifier: {
+							Attribute: "minecraft:generic.max_health"
+							TranslationKey: "modifier.bountifulbaubles.hearty"
+							UUID: [I;
+								-1827137162
+								908804234
+								-1078133642
+								-399320070
+							]
+							Value: 2.0d
+						}
+						IsInitialized: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "151681D90389C76B"
+				item: "enigmaticaddons:ode_to_living"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"24D083790690CCDF"
+				"439C499383ED3119"
+			]
+			id: "61C05A648EDEBEB5"
+			rewards: [{
+				id: "77D54E54A20D291D"
+				item: {
+					Count: 1
+					id: "bountifulbaubles:gauntlets_dexterity"
+					tag: {
+						BaubleModifier: {
+							Attribute: "minecraft:generic.attack_damage"
+							TranslationKey: "modifier.bountifulbaubles.menacing"
+							UUID: [I;
+								-701591900
+								1913406188
+								-1640361284
+								-1455439654
+							]
+							Value: 0.08d
+						}
+						IsInitialized: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "128C7E4EDFA75AB7"
+				item: "enigmaticaddons:earth_promise"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["24D083790690CCDF"]
+			id: "16D3E3622023B259"
+			rewards: [{
+				id: "4FC66E7A8CD7560A"
+				item: {
+					Count: 1
+					id: "bountifulbaubles:warm_void"
+					tag: {
+						BaubleModifier: {
+							Attribute: "minecraft:generic.attack_damage"
+							TranslationKey: "modifier.bountifulbaubles.menacing"
+							UUID: [I;
+								-1864192605
+								-582726632
+								-1376484999
+								-1880662363
+							]
+							Value: 0.08d
+						}
+						IsInitialized: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B44C381B9032488"
+				item: "enigmaticaddons:scorched_charm"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0CC11ECB606129D2"]
+			id: "272A22978CDE8418"
+			rewards: [{
+				id: "772A5F4521706679"
+				item: {
+					Count: 1
+					id: "bountifulbaubles:blaze_heart"
+					tag: {
+						BaubleModifier: {
+							Attribute: "minecraft:generic.attack_speed"
+							TranslationKey: "modifier.bountifulbaubles.intrepid"
+							UUID: [I;
+								-1239518308
+								-1963965104
+								-1214067024
+								21611494
+							]
+							Value: 0.06d
+						}
+						IsInitialized: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F6D22EB3BF98229"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:infernal_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0CC11ECB606129D2"]
+			id: "29A1C9F71FC13AF8"
+			rewards: [{
+				id: "5C8773214202F8F2"
+				item: {
+					Count: 1
+					id: "bountifulbaubles:golden_melon"
+					tag: {
+						BaubleModifier: {
+							Attribute: "minecraft:generic.attack_speed"
+							TranslationKey: "modifier.bountifulbaubles.rash"
+							UUID: [I;
+								-1931621797
+								378028289
+								-1476869261
+								-1540447877
+							]
+							Value: 0.04d
+						}
+						IsInitialized: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F818BFADE13AECB"
+				item: "enigmaticlegacy:the_twist"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"29A1C9F71FC13AF8"
+				"12F6358152D023C9"
+			]
+			id: "3CD698819E8A5F87"
+			rewards: [{
+				id: "3461EA8E443B00A2"
+				item: {
+					Count: 1
+					id: "bountifulbaubles:drop_spindle"
+					tag: {
+						BaubleModifier: {
+							Attribute: "minecraft:generic.attack_speed"
+							TranslationKey: "modifier.bountifulbaubles.violent"
+							UUID: [I;
+								1183185018
+								1809270165
+								-1952370972
+								830639081
+							]
+							Value: 0.08d
+						}
+						IsInitialized: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "10D51F753E22CE11"
+				item: "enigmaticlegacy:the_infinitum"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["24D083790690CCDF"]
+			id: "7ABF49D709611F47"
+			rewards: [{
+				id: "072E30FE0125D6AE"
+				item: {
+					Count: 1
+					id: "bountifulbaubles:ankh_charm"
+					tag: {
+						BaubleModifier: {
+							Attribute: "minecraft:generic.attack_speed"
+							TranslationKey: "modifier.bountifulbaubles.violent"
+							UUID: [I;
+								1091043239
+								-503756024
+								-1794385434
+								1087281170
+							]
+							Value: 0.08d
+						}
+						IsInitialized: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "17C9EE1BDE73A602"
+				item: "enigmaticaddons:the_bless"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1DD99B351A75C6E1"]
+			description: ["佩戴&e神圣之石&r死亡可&e完全&r解除诅咒"]
+			id: "308985B7C87650E1"
+			rewards: [{
+				id: "66576667FDF68078"
+				item: {
+					Count: 1
+					id: "bountifulbaubles:book_o_enchanting"
+					tag: {
+						BaubleModifier: {
+							Attribute: "minecraft:generic.attack_damage"
+							TranslationKey: "modifier.bountifulbaubles.menacing"
+							UUID: [I;
+								-1949842180
+								1536052847
+								-1346431916
+								1102327960
+							]
+							Value: 0.08d
+						}
+						IsInitialized: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "240DE24B196E059C"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:bless_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["308985B7C87650E1"]
+			icon: "enigmaticaddons:bless_ring"
+			id: "37E138355AAC2846"
+			rewards: [{
+				id: "3123164DBADF873F"
+				item: {
+					Count: 1
+					id: "bountifulbaubles:infinite_totem_of_undying"
+					tag: {
+						BaubleModifier: {
+							Attribute: "minecraft:generic.attack_speed"
+							TranslationKey: "modifier.bountifulbaubles.violent"
+							UUID: [I;
+								1386401876
+								-104641580
+								-2035741832
+								1782116673
+							]
+							Value: 0.08d
+						}
+						Damage: 0
+						IsInitialized: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "enigmaticaddons:main/bless_ring"
+				criterion: ""
+				id: "14D680F0F867D1BB"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"43CC5A888D18D73B"
+				"19FCF52499504180"
+				"308985B7C87650E1"
+				"16D3E3622023B259"
+				"7ABF49D709611F47"
+				"29A1C9F71FC13AF8"
+				"61C05A648EDEBEB5"
+				"099CD58FB7F6C936"
+				"1DD99B351A75C6E1"
+				"1C0F0DA511233C53"
+				"3CD698819E8A5F87"
+				"272A22978CDE8418"
+				"37E138355AAC2846"
+			]
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "sakuratinker:vampire_knife"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: ["{\"text\":\"§4极恶-纯粹恐惧-龙之戈伯所铸\"}"]
+						Name: "{\"text\":\"§4血裔\"}"
+					}
+					etstlib_tool_uuid: "196165c5-af21-497b-84e0-0b31216479e4"
+					tic_broken: 0b
+					tic_materials: [
+						"mushroom_daydream:pure_horror"
+						"sakuratinker:nefarious"
+						"mushroom_daydream:gobber_dragon"
+						"sakuratinker:nefarious"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tconstruct:creative_slot"
+						}
+						{
+							level: 1
+							name: "mushroom_daydream:sharp_shadow"
+						}
+						{
+							level: 1
+							name: "mushroom_daydream:evil_shadow"
+						}
+						{
+							level: 2
+							name: "sakuratinker:ultra_hostility"
+						}
+						{
+							level: 1
+							name: "mushroom_daydream:arrogant"
+						}
+						{
+							level: 1
+							name: "mushroom_daydream:gobber_max"
+						}
+						{
+							level: 1
+							name: "tconstruct:silky_shears"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 0.6f
+						"tconstruct:durability": 1.25f
+					}
+					tic_persistent: {
+						"tconstruct:creative": {
+							abilities: 2
+							upgrades: 2
+						}
+					}
+					tic_stats: {
+						"tconstruct:accuracy": 1.0f
+						"tconstruct:attack_damage": 67.84801f
+						"tconstruct:attack_speed": 11.0f
+						"tconstruct:draw_speed": 2.0f
+						"tconstruct:durability": 15510.0f
+						"tconstruct:harvest_tier": "mushroom_daydream:gobber_dragon"
+						"tconstruct:mining_speed": 84.48f
+						"tconstruct:projectile_damage": 4.0f
+						"tconstruct:velocity": 4.4f
+					}
+					tic_upgrades: [{
+						level: 1
+						name: "tconstruct:creative_slot"
+					}]
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			id: "500F27BBAC71A23B"
+			rewards: [{
+				id: "5620BBB81D6722C2"
+				item: {
+					Count: 1
+					id: "sakuratinker:vampire_knife"
+					tag: {
+						Damage: 0
+						display: {
+							Lore: ["{\"text\":\"§4极恶-纯粹恐惧-龙之戈伯所铸\"}"]
+							Name: "{\"text\":\"§4血裔\"}"
+						}
+						etstlib_tool_uuid: "196165c5-af21-497b-84e0-0b31216479e4"
+						tic_broken: 0b
+						tic_materials: [
+							"mushroom_daydream:pure_horror"
+							"sakuratinker:nefarious"
+							"mushroom_daydream:gobber_dragon"
+							"sakuratinker:nefarious"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+							{
+								level: 1
+								name: "mushroom_daydream:sharp_shadow"
+							}
+							{
+								level: 1
+								name: "mushroom_daydream:evil_shadow"
+							}
+							{
+								level: 2
+								name: "sakuratinker:ultra_hostility"
+							}
+							{
+								level: 1
+								name: "mushroom_daydream:arrogant"
+							}
+							{
+								level: 1
+								name: "mushroom_daydream:gobber_max"
+							}
+							{
+								level: 1
+								name: "tconstruct:silky_shears"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.6f
+							"tconstruct:durability": 1.25f
+						}
+						tic_persistent: {
+							"tconstruct:creative": {
+								abilities: 2
+								upgrades: 2
+							}
+						}
+						tic_stats: {
+							"tconstruct:accuracy": 1.0f
+							"tconstruct:attack_damage": 67.84801f
+							"tconstruct:attack_speed": 11.0f
+							"tconstruct:draw_speed": 2.0f
+							"tconstruct:durability": 15510.0f
+							"tconstruct:harvest_tier": "mushroom_daydream:gobber_dragon"
+							"tconstruct:mining_speed": 84.48f
+							"tconstruct:projectile_damage": 4.0f
+							"tconstruct:velocity": 4.4f
+						}
+						tic_upgrades: [{
+							level: 1
+							name: "tconstruct:creative_slot"
+						}]
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6B6DA1057D6AD64D"
+				type: "checkmark"
+			}]
+			title: "章节奖励"
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1DD99B351A75C6E1"]
+			icon: "enigmaticdelicacy:astral_tea"
+			id: "268EBD7B7ACC5BC4"
+			rewards: [{
+				auto: "enabled"
+				id: "7D22910FBB3F952A"
+				item: "enigmaticdelicacy:astral_tea"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "46A9B0334550E886"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "&5天体安神茶"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1DD99B351A75C6E1"]
+			description: [
+				"用于为&e七咒之戒&r/&e救赎之戒&r敲修饰词"
+				"以及调整这两个饰品的位置"
+			]
+			icon: "botania:bauble_box"
+			id: "5B185AC5271A6F7F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B7557DA4240E270"
+				table_id: 8714745373309367398L
+				team_reward: true
+				type: "choice"
+			}]
+			shape: "diamond"
+			tasks: [{
+				consume_items: true
+				id: "23A15084927BA6E4"
+				item: "thermal:netherite_coin"
+				type: "item"
+			}]
+			title: "调整饰品位置"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1DD99B351A75C6E1"]
+			id: "0C3DB5B76E3CB8C0"
+			tasks: [{
+				id: "067182029D5B9E66"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:earth_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0C3DB5B76E3CB8C0"]
+			id: "24D083790690CCDF"
+			tasks: [{
+				id: "0813822086B70065"
+				item: "enigmaticaddons:pure_heart"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"0C3DB5B76E3CB8C0"
+				"15178FC25D01DAE3"
+			]
+			id: "0CC11ECB606129D2"
+			tasks: [{
+				id: "5DA3B201FD46DF18"
+				item: "enigmaticlegacy:twisted_heart"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["43CC5A888D18D73B"]
+			description: ["可提供一个&e永久效果&r及&e永久免疫&r一个效果"]
+			id: "25D203384CA4AC7E"
+			tasks: [{
+				id: "6CE0F4855F9E452A"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:artificial_flower"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			id: "15178FC25D01DAE3"
+			tasks: [{
+				id: "02860BE03D215BE5"
+				item: "enigmaticlegacy:evil_essence"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1DD99B351A75C6E1"]
+			id: "6C5A99E12CF5EB69"
+			subtitle: "基础的指环"
+			tasks: [{
+				id: "233E43C3A5450493"
+				item: "enigmaticlegacy:iron_ring"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6C5A99E12CF5EB69"]
+			id: "51177F0E0114F46D"
+			tasks: [{
+				id: "2587903F77E84C90"
+				item: "enigmaticlegacy:golden_ring"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51177F0E0114F46D"]
+			description: ["放在&e魔法石英花&r之中可增强&e魔法石英花&r的效果"]
+			id: "1A338B9305B5CE7A"
+			tasks: [{
+				id: "239D0F2317547D3D"
+				item: "enigmaticaddons:quartz_ring"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["08B72C8CAE04E0C0"]
+			id: "3D075E06AC11EEE7"
+			tasks: [{
+				id: "5BDB4DC3CF3A386F"
+				item: "enigmaticlegacy:super_magnet_ring"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6C5A99E12CF5EB69"]
+			id: "08B72C8CAE04E0C0"
+			tasks: [{
+				id: "7D450DABE9224592"
+				item: "enigmaticlegacy:magnet_ring"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1834DF9607971957"]
+			id: "4AC07FD4321D7183"
+			tasks: [{
+				id: "1758C37C4A4CA2EF"
+				item: "enigmaticlegacy:etherium_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 11.0d
+		}
+		{
+			id: "1834DF9607971957"
+			tasks: [{
+				id: "4F2E1556893C947B"
+				item: "enigmaticlegacy:etherium_ore"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1DD99B351A75C6E1"]
+			id: "3CD20DC17D56153E"
+			tasks: [{
+				id: "7162E81B2916BBD4"
+				item: "enigmaticlegacy:thicc_scroll"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3CD20DC17D56153E"]
+			id: "44943F5E22690E6E"
+			tasks: [{
+				id: "0E10F08E486387B3"
+				item: "enigmaticlegacy:darkest_scroll"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3CD20DC17D56153E"]
+			id: "32D55FA6A4AB4A7E"
+			tasks: [{
+				id: "28DEC6A649BE0187"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:xp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3CD20DC17D56153E"]
+			id: "7A3E0EC3029824D6"
+			tasks: [{
+				id: "751528DE6041FF72"
+				item: "enigmaticlegacy:escape_scroll"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44943F5E22690E6E"]
+			id: "6465603E70459761"
+			rewards: [{
+				id: "25BB770FCFE764B2"
+				item: {
+					Count: 1
+					id: "minecraft:shield"
+					tag: {
+						BlockEntityTag: {
+							Base: 10
+							Patterns: [
+								{
+									Color: 14
+									Pattern: "gru"
+								}
+								{
+									Color: 7
+									Pattern: "bo"
+								}
+								{
+									Color: 15
+									Pattern: "mc"
+								}
+								{
+									Color: 14
+									Pattern: "moj"
+								}
+								{
+									Color: 15
+									Pattern: "cbo"
+								}
+								{
+									Color: 7
+									Pattern: "botania:sword"
+								}
+							]
+							id: "minecraft:banner"
+						}
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:binding_curse"
+								lvl: 1
+							}
+							{
+								id: "minecraft:vanishing_curse"
+								lvl: 1
+							}
+							{
+								id: "mme:curse_root"
+								lvl: 1
+							}
+							{
+								id: "enigmaticlegacy:nemesis"
+								lvl: 1
+							}
+							{
+								id: "enigmaticlegacy:eternal_binding"
+								lvl: 1
+							}
+							{
+								id: "enigmaticlegacy:sorrow"
+								lvl: 1
+							}
+							{
+								id: "ensorcellation:curse_mercy"
+								lvl: 1
+							}
+							{
+								id: "enigmaticaddons:redemption_curse"
+								lvl: 1
+							}
+							{
+								id: "ensorcellation:curse_fool"
+								lvl: 1
+							}
+						]
+						HideFlags: 32
+						Unbreakable: 1b
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"text\":\"§5诅咒之盾\"}],\"text\":\"\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D75179B7BAF776D"
+				item: "enigmaticlegacy:cursed_scroll"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["32D55FA6A4AB4A7E"]
+			id: "7720C3E57A85B9E0"
+			tasks: [{
+				id: "24A7D4648099B5E7"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:cursed_xp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3CD20DC17D56153E"]
+			id: "601661707D0EC893"
+			tasks: [{
+				id: "2C08C19D8D0019C5"
+				item: "enigmaticdelicacy:fading_scroll"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3CD20DC17D56153E"]
+			id: "2DC433CA14D3F949"
+			tasks: [{
+				id: "006647C4A7F4F39B"
+				item: "enigmaticlegacy:heaven_scroll"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C3DB5B76E3CB8C0"]
+			id: "439C499383ED3119"
+			tasks: [{
+				id: "0A1978417A07CE82"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:mining_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["44943F5E22690E6E"]
+			id: "191C165394CCC3AF"
+			tasks: [{
+				id: "2C8E591DF80C2906"
+				item: "enigmaticaddons:night_scroll"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["44943F5E22690E6E"]
+			id: "0D234515B671743B"
+			tasks: [{
+				id: "3CFACCA2984910D5"
+				item: "enigmaticlegacy:avarice_scroll"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44943F5E22690E6E"]
+			id: "51D30CECDFA2F07F"
+			tasks: [{
+				id: "4BC15C250B13233C"
+				item: "enigmaticaddons:thunder_scroll"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2DC433CA14D3F949"]
+			id: "50CE4312CA1190AF"
+			tasks: [{
+				id: "17DD8DE33E7D2570"
+				item: "enigmaticlegacy:fabulous_scroll"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			id: "12F6358152D023C9"
+			tasks: [{
+				id: "349BD2A2568757C5"
+				item: "enigmaticlegacy:abyssal_heart"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			id: "0D482FB837568470"
+			subtitle: "原始催化剂"
+			tasks: [{
+				id: "2175358DA0CB014B"
+				item: "enigmaticlegacy:astral_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"12F6358152D023C9"
+				"0D482FB837568470"
+				"77F7E2054B296123"
+			]
+			id: "7438AACE45C00F05"
+			tasks: [{
+				id: "06D5FE11AEF9AD2F"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:eldritch_pan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["12F6358152D023C9"]
+			id: "50F8B824AC8DE5DA"
+			tasks: [{
+				id: "30ADE13DE41431D5"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:chaos_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["12F6358152D023C9"]
+			id: "1CAC601F59C671BE"
+			tasks: [{
+				id: "0E4EEEA87809E944"
+				item: "enigmaticaddons:violence_scroll"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			id: "00CECCBCEB7F5648"
+			tasks: [{
+				id: "7AD2F849388E96DF"
+				item: "enigmaticaddons:hell_blade_charm"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0CC11ECB606129D2"
+				"00CECCBCEB7F5648"
+			]
+			id: "75629739CE4C6A31"
+			tasks: [{
+				id: "1A546BFE3A0EB018"
+				item: "enigmaticlegacy:berserk_charm"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "77F7E2054B296123"
+			subtitle: "还在为背包爆满而烦恼吗？"
+			tasks: [{
+				id: "00A96374F3A73A8C"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:void_stone"
+					tag: {
+						tic_persistent: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0D482FB837568470"]
+			id: "03419B2533343167"
+			subtitle: "合成材料"
+			tasks: [{
+				id: "3C18DEBB0C03F84E"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:cosmic_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"0D482FB837568470"
+				"43810D7FBF18E5CA"
+			]
+			id: "5A19CB6C7206C9B5"
+			tasks: [{
+				id: "18D16CDF5FE85C4B"
+				item: "enigmaticdelicacy:astral_sapling"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["12F6358152D023C9"]
+			id: "033525C08B5B85B0"
+			tasks: [{
+				id: "78AB9C1598BC958F"
+				item: "enigmaticlegacy:desolation_ring"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["43810D7FBF18E5CA"]
+			id: "0974822DBB5D1CAD"
+			subtitle: "不要吃，建议搓树苗"
+			tasks: [{
+				id: "4AADCF20486B9258"
+				item: "enigmaticlegacy:astral_fruit"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"5A19CB6C7206C9B5"
+				"1C6CE04942D583DD"
+				"2C7FC1361B0E1555"
+			]
+			id: "49C5D7FC473D81BC"
+			tasks: [{
+				id: "75D5F0A28E976C9D"
+				item: "enigmaticdelicacy:infinisoil"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["74D519C35788E3A3"]
+			id: "1C6CE04942D583DD"
+			tasks: [{
+				id: "25BE901882758924"
+				item: {
+					Count: 1
+					id: "enigmaticdelicacy:glistening_heart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			id: "58C3594F6F304089"
+			tasks: [{
+				id: "4A480D73454300E5"
+				item: "enigmaticlegacy:enchantment_transposer"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["58C3594F6F304089"]
+			id: "74D519C35788E3A3"
+			tasks: [{
+				id: "3167F3EA80061CB5"
+				item: "enigmaticdelicacy:enchantment_duplicator"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"0CFCD61D78E61687"
+				"3FEE04E1BA97F78C"
+				"0AA47CBD836266FF"
+				"229B48C18750BEE0"
+				"486286222D8C1240"
+				"65E7A967F1FFC5C0"
+			]
+			id: "09FF90D475751A83"
+			subtitle: "不要问我菲欧立方怎么合成"
+			tasks: [{
+				id: "013D71E4E8EB92AC"
+				item: "enigmaticlegacy:the_cube"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			id: "229B48C18750BEE0"
+			tasks: [{
+				id: "198ADCFFC2EB9BBF"
+				item: "enigmaticlegacy:golem_heart"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			id: "0AA47CBD836266FF"
+			tasks: [{
+				id: "11D168014948541F"
+				item: "enigmaticlegacy:blazing_core"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			id: "65E7A967F1FFC5C0"
+			tasks: [{
+				id: "4FB0DA3FE4954BDA"
+				item: "enigmaticlegacy:angel_blessing"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.5d
+		}
+		{
+			id: "486286222D8C1240"
+			tasks: [{
+				id: "3E5EE0359BB03448"
+				item: "enigmaticlegacy:void_pearl"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			id: "0CFCD61D78E61687"
+			tasks: [{
+				id: "64163ADD194693B5"
+				item: "enigmaticlegacy:ocean_stone"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			id: "3FEE04E1BA97F78C"
+			tasks: [{
+				id: "644BF2BDE67991BA"
+				item: "enigmaticlegacy:eye_of_nebula"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			id: "62C978AC6687DB69"
+			subtitle: "不要带失落引擎，否则你会变得不幸"
+			tasks: [{
+				id: "5610DBC7D5A8A7B2"
+				item: "enigmaticaddons:lost_engine"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.0d
+		}
+		{
+			id: "54AFB106944F7436"
+			tasks: [{
+				id: "766897586B6A3DB9"
+				item: "enigmaticaddons:forgotten_ice"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			id: "37D3363B0D56ECC6"
+			tasks: [{
+				id: "3746D13925C76CD6"
+				item: "enigmaticaddons:revival_leaf"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 10.0d
+		}
+		{
+			id: "7BBDDEC36ACA2CF4"
+			tasks: [{
+				id: "539D448F701F8412"
+				item: "enigmaticaddons:illusion_lantern"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.0d
+		}
+		{
+			id: "2C7FC1361B0E1555"
+			subtitle: "无限骨粉"
+			tasks: [{
+				id: "6EBA57AB0F2EC24D"
+				item: "enigmaticlegacy:infinimeal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"12F6358152D023C9"
+				"03CCB3485062F9B1"
+			]
+			id: "482A520086372299"
+			tasks: [{
+				id: "4F48C556B472836D"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:eldritch_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["03419B2533343167"]
+			id: "03CCB3485062F9B1"
+			tasks: [{
+				id: "220EAC22DEA9BBC7"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:ascension_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4AC07FD4321D7183"]
+			id: "3C3AFD640E877187"
+			tasks: [{
+				id: "2A636064D9C0AE78"
+				item: {
+					Count: 1
+					id: "enigmaticdelicacy:etherium_machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3C3AFD640E877187"]
+			id: "43810D7FBF18E5CA"
+			tasks: [{
+				id: "7A7835B5E45FB8A0"
+				item: "enigmaticdelicacy:astral_fruit_slice"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 12.0d
+		}
+		{
+			id: "57D51F23AFC3FB75"
+			tasks: [{
+				id: "50025944A2CB58E2"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:forbidden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"57D51F23AFC3FB75"
+				"00CECCBCEB7F5648"
+			]
+			description: [
+				"&eShift+右键&r开始蓄力，蓄力期间每秒受到 &d0.25点&r 伤害。"
+				""
+				"蓄力完成后的攻击会使目标获得&d生命诅咒Ⅴ&r，并会对自己造成当前生命 &d25%&r 的伤害。"
+				""
+				"蓄力完成后可对着空砧板右键以切下&e七咒之戒&r。此时玩家佩戴的七咒之戒&c将被强制摘下&r，并同时获得&d生命诅咒VI&r，该操作每个玩家仅可执行一次。"
+			]
+			id: "1DB4412921754466"
+			tasks: [{
+				id: "0E0399DE3E3DF25D"
+				item: {
+					Count: 1
+					id: "enigmaticdelicacy:curse_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1DB4412921754466"]
+			description: [
+				"当佩戴着&e七咒之戒&r时，使用&e蓄力完成的诅咒刃片&r对着&e空砧板&r右键，便可将七咒之戒切下并获得&e破损的诅咒灵魂水晶&r和永久的生命诅咒Ⅵ效果。"
+				""
+				"手持此物时，用&e诅咒刃片击杀生物&r可以为其累积咒魂值。当咒魂值达到一定值后，&e破损的诅咒灵魂水晶&r将转化为&e完整的诅咒灵魂水晶&r"
+			]
+			id: "47C66C4952E63B58"
+			tasks: [{
+				id: "546B4970BBA774B0"
+				item: "enigmaticdelicacy:cursed_soul_crystal"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["47C66C4952E63B58"]
+			id: "0D9860E771A48A44"
+			tasks: [{
+				id: "221F51B820C950AB"
+				item: "enigmaticdelicacy:cursed_soul_fragment"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["47C66C4952E63B58"]
+			id: "102791151034C22A"
+			tasks: [{
+				id: "7843D8BFCC8B3AB0"
+				item: "enigmaticdelicacy:curse_potion"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"1DB4412921754466"
+				"0D9860E771A48A44"
+			]
+			id: "19FA3F0C09039375"
+			tasks: [{
+				id: "74DC98C4D19165DB"
+				item: {
+					Count: 1
+					id: "enigmaticdelicacy:curse_crystal_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0D9860E771A48A44"]
+			id: "0BAE5229BD782D41"
+			tasks: [{
+				id: "5DE1CF0E2F6BB52F"
+				item: {
+					Count: 1
+					id: "enigmaticdelicacy:curse_crystal_pendant"
+					tag: {
+						IsInitialized: 1b
+						baublesreforked.ModifierId: "vampiric"
+						baublesreforked.ModifierUUID: "8d509a43-12f7-44b3-8fcd-ad336d7683cb"
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			icon: "minecraft:observer"
+			id: "4D4E96F484CC7F75"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "22CD554A4A4EF445"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "58F0682B9345A7C6"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+	]
+	subtitle: [
+		"消除你的诅咒"
+		"&b感谢群友“阿紫”进行补充"
+	]
+	title: "·&4七咒之戒"
+}

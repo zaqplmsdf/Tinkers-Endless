@@ -1,0 +1,888 @@
+[DLC]
+  [mod:DLC|C-Client-side-server/Log-Begone-Forge-1.20.1-1.0.8.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-server/doespotatotick-1.20.1-5.6.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|B-Client-side/CullLessLeaves-Reforged-1.20.1-1.0.5.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|A-A-A-The-DLC/corpse-forge-1.20.1-1.0.23.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-server/ModernUI-Forge-1.20.1-3.12.0.1-universal.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|StarlightxAE-1.20.1-1.1-forge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|YeetusExperimentus-Forge-2.3.0-build.4%2Bmc1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|chunksending-1.20.1-2.8.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-server/biomespy-1.3.3-all.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|D-Special/acceleratedrendering-1.0.8-1.20.1-alpha.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|D-Special/smoothchunk-1.20.1-4.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-Prerequisite library/Ixeris-3.8.6+1.20.1-forge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|dynamic-fps-3.11.3+minecraft-1.20.0-forge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|The-DLC/baguettelib-1.20.1-Forge-1.1.5.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|The-DLC/mg_secrets_of_mermaids-1.0.8-forge-1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|The-DLC/1.20.1-maid_useful_task-1.4.0.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|B-Client-side/flerovium-forge-1.20.1-1.2.16-all.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Fastquit-3.0.1%2B1.20.1forge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/starlight-1.1.5+forge.c562a3a.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/txnilib-forge-1.0.24-1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|A-A-A-The-DLC/summoningrituals-forge-1.20.1-2.0.8.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Special/acceleratedrecoiling-0.8-alpha-1.20.1-hotfix-all.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-server/structure_layout_optimizer-forge-1.0.11.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-server/alternate_current-mc1.20-1.7.0.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-server/spark-1.10.53-forge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-Prerequisite library/betterfpsdist-1.20.1-6.0.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/redirected-forge-1.0.0-1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|A-A-A-The-DLC/touhoulittlemaid-1.5.0-forge+mc1.20.1-release.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-Prerequisite library/kotlinforforge-4.12.0-all.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/configured-forge-1.20.1-2.2.3.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/Krypton FNP-forge-1.20.1-0.2.28.2-1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Special/cupboard-1.20.1-2.7.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|D-Special/dimthread-FORGE-mc1.20.1-v1.2.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Log-Begone-Forge-1.20.1-1.0.8.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/FastWorkbench-1.20.1-8.0.4.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|tritium-forge-1.20.1-26.3.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-Prerequisite library/BadOptimizations-2.4.1-1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/structure_layout_optimizer-forge-1.0.11.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|A-A-A-The-DLC/mg_secrets_of_mermaids-1.0.8-forge-1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|B-Client-side/BetterF3-7.0.2-Forge-1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/randomoptimization-1.0.0-all.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Ixeris-3.8.5+1.20.1-forge.jar]
+    enabled = false
+    appliedTargets = ["mods\\Ixeris-3.8.5+1.20.1-forge.jar"]
+
+  [mod:DLC|Special/adaptiveoptimization-8.5.3.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Special/acceleratedrendering-1.0.8-1.20.1-alpha.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|%5B1.20.1%5Dslashblade_acceleratedrendering-1.0.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-Prerequisite library/CullLessLeaves-Reforged-1.20.1-1.0.5.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-server/tt20-0.7.1+mc1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|tt20-0.7.1%2Bmc1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|B-Client-side/betterfpsdist-1.20.1-6.0.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|D-Special/modfixer-0.0.5.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|The-DLC/summoningrituals-forge-1.20.1-2.0.8.jar]
+    enabled = false
+    appliedTargets = ["mods\\summoningrituals-forge-1.20.1-2.0.8.jar"]
+
+  [mod:DLC|Client-side-server/packetfixer-3.3.1-1.18-1.20.4-merged.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|A-A-A-The-DLC/projectexpansion-1.20.1-1.1.3.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/c2meF-0.2.0+alpha.12-all.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/cerulean-forge-1.0.0-1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|smoothchunk-1.20.1-4.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [unknown:DLC|update/update-test-1.0.1.zip]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|The-DLC/corpse-forge-1.20.1-1.0.23.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|A-A-A-The-DLC/baguettelib-1.20.1-Forge-1.1.5.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|datapackloaderrorfix-FORGE-1.20.x-a6138df.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|A-A-A-The-DLC/classicandsimplestatusbars-Forge-1.3.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-server/NoChatReports-FORGE-1.20.1-v2.2.2.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|E-Create-Optimization-6.0.6/oculus-flywheel-compat-Forge-2.0.3.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/spark-1.10.53-forge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|dynamic-fps-3.11.3%2Bminecraft-1.20.0-forge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/NoChatReports-FORGE-1.20.1-v2.2.2.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|The-DLC/corpsecurioscompat-1.20.1-Forge-3.1.3.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|alternate_current-mc1.20-1.7.0.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/fluidium-1.20.1-1.4.0.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-server/c2meF-0.2.0+alpha.12-all.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|D-Special/acedium-0.2.7-beta.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|configured-forge-1.20.1-2.2.3.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Ixeris-3.8.6+1.20.1-forge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|packetfixer-3.3.1-1.18-1.20.4-merged.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|A-Prerequisite library/resourcefulconfig-forge-1.20.1-2.1.3.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|acedium-0.2.7-beta.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Create-Optimization-6.0.6/oculus-mc1.20.1-1.8.0.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-Prerequisite library/dynamic-fps-3.11.3+minecraft-1.20.0-forge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-Prerequisite library/particle_core-0.3.0+1.20.1+forge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|D-Special/adaptiveoptimization-8.5.3.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|The-DLC/classicandsimplestatusbars-Forge-1.3.jar]
+    enabled = false
+    appliedTargets = []
+
+  [tacz_pack:DLC|A-A-A-The-DLC/[Tacz1.1.6+]MS-Mobius Gunspack v1.5.2.zip]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/servercore-forge-1.5.2+1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|tfthreadsafetyaddon-forge-1.20.1-1.0.0.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Special/smoothchunk-1.20.1-4.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Special/syncfix-0.0.4.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/memorysweep-1.20.1-2.0.3-forge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|UTF-8''fastnbt-1.20.1-1.1-forge.jar]
+    enabled = false
+    appliedTargets = ["mods\\UTF-8''fastnbt-1.20.1-1.1-forge.jar"]
+
+  [mod:DLC|Create-Optimization-6.0.6/oculus-flywheel-compat-Forge-2.0.3.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/Icterine-forge-1.20.0-1-1.3.0.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|A-Prerequisite library/Placebo-1.20.1-8.6.3.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/biomespy-1.3.3-all.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|ModernUI-Forge-1.20.1-3.12.0.1-universal.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/redirector-5.0.0.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|The-DLC/MonstersGirls_1.3.4.3_1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Fastquit-3.0.1+1.20.1forge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|betterfpsdist-1.20.1-6.0.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|B-Client-side/particle_core-0.3.2+1.20.1+forge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|A-A-A-The-DLC/globalhealthmod-1.0.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|D-Special/syncfix-0.0.5.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|A-Prerequisite library/fzzy_config-0.7.5+1.20.1+forge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-Prerequisite library/Placebo-1.20.1-8.6.3.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|The-DLC/globalhealthmod-1.0.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/letmedespawn-1.20.x-forge-1.5.0.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|CullLessLeaves-Reforged-1.20.1-1.0.5.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-server/FastWorkbench-1.20.1-8.0.4.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|The-DLC/maid_command-1.0.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|starlight-1.1.2%2Bforge.1cda73c.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/doespotatotick-1.20.1-5.6.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Icterine-forge-1.20.0-1-1.3.0.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/sweeper_maid-1.1.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/tt20-0.7.1+mc1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|A-Prerequisite library/cupboard-1.20.1-2.7.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|The-DLC/exnihilosequentia-1.20.1-5.0.0-build.10.jar]
+    enabled = false
+    appliedTargets = ["mods\\exnihilosequentia-1.20.1-5.0.0-build.10.jar"]
+
+  [mod:DLC|despawntweaks-forge-1.0.0-1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|B-Client-side/Fastquit-3.0.1+1.20.1forge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-Prerequisite library/YeetusExperimentus-Forge-2.3.0-build.4+mc1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|UTF-8''acceleratedrendering-1.0.8-1.20.1-alpha.jar]
+    enabled = false
+    appliedTargets = ["mods\\UTF-8''acceleratedrendering-1.0.8-1.20.1-alpha.jar"]
+
+  [mod:DLC|fzzy_config-0.7.4%2B1.20.1%2Bforge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|A-A-A-The-DLC/corpsecurioscompat-1.20.1-Forge-3.1.3.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|[1.20.1]slashblade_acceleratedrendering-1.0.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/tfthreadsafetyaddon-forge-1.20.1-1.0.0.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|AsyncParticles-2.4.0-beta.3+1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-Prerequisite library/Fastquit-3.0.1+1.20.1forge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Special/[1.20.1]slashblade_acceleratedrendering-1.0.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|B-Client-side/dynamic-fps-3.11.3+minecraft-1.20.0-forge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|A-A-A-The-DLC/1.20.1-maid_useful_task-1.4.0.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-server/fast-ip-ping-v1.0.8-mc1.20.4-forge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|acceleratedrecoiling-0.8-alpha-1.20.1-hotfix-all.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|MCreatorMemFix-1.0.4.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|spark-1.10.53-forge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|A-A-A-The-DLC/exdeorum-1.48.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|E-Create-Optimization-6.0.6/oculus-mc1.20.1-1.8.0.jar]
+    enabled = false
+    appliedTargets = []
+
+  [unknown:DLC|A-A-A-The-DLC/summon.js]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-server/Log-Begone-Forge-1.20.1-1.0.8.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-server/starlight-1.1.2+forge.1cda73c.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|D-Special/vanillin-forge-1.20.1-1.1.3.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|The-DLC/exdeorum-1.48.jar]
+    enabled = false
+    appliedTargets = ["mods\\exdeorum-1.48.jar"]
+
+  [mod:DLC|C-Client-side-server/FastEvent-1.20.1-1.1.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-server/configured-forge-1.20.1-2.2.3.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|cupboard-1.20.1-2.7.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|A-A-A-The-DLC/DisenchantmentEditTable-1.20-1.1.2.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|E-Create-Optimization-6.0.6/createbetterfps-1.20.1-1.1.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|D-Special/[1.20.1]slashblade_acceleratedrendering-1.0.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|The-DLC/exnihilosequentia-1.20.1-5.0.0-build.6.jar]
+    enabled = false
+    appliedTargets = ["mods\\exnihilosequentia-1.20.1-5.0.0-build.6.jar"]
+
+  [mod:DLC|C-Client-side-server/efficient_hashing-forge-1.0.0+1.20.1-mod.jar]
+    enabled = true
+    appliedTargets = ["mods\\efficient_hashing-forge-1.0.0+1.20.1-mod.jar"]
+
+  [mod:DLC|Client-side-server/memorysweep-1.20.1-2.0.3-forge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|UTF-8''acedium-0.2.7-beta.jar]
+    enabled = false
+    appliedTargets = ["mods\\UTF-8''acedium-0.2.7-beta.jar"]
+
+  [mod:DLC|The-DLC/DisenchantmentEditTable-1.20-1.1.2.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|biomespy-1.3.3-all.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|memorysweep-1.20.1-2.0.3-forge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|starlight-1.1.2+forge.1cda73c.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|B-Client-side/YeetusExperimentus-Forge-2.3.0-build.4+mc1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Special/fastloading-0.0.3-1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|cerulean-forge-1.0.0-1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Special/StarlightxAE-1.20.1-1.1-forge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|BadOptimizations-2.4.1-1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|B-Client-side/BadOptimizations-2.4.1-1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-server/Krypton FNP-forge-1.20.1-0.2.28.2-1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/ModernUI-Forge-1.20.1-3.12.0.1-universal.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|structure_layout_optimizer-forge-1.0.11.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|D-Special/acceleratedrecoiling-0.8-alpha-1.20.1-hotfix-all.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-server/MCreatorMemFix-1.0.4.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-Prerequisite library/fzzy_config-0.7.5+1.20.1+forge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|E-Create-Optimization-6.0.6/createthreadedtrains-forge-1.20.1-1.0.0.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|A-A-A-The-DLC/MonstersGirls_1.3.4.3_1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-server/tritium-forge-1.20.1-26.3.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Create-Optimization-6.0.6/createbetterfps-1.20.1-1.1.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|The-DLC/touhou_little_maid_spell-1.6.3.4-forge+mc1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|The-DLC/novacore-1.20.1-1.0.0-build.3.jar]
+    enabled = false
+    appliedTargets = ["mods\\novacore-1.20.1-1.0.0-build.3.jar"]
+
+  [mod:DLC|D-Special/chunksending-1.20.1-2.8.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|doespotatotick-1.20.1-5.6.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/packetfixer-3.3.1-1.18-1.20.4-merged.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|biomespy-1.3.2-all.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|D-Special/fastloading-0.0.3-1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-server/CraftTweaker-forge-1.20.1-14.0.59.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|A-Prerequisite library/duplicationless-1.20.1-1.1.5.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-server/Icterine-forge-1.20.0-1-1.3.0.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Ixeris-3.8.6%2B1.20.1-forge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/radium-mc1.20.1-0.12.4+git.26c9d8e.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|FastWorkbench-1.20.1-8.0.4.jar]
+    enabled = false
+    appliedTargets = []
+
+  [unknown:DLC|A-A-A-The-DLC/mesh.js]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|particle_core-0.2.6+1.20.1+forge.jar]
+    enabled = false
+    appliedTargets = ["mods\\particle_core-0.2.6+1.20.1+forge.jar"]
+
+  [mod:DLC|starlight-1.1.3%2Bforge.c562a3a.jar]
+    enabled = false
+    appliedTargets = ["mods\\starlight-1.1.3%2Bforge.c562a3a.jar"]
+
+  [mod:DLC|C-Client-side-server/FastFurnace-1.20.1-8.0.2.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/CraftTweaker-forge-1.20.1-14.0.59.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|B-Client-side/threatengl-forge-2.0.4-release.10.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|flerovium-forge-1.20.1-1.2.16-all.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/fast-ip-ping-v1.0.8-mc1.20.4-forge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-Prerequisite library/flerovium-forge-1.20.1-1.2.16-all.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/alternate_current-mc1.20-1.7.0.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|threatengl-forge-2.0.4-release.10.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|B-Client-side/fastnbt-1.20.1-1.2-forge.jar]
+    enabled = true
+    appliedTargets = ["mods\\fastnbt-1.20.1-1.2-forge.jar"]
+
+  [mod:DLC|Client-side-Prerequisite library/threatengl-forge-2.0.4-release.10.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/despawntweaks-forge-1.0.0-1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|A-A-A-The-DLC/touhou_little_maid_spell-1.6.3.4-forge+mc1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-server/servercore-forge-1.5.2+1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|particle_core-0.2.6%2B1.20.1%2Bforge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-server/tfthreadsafetyaddon-forge-1.20.1-1.0.0.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|c2meF-0.2.0+alpha.12-all.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/MCreatorMemFix-1.0.4.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|A-Prerequisite library/almanac-1.20.x-forge-1.0.2.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|B-Client-side/Ixeris-3.8.6+1.20.1-forge.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-Prerequisite library/resourcefulconfig-forge-1.20.1-2.1.3.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Special/acedium-0.2.7-beta.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|CraftTweaker-forge-1.20.1-14.0.59.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|acceleratedrendering-1.0.8-1.20.1-alpha.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|The-DLC/touhoulittlemaid-1.5.0-forge+mc1.20.1-release.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|A-A-A-The-DLC/maid_command-1.0.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|RenderScale-forge-1.20.1-1.0.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/tritium-forge-1.20.1-26.3.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-server/FastFurnace-1.20.1-8.0.2.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Special/chunksending-1.20.1-2.8.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|The-DLC/projectexpansion-1.20.1-1.1.3.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|A-Prerequisite library/kotlinforforge-4.12.0-all.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|tt20-0.7.1+mc1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Client-side-server/sweeper_maid-1.2.0.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|A-A-A-The-DLC/maidaddition-1.1.4-beta-all.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|Special/modfixer-0.0.5.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|YeetusExperimentus-Forge-2.3.0-build.4+mc1.20.1.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|The-DLC/maidaddition-1.1.4-beta-all.jar]
+    enabled = false
+    appliedTargets = []
+
+  [mod:DLC|C-Client-side-server/fastrecipesearch-1.20.1-1.9-forge.jar]
+    enabled = false
+    appliedTargets = []

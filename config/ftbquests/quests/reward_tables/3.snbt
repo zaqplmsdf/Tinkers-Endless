@@ -1,0 +1,24 @@
+{
+	icon: "thermal:gold_coin"
+	id: "22A467D4EDC1E635"
+	loot_crate: {
+		color: 16777045
+		drops: {
+			boss: 1
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "金币盒"
+		string_id: "3"
+	}
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ item: "thermal:gold_coin", weight: 20.0f }
+		{ count: 3, item: "thermal:gold_coin", weight: 2.0f }
+		{ count: 5, item: "thermal:gold_coin" }
+	]
+	title: "3"
+	use_title: true
+}

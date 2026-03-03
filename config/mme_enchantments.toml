@@ -1,0 +1,554 @@
+
+["嗅探兽战利品配置"]
+	#经验瓶掉落概率（默认0.5）
+	#Range: 0.0 ~ 1.0
+	snifferExpBottleChance = 0.5
+	#光灵箭掉落概率（默认0.4）
+	#Range: 0.0 ~ 1.0
+	snifferSpectralArrowChance = 0.4
+	#附魔金苹果掉落概率（默认0.1）
+	#Range: 0.0 ~ 1.0
+	snifferEnchantedGoldenAppleChance = 0.1
+	#嗅探兽蛋掉落概率（默认0.15）
+	#Range: 0.0 ~ 1.0
+	snifferEggChance = 0.15
+
+["磁石传送配置"]
+	#基础冷却时间（单位：秒）
+	#Range: 10 ~ 3600
+	magnetTpBaseCooldown = 150
+
+["骷髅射手配置"]
+	#骷髅射手游走触发概率（默认0.6）
+	#Range: 0.0 ~ 1.0
+	skeletonSpeedTriggerChance = 0.6
+
+["唤魔者免疫配置"]
+	#免疫触发概率（默认0.5）
+	#Range: 0.0 ~ 1.0
+	evokerImmunityTriggerChance = 0.5
+
+["末影人传送配置"]
+	#传送触发概率（默认0.3）
+	#Range: 0.0 ~ 1.0
+	endermanTeleportTriggerChance = 0.3
+
+["女巫药水配置"]
+	#超多药水投掷触发概率（默认0.5）
+	#Range: 0.0 ~ 1.0
+	witchPotionTriggerChance = 0.5
+
+["发光效果配置"]
+	#对亡灵生物的基础伤害值（默认2.0）
+	#Range: 0.0 ~ 10.0
+	glowingDamage = 2.0
+
+["高空事件配置"]
+	#是否启用高空事件机制（默认true）
+	high_altitude_enabled = false
+
+["悦灵能力配置"]
+	#能力触发间隔时间（单位：tick，默认240即12秒）
+	#Range: 20 ~ 72000
+	allayAbilityInterval = 240
+
+["雪傀儡配置"]
+	#臻冰效果触发概率（默认0.35）
+	#Range: 0.0 ~ 1.0
+	snowGolemTriggerChance = 0.35
+	#雪球基础伤害值（默认2.0）
+	#Range: 0.0 ~ 10.0
+	snowGolemDamage = 2.0
+
+["盾反附魔配置"]
+	#每次盾反触发的治疗量（从0级开始每1级增加量）
+	#Range: 0.0 ~ 10.0
+	shield_reflect_heal_amount = 2.0
+	#盾反作用半径（从0级开始每1级增加量）
+	#Range: 1.0 ~ 5.0
+	shield_reflect_radius = 3.0
+	#水平击退力度（从0级开始每1级增加量）
+	#Range: 0.1 ~ 5.0
+	shield_reflect_horizontal_knockback = 1.5
+	#垂直击退力度（从0级开始每1级增加量）
+	#Range: 0.1 ~ 2.0
+	shield_reflect_vertical_knockback = 0.5
+
+["勘探附魔配置"]
+	#基础触发概率（每等级）
+	#Range: 0.01 ~ 1.0
+	prospectingBaseChance = 0.01
+	#从0级开始每1级增加的触发概率
+	#Range: 0.01 ~ 0.5
+	prospectingChancePerLevel = 0.08
+	#时运附魔加成系数
+	#Range: 0.1 ~ 1.0
+	prospectingFortuneMultiplier = 0.4
+	#粒子效果数量
+	#Range: 1 ~ 20
+	prospectingParticleCount = 8
+
+["时停斩附魔配置"]
+	#基础触发概率（默认0）
+	#Range: 0.0 ~ 1.0
+	timeStopStrikeBaseChance = 0.0
+	#从0级开始每1级增加的触发概率（默认0.1）
+	#Range: 0.0 ~ 1.0
+	timeStopStrikeChancePerLevel = 0.1
+
+["挺进附魔配置"]
+	#全部等级的最大速度加成倍数
+	#Range: 0.1 ~ 5.0
+	chargeMaxBoost = 3.2
+	#全部等级的每秒增加的速度倍数
+	#Range: 0.01 ~ 1.0
+	chargeSpeedPerSecond = 0.1
+
+["沃土附魔配置"]
+	#基础触发概率（每等级）
+	#Range: 0.0 ~ 1.0
+	husbandryBaseChance = 0.1
+	#从0级开始每1级增加的触发概率
+	#Range: 0.0 ~ 0.5
+	husbandryChancePerLevel = 0.15
+	#从0级开始每1级增加生成的骨粉数量
+	#Range: 1 ~ 5
+	husbandryBoneMealCount = 1
+
+["宽恕附魔配置"]
+	#基于最大生命值增加的伤害百分比（每1级增加的百分比数值）
+	#Range: 0.01 ~ 1.0
+	mercy_damage_bonus_per_level = 0.02
+
+["至高附魔配置"]
+	#击退抗性增加值（1.0 = 100% 抗性）
+	#Range: 0.0 ~ 1.0
+	supremacy_knockback_resistance = 1.0
+	#是否免疫有害状态效果
+	supremacy_immunity_enabled = true
+
+["传承附魔配置"]
+	#每层传承效果增加的生命值（单位：心）
+	#Range: 0.5 ~ 10.0
+	legacy_health_per_stack = 2.0
+	#触发传承效果时重置的损伤值（0为耐久完全恢复）
+	#Range: 0 ~ 200
+	legacy_durability_reset = 0
+
+["复仇附魔配置"]
+	#基础恢复生命值（单位：心，1心=2点生命）
+	#Range: 0.0 ~ 20.0
+	vengeance_base_heal = 2.0
+	#从0级开始每1级增加的恢复生命值
+	#Range: 0.0 ~ 10.0
+	vengeance_heal_per_level = 2.0
+	#基础伤害值
+	#Range: 0.0 ~ 50.0
+	vengeance_base_damage = 5.0
+	#从0级开始每1级增加的伤害值
+	#Range: 0.0 ~ 50.0
+	vengeance_damage_per_level = 5.0
+	#基础作用半径（单位：方块）
+	#Range: 1.0 ~ 10.0
+	vengeance_base_radius = 3.0
+	#基础耐久消耗
+	#Range: 0 ~ 50
+	vengeance_base_durability_cost = 10
+	#从0级开始每1级增加的耐久消耗
+	#Range: 0 ~ 20
+	vengeance_durability_per_level = 4
+	#冷却时间（单位：秒）
+	#Range: 5.0 ~ 1800.0
+	vengeance_cooldown = 45.0
+
+["爱弦之诗-如梦配置"]
+	#从0级开始每1级增加的生命值倍率系数
+	#Range: 0.5 ~ 5.0
+	ruMengMultiplierPerLevel = 1.4
+
+["爱弦之诗-月尘配置"]
+	#从0级开始每1级增加攻击加成
+	#Range: 1.0 ~ 20.0
+	yueChenDamage = 9.0
+	#全部等级的治疗倍率配置（默认2.0，范围1.0-5.0）
+	#Range: 1.0 ~ 5.0
+	yueChenHealMultiplier = 2.0
+
+["爱弦之诗-星眸配置"]
+	#全部等级的爆炸半径配置
+	#Range: 0.5 ~ 5.0
+	xingMouExplosionRadius = 1.2
+	#全部等级的冷却时间（单位：毫秒）
+	#Range: 100 ~ 2000
+	xingMouCooldownMs = 500
+
+["爱弦之诗-神颂配置"]
+	#全部等级的每次治疗的基础生命值
+	#Range: 0.5 ~ 10.0
+	shenSongHealAmount = 3.0
+	#粒子效果数量
+	#Range: 1 ~ 20
+	shenSongParticleCount = 2
+	#全部等级的冷却时间（单位：毫秒）
+	#Range: 100 ~ 5000
+	shenSongCooldownMs = 1000
+
+["爱弦之诗-旅谣配置"]
+	#全部等级的经验获取倍率系数
+	#Range: 1.0 ~ 5.0
+	lvYaoExpMultiplier = 2.0
+
+["制裁附魔配置"]
+	#制裁基础伤害倍数（当目标生命高于50%时生效）
+	#Range: 1.0 ~ 3.0
+	sanction_base_multiplier = 1.3
+	#从1级开始每1级制裁增加的伤害倍数
+	#Range: 0.1 ~ 1.0
+	sanction_multiplier_per_level = 0.3
+
+["泄火附魔配置"]
+	#基础伤害值
+	#Range: 0.5 ~ 10.0
+	vent_fury_base_damage = 2.0
+	#从1级开始每1级增加的数值
+	#Range: 0.1 ~ 5.0
+	vent_fury_damage_per_level = 2.0
+
+["闪避附魔配置"]
+	#基础触发概率
+	#Range: 0.01 ~ 1.0
+	dodge_base_chance = 0.01
+	#从0级开始每1级增加的触发概率
+	#Range: 0.01 ~ 0.5
+	dodge_chance_per_level = 0.04
+
+["生命汲取附魔配置"]
+	#基础生命汲取系数
+	#Range: 0.0 ~ 1.0
+	life_steal_base_factor = 0.0
+	#从0级开始每1级增加的生命汲取系数
+	#Range: 0.0 ~ 0.5
+	life_steal_factor_per_level = 0.1
+
+["暴击附魔配置"]
+	#基础暴击概率（默认0.2）
+	#Range: 0.0 ~ 1.0
+	critical_base_chance = 0.2
+	#从1级开始每1级增加的暴击概率
+	#Range: 0.0 ~ 1.0
+	critical_chance_per_level = 0.15
+	#暴击伤害倍数
+	#Range: 1.0 ~ 10.0
+	critical_damage_multiplier = 3.0
+
+["淬魂附魔配置"]
+	#基础淬魂系数
+	#Range: 0.0 ~ 0.5
+	soul_strike_base_factor = 0.0
+	#从0级开始每1级增加的淬魂系数
+	#Range: 0.0 ~ 0.1
+	soul_strike_factor_per_level = 0.01
+
+["坚毅附魔配置"]
+	#基础伤害减免值
+	#Range: 0 ~ 10
+	fortitude_base_reduction = 0
+	#从0级开始每1级增加的伤害减免
+	#Range: 0 ~ 5
+	fortitude_reduction_per_level = 1
+
+["光耀附魔配置"]
+	#基础驱散半径（单位：方块）
+	#Range: 1.0 ~ 10.0
+	radiance_base_radius = 3.0
+	#从0级开始每1级增加的驱散半径
+	#Range: 0.0 ~ 5.0
+	radiance_radius_per_level = 0.5
+	#击退距离倍数
+	#Range: 1.0 ~ 10.0
+	radiance_knockback_distance = 3.0
+	#发光效果持续时间（单位：tick）
+	#Range: 20 ~ 600
+	radiance_glow_duration = 100
+
+["圣佑附魔配置"]
+	#基础生命加成（单位：半心）
+	#Range: 0 ~ 20
+	holy_protection_base_health = 0
+	#从0级开始每1级增加的生命加成
+	#Range: 0 ~ 10
+	holy_protection_health_per_level = 2
+
+["全魔附魔配置"]
+	#基础生命惩罚值（单位：半心）
+	#Range: 0 ~ 10
+	all_magic_base_health_penalty = 2
+	#从0级开始每1级增加的生命惩罚值
+	#Range: 0 ~ 5
+	all_magic_health_penalty_per_level = 2
+	#基础伤害加成值
+	#Range: 0.0 ~ 10.0
+	all_magic_base_damage_boost = 0.0
+	#从0级开始每1级增加的伤害加成值
+	#Range: 0.0 ~ 5.0
+	all_magic_damage_boost_per_level = 2.0
+
+["凛冬附魔配置"]
+	#基础减速持续时间（单位：tick）
+	#Range: 20 ~ 200
+	winter_slow_duration_base = 40
+	#从0级开始每1级增加的减速持续时间
+	#Range: 0 ~ 100
+	winter_slow_duration_per_level = 20
+	#减速效果等级系数（实际等级=系数*附魔等级）
+	#Range: 0 ~ 3
+	winter_slow_amplifier = 1
+	#基础细雪生成数量
+	#Range: 1 ~ 10
+	winter_snow_base_count = 1
+	#从0级开始每1级增加的细雪数量
+	#Range: 0 ~ 5
+	winter_snow_count_per_level = 2
+
+["暗影步附魔配置"]
+	#基础移速加成系数
+	#Range: 0.1 ~ 1.0
+	shadow_step_base_speed = 0.2
+	#从1级开始每1级增加的移速系数
+	#Range: 0.0 ~ 0.5
+	shadow_step_speed_per_level = 0.2
+
+["自然愈合附魔配置"]
+	#治疗时的粒子效果密度（0=禁用，1=少量，5=默认，10=密集）
+	#Range: 0 ~ 10
+	natural_regeneration_particle_density = 5
+	#基础未受伤时间（单位：秒）
+	#Range: 1 ~ 60
+	natural_regeneration_base_delay = 8
+	#从1级开始每1级减少需要的触发时间（单位：秒）
+	#Range: 0 ~ 5
+	natural_regeneration_delay_per_level = 1
+	#基础治疗量（单位：半心）
+	#Range: 0.5 ~ 10.0
+	natural_regeneration_base_heal = 2.0
+	#从1级开始每1级增加的治疗量
+	#Range: 0.0 ~ 5.0
+	natural_regeneration_heal_per_level = 0.5
+
+["大地之怒附魔配置"]
+	#基础击飞高度（单位：方块）
+	#Range: 0.5 ~ 5.0
+	earth_fury_base_launch = 1.8
+	#从0级开始每1级增加的击飞高度
+	#Range: 0.1 ~ 2.0
+	earth_fury_launch_per_level = 0.4
+	#基础冷却时间（单位：tick）
+	#Range: 10 ~ 200
+	earth_fury_base_cooldown = 30
+	#粒子效果密度（0=禁用，5=默认，10=密集）
+	#Range: 0 ~ 20
+	earth_fury_particle_density = 8
+	#作用范围（单位：方块）
+	#Range: 1.0 ~ 10.0
+	earth_fury_particle_range = 3.0
+
+["轻语附魔配置"]
+	#基础伤害加成值
+	#Range: 0.0 ~ 100.0
+	whisper_base_damage_bonus = 7.0
+
+["引渡附魔配置"]
+	#基础经验值（默认12）
+	#Range: 1 ~ 50
+	angelers_gift_base_exp = 12
+	#从1级开始每1级额外增加的经验值
+	#Range: 0 ~ 20
+	angelers_gift_additional_per_level = 12
+
+["复苏附魔配置"]
+	#全部等级的触发间隔（单位：tick）
+	#Range: 5 ~ 100
+	blooming_step_trigger_interval = 15
+	#全部等级的骨粉应用成功率（0.0-1.0）
+	#Range: 0.0 ~ 1.0
+	blooming_step_success_chance = 0.5
+	#每次触发生成的粒子数量
+	#Range: 1 ~ 20
+	blooming_step_particle_count = 5
+
+["狂战附魔配置"]
+	#基础移动速度加成（每层效果）
+	#Range: 0.0 ~ 1.0
+	berserk_speed_base = 0.2
+	#从0级开始每1级增加的移动速度加成
+	#Range: 0.0 ~ 0.5
+	berserk_speed_per_level = 0.0
+	#基础攻击速度加成（每层效果）
+	#Range: 0.0 ~ 1.0
+	berserk_attack_speed_base = 0.2
+	#从0级开始每1级增加的攻击速度加成
+	#Range: 0.0 ~ 0.5
+	berserk_attack_speed_per_level = 0.0
+
+["终章附魔配置"]
+	#饱食度固定值
+	#Range: 1 ~ 20
+	zhongZhangBaseFood = 20
+	#全部等级的基础附加伤害值
+	#Range: 1.0 ~ 50.0
+	zhongZhangBaseDamage = 12.0
+	#部分生物伤害倍率
+	#Range: 1.0 ~ 5.0
+	zhongZhangBossMultiplier = 2.0
+	#粒子效果数量
+	#Range: 1 ~ 10
+	zhongZhangParticleCount = 2
+
+["引爆附魔配置"]
+	#基础爆炸伤害
+	#Range: 5.0 ~ 50.0
+	detonation_base_damage = 20.0
+	#从1级开始每1级增加的爆炸伤害
+	#Range: 0.0 ~ 20.0
+	detonation_damage_per_level = 5.0
+
+["裁剪附魔配置"]
+	#基础经验掉落概率（0.98=98%概率）
+	#Range: 0.5 ~ 1.0
+	pruning_exp_chance_base = 0.98
+	#从1级开始每1级减少的概率（负数，如-0.03=每级减少3%）
+	#Range: -0.1 ~ 0.0
+	pruning_exp_chance_per_level = -0.03
+	#基础经验值
+	#Range: 1 ~ 20
+	pruning_base_exp = 4
+	#从1级开始每1级增加的经验值
+	#Range: 0 ~ 10
+	pruning_exp_per_level = 2
+	#基础耐久消耗
+	#Range: 1 ~ 50
+	pruning_base_durability = 14
+	#从1级开始每1级减少的耐久消耗（负数，如-2=每级减少2点）
+	#Range: -10 ~ 0
+	pruning_durability_per_level = -2
+
+["疾风附魔配置"]
+	#基础移速加成系数（1级时生效）
+	#Range: 0.1 ~ 1.0
+	swift_wind_base_speed = 0.1
+	#从0级开始每1级增加增加的移速系数
+	#Range: 0.0 ~ 0.5
+	swift_wind_speed_per_level = 0.3
+
+["邪行附魔配置"]
+	#基础毒雾伤害
+	#Range: 1.0 ~ 10.0
+	wicked_step_base_damage = 1.0
+	#从0级开始每1级增加的毒雾伤害
+	#Range: 1.0 ~ 5.0
+	wicked_step_damage_per_level = 3.0
+	#全部等级的减速效果持续时间（单位：tick）
+	#Range: 10 ~ 200
+	wicked_step_slow_duration = 20
+	#全部等级的虚弱效果持续时间（单位：tick）
+	#Range: 20 ~ 400
+	wicked_step_weakness_duration = 40
+	#粒子效果密度（0=禁用，5=默认，10=密集）
+	#Range: 0 ~ 10
+	wicked_step_particle_density = 5
+
+["灵性附魔配置"]
+	#基础影响范围
+	#Range: 5 ~ 30
+	animal_affinity_base_range = 10
+	#从0级开始每1级增加增加范围
+	#Range: 1 ~ 5
+	animal_affinity_range_per_level = 2
+	#基础吸引力度加成
+	#Range: 0.5 ~ 3.0
+	animal_affinity_base_speed = 1.0
+	#从0级开始每1级增加吸引力度
+	#Range: 0.1 ~ 1.0
+	animal_affinity_speed_per_level = 0.3
+
+["海之安抚附魔配置"]
+	#全部等级的每次治疗的生命值
+	#Range: 0.5 ~ 5.0
+	ocean_serenity_heal_amount = 1.0
+	#粒子生成数量
+	#Range: 1 ~ 20
+	ocean_serenity_particle_count = 5
+	#粒子X轴偏移量
+	#Range: 0.0 ~ 1.0
+	ocean_serenity_particle_offset_x = 0.3
+	#粒子Y轴偏移量
+	#Range: 0.0 ~ 2.0
+	ocean_serenity_particle_offset_y = 0.5
+	#粒子Z轴偏移量
+	#Range: 0.0 ~ 1.0
+	ocean_serenity_particle_offset_z = 0.3
+	#粒子速度
+	#Range: 0.0 ~ 0.1
+	ocean_serenity_particle_speed = 0.02
+
+["沉眠附魔配置"]
+	#粒子生成数量
+	#Range: 5 ~ 100
+	dreamcatcher_particle_count = 20
+	#粒子X轴偏移量
+	#Range: 0.0 ~ 1.0
+	dreamcatcher_particle_offset_x = 0.3
+	#粒子Y轴偏移量
+	#Range: 0.0 ~ 2.0
+	dreamcatcher_particle_offset_y = 0.5
+	#粒子Z轴偏移量
+	#Range: 0.0 ~ 1.0
+	dreamcatcher_particle_offset_z = 0.3
+	#粒子速度
+	#Range: 0.0 ~ 0.1
+	dreamcatcher_particle_speed = 0.02
+	#每层增加的生命值
+	#Range: 0.5 ~ 5.0
+	dreamcatcher_health_per_stack = 1.0
+
+["潮涌附魔配置"]
+	#基础击飞高度
+	#Range: 0.5 ~ 3.0
+	tidal_surge_launch_base = 1.0
+	#从0级开始每1级增加击飞高度
+	#Range: 0.1 ~ 1.0
+	tidal_surge_launch_per_level = 0.5
+	#气泡粒子数量
+	#Range: 5 ~ 50
+	tidal_surge_particle_count = 20
+
+["灵吸附魔配置"]
+	#基础灵魂吸收系数（0.1=10%伤害转化）
+	#Range: 0.01 ~ 1.0
+	soul_siphon_base_factor = 0.1
+	#最大灵魂层数上限
+	#Range: 50 ~ 500
+	soul_siphon_max_stacks = 150
+
+["时空斩附魔配置"]
+	#基础回溯时间（单位：秒）
+	#Range: 1 ~ 10
+	time_slash_base_seconds = 1
+	#从0级开始每1级增加的回溯时间
+	#Range: 0 ~ 5
+	time_slash_seconds_per_level = 1
+	#基础额外伤害
+	#Range: 0 ~ 20
+	time_slash_base_damage = 0
+	#从0级开始每1级增加的额外伤害
+	#Range: 0 ~ 10
+	time_slash_damage_per_level = 2
+
+["审判附魔配置"]
+	#审判基础伤害倍数（当目标生命低于50%时生效）
+	#Range: 1.0 ~ 3.0
+	judgment_base_multiplier = 1.3
+	#从1级开始每1级审判每等级增加的伤害倍数
+	#Range: 0.1 ~ 1.0
+	judgment_multiplier_per_level = 0.3
+

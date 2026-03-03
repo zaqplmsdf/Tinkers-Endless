@@ -1,0 +1,24 @@
+// Compost colors for tgears. You may add your own colors, change existing ones, or remove colors that aren't needed.
+bar_of_blazing_chocolate, #ffb83c
+blazing_chocolate_bucket, #d4b683
+blazing_chocolate_glazed_berries, #c27816
+blazing_chocolate_hand, #ffb955
+chocolate_hand, #d78272
+cobalt_propeller, #468dfb
+cobalt_sheet, #3087fb
+crushed_raw_cobalt, #e57c0
+crushed_scorchia, #344446
+hand_cast, #ffff7f
+hand_cast_with_blazing_chocolate_hand, #ffff6e
+hand_cast_with_brass_hand, #fffb7f
+hand_cast_with_chocolate_hand, #ffee7a
+hand_cast_with_part, #ffff80
+propeller_cast, #ffff7f
+propeller_cast_with_cobalt_propeller, #ebf0b2
+propeller_cast_with_part, #ffff82
+propeller_cast_with_propeller, #fffb90
+whisk_cast, #ffff8d
+whisk_cast_to_sturdy_whisk, #ffff8c
+whisk_cast_with_part, #ffff8c
+whisk_cast_with_sturdy_whisk, #d6c378
+whisk_cast_with_whisk, #fff2a0

@@ -1,0 +1,34 @@
+{
+    "moze_intel.projecte.gameObjs.gui.GUITransmutation": {
+        "ignore": true
+    },
+    "mekanism.common.registration.impl.ContainerTypeDeferredRegister$ContainerBuilder$1": {
+        "ignore": true
+    },
+    "mekanism.client.gui.GuiChemicalTank": {
+        "ignore": true
+    },
+    "committee.nova.mods.avaritia.client.screen.InfinityChestScreen": {
+        "ignore": true
+    },
+    "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "top": 230
+            },
+            "SETTINGS": {
+                "top": 199
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.ShulkerBoxScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "top": 211
+            },
+            "SETTINGS": {
+                "top": 210
+            }
+        }
+    }
+}

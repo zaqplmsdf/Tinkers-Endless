@@ -1,0 +1,3 @@
+// Compost colors for tmted. You may add your own colors, change existing ones, or remove colors that aren't needed.
+bottle_of_wodka, #ffffff
+wheat_flour, #ffffff

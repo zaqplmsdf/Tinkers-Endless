@@ -1,0 +1,40 @@
+{
+	id: "0D6DF448D5181869"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{ item: "twilightforest:minotaur_spawn_egg" }
+		{ item: "twilightforest:naga_spawn_egg", weight: 0.5f }
+		{ item: "twilightforest:quest_ram_spawn_egg" }
+		{ item: "twilightforest:snow_queen_spawn_egg", weight: 0.5f }
+		{ item: "twilightforest:ur_ghast_spawn_egg", weight: 0.5f }
+		{ item: "twilightforest:yeti_spawn_egg" }
+		{ item: "twilightforest:lich_spawn_egg", weight: 0.5f }
+		{ item: "twilightforest:knight_phantom_spawn_egg", weight: 0.5f }
+		{ item: "twilightforest:hydra_spawn_egg", weight: 0.5f }
+		{ item: "twilightforest:alpha_yeti_spawn_egg", weight: 0.5f }
+		{ item: "alexsmobs:spawn_egg_mimicube", weight: 0.1f }
+		{ item: "alexsmobs:spawn_egg_warped_mosco" }
+		{ item: "tconstruct:ender_slime_spawn_egg" }
+		{ item: "tconstruct:sky_slime_spawn_egg" }
+		{ item: "iceandfire:spawn_egg_ghost" }
+		{ item: "iceandfire:spawn_egg_hydra", weight: 0.75f }
+		{ item: "iceandfire:spawn_egg_lich", weight: 0.75f }
+		{ item: "iceandfire:spawn_egg_cyclops", weight: 0.75f }
+		{ item: "iceandfire:spawn_egg_pixie" }
+		{ item: "iceandfire:spawn_egg_gorgon", weight: 0.75f }
+		{ item: "minecraft:cave_spider_spawn_egg" }
+		{ item: "minecraft:sniffer_spawn_egg" }
+		{ item: "minecraft:bee_spawn_egg" }
+		{ item: "minecraft:glow_squid_spawn_egg" }
+		{ item: "minecraft:evoker_spawn_egg" }
+		{ item: "minecraft:phantom_spawn_egg" }
+		{ item: "minecraft:shulker_spawn_egg" }
+		{ item: "minecraft:stray_spawn_egg" }
+		{ item: "minecraft:elder_guardian_spawn_egg", weight: 0.5f }
+		{ item: "iceandfire:spawn_egg_siren" }
+		{ item: "iceandfire:spawn_egg_hippocampus" }
+		{ item: "iceandfire:spawn_egg_troll" }
+	]
+	title: "刷怪蛋"
+}

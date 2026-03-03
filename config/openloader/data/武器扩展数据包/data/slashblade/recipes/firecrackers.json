@@ -1,0 +1,26 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade:firecrackers",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade_wood"
+    },
+    "Z": {
+      "item": "ae2:tiny_tnt"
+    },
+    "N": {
+      "item": "minecraft:tnt"
+    }
+  },
+  "pattern": [
+    "ZNZ",
+    "NBN",
+    "ZNZ"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

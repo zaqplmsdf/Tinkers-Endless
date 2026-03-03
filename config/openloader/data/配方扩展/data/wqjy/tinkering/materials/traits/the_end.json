@@ -1,0 +1,240 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "mushroom_daydream:gobber_max"
+    },
+    {
+      "level": 3,
+      "name": "sakuratinker:dragon_martyr"
+    },
+    {
+      "level": 1,
+      "name": "tprt:the_dragon_power"
+    },
+    {
+      "level": 1,
+      "name": "mushroom_daydream:future"
+    },
+    {
+      "level": 1,
+      "name": "mushroom_daydream:materials_heart"
+    },
+    {
+      "level": 1,
+      "name": "tinkerscalibration:subdue"
+    },
+    {
+      "level": 1,
+      "name": "tinkersinnovation:omnipotent"
+    },
+    {
+      "level": 1,
+      "name": "tinkerscalibration:dominate"
+    },
+    {
+      "level": 1,
+      "name": "tprt:magic_sublimation"
+    },
+    {
+      "level": 10,
+      "name": "tinkersinnovation:hostility"
+    },
+    {
+      "level": 1,
+      "name": "tinkersinnovation:miracle"
+    },
+    {
+      "level": 1,
+      "name": "tinkers_advanced:flux_infused"
+    },
+    {
+      "level": 1,
+      "name": "tinkers_advanced:thermal_enhance"
+    },
+    {
+      "level": 1,
+      "name": "tinkers_advanced:thermal_slash"
+    },
+    {
+      "level": 1,
+      "name": "tinkers_advanced:supreme_density"
+    },
+    {
+      "level": 1,
+      "name": "tinkers_advanced:ionized"
+    },
+    {
+      "level": 1,
+      "name": "sakuratinker:pain_resonance"
+    },
+    {
+      "level": 1,
+      "name": "sakuratinker:infinitum"
+    },
+    {
+      "level": 1,
+      "name": "tconstruct:overslime"
+    },
+    {
+      "level": 1,
+      "name": "sakuratinker:god_of_slime"
+    },
+    {
+      "level": 1,
+      "name": "sakuratinker:fusion_burn"
+    },
+    {
+      "level": 1,
+      "name": "sakuratinker:incomplete_transformation"
+    },
+    {
+      "level": 1,
+      "name": "sakuratinker:super_luck"
+    },
+    {
+      "level": 1,
+      "name": "sakuratinker:bedrock_breaker"
+    },
+    {
+      "level": 1,
+      "name": "sakuratinker:natural_fit_upgrades"
+    },
+    {
+      "level": 1,
+      "name": "sakuratinker:natural_fit_abilities"
+    },
+    {
+      "level": 1,
+      "name": "ticex:omnipotence"
+    }
+  ],
+  "perStat": {
+    "tconstruct:armor": [
+      {
+        "level": 1,
+        "name": "mushroom_daydream:gobber_max"
+      },
+      {
+        "level": 3,
+        "name": "sakuratinker:dragon_soul"
+      },
+      {
+        "level": 2,
+        "name": "sakuratinker:breath_resistance"
+      },
+      {
+        "level": 1,
+        "name": "tprt:mixeddragon_armor"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:fire_immunity"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:ice_immunity"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:lightning_immunity"
+      },
+      {
+        "level": 1,
+        "name": "mushroom_daydream:future"
+      },
+      {
+        "level": 1,
+        "name": "mushroom_daydream:materials_heart"
+      },
+      {
+        "level": 1,
+        "name": "tinkers_advanced:flux_infused"
+      },
+      {
+        "level": 1,
+        "name": "tinkerscalibration:subdue_armor"
+      },
+      {
+        "level": 1,
+        "name": "tinkersinnovation:omnipotent"
+      },
+      {
+        "level": 1,
+        "name": "tinkerscalibration:dominate_armor"
+      },
+      {
+        "level": 1,
+        "name": "tprt:source_alloy_armor"
+      },
+      {
+        "level": 10,
+        "name": "tinkersinnovation:hostility"
+      },
+      {
+        "level": 1,
+        "name": "tinkersinnovation:miracle"
+      },
+      {
+        "level": 1,
+        "name": "tinkers_advanced:thermal_enhance"
+      },
+      {
+        "level": 1,
+        "name": "tinkers_advanced:flux_defense"
+      },
+      {
+        "level": 1,
+        "name": "tinkers_advanced:supreme_density"
+      },
+      {
+        "level": 1,
+        "name": "tinkers_advanced:ionized"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:absorption"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:infinitum"
+      },
+      {
+        "level": 1,
+        "name": "tconstruct:overslime"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:mucilaginous_shell"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:incomplete_transformation"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:null_almighty"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:celestial"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:gale"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:eternity"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:natural_fit_upgrades"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:natural_fit_defense"
+      }
+    ]
+  }
+}

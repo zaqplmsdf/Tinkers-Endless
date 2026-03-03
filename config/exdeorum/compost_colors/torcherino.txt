@@ -1,0 +1,7 @@
+// Compost colors for torcherino. You may add your own colors, change existing ones, or remove colors that aren't needed.
+compressed_lantern, #22802c
+compressed_torcherino, #804a50
+double_compressed_lantern, #5e5f4e
+double_compressed_torcherino, #574d20
+lantern, #18202d
+torcherino, #939184

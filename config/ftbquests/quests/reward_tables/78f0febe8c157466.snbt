@@ -1,0 +1,24 @@
+{
+	id: "78F0FEBE8C157466"
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{
+			command: "/curios drop @p ring"
+			elevate_perms: true
+			icon: "ringsofascension:ring_mining"
+			team_reward: true
+			title: "卸下戒指栏所有饰品"
+			type: "command"
+		}
+		{
+			command: "/curios drop @p curio"
+			elevate_perms: true
+			icon: "botania:bauble_box"
+			team_reward: true
+			title: "卸下饰品栏所有饰品"
+			type: "command"
+		}
+	]
+	title: "移除饰品"
+}

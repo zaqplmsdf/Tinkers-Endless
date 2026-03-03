@@ -1,0 +1,393 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "04423CFBA92BD4DD"
+	group: "3172704A8AED52C1"
+	icon: "avaritia:infinity_catalyst"
+	id: "04423CFBA92BD4DD"
+	images: [
+		{
+			height: 10.0d
+			image: "avaritia:item/resource/infinity/infinity_catalyst"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0893F70D65728717"]
+			description: ["这并不算简单"]
+			id: "1C0B31FAAFB6FB4C"
+			tasks: [{
+				id: "41EF5891B4E99852"
+				item: "avaritia:crystal_matrix_ingot"
+				type: "item"
+			}]
+			title: "&b水晶矩阵"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C99F95DD1DB62D5"]
+			id: "383960507CB21B06"
+			tasks: [{
+				id: "1FB4157EE78460ED"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65D5C891E8C4AF7D"]
+			id: "4FA3EB368C2A6778"
+			tasks: [{
+				id: "111FA643407D3AED"
+				item: "avaritia:infinity_catalyst"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4FA3EB368C2A6778"
+				"1C0B31FAAFB6FB4C"
+				"383960507CB21B06"
+			]
+			id: "1635D4B37F4E1532"
+			tasks: [{
+				id: "308CE6A2B2852669"
+				item: "sakuratinker:colorful_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69BE3AB111096933"]
+			id: "005732A286E2777E"
+			tasks: [{
+				id: "5B6ED39F6657B5EB"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3A3B110C3E07E605"
+				"7FE77354745DEA07"
+				"47ADF2855CCB0BBE"
+			]
+			id: "295AED5D1AF9A47A"
+			tasks: [{
+				id: "024E63BD7E398A74"
+				item: "tconstruct:slimesteel_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "7FE77354745DEA07"
+			tasks: [{
+				id: "5F38D781091DF598"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "47ADF2855CCB0BBE"
+			tasks: [{
+				id: "1C6AE6A3E8791B19"
+				item: "tconstruct:sky_slime_ball"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "3A3B110C3E07E605"
+			tasks: [{
+				id: "6A5309DB08A498E5"
+				item: "tconstruct:seared_brick"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"295AED5D1AF9A47A"
+				"4FA3EB368C2A6778"
+				"57DEFBF972196FE9"
+				"2F4CB562D6F68EB0"
+				"38E318D521DAD9E7"
+				"68A8FF2F8F9F4087"
+			]
+			id: "0F1543DF9C3E9CC1"
+			tasks: [{
+				id: "437225EA10493D46"
+				item: "sakuratinker:goozma"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			description: ["古城宝箱获取"]
+			id: "6143E3A742504371"
+			tasks: [{
+				id: "0A8E60AFC9A72B75"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"相关链接："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3ACE3C31A678CFDA\" } }"
+			]
+			id: "11AC647E80E3167C"
+			tasks: [{
+				id: "6E5F055B92458077"
+				item: "tconstruct:ichor_slime_ball"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6143E3A742504371"
+				"11AC647E80E3167C"
+			]
+			id: "194925731628C249"
+			tasks: [{
+				id: "449DCBBBF7422289"
+				item: "sakuratinker:slime_ball_echo"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"295AED5D1AF9A47A"
+				"194925731628C249"
+			]
+			id: "57DEFBF972196FE9"
+			tasks: [{
+				id: "72C181809A0DE434"
+				item: "sakuratinker:echo_slimesteel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "7EDDC089DF6C2114"
+			tasks: [{
+				id: "37E174618790FA4E"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			id: "19C59A0613A8F5A5"
+			tasks: [{
+				id: "371574E0D5D7B272"
+				item: "minecraft:snow_block"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			id: "63A7071CEDB0A438"
+			tasks: [{
+				id: "0CA36B2A15BA64F0"
+				item: "tconstruct:sky_slime_ball"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			id: "4BF8F80A7AF9A73F"
+			tasks: [{
+				id: "4C67D2B7E38B2CA7"
+				item: "minecraft:mushroom_stem"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"7EDDC089DF6C2114"
+				"19C59A0613A8F5A5"
+			]
+			id: "0716E41D2AA2023D"
+			tasks: [{
+				id: "195B760FEE21D6F8"
+				item: "sakuratinker:slime_ball_frost"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"63A7071CEDB0A438"
+				"4BF8F80A7AF9A73F"
+			]
+			id: "315B8975015E616E"
+			tasks: [{
+				id: "27227BF8B938ADD7"
+				item: "sakuratinker:slime_ball_mycelium"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			id: "0CFCAFED463B8A41"
+			tasks: [{
+				id: "60FF2AF8EFC74FCC"
+				item: "tconstruct:scorched_brick"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "466A8B4CD8D846B1"
+			tasks: [{
+				id: "570BF1857186F4CC"
+				item: "tconstruct:ichor_slime_ball"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			id: "36E43000E01BA723"
+			tasks: [{
+				id: "4C2AA0F3FD9501C7"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"0CFCAFED463B8A41"
+				"36E43000E01BA723"
+				"466A8B4CD8D846B1"
+			]
+			id: "68A8FF2F8F9F4087"
+			tasks: [{
+				id: "398F2FE7BBD7E6D3"
+				item: "tconstruct:cinderslime_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"315B8975015E616E"
+				"295AED5D1AF9A47A"
+			]
+			id: "2F4CB562D6F68EB0"
+			tasks: [{
+				id: "22DEEE934ACCA6A8"
+				item: "sakuratinker:mycelium_slimesteel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0716E41D2AA2023D"
+				"295AED5D1AF9A47A"
+			]
+			id: "38E318D521DAD9E7"
+			tasks: [{
+				id: "73595E5EAE890473"
+				item: "sakuratinker:frost_slimesteel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			icon: "minecraft:observer"
+			id: "26526E7DFC96D24B"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "496DC481F288465A"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "16F757431AB67214"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+	]
+	title: "·&a无&b尽&c贪&d婪&e相&6关"
+}

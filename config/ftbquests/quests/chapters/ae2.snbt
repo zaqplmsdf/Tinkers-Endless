@@ -1,0 +1,1179 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae2"
+	group: "63383AA57008A157"
+	icon: "ae2:creative_energy_cell"
+	id: "02F4D6D2AA3EF091"
+	images: [
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -3.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5E2664024FB8E71A"]
+			id: "229F0A5D3B0A471F"
+			rewards: [
+				{
+					count: 32
+					id: "3E9EBFEE0F246396"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6B9742E8DF72CDD7"
+					item: "ae2:charged_certus_quartz_crystal"
+					type: "item"
+				}
+			]
+			subtitle: "只有成熟的胞芽才能开采出水晶，未成熟的只能出粉末"
+			tasks: [
+				{
+					count: 32L
+					id: "64BC9F53EF1FDCC9"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 16L
+					id: "630817A388DC56FA"
+					item: "ae2:charged_certus_quartz_crystal"
+					match_nbt: false
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["229F0A5D3B0A471F"]
+			id: "4A48A3F39A558720"
+			rewards: [{
+				count: 16
+				id: "664003626D865EF9"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			subtitle: "将充能后的赛特斯水晶、红石粉、下界石英一起丢到水里（其实别的液体也行），过一段时间就能转化"
+			tasks: [{
+				count: 16L
+				id: "7A9FC4E5D609A753"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5B335F80C5C46BC3"]
+			id: "01312069B6C65E1F"
+			rewards: [{
+				id: "0BFCE48F6715FE8B"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "将指南针放在充能器里充能获得"
+			tasks: [{
+				id: "44787BD41891D4DE"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6707D1BBF80A093E"]
+			icon: "ae2:charger"
+			id: "5B335F80C5C46BC3"
+			rewards: [{
+				id: "56FEAE5BC014928A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "AE2起源，必备机器"
+			tasks: [
+				{
+					id: "10B17ED61886CEC1"
+					item: "ae2:charger"
+					type: "item"
+				}
+				{
+					id: "5BBFBD6C9D80B74E"
+					item: "ae2:crank"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			icon: "ae2:controller"
+			id: "6707D1BBF80A093E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "262BF9B4A3BBB77E"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			size: 3.0d
+			subtitle: "那一天，AE2横空出世，科技整合包终于迎来了它的真神"
+			tasks: [{
+				id: "397C07B8FC1902A9"
+				type: "checkmark"
+			}]
+			title: "AE2开始"
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5B335F80C5C46BC3"
+				"01312069B6C65E1F"
+			]
+			dependency_requirement: "one_completed"
+			id: "5E2664024FB8E71A"
+			rewards: [{
+				id: "504FC8013C1F1E0D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "罗盘会指向最近的陨石（其实用小地图找大坑就行），获得赛特斯石英和压印板"
+			tasks: [{
+				id: "74C32D7DDE5B7DAC"
+				item: "ae2:sky_stone_block"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"2780D38A453A9F5B"
+				"5E2664024FB8E71A"
+			]
+			dependency_requirement: "one_completed"
+			id: "1473150ADAABB345"
+			rewards: [{
+				id: "1223A2C0D4F04CD1"
+				item: "ae2:flawless_budding_quartz"
+				type: "item"
+			}]
+			subtitle: "只有无暇的母岩才能源源不断产出水晶，可以用纸箱无伤搬运，或者别的什么方法"
+			tasks: [{
+				consume_items: false
+				id: "27906CAA3EAD4554"
+				item: "ae2:flawless_budding_quartz"
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "2780D38A453A9F5B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24E1332B7CE7B6B1"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			subtitle: "神器，你甚至可以用它装失控的神龙反应堆"
+			tasks: [{
+				id: "24D0605FEF71C0C9"
+				item: "mekanism:cardboard_box"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4A48A3F39A558720"]
+			id: "51EDA04DA0072EE3"
+			rewards: [{
+				id: "133B877B75D13730"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "（光刻机？）"
+			tasks: [{
+				id: "7D1D2916A2D25E46"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["51EDA04DA0072EE3"]
+			id: "374A261A4B2106E0"
+			rewards: [{
+				id: "2F405456FFF915F7"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			subtitle: "把它打成粉"
+			tasks: [{
+				count: 64L
+				id: "205EE336E40BA264"
+				item: "ae2:certus_quartz_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["374A261A4B2106E0"]
+			id: "123456FE5F988E04"
+			rewards: [{
+				count: 16
+				id: "65D46C80F8F23292"
+				item: "ae2:silicon"
+				type: "item"
+			}]
+			subtitle: "丢到熔炉烧一下"
+			tasks: [{
+				count: 16L
+				id: "6762754CA72005A6"
+				item: "ae2:silicon"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			icon: "mekanism:cardboard_box"
+			id: "3DAB2EBC4EFC5C72"
+			rewards: [{
+				id: "05FE838DC4B3FF7D"
+				item: "mekanism:cardboard_box"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4B10113A1D585D30"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "不想自己做的话"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C40B976BFF088E6"]
+			id: "3FA84486BA32DC6B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D679AD73822E5E0"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			subtitle: "远程访问AE网络的第一步"
+			tasks: [{
+				id: "67D3FC7B0BFEF6FB"
+				item: "ae2:wireless_access_point"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3665322FCAA75F5C"]
+			id: "22DDD8AF3CC7ADDC"
+			rewards: [{
+				id: "5897318AB677406C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "可以放在饰品栏，或者直接拿着右键，远程访问你的AE网络，可以将多个终端合成为一个（普通无线终端不能合成）"
+			tasks: [
+				{
+					id: "55C52ABD6B51B36E"
+					item: "ae2:wireless_crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "6974243C98B6921C"
+					item: "ae2wtlib:wireless_pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					id: "6BD8692C6305DA63"
+					item: "ae2wtlib:wireless_pattern_access_terminal"
+					type: "item"
+				}
+			]
+			title: "更多无线终端"
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["51EDA04DA0072EE3"]
+			icon: "ae2:printed_logic_processor"
+			id: "67669649CE7E0F4C"
+			subtitle: "三种都是必备的"
+			tasks: [
+				{
+					count: 16L
+					id: "417234908680DD71"
+					item: "ae2:printed_calculation_processor"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "06346F47E0C78279"
+					item: "ae2:printed_logic_processor"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "33C9037D4CEF4A5A"
+					item: "ae2:printed_engineering_processor"
+					type: "item"
+				}
+			]
+			title: "电路板"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["123456FE5F988E04"]
+			id: "60061A18E25ABD81"
+			subtitle: "这个要很多"
+			tasks: [{
+				count: 64L
+				id: "2949CA1649518B09"
+				item: "ae2:printed_silicon"
+				type: "item"
+			}]
+			title: "硅板"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"67669649CE7E0F4C"
+				"60061A18E25ABD81"
+			]
+			icon: "ae2:logic_processor"
+			id: "07FC92E00B70611D"
+			rewards: [{
+				id: "0490055094BFF460"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "2B67C878F8A5CF3B"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "641A8334BB334FF0"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "144C83D2C2F63958"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			title: "处理器"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["07FC92E00B70611D"]
+			id: "02F24125936690EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6252B76E5F49DD8A"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			size: 1.5d
+			subtitle: "构建AE网络的核心，每个面都可以提供8个频道"
+			tasks: [{
+				id: "0172DFFA76ED702A"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["07FC92E00B70611D"]
+			id: "2FE5F1EF931854B4"
+			rewards: [{
+				id: "3443D6DAED76C63A"
+				item: "thermal:device_rock_gen"
+				type: "item"
+			}]
+			subtitle: "放元件的地方"
+			tasks: [{
+				id: "549547E07C6F9207"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07FC92E00B70611D"]
+			id: "40E4C76F1F2824FD"
+			rewards: [{
+				id: "518AA924AB9897B9"
+				item: {
+					Count: 1
+					id: "ae2:energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "可以用来将物品提取到元件，或者将物品从元件放入网络"
+			tasks: [{
+				id: "7FBCD8B5E59450FC"
+				item: "ae2:io_port"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3A9B3D7AE83E6380"]
+			id: "3E972D2FBE648E08"
+			rewards: [{
+				id: "126E793D709B1E0F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "不仅仅是查看，还可以合成和编辑样板"
+			tasks: [
+				{
+					id: "4164A595C6ACFF40"
+					item: "ae2:crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "5A62335C35879D54"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					id: "0A02131EEA0E9B4F"
+					item: "ae2:pattern_access_terminal"
+					type: "item"
+				}
+			]
+			title: "更多终端"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FA84486BA32DC6B"]
+			id: "3665322FCAA75F5C"
+			rewards: [{
+				id: "16857C8A209A0883"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2DC77B4F4BB10854"
+				item: "ae2:wireless_terminal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3FA84486BA32DC6B"]
+			id: "158963017B6295C6"
+			rewards: [{
+				id: "460CDCA7965A8054"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "增加范围"
+			tasks: [{
+				id: "00CBD5BEB845ECCC"
+				item: "ae2:wireless_booster"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["158963017B6295C6"]
+			id: "663049A98ABC38F7"
+			rewards: [{
+				id: "7CB53C51CA1FC1AC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "现在你可以在主世界随意使用无线终端了"
+			tasks: [{
+				id: "7E8F7F8837B0616D"
+				item: "aeinfinitybooster:infinity_card"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["663049A98ABC38F7"]
+			id: "5F46616EEA7C1E45"
+			rewards: [{
+				id: "26E31363E5F493A3"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "现在你在其他维度也可以用了"
+			tasks: [{
+				id: "785E75A934C51BD3"
+				item: "aeinfinitybooster:dimension_card"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["06D59C7C8321E9B2"]
+			id: "77C215ED9DCA2913"
+			tasks: [{
+				id: "02E4864D8C1AFC1D"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["06D59C7C8321E9B2"]
+			id: "04375FD5813E21C4"
+			min_required_tasks: 1
+			rewards: [{
+				id: "624533D1EE651589"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "33B995AB4314F37F"
+					item: "ae2:crystal_resonance_generator"
+					type: "item"
+				}
+				{
+					id: "43178D83DB0123FD"
+					item: "ae2:vibration_chamber"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			id: "06D59C7C8321E9B2"
+			subtitle: "你可以选择用AE自带的机器进行提供，也可以使用其他模组的电，搭配能源接收器供能"
+			tasks: [{
+				id: "01A8D6BBC51E821B"
+				type: "checkmark"
+			}]
+			title: "关于供电"
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2FE5F1EF931854B4"]
+			id: "2FF71CEB06324992"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0429F40BBAA26737"
+				table_id: 2496234257689732661L
+				type: "random"
+			}]
+			subtitle: "可以用于存储物品和流体（匠魂的流体可以用流体储罐直接在终端里倒进去）"
+			tasks: [
+				{
+					id: "44BF8759285E8C70"
+					item: {
+						Count: 1
+						id: "ae2:item_storage_cell_1k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7D992705BC3406F2"
+					item: {
+						Count: 1
+						id: "ae2:fluid_storage_cell_1k"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["374A261A4B2106E0"]
+			id: "6C40B976BFF088E6"
+			rewards: [{
+				id: "2C301F6AD95FCF76"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "051A4C293C110CB5"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+				{
+					id: "3AE4017421DED40E"
+					item: "ae2:fluix_covered_cable"
+					type: "item"
+				}
+				{
+					id: "22CE30FFE9F2A343"
+					item: "ae2:fluix_smart_cable"
+					type: "item"
+				}
+				{
+					id: "1027FB156B3DB7D8"
+					item: "ae2:fluix_smart_dense_cable"
+					type: "item"
+				}
+			]
+			title: "线缆"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2FF71CEB06324992"]
+			id: "0C48D9A5828D68FF"
+			rewards: [{
+				id: "5DB6F83D9168ADFA"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "可以制作更大容量的元件，或者用更多的驱动器来扩大容量"
+			tasks: [{
+				id: "556F2DB209771E61"
+				type: "checkmark"
+			}]
+			title: "更大的容量"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C40B976BFF088E6"]
+			id: "542C70603B09B5E4"
+			rewards: [{
+				id: "28D7778BF71A0E40"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "偷偷告诉你，精妙背包加卸货升级和磁铁升级，搭配输入总线可以大范围收集掉落物品到AE网络"
+			tasks: [
+				{
+					id: "067070D867526ACB"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+				{
+					id: "6A7C8B541CEE3DB5"
+					item: "ae2:export_bus"
+					type: "item"
+				}
+			]
+			title: "输入和输出"
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6C40B976BFF088E6"]
+			id: "050D869BDEC4F429"
+			rewards: [{
+				id: "6E96386E348B4569"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "使用存储总线可以直接访问箱子和木桶，配合精妙存储，甚至比元件更香？"
+			tasks: [{
+				id: "1D07A7FEC80DE10C"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			title: "我不想用元件存储怎么办"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["02F24125936690EA"]
+			id: "435EF6D6D3857D6B"
+			rewards: [{
+				id: "3EACCA71772A0739"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			subtitle: "在没有下界之星前怎么跨维度使用AE无线终端呢？答案是使用量子传送"
+			tasks: [
+				{
+					count: 8L
+					id: "0809259DCD4F5EDB"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					id: "3F9B9BD08074391E"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+			]
+			title: "跨纬度"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3665322FCAA75F5C"
+				"435EF6D6D3857D6B"
+			]
+			id: "062718864809A515"
+			rewards: [{
+				id: "2B35CEE93F495110"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "在无线终端方上量子桥卡，可以省去造另一个量子环"
+			tasks: [{
+				id: "1DDEFB002ED46C9A"
+				item: "ae2wtlib:quantum_bridge_card"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"435EF6D6D3857D6B"
+				"32B8ACB3732F1A8D"
+			]
+			id: "7E2A44E411BD6FBC"
+			rewards: [{
+				id: "071F76F8CBF6BA89"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "把材料准备好，然后用TNT炸一下得到"
+			tasks: [
+				{
+					id: "087375F5E529DC9B"
+					item: "ae2:singularity"
+					type: "item"
+				}
+				{
+					id: "2C89D5EEE48BEC1B"
+					item: "thermal:ender_pearl_dust"
+					type: "item"
+				}
+			]
+			title: "制作缠绕奇点"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E2A44E411BD6FBC"]
+			id: "65F310F28B8CF521"
+			rewards: [{
+				id: "64F401F2C7EE4369"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "00A2441E1D5BE4C8"
+				item: "ae2:tiny_tnt"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["435EF6D6D3857D6B"]
+			id: "32B8ACB3732F1A8D"
+			rewards: [{
+				id: "704E54ED9C94D6AD"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "放入至少64k的存储组件，然后链接管道注水就可以得到奇点了"
+			tasks: [
+				{
+					id: "66F94C43EA98B3AA"
+					item: "ae2:condenser"
+					type: "item"
+				}
+				{
+					id: "2E1FD2D5CA4354C9"
+					item: "ae2:cell_component_64k"
+					type: "item"
+				}
+			]
+			title: "制作奇点"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6C40B976BFF088E6"]
+			id: "794D32A53FF8EFB3"
+			rewards: [{
+				id: "74488D81B272B25D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "背包装卸货升级右键就可以存物品"
+			tasks: [{
+				id: "1B142EFD54EF871E"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["07FC92E00B70611D"]
+			id: "3A9B3D7AE83E6380"
+			rewards: [{
+				id: "6E2850961881C4B4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "显示器？"
+			tasks: [{
+				id: "1F2A45C3335CD6C5"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"02F24125936690EA"
+				"32B8ACB3732F1A8D"
+			]
+			id: "17BF3FC6466C3A0A"
+			rewards: [{
+				id: "6477D6513A4A173D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "这是最伟大的发明，你可以让AE使用EMC制作已经学习的物品"
+			tasks: [{
+				id: "72A0F0A2CD5099CB"
+				item: "appliede:emc_module"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FF71CEB06324992"]
+			id: "3AC85907A0F14B31"
+			rewards: [{
+				id: "0199BAAA24D03824"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "没啥用，实用性不如无线终端"
+			tasks: [
+				{
+					id: "0D70B1A1C44F3997"
+					item: {
+						Count: 1
+						id: "ae2:portable_item_cell_1k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "37C610BB349F08DA"
+					item: {
+						Count: 1
+						id: "ae2:portable_fluid_cell_1k"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "便携元件"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["02F24125936690EA"]
+			id: "6D8A1BCE01B8CC4E"
+			rewards: [{
+				id: "6240258B370F7BD6"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "终于！到了这一步，就是AE封神的地方了，你可以通过编写样板，来实现自动化合成"
+			tasks: [{
+				id: "17CD7EC190D88C58"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			title: "自动化合成"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D8A1BCE01B8CC4E"]
+			id: "006E1AB32EEF330C"
+			rewards: [{
+				id: "77E6872E46F11CF9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "样板编写之后放入供应器，链接线缆，网络就可以自动发送物品，继而合成"
+			tasks: [
+				{
+					id: "02C19C51ECF043FD"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					id: "494A2FA1C426B1CF"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+			]
+			title: "合成"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D8A1BCE01B8CC4E"]
+			id: "48BC7B5996E9DF98"
+			rewards: [{
+				id: "076F4BAB97F8824A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "这是合成的CPU，有合成单元，网络才能对物品进行处理"
+			tasks: [{
+				id: "22B8755B33B412E6"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6D8A1BCE01B8CC4E"]
+			id: "42D829C5768850C2"
+			subtitle: "CPU缓存"
+			tasks: [{
+				id: "0BEA4748BA88CE33"
+				item: "ae2:1k_crafting_storage"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["42D829C5768850C2"]
+			id: "7084582404FBFD72"
+			rewards: [{
+				id: "3777E3EF551E6522"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "增加存储器容量，可以实现更复杂的合成"
+			tasks: [{
+				id: "09C19B0C0243E900"
+				type: "checkmark"
+			}]
+			title: "更多存储器"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6D8A1BCE01B8CC4E"]
+			id: "731C4F18555A6B25"
+			rewards: [{
+				id: "6152AAB31CE12AD8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "可以一次处理多个合成任务"
+			tasks: [{
+				id: "7282012BCC16FF7F"
+				item: "ae2:crafting_accelerator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6D8A1BCE01B8CC4E"]
+			id: "6E538151078C5E85"
+			rewards: [{
+				id: "6E6BC2007FEAF3FF"
+				item: {
+					Count: 1
+					id: "ae2:network_tool"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "在样板编码终端内，使用JEI找到需要的配方，点击右下角加号即可，快去试试吧，以橡木原木做木板为例"
+			tasks: [{
+				id: "42E29745331972BA"
+				item: {
+					Count: 1
+					id: "ae2:crafting_pattern"
+					tag: {
+						in: [
+							{
+								Count: 1b
+								id: "minecraft:oak_log"
+							}
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+							{ }
+						]
+						out: {
+							Count: 4b
+							id: "minecraft:oak_planks"
+						}
+						recipe: "minecraft:oak_planks"
+						substitute: 0b
+						substituteFluids: 1b
+					}
+				}
+				type: "item"
+			}]
+			title: "如何写样板"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6707D1BBF80A093E"
+				"17BF3FC6466C3A0A"
+				"6E538151078C5E85"
+			]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "7AF621C4548EA283"
+			rewards: [{
+				id: "64756F4BD71BDB7D"
+				type: "xp"
+				xp: 100
+			}]
+			size: 3.0d
+			subtitle: "若后续添加更多附属则继续"
+			tasks: [{
+				id: "66430648DD9C8B90"
+				type: "checkmark"
+			}]
+			title: "进阶后续"
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2FF71CEB06324992"]
+			id: "7ED8143C3EA81451"
+			rewards: [{
+				id: "77DAB9D601A274B5"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "可以设置元件过滤，让元件仅存储某物品或流体"
+			tasks: [{
+				id: "6F73CD99180921F9"
+				item: "ae2:cell_workbench"
+				type: "item"
+			}]
+			title: "分区设备"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["229F0A5D3B0A471F"]
+			id: "37B0BBCC4C547495"
+			rewards: [{
+				id: "4071C56659FB2E6A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "用电催熟，不如加速火把"
+			tasks: [{
+				id: "422C05B520CC51E0"
+				item: "ae2:growth_accelerator"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			icon: "minecraft:observer"
+			id: "15E349A4E6DAB433"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "2B29543DC3CB4414"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "33C30F9CB66804C8"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+	]
+	subtitle: ["&b感谢群友“栖松听风”提供"]
+	title: "·&bae2"
+}

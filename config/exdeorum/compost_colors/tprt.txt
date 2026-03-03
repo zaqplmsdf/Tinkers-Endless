@@ -1,0 +1,11 @@
+// Compost colors for tprt. You may add your own colors, change existing ones, or remove colors that aren't needed.
+advanced_manyullyn, #e6b6f8
+dark_knight_ingot, #f7eefb
+evil_beast_alloy_ingot, #eac2a1
+forged_steel, #868484
+golden_fox_mask, #ffffe4
+kwat_wheat_grain_ingot, #fab4bc
+mixeddragon, #fffed9
+pig_bun, #fffff4
+red_turtle, #ff6f37
+source_alloy, #f7b9b8

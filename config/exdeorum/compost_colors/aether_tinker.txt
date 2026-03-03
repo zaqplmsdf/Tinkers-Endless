@@ -1,0 +1,11 @@
+// Compost colors for aether_tinker. You may add your own colors, change existing ones, or remove colors that aren't needed.
+ambrosium_copper, #ffffb4
+apollo, #ffff97
+cloud_steel, #ffffff
+firefly, #fff8ee
+molten_zanite_gemstone_bucket, #e7deee
+mushroom_steel, #cddcff
+slime_bishop, #f7e3cf
+uranium_heaven, #ebb6b2
+uranium_ingot, #fbffdc
+valkyrie, #fffffe

@@ -1,0 +1,390 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6"
+	group: "3172704A8AED52C1"
+	id: "66C99EF566B71F29"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "31A64323B48B3C50"
+			rewards: [{
+				id: "027DB52FF54AF9CB"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			subtitle: "1000℃"
+			tasks: [{
+				amount: 1000L
+				fluid: "minecraft:lava"
+				id: "3FF37CA72E9674C2"
+				type: "fluid"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			id: "2B20E374E261D818"
+			rewards: [{
+				id: "72595425447905FD"
+				item: "mushroom_daydream:nightmare_fuel_bucket"
+				type: "item"
+			}]
+			subtitle: "1400℃"
+			tasks: [{
+				amount: 1000L
+				fluid: "mushroom_daydream:nightmare_fuel"
+				id: "1FF500936F192187"
+				type: "fluid"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			id: "045612197E36C891"
+			rewards: [{
+				id: "2E68767BE2E74CC5"
+				item: "tconstruct:blazing_blood_bucket"
+				type: "item"
+			}]
+			subtitle: "1500℃"
+			tasks: [{
+				amount: 1000L
+				fluid: "tconstruct:blazing_blood"
+				id: "56799DCCDBE90349"
+				type: "fluid"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			id: "40A732F9B0E1750E"
+			rewards: [{
+				id: "53B3AC0CFE8E5A92"
+				item: {
+					Count: 1
+					id: "tconstruct:seared_ingot_gauge"
+					tag: {
+						tank: {
+							Amount: 1000
+							FluidName: "aether_tinker:molten_ambrosium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "1500℃"
+			tasks: [{
+				amount: 1000L
+				fluid: "aether_tinker:molten_ambrosium"
+				id: "506D0EA29443C2CC"
+				type: "fluid"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			id: "5AA95F75943FB839"
+			rewards: [{
+				id: "6E3934E95DE4A864"
+				item: "sakuratinker:molten_aurumos_bucket"
+				type: "item"
+			}]
+			subtitle: "2000℃"
+			tasks: [{
+				amount: 1000L
+				fluid: "sakuratinker:molten_aurumos"
+				id: "557074433E637A00"
+				type: "fluid"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			id: "74424816BBA1243F"
+			rewards: [{
+				id: "6E705BD58FD3EF43"
+				item: {
+					Count: 1
+					id: "tconstruct:seared_ingot_gauge"
+					tag: {
+						tank: {
+							Amount: 1000
+							FluidName: "tinkersinnovation:blazing_soul"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "2000℃"
+			tasks: [{
+				amount: 1000L
+				fluid: "tinkersinnovation:blazing_soul"
+				id: "59C6A805CE6AC293"
+				type: "fluid"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			id: "1BD29266B352F2C2"
+			rewards: [{
+				id: "767B57E8B0E563D6"
+				item: "cloudertinker:fire_tear_bucket"
+				type: "item"
+			}]
+			subtitle: "2000℃"
+			tasks: [{
+				amount: 1000L
+				fluid: "cloudertinker:fire_tear"
+				id: "43DF20A1E95EFCCB"
+				type: "fluid"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			id: "0BAC878C3549ECF4"
+			rewards: [{
+				id: "47EB1530CC01FCC4"
+				item: "cloudertinker:molten_fiery_bucket"
+				type: "item"
+			}]
+			subtitle: "2000℃"
+			tasks: [{
+				amount: 1000L
+				fluid: "cloudertinker:molten_fiery"
+				id: "43268C44A4C36C4A"
+				type: "fluid"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			id: "51C390F157488D74"
+			rewards: [{
+				id: "6FAFD0F85D9C31FB"
+				item: "tinkers_advanced:over_heated_lava_bucket"
+				type: "item"
+			}]
+			subtitle: "2000℃"
+			tasks: [{
+				amount: 1000L
+				fluid: "tinkers_advanced:over_heated_lava"
+				id: "5234263ED16C5F23"
+				type: "fluid"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			id: "1B3C8A987BD761CA"
+			rewards: [{
+				id: "06407E64D7277302"
+				item: "cloudertinker:fire_blood_bucket"
+				type: "item"
+			}]
+			subtitle: "2000℃"
+			tasks: [{
+				amount: 1000L
+				fluid: "cloudertinker:fire_blood"
+				id: "405228C1A2781BFA"
+				type: "fluid"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			id: "156B8E1E631D5890"
+			rewards: [{
+				id: "162E0317D3D218DB"
+				item: "dreamtinker:reversed_shadow_bucket"
+				type: "item"
+			}]
+			subtitle: "2200℃"
+			tasks: [{
+				amount: 1000L
+				fluid: "dreamtinker:reversed_shadow"
+				id: "4184A9CE73BD31C9"
+				type: "fluid"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			id: "41603F0200EC9C16"
+			rewards: [{
+				id: "6B0F5E734CB010AB"
+				item: "tinkers_ingenuity:dragon_breath_bucket"
+				type: "item"
+			}]
+			subtitle: "2200℃"
+			tasks: [{
+				amount: 1000L
+				fluid: "tinkers_ingenuity:dragon_breath"
+				id: "544B739EFD8768CF"
+				type: "fluid"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			id: "0A624967ED22FF48"
+			rewards: [{
+				id: "7344DA124B0D7B61"
+				item: "tinkersinnovation:lightning_bucket"
+				type: "item"
+			}]
+			subtitle: "2500℃"
+			tasks: [{
+				amount: 1000L
+				fluid: "tinkersinnovation:lightning"
+				id: "29EC91B7DB18A47E"
+				type: "fluid"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			id: "27B939D5A236F27D"
+			rewards: [{
+				id: "4AC93DA1688FF7EA"
+				item: "sakuratinker:molten_soul_sakura_bucket"
+				type: "item"
+			}]
+			subtitle: "3000℃"
+			tasks: [{
+				amount: 1000L
+				fluid: "sakuratinker:molten_soul_sakura"
+				id: "41C7138ACAD6A306"
+				type: "fluid"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "05900AB115C676C7"
+			rewards: [{
+				id: "6123503C294B2EEF"
+				item: "tinkers_advanced:pyrotheum_bucket"
+				type: "item"
+			}]
+			subtitle: "2500℃"
+			tasks: [{
+				amount: 1000L
+				fluid: "tinkers_advanced:pyrotheum"
+				id: "72692F099BC9AEE9"
+				type: "fluid"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "7BFEFE52A2EA82D9"
+			rewards: [{
+				id: "5CC95911FA53C616"
+				item: "dreamtinker:molten_lupi_antimony_bucket"
+				type: "item"
+			}]
+			subtitle: "3600℃"
+			tasks: [{
+				amount: 1000L
+				fluid: "dreamtinker:molten_lupi_antimony"
+				id: "55CFD025C75E8A2B"
+				type: "fluid"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "728CC264D6EA8C8F"
+			rewards: [{
+				id: "6D58D58EBF107E31"
+				item: "tinkers_advanced:gaseous_lava_bucket"
+				type: "item"
+			}]
+			subtitle: "4000℃"
+			tasks: [{
+				amount: 1000L
+				fluid: "tinkers_advanced:gaseous_lava"
+				id: "2AE0E89CE0A17FED"
+				type: "fluid"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "6E97AFF4BCC98C85"
+			rewards: [{
+				id: "69CA2820A5D889D1"
+				item: "sakuratinker:molten_nihilite_bucket"
+				type: "item"
+			}]
+			subtitle: "4000℃"
+			tasks: [{
+				amount: 1000L
+				fluid: "sakuratinker:molten_nihilite"
+				id: "245571ABA110850D"
+				type: "fluid"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "73D2F9F4E1E386D8"
+			rewards: [{
+				id: "0B1F8D2731AD5527"
+				item: "tinkers_advanced:plasmatic_lava_bucket"
+				type: "item"
+			}]
+			subtitle: "8000℃"
+			tasks: [{
+				amount: 1000L
+				fluid: "tinkers_advanced:plasmatic_lava"
+				id: "1E49FAFE471037D0"
+				type: "fluid"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			description: ["由RF熔炉通电生成"]
+			id: "503A0DD089BF650D"
+			subtitle: "10000℃"
+			tasks: [
+				{
+					id: "453C5227E6F23166"
+					item: "ticex:seared_rf_furnace"
+					type: "item"
+				}
+				{
+					id: "524691C2C84C33AD"
+					item: "ticex:scorched_rf_furnace"
+					type: "item"
+				}
+			]
+			title: "全能级RF熔炉燃料"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			id: "389D1F93E49E6301"
+			rewards: [{
+				id: "1F89BADA08B07D67"
+				item: "tinkers_advanced:molten_antimatter_bucket"
+				type: "item"
+			}]
+			subtitle: "32768℃"
+			tasks: [{
+				amount: 1000L
+				fluid: "tinkers_advanced:molten_antimatter"
+				id: "7A58963E8FFFDCA5"
+				type: "fluid"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+	]
+	title: "&6燃料列表"
+}

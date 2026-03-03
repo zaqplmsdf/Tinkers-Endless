@@ -1,0 +1,725 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "18689843E047A384"
+	group: "63383AA57008A157"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			Parent: {
+				AttackAmplifier: 0.0f
+				ComboRoot: "slashblade:standby"
+				Damage: 0
+				RepairCounter: 0
+				SpecialAttackType: "slashblade:judgement_cut"
+				StandbyRenderType: 0b
+				SummonedSwordColor: -13421569
+				SummonedSwordColorInverse: 0b
+				TargetEntity: 0
+				_onClick: 0b
+				adjustXYZ: [
+					0.0d
+					0.0d
+					0.0d
+				]
+				currentCombo: "slashblade:standby"
+				fallDecreaseRate: 0.0f
+				isBroken: 0b
+				isSealed: 0b
+				killCount: 0
+				lastActionTime: 316751L
+				proudSoul: 0
+			}
+		}
+		id: "slashblade:slashblade_wood"
+		tag: {
+			bladeState: {
+				AttackAmplifier: 0.0f
+				ComboRoot: "slashblade:standby"
+				Damage: 0
+				ModelName: "slashblade:model/blade.obj"
+				RepairCounter: 0
+				SpecialAttackType: "slashblade:judgement_cut"
+				StandbyRenderType: 0b
+				SummonedSwordColor: -13421569
+				SummonedSwordColorInverse: 0b
+				TargetEntity: 0
+				TextureName: "slashblade:model/wood.png"
+				_onClick: 0b
+				adjustXYZ: [
+					0.0d
+					0.0d
+					0.0d
+				]
+				baseAttackModifier: 2.0f
+				currentCombo: "slashblade:standby"
+				fallDecreaseRate: 0.0f
+				isBroken: 0b
+				isDefaultBewitched: 0b
+				isSealed: 0b
+				killCount: 0
+				lastActionTime: 316751L
+				maxDamage: 60
+				proudSoul: 0
+				translationKey: ""
+			}
+		}
+	}
+	id: "18689843E047A384"
+	images: [{
+		height: 1.0d
+		image: "ae2:block/controller_lights"
+		order: 10
+		rotation: 0.0d
+		width: 1.0d
+		x: -0.5d
+		y: -0.5d
+	}]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"看jei去"
+				""
+				"实际上可以用匠魂做拔刀剑"
+				""
+				"&c该问题已解决"
+				"&r"
+				"使用&e玛玉灵&r和&e凋灵合金&r材料作为部件的&e匠魂拔刀剑&r，使用&d幻影剑&r命中实体会造成&4毁存档&r"
+				""
+				"解决方式为&4删除&r&esaves/世界名称/entieies&r文件夹内的文件，但是会造成已存在的&4生物全部消失&r"
+				""
+				"所以&4不要&r用&e玛玉灵&r和&e凋灵合金&r作为&e匠魂拔刀剑&r的材料"
+				""
+				"所有涉及生命值和护甲值的&e百分比伤害&r的词条都有可能出现该问题&r"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						RepairCounter: 0
+						SpecialAttackType: "slashblade:judgement_cut"
+						StandbyRenderType: 0b
+						SummonedSwordColor: -13421569
+						SummonedSwordColorInverse: 0b
+						TargetEntity: 0
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						currentCombo: "slashblade:standby"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 316751L
+						proudSoul: 0
+					}
+				}
+				id: "slashblade:slashblade_wood"
+				tag: {
+					bladeState: {
+						AttackAmplifier: 0.0f
+						ComboRoot: "slashblade:standby"
+						Damage: 0
+						ModelName: "slashblade:model/blade.obj"
+						RepairCounter: 0
+						SpecialAttackType: "slashblade:judgement_cut"
+						StandbyRenderType: 0b
+						SummonedSwordColor: -13421569
+						SummonedSwordColorInverse: 0b
+						TargetEntity: 0
+						TextureName: "slashblade:model/wood.png"
+						_onClick: 0b
+						adjustXYZ: [
+							0.0d
+							0.0d
+							0.0d
+						]
+						baseAttackModifier: 2.0f
+						currentCombo: "slashblade:standby"
+						fallDecreaseRate: 0.0f
+						isBroken: 0b
+						isDefaultBewitched: 0b
+						isSealed: 0b
+						killCount: 0
+						lastActionTime: 316751L
+						maxDamage: 60
+						proudSoul: 0
+						translationKey: ""
+					}
+				}
+			}
+			id: "0C7114482FB9AE31"
+			rewards: [
+				{
+					id: "5EBC1C15E157F8A5"
+					item: "prefab:item_farm_advanced"
+					type: "item"
+				}
+				{
+					id: "0EF86D99C4685BD4"
+					item: "dummmmmmy:target_dummy"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "321D4FDCED967836"
+				type: "checkmark"
+			}]
+			title: "说明"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["35ACD1962D72E6DF"]
+			description: ["累计造成5000伤害"]
+			hide_until_deps_complete: true
+			id: "5C5024E65ADAA02C"
+			rewards: [{
+				id: "6FCF0ACE714655DF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "srelic:model/stairail/star.obj"
+							RepairCounter: 0
+							SpecialAttackType: "srelic:home_run"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -14774017
+							SummonedSwordColorInverse: 0b
+							TargetEntity: -1
+							TextureName: "srelic:model/stairail/star.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 14.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 474460L
+							maxDamage: 80
+							proudSoul: 0
+							translationKey: "item.srelic.star"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:power"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:sharpness"
+								lvl: 5s
+							}
+							{
+								id: "minecraft:smite"
+								lvl: 5s
+							}
+						]
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "srelic:model/stairail/star.obj"
+							RepairCounter: 0
+							SpecialAttackType: "srelic:home_run"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -14774017
+							SummonedSwordColorInverse: 0b
+							TargetEntity: -1
+							TextureName: "srelic:model/stairail/star.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 14.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 474460L
+							maxDamage: 80
+							proudSoul: 0
+							translationKey: "item.srelic.star"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "srelic:model/stairail/star.obj"
+							RepairCounter: 0
+							SpecialAttackType: "srelic:home_run"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -14774017
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "srelic:model/stairail/star.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 14.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 80
+							proudSoul: 0
+							translationKey: "item.srelic.star"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:power"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:sharpness"
+								lvl: 5s
+							}
+							{
+								id: "minecraft:smite"
+								lvl: 5s
+							}
+						]
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "srelic:model/stairail/star.obj"
+							RepairCounter: 0
+							SpecialAttackType: "srelic:home_run"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -14774017
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "srelic:model/stairail/star.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 14.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 80
+							proudSoul: 0
+							translationKey: "item.srelic.star"
+						}
+					}
+				}
+				id: "432899EC76A61E26"
+				stat: "minecraft:damage_dealt"
+				type: "stat"
+				value: 5000
+			}]
+			title: "开拓之旅"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5C5024E65ADAA02C"]
+			description: ["累计承伤1000"]
+			hide_until_deps_complete: true
+			id: "0D5FD4EFA387C867"
+			rewards: [{
+				id: "76017AB5B56A2910"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "srelic:model/stairail/fire_knight.obj"
+							RepairCounter: 0
+							SpecialAttackType: "srelic:xdrive"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -16384
+							SummonedSwordColorInverse: 0b
+							TargetEntity: -1
+							TextureName: "srelic:model/stairail/fire_knight.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 15.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 474451L
+							maxDamage: 80
+							proudSoul: 0
+							translationKey: "item.srelic.fire_knight"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:power"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:sharpness"
+								lvl: 5s
+							}
+							{
+								id: "minecraft:fire_aspect"
+								lvl: 5s
+							}
+						]
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "srelic:model/stairail/fire_knight.obj"
+							RepairCounter: 0
+							SpecialAttackType: "srelic:xdrive"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -16384
+							SummonedSwordColorInverse: 0b
+							TargetEntity: -1
+							TextureName: "srelic:model/stairail/fire_knight.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 15.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 474451L
+							maxDamage: 80
+							proudSoul: 0
+							translationKey: "item.srelic.fire_knight"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "srelic:model/stairail/fire_knight.obj"
+							RepairCounter: 0
+							SpecialAttackType: "srelic:xdrive"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -16384
+							SummonedSwordColorInverse: 0b
+							TargetEntity: -1
+							TextureName: "srelic:model/stairail/fire_knight.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 15.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 474451L
+							maxDamage: 80
+							proudSoul: 0
+							translationKey: "item.srelic.fire_knight"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:power"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:sharpness"
+								lvl: 5s
+							}
+							{
+								id: "minecraft:fire_aspect"
+								lvl: 5s
+							}
+						]
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "srelic:model/stairail/fire_knight.obj"
+							RepairCounter: 0
+							SpecialAttackType: "srelic:xdrive"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -16384
+							SummonedSwordColorInverse: 0b
+							TargetEntity: -1
+							TextureName: "srelic:model/stairail/fire_knight.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 15.0f
+							currentCombo: "slashblade:standby"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 474451L
+							maxDamage: 80
+							proudSoul: 0
+							translationKey: "item.srelic.fire_knight"
+						}
+					}
+				}
+				id: "26BDA8855DA7899D"
+				stat: "minecraft:damage_taken"
+				type: "stat"
+				value: 1000
+			}]
+			title: "存护之志！"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"&e星构核心-魂魄&r+&e附魔书&r可为匠魂拔刀剑附魔变为&3印刀&r"
+				""
+				"&3印刀&r改名后将化为&5妖刀&r"
+			]
+			id: "7D883979E3A1566E"
+			rewards: [{
+				id: "22EAC934E7FF9857"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:sharpness"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:smite"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:bane_of_arthropods"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:fire_aspect"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:knockback"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:looting"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:mending"
+								lvl: 1s
+							}
+						]
+						display: {
+							Lore: ["{\"text\":\"无法使用以上附魔进行“魂魄”强化\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"]
+							Name: "[{\"text\":\"附魔书\",\"color\":\"yellow\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "20A45843B45FD353"
+				item: "ticex:konpaku_core"
+				type: "item"
+			}]
+			title: "魂魄强化"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&e闪耀星构核心流体&r浇筑到任意&e拔刀剑&r上获取"
+				""
+				"用于&b拵&r强化，可改变匠魂拔刀剑的外貌和&9SA&r"
+			]
+			id: "17A4F9095CCF6772"
+			tasks: [{
+				id: "7B25E8C557D6A9B0"
+				item: {
+					Count: 1
+					id: "ticex:catalyst_slashblade"
+					tag: {
+						Material: "ticex:reconstruction"
+						embossed: {
+							Enchantments: [
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:sharpness"
+									lvl: 5s
+								}
+								{
+									id: "minecraft:smite"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:bane_of_arthropods"
+									lvl: 2s
+								}
+								{
+									id: "minecraft:fire_aspect"
+									lvl: 2s
+								}
+								{
+									id: "minecraft:looting"
+									lvl: 3s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade_addon:model/nihil/nihil.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade:wave_edge"
+								StandbyRenderType: 4b
+								SummonedSwordColor: -13421569
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade_addon:model/nihil/nihilul.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 12.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 1253949L
+								maxDamage: 70
+								proudSoul: 0
+								translationKey: "item.slashblade_addon.nihilul"
+							}
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			icon: "minecraft:observer"
+			id: "621A11B41BC1C96D"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "671F4214292DD567"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "7DE1F1FAD8936B53"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+	]
+	title: "·&e拔刀剑"
+}

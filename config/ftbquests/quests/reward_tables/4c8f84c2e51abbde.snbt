@@ -1,0 +1,20 @@
+{
+	id: "4C8F84C2E51ABBDE"
+	loot_size: 1
+	order_index: 24
+	rewards: [
+		{
+			command: "/gamerule mobGriefing false"
+			elevate_perms: true
+			title: "开启生物防爆"
+			type: "command"
+		}
+		{
+			command: "/gamerule mobGriefing true"
+			elevate_perms: true
+			title: "关闭生物防爆"
+			type: "command"
+		}
+	]
+	title: "防爆"
+}

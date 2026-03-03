@@ -1,0 +1,603 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "57B4CC975EA0BED2"
+	group: "4E1EC9498C14ECA0"
+	icon: {
+		Count: 1
+		id: "arphex:spider_moth_summoner"
+		tag: {
+			initialfull: 1b
+		}
+	}
+	id: "57B4CC975EA0BED2"
+	images: [
+		{
+			dependency: "1055249A692B1B0F"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependency: "1055249A692B1B0F"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependency: "1055249A692B1B0F"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependency: "1055249A692B1B0F"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependency: "1055249A692B1B0F"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependency: "1055249A692B1B0F"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependency: "1055249A692B1B0F"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependency: "1055249A692B1B0F"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependency: "1055249A692B1B0F"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependency: "1055249A692B1B0F"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependency: "1055249A692B1B0F"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependency: "1055249A692B1B0F"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependency: "1055249A692B1B0F"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependency: "1055249A692B1B0F"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependency: "1055249A692B1B0F"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependency: "1055249A692B1B0F"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependency: "1055249A692B1B0F"
+			height: 10.0d
+			image: "arphex:textures/arphex4logo256x.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.5d
+			y: -0.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1055249A692B1B0F"]
+			description: [
+				"在深海生成"
+				"会掉落一把武器，右键可以将生物控制在一定距离"
+			]
+			hide_until_deps_complete: true
+			id: "2413D16D4810CF90"
+			tasks: [{
+				entity: "arphex:crab_constrictor"
+				icon: "arphex:crusher_claw"
+				id: "416314397996588C"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1055249A692B1B0F"]
+			description: [
+				"放在背包里可以避免黑暗和恐惧的影响"
+				""
+				"进行仪式的前提"
+			]
+			hide_until_deps_complete: true
+			id: "167DEA7F78BDF216"
+			tasks: [{
+				id: "5315AFEBEACA33CA"
+				item: "arphex:bane_of_the_darkness"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["167DEA7F78BDF216"]
+			description: [
+				"在&e扭曲的蜘蛛血肉&r上放置&e灵魂沙&r，并在灵魂沙上&c点火&r召唤"
+				"{image:ftbquests:textures/picture/002.png width:160 height:90 align:center}"
+			]
+			id: "001FD316054507DA"
+			tasks: [{
+				entity: "arphex:spider_moth"
+				icon: "arphex:abyssal_crystal"
+				id: "16AD0923E1F0A253"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"该页面生物较为令人生理不适，&e可以不打&r"
+				"仅仅作为&4挑战性&r任务存在"
+				"且击败最终BOSS前&4没有任何任务奖励&r"
+			]
+			id: "1055249A692B1B0F"
+			tasks: [{
+				id: "1213D5F38FE834EA"
+				title: "说明"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1055249A692B1B0F"]
+			description: ["懒得去找那个破螃蟹"]
+			hide_until_deps_complete: true
+			icon: "arphex:crab_constrictor_spawn_egg"
+			id: "1DBDF2E117FD9BC5"
+			rewards: [{
+				id: "40895D1B3836D1FA"
+				item: "arphex:crab_constrictor_spawn_egg"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2726656CC68CD375"
+				item: "thermal:netherite_coin"
+				type: "item"
+			}]
+			title: "蟹类束缚者"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"35FFB5F4128EE681"
+				"001FD316054507DA"
+			]
+			description: [
+				"&4谨慎前往&r，进入该纬度时&4并非&r出生在传送门附近，且通过传送门返回时会被随机传送到&4下界&r&5末地&r和&2主世界&r的&4随机区域&r"
+				"搜索&eCrawling Castle&r"
+				"在中间的球形建筑内使用&e燃烧腺体&r在四角的&e燃烧柱&r上点火"
+				"最后使用&e深渊水晶&r右键中央的爬行祭坛开启传送门"
+				"{image:ftbquests:textures/picture/003.png width:160 height:90 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"{image:ftbquests:textures/picture/004.png width:160 height:90 align:center}"
+				"{@pagebreak}"
+			]
+			id: "784E1B681EE60B0F"
+			tasks: [{
+				dimension: "arphex:the_crawling"
+				id: "3C235FBEF3CE79E2"
+				type: "dimension"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0AB82B20B871C266"]
+			id: "35FFB5F4128EE681"
+			tasks: [{
+				count: 4L
+				id: "4C637E65765BE4FC"
+				item: {
+					Count: 4
+					id: "arphex:scorch_charge"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1055249A692B1B0F"]
+			description: [
+				"搜索&eant hills&r"
+				"蚂蚁纵火者掉落"
+				"实体很小，请注意观察"
+			]
+			hide_until_deps_complete: true
+			id: "0AB82B20B871C266"
+			tasks: [{
+				id: "426606C80364595D"
+				item: "arphex:burning_glands"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1055249A692B1B0F"]
+			description: ["懒得找这玩意"]
+			hide_until_deps_complete: true
+			icon: "arphex:ant_arsonist_spawn_egg"
+			id: "780CD09AEB8C4CFC"
+			rewards: [{
+				id: "2717B9D2661061A9"
+				item: "arphex:ant_arsonist_spawn_egg"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4D19F66F45C1536A"
+				item: "thermal:netherite_coin"
+				type: "item"
+			}]
+			title: "蚂蚁纵火者"
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"784E1B681EE60B0F"
+				"041FD4252DF2EA59"
+				"2FB2F4EC33901315"
+			]
+			description: [
+				"击败三个前置BOSS后，有小概率在主世界生成，或者将深渊水晶扔到石英祭坛召唤"
+				"&4堪比凋零风暴的BOSS&r"
+				""
+				"TORMENTOR的碰撞箱体积相对较小，位于它巨大的黑色胃部且由一个会上下移动的&l&4&n红色发光球体&r&r&r指示"
+				""
+				"若使用&9非正常手段&r清除&4折磨者&r会导致bug，此时可开启&9和平模式&r并使用“&4/arphex seal_tormentor&r”指令"
+			]
+			id: "34F8AD1404C92962"
+			rewards: [
+				{
+					id: "09AE6553FA2AE399"
+					item: "arphex:infinite_torment"
+					type: "item"
+				}
+				{
+					icon: "immersiveengineering:shader_bag_epic"
+					id: "20EDD936CF8AA81F"
+					table_id: 7463283479311544588L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "arphex:tormentor"
+				icon: "arphex:infinite_torment"
+				id: "7A7481F684385830"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["784E1B681EE60B0F"]
+			description: [
+				"针对不想找祭坛的"
+				""
+				"BOSS有近乎一个生物群系的大小，召唤前请谨慎选址"
+			]
+			icon: "arphex:tormentor_egg"
+			id: "4C5A2D875DDB840B"
+			rewards: [{
+				id: "65AEBDC8A333064F"
+				item: "arphex:tormentor_egg"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "10D6316A5B9594D5"
+					item: "arphex:abyssal_crystal"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0D37FA4AADB005B9"
+					item: "arphex:fire_opal"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "442285D38AC317BE"
+					item: "arphex:void_geode"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "629356CF5000E41F"
+					item: "kubejs:cat"
+					type: "item"
+				}
+			]
+			title: "折磨者"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1055249A692B1B0F"]
+			description: ["&e蝴蝶迷惑者&r或&e飞行长腿生物&r掉落"]
+			hide_until_deps_complete: true
+			id: "570B4BFFBAB3742C"
+			tasks: [{
+				id: "3621088C6D5ADE8F"
+				item: "arphex:fly_appendage"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1055249A692B1B0F"]
+			description: ["&e蝎子攻击者&r（沙漠等炎热地形生成）掉落"]
+			hide_until_deps_complete: true
+			id: "2BA11B759E051592"
+			tasks: [{
+				id: "31C90D4C85C737C2"
+				item: "arphex:venomous_appendage"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2BA11B759E051592"]
+			description: ["在&e扭曲的蝎子血肉&r上放置&e灵魂沙&r，并在灵魂沙上&c点火&r召唤"]
+			id: "2FB2F4EC33901315"
+			tasks: [{
+				entity: "arphex:scorpioid_bloodluster"
+				icon: "arphex:fire_opal"
+				id: "14F005B2784E1511"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["570B4BFFBAB3742C"]
+			description: ["在&e扭曲的苍蝇血肉&r上放置&e灵魂沙&r，并在灵魂沙上&c点火&r召唤"]
+			id: "041FD4252DF2EA59"
+			tasks: [{
+				entity: "arphex:draconic_voidlasher"
+				icon: "arphex:void_geode"
+				id: "08283CEF7FF39DD7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1055249A692B1B0F"]
+			description: ["知道你懒得找"]
+			hide_until_deps_complete: true
+			icon: "arphex:scorpion_striker_spawn_egg"
+			id: "358304E3E1A25A7C"
+			rewards: [{
+				id: "5BE9BA3EBB7AF959"
+				item: "arphex:scorpion_striker_spawn_egg"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2C4FC82B1D53DD0E"
+				item: "thermal:netherite_coin"
+				type: "item"
+			}]
+			title: "蝎子攻击者"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1055249A692B1B0F"]
+			description: ["知道你懒得找"]
+			hide_until_deps_complete: true
+			icon: "arphex:long_legs_fly_spawn_egg"
+			id: "672D553A8EF5A658"
+			rewards: [{
+				id: "32DA30945F4C9C80"
+				item: "arphex:long_legs_fly_spawn_egg"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5C0CB6D61A98ABAD"
+				item: "thermal:netherite_coin"
+				type: "item"
+			}]
+			title: "长腿飞行生物"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1055249A692B1B0F"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "18822972B1E92B9F"
+			rewards: [{
+				auto: "enabled"
+				command: "/arphex seal_tormentor"
+				elevate_perms: true
+				id: "0BE8B04E48A99B93"
+				type: "command"
+			}]
+			tasks: [{
+				id: "27F276FB525B4F09"
+				title: "清除折磨者"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			icon: "minecraft:observer"
+			id: "5716DA26ACDF0E80"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "03621C9E4A2D4F14"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "7DA68890FCD347D8"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+	]
+	subtitle: [
+		"&4因问题过多已移除"
+		"&4仍可加入作为挑战内容，但不建议添加"
+	]
+	title: "·&4节肢生物恐惧症"
+}

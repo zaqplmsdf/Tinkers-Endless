@@ -1,0 +1,6079 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1"
+	group: "71E4EFF8904A559D"
+	icon: "avaritia:upgrade_smithing_template"
+	id: "5DCA8B03C5EDDA1B"
+	images: [
+		{
+			dependency: "002A8323600F86EC"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependency: "13F5243DDC69E2B5"
+			height: 1.5d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependency: "76CC1934C282AAD7"
+			height: 2.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependency: "1AD033F330CB07A6"
+			height: 2.5d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 2.5d
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependency: "276486BA5B9B3832"
+			height: 3.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 3.0d
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependency: "1BF231B46472E985"
+			height: 5.0d
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 5.0d
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependency: "1BF231B46472E985"
+			height: 5.5d
+			image: "avaritia:item/resource/infinity/infinity_catalyst"
+			order: 10
+			rotation: 0.0d
+			width: 5.5d
+			x: 13.5d
+			y: 1.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"相关链接："
+				""
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6896DEE10D2D83F5\" } }"
+			]
+			id: "233C513F84268EB9"
+			rewards: [{
+				id: "20EED0B691F8B6FB"
+				item: "wqjy:up_item_9"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					disable_toast: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: "mutantmonsters:mutant_zombie_spawn_egg"
+					id: "075283272E2E34B6"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_spawn_egg"
+					id: "7FE8FFF0B51AE5B2"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					entity: "mutantmonsters:mutant_creeper"
+					icon: "mutantmonsters:mutant_creeper_spawn_egg"
+					id: "5C25D5CCFCD0BB29"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "首领"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				""
+				"解锁："
+				"&etacz 相关工作台&r"
+				"&e等价交换&r"
+				"&e机械动力相关&r"
+				"&e熔化炉相关&r"
+				"&e2级材料&r"
+			]
+			id: "002A8323600F86EC"
+			rewards: [{
+				command: "/astages add @p stage_1"
+				elevate_perms: true
+				icon: "thermal:lock"
+				id: "5917B4C8D9EE4435"
+				team_reward: false
+				title: "&e解锁阶段"
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "6C4182366B2236B4"
+				item: "wqjy:up_1"
+				match_nbt: true
+				type: "item"
+			}]
+			title: "阶段1"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "6E49932BD6A6CCAB"
+			rewards: [{
+				id: "506F770FAFE6BB37"
+				item: "wqjy:up_item_15"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "0C36971884EB20B8"
+					item: "mushroom_daydream:slime_pawn"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2CF3E6C7D1DEB1FE"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			title: "晋升材料"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "5C45AC4BB7187263"
+			rewards: [{
+				id: "1B955389A07B5AFB"
+				item: "wqjy:up_item_15"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4921FF70F459C36C"
+					item: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DDC2B80FA279E9C"
+					item: {
+						Count: 1
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4651D8641D98232F"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E6AD839F497D826"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55E002E625C3423D"
+					item: {
+						Count: 1
+						id: "minecraft:iron_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "晋升素材"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "357DF590E3B58B4F"
+			rewards: [{
+				id: "017ED5F06A3781AC"
+				item: "wqjy:up_item_15"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "420DFAE3B2960606"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09F6C74504167D03"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "738846FF2F59EAFA"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "193C31BECB84922B"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "261C44DC85ECC61A"
+					item: {
+						Count: 1
+						id: "aether:iron_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "晋升素材"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["002A8323600F86EC"]
+			description: [
+				"解锁："
+				"&e沉浸工程相关&r"
+				"&e幽匿工作台"
+				"&e植物魔法相关&r"
+				"&e神秘农业相关&r"
+				"&e3级材料&r"
+				"&e泰拉钢锭&r"
+				"&e盖亚魂锭&r"
+				"&e合金炉&r"
+			]
+			id: "13F5243DDC69E2B5"
+			rewards: [{
+				command: "/astages add @p stage_2"
+				elevate_perms: true
+				icon: "thermal:lock"
+				id: "2F580E8E34E31887"
+				title: "&d解锁阶段"
+				type: "command"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "68D0B3DC4CB36426"
+				item: "wqjy:up_2"
+				match_nbt: true
+				type: "item"
+			}]
+			title: "阶段2"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"13F5243DDC69E2B5"
+				"03FA631D240E88AA"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"解锁："
+				"&e匠魂拔刀剑&r"
+				"&e匠魂战斗女仆套装&r"
+				"&e通用机械&r"
+				"&e冶炼炉&r"
+				"&e熔铸炉&r"
+				"&e炼狱工作台&r"
+				"&e部分4级材料&r"
+			]
+			id: "76CC1934C282AAD7"
+			rewards: [{
+				command: "/astages add @p stage_3"
+				elevate_perms: true
+				icon: "thermal:lock"
+				id: "3F38032AFB6ADADB"
+				team_reward: false
+				title: "&e解锁阶段"
+				type: "command"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				id: "541A9567311DF43D"
+				item: "wqjy:up_3"
+				match_nbt: true
+				type: "item"
+			}]
+			title: "阶段3"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["76CC1934C282AAD7"]
+			description: [
+				"解锁："
+				"&e龙之进化&r"
+				"&e终末工作台&r"
+				"&e部分4级材料&r"
+			]
+			id: "1AD033F330CB07A6"
+			rewards: [{
+				command: "/astages add @p stage_4"
+				elevate_perms: true
+				icon: "thermal:lock"
+				id: "4F3EB731D4BE0991"
+				silent: true
+				team_reward: false
+				title: "&6解锁阶段"
+				type: "command"
+			}]
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				consume_items: true
+				id: "2F2DE9B0A4736012"
+				item: "wqjy:up_4"
+				match_nbt: true
+				type: "item"
+			}]
+			title: "阶段4"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1AD033F330CB07A6"]
+			description: [
+				"解锁："
+				"&e终级工作台&r"
+				"&e一些材料&r"
+			]
+			id: "276486BA5B9B3832"
+			rewards: [{
+				command: "/astages add @p stage_5"
+				elevate_perms: true
+				icon: "thermal:lock"
+				id: "3D4EC331C20749EB"
+				silent: true
+				team_reward: false
+				title: "&c解锁阶段"
+				type: "command"
+			}]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				consume_items: true
+				id: "4424B136E958CD14"
+				item: "wqjy:up_5"
+				match_nbt: true
+				type: "item"
+			}]
+			title: "阶段5"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["276486BA5B9B3832"]
+			description: ["&e完全解封&r"]
+			id: "1BF231B46472E985"
+			rewards: [{
+				command: "/astages add @p stage_6"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "thermal:lock"
+					tag: {
+						Enchantments: [{
+							id: ""
+							lvl: 0
+						}]
+					}
+				}
+				id: "0503D22CC3D9A9E4"
+				team_reward: false
+				title: "&c解&e锁&b阶&d段"
+				type: "command"
+			}]
+			shape: "gear"
+			size: 5.0d
+			tasks: [{
+				consume_items: true
+				id: "37ADCA849327264D"
+				item: "wqjy:up_6"
+				match_nbt: true
+				type: "item"
+			}]
+			title: "阶段6"
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "4BAF04334EFF43C9"
+			rewards: [{
+				id: "2B3D70DB6FFF5366"
+				item: "wqjy:up_item_16"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "22AF6E980461CA46"
+					item: {
+						Count: 1
+						id: "tacz:ammo_box"
+						tag: {
+							Level: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "10D81956D9DC6D1A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:philosophers_stone"
+						tag: { }
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "晋升素材"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
+			id: "2835981697A322AC"
+			rewards: [{
+				id: "4295C2E58F3091AB"
+				item: "wqjy:up_item_16"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "684C05DA6BDB57CE"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "69FADB87B7D18774"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			title: "晋升素材"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"相关链接："
+				""
+				"&d末影人突变体&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"35961F46175F4ECF\" } }"
+				"&d湫诺云魔&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3B541353494D2DCB\" } }"
+				"&d凋灵&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4B5760727FBE8107\" } }"
+				"&dbetter米诺菇&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3ADFFC6F817E9CFF\" } }"
+				"&d死者之王&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"57190DA3CDF384A5\" } }"
+			]
+			id: "5397F1005C4C7E92"
+			rewards: [{
+				id: "2819326D442E0DC3"
+				item: "wqjy:up_item_10"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					entity: "mutantmonsters:mutant_enderman"
+					id: "19B105DA41255982"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "legendary_monsters:cloud_golem"
+					id: "3940942DC347FAAF"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:wither"
+					id: "44BE5EE9537EE301"
+					title: "凋零"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "better_minoshroomtaur:better_minoshroomtaur"
+					id: "6C06628CD3432247"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "irons_spellbooks:dead_king"
+					id: "41777685733ED839"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "首领"
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"相关链接："
+				""
+				"&d末影龙&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1770001C37B2F63D\" } }"
+				"&d虚空蠕虫&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6B68168A5F90AC60\" } }"
+				"&d腐化英雄（墓园巫妖）&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"02499CD17C00CF85\" } }"
+			]
+			id: "484908A65073BA85"
+			rewards: [{
+				id: "03425E8D3BEFA030"
+				item: "wqjy:up_item_11"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					id: "34D89087040B4895"
+					title: "末影龙"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "graveyard:lich"
+					id: "22AA00BFFE087B86"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "alexsmobs:alexsmobs/void_worm_kill"
+					criterion: ""
+					id: "20067CA83BCF1EE8"
+					type: "advancement"
+				}
+			]
+			title: "首领"
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"相关链接："
+				""
+				"&d主世界&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"18A67F72FCE5E680\" } }"
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1BC56AD28DF42AEA\" } }"
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"37889F2814800EFE\" } }"
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6C8216A363280FC5\" } }"
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"788AF9F367FB5492\" } }"
+				"&d下界&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"685B88A1D978885E\" } }"
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"10DBC9A405B0B625\" } }"
+				"&d末地&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"65484590E67F0D4A\" } }"
+			]
+			id: "58492EF5093EF60E"
+			rewards: [{
+				id: "484BBDCC63D4F3A8"
+				item: "wqjy:up_item_12"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					id: "2ED28FA680E69A80"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:ignis"
+					id: "3CE5F639222F08F6"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:ender_guardian"
+					id: "395A4B9EF9096017"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:maledictus"
+					id: "3F02F7F19DEDF740"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:the_harbinger"
+					id: "42D626FC423D462E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:the_leviathan"
+					id: "6296E23B14F017A2"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:ancient_remnant"
+					id: "7518A32347175D4E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:scylla"
+					id: "1147D55D8908E069"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "首领"
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"相关链接："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"03089997C59957E5\" } }"
+			]
+			id: "3F04A0838131F174"
+			rewards: [{
+				id: "27C002B41F791F7F"
+				item: "wqjy:gaiya"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "extrabotany:main/gaia_trial"
+				criterion: ""
+				id: "486409D0F024F913"
+				type: "advancement"
+			}]
+			x: 14.5d
+			y: -1.5d
+		}
+		{
+			id: "3393F03EC1FC036D"
+			rewards: [{
+				id: "525ABD78C3B4D8B9"
+				item: "wqjy:up_item_5"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4EA9DFBBAF369ED9"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+				{
+					id: "063A7CF6A46407DA"
+					item: "botania:gaia_ingot"
+					type: "item"
+				}
+			]
+			title: "晋升素材"
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			id: "1CFA87B6BA13C29E"
+			rewards: [{
+				id: "7CC97C2F9812EECA"
+				item: "wqjy:up_item_14"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2DC049FD1DBA3638"
+					item: {
+						Count: 1
+						id: "extrabotany:pleiades_combat_maid_headgear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64D761E67A3EF8D8"
+					item: {
+						Count: 1
+						id: "extrabotany:pleiades_combat_maid_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48B08AB8C2AB4A03"
+					item: {
+						Count: 1
+						id: "extrabotany:pleiades_combat_maid_skirt"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "185C51E920F92886"
+					item: {
+						Count: 1
+						id: "extrabotany:pleiades_combat_maid_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "晋升素材"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "1F1006100E27BD20"
+			rewards: [{
+				id: "28E75DDB61843A49"
+				item: "wqjy:up_item_4"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4B05736A9B006A0F"
+					item: "l2hostility:hostility_orb"
+					type: "item"
+				}
+				{
+					id: "2C539734FAE3710D"
+					item: "l2hostility:bottle_of_curse"
+					type: "item"
+				}
+				{
+					id: "0296B7E0BDB0D885"
+					item: "l2hostility:bottle_of_sanity"
+					type: "item"
+				}
+			]
+			title: "晋升素材"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"相关链接"
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4631894C0583BD96\" } }"
+			]
+			id: "0DADE3BBE4B1E484"
+			rewards: [{
+				id: "1E66E4FBDDF5EF63"
+				item: "wqjy:hundun"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "draconicevolution:draconic_guardian"
+				id: "13657C8E3E619D3A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"相关链接："
+				""
+				"&d喷流刃&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"779A5A3234350D7F\" } }"
+			]
+			id: "362ACBDCA1AE37AA"
+			rewards: [{
+				id: "41C3D9A5382AFE5F"
+				item: "wqjy:up_item_3"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "300C5F7B4E4C21F0"
+					item: {
+						Count: 1
+						id: "tinkers_advanced:electron_tuner"
+						tag: {
+							Damage: 0
+							etstlib_tool_uuid: "7fbb5291-559b-406a-8110-51ea950f015b"
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tinkers_advanced:ender_tuner"
+								}
+								{
+									level: 1
+									name: "tconstruct:silky_shears"
+								}
+							]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:attack_damage": 1.7142859f
+								"tconstruct:attack_speed": 2.4f
+								"tconstruct:max_energy": 100000.0f
+							}
+							tic_volatile_data: {
+								abilities: 4
+								upgrades: 5
+							}
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "2F54297ABF010D94"
+					item: "tconstruct:molten_manyullyn_bucket"
+					type: "item"
+				}
+				{
+					id: "3D45479F08616A22"
+					item: "tinkerscalibration:moltenwitherium_bucket"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "08010D99B6E03FBE"
+					item: {
+						Count: 1
+						id: "tconstruct:swasher"
+						tag: {
+							Damage: 0
+							display: {
+								Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"dark_purple\",\"text\":\"无法替换部件\"}],\"text\":\"\"}"]
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"text\":\"任意喷流刃\"}],\"text\":\"\"}"
+							}
+							etstlib_tool_uuid: "1baa1347-f91a-4222-9992-34e595e2790f"
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [
+								{
+									level: 3
+									name: "tconstruct:tank_handler"
+								}
+								{
+									level: 1
+									name: "tconstruct:spitting"
+								}
+								{
+									level: 1
+									name: "tconstruct:spilling"
+								}
+								{
+									level: 1
+									name: "tconstruct:bucketing"
+								}
+								{
+									level: 1
+									name: "tconstruct:silky_shears"
+								}
+							]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:attack_damage": 1.0f
+								"tconstruct:attack_speed": 1.5f
+								"tconstruct:draw_speed": 1.5f
+								"tconstruct:durability": 2.0f
+								"tconstruct:tank_capacity": 3000.0f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								defense: 3
+								"tconstruct:total_tanks": 1
+								upgrades: 1
+							}
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5F3BF30DB384F32B"
+					item: {
+						Count: 1
+						id: "sakuratinker:power_bank"
+						tag: {
+							Damage: 0
+							display: {
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"text\":\"任意充电宝\"}],\"text\":\"\"}"
+							}
+							etstlib_tool_uuid: "02125842-28b3-42d7-8e48-79712bebd864"
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_persistent: {
+								"sakuratinker:charge_mode": 0
+							}
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "晋升素材"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"相关链接："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"36262EBA59595E0E\" } }"
+				""
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"67ED8DA40BED632A\" } }"
+			]
+			id: "1DFC3A215F19CDCF"
+			rewards: [{
+				id: "3CC63E345A4C3C7D"
+				item: "wqjy:up_item_18"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7EECCCDD7E09982D"
+					item: "mekanism:pellet_antimatter"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "02E473004882AD7C"
+					item: "wqjy:hefl"
+					type: "item"
+				}
+			]
+			title: "晋升素材"
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			id: "090ADEF6953C32F6"
+			rewards: [{
+				id: "08357795C0A40E17"
+				item: "wqjy:up_item_18"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "5411C09786EB69E0"
+				item: "draconicevolution:awakened_core"
+				type: "item"
+			}]
+			title: "晋升素材"
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"&m阶段相关合成可通过&ejei书签&f查看&r"
+				""
+				"因代码修改，不再必要，已移除"
+				""
+				"{image:ftbquests:textures/picture/009.png width:160 height:90 align:center}"
+			]
+			icon: "ars_nouveau:glyph_craft"
+			id: "17F51385499F8E38"
+			rewards: [{
+				id: "517B6707DA55B1D2"
+				item: {
+					Count: 1
+					id: "minecraft:brown_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 1b
+									Slot: 0b
+									id: "immersiveengineering:hammer"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 6b
+									Slot: 1b
+									id: "create:crafting_blueprint"
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "create:schematic"
+									tag: {
+										Anchor: {
+											X: -18
+											Y: 56
+											Z: -34
+										}
+										Bounds: [
+											5
+											5
+											5
+										]
+										Deployed: 1b
+										File: "电弧炉.nbt"
+										Mirror: "NONE"
+										Owner: "The_X_One"
+										Rotation: "NONE"
+									}
+								}
+								{
+									Count: 1b
+									Slot: 3b
+									id: "create:schematic"
+									tag: {
+										Anchor: {
+											X: -7
+											Y: 56
+											Z: -43
+										}
+										Bounds: [
+											1
+											3
+											3
+										]
+										Deployed: 1b
+										File: "金属冲压机.nbt"
+										Mirror: "NONE"
+										Owner: "The_X_One"
+										Rotation: "NONE"
+									}
+								}
+								{
+									Count: 1b
+									Slot: 4b
+									id: "create:schematic"
+									tag: {
+										Anchor: {
+											X: 0
+											Y: 0
+											Z: 0
+										}
+										Bounds: [
+											2
+											2
+											3
+										]
+										Deployed: 0b
+										File: "工作台合成-蓝图墙.nbt"
+										Mirror: "NONE"
+										Owner: "The_X_One"
+										Rotation: "NONE"
+									}
+								}
+								{
+									Count: 1b
+									Slot: 5b
+									id: "create:schematic"
+									tag: {
+										Anchor: {
+											X: 0
+											Y: 0
+											Z: 0
+										}
+										Bounds: [
+											5
+											5
+											1
+										]
+										Deployed: 0b
+										File: "动力合成.nbt"
+										Mirror: "NONE"
+										Owner: "The_X_One"
+										Rotation: "NONE"
+									}
+								}
+								{
+									Count: 6b
+									Slot: 6b
+									id: "tconstruct:clear_glass"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 3.0d
+			tasks: [{
+				id: "098D91C1C42BAAA1"
+				title: "&6合成表"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"因不明原因，有时&e部分物品的配方&r需在&e解锁对应阶段&r后可能无法直接在jei中显示，可以先重复获取几次阶段"
+				""
+				"实在不行再&e/reload&r，&e/reload&r之后会有一段&e长时间的卡顿&r。"
+				""
+				"&c最好让房主用&r"
+			]
+			icon: "minecraft:command_block"
+			id: "1D4E7645E6F26C24"
+			invisible: true
+			rewards: [
+				{
+					auto: "enabled"
+					id: "1F03EEBAA5D2A911"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							CustomPotionEffects: [
+								{
+									Ambient: 0b
+									Amplifier: 1
+									Duration: 3600
+									Id: 1
+									ShowIcon: 0b
+									ShowParticles: 0b
+								}
+								{
+									Ambient: 0b
+									Amplifier: 2
+									Duration: 3600
+									Id: 5
+									ShowIcon: 0b
+									ShowParticles: 0b
+								}
+								{
+									Ambient: 0b
+									Amplifier: 3
+									Duration: 3600
+									Id: 11
+									ShowIcon: 0b
+									ShowParticles: 0b
+								}
+								{
+									Ambient: 0b
+									Amplifier: 3
+									Duration: 3600
+									Id: 22
+									ShowIcon: 0b
+									ShowParticles: 0b
+								}
+								{
+									Ambient: 0b
+									Amplifier: 2
+									Duration: 3600
+									Id: 10
+									ShowIcon: 0b
+									ShowParticles: 0b
+								}
+								{
+									Ambient: 0b
+									Amplifier: 0
+									Duration: 3600
+									Id: 12
+									ShowIcon: 0b
+									ShowParticles: 0b
+								}
+								{
+									Ambient: 0b
+									Amplifier: 3
+									Duration: 3600
+									Id: 21
+									ShowIcon: 0b
+									ShowParticles: 0b
+								}
+							]
+							Enchantments: [{
+								id: ""
+								lvl: 0
+							}]
+							HideFlags: 32
+							Potion: "minecraft:water"
+							display: {
+								Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"dark_purple\",\"text\":\"看板娘那么可爱。。。\"}],\"text\":\"\"}"]
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"#FFCE97\",\"text\":\"瓶装看板娘\"}],\"text\":\"\"}"
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "disabled"
+					command: "/reload"
+					elevate_perms: true
+					id: "0ECF33646696FB23"
+					team_reward: true
+					type: "command"
+				}
+			]
+			secret: true
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "5D4CDCDD0DD0F810"
+				title: "说明"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 3.75d
+		}
+		{
+			description: ["&7也可以作为被某一条件折磨得无可奈何时的保障？&r"]
+			icon: "minecraft:barrier"
+			id: "58735DABD7CDD2D6"
+			rewards: [
+				{
+					id: "5EA676BEE39E2DB0"
+					item: "wqjy:up_1"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "05AD177E7CFEE88E"
+					item: "wqjy:up_2"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0664CDFBBC0CFAFD"
+					item: "wqjy:up_3"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "277E359A9811F149"
+					item: "wqjy:up_4"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "60B6AE7DEDCDF3E3"
+					item: "wqjy:up_5"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "448C10D5AD1B70C8"
+					item: "wqjy:up_6"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "&c对于不想玩阶段也懒得删文件的玩家"
+			tasks: [{
+				id: "190E16BB8836C226"
+				title: "&c获得全部证明"
+				type: "checkmark"
+			}]
+			x: -3.75d
+			y: -2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["002A8323600F86EC"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "wqjy:up_1"
+			id: "0E52EB0E0F3B9D07"
+			rewards: [{
+				command: "/astages add @p stage_1"
+				elevate_perms: true
+				icon: "thermal:lock"
+				id: "0336323A4A22A512"
+				silent: true
+				title: "阶段1"
+				type: "command"
+			}]
+			tasks: [{
+				id: "2970A45E7C3BFCC2"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13F5243DDC69E2B5"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "wqjy:up_2"
+			id: "5153A106E0D553E4"
+			rewards: [{
+				command: "/astages add @p stage_2"
+				elevate_perms: true
+				icon: "thermal:lock"
+				id: "6F3B8F59AC9D5261"
+				silent: true
+				title: "阶段2"
+				type: "command"
+			}]
+			tasks: [{
+				id: "20A84163D98598ED"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["76CC1934C282AAD7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "wqjy:up_3"
+			id: "7C316F06FDB8D620"
+			rewards: [{
+				command: "/astages add @p stage_3"
+				elevate_perms: true
+				icon: "thermal:lock"
+				id: "7C2ACB5CB35454D9"
+				silent: true
+				title: "阶段3"
+				type: "command"
+			}]
+			tasks: [{
+				id: "125EA09B520A3C33"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1AD033F330CB07A6"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "wqjy:up_4"
+			id: "07E6CA314A1AC11A"
+			rewards: [{
+				command: "/astages add @p stage_4"
+				elevate_perms: true
+				icon: "thermal:lock"
+				id: "42A894134B816FDB"
+				silent: true
+				title: "阶段4"
+				type: "command"
+			}]
+			tasks: [{
+				id: "15EB58A24FD38E61"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["276486BA5B9B3832"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "wqjy:up_5"
+			id: "3F591C4F2D938401"
+			rewards: [{
+				command: "/astages add @p stage_5"
+				elevate_perms: true
+				icon: "thermal:lock"
+				id: "3D71F6CD80B43DC5"
+				silent: true
+				title: "阶段5"
+				type: "command"
+			}]
+			tasks: [{
+				id: "75C925E1F570AE37"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1BF231B46472E985"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "wqjy:up_6"
+			id: "34DEF369ACAFCFE2"
+			rewards: [{
+				command: "/astages add @p stage_6"
+				elevate_perms: true
+				icon: "thermal:lock"
+				id: "47FC39D0BA4BD0DF"
+				silent: true
+				title: "阶段6"
+				type: "command"
+			}]
+			tasks: [{
+				id: "68BCD691B9F8531E"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["002A8323600F86EC"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:copper_shulker_box"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: { }
+						id: "sophisticatedstorage:shulker_box"
+						storageWrapper: {
+							contents: {
+								inventory: {
+									Items: [
+										{
+											Count: 1b
+											Slot: 0
+											id: "minecraft:netherrack"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 1
+											id: "iceandfire:myrmex_jungle_chitin"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 2
+											id: "minecraft:cactus"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 3
+											id: "minecraft:ice"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 4
+											id: "minecraft:pumpkin"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 5
+											id: "alexscaves:archaic_vine"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 6
+											id: "minecraft:cobblestone"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 7
+											id: "alexscaves:tough_hide"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 8
+											id: "rats:cheese"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 9
+											id: "twilightforest:naga_scale"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 10
+											id: "iceandfire:myrmex_stinger"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 11
+											id: "alexscaves:candy_cane"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 12
+											id: "twilightforest:arctic_fur"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 13
+											id: "tinkers_delight:cotton_candy_block"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 14
+											id: "minecraft:oak_log"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 15
+											id: "alexscaves:heavy_bone"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 16
+											id: "botania:livingwood_log"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 17
+											id: "botania:livingrock"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 18
+											id: "minecraft:prismarine"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 19
+											id: "minecraft:sponge"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 20
+											id: "twilightforest:raven_feather"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 21
+											id: "minecraft:flint"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 22
+											id: "minecraft:popped_chorus_fruit"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 23
+											id: "minecraft:basalt"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 24
+											id: "alexscaves:licoroot_vine"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 25
+											id: "minecraft:leather"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 26
+											id: "minecraft:bamboo"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 27
+											id: "minecraft:amethyst_shard"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 28
+											id: "minecraft:redstone"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 29
+											id: "minecraft:paper"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 30
+											id: "minecraft:string"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 31
+											id: "iceandfire:amphithere_feather"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 32
+											id: "minecraft:rotten_flesh"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 33
+											id: "alexscaves:cycad"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 34
+											id: "alexscaves:thornwood_branch"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 35
+											id: "minecraft:vine"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 36
+											id: "ae2:certus_quartz_crystal"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 37
+											id: "minecraft:copper_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 38
+											id: "minecraft:lapis_lazuli"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 39
+											id: "minecraft:bone"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 40
+											id: "minecraft:scute"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 41
+											id: "alexscaves:dark_tatters"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 42
+											id: "minecraft:blackstone"
+											realCount: 1
+										}
+									]
+									Size: 45
+								}
+								partitioner: {
+									baseIndexes: [I;0]
+									inventoryPartNames: ["default"]
+								}
+								upgradeInventory: {
+									Items: [ ]
+									Size: 1
+								}
+							}
+							numberOfInventorySlots: 45
+							numberOfUpgradeSlots: 1
+							renderInfo: {
+								upgradeItems: [{
+									Count: 1b
+									id: "minecraft:air"
+									tag: { }
+								}]
+							}
+							sortBy: "name"
+						}
+					}
+					display: {
+						Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_purple\",\"text\":\"(+NBT)\"}],\"text\":\"\"}"]
+						Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"green\",\"text\":\"1级材料盒\"}],\"text\":\"\"}"
+					}
+					numberOfInventorySlots: 45
+					numberOfUpgradeSlots: 1
+				}
+			}
+			id: "6274CEB165E90583"
+			rewards: [{
+				id: "4585FB0C9859BF88"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:copper_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							id: "sophisticatedstorage:shulker_box"
+							storageWrapper: {
+								contents: {
+									inventory: {
+										Items: [
+											{
+												Count: 1b
+												Slot: 0
+												id: "minecraft:netherrack"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 1
+												id: "iceandfire:myrmex_jungle_chitin"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 2
+												id: "minecraft:cactus"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 3
+												id: "minecraft:ice"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 4
+												id: "minecraft:pumpkin"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 5
+												id: "alexscaves:archaic_vine"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 6
+												id: "minecraft:cobblestone"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 7
+												id: "alexscaves:tough_hide"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 8
+												id: "rats:cheese"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 9
+												id: "twilightforest:naga_scale"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 10
+												id: "iceandfire:myrmex_stinger"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 11
+												id: "alexscaves:candy_cane"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 12
+												id: "twilightforest:arctic_fur"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 13
+												id: "tinkers_delight:cotton_candy_block"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 14
+												id: "minecraft:oak_log"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 15
+												id: "alexscaves:heavy_bone"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 16
+												id: "botania:livingwood_log"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 17
+												id: "botania:livingrock"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 18
+												id: "minecraft:prismarine"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 19
+												id: "minecraft:sponge"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 20
+												id: "twilightforest:raven_feather"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 21
+												id: "minecraft:flint"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 22
+												id: "minecraft:popped_chorus_fruit"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 23
+												id: "minecraft:basalt"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 24
+												id: "alexscaves:licoroot_vine"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 25
+												id: "minecraft:leather"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 26
+												id: "minecraft:bamboo"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 27
+												id: "minecraft:amethyst_shard"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 28
+												id: "minecraft:redstone"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 29
+												id: "minecraft:paper"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 30
+												id: "minecraft:string"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 31
+												id: "iceandfire:amphithere_feather"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 32
+												id: "minecraft:rotten_flesh"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 33
+												id: "alexscaves:cycad"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 34
+												id: "alexscaves:thornwood_branch"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 35
+												id: "minecraft:vine"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 36
+												id: "ae2:certus_quartz_crystal"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 37
+												id: "minecraft:copper_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 38
+												id: "minecraft:lapis_lazuli"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 39
+												id: "minecraft:bone"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 40
+												id: "minecraft:scute"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 41
+												id: "alexscaves:dark_tatters"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 42
+												id: "minecraft:blackstone"
+												realCount: 1
+											}
+										]
+										Size: 45
+									}
+									partitioner: {
+										baseIndexes: [I;0]
+										inventoryPartNames: ["default"]
+									}
+									upgradeInventory: {
+										Items: [ ]
+										Size: 1
+									}
+								}
+								numberOfInventorySlots: 45
+								numberOfUpgradeSlots: 1
+								renderInfo: {
+									upgradeItems: [{
+										Count: 1b
+										id: "minecraft:air"
+										tag: { }
+									}]
+								}
+								sortBy: "name"
+							}
+						}
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_purple\",\"text\":\"(+NBT)\"}],\"text\":\"\"}"]
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"green\",\"text\":\"1级材料盒\"}],\"text\":\"\"}"
+						}
+						numberOfInventorySlots: 45
+						numberOfUpgradeSlots: 1
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "753C6C904525E777"
+				item: { Count: 16, id: "thermal:copper_coin" }
+				type: "item"
+			}]
+			title: "材料盒"
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13F5243DDC69E2B5"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:gold_shulker_box"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: { }
+						id: "sophisticatedstorage:shulker_box"
+						storageWrapper: {
+							contents: {
+								inventory: {
+									Items: [
+										{
+											Count: 1b
+											Slot: 0
+											id: "iceandfire:dread_shard"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 1
+											id: "minecraft:quartz"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 2
+											id: "minecraft:nether_brick"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 3
+											id: "mysticalagriculture:inferium_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 4
+											id: "mushroom_daydream:slime_pawn"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 5
+											id: "iceandfire:witherbone"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 6
+											id: "pneumaticcraft:ingot_iron_compressed"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 7
+											id: "cloudertinker:colairon_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 8
+											id: "cloudertinker:bloodshed_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 9
+											id: "minecraft:weeping_vines"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 10
+											id: "pneumaticcraft:plastic"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 11
+											id: "tconstruct:earth_slime_crystal"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 12
+											id: "tinkersjewelry:milky_quartz"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 13
+											id: "sakuratinker:youkai_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 14
+											id: "tinkersjewelry:malachite"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 15
+											id: "cloudertinker:forestbone"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 16
+											id: "tinkersjewelry:eudialyte"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 17
+											id: "cloudertinker:evilmare_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 18
+											id: "cloudertinker:devil_chain"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 19
+											id: "tinkerscalibration:vibrating_crystal"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 20
+											id: "tinkersjewelry:calcite"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 21
+											id: "mushroom_daydream:no_head"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 22
+											id: "alexscaves:shadow_silk"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 23
+											id: "minecraft:end_stone"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 24
+											id: "minecraft:ender_pearl"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 25
+											id: "tconstruct:ender_slime_crystal"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 26
+											id: "thermal:cinnabar"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 27
+											id: "tinkersjewelry:merlinite"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 28
+											id: "tconstruct:venombone"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 29
+											id: "mekanism:fluorite_gem"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 30
+											id: "minecraft:heart_of_the_sea"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 31
+											id: "tinkersjewelry:fire_opal"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 32
+											id: "tconstruct:ichor_slime_crystal"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 33
+											id: "mysticalagriculture:soulium_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 34
+											id: "tconstruct:scorched_brick"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 35
+											id: "tconstruct:seared_brick"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 36
+											id: "create:rose_quartz"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 37
+											id: "minecraft:glass"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 38
+											id: "tinkers_thinking:pearlescent_frogcroaking"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 39
+											id: "tconstruct:sky_slime_crystal"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 40
+											id: "cloudertinker:magnet_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 41
+											id: "aether:ambrosium_shard"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 42
+											id: "ae2:fluix_crystal"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 43
+											id: "tinkers_thinking:stabilized_gunpowder"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 44
+											id: "tinkerscalibration:bamboo_steel"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 45
+											id: "cloudertinker:minogold_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 46
+											id: "create:precision_mechanism"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 47
+											id: "iceandfire:pixie_wings"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 48
+											id: "cataclysm:amethyst_crab_shell"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 49
+											id: "thermal:ruby"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 50
+											id: "tinkersjewelry:rubellite"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 51
+											id: "twilightforest:red_thread"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 52
+											id: "minecraft:twisting_vines"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 53
+											id: "alexscaves:polymer_plate"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 54
+											id: "tinkersjewelry:prehnite"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 55
+											id: "thermal:sapphire"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 56
+											id: "iceandfire:sapphire_gem"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 57
+											id: "tinkers_thinking:dusk_chunk"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 58
+											id: "tconstruct:bloodshroom_planks"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 59
+											id: "cloudertinker:dectird_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 60
+											id: "cloudertinker:questiron_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 61
+											id: "tinkerscalibration:grain_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 62
+											id: "tinkers_thinking:ochre_frogcroaking"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 63
+											id: "tinkers_advanced:bismuthinite"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 64
+											id: "cloudertinker:prublaze_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 65
+											id: "twilightforest:steeleaf_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 66
+											id: "twilightforest:ironwood_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 67
+											id: "minecraft:iron_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 68
+											id: "immersiveengineering:ingot_lead"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 69
+											id: "thermal:silver_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 70
+											id: "mekanism:ingot_osmium"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 71
+											id: "tinkers_thinking:gilded_silky_cloth"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 72
+											id: "tinkers_thinking:verdant_frogcroaking"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 73
+											id: "twilightforest:knightmetal_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 74
+											id: "mekanism:hdpe_sheet"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 75
+											id: "tconstruct:sky_slime_vine"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 76
+											id: "iceandfire:dragonbone"
+											realCount: 1
+										}
+									]
+									Size: 81
+								}
+								partitioner: {
+									baseIndexes: [I;0]
+									inventoryPartNames: ["default"]
+								}
+								upgradeInventory: {
+									Items: [ ]
+									Size: 3
+								}
+							}
+							numberOfInventorySlots: 81
+							numberOfUpgradeSlots: 3
+							renderInfo: {
+								upgradeItems: [
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: { }
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: { }
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: { }
+									}
+								]
+							}
+							settings: {
+								global: { }
+							}
+							sortBy: "name"
+							uuid: [I;
+								1044774534
+								132796250
+								-1695711687
+								52231504
+							]
+						}
+					}
+					display: {
+						Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_purple\",\"text\":\"(+NBT)\"}],\"text\":\"\"}"]
+						Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"aqua\",\"text\":\"2级材料盒\"}],\"text\":\"\"}"
+					}
+					numberOfInventorySlots: 81
+					numberOfUpgradeSlots: 3
+				}
+			}
+			id: "0E3AA9D4F197756F"
+			rewards: [{
+				id: "7156E006572D2D8A"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:gold_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							id: "sophisticatedstorage:shulker_box"
+							storageWrapper: {
+								contents: {
+									inventory: {
+										Items: [
+											{
+												Count: 1b
+												Slot: 0
+												id: "iceandfire:dread_shard"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 1
+												id: "minecraft:quartz"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 2
+												id: "minecraft:nether_brick"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 3
+												id: "mysticalagriculture:inferium_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 4
+												id: "mushroom_daydream:slime_pawn"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 5
+												id: "iceandfire:witherbone"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 6
+												id: "pneumaticcraft:ingot_iron_compressed"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 7
+												id: "cloudertinker:colairon_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 8
+												id: "cloudertinker:bloodshed_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 9
+												id: "minecraft:weeping_vines"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 10
+												id: "pneumaticcraft:plastic"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 11
+												id: "tconstruct:earth_slime_crystal"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 12
+												id: "tinkersjewelry:milky_quartz"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 13
+												id: "sakuratinker:youkai_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 14
+												id: "tinkersjewelry:malachite"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 15
+												id: "cloudertinker:forestbone"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 16
+												id: "tinkersjewelry:eudialyte"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 17
+												id: "cloudertinker:evilmare_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 18
+												id: "cloudertinker:devil_chain"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 19
+												id: "tinkerscalibration:vibrating_crystal"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 20
+												id: "tinkersjewelry:calcite"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 21
+												id: "mushroom_daydream:no_head"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 22
+												id: "alexscaves:shadow_silk"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 23
+												id: "minecraft:end_stone"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 24
+												id: "minecraft:ender_pearl"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 25
+												id: "tconstruct:ender_slime_crystal"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 26
+												id: "thermal:cinnabar"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 27
+												id: "tinkersjewelry:merlinite"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 28
+												id: "tconstruct:venombone"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 29
+												id: "mekanism:fluorite_gem"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 30
+												id: "minecraft:heart_of_the_sea"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 31
+												id: "tinkersjewelry:fire_opal"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 32
+												id: "tconstruct:ichor_slime_crystal"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 33
+												id: "mysticalagriculture:soulium_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 34
+												id: "tconstruct:scorched_brick"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 35
+												id: "tconstruct:seared_brick"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 36
+												id: "create:rose_quartz"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 37
+												id: "minecraft:glass"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 38
+												id: "tinkers_thinking:pearlescent_frogcroaking"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 39
+												id: "tconstruct:sky_slime_crystal"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 40
+												id: "cloudertinker:magnet_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 41
+												id: "aether:ambrosium_shard"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 42
+												id: "ae2:fluix_crystal"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 43
+												id: "tinkers_thinking:stabilized_gunpowder"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 44
+												id: "tinkerscalibration:bamboo_steel"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 45
+												id: "cloudertinker:minogold_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 46
+												id: "create:precision_mechanism"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 47
+												id: "iceandfire:pixie_wings"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 48
+												id: "cataclysm:amethyst_crab_shell"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 49
+												id: "thermal:ruby"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 50
+												id: "tinkersjewelry:rubellite"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 51
+												id: "twilightforest:red_thread"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 52
+												id: "minecraft:twisting_vines"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 53
+												id: "alexscaves:polymer_plate"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 54
+												id: "tinkersjewelry:prehnite"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 55
+												id: "thermal:sapphire"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 56
+												id: "iceandfire:sapphire_gem"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 57
+												id: "tinkers_thinking:dusk_chunk"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 58
+												id: "tconstruct:bloodshroom_planks"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 59
+												id: "cloudertinker:dectird_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 60
+												id: "cloudertinker:questiron_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 61
+												id: "tinkerscalibration:grain_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 62
+												id: "tinkers_thinking:ochre_frogcroaking"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 63
+												id: "tinkers_advanced:bismuthinite"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 64
+												id: "cloudertinker:prublaze_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 65
+												id: "twilightforest:steeleaf_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 66
+												id: "twilightforest:ironwood_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 67
+												id: "minecraft:iron_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 68
+												id: "immersiveengineering:ingot_lead"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 69
+												id: "thermal:silver_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 70
+												id: "mekanism:ingot_osmium"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 71
+												id: "tinkers_thinking:gilded_silky_cloth"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 72
+												id: "tinkers_thinking:verdant_frogcroaking"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 73
+												id: "twilightforest:knightmetal_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 74
+												id: "mekanism:hdpe_sheet"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 75
+												id: "tconstruct:sky_slime_vine"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 76
+												id: "iceandfire:dragonbone"
+												realCount: 1
+											}
+										]
+										Size: 81
+									}
+									partitioner: {
+										baseIndexes: [I;0]
+										inventoryPartNames: ["default"]
+									}
+									upgradeInventory: {
+										Items: [ ]
+										Size: 3
+									}
+								}
+								numberOfInventorySlots: 81
+								numberOfUpgradeSlots: 3
+								renderInfo: {
+									upgradeItems: [
+										{
+											Count: 1b
+											id: "minecraft:air"
+											tag: { }
+										}
+										{
+											Count: 1b
+											id: "minecraft:air"
+											tag: { }
+										}
+										{
+											Count: 1b
+											id: "minecraft:air"
+											tag: { }
+										}
+									]
+								}
+								settings: {
+									global: { }
+								}
+								sortBy: "name"
+								uuid: [I;
+									1044774534
+									132796250
+									-1695711687
+									52231504
+								]
+							}
+						}
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_purple\",\"text\":\"(+NBT)\"}],\"text\":\"\"}"]
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"aqua\",\"text\":\"2级材料盒\"}],\"text\":\"\"}"
+						}
+						numberOfInventorySlots: 81
+						numberOfUpgradeSlots: 3
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "5B86338D6B8E7805"
+				item: { Count: 16, id: "thermal:silver_coin" }
+				type: "item"
+			}]
+			title: "材料盒"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["76CC1934C282AAD7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:diamond_shulker_box"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: { }
+						id: "sophisticatedstorage:shulker_box"
+						storageWrapper: {
+							contents: {
+								inventory: {
+									Items: [
+										{
+											Count: 1b
+											Slot: 0
+											id: "tconstruct:silky_cloth"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 1
+											id: "mysticalagriculture:tertium_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 2
+											id: "tinkerscalibration:lizanite_crystal"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 3
+											id: "tinkerscalibration:magiga_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 4
+											id: "mushroom_daydream:bee_man"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 5
+											id: "tinkerscalibration:corundum"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 6
+											id: "mysticalagriculture:prudentium_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 7
+											id: "mushroom_daydream:liga"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 8
+											id: "mekanism:alloy_atomic"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 9
+											id: "cloudertinker:changeheart"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 10
+											id: "mushroom_daydream:slime_court_jester"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 11
+											id: "tinkers_thinking:chlorophyte_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 12
+											id: "tinkerscalibration:halleium_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 13
+											id: "mushroom_daydream:nightmare_fuel"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 14
+											id: "minecraft:echo_shard"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 15
+											id: "tinkers_thinking:echo_bronze_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 16
+											id: "tinkers_advanced:basalz_signalum"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 17
+											id: "cloudertinker:compositesteeleaf_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 18
+											id: "cloudertinker:frostiron_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 19
+											id: "tinkers_thinking:chillslime_cryogel"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 20
+											id: "tinkerscalibration:spinel"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 21
+											id: "sakuratinker:orichalcum_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 22
+											id: "tinkers_thinking:tinkers_bronze_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 23
+											id: "twilightforest:giant_cobblestone"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 24
+											id: "cloudertinker:phantom_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 25
+											id: "tinkers_thinking:spectre_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 26
+											id: "immersiveengineering:ingot_constantan"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 27
+											id: "tinkerscalibration:refinedquartz"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 28
+											id: "mekanism:ingot_refined_glowstone"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 29
+											id: "tinkerscalibration:stellarium_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 30
+											id: "tinkerscalibration:inert_witherium_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 31
+											id: "gobber2:gobber2_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 32
+											id: "cloudertinker:timering"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 33
+											id: "minecraft:ender_eye"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 34
+											id: "alexscaves:tectonic_shard"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 35
+											id: "thermal:invar_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 36
+											id: "tinkerscalibration:steamium_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 37
+											id: "tinkerscalibration:immersed_silver_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 38
+											id: "minecraft:prismarine_crystals"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 39
+											id: "aquaculture:neptunium_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 40
+											id: "tinkerscalibration:hymon"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 41
+											id: "botania:elementium_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 42
+											id: "tinkers_delight:hot_pot_iron_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 43
+											id: "twilightforest:fiery_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 44
+											id: "tconstruct:rose_gold_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 45
+											id: "tinkerscalibration:fiberglass"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 46
+											id: "createaddition:electrum_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 47
+											id: "tinkers_thinking:beetron_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 48
+											id: "tconstruct:pig_iron_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 49
+											id: "tinkers_thinking:electrical_steel_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 50
+											id: "tinkerscalibration:tourmaline"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 51
+											id: "mushroom_daydream:plague_steel"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 52
+											id: "tinkers_thinking:white_chocolate"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 53
+											id: "cloudertinker:orescore"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 54
+											id: "twilightforest:carminite"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 55
+											id: "ae2:silicon"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 56
+											id: "deep_aether:skyjade"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 57
+											id: "cloudertinker:minodiamond_gem"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 58
+											id: "aether:zanite_gemstone"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 59
+											id: "tconstruct:amethyst_bronze_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 60
+											id: "minecraft:purpur_block"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 61
+											id: "tconstruct:nahuatl"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 62
+											id: "tinkerscalibration:alumite_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 63
+											id: "minecraft:glowstone_dust"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 64
+											id: "tinkers_advanced:nutrition_slime_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 65
+											id: "tinkerscalibration:prehnite_crystal"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 66
+											id: "botania:mana_string"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 67
+											id: "tinkers_thinking:shroomite_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 68
+											id: "tinkers_delight:mushroom_gold_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 69
+											id: "sakuratinker:blood_bound_steel"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 70
+											id: "tinkers_thinking:lightite_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 71
+											id: "tconstruct:necronium_bone"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 72
+											id: "cloudertinker:sorteye"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 73
+											id: "tinkers_thinking:ancient_ceramic"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 74
+											id: "cloudertinker:mazeslime_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 75
+											id: "tinkerscalibration:titanium_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 76
+											id: "tinkerscalibration:tonium_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 77
+											id: "cloudertinker:steeleafalloy"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 78
+											id: "immersiveengineering:ingot_steel"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 79
+											id: "tconstruct:cobalt_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 80
+											id: "minecraft:diamond_block"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 81
+											id: "tinkers_thinking:bacium"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 82
+											id: "tinkers_delight:gildedfern"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 83
+											id: "tinkers_thinking:ardite_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 84
+											id: "twilightforest:alpha_yeti_fur"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 85
+											id: "tinkerscalibration:hothium_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 86
+											id: "mushroom_daydream:copper_green"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 87
+											id: "tcintegrations:bronze_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 88
+											id: "ticex:wyvern_crystal"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 89
+											id: "botania:manasteel_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 90
+											id: "create:brass_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 91
+											id: "tconstruct:slimesteel_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 92
+											id: "tinkers_thinking:black_chocolate"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 93
+											id: "tinkers_thinking:obsidian_bronze_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 94
+											id: "cataclysm:black_steel_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 95
+											id: "ticex:draconium_crystal"
+											realCount: 1
+										}
+									]
+									Size: 108
+								}
+								partitioner: {
+									baseIndexes: [I;0]
+									inventoryPartNames: ["default"]
+								}
+								upgradeInventory: {
+									Items: [ ]
+									Size: 4
+								}
+							}
+							numberOfInventorySlots: 108
+							numberOfUpgradeSlots: 4
+							renderInfo: {
+								upgradeItems: [
+									{
+										Count: 1b
+										id: "minecraft:air"
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+									}
+								]
+							}
+							sortBy: "name"
+						}
+					}
+					display: {
+						Lore: [
+							"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"内含几乎所有3级材料\"}],\"text\":\"\"}"
+							"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_purple\",\"text\":\"(+NBT)\"}],\"text\":\"\"}"
+						]
+						Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"3级材料盒\"}],\"text\":\"\"}"
+					}
+					numberOfInventorySlots: 108
+					numberOfUpgradeSlots: 4
+				}
+			}
+			id: "71750311A1DEADAE"
+			rewards: [{
+				id: "57CC9155C86A2968"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:diamond_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							id: "sophisticatedstorage:shulker_box"
+							storageWrapper: {
+								contents: {
+									inventory: {
+										Items: [
+											{
+												Count: 1b
+												Slot: 0
+												id: "tconstruct:silky_cloth"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 1
+												id: "mysticalagriculture:tertium_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 2
+												id: "tinkerscalibration:lizanite_crystal"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 3
+												id: "tinkerscalibration:magiga_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 4
+												id: "mushroom_daydream:bee_man"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 5
+												id: "tinkerscalibration:corundum"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 6
+												id: "mysticalagriculture:prudentium_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 7
+												id: "mushroom_daydream:liga"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 8
+												id: "mekanism:alloy_atomic"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 9
+												id: "cloudertinker:changeheart"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 10
+												id: "mushroom_daydream:slime_court_jester"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 11
+												id: "tinkers_thinking:chlorophyte_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 12
+												id: "tinkerscalibration:halleium_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 13
+												id: "mushroom_daydream:nightmare_fuel"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 14
+												id: "minecraft:echo_shard"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 15
+												id: "tinkers_thinking:echo_bronze_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 16
+												id: "tinkers_advanced:basalz_signalum"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 17
+												id: "cloudertinker:compositesteeleaf_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 18
+												id: "cloudertinker:frostiron_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 19
+												id: "tinkers_thinking:chillslime_cryogel"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 20
+												id: "tinkerscalibration:spinel"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 21
+												id: "sakuratinker:orichalcum_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 22
+												id: "tinkers_thinking:tinkers_bronze_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 23
+												id: "twilightforest:giant_cobblestone"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 24
+												id: "cloudertinker:phantom_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 25
+												id: "tinkers_thinking:spectre_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 26
+												id: "immersiveengineering:ingot_constantan"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 27
+												id: "tinkerscalibration:refinedquartz"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 28
+												id: "mekanism:ingot_refined_glowstone"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 29
+												id: "tinkerscalibration:stellarium_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 30
+												id: "tinkerscalibration:inert_witherium_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 31
+												id: "gobber2:gobber2_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 32
+												id: "cloudertinker:timering"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 33
+												id: "minecraft:ender_eye"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 34
+												id: "alexscaves:tectonic_shard"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 35
+												id: "thermal:invar_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 36
+												id: "tinkerscalibration:steamium_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 37
+												id: "tinkerscalibration:immersed_silver_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 38
+												id: "minecraft:prismarine_crystals"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 39
+												id: "aquaculture:neptunium_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 40
+												id: "tinkerscalibration:hymon"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 41
+												id: "botania:elementium_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 42
+												id: "tinkers_delight:hot_pot_iron_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 43
+												id: "twilightforest:fiery_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 44
+												id: "tconstruct:rose_gold_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 45
+												id: "tinkerscalibration:fiberglass"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 46
+												id: "createaddition:electrum_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 47
+												id: "tinkers_thinking:beetron_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 48
+												id: "tconstruct:pig_iron_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 49
+												id: "tinkers_thinking:electrical_steel_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 50
+												id: "tinkerscalibration:tourmaline"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 51
+												id: "mushroom_daydream:plague_steel"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 52
+												id: "tinkers_thinking:white_chocolate"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 53
+												id: "cloudertinker:orescore"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 54
+												id: "twilightforest:carminite"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 55
+												id: "ae2:silicon"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 56
+												id: "deep_aether:skyjade"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 57
+												id: "cloudertinker:minodiamond_gem"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 58
+												id: "aether:zanite_gemstone"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 59
+												id: "tconstruct:amethyst_bronze_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 60
+												id: "minecraft:purpur_block"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 61
+												id: "tconstruct:nahuatl"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 62
+												id: "tinkerscalibration:alumite_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 63
+												id: "minecraft:glowstone_dust"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 64
+												id: "tinkers_advanced:nutrition_slime_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 65
+												id: "tinkerscalibration:prehnite_crystal"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 66
+												id: "botania:mana_string"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 67
+												id: "tinkers_thinking:shroomite_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 68
+												id: "tinkers_delight:mushroom_gold_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 69
+												id: "sakuratinker:blood_bound_steel"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 70
+												id: "tinkers_thinking:lightite_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 71
+												id: "tconstruct:necronium_bone"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 72
+												id: "cloudertinker:sorteye"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 73
+												id: "tinkers_thinking:ancient_ceramic"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 74
+												id: "cloudertinker:mazeslime_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 75
+												id: "tinkerscalibration:titanium_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 76
+												id: "tinkerscalibration:tonium_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 77
+												id: "cloudertinker:steeleafalloy"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 78
+												id: "immersiveengineering:ingot_steel"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 79
+												id: "tconstruct:cobalt_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 80
+												id: "minecraft:diamond_block"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 81
+												id: "tinkers_thinking:bacium"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 82
+												id: "tinkers_delight:gildedfern"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 83
+												id: "tinkers_thinking:ardite_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 84
+												id: "twilightforest:alpha_yeti_fur"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 85
+												id: "tinkerscalibration:hothium_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 86
+												id: "mushroom_daydream:copper_green"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 87
+												id: "tcintegrations:bronze_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 88
+												id: "ticex:wyvern_crystal"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 89
+												id: "botania:manasteel_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 90
+												id: "create:brass_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 91
+												id: "tconstruct:slimesteel_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 92
+												id: "tinkers_thinking:black_chocolate"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 93
+												id: "tinkers_thinking:obsidian_bronze_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 94
+												id: "cataclysm:black_steel_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 95
+												id: "ticex:draconium_crystal"
+												realCount: 1
+											}
+										]
+										Size: 108
+									}
+									partitioner: {
+										baseIndexes: [I;0]
+										inventoryPartNames: ["default"]
+									}
+									upgradeInventory: {
+										Items: [ ]
+										Size: 4
+									}
+								}
+								numberOfInventorySlots: 108
+								numberOfUpgradeSlots: 4
+								renderInfo: {
+									upgradeItems: [
+										{
+											Count: 1b
+											id: "minecraft:air"
+										}
+										{
+											Count: 1b
+											id: "minecraft:air"
+										}
+										{
+											Count: 1b
+											id: "minecraft:air"
+										}
+										{
+											Count: 1b
+											id: "minecraft:air"
+										}
+									]
+								}
+								sortBy: "name"
+							}
+						}
+						display: {
+							Lore: [
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"内含几乎所有3级材料\"}],\"text\":\"\"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_purple\",\"text\":\"(+NBT)\"}],\"text\":\"\"}"
+							]
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"3级材料盒\"}],\"text\":\"\"}"
+						}
+						numberOfInventorySlots: 108
+						numberOfUpgradeSlots: 4
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "17FCB4980E1612AB"
+				item: { Count: 32, id: "thermal:gold_coin" }
+				type: "item"
+			}]
+			title: "材料盒"
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["276486BA5B9B3832"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:diamond_shulker_box"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: { }
+						id: "sophisticatedstorage:shulker_box"
+						storageWrapper: {
+							contents: {
+								inventory: {
+									Items: [
+										{
+											Count: 1b
+											Slot: 0
+											id: "mushroom_daydream:sjngp"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 1
+											id: "minecraft:netherite_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 2
+											id: "gobber2:gobber2_ingot_nether"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 3
+											id: "deep_aether:stratus_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 4
+											id: "enigmaticlegacy:etherium_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 5
+											id: "tinkers_advanced:voltaic_crystal"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 6
+											id: "tconstruct:cinderslime_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 7
+											id: "extrabotany:photonium_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 8
+											id: "cataclysm:witherite_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 9
+											id: "tinkerscalibration:witherium_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 10
+											id: "cloudertinker:hydra_scale"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 11
+											id: "sakuratinker:south_star"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 12
+											id: "tinkers_advanced:protocite_pellet"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 13
+											id: "mekanism:pellet_antimatter"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 14
+											id: "cloudertinker:steelbone"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 15
+											id: "tinkers_delight:tasty_bone"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 16
+											id: "cataclysm:cursium_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 17
+											id: "sakuratinker:echo_slimesteel"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 18
+											id: "tinkerscalibration:emperorslime_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 19
+											id: "sakuratinker:terracryst"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 20
+											id: "twilightforest:castle_brick"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 21
+											id: "extrabotany:aerialite_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 22
+											id: "extrabotany:orichalcos_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 23
+											id: "sakuratinker:arcane_alloy"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 24
+											id: "sakuratinker:aurumos"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 25
+											id: "sakuratinker:cold_iron_alloy"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 26
+											id: "cloudertinker:forest_gem"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 27
+											id: "sakuratinker:frost_slimesteel"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 28
+											id: "tinkers_advanced:iridium_chunk"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 29
+											id: "sakuratinker:prometheum_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 30
+											id: "mekanism:ingot_refined_obsidian"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 31
+											id: "extrabotany:shadowium_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 32
+											id: "projecte:dark_matter"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 33
+											id: "mushroom_daydream:dark_thing"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 34
+											id: "tinkers_thinking:bound_chain"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 35
+											id: "tinkers_advanced:blizz_enderium"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 36
+											id: "tinkerscalibration:breashell"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 37
+											id: "tinkers_advanced:penumatic_reinforced_steel"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 39
+											id: "tinkerscalibration:fazelle_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 40
+											id: "botania:terrasteel_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 41
+											id: "tinkers_advanced:activated_chromatic_steel"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 42
+											id: "mushroom_daydream:heimdallr"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 43
+											id: "ticex:chaotic_crystal"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 44
+											id: "cloudertinker:glavenus_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 45
+											id: "cloudertinker:fierdistear"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 46
+											id: "sakuratinker:fiery_crystal"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 47
+											id: "tconstruct:blazing_bone"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 48
+											id: "tconstruct:blazewood"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 49
+											id: "tinkerscalibration:jazz_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 50
+											id: "tinkers_advanced:blaze_netherite"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 51
+											id: "tinkerscalibration:mangobberslime_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 52
+											id: "tconstruct:manyullyn_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 53
+											id: "tinkerscalibration:mandite_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 54
+											id: "cloudertinker:glaze_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 55
+											id: "sakuratinker:bear_interest_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 56
+											id: "tinkerscalibration:lindsteel_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 57
+											id: "tconstruct:queens_slime_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 58
+											id: "tinkers_thinking:warden_steel_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 59
+											id: "botania:gaia_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 60
+											id: "tinkerscalibration:oraclium_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 61
+											id: "ticex:draconic_crystal"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 62
+											id: "sakuratinker:steady_alloy"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 63
+											id: "projecte:red_matter"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 64
+											id: "mysticalagriculture:supremium_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 65
+											id: "cataclysm:ignitium_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 66
+											id: "twilightforest:thorn_rose"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 67
+											id: "sakuratinker:mycelium_slimesteel"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 68
+											id: "sakuratinker:nihilite_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 69
+											id: "tinkers_things:hematite"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 70
+											id: "mushroom_concept:blood_steel"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 71
+											id: "tinkers_advanced:disintegrate_crystal"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 72
+											id: "tinkers_advanced:resonance_crystal"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 73
+											id: "tinkers_advanced:densium_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 74
+											id: "tinkers_advanced:stibnite"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 75
+											id: "tinkerscalibration:gravity_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 76
+											id: "aether_redux:gravitite_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 77
+											id: "tinkers_delight:jinhua_ham_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 78
+											id: "tinkers_advanced:bismuth_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 79
+											id: "tinkers_advanced:osgloglas_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 80
+											id: "tinkers_advanced:antimony_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 81
+											id: "tinkers_advanced:irradium_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 82
+											id: "sakuratinker:eezo_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 83
+											id: "sakuratinker:wu_yu"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 84
+											id: "mushroom_daydream:shiguan"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 85
+											id: "tinkers_advanced:blitz_lumium"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 86
+											id: "mysticalagriculture:imperium_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 87
+											id: "sakuratinker:soul_sakura"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 88
+											id: "tinkers_thinking:soul_vine"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 89
+											id: "tinkerscalibration:soulgold_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 90
+											id: "tconstruct:ender_slime_vine"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 91
+											id: "tconstruct:hepatizon_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 92
+											id: "iceandfire:dragonsteel_fire_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 93
+											id: "sakuratinker:dragon_sinew"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 94
+											id: "iceandfire:dragonsteel_lightning_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 95
+											id: "iceandfire:dragonsteel_ice_ingot"
+											realCount: 1
+										}
+										{
+											Count: 1b
+											Slot: 38
+											id: "avaritia:crystal_matrix_ingot"
+											realCount: 1
+										}
+									]
+									Size: 108
+								}
+								partitioner: {
+									baseIndexes: [I;0]
+									inventoryPartNames: ["default"]
+								}
+								upgradeInventory: {
+									Items: [ ]
+									Size: 4
+								}
+							}
+							numberOfInventorySlots: 108
+							numberOfUpgradeSlots: 4
+							renderInfo: {
+								upgradeItems: [
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: { }
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: { }
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: { }
+									}
+									{
+										Count: 1b
+										id: "minecraft:air"
+										tag: { }
+									}
+								]
+							}
+							settings: {
+								global: { }
+							}
+							sortBy: "name"
+						}
+					}
+					display: {
+						Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_purple\",\"text\":\"(+NBT)\"}],\"text\":\"\"}"]
+						Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"yellow\",\"text\":\"4级材料盒\"}],\"text\":\"\"}"
+					}
+					numberOfInventorySlots: 108
+					numberOfUpgradeSlots: 4
+				}
+			}
+			id: "148BBBAF1D931776"
+			rewards: [{
+				id: "06DE0EBED008D2FC"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:diamond_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							id: "sophisticatedstorage:shulker_box"
+							storageWrapper: {
+								contents: {
+									inventory: {
+										Items: [
+											{
+												Count: 1b
+												Slot: 0
+												id: "mushroom_daydream:sjngp"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 1
+												id: "minecraft:netherite_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 2
+												id: "gobber2:gobber2_ingot_nether"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 3
+												id: "deep_aether:stratus_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 4
+												id: "enigmaticlegacy:etherium_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 5
+												id: "tinkers_advanced:voltaic_crystal"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 6
+												id: "tconstruct:cinderslime_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 7
+												id: "extrabotany:photonium_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 8
+												id: "cataclysm:witherite_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 9
+												id: "tinkerscalibration:witherium_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 10
+												id: "cloudertinker:hydra_scale"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 11
+												id: "sakuratinker:south_star"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 12
+												id: "tinkers_advanced:protocite_pellet"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 13
+												id: "mekanism:pellet_antimatter"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 14
+												id: "cloudertinker:steelbone"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 15
+												id: "tinkers_delight:tasty_bone"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 16
+												id: "cataclysm:cursium_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 17
+												id: "sakuratinker:echo_slimesteel"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 18
+												id: "tinkerscalibration:emperorslime_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 19
+												id: "sakuratinker:terracryst"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 20
+												id: "twilightforest:castle_brick"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 21
+												id: "extrabotany:aerialite_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 22
+												id: "extrabotany:orichalcos_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 23
+												id: "sakuratinker:arcane_alloy"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 24
+												id: "sakuratinker:aurumos"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 25
+												id: "sakuratinker:cold_iron_alloy"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 26
+												id: "cloudertinker:forest_gem"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 27
+												id: "sakuratinker:frost_slimesteel"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 28
+												id: "tinkers_advanced:iridium_chunk"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 29
+												id: "sakuratinker:prometheum_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 30
+												id: "mekanism:ingot_refined_obsidian"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 31
+												id: "extrabotany:shadowium_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 32
+												id: "projecte:dark_matter"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 33
+												id: "mushroom_daydream:dark_thing"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 34
+												id: "tinkers_thinking:bound_chain"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 35
+												id: "tinkers_advanced:blizz_enderium"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 36
+												id: "tinkerscalibration:breashell"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 37
+												id: "tinkers_advanced:penumatic_reinforced_steel"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 39
+												id: "tinkerscalibration:fazelle_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 40
+												id: "botania:terrasteel_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 41
+												id: "tinkers_advanced:activated_chromatic_steel"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 42
+												id: "mushroom_daydream:heimdallr"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 43
+												id: "ticex:chaotic_crystal"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 44
+												id: "cloudertinker:glavenus_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 45
+												id: "cloudertinker:fierdistear"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 46
+												id: "sakuratinker:fiery_crystal"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 47
+												id: "tconstruct:blazing_bone"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 48
+												id: "tconstruct:blazewood"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 49
+												id: "tinkerscalibration:jazz_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 50
+												id: "tinkers_advanced:blaze_netherite"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 51
+												id: "tinkerscalibration:mangobberslime_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 52
+												id: "tconstruct:manyullyn_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 53
+												id: "tinkerscalibration:mandite_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 54
+												id: "cloudertinker:glaze_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 55
+												id: "sakuratinker:bear_interest_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 56
+												id: "tinkerscalibration:lindsteel_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 57
+												id: "tconstruct:queens_slime_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 58
+												id: "tinkers_thinking:warden_steel_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 59
+												id: "botania:gaia_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 60
+												id: "tinkerscalibration:oraclium_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 61
+												id: "ticex:draconic_crystal"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 62
+												id: "sakuratinker:steady_alloy"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 63
+												id: "projecte:red_matter"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 64
+												id: "mysticalagriculture:supremium_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 65
+												id: "cataclysm:ignitium_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 66
+												id: "twilightforest:thorn_rose"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 67
+												id: "sakuratinker:mycelium_slimesteel"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 68
+												id: "sakuratinker:nihilite_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 69
+												id: "tinkers_things:hematite"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 70
+												id: "mushroom_concept:blood_steel"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 71
+												id: "tinkers_advanced:disintegrate_crystal"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 72
+												id: "tinkers_advanced:resonance_crystal"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 73
+												id: "tinkers_advanced:densium_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 74
+												id: "tinkers_advanced:stibnite"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 75
+												id: "tinkerscalibration:gravity_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 76
+												id: "aether_redux:gravitite_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 77
+												id: "tinkers_delight:jinhua_ham_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 78
+												id: "tinkers_advanced:bismuth_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 79
+												id: "tinkers_advanced:osgloglas_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 80
+												id: "tinkers_advanced:antimony_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 81
+												id: "tinkers_advanced:irradium_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 82
+												id: "sakuratinker:eezo_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 83
+												id: "sakuratinker:wu_yu"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 84
+												id: "mushroom_daydream:shiguan"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 85
+												id: "tinkers_advanced:blitz_lumium"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 86
+												id: "mysticalagriculture:imperium_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 87
+												id: "sakuratinker:soul_sakura"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 88
+												id: "tinkers_thinking:soul_vine"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 89
+												id: "tinkerscalibration:soulgold_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 90
+												id: "tconstruct:ender_slime_vine"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 91
+												id: "tconstruct:hepatizon_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 92
+												id: "iceandfire:dragonsteel_fire_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 93
+												id: "sakuratinker:dragon_sinew"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 94
+												id: "iceandfire:dragonsteel_lightning_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 95
+												id: "iceandfire:dragonsteel_ice_ingot"
+												realCount: 1
+											}
+											{
+												Count: 1b
+												Slot: 38
+												id: "avaritia:crystal_matrix_ingot"
+												realCount: 1
+											}
+										]
+										Size: 108
+									}
+									partitioner: {
+										baseIndexes: [I;0]
+										inventoryPartNames: ["default"]
+									}
+									upgradeInventory: {
+										Items: [ ]
+										Size: 4
+									}
+								}
+								numberOfInventorySlots: 108
+								numberOfUpgradeSlots: 4
+								renderInfo: {
+									upgradeItems: [
+										{
+											Count: 1b
+											id: "minecraft:air"
+											tag: { }
+										}
+										{
+											Count: 1b
+											id: "minecraft:air"
+											tag: { }
+										}
+										{
+											Count: 1b
+											id: "minecraft:air"
+											tag: { }
+										}
+										{
+											Count: 1b
+											id: "minecraft:air"
+											tag: { }
+										}
+									]
+								}
+								settings: {
+									global: { }
+								}
+								sortBy: "name"
+							}
+						}
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_purple\",\"text\":\"(+NBT)\"}],\"text\":\"\"}"]
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"yellow\",\"text\":\"4级材料盒\"}],\"text\":\"\"}"
+						}
+						numberOfInventorySlots: 108
+						numberOfUpgradeSlots: 4
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "6066271B854C73F8"
+					item: { Count: 8, id: "thermal:netherite_coin" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "5D8BF1947FECA6FB"
+					item: { Count: 64, id: "thermal:enderium_coin" }
+					type: "item"
+				}
+			]
+			title: "材料盒"
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1BF231B46472E985"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:shulker_box"
+				tag: {
+					BlockEntityTag: {
+						CustomName: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"第五个材料盒\"}],\"text\":\"\"}"
+						ForgeCaps: { }
+						Items: [
+							{
+								Count: 1b
+								Slot: 0b
+								id: "mushroom_daydream:dragon_gobber"
+							}
+							{
+								Count: 1b
+								Slot: 1b
+								id: "cloudertinker:chimera_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 2b
+								id: "sakuratinker:pyrothium"
+							}
+							{
+								Count: 1b
+								Slot: 3b
+								id: "mushroom_daydream:pure_horror"
+							}
+							{
+								Count: 1b
+								Slot: 4b
+								id: "sakuratinker:goozma"
+							}
+							{
+								Count: 1b
+								Slot: 5b
+								id: "cloudertinker:magala_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 6b
+								id: "enigmaticlegacy:evil_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 7b
+								id: "sakuratinker:two_form_mist_star"
+							}
+							{
+								Count: 1b
+								Slot: 8b
+								id: "sakuratinker:chimera_gamma"
+							}
+							{
+								Count: 1b
+								Slot: 9b
+								id: "avaritia:infinity_catalyst"
+							}
+							{
+								Count: 1b
+								Slot: 10b
+								id: "avaritia:infinity_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 11b
+								id: "sakuratinker:delusion"
+							}
+							{
+								Count: 1b
+								Slot: 12b
+								id: "ticex:etheric_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 13b
+								id: "avaritia:neutron_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 14b
+								id: "extrabotany:the_end"
+							}
+							{
+								Count: 1b
+								Slot: 15b
+								id: "sakuratinker:colorful_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 16b
+								id: "sakuratinker:gluttonous"
+							}
+						]
+						id: "minecraft:shulker_box"
+					}
+					display: {
+						Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"第五个材料盒\"}],\"text\":\"\"}"
+					}
+				}
+			}
+			id: "4639F392A9A50297"
+			rewards: [{
+				id: "26964F02A8AFB3A4"
+				item: {
+					Count: 1
+					id: "minecraft:shulker_box"
+					tag: {
+						BlockEntityTag: {
+							CustomName: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"第五个材料盒\"}],\"text\":\"\"}"
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 1b
+									Slot: 0b
+									id: "mushroom_daydream:dragon_gobber"
+								}
+								{
+									Count: 1b
+									Slot: 1b
+									id: "cloudertinker:chimera_ingot"
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "sakuratinker:pyrothium"
+								}
+								{
+									Count: 1b
+									Slot: 3b
+									id: "mushroom_daydream:pure_horror"
+								}
+								{
+									Count: 1b
+									Slot: 4b
+									id: "sakuratinker:goozma"
+								}
+								{
+									Count: 1b
+									Slot: 5b
+									id: "cloudertinker:magala_ingot"
+								}
+								{
+									Count: 1b
+									Slot: 6b
+									id: "enigmaticlegacy:evil_ingot"
+								}
+								{
+									Count: 1b
+									Slot: 7b
+									id: "sakuratinker:two_form_mist_star"
+								}
+								{
+									Count: 1b
+									Slot: 8b
+									id: "sakuratinker:chimera_gamma"
+								}
+								{
+									Count: 1b
+									Slot: 9b
+									id: "avaritia:infinity_catalyst"
+								}
+								{
+									Count: 1b
+									Slot: 10b
+									id: "avaritia:infinity_ingot"
+								}
+								{
+									Count: 1b
+									Slot: 11b
+									id: "sakuratinker:delusion"
+								}
+								{
+									Count: 1b
+									Slot: 12b
+									id: "ticex:etheric_ingot"
+								}
+								{
+									Count: 1b
+									Slot: 13b
+									id: "avaritia:neutron_ingot"
+								}
+								{
+									Count: 1b
+									Slot: 14b
+									id: "extrabotany:the_end"
+								}
+								{
+									Count: 1b
+									Slot: 15b
+									id: "sakuratinker:colorful_ingot"
+								}
+								{
+									Count: 1b
+									Slot: 16b
+									id: "sakuratinker:gluttonous"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"第五个材料盒\"}],\"text\":\"\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "34C46C1D82EA6F19"
+					item: { Count: 4, id: "kubejs:cat" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "3ADF69CF59245CF8"
+					item: { Count: 4, id: "avaritia:infinity_catalyst" }
+					type: "item"
+				}
+			]
+			title: "材料盒"
+			x: 4.5d
+			y: -5.0d
+		}
+	]
+	title: "·&6阶段"
+}

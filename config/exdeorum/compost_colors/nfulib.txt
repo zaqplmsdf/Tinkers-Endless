@@ -1,0 +1,4 @@
+// Compost colors for nfulib. You may add your own colors, change existing ones, or remove colors that aren't needed.
+debug_ai_switch, #fffbff
+debug_mob_remover, #fff7f0
+debug_target_setter, #fff0ea

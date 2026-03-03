@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "minecraft:lapis_lazuli",
+      "amount_needed":4
+    }, 
+    {
+      "item": "minecraft:lapis_lazuli",
+      "amount_needed":5
+    }
+  ],
+  "result": "mushroom_daydream:magicial",
+  "slots": {
+    "upgrades": 2
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/bonus_slots"
+  }
+}

@@ -1,0 +1,44 @@
+{
+	id: "3C952D34D7B2F7C0"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{
+			command: "/curios add ring @p 1"
+			elevate_perms: true
+			title: "戒指"
+			type: "command"
+		}
+		{
+			command: "/curios add charm @p 1"
+			elevate_perms: true
+			title: "护符"
+			type: "command"
+		}
+		{
+			command: "/curios add hands @p 1"
+			elevate_perms: true
+			title: "手饰"
+			type: "command"
+		}
+		{
+			command: "/curios add belt @p 1"
+			elevate_perms: true
+			title: "腰带"
+			type: "command"
+		}
+		{
+			command: "/curios add necklace @p 1"
+			elevate_perms: true
+			title: "项链"
+			type: "command"
+		}
+		{
+			command: "/curios add aether_accessory @p 1"
+			elevate_perms: true
+			title: "天境饰品"
+			type: "command"
+		}
+	]
+	title: "饰品栏位"
+}

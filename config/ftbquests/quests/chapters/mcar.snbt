@@ -1,0 +1,229 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mcar"
+	group: "4E1EC9498C14ECA0"
+	icon: "mca:engagement_ring_rg"
+	id: "43B4F030CD3A7CA2"
+	images: [
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			height: 7.0d
+			image: "mca:item/wedding_ring_rg"
+			rotation: 0.0d
+			width: 7.0d
+			x: 0.5d
+			y: -1.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"将可选模组中的&emcar（凡家物语）&r放入"
+				"&e.minecraft/version/对应游戏文件/mods&r"
+				"文件夹安装"
+				"仅作为内容扩展"
+			]
+			icon: "mca:villager_editor"
+			id: "0254E5280B081FD9"
+			rewards: [{
+				id: "1E0BBDE52E583EE9"
+				item: {
+					Count: 1
+					id: "minecraft:shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 1b
+									Slot: 0b
+									id: "mca:civil_registry"
+								}
+								{
+									Count: 1b
+									Slot: 1b
+									id: "mca:book_cult_ancient"
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "mca:book_supporters"
+								}
+								{
+									Count: 1b
+									Slot: 3b
+									id: "mca:book_blueprint"
+								}
+								{
+									Count: 1b
+									Slot: 4b
+									id: "mca:book_infection"
+								}
+								{
+									Count: 1b
+									Slot: 5b
+									id: "mca:book_rose_gold"
+								}
+								{
+									Count: 1b
+									Slot: 6b
+									id: "mca:book_family"
+								}
+								{
+									Count: 1b
+									Slot: 7b
+									id: "mca:villager_editor"
+								}
+								{
+									Count: 1b
+									Slot: 8b
+									id: "mca:book_cult_0"
+								}
+								{
+									Count: 1b
+									Slot: 9b
+									id: "mca:book_cult_1"
+								}
+								{
+									Count: 1b
+									Slot: 10b
+									id: "mca:book_cult_2"
+								}
+								{
+									Count: 1b
+									Slot: 11b
+									id: "mca:book_death"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "33F25C7E8C3A1C7D"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"直接在游戏内用命令 &e/mca chatAI default&r 来启用。"
+				"成功开启后在聊天栏中输入 &emca村民的名字&r 会出现对话。"
+			]
+			id: "0736A4B267DCFD12"
+			rewards: [{
+				command: "/mca chatAI default"
+				elevate_perms: true
+				id: "13DF27266C299ACE"
+				team_reward: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "5038EAAED4E1BD90"
+				title: "关于ai"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			description: ["一个很弱的BOSS"]
+			id: "70FEF2923B50C996"
+			tasks: [{
+				entity: "mca:grim_reaper"
+				id: "01CE167CA2C9FA2D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["70FEF2923B50C996"]
+			icon: {
+				Count: 1
+				id: "mca:scythe"
+				tag: {
+					Damage: 0
+					active: 0b
+					tic_persistent: {
+						"aether_tinker:heroic_spirit": 2.0f
+						"mushroom_concept:heroic_spirit": 2.0f
+						"mushroom_daydream:flare": 2.0f
+					}
+				}
+			}
+			id: "2AAA762BBF5ADCF1"
+			rewards: [{
+				id: "4B6B21295B0B79EC"
+				item: {
+					Count: 1
+					id: "mca:scythe"
+					tag: {
+						Damage: 0
+						active: 0b
+						tic_persistent: {
+							"aether_tinker:heroic_spirit": 2.0f
+							"mushroom_concept:heroic_spirit": 2.0f
+							"mushroom_daydream:flare": 2.0f
+						}
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "344A4447EFD28434"
+				item: "thermal:netherite_coin"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+	]
+	subtitle: ["&7因存在闪屏问题已移除"]
+	title: "·&bMCAR"
+}

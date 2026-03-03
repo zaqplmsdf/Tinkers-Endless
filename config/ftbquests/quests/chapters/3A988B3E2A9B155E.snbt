@@ -1,0 +1,193 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3A988B3E2A9B155E"
+	group: "1212196CDDCD1199"
+	icon: {
+		Count: 64
+		id: "thermal:netherite_coin"
+		tag: {
+			Enchantments: [{
+				id: "minecraft:protection"
+				lvl: 4s
+			}]
+			RepairCost: 1
+		}
+	}
+	id: "3A988B3E2A9B155E"
+	images: [
+		{
+			height: 3.0d
+			image: "thermal:item/netherite_coin_0"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			height: 4.0d
+			image: "projecte:item/philosophers_stone"
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependency: "05BAD8B545A0643A"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependency: "4B5760727FBE8107"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependency: "69BE3AB111096933"
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -1.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"最快的方式实际上就是用匠魂炉直接浇筑"
+				""
+				"相关链接："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59F69FB176B53928\" } }"
+			]
+			id: "53B7A1FB88E9EB5F"
+			tasks: [{
+				id: "7EDEFEB78AA21D89"
+				title: "关于货币"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"每阶段的前置条件："
+				""
+				"前期：做出转化桌（废话）"
+				""
+				"中期：弄死凋灵"
+				""
+				"后期：做出无尽催化剂"
+			]
+			id: "385241EB072A5549"
+			tasks: [{
+				id: "17F351E1437128AA"
+				title: "关于emc"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"385241EB072A5549"
+				"05BAD8B545A0643A"
+			]
+			description: [
+				"&e加速火把&r+使用&9神秘农业&r的种子，需要&e注魔祭坛&r*1，&e注魔基座&r*8才能进行制作"
+				""
+				"推荐制作&e绿宝石种子&r"
+				""
+				"推荐制作&e精华镰刀&r，可以范围收获并补种"
+				""
+				"推荐制作精华耕地，&e耕地&r+&e对应精华&r/&e锄头&r+&e泥土&r+&e对应精华&r合成，或者直接将&e精华&r撒在&e耕地&r上，可以提高作物的产量"
+			]
+			hide_until_deps_complete: true
+			id: "2E83CBFE77A9C4C9"
+			tasks: [{
+				id: "0304F13703ABB0C5"
+				title: "前期"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2E83CBFE77A9C4C9"
+				"4B5760727FBE8107"
+			]
+			description: [
+				"嗯，还是精华作物，不过这次是推荐&e下界之星种子&r，收益最大的一种作物"
+				""
+				"ps，需要在耕地下放置&e下界之星核心&r才能成长"
+			]
+			hide_until_deps_complete: true
+			id: "481DCF91C3BE45DD"
+			tasks: [{
+				id: "5434D2FC1746E70A"
+				title: "中期"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"481DCF91C3BE45DD"
+				"69BE3AB111096933"
+			]
+			description: [
+				"恭喜你已经来到&a无&b尽&c贪&d婪&r极度消耗emc的阶段"
+				""
+				"这个阶段仅靠精华作物已经不够用了，因此你可以使用&e创造流体储罐&r，并将&e熔融无尽催化剂&r注入其中，以此来量产&e无尽催化剂&r，后面也可以将&e无尽催化剂&r换成&e无尽之锭&r"
+				""
+				"当然，你也可以用&e力量花盆&r自动生产emc"
+				""
+				"相关链接："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4218A8CF62E5C386\" } }"
+			]
+			hide_until_deps_complete: true
+			id: "6B982C7B64D2127D"
+			tasks: [{
+				id: "127612EDE65BC55A"
+				title: "后期"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+	]
+	title: "·&6赚钱的方式"
+}

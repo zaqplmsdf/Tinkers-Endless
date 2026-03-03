@@ -1,0 +1,546 @@
+{
+	id: "6792E8C84267F10C"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ item: "sakuratinker:youkai_ingot", weight: 10.0f }
+		{ item: "tinkers_advanced:penumatic_reinforced_steel", weight: 10.0f }
+		{ item: "tinkers_thinking:echo_bronze_ingot", weight: 10.0f }
+		{ item: "tinkers_thinking:lightite_ingot", weight: 10.0f }
+		{ item: "tinkers_thinking:beetron_ingot", weight: 10.0f }
+		{ item: "tinkers_advanced:blizz_enderium", weight: 10.0f }
+		{ item: "tinkers_thinking:chlorophyte_ingot", weight: 10.0f }
+		{ item: "tinkers_thinking:obsidian_bronze_ingot", weight: 10.0f }
+		{ item: "tinkers_thinking:tinkers_bronze_ingot", weight: 10.0f }
+		{ item: "tinkers_thinking:spectre_ingot", weight: 10.0f }
+		{ item: "tinkers_advanced:basalz_signalum", weight: 10.0f }
+		{ item: "tinkers_advanced:blitz_lumium", weight: 10.0f }
+		{ item: "tinkers_thinking:electrical_steel_ingot", weight: 10.0f }
+		{ item: "tinkers_thinking:shroomite_ingot", weight: 10.0f }
+		{ item: "tinkers_advanced:bismuth_ingot", weight: 10.0f }
+		{ item: "tinkers_thinking:ardite_ingot", weight: 10.0f }
+		{ item: "tcintegrations:bronze_ingot", weight: 10.0f }
+		{ item: "tinkers_advanced:densium_ingot", weight: 10.0f }
+		{ item: "tinkers_advanced:irradium_ingot", weight: 10.0f }
+		{ item: "tinkers_advanced:iridium_chunk", weight: 10.0f }
+		{ item: "tinkers_advanced:blaze_netherite", weight: 10.0f }
+		{ item: "tinkers_advanced:disintegrate_crystal", weight: 10.0f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:chest"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: { }
+						Items: [
+							{
+								Count: 1b
+								Slot: 0b
+								id: "minecraft:paper"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"某方面来说，你运气很好\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 1b
+								id: "minecraft:paper"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"某方面来说，你运气很好\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 2b
+								id: "minecraft:paper"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"某方面来说，你运气很好\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 3b
+								id: "minecraft:paper"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"某方面来说，你运气很好\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 4b
+								id: "minecraft:paper"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"某方面来说，你运气很好\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 5b
+								id: "minecraft:paper"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"某方面来说，你运气很好\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 6b
+								id: "minecraft:paper"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"某方面来说，你运气很好\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 7b
+								id: "minecraft:paper"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"某方面来说，你运气很好\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 8b
+								id: "minecraft:paper"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"某方面来说，你运气很好\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 9b
+								id: "minecraft:paper"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"某方面来说，你运气很好\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 10b
+								id: "minecraft:paper"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"某方面来说，你运气很好\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 11b
+								id: "minecraft:paper"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"某方面来说，你运气很好\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 12b
+								id: "minecraft:paper"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"某方面来说，你运气很好\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 13b
+								id: "minecraft:paper"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"某方面来说，你运气很好\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 14b
+								id: "minecraft:paper"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"某方面来说，你运气很好\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 15b
+								id: "minecraft:paper"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"某方面来说，你运气很好\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 16b
+								id: "minecraft:paper"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"某方面来说，你运气很好\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 17b
+								id: "minecraft:paper"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"某方面来说，你运气很好\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 18b
+								id: "minecraft:paper"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"某方面来说，你运气很好\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 19b
+								id: "minecraft:paper"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"某方面来说，你运气很好\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 20b
+								id: "minecraft:paper"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"某方面来说，你运气很好\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 21b
+								id: "minecraft:paper"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"某方面来说，你运气很好\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 22b
+								id: "minecraft:paper"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"某方面来说，你运气很好\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 23b
+								id: "minecraft:paper"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"某方面来说，你运气很好\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 24b
+								id: "minecraft:paper"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"某方面来说，你运气很好\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 25b
+								id: "minecraft:paper"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"某方面来说，你运气很好\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 26b
+								id: "minecraft:paper"
+								tag: {
+									RepairCost: 0
+									display: {
+										Name: "{\"text\":\"某方面来说，你运气很好\"}"
+									}
+								}
+							}
+						]
+						id: "minecraft:chest"
+					}
+					RepairCost: 0
+					display: {
+						Lore: ["\"(+NBT)\""]
+						Name: "{\"text\":\"惊喜？\"}"
+					}
+				}
+			}
+			weight: 0.01f
+		}
+		{ item: "tinkers_advanced:osgloglas_ingot", weight: 5.0f }
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "upgrades"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "defense"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "abilities"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:creative_slot"
+				tag: {
+					slot: "souls"
+				}
+			}
+		}
+		{ item: "minecraft:enchanted_golden_apple", weight: 5.0f }
+		{ item: "sakuratinker:soul_sakura", weight: 0.5f }
+		{ item: "tinkers_advanced:activated_chromatic_steel", weight: 0.5f }
+		{ item: "projecte:red_matter", weight: 0.1f }
+		{ item: "avaritia:infinity_ingot", weight: 0.05f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:chest"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: { }
+						Items: [
+							{
+								Count: 1b
+								Slot: 0b
+								id: "projecte:red_matter"
+							}
+							{
+								Count: 1b
+								Slot: 1b
+								id: "tinkers_thinking:ardite_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 2b
+								id: "tinkers_thinking:tinkers_bronze_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 3b
+								id: "tinkers_thinking:lightite_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 4b
+								id: "tinkers_thinking:chlorophyte_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 5b
+								id: "tinkers_thinking:spectre_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 6b
+								id: "tinkers_thinking:shroomite_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 7b
+								id: "tinkers_thinking:obsidian_bronze_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 8b
+								id: "tinkers_thinking:electrical_steel_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 9b
+								id: "tinkers_thinking:beetron_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 10b
+								id: "tinkers_thinking:echo_bronze_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 11b
+								id: "sakuratinker:youkai_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 12b
+								id: "sakuratinker:soul_sakura"
+							}
+							{
+								Count: 1b
+								Slot: 13b
+								id: "tcintegrations:bronze_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 14b
+								id: "tinkers_advanced:bismuth_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 15b
+								id: "tinkers_advanced:disintegrate_crystal"
+							}
+							{
+								Count: 1b
+								Slot: 16b
+								id: "tinkers_advanced:blaze_netherite"
+							}
+							{
+								Count: 1b
+								Slot: 17b
+								id: "tinkers_advanced:iridium_chunk"
+							}
+							{
+								Count: 1b
+								Slot: 18b
+								id: "tinkers_advanced:irradium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 19b
+								id: "tinkers_advanced:densium_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 20b
+								id: "tinkers_advanced:osgloglas_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 21b
+								id: "tinkers_advanced:penumatic_reinforced_steel"
+							}
+							{
+								Count: 1b
+								Slot: 22b
+								id: "tinkers_advanced:basalz_signalum"
+							}
+							{
+								Count: 1b
+								Slot: 23b
+								id: "tinkers_advanced:blitz_lumium"
+							}
+							{
+								Count: 1b
+								Slot: 24b
+								id: "tinkers_advanced:blizz_enderium"
+							}
+							{
+								Count: 1b
+								Slot: 25b
+								id: "tinkers_advanced:activated_chromatic_steel"
+							}
+							{
+								Count: 1b
+								Slot: 26b
+								id: "avaritia:infinity_ingot"
+							}
+						]
+						id: "minecraft:chest"
+					}
+					RepairCost: 0
+					display: {
+						Lore: ["\"(+NBT)\""]
+						Name: "{\"text\":\"真的惊喜！\"}"
+					}
+				}
+			}
+			weight: 0.01f
+		}
+		{ item: "sakuratinker:wu_yu", weight: 10.0f }
+		{ item: "mushroom_daydream:shiguan", weight: 10.0f }
+	]
+	title: "大的"
+}

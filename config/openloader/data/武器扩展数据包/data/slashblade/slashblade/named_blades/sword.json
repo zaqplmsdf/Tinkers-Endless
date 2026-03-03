@@ -1,0 +1,44 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 2
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+    },
+    {
+      "id": "enigmaticlegacy:slayer",
+      "lvl": 5
+    },
+    {
+      "id": "l2complements:cursed_blade",
+      "lvl": 3
+    },
+    {
+      "id": "l2hostility:split_suppressor",
+      "lvl": 1
+    }
+  ],
+  "name": "slashblade:sword",
+  "properties": {
+    "attack_base": 32.0,
+    "max_damage": 256,
+    "slash_art": "srelic:explashon",
+    "special_effects": [
+      "slashblade_addon:burst_drive"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "slashblade:model/named/sword/sword.obj",
+    "texture": "slashblade:model/named/sword/sword.png"
+  }
+}
