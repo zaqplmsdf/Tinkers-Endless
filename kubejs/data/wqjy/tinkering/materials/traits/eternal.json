@@ -1,0 +1,34 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "level": 1, 
+        "name": "wqjy:eternoin"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:infinitum"
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "level": 1,
+        "name": "wqjy:eternal_stone"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:infinitum"
+      }
+    ], 
+    "tconstruct:ranged": [
+      {
+        "level": 1,
+        "name": "wqjy:eternoin"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:infinitum"
+      }
+    ]
+  }
+}

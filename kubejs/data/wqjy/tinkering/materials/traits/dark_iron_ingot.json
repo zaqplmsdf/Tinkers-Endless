@@ -1,0 +1,22 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "level": 1, 
+        "name": "wqjy:corruption"
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "level": 1,
+        "name": "wqjy:dark"
+      }
+    ], 
+    "tconstruct:ranged": [
+      {
+        "level": 1,
+        "name": "tconstruct:magnetic"
+      }
+    ]
+  }
+}

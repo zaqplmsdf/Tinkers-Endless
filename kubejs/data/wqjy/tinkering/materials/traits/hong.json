@@ -1,0 +1,46 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "level": 1, 
+        "name": "ticex:aftershock"
+      },
+      {
+        "level": 1,
+        "name": "tconstruct:insatiable"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:neutron_condense"
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "level": 1,
+        "name": "sakuratinker:crystalline_armor"
+      },
+      {
+        "level": 1,
+        "name": "ticex:condensing"
+      },
+      {
+        "level": 1,
+        "name": "ticex:dense"
+      }
+    ], 
+    "tconstruct:ranged": [
+      {
+        "level": 1,
+        "name": "ticex:aftershock"
+      },
+      {
+        "level": 1,
+        "name": "tconstruct:insatiable"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:neutron_condense"
+      }
+    ]
+  }
+}

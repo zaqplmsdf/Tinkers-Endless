@@ -1,0 +1,46 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "level": 1, 
+        "name": "etstlib:extra_dense"
+      },
+      {
+        "level": 1,
+        "name": "wqjy:the_world"
+      },
+      {
+        "level": 1,
+        "name": "mushroom_daydream:a"
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "level": 1,
+        "name": "etstlib:extra_dense"
+      },
+      {
+        "level": 1,
+        "name": "wqjy:the_world"
+      },
+      {
+        "level": 1,
+        "name": "etstlib:hyper_density"
+      }
+    ], 
+    "tconstruct:ranged": [
+      {
+        "level": 1,
+        "name": "etstlib:extra_dense"
+      },
+      {
+        "level": 1,
+        "name": "wqjy:the_world"
+      },
+      {
+        "level": 1,
+        "name": "mushroom_daydream:a"
+      }
+    ]
+  }
+}

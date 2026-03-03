@@ -1,0 +1,56 @@
+{
+  "stats": {
+    "tconstruct:binding": {},
+    "tconstruct:grip": {
+      "accuracy": 0.5,
+      "durability": 0.5,
+      "melee_damage": 42.0
+    },
+    "tconstruct:handle": {
+      "durability": 0.50,
+      "melee_damage": 0.35,
+      "melee_speed": 0.2,
+      "mining_speed": 0.2
+    },
+    "tconstruct:head": {
+      "durability": 4800,
+      "melee_attack": 42.0,
+      "mining_speed": 8.0,
+      "mining_tier": "mushroom_daydream:gobber_dragon"
+    },
+    "tconstruct:limb": {
+      "accuracy": 0.3,
+      "draw_speed": 0.5,
+      "durability": 6800,
+      "velocity": 0.1
+    },
+    "tconstruct:maille": {},
+    "tconstruct:plating_boots": {
+      "armor": 21.0,
+      "durability": 6000,
+      "knockback_resistance": 0,
+      "toughness": 5.0
+    },
+    "tconstruct:plating_chestplate": {
+      "armor": 21.0,
+      "durability": 6200,
+      "knockback_resistance": 0,
+      "toughness": 5.0
+    },
+    "tconstruct:plating_helmet": {
+      "armor": 21.0,
+      "durability": 5700,
+      "knockback_resistance": 0,
+      "toughness": 5.0
+    },
+    "tconstruct:plating_leggings": {
+      "armor": 21.0,
+      "durability": 5400,
+      "knockback_resistance": 0,
+      "toughness": 5.0
+    },
+    "tconstruct:plating_shield": {
+      "durability": 6520
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "marveloustinker:chaotic_ingot"
+    },
+    {
+      "item": "minecraft:poppy"
+    },
+    {
+      "item": "minecraft:chain"
+    },
+    {
+      "item": "ticex:chaotic_crystal"
+    }
+  ],
+  "result": "dreamtinker:mei",
+  "tools": {
+    "tag": "tconstruct:modifiable/melee"
+  }
+}

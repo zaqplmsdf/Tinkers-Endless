@@ -1,0 +1,58 @@
+{
+  "perStat": {
+    "tconstruct:melee_harvest": [
+      {
+        "level": 2, 
+        "name": "etstlib:mana_repair"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:break_speed"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:light_endurance"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:relentless"
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "level": 2,
+        "name": "etstlib:mana_repair"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:agile"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:born_of_light"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:shadow_evasion"
+      }
+    ], 
+    "tconstruct:ranged": [
+      {
+        "level": 2,
+        "name": "etstlib:mana_repair"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:break_speed"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:light_endurance"
+      },
+      {
+        "level": 1,
+        "name": "sakuratinker:relentless"
+      }
+    ]
+  }
+}

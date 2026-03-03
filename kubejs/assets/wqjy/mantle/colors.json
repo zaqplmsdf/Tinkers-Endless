@@ -1,0 +1,19 @@
+{
+    "material.wqjy": {
+        "dark_iron_ingot": "#646464",
+        "eternal": "#7464A6",
+        "evil_crystal": "#5a0f0f",
+        "alfsteel_ingot": "#ffd22e",
+        "hong": "#ff8bff",
+        "myth": "#ffb400",
+        "world": "#b7ffff"
+    }, 
+    "modifier.wqjy": {
+        "dark": "#646464",
+        "corruption": "#646464",
+        "eternal_stone": "#7464A6",
+        "eternoin": "#7464A6",
+        "evil_crystal": "#5a0f0f",
+        "the_world": "#b7ffff"
+    }
+}
