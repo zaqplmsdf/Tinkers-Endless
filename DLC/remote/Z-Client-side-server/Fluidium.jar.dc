@@ -1,0 +1,25 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/7481/405/fluidium-1.20.1-1.4.0.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "Fluidium"
+type = "mod"
+file_name = "fluidium-1.20.1-1.4.0.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§2(server/Client-side)锍(Fluidium)"
+
+[tip]
+en_us = "§2(server/Client-side)Optimizes distant fluids by delaying their updates; however, they resume normal behavior when a player approaches."
+zh_cn = "§2(服/客户端)通过延迟刷新优化了远离玩家的流体 不过 当有玩家靠近它们时 这些流体依然可以恢复正常"

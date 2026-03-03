@@ -1,0 +1,70 @@
+enable = [
+  "Fzzy Config",
+  "Kotlin for Forge",
+  "Placebo",
+  "Resourceful Config",
+  "betterfpsdist",
+  "betterf3",
+  "BadOptimizations",
+  "CullLessLeaves-Reforged",
+  "fastnbt",
+  "Fastquit",
+  "flerovium",
+  "lazyyyyy",
+  "particle_core",
+  "threatengl",
+  "YeetusExperimentus",
+  "alternate_current",
+  "BiomeSpy",
+  "Cerulean",
+  "DespawnTweaks",
+  "EfficientHashing",
+  "Fast Recipe Search",
+  "FastEvent",
+  "FastFurnace",
+  "Krypton FNP",
+  "Log-Begone",
+  "memorysweep",
+  "NoChatReports",
+  "radium",
+  "Redirected",
+  "randomoptimization",
+  "redirector",
+  "servercore",
+  "starlight",
+  "structure_layout_optimizer",
+  "sweeper_maid",
+  "tritium",
+  "txnilib",
+  "",
+  "",
+  "",
+  "",
+  ""
+]
+conflicts = [
+  "[LMD]Let Me Despawn",
+  "Almanac LIB",
+  "Icterine",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
+]
+
+[DisplayName]
+  en_us = "§6[Optional] Aggressive Low FPS Framerate"
+  zh_cn = "§6[可选]§4暴力、low帧、帧率"
+
+[tip]
+  en_us = """§4[Performance: Aggressive]  
+§4[Compatibility: Low]  
+§4Incompatible: [LMD]Let Me Despawn Almanac LIB Icterine Removed built-in Interconnect which is incompatible with most original txnilibmod versions  
+§4All optimizations fully enabled enabled enabled enabled enabled! And this one too :)"""
+  zh_cn = """§4[性能:&暴?力&]
+§4[兼容:低]
+§4不兼容:[LMD]Let Me Despawn、Almanac LIB、Icterine删除了内置互联这对于大部分原txnilibmod来说是不兼容的
+§4所有优化全部启动,启动,启动,启动,启动！还有这个:)"""

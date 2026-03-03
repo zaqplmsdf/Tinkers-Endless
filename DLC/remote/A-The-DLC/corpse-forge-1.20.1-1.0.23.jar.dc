@@ -1,0 +1,26 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/7018/272/corpse-forge-1.20.1-1.0.23.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "Corpse"
+type = "mod"
+file_name = "corpse-forge-1.20.1-1.0.23.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "Corpse"
+zh_cn = "遗体"
+
+[tip]
+en_us = "This module adds remains, which will be generated at the player's death location after the player dies, including all items in the player's backpack before death."
+zh_cn = "（服务端需装、客户端需装）此模组添加了遗体，遗体会在玩家死亡后生成在该玩家的死亡地点，其中包括玩家生前背包中的所有物品。（如果你需要开启死亡不掉落请不要开启遗体系列mod）"

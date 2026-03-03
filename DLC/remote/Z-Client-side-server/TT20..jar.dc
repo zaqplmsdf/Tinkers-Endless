@@ -1,0 +1,26 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://cdn.modrinth.com/data/YS3ZignI/versions/EOiK6xJj/tt20-0.7.1%2Bmc1.20.1.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "tt20"
+type = "mod"
+file_name = "tt20-0.7.1+mc1.20.1.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§4(server/Client-side)"
+zh_cn = "§4(服/客户端)TT20 (TPS Fixer)"
+
+[tip]
+en_us = "§4(server/Client-side)The author explicitly states that the client version is unstable—install with caution! It can be safely installed on servers. When TPS is low, it optimizes the tick processing to reduce perceived lag. You can use this mod in single-player mode, but some features may not work correctly and could potentially affect normal gameplay. You can toggle related features on or off at any time via the configuration file."
+zh_cn = "§4(服/客户端)作者明确表示客户端不稳定！谨慎安装！在服务端可装！低 TPS 时，优化 tick 的工作方式以减少卡顿感 你能在单机游戏中使用该模组，但某些功能可能无法正确生效（可能影响正常生存）你可以随时在配置中开关相关功能"

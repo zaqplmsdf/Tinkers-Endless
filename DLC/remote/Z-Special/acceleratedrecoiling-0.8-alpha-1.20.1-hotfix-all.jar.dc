@@ -1,0 +1,26 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/7304/388/acceleratedrecoiling-0.8-alpha-1.20.1-hotfix-all.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "acceleratedrecoiling"
+type = "mod"
+file_name = "acceleratedrecoiling-0.8-alpha-1.20.1-hotfix-all.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§4(Client-side)Accelerated Recoiling"
+zh_cn = "§4(客户端)加速碰撞"
+
+[tip]
+en_us = "§4Enables significant entity collision optimization. Use at your own risk with very old CPUs! May not be supported on mobile devices. Please use Java 25! This optimization pack already supports Java 25."
+zh_cn = "§4加入可以大幅度提高实体碰撞优化 超级老的CPU使用后果自负！可能不支持手机 请使用java25！本优化包已经支持java25"

@@ -1,0 +1,26 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/7546/908/dynamic-fps-3.11.4%2Bminecraft-1.20.0-forge.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "dynamic"
+type = "mod"
+file_name = "dynamic-fps-3.11.4+minecraft-1.20.0-forge.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§4(Client-side)Dynamic FPS"
+zh_cn = "§4(客户端)动态FPS"
+
+[tip]
+en_us = "§4(Client-side)(Do not install Penetration! It will cause severe network lag!) Automatically reduces the game's frame rate to 1 FPS when unfocused or completely stops rendering when minimized. Fixes a vanilla bug that causes the game to consume more performance in the background, and also prevents any rendering during resource pack reloads."
+zh_cn = "§4(客户端)（穿透不要装！网络会非常卡！）自动降低游戏在未聚焦（降至 1 FPS）或最小化（完全不渲染）时的帧数 修复原版游戏的一个会使游戏在后台占用更多性能的 Bug ，同时使得游戏在重载资源包时不渲染任何东西"

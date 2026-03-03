@@ -1,0 +1,26 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/4610/474/NoChatReports-FORGE-1.20.1-v2.2.2.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "Aizistral"
+type = "mod"
+file_name = "NoChatReports-FORGE-1.20.1-v2.2.2.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "(server/Client-side)NoChatReports"
+zh_cn = "(服/客户端)禁用聊天举报(NoChatReports)"
+
+[tip]
+en_us = "(server/Client-side)Disable chat reporting (slightly optimizes TPS and tick)"
+zh_cn = "(服/客户端)禁用聊天举报（略微优化TPS和tick）"

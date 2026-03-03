@@ -1,0 +1,25 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = "326652"
+curseforge_fileid = "5470032"
+directUrl = ""
+priority = "curseforge"
+
+[basic]
+identifier = "Cupboard"
+type = "mod"
+file_name = "cupboard-1.20.1-2.7.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§2(server/Client-side)Cupboard"
+
+[tip]
+en_us = "§2(server/Client-side)Cupboard"
+zh_cn = "§2(服/客户端)Cupboard前置"

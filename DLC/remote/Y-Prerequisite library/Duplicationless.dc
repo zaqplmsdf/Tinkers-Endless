@@ -1,0 +1,26 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = "1380105"
+curseforge_fileid = "7488665"
+directUrl = ""
+priority = "curseforge"
+
+[basic]
+identifier = "Duplicationless"
+type = "mod"
+file_name = "duplicationless-1.20.1-1.1.5.jar"
+appliedTarget = "mods"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§2(server/Client-side)Duplicationless"
+
+[tip]
+en_us = "§2(server/Client-side)Duplicationless"
+zh_cn = "§2(服/客户端)基础库"

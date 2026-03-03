@@ -1,0 +1,26 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/5929/264/servercore-forge-1.5.2%2B1.20.1.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "servercore"
+type = "mod"
+file_name = "servercore-forge-1.5.2+1.20.1.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§2(server/Client-side)ServerCore"
+zh_cn = "§2(服/客户端)ServerCore"
+
+[tip]
+en_us = "§2(server/Client-side)This is a server optimization mod, but it also works in both multiplayer servers and single-player games."
+zh_cn = "§2(服/客户端)这是一个优化服务器的模组，不过其同时适用于服务器和单人游戏"

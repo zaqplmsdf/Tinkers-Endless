@@ -1,0 +1,26 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/7288/118/exdeorum-1.48.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "exdeorum"
+type = "mod"
+file_name = "exdeorum-1.48.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "Ex Deorum"
+zh_cn = "无中生有：神赐"
+
+[tip]
+en_us = "Special DLC mod used in the Sky Island gameplay"
+zh_cn = "（服务端需装、客户端需装）空岛玩法使用的特殊DLCmod"

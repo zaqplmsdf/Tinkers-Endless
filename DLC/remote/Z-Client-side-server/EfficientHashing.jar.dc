@@ -1,0 +1,27 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://cdn-alt.modrinth.com/data/zEcqovh2/versions/7574Vy3f/efficient_hashing-forge-1.0.0%2B1.20.1-mod.jar"
+priority = "curseforge,modrinth,directurl"
+
+[basic]
+identifier = "EfficientHashing"
+type = "mod"
+file_name = "efficient_hashing-forge-1.0.0+1.20.1-mod.jar"
+appliedTarget = "mods"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+alarm = false
+UserRemoved = true
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§2(server/Client-side)EfficientHashing"
+
+[tip]
+en_us = "§2(server/Client-side)Highly unlikely to encounter issues Replaced hash algorithm"
+zh_cn = "§2(服/客户端)大概率不会出现问题 取代了哈希算法"

@@ -1,0 +1,81 @@
+enable = [
+  "acceleratedrecoiling",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
+]
+conflicts = [
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
+]
+
+[DisplayName]
+  en_us = "§6[Optional] SlashBlade Legacy Version Optimization"
+  zh_cn = "§6[可选]拔刀剑低版本优化"
+
+[tip]
+  en_us = """§2[Performance: Extremely High]  
+§6[Compatibility: Relatively High]  
+
+§6[Optional]§4Incompatible with computers below OpenGL 4.6 Do not install unless using an older version of SlashBlade Incompatible with mobile devices and MacOS  
+§2SlashBlade Legacy Version Optimization"""
+  zh_cn = """§2[性能:极高]
+§6[兼容:偏高]
+
+§6[可选]§4不兼容OpenGL4.6以下的电脑！不是低版本拔刀剑别装！不兼容手机、MacOS
+§2拔刀剑低版本优化"""

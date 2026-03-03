@@ -1,0 +1,26 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/7471/439/adaptiveoptimization-8.5.3.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "adaptiveoptimization"
+type = "mod"
+file_name = "adaptiveoptimization-8.5.3.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§4(Client-side)Adaptive Optimization(reborn)"
+zh_cn = "§4(客户端)自适应优化(重生)"
+
+[tip]
+en_us = "§4(Client-side)Turn Minecraft into a self-optimizing experience—no configuration required (AI mods may cause issues)"
+zh_cn = "§4(客户端)将Minecraft变成一个自我优化的体验——无需配置(AI模组可能会出问题)"

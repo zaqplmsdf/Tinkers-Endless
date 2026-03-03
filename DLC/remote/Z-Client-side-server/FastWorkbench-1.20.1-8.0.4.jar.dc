@@ -1,0 +1,26 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/5101/229/FastWorkbench-1.20.1-8.0.4.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "FastWorkbench"
+type = "mod"
+file_name = "FastWorkbench-1.20.1-8.0.4.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§6(server/Client-side)FastWorkbench"
+zh_cn = "§6(服/客户端)工作台性能优化"
+
+[tip]
+en_us = "§6(server/Client-side)slightly optimizes TPS and tick Improves crafting performance, §4but may cause workbench crafting to fail (items not showing up)"
+zh_cn = "§6(服/客户端)略微优化TPS和tick 提高合成效率，§4但可能会导致工作台合成失效（无法显示物品）服务器会导致TPS骤减！"

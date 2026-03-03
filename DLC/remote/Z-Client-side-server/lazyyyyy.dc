@@ -1,0 +1,28 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://cdn-alt.modrinth.com/data/U8A8WZbk/versions/9vBKElli/lazyyyyy-lexforge-core-0.14.19.jar"
+priority = "curseforge,modrinth,directurl"
+
+[basic]
+identifier = "lazyyyyy"
+type = "mod"
+file_name = "lazyyyyy-lexforge-core-0.14.19.jar"
+appliedTarget = "mods"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+alarm = false
+UserRemoved = true
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§2(server/Client-side)lazyyyyy"
+
+[tip]
+en_us = "§2(server/Client-side)"
+zh_cn = """§2(服/客户端)加快大型整合包启动速度、减少加载卡顿
+§4前置:Kotlin for Forge"""

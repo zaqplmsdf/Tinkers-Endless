@@ -1,0 +1,26 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/5723/247/betterfpsdist-1.20.1-6.0.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "betterfpsdist"
+type = "mod"
+file_name = "betterfpsdist-1.20.1-6.0.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§2(Client-side)Better Fps - Render Distance"
+
+[tip]
+en_us = "§2This mod changes the render distance to a 3D spherical radius, which prevents certain blocks from rendering. The horizontal stretch can be adjusted via configuration or video settings—higher stretch values reduce visibility of caves below, especially distant ones. It can prevent approximately 10% to 35% of blocks from rendering, thereby improving FPS. Do not use this if you play Skyblock!"
+zh_cn = """§2此模组改为 3D 圆形半径，这样便阻止了部分方块的渲染。
+可以通过配置或视频选项水平修改伸展度伸展度越高，下方能看见的洞穴就越少，尤其是远处的洞穴。可阻止大约 10% - 35% 的方块渲染，从而提供 FPS 提升。§4玩地平线的别用！"""

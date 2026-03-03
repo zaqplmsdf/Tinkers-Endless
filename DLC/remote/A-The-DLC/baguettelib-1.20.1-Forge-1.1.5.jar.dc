@@ -1,0 +1,25 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/7287/505/baguettelib-1.20.1-Forge-1.1.5.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "BaguetteLib"
+type = "mod"
+file_name = "baguettelib-1.20.1-Forge-1.1.5.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "BaguetteLib"
+
+[tip]
+en_us = "The prerequisite for the Corpse Curios API compatible mod"
+zh_cn = "（服务端需装、客户端需装）遗体Curios API兼容mod的前置（如果你需要开启死亡不掉落请不要开启遗体系列mod）"

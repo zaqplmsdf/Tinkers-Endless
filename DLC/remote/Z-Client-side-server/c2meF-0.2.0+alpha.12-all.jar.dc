@@ -1,0 +1,29 @@
+[download]
+modrinth_projectid = "yE4MbG65"
+modrinth_versionid = "h9trYS7V"
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = ""
+priority = "modrinth"
+
+[basic]
+identifier = "C2MEF"
+type = "mod"
+file_name = "c2meF-0.2.0+alpha.12-all.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§4(server/Client-side)C2MEF-forge"
+
+[tip]
+en_us = """§4(server/Client-side)Compatibility:Low
+§2Performance:High
+Incompatible with certain terrains. Installing tfthreadsafetyaddon enables support for Twilight Forest."""
+zh_cn = """§4(服/客户端)兼容:低
+§2性能:高
+和某些地形不支持，安装tfthreadsafetyaddon可支持暮色森林"""

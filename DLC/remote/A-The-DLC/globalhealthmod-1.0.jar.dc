@@ -1,0 +1,26 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://cdn-alt.modrinth.com/data/toIhKPSa/versions/edU6ePz9/globalhealthmod-1.0.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "Health"
+type = "mod"
+file_name = "globalhealthmod-1.0.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "Global Mob Health Multiplier"
+zh_cn = "全局生物血量倍率"
+
+[tip]
+en_us = "Default ten times the creature's health points"
+zh_cn = "（服务端需装、客户端需装）默认十倍生物血量"

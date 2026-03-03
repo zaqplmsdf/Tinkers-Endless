@@ -1,0 +1,26 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/4894/789/chunksending-1.20.1-2.8.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "ChunkSending"
+type = "mod"
+file_name = "chunksending-1.20.1-2.8.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "(server/Client-side)Chunk Sending"
+zh_cn = "(服/客户端)区块发送优化"
+
+[tip]
+en_us = "Cupboard server-side compatible (not needed for singleplayer)"
+zh_cn = "前置：Cupboard 穿透+服务端可用（单人无效可以不用）"

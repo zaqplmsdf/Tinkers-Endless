@@ -1,0 +1,26 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/4863/626/BetterF3-7.0.2-Forge-1.20.1.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "betterf3"
+type = "mod"
+file_name = "BetterF3-7.0.2-Forge-1.20.1.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§2(Client-side)betterf3"
+zh_cn = "§2(客户端)更好的f3"
+
+[tip]
+en_us = "§2(Client-side)betterf3"
+zh_cn = "§2(客户端)简约了大部分信息可以无脑开不会掉很多帧"

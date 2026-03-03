@@ -1,0 +1,26 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/4600/514/DisenchantmentEditTable-1.20-1.1.2.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "qvmotai"
+type = "mod"
+file_name = "DisenchantmentEditTable-1.20-1.1.2.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "Disenchantment Edit Table"
+zh_cn = "祛魔编辑台"
+
+[tip]
+en_us = "Slightly affects the balance"
+zh_cn = "（服务端需装、客户端需装）略微影响平衡"

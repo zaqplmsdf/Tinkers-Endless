@@ -1,0 +1,26 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://cdn.modrinth.com/data/qthuEuVy/versions/wPOb8yEG/CullLessLeaves-Reforged-1.20.1-1.0.5.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "CullLessLeaves-Reforged"
+type = "mod"
+file_name = "CullLessLeaves-Reforged-1.20.1-1.0.5.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§2(Client-side)Cull Less Leaves Reforged"
+zh_cn = "§2(客户端)更好的树叶重置版"
+
+[tip]
+en_us = "§2(Client-side)Cull Less Leaves Reforged"
+zh_cn = "§2(客户端)略微提高帧率 开启之后再emb性能下面会有一个选项，§4一般情况画质即便是1树叶画质也不会缩减太多"

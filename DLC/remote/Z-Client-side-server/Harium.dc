@@ -1,0 +1,27 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/7514/830/Harium-mc1.20.1.jar"
+priority = "curseforge,modrinth,directurl"
+
+[basic]
+identifier = "Harium"
+type = "mod"
+file_name = "Harium-mc1.20.1.jar"
+appliedTarget = "mods"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+alarm = false
+UserRemoved = true
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§6(server/Client-side)Harium"
+
+[tip]
+en_us = "§6(server/Client-side)Harium"
+zh_cn = "§6(服/客户端)镭的分支更新到了最新版"

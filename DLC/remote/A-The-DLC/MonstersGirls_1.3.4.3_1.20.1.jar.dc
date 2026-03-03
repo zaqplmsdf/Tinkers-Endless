@@ -1,0 +1,25 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/7071/708/MonstersGirls_1.3.4.3_1.20.1.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "MG_1"
+type = "mod"
+file_name = "MonstersGirls_1.3.4.3_1.20.1.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "Monsters&Girls"
+
+[tip]
+en_us = "This module adds 11 types of mushroom girls with different abilities and several other special monster girls."
+zh_cn = "（服务端需装、客户端需装）此模组添加了 11 种具有不同能力的蘑菇娘和其他的几种特殊怪物娘。"

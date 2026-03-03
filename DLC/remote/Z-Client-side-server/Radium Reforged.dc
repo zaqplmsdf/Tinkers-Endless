@@ -1,0 +1,26 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/5706/69/radium-mc1.20.1-0.12.4%2Bgit.26c9d8e.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "radium"
+type = "mod"
+file_name = "radium-mc1.20.1-0.12.4+git.26c9d8e.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§6(server/Client-side)radium"
+zh_cn = "§6(服/客户端)radium（镭）"
+
+[tip]
+en_us = "§6(server/Client-side)Current compatibility is clearly no longer suitable for Radium, even though the author has disabled certain mixins—Radium remains powerful nonetheless!"
+zh_cn = "§6(服/客户端)目前的兼容性很显然已经不适合镭了即便是作者禁用了某些mixin  但是镭依旧是强力的！"

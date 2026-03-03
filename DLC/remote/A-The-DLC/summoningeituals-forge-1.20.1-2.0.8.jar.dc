@@ -1,0 +1,26 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/5446/506/summoningrituals-forge-1.20.1-2.0.8.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "summon"
+type = "mod"
+file_name = "summoningrituals-forge-1.20.1-2.0.8.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "Summoning Rituals"
+zh_cn = "召唤仪式"
+
+[tip]
+en_us = "(Required for server installation, required for client installation) Essential for skyblock gameplay, optional for normal gameplay, entities can be summoned through rituals"
+zh_cn = "（服务端需装、客户端需装）空岛玩法必备，正常玩法可选，可通过仪式召唤实体"
