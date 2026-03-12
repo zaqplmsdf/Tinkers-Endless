@@ -36,6 +36,7 @@
 			y: -3.5d
 		}
 		{
+			description: ["需启用&9无中生有：神赐&r和&9召唤仪式&rDLC"]
 			id: "66C07E3E85019556"
 			rewards: [
 				{
@@ -391,6 +392,10 @@
 			description: [
 				"空岛玩法用于召唤BOSS的必要措施"
 				""
+				"在祭坛上放置&e召唤物&r，祭坛规定的范围内存在&e祭品实体&r（&c仪式不需要祭品则可无视此条目&r）的情况下，放入&e催化剂&r（即最后消耗的&e单个物品&r）即可开始仪式"
+				""
+				"右侧为可召唤的列表"
+				""
 				"通过背包内对物品按U查看具体可召唤列表"
 			]
 			id: "50F96F0E3DDA98B0"
@@ -399,18 +404,22 @@
 				item: "summoningrituals:altar"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 2.0d
+			x: -10.0d
+			y: 4.0d
 		}
 		{
 			description: [
-				"是的，仍有部分物品需要使用凝矿兰获取"
+				"是的，仍有部分物品需要使用&e凝矿兰&r获取"
 				""
-				"链接魔力池后每隔一段时间可将周围的方块转化为其他方块"
+				"链接&e魔力池&r后每隔一段时间可将周围的方块转化为其他方块"
 				""
-				"在背包内对凝矿兰按U可查看具体列表"
+				"在背包内对&e凝矿兰&r按&1U&r可查看具体列表"
 				""
-				"重要的被转化方块：岩浆块、钴块、玛玉灵块"
+				"重要的被转化方块："
+				"&e岩浆块&r：原始岩浆块（75%）；火山核心（25%）"
+				"&e钴块&r：圆石（89.9%）；炫彩残骸（11.1%）"
+				"&e玛玉灵块&r：炫彩残骸（100%）"
+				"&e炫彩残骸&r：各种高级矿物"
 			]
 			id: "5919711936E77DA9"
 			tasks: [{
@@ -418,8 +427,8 @@
 				item: "botania:orechid"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 3.0d
+			x: -3.5d
+			y: 4.0d
 		}
 		{
 			description: [
@@ -427,15 +436,15 @@
 				""
 				"需要使用强敌战利品制作，制作后可进行复制"
 			]
+			icon: "exdeorum:diamond_mesh"
 			id: "1D2B684D95537257"
 			tasks: [{
-				id: "21CF492FC7FB6819"
-				item: "wqjy:lv_1_mesh"
-				type: "item"
+				id: "5644F2A58FD419F1"
+				type: "checkmark"
 			}]
 			title: "材料筛网"
-			x: -5.5d
-			y: 2.0d
+			x: -4.0d
+			y: -3.5d
 		}
 		{
 			can_repeat: true
@@ -738,6 +747,598 @@
 			title: "远古工具兑换"
 			x: -8.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["1D2B684D95537257"]
+			description: [
+				"&e巨人之锤&r：由&d僵尸突变体&r掉落"
+				""
+				"&e苦力怕碎片&r：由击杀&d苦力怕突变体&r生成的&d苦力怕仆从蛋&r掉落"
+				""
+				"&e骷髅突变体肢体&r、&e骷髅突变体肋骨&r：&9右键&r&d骷髅突变体&r死亡后散落的&d肢体&r获取"
+			]
+			id: "276478C9F9B77414"
+			tasks: [{
+				id: "63EE1809015AA3A9"
+				item: "wqjy:lv_1_mesh"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["276478C9F9B77414"]
+			id: "24DD2B7A1913140B"
+			tasks: [{
+				id: "2AFDC63704D204BA"
+				item: "wqjy:lv_2_mesh"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["24DD2B7A1913140B"]
+			id: "5929F6FFDE44311C"
+			tasks: [{
+				id: "7DAF346EE7950EF8"
+				item: "wqjy:lv_3_mesh"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5929F6FFDE44311C"]
+			id: "1ABD2BEA8C477D1F"
+			tasks: [{
+				id: "69A57AC92A2A30A6"
+				item: "wqjy:lv_4_mesh"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1ABD2BEA8C477D1F"]
+			description: [
+				"所需物品均有灾变BOSS掉落"
+				""
+				"灾变BOSS的&e刷怪蛋&r可通过&eLV4筛网&r筛取获得"
+			]
+			id: "5B5BBED5E3B50258"
+			tasks: [{
+				id: "5F13A658B6F91AC7"
+				item: "wqjy:lv_5_mesh"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&b催化剂&r：箭"
+				""
+				"&e仪式物品&r：骨头*16；铜币*1"
+				"&c祭品&r：骷髅*1"
+			]
+			icon: {
+				Count: 1
+				id: "mutantmonsters:mutant_skeleton_skull"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "42D5FE8FBEDF8490"
+			tasks: [{
+				id: "78A17624696F09FF"
+				title: "骷髅突变体"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"&b催化剂&r：真正的脑子"
+				""
+				"&e仪式物品&r：腐肉*16；铜币*1"
+				"&c祭品&r：僵尸*1"
+			]
+			icon: {
+				Count: 1
+				id: "mutantmonsters:hulk_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "238AF97E7D02A7B0"
+			tasks: [{
+				id: "6A5F6A511439FAE3"
+				title: "僵尸突变体"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"&b催化剂&r：TNT"
+				""
+				"&e仪式物品&r：火药*16；铜币*1"
+				"&c祭品&r：苦力怕*1"
+			]
+			icon: {
+				Count: 1
+				id: "mutantmonsters:creeper_shard"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4A3572978EF0C007"
+			tasks: [{
+				id: "2A75D0D4B3B60D2E"
+				title: "苦力怕突变体"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"用于获取&e灵魂粉尘&r"
+				""
+				"&b催化剂&r：灵魂火把"
+				""
+				"&e仪式物品&r：灵魂沙*8"
+				"&c祭品&r："
+			]
+			id: "5842B81E1B4FA490"
+			tasks: [{
+				id: "1A72FCFAC9752AD9"
+				item: "hmag:ghost_spawn_egg"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"&b催化剂&r：末影之眼"
+				""
+				"&e仪式物品&r：铜币*1"
+				"&c祭品&r：绵羊*10"
+			]
+			icon: "iceandfire:cyclops_skull"
+			id: "365F813A325A5D33"
+			tasks: [{
+				id: "6CC5D17BA5D608C1"
+				title: "独眼巨人"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"&b催化剂&r：毒之骨"
+				""
+				"&e仪式物品&r：铜币*1；毒液瓶*16"
+				"&c祭品&r："
+			]
+			icon: "iceandfire:hydra_heart"
+			id: "07A3927CC07CD9E6"
+			tasks: [{
+				id: "1A308C5EE1AD8288"
+				title: "九头蛇"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"&b催化剂&r：蛇发"
+				""
+				"&e仪式物品&r：石头*16；铜币*1"
+				"&c祭品&r："
+			]
+			icon: {
+				Count: 1
+				id: "iceandfire:gorgon_head"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "797EFBFDC4F859DA"
+			tasks: [{
+				id: "3908DF99F1B37822"
+				title: "蛇发女妖"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 5.5d
+		}
+		{
+			description: [
+				"&b催化剂&r：凋灵之眼"
+				""
+				"&e仪式物品&r：噬生之骨*64；灵魂沙*64；凋零骷髅头颅*1"
+				"&c祭品&r："
+			]
+			icon: "legendary_monsters:withered_bone"
+			id: "3F1267E7154D5318"
+			tasks: [{
+				id: "0FCB6FBD188778D1"
+				title: "凋灵恶煞"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"&b催化剂&r：沙暴之眼"
+				""
+				"&e仪式物品&r：沙子*64；砂岩*64；TNT*64"
+				"&c祭品&r："
+			]
+			icon: "legendary_monsters:crystal_of_sandstorm"
+			id: "5F5C7A4A1E358A1C"
+			tasks: [{
+				id: "080EF44E0F5ADE36"
+				title: "沙丘哨兵"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&b催化剂&r：阜骨之眼"
+				""
+				"&e仪式物品&r：石头*64；凝灰岩*64；深板岩*64"
+				"&c祭品&r："
+			]
+			icon: {
+				Count: 1
+				id: "legendary_monsters:anchor_handle"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "250CD450FDB8ED96"
+			tasks: [{
+				id: "0DDA651240A26D36"
+				title: "荒古守卫者"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"&b催化剂&r：归途指南针"
+				""
+				"&e仪式物品&r：长者手杖*1；奥术源质*64；普通墨水*64"
+				"&c祭品&r："
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:necronomicon_spell_book"
+				tag: {
+					"irons_spellbooks:affinity_data": {
+						bonuses: {
+							"irons_spellbooks:raise_dead": 2
+						}
+					}
+					"irons_spellbooks:spell_container": {
+						data: [
+							{
+								id: "irons_spellbooks:blood_slash"
+								index: 0
+								level: 5
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:blood_step"
+								index: 1
+								level: 5
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:ray_of_siphoning"
+								index: 2
+								level: 5
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:blaze_storm"
+								index: 3
+								level: 5
+								locked: 1b
+							}
+						]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "53D9AAFD352459EA"
+			tasks: [{
+				id: "77E8FA1F9551815A"
+				title: "死者之王"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&b催化剂&r：苔藓之眼"
+				""
+				"&e仪式物品&r：苔藓块*64；杜鹃花丛*64；黏土块*64"
+				"&c祭品&r："
+			]
+			icon: "legendary_monsters:nature_crystal"
+			id: "7041A1D200FA95DE"
+			tasks: [{
+				id: "451E2031DBB2AB6D"
+				title: "蔓生巨像"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"&b催化剂&r：冰冻之眼"
+				""
+				"&e仪式物品&r：冰*64；浮冰*64；蓝冰*64"
+				"&c祭品&r："
+			]
+			icon: "legendary_monsters:frozen_rune"
+			id: "4A51DC5F89A44890"
+			tasks: [{
+				id: "45E01D7B53B1A7ED"
+				title: "霜冻傀儡"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"&b催化剂&r：鬼魂之眼"
+				""
+				"&e仪式物品&r：灵魂粉尘*64；灵魂沙*64；灵魂火把*64"
+				"&c祭品&r："
+			]
+			icon: "legendary_monsters:corrupted_soul"
+			id: "3EB01960EEE8AC67"
+			tasks: [{
+				id: "1F45F28D1C2707D5"
+				title: "堕落圣骑"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"&b催化剂&r：潜影之眼"
+				""
+				"&e仪式物品&r：幻翼膜*64；潜影壳*64；瓶中潜影弹*1"
+				"&c祭品&r："
+			]
+			icon: "legendary_monsters:large_shulker_shell"
+			id: "0ADA1C6AB618FB45"
+			tasks: [{
+				id: "4E6847E26B91CAF2"
+				title: "潜影拟态者"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"&b催化剂&r：岩浆之眼"
+				""
+				"&e仪式物品&r：岩浆水晶*64；岩浆膏*64；岩浆块*64"
+				"&c祭品&r："
+			]
+			icon: "legendary_monsters:lava_eaters_skin"
+			id: "58D0745D8EE24244"
+			tasks: [{
+				id: "3CAF6AF1CD0D35DB"
+				title: "噬焰蜥"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"&b催化剂&r：紫颂之眼"
+				""
+				"&e仪式物品&r：紫颂果*64；爆裂紫颂果*64；紫颂花*64"
+				"&c祭品&r："
+			]
+			icon: "legendary_monsters:chorus_crystal"
+			id: "4F36A419945B0243"
+			tasks: [{
+				id: "3B3B90A7F70F313D"
+				title: "紫颂遣使"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			description: [
+				"&b催化剂&r：尸骨之眼"
+				""
+				"&e仪式物品&r：骨头*64；骨粉*64；骨块*64"
+				"&c祭品&r："
+			]
+			icon: "legendary_monsters:dinosaur_bone"
+			id: "18C00443810AD472"
+			tasks: [{
+				id: "6E14C52853C1BE47"
+				title: "骸骨巨龙"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			description: [
+				"&b催化剂&r：大气之眼"
+				""
+				"&e仪式物品&r：雪块*64；雷电粒子*64；寒风境云*64"
+				"&c祭品&r："
+			]
+			icon: "legendary_monsters:air_rune"
+			id: "6C1DFF49111673AC"
+			tasks: [{
+				id: "22ACB67BA75CB871"
+				title: "云磊魔像"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"&b催化剂&r：末影之眼"
+				""
+				"&e仪式物品&r：末影珍珠*16；铜币*1"
+				"&c祭品&r：末影人*1"
+			]
+			icon: {
+				Count: 1
+				id: "mutantmonsters:endersoul_hand"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "08E99A2A82FB5D5C"
+			tasks: [{
+				id: "04DC2EB1F256F924"
+				title: "末影人突变体"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"65835E484BF41659"
+				"24DD2B7A1913140B"
+			]
+			description: ["用于召唤黑死神"]
+			id: "3639CC2846E80C59"
+			tasks: [{
+				id: "36B056418D3A7491"
+				item: "rats:plague_tome"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			description: ["可通过等级筛网筛出老鼠相关物品"]
+			id: "65835E484BF41659"
+			tasks: [{
+				id: "0DC1357C792FBFB4"
+				item: "rats:compressed_garbage"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"击杀&ebetter米诺菇&r获得"
+				""
+				"流程如下："
+				""
+				"1：合成&e哞菇刷怪蛋&r，使用&e突变药水&r将&d哞菇&r转化为&d米诺菇"
+				"&r（可选流程：直接前往&a暮色森林&r击杀&d米诺菇&r）"
+				""
+				"2：使用&d米诺菇&r掉落的&e蘑菇钥匙&r和&e蘑菇试炼刷怪笼&r召唤&dbetter米诺菇&r"
+			]
+			id: "26BDAD58AE62DE90"
+			tasks: [{
+				id: "298B619C02781806"
+				item: "better_minoshroomtaur:maze_diamond"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"击杀&d突变末影人&r时，会生成&d末影残片&r（淡紫色半透明实体），"
+				""
+				"使用&e末影之眼&r&9右键&r&d末影残片&r可驯服末影残片，"
+				""
+				"当玩家&9丢弃&r（不是右击使用）&e末影之眼&r时，"
+				"身边每有n个&d“驯服”的末影残片&r，就给予玩家一个耐久（60×n，最多240）的&d末影之手&r。"
+			]
+			id: "63DFE895B20B16D6"
+			tasks: [{
+				id: "418147AC80D97058"
+				item: {
+					Count: 1
+					id: "mutantmonsters:endersoul_hand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"由冥煌龙掉落"
+				""
+				"冥煌龙召唤流程："
+				"1：&eLV3筛网&r筛&e压缩苔藓块&r获得&e南洋杉树苗&r，种植后使用&e剪刀&r采集获得&e南洋杉树枝&r"
+				""
+				"2：烧制&e南洋杉树枝&r获得&e南洋杉树脂&r，9个&e南洋杉树脂&r可以合成一个&e琥珀&r方块，"
+				"破坏&e琥珀&r有1.5%基础概率获得&e琥珀珍品&r（受&5时运&r影响，时运3为5%，或使用&e砧板&r固定5%概率），"
+				"此时你就可以使用&e琥珀珍品&r和通过&eLV1筛网&r获得的&e沉重骨头&r合成&e灾厄触媒&r"
+				""
+				"3：使用&e凝矿兰&r将&e岩浆块&r转化为&e火山核心&r，然后将&e灾厄触媒&r扔到&e火山核心&r附近召唤"
+				""
+				"注意：如果&e火山触媒&r四周相邻的&e熔岩&r数量&9不大于3&r（&c无论是否为熔岩源&r），"
+				"则会在60至99游戏刻（随机时间）后&9再次检查&r。"
+				"如果此时周围&e熔岩&r数量仍然不大于3，则该方块会转变为&e溢流玄武岩&r。"
+			]
+			id: "519ABC46DD42A410"
+			tasks: [{
+				id: "341DB39219CF87FC"
+				item: "alexscaves:tectonic_shard"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			id: "31AE1D83501D6E81"
+			tasks: [{
+				id: "6A60F462449C4E80"
+				item: "wqjy:lv_sand"
+				type: "item"
+			}]
+			title: "特殊筛制物"
+			x: -3.0d
+			y: -3.5d
 		}
 	]
 	subtitle: ["为什么选无中生有？因为找不到别的合适的了"]

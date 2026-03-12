@@ -1600,6 +1600,69 @@
 			x: 0.0d
 			y: 7.0d
 		}
+		{
+			dependencies: ["3BC0C9050688A25E"]
+			description: ["将&e眼之水晶&r放入&e传送装置&r召唤"]
+			id: "74DED3267C697B0C"
+			rewards: [
+				{
+					id: "3DCBC2B7C2CBA1AE"
+					item: {
+						Count: 1
+						id: "legendary_monsters:atom_splitter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75D061F9A1D05990"
+					item: {
+						Count: 1
+						id: "legendary_monsters:the_tesseract"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "legendary_monsters:the_obliterator"
+				icon: {
+					Count: 1
+					id: "legendary_monsters:the_tesseract"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1982F4729CA86FA5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["43A031B552E8DA94"]
+			description: ["搜索&eSpace Station&r"]
+			hide_dependency_lines: true
+			id: "3BC0C9050688A25E"
+			rewards: [{
+				count: 16
+				id: "40A7C28205576622"
+				item: "legendary_monsters:eye_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "145F74350F6F8800"
+				item: "legendary_monsters:eye_crystal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
 	]
 	title: "·&d末地"
 }

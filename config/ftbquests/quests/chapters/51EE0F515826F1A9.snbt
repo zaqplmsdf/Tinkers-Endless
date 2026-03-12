@@ -598,7 +598,7 @@
 					type: "item"
 				}
 				{
-					id: "7B6D24E48E7459FB"
+					id: "4E6BEBB620690B36"
 					item: {
 						Count: 1
 						id: "minecraft:brown_shulker_box"
@@ -900,10 +900,10 @@
 											Damage: 0
 											display: {
 												Lore: [
-													"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"万剑归一！\"}],\"text\":\"\"}"
 													"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"右键发射循环剑刃\"}],\"text\":\"\"}"
 													"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"需要在工匠砧替换部件\"}],\"text\":\"\"}"
 													"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"作为暂时封禁重铸拔刀剑的补偿\"}],\"text\":\"\"}"
+													"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"工具名：“万剑归一”，物品名源自Terraria\"}],\"text\":\"\"}"
 												]
 												Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"red\",\"text\":\"天顶剑\"}],\"text\":\"\"}"
 											}
@@ -917,11 +917,11 @@
 											]
 											tic_modifiers: [
 												{
-													level: 2
+													level: 3
 													name: "tconstruct:cultivated"
 												}
 												{
-													level: 2
+													level: 3
 													name: "mushroom_daydream:ecological"
 												}
 												{
@@ -934,19 +934,20 @@
 												}
 											]
 											tic_multipliers: {
-												"tconstruct:attack_damage": 1.6f
-												"tconstruct:durability": 2.2f
+												"tconstruct:attack_damage": 1.5f
+												"tconstruct:durability": 2.0f
 											}
 											tic_persistent: { }
 											tic_stats: {
-												"tconstruct:attack_damage": 5.6f
-												"tconstruct:attack_speed": 2.75f
-												"tconstruct:durability": 198.0f
+												"sakuratinker:range": 5.0f
+												"tconstruct:attack_damage": 5.25f
+												"tconstruct:attack_speed": 2.0f
+												"tconstruct:durability": 240.0f
 												"tconstruct:mining_speed": 4.0f
 											}
 											tic_volatile_data: {
-												abilities: 2
-												upgrades: 2
+												abilities: 1
+												upgrades: 3
 											}
 										}
 									}
@@ -2351,7 +2352,7 @@
 		}
 		{
 			description: [
-				"未解锁的物品&4大部分都无法拾取&r，可借助&e拾取升级&r和&e磁铁升级&r暂时保存到背包里"
+				"未解锁的物品&4大部分都无法拾取&r且呈现&c红色问号&r的材质，可借助&e拾取升级&r和&e磁铁升级&r暂时保存到背包里"
 				""
 				"阶段任务位置："
 				""

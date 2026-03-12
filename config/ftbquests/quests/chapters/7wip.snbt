@@ -1,0 +1,1358 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "none"
+	filename: "7wip"
+	group: "3172704A8AED52C1"
+	icon: "minecraft:writable_book"
+	id: "6EA833F9595E79BE"
+	images: [
+		{
+			height: 1.0d
+			image: "tconstruct:gui/modifiers/luck"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "tconstruct:item/materials/silky_cloth"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/accept_gray"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependency: "64B42DB0F1B70407"
+			height: 1.0d
+			image: "ftblibrary:icons/accept"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "tconstruct:gui/modifiers/fortune"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "tconstruct:gui/modifiers/looting"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "artifacts:item/crystal_heart"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "create:item/goggles"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "tconstruct:gui/modifiers/melee/sharpness"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "tconstruct:gui/modifiers/melee/antiaquatic"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "tconstruct:gui/modifiers/melee/smite"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "tconstruct:gui/modifiers/melee/bane_of_sssss"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "tconstruct:gui/modifiers/harvest/haste"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "draconicevolution:module/wyvern_aqua_adapt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "tconstruct:gui/modifiers/armor/respiration"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "tconstruct:gui/modifiers/harvest/autosmelt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "tconstruct:gui/modifiers/melee/severing"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "tconstruct:item/materials/reinforcement/emerald"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/netherite_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "tconstruct:gui/modifiers/unbreakable"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "tinkersinnovation:item/modifiers/eternal_weaker"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/echo_shard"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/totem_of_undying"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ticex:gui/modifiers/hidden_proud"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ticex:gui/modifiers/konpaku"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "ticex:gui/modifiers/koshirae"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ticex:gui/modifiers/evolved"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "draconicevolution:module/draconic_energy_link"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ticex:gui/modifiers/embossment"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/writable_book"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -4.0d
+		}
+	]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&d材料槽1&r：&e丝绢&r*1&r"
+				"                                                             "
+				"&d材料槽2&r：&e丝绢&r*1&r"
+				"                                                            "
+				"&d材料槽3&r：&e丝绢&r*1&r"
+				"                                                            "
+				"&d材料槽4&r：&e丝绢&r*1&r"
+				"                                                            "
+				"&d材料槽5&r：&e丝绢&r*1&r"
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:invisibility_ring"
+				tag: {
+					IsInitialized: 1b
+					baublesreforked.ModifierId: "wind"
+					baublesreforked.ModifierUUID: "4f30f0e4-6097-47f6-9d38-af87ec91b38c"
+				}
+			}
+			id: "4B42BC2892F404AF"
+			subtitle: "精准采集"
+			tasks: [{
+				id: "54FED8BD016B906A"
+				type: "checkmark"
+			}]
+			title: "丝触强化"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			icon: "minecraft:observer"
+			id: "4B4CB53F3BCEA75D"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "54688B217BED509D"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			shape: "gear"
+			tasks: [{
+				disable_toast: true
+				id: "41E3A5F80C61918F"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"1级："
+				""
+				"&d材料槽1&r：&e铜锭&r*1&r&9或&e矢车菊/兰花&r*1"
+				""
+				"&d材料槽2&r：&e铜锭&r*1&r&9或&r&e兔子脚&r*1"
+				""
+				"&d材料槽3&r：&e矢车菊/兰花&r*1&r&9或&e金胡萝卜&r*1"
+				""
+				"&d材料槽4&r：&e青金石块&r*1&r&9或&e钻石&r*1"
+				""
+				"&d材料槽5&r：&e青金石块&r*1&r&9或&e命名牌&r*1"
+				""
+				"{@pagebreak}"
+				"2级："
+				""
+				"&d材料槽1&r：&e金锭&r*1&r"
+				""
+				"&d材料槽2&r：&e金胡萝卜&r*1&r"
+				""
+				"&d材料槽3&r：&e金锭&r*1&r"
+				""
+				"&d材料槽4&r：&e末影珍珠&r*1&r"
+				""
+				"&d材料槽5&r：&e末影珍珠&r*1&r"
+				""
+				"{@pagebreak}"
+				"3级："
+				""
+				"&d材料槽1&r：&e玫瑰金锭&r*1&r"
+				""
+				"&d材料槽2&r：&e兔子脚&r*1&r"
+				""
+				"&d材料槽3&r：&e玫瑰金锭&r*1&r"
+				""
+				"&d材料槽4&r：&e钻石&r*1&r"
+				""
+				"&d材料槽5&r：&e命名牌&r*1&r"
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:invisibility_ring"
+				tag: {
+					IsInitialized: 1b
+					baublesreforked.ModifierId: "wind"
+					baublesreforked.ModifierUUID: "4f30f0e4-6097-47f6-9d38-af87ec91b38c"
+				}
+			}
+			id: "1DDD2E64C3A852F0"
+			subtitle: "挖矿方块、击杀生物、钓鱼时可以获得更多的收获"
+			tasks: [{
+				id: "1DD8FC47C94A343B"
+				type: "checkmark"
+			}]
+			title: "幸运强化"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"将根据材料槽位置描述配方，强化均为&c无序配方&r，仅为了&9直观体现&r，及符合&9jei配方&r"
+				""
+				"同一强化的同一等级拥有不同配方时会用&9&l或&r&r隔开配方"
+				""
+				"如：&e骨头&r*1&9或&r&e木棍&r*1"
+				""
+				"为&9配方1&r的对应位置需求&e骨头&r，&9配方2&r的对应位置需要&e木棍"
+				"&r{image:ftbquests:textures/picture/011.png width:100 height:100 align:center}"
+			]
+			icon: "irons_spellbooks:invisibility_ring"
+			id: "64B42DB0F1B70407"
+			tasks: [{
+				id: "3A35D64ADCE8D34C"
+				type: "checkmark"
+			}]
+			title: "说明"
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&d材料槽1&r：&e远古残骸&r*1&r"
+				""
+				"&d材料槽2&r：&e&r*&r"
+				""
+				"&d材料槽3&r：&e&r*&r"
+				""
+				"&d材料槽4&r：&e&r*&r"
+				""
+				"&d材料槽5&r：&e&r*&r"
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:invisibility_ring"
+				tag: {
+					IsInitialized: 1b
+					baublesreforked.ModifierId: "wind"
+					baublesreforked.ModifierUUID: "4f30f0e4-6097-47f6-9d38-af87ec91b38c"
+				}
+			}
+			id: "3640F244EB2FBD3D"
+			tasks: [{
+				id: "2AF0C153EBE43A2C"
+				type: "checkmark"
+			}]
+			title: "时运强化"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&d材料槽1&r：&e工程师护目镜&r*1&r"
+				""
+				"&d材料槽2&r：&e&r*&r"
+				""
+				"&d材料槽3&r：&e&r*&r"
+				""
+				"&d材料槽4&r：&e&r*&r"
+				""
+				"&d材料槽5&r：&e&r*&r"
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:invisibility_ring"
+				tag: {
+					IsInitialized: 1b
+					baublesreforked.ModifierId: "wind"
+					baublesreforked.ModifierUUID: "4f30f0e4-6097-47f6-9d38-af87ec91b38c"
+				}
+			}
+			id: "69B7DEE605787CF1"
+			subtitle: "头盔获得工程师护目镜的能力"
+			tasks: [{
+				id: "444CEDC2954AEF0B"
+				type: "checkmark"
+			}]
+			title: "工程师护目镜强化"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&d材料槽1&r：&e河豚&r*5&r"
+				""
+				"&d材料槽2&r：&e&r*&r"
+				""
+				"&d材料槽3&r：&e&r*&r"
+				""
+				"&d材料槽4&r：&e&r*&r"
+				""
+				"&d材料槽5&r：&e&r*&r"
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:invisibility_ring"
+				tag: {
+					IsInitialized: 1b
+					baublesreforked.ModifierId: "wind"
+					baublesreforked.ModifierUUID: "4f30f0e4-6097-47f6-9d38-af87ec91b38c"
+				}
+			}
+			id: "49AFB047D601CC52"
+			subtitle: "增加对水生生物的伤害"
+			tasks: [{
+				id: "6F71EE61490600CE"
+				type: "checkmark"
+			}]
+			title: "水生杀手强化"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&d材料槽1&r：&e绿宝石块&r*5&r"
+				""
+				"&d材料槽2&r：&e&r*&r"
+				""
+				"&d材料槽3&r：&e&r*&r"
+				""
+				"&d材料槽4&r：&e&r*&r"
+				""
+				"&d材料槽5&r：&e&r*&r"
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:invisibility_ring"
+				tag: {
+					IsInitialized: 1b
+					baublesreforked.ModifierId: "wind"
+					baublesreforked.ModifierUUID: "4f30f0e4-6097-47f6-9d38-af87ec91b38c"
+				}
+			}
+			id: "69C6C157370C2675"
+			tasks: [{
+				id: "3CA883D7DA7AC8F9"
+				type: "checkmark"
+			}]
+			title: "抢夺强化"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&d材料槽1&r：&e心之水晶&r*1&r"
+				""
+				"&d材料槽2&r：&e&r*&r"
+				""
+				"&d材料槽3&r：&e&r*&r"
+				""
+				"&d材料槽4&r：&e&r*&r"
+				""
+				"&d材料槽5&r：&e&r*&r"
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:invisibility_ring"
+				tag: {
+					IsInitialized: 1b
+					baublesreforked.ModifierId: "wind"
+					baublesreforked.ModifierUUID: "4f30f0e4-6097-47f6-9d38-af87ec91b38c"
+				}
+			}
+			id: "2290B4D7B2308489"
+			subtitle: "增加生命值上限"
+			tasks: [{
+				id: "66A8F62D3D6AE1A9"
+				type: "checkmark"
+			}]
+			title: "泰拉之心强化"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&d材料槽1&r：&e任意石英&r*36&r&9或&e任意石英块&r*9"
+				""
+				"&d材料槽2&r：&e&r*&r"
+				""
+				"&d材料槽3&r：&e&r*&r"
+				""
+				"&d材料槽4&r：&e&r*&r"
+				""
+				"&d材料槽5&r：&e&r*&r"
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:invisibility_ring"
+				tag: {
+					IsInitialized: 1b
+					baublesreforked.ModifierId: "wind"
+					baublesreforked.ModifierUUID: "4f30f0e4-6097-47f6-9d38-af87ec91b38c"
+				}
+			}
+			id: "4886BEC00C77FFAA"
+			tasks: [{
+				id: "4A1A7CB51F252454"
+				type: "checkmark"
+			}]
+			title: "锋利强化"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&d材料槽1&r：&e闪烁的西瓜片&r*5&r"
+				""
+				"&d材料槽2&r：&e&r*&r"
+				""
+				"&d材料槽3&r：&e&r*&r"
+				""
+				"&d材料槽4&r：&e&r*&r"
+				""
+				"&d材料槽5&r：&e&r*&r"
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:invisibility_ring"
+				tag: {
+					IsInitialized: 1b
+					baublesreforked.ModifierId: "wind"
+					baublesreforked.ModifierUUID: "4f30f0e4-6097-47f6-9d38-af87ec91b38c"
+				}
+			}
+			id: "3D87EF9DE8945FE6"
+			subtitle: "亡灵杀手"
+			tasks: [{
+				id: "0F5FBA4F78133832"
+				type: "checkmark"
+			}]
+			title: "亡灵杀手强化"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&d材料槽1&r：&e发酵蛛眼&r*15&r"
+				""
+				"&d材料槽2&r：&e&r*&r"
+				""
+				"&d材料槽3&r：&e&r*&r"
+				""
+				"&d材料槽4&r：&e&r*&r"
+				""
+				"&d材料槽5&r：&e&r*&r"
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:invisibility_ring"
+				tag: {
+					IsInitialized: 1b
+					baublesreforked.ModifierId: "wind"
+					baublesreforked.ModifierUUID: "4f30f0e4-6097-47f6-9d38-af87ec91b38c"
+				}
+			}
+			id: "7A3CCE5422C415BF"
+			subtitle: "节肢杀手"
+			tasks: [{
+				id: "46F1328C75289DA3"
+				type: "checkmark"
+			}]
+			title: "嘶嘶杀手强化"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&d材料槽1&r：&e海晶石砖&r*1&r"
+				""
+				"&d材料槽2&r：&e海洋之心&r*1&r"
+				""
+				"&d材料槽3&r：&e海晶石砖&r*1&r"
+				""
+				"&d材料槽4&r：&e暗海晶石&r*1&r"
+				""
+				"&d材料槽5&r：&e暗海晶石&r*1&r"
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:invisibility_ring"
+				tag: {
+					IsInitialized: 1b
+					baublesreforked.ModifierId: "wind"
+					baublesreforked.ModifierUUID: "4f30f0e4-6097-47f6-9d38-af87ec91b38c"
+				}
+			}
+			id: "40E34AB2355AA8D3"
+			subtitle: "水下速掘"
+			tasks: [{
+				id: "5DC2267408A9E127"
+				type: "checkmark"
+			}]
+			title: "水下速掘强化"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&d材料槽1&r：&e任意鱼&r*1&r&9或&e空心骨块&f*1"
+				""
+				"&d材料槽2&r：&e任意玻璃&r*1&r&9或&e浮囊&f*1"
+				""
+				"&d材料槽3&r：&e任意鱼&r*1&r&9或&e空心骨块&f*1"
+				""
+				"&d材料槽4&r：&e海带&r*1&r"
+				""
+				"&d材料槽5&r：&e海带&r*1&r"
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:invisibility_ring"
+				tag: {
+					IsInitialized: 1b
+					baublesreforked.ModifierId: "wind"
+					baublesreforked.ModifierUUID: "4f30f0e4-6097-47f6-9d38-af87ec91b38c"
+				}
+			}
+			id: "7967B4C575D8660F"
+			subtitle: "水下呼吸"
+			tasks: [{
+				id: "3C0EC47D6F204082"
+				type: "checkmark"
+			}]
+			title: "水下呼吸强化"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&d材料槽1&r：&e任意粗矿&r*1&r"
+				""
+				"&d材料槽2&r：&e高炉&r*1&r"
+				""
+				"&d材料槽3&r：&e任意锭&r*1&r"
+				""
+				"&d材料槽4&r：&e煤炭块&r*1&r"
+				""
+				"&d材料槽5&r：&e煤炭块&r*1&r"
+			]
+			icon: "irons_spellbooks:invisibility_ring"
+			id: "1BD23C89F1298E86"
+			subtitle: "自动熔炼挖掘的方块"
+			tasks: [{
+				id: "0FCB18156AEF1DE8"
+				type: "checkmark"
+			}]
+			title: "自动烧炼强化"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&d材料槽1&r：&e红石&r*45&r&9或&e红石块&r*5"
+				""
+				"&d材料槽2&r：&e&r*&r"
+				""
+				"&d材料槽3&r：&e&r*&r"
+				""
+				"&d材料槽4&r：&e&r*&r"
+				""
+				"&d材料槽5&r：&e&r*&r"
+			]
+			icon: "irons_spellbooks:invisibility_ring"
+			id: "4841DFA12157E9EE"
+			subtitle: "效率"
+			tasks: [{
+				id: "7D4B49AD16E9E9AB"
+				type: "checkmark"
+			}]
+			title: "急迫强化"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&d材料槽1&r：&e任意凋灵骨&r*1&r&9或&e动力锯&r*1"
+				""
+				"&d材料槽2&r：&e避雷针&r*1&r"
+				""
+				"&d材料槽3&r：&e任意凋灵骨&r*1&r"
+				""
+				"&d材料槽4&r：&eTNT&r*1&r"
+				""
+				"&d材料槽5&r：&e&r*&r"
+			]
+			icon: "irons_spellbooks:invisibility_ring"
+			id: "0E7636C259C95C75"
+			subtitle: "击杀生物时有概率获得其头颅和肢体部位 ，\\n\\n可在jei对劈刀或肢解强化按U查看具体列表"
+			tasks: [{
+				id: "18D420D7CEE93099"
+				type: "checkmark"
+			}]
+			title: "肢解强化"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&d材料槽1&r：&e绿宝石加固板&r*5&r"
+				""
+				"&d材料槽2&r：&e&r*&r"
+				""
+				"&d材料槽3&r：&e&r*&r"
+				""
+				"&d材料槽4&r：&e&r*&r"
+				""
+				"&d材料槽5&r：&e&r*&r"
+			]
+			icon: "irons_spellbooks:invisibility_ring"
+			id: "6925BE86BD980B75"
+			subtitle: "耐久"
+			tasks: [{
+				id: "70DEC5EBE65758D2"
+				type: "checkmark"
+			}]
+			title: "加固强化"
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&d材料槽1&r：&e远古升级·锻造模板&r*1&r"
+				""
+				"&d材料槽2&r：&e下界合金锭&r*1&r"
+				""
+				"&d材料槽3&r：&e&r*&r"
+				""
+				"&d材料槽4&r：&e&r*&r"
+				""
+				"&d材料槽5&r：&e&r*&r"
+			]
+			icon: "irons_spellbooks:invisibility_ring"
+			id: "0437FEFDE2B86E29"
+			subtitle: "增加工具耐久并使其不会被烧毁"
+			tasks: [{
+				id: "0BF00CC32AE16C1F"
+				type: "checkmark"
+			}]
+			title: "下界合金强化"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&d材料槽1&r：&e大地黏液水晶&r*1&r"
+				""
+				"&d材料槽2&r：&e碧空黏液水晶&r*1&r"
+				""
+				"&d材料槽3&r：&e灵浆黏液水晶&r*1&r"
+				""
+				"&d材料槽4&r：&e金块&r*1&r"
+				""
+				"&d材料槽5&r：&e任意部件&r*1&r"
+				""
+				"部件&c必须&r是工具的&9组成部分&r，该配方的&e黏液水晶&r需通过&d液态灵魂&r浇筑&e匠魂原版黏液水晶&r获取"
+			]
+			icon: "irons_spellbooks:invisibility_ring"
+			id: "624FA85E8E711C3A"
+			subtitle: "赋予工具材料特性"
+			tasks: [{
+				id: "03CF7CD6E3957C5A"
+				type: "checkmark"
+			}]
+			title: "刻印"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&d材料槽1&r：&e大地黏液水晶&r*1&r"
+				""
+				"&d材料槽2&r：&e碧空黏液水晶&r*1&r"
+				""
+				"&d材料槽3&r：&e灵浆水晶&r*1&r"
+				""
+				"&d材料槽4&r：&e末影黏液水晶&r*1&r"
+				""
+				"&d材料槽5&r：&e任意部件&r*1&r"
+			]
+			icon: "irons_spellbooks:invisibility_ring"
+			id: "72D559EE969E3083"
+			subtitle: "可以为工具赋予材料特性"
+			tasks: [{
+				id: "46F8E147A5178860"
+				type: "checkmark"
+			}]
+			title: "压花强化"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&d材料槽1&r：&e任意奇妙工匠龙锭&r*1&r"
+				""
+				"&d材料槽2&r：&e任意奇妙工匠龙锭&r*1&r"
+				""
+				"&d材料槽3&r：&e任意奇妙工匠龙锭&r*1&r"
+				""
+				"&d材料槽4&r：&e&r*&r"
+				""
+				"&d材料槽5&r：&e&r*&r"
+				""
+				"共4级，分别需要 龙锭 、&b飞龙锭&r 、 &e神龙锭&r 、 &d混沌锭&r"
+			]
+			icon: "irons_spellbooks:invisibility_ring"
+			id: "17E02902D79C2427"
+			subtitle: "使物品只消耗电量而非耐久，并可装备模块"
+			tasks: [{
+				id: "3FD95A49B20C4682"
+				type: "checkmark"
+			}]
+			title: "进化强化"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&d材料槽1&r：&e不死图腾&r*1&r"
+				""
+				"&d材料槽2&r：&e&r*&r"
+				""
+				"&d材料槽3&r：&e&r*&r"
+				""
+				"&d材料槽4&r：&e&r*&r"
+				""
+				"&d材料槽5&r：&e&r*&r"
+			]
+			icon: "irons_spellbooks:invisibility_ring"
+			id: "52055EFD97296DF3"
+			subtitle: "需要灵魂绑定\\n仅珠宝饰品，消耗耐久，获得不死图腾效果"
+			tasks: [{
+				id: "7CB893560AA23277"
+				type: "checkmark"
+			}]
+			title: "不死"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&d材料槽1&r：&e潜影壳&r*1&r"
+				""
+				"&d材料槽2&r：&e龙息&r*1&r"
+				""
+				"&d材料槽3&r：&e潜影壳&r*1&r"
+				""
+				"&d材料槽4&r：&e下界合金锭&r*1&r"
+				""
+				"&d材料槽5&r：&e下界合金锭&r*1&r"
+			]
+			icon: "irons_spellbooks:invisibility_ring"
+			id: "4A28D54D50ABC341"
+			subtitle: "需要加固VI与下界合金强化，使物品寻常使用不会减少耐久"
+			tasks: [{
+				id: "45A12F57C0062235"
+				type: "checkmark"
+			}]
+			title: "不毁强化"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&d材料槽1&r：&e&r*&r"
+				""
+				"&d材料槽2&r：&e&r*&r"
+				""
+				"&d材料槽3&r：&e&r*&r"
+				""
+				"&d材料槽4&r：&e&r*&r"
+				""
+				"&d材料槽5&r：&e&r*&r"
+			]
+			icon: "irons_spellbooks:invisibility_ring"
+			id: "357212D2D76F765E"
+			tasks: [{
+				id: "3E03D2736B9E7109"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&d材料槽1&r：&e永恒加固板&r*5&r"
+				""
+				"&d材料槽2&r：&e&r*&r"
+				""
+				"&d材料槽3&r：&e&r*&r"
+				""
+				"&d材料槽4&r：&e&r*&r"
+				""
+				"&d材料槽5&r：&e&r*&r"
+			]
+			icon: "irons_spellbooks:invisibility_ring"
+			id: "44BE8F718D2B31BA"
+			subtitle: "普通的不毁"
+			tasks: [{
+				id: "7912E083C397D8D8"
+				type: "checkmark"
+			}]
+			title: "永恒（弱化版）"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&d材料槽1&r：&e回响碎片/幽匿脉络&r*1&r"
+				""
+				"&d材料槽2&r：&e&r*&r"
+				""
+				"&d材料槽3&r：&e&r*&r"
+				""
+				"&d材料槽4&r：&e&r*&r"
+				""
+				"&d材料槽5&r：&e&r*&r"
+			]
+			icon: "irons_spellbooks:invisibility_ring"
+			id: "33458D558B5DB1C5"
+			subtitle: "死亡不掉落"
+			tasks: [{
+				id: "35F16793F659EBAA"
+				type: "checkmark"
+			}]
+			title: "灵魂绑定"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&d材料槽1&r：&e任意耀魂/耀魂铁锭/耀魂宝珠等&r*1&r"
+				""
+				"&d材料槽2&r：&e&r*&r"
+				""
+				"&d材料槽3&r：&e&r*&r"
+				""
+				"&d材料槽4&r：&e&r*&r"
+				""
+				"&d材料槽5&r：&e&r*&r"
+			]
+			icon: "irons_spellbooks:invisibility_ring"
+			id: "5F219774A36F0ACB"
+			subtitle: "提升拔刀剑耀魂数量、修改sa、添加se"
+			tasks: [{
+				id: "0DFD742BDBD12295"
+				type: "checkmark"
+			}]
+			title: "秘传强化"
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&d材料槽1&r：&e星构核心-魂魄&r*1&r"
+				""
+				"&d材料槽2&r：&e任意附魔书&r*1&r"
+				""
+				"&d材料槽3&r：&e&r*&r"
+				""
+				"&d材料槽4&r：&e&r*&r"
+				""
+				"&d材料槽5&r：&e&r*&r"
+				""
+				"{ \"text\": \"点击跳转相关任务\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7D883979E3A1566E\" } }"
+			]
+			icon: "irons_spellbooks:invisibility_ring"
+			id: "1036339B9F0428FA"
+			subtitle: "为拔刀剑添加附魔"
+			tasks: [{
+				id: "47EEEE0493C0C4E2"
+				type: "checkmark"
+			}]
+			title: "魂魄强化"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&d材料槽1&r：&e星构素催化剂-拔刀剑&r*1&r"
+				""
+				"&d材料槽2&r：&e&r*&r"
+				""
+				"&d材料槽3&r：&e&r*&r"
+				""
+				"&d材料槽4&r：&e&r*&r"
+				""
+				"&d材料槽5&r：&e&r*&r"
+				""
+				"{ \"text\": \"点击跳转相关任务\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"17A4F9095CCF6772\" } }"
+			]
+			icon: "irons_spellbooks:invisibility_ring"
+			id: "0E2AC0B421E75300"
+			subtitle: "改变拔刀剑的外观和sa"
+			tasks: [{
+				id: "5BBB5F089811F2E1"
+				type: "checkmark"
+			}]
+			title: "拵强化"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&d材料槽1&r：&e任意星构核心-觉醒&r*1&r"
+				""
+				"&d材料槽2&r：&e&r*&r"
+				""
+				"&d材料槽3&r：&e&r*&r"
+				""
+				"&d材料槽4&r：&e&r*&r"
+				""
+				"&d材料槽5&r：&e&r*&r"
+				""
+				"需要&2加固IV&r和&#321B1C下界合金&r强化，共4级"
+				""
+				"分别需要&9龙&r&4-觉醒&r、&d飞龙&r&4-觉醒&r、&e神龙&r&4-觉醒&r、&8混沌&r&4-觉醒&r的&e星构核心&r"
+			]
+			icon: "irons_spellbooks:invisibility_ring"
+			id: "143F224E691D1CF1"
+			subtitle: "使工具可以装配龙研模块"
+			tasks: [{
+				id: "497957E0A16C7C06"
+				type: "checkmark"
+			}]
+			title: "觉醒强化"
+			x: 4.5d
+			y: -1.0d
+		}
+	]
+	subtitle: [
+		"由于不太清楚现在的版本你们都用什么，因此只能是画饼了"
+		"将会不断完善"
+	]
+	title: "·&7实用强化目录（WIP）"
+}

@@ -22,42 +22,874 @@
         "tconstruct:grip"
         ],
         "transformer": {
-            "type": "tconstruct:grey_to_sprite",
-            "palette": [
+            "type": "tconstruct:frames",
+            "frames": [
                 {
-                    "grey": 0,
-                    "color": "FFFFFFFF" ,
-                    "path": "wqjy:item/generator/the_end"
+                    "type": "tconstruct:grey_to_sprite",
+                    "palette": [{
+                        "grey": 0,
+                        "color": "FF000000" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 63,
+                        "color": "FFC8C8C8" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 102,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 140,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 178,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 216,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 255,
+                        "path": "wqjy:item/generator/the_end"
+                    }
+                ]
                 },
                 {
-                    "grey": 63,
-                    "color": "FFFF6A00" 
+                    "type": "tconstruct:grey_to_sprite",
+                    "palette": [{
+                        "grey": 0,
+                        "color": "FF000000" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 63,
+                        "color": "FFC8C8C8" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 102,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 140,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 178,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 216,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 255,
+                        "path": "wqjy:item/generator/the_end"
+                    }
+                ]
                 },
                 {
-                    "grey": 102,
-                    "color": "FFFFD700" 
+                    "type": "tconstruct:grey_to_sprite",
+                    "palette": [{
+                        "grey": 0,
+                        "color": "FF000000" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 63,
+                        "color": "FFC8C8C8" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 102,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 140,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 178,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 216,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 255,
+                        "path": "wqjy:item/generator/the_end"
+                    }
+                ]
                 },
                 {
-                    "grey": 140,
-                    "color": "FFFFFFFF" ,
-                    "path": "wqjy:item/generator/the_end"
+                    "type": "tconstruct:grey_to_sprite",
+                    "palette": [{
+                        "grey": 0,
+                        "color": "FF000000" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 63,
+                        "color": "FFC8C8C8" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 102,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 140,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 178,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 216,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 255,
+                        "path": "wqjy:item/generator/the_end"
+                    }
+                ]
                 },
                 {
-                    "grey": 178,
-                    "color": "FFFFFFFF" ,
-                    "path": "wqjy:item/generator/the_end"
+                    "type": "tconstruct:grey_to_sprite",
+                    "palette": [{
+                        "grey": 0,
+                        "color": "FF000000" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 63,
+                        "color": "FFC8C8C8" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 102,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 140,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 178,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 216,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 255,
+                        "path": "wqjy:item/generator/the_end"
+                    }
+                ]
                 },
                 {
-                    "grey": 216,
-                    "color": "FFFFFFFF" ,
-                    "path": "wqjy:item/generator/the_end"
+                    "type": "tconstruct:grey_to_sprite",
+                    "palette": [{
+                        "grey": 0,
+                        "color": "FF000000" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 63,
+                        "color": "FFC8C8C8" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 102,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 140,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 178,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 216,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 255,
+                        "path": "wqjy:item/generator/the_end"
+                    }
+                ]
                 },
                 {
-                    "grey": 255,
-                    "color": "FFFFFFFF" ,
-                    "path": "wqjy:item/generator/the_end"
+                    "type": "tconstruct:grey_to_sprite",
+                    "palette": [{
+                        "grey": 0,
+                        "color": "FF000000" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 63,
+                        "color": "FFC8C8C8" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 102,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 140,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 178,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 216,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 255,
+                        "path": "wqjy:item/generator/the_end"
+                    }
+                ]
+                },
+                {
+                    "type": "tconstruct:grey_to_sprite",
+                    "palette": [{
+                        "grey": 0,
+                        "color": "FF000000" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 63,
+                        "color": "FFC8C8C8" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 102,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 140,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 178,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 216,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 255,
+                        "path": "wqjy:item/generator/the_end"
+                    }
+                ]
+                },
+                {
+                    "type": "tconstruct:grey_to_sprite",
+                    "palette": [{
+                        "grey": 0,
+                        "color": "FF000000" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 63,
+                        "color": "FFC8C8C8" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 102,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 140,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 178,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 216,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 255,
+                        "path": "wqjy:item/generator/the_end"
+                    }
+                ]
+                },
+                {
+                    "type": "tconstruct:grey_to_sprite",
+                    "palette": [{
+                        "grey": 0,
+                        "color": "FF000000" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 63,
+                        "color": "FFC8C8C8" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 102,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 140,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 178,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 216,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 255,
+                        "path": "wqjy:item/generator/the_end"
+                    }
+                ]
+                },
+                {
+                    "type": "tconstruct:grey_to_sprite",
+                    "palette": [{
+                        "grey": 0,
+                        "color": "FF000000" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 63,
+                        "color": "FFC8C8C8" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 102,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 140,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 178,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 216,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 255,
+                        "path": "wqjy:item/generator/the_end"
+                    }
+                ]
+                },
+                {
+                    "type": "tconstruct:grey_to_sprite",
+                    "palette": [{
+                        "grey": 0,
+                        "color": "FF000000" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 63,
+                        "color": "FFC8C8C8" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 102,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 140,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 178,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 216,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 255,
+                        "path": "wqjy:item/generator/the_end"
+                    }
+                ]
+                },
+                {
+                    "type": "tconstruct:grey_to_sprite",
+                    "palette": [{
+                        "grey": 0,
+                        "color": "FF000000" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 63,
+                        "color": "FFC8C8C8" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 102,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 140,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 178,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 216,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 255,
+                        "path": "wqjy:item/generator/the_end"
+                    }
+                ]
+                },
+                {
+                    "type": "tconstruct:grey_to_sprite",
+                    "palette": [{
+                        "grey": 0,
+                        "color": "FF000000" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 63,
+                        "color": "FFC8C8C8" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 102,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 140,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 178,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 216,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 255,
+                        "path": "wqjy:item/generator/the_end"
+                    }
+                ]
+                },
+                {
+                    "type": "tconstruct:grey_to_sprite",
+                    "palette": [{
+                        "grey": 0,
+                        "color": "FF000000" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 63,
+                        "color": "FFC8C8C8" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 102,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 140,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 178,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 216,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 255,
+                        "path": "wqjy:item/generator/the_end"
+                    }
+                ]
+                },
+                {
+                    "type": "tconstruct:grey_to_sprite",
+                    "palette": [{
+                        "grey": 0,
+                        "color": "FF000000" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 63,
+                        "color": "FFC8C8C8" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 102,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 140,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 178,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 216,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 255,
+                        "path": "wqjy:item/generator/the_end"
+                    }
+                ]
+                },
+                {
+                    "type": "tconstruct:grey_to_sprite",
+                    "palette": [{
+                        "grey": 0,
+                        "color": "FF000000" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 63,
+                        "color": "FFC8C8C8" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 102,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 140,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 178,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 216,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 255,
+                        "path": "wqjy:item/generator/the_end"
+                    }
+                ]
+                },
+                {
+                    "type": "tconstruct:grey_to_sprite",
+                    "palette": [{
+                        "grey": 0,
+                        "color": "FF000000" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 63,
+                        "color": "FFC8C8C8" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 102,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 140,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 178,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 216,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 255,
+                        "path": "wqjy:item/generator/the_end"
+                    }
+                ]
+                },
+                {
+                    "type": "tconstruct:grey_to_sprite",
+                    "palette": [{
+                        "grey": 0,
+                        "color": "FF000000" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 63,
+                        "color": "FFC8C8C8" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 102,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 140,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 178,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 216,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 255,
+                        "path": "wqjy:item/generator/the_end"
+                    }
+                ]
+                },
+                {
+                    "type": "tconstruct:grey_to_sprite",
+                    "palette": [{
+                        "grey": 0,
+                        "color": "FF000000" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 63,
+                        "color": "FFC8C8C8" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 102,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 140,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 178,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 216,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 255,
+                        "path": "wqjy:item/generator/the_end"
+                    }
+                ]
+                },
+                {
+                    "type": "tconstruct:grey_to_sprite",
+                    "palette": [{
+                        "grey": 0,
+                        "color": "FF000000" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 63,
+                        "color": "FFC8C8C8" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 102,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 140,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 178,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 216,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 255,
+                        "path": "wqjy:item/generator/the_end"
+                    }
+                ]
+                },
+                {
+                    "type": "tconstruct:grey_to_sprite",
+                    "palette": [{
+                        "grey": 0,
+                        "color": "FF000000" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 63,
+                        "color": "FFC8C8C8" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 102,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 140,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 178,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 216,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 255,
+                        "path": "wqjy:item/generator/the_end"
+                    }
+                ]
+                },
+                {
+                    "type": "tconstruct:grey_to_sprite",
+                    "palette": [{
+                        "grey": 0,
+                        "color": "FF000000" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 63,
+                        "color": "FFC8C8C8" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 102,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 140,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 178,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 216,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 255,
+                        "path": "wqjy:item/generator/the_end"
+                    }
+                ]
+                },
+                {
+                    "type": "tconstruct:grey_to_sprite",
+                    "palette": [{
+                        "grey": 0,
+                        "color": "FF000000" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 63,
+                        "color": "FFC8C8C8" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 102,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 140,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 178,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 216,
+                        "color": "FFE1E1E1" ,
+                        "path": "wqjy:item/generator/the_end"
+                    },
+                    {
+                        "grey": 255,
+                        "path": "wqjy:item/generator/the_end"
+                    }
+                ]
                 }
-            ]
+            ],
+            "meta": "wqjy:item/generator/the_end"
         }
     }
 }

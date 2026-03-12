@@ -720,6 +720,17 @@
 			x: -2.0d
 			y: -0.5d
 		}
+		{
+			description: ["默认&ealt键&r+&e=键&r切换拔刀剑模型隐藏效果"]
+			id: "3863980A7F43E92B"
+			tasks: [{
+				id: "7D3462DB1694F0DD"
+				title: "模型切换"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
 	]
 	title: "·&e拔刀剑"
 }

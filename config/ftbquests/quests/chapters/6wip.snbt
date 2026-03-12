@@ -4837,6 +4837,7 @@
 		}
 		{
 			id: "59B297994CB4A654"
+			subtitle: "&o&l终末无法避免，\\n唯有将其无限延后"
 			tasks: [{
 				id: "36A1D153D715F6C6"
 				item: "wqjy:the_end"
@@ -5131,6 +5132,6 @@
 			y: 8.5d
 		}
 	]
-	subtitle: ["先画个饼"]
-	title: "·&7材料图鉴（WIP）"
+	subtitle: ["完成"]
+	title: "·&f材料图鉴"
 }
