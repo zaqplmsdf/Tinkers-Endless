@@ -713,6 +713,22 @@ ServerEvents.recipes(event => {
     )
 })//残骸
 ServerEvents.recipes(event => {
+    event.custom(
+        {
+            "type":"botania:orechid",
+            "input": {
+                "type": "block",
+                "block": "minecraft:end_stone"
+            }, 
+            "output": {
+                "type": "block",
+                "block": "legendary_monsters:enderitium_ore"
+            },
+            "weight": 1
+        }
+    )
+})
+ServerEvents.recipes(event => {
     const baseOrechidConfig = {
         "type": "botania:orechid",
         "input": {

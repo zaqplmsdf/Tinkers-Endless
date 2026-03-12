@@ -230,3 +230,14 @@ ServerEvents.recipes(event => {
         .sacrificeRegion(5, 5)
         .recipeTime(100)
 });
+
+ServerEvents.recipes(event => {
+    event.recipes.summoningrituals
+        .altar('legendary_monsters:eye_of_annihilation')
+        .ItemOutput('legendary_monsters:teleport_machine')
+        .input('12x minecraft:end_portal_frame')
+        .input('12x minecraft:ender_eye')
+        .sacrificeRegion(5, 5)
+        .recipeTime(100)
+});
+
