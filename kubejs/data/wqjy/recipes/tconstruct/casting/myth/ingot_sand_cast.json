@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:casting_table",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ],
+  "cast": {
+    "tag": "tconstruct:casts/single_use/ingot"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "name": "wqjy:myth",
+    "amount": 90
+  },
+  "result": "wqjy:myth",
+  "cooling_time": 60
+}

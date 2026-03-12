@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:material_melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ],
+  "input": "wqjy:myth",
+  "temperature": 2000,
+  "result": {
+    "fluid": "wqjy:myth",
+    "amount": 90
+  }
+}

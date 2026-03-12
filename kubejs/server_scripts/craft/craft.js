@@ -426,4 +426,17 @@ ServerEvents.recipes(event => {
             C: 'irons_spellbooks:cinderous_soulcaller'
         }
     )
+
+    event.shaped(
+        Item.of('mekanism:fluorite_ore'),
+        [
+            'ABA',
+            'B B',
+            'ABA'
+        ],
+        {
+            B: 'minecraft:glowstone_dust',
+            A: 'minecraft:stone'
+        }
+    )
 });

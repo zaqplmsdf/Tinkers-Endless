@@ -9,3 +9,9 @@ StartupEvents.registry('fluid', event => {
         .bucketColor(0xC0C0C0)
         .displayName('通用置换流体')
 })
+
+StartupEvents.registry('fluid', event => {
+    event.create('wqjy:myth')
+    .displayName('熔融神话锭')
+    .noBucket()
+})

@@ -33,5 +33,6 @@ ServerEvents.recipes((event) => {
     tconstruct.alloy(Fluid.of("tinkers_thinking:molten_echo", 1), [Fluid.of("wqjy:reborn", 1), Fluid.of("dreamtinker:molten_echo_shard", 1)]).temperature(1);
     tconstruct.alloy(Fluid.of("dreamtinker:molten_evil", 1), [Fluid.of("wqjy:reborn", 1), Fluid.of("sakuratinker:molten_nefarious", 1)]).temperature(1);
     tconstruct.alloy(Fluid.of("sakuratinker:molten_etherium", 1), [Fluid.of("wqjy:reborn", 1), Fluid.of("dreamtinker:unstable_liquid_aether", 1)]).temperature(1);
+    tconstruct.alloy(Fluid.of("wqjy:myth",90), [Fluid.of("sakuratinker:molten_gaia", 270), Fluid.of("sakuratinker:molten_photonium", 180), Fluid.of("sakuratinker:molten_shadowium", 180), Fluid.of("sakuratinker:molten_aerialite", 180)]).temperature(2000);
 
 });
