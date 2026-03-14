@@ -13,7 +13,7 @@ file_name = "acedium-0.2.7-beta.jar"
 isInList = true
 isHidden = false
 AllowEnableByAll = false
-alarm = false
+alarm = true
 dependencies = ""
 conflicts = ""
 

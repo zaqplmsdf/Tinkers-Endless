@@ -14,7 +14,7 @@ isInList = true
 isHidden = false
 AllowEnableByAll = false
 alarm = false
-dependencies = ""
+dependencies = "tfthreadsafetyaddon"
 conflicts = ""
 
 [DisplayName]

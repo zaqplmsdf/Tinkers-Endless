@@ -1,10 +1,10 @@
 [download]
 modrinth_projectid = ""
 modrinth_versionid = ""
-curseforge_projectid = ""
-curseforge_fileid = ""
+curseforge_projectid = "1430534"
+curseforge_fileid = "7558911"
 directUrl = "https://mediafilez.forgecdn.net/files/7558/911/tfthreadsafetyaddon-forge-1.20.1-1.1.0.jar"
-priority = "modrinth"
+priority = "curseforge"
 
 [basic]
 identifier = "tfthreadsafetyaddon"

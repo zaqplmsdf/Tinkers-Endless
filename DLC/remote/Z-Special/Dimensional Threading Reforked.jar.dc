@@ -13,7 +13,7 @@ file_name = "dimthread-FORGE-mc1.20.1-v1.2.1.jar"
 isInList = true
 isHidden = false
 AllowEnableByAll = false
-alarm = false
+alarm = true
 dependencies = ""
 conflicts = ""
 
