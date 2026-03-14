@@ -164,25 +164,6 @@
 					type: "item"
 				}
 				{
-					id: "745E3D1F9D18372A"
-					item: {
-						Count: 1
-						id: "minecraft:written_book"
-						tag: {
-							author: "传送门方块"
-							display: {
-								Lore: ["{\"text\":\"并没有什么实际作用，只是用来跳转网页\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"]
-								Name: "[{\"text\":\"工匠手稿\",\"color\":\"gold\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
-							}
-							generation: 3
-							pages: ["{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"yellow\",\"text\":\"相关网址：\\n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.mcmod.cn/modpack/1257.html\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"单击跳转\"}},\"text\":\"百科站整合包主页\\n\\n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://bbsmc.net/modpack/tinkers-endless\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"单击跳转\"}},\"text\":\"BBSMC整合包主页\\n\\n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://qm.qq.com/q/pEchddxbAO\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"单击跳转\"}},\"text\":\"官方讨论群\"}],\"text\":\"声明：本整合包完全免费，如果你花钱了，那么恭喜你被骗了\\n\"}"]
-							resolved: 1b
-							title: "工匠书稿"
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "3CD6D2F5A55FC0F5"
 					item: {
 						Count: 1
