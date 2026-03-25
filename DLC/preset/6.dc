@@ -1,0 +1,52 @@
+enable = [
+  "AR",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
+]
+conflicts = [
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
+]
+
+[DisplayName]
+en_us = "§6[Optional] SlashBlade TACZ Optimization"
+zh_cn = "§6[可选]拔刀剑、tacz优化"
+
+[tip]
+en_us = """§2[SlashBlade TACZ Performance: Extremely High]  
+§6[Compatibility: Relatively High]  
+
+§6[Optional]§4 Incompatible with computers below OpenGL 4.6 Incompatible with mobile devices and MacOS  
+§2Provides SlashBlade and TACZ optimizations"""
+zh_cn = """§2[拔刀剑、tacz性能:极高]
+§6[兼容:偏高]
+
+§6[可选]§4不兼容OpenGL4.6以下的电脑！不兼容手机、MacOS
+§2提供拔刀剑和tacz优化"""
