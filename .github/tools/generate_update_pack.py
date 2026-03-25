@@ -182,6 +182,30 @@ def filter_paths(
     return adds, dels
 
 
+def filter_same_content_paths(
+    from_ref: str,
+    to_ref: str,
+    add_paths: list[str],
+) -> tuple[list[str], list[str]]:
+    kept: list[str] = []
+    skipped: list[str] = []
+    for path in add_paths:
+        if not path_exists_at_ref(from_ref, path) or not path_exists_at_ref(to_ref, path):
+            kept.append(path)
+            continue
+        try:
+            old_data = read_file_at_ref(from_ref, path)
+            new_data = read_file_at_ref(to_ref, path)
+        except subprocess.CalledProcessError:
+            kept.append(path)
+            continue
+        if old_data == new_data:
+            skipped.append(path)
+        else:
+            kept.append(path)
+    return kept, skipped
+
+
 def dc_quote(value: str) -> str:
     return json.dumps(value, ensure_ascii=False)
 
@@ -708,6 +732,7 @@ def main() -> int:
 
     add_or_modify, deleted = parse_diff(args.from_ref, args.to_ref)
     add_paths, del_paths = filter_paths(add_or_modify, deleted)
+    add_paths, same_content_paths = filter_same_content_paths(args.from_ref, args.to_ref, add_paths)
     remote_updates, required_updates, info_updates, converted_paths = build_auto_update_ops(args.from_ref, args.to_ref, add_paths)
     if converted_paths:
         add_paths = [p for p in add_paths if p not in converted_paths]
@@ -764,6 +789,7 @@ def main() -> int:
                 f"zip_path={zip_path.as_posix()}",
                 f"add_count={len(add_paths)}",
                 f"del_count={len(del_paths)}",
+                f"same_content_skip_count={len(same_content_paths)}",
             ]
         )
         + "\n",
@@ -781,6 +807,7 @@ def main() -> int:
     print(f"release_tag={release_tag}")
     print(f"add_count={len(add_paths)}")
     print(f"del_count={len(del_paths)}")
+    print(f"same_content_skip_count={len(same_content_paths)}")
     print(f"update_remote_count={len(remote_updates)}")
     print(f"update_required_count={len(required_updates)}")
     print(f"update_info_count={len(info_updates)}")
