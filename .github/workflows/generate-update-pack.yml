@@ -181,7 +181,6 @@ jobs:
 
           echo "Fetching LFS objects only for changed paths..."
           git lfs install --local
-          git lfs fetch origin "$FROM_REF" --include="$include_list" || true
           git lfs fetch origin "$TO_REF" --include="$include_list"
 
       - name: Generate update package
