@@ -1,0 +1,26 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/6914/10/CraftTweaker-forge-1.20.1-14.0.59.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "CraftTweaker"
+type = "mod"
+file_name = "CraftTweaker-forge-1.20.1-14.0.59.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§2(server/Client-side)[CrT]CraftTweaker"
+zh_cn = "§2(服/客户端)CrT"
+
+[tip]
+en_us = "§2(server/Client-side)[CrT]CraftTweaker"
+zh_cn = "§2(服/客户端)这是一个提示与更新：请将你的[CrT]CraftTweaker版本升级到14.0.58版以上否则会出现内网穿透断连、连不上、服务端连不上等问题！"

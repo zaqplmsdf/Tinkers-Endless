@@ -1,19 +1,19 @@
 [basic]
-identifier = "mesh"
+identifier = "summonadd"
 type = "others"
 file_name = "summon.js"
-appliedTarget = "kubejs/server_scripts/DLC/mesh.js"
+appliedTarget = "kubejs/server_scripts/DLC/summon.js"
 isInList = true
 isHidden = false
 AllowEnableByAll = true
 alarm = false
-dependencies = "exdeorum"
+dependencies = "summon"
 conflicts = ""
 
 [DisplayName]
-en_us = "Recipe file for creating Ex Deorum"
-zh_cn = "无中生有：神赐配方文件"
+en_us = "Summoning rituals mod recipe file"
+zh_cn = "召唤仪式mod配方文件"
 
 [tip]
-en_us = "Used to add DLC content Ex Deorum extra recipes"
-zh_cn = "用于添加DLC内容无中生有：神赐的额外配方"
+en_us = "Used to add more ways to summon the BOSS"
+zh_cn = "用于添加BOSS的更多召唤方式"

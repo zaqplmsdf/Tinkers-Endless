@@ -1,0 +1,774 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "e4"
+	group: "71E4EFF8904A559D"
+	icon: "draconicevolution:awakened_core"
+	id: "66AC4BAB86149398"
+	images: [
+		{
+			height: 15.0d
+			image: "avaritia:textures/gui/jei/tables/end_jei.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_12"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.999999999999993d
+			y: -0.5178571428571459d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_18"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.857142857142847d
+			y: -1.4107142857142847d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_18"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.035714285714278d
+			y: 0.3035714285714306d
+		}
+		{
+			height: 1.0d
+			image: "cagedmobs:item/star_infused_netherite_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.714285714285708d
+			y: -3.375d
+		}
+		{
+			height: 1.0d
+			image: "cagedmobs:item/star_infused_netherite_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.642857142857132d
+			y: -3.303571428571427d
+		}
+		{
+			height: 1.0d
+			image: "cagedmobs:item/star_infused_netherite_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.249999999999993d
+			y: 1.1964285714285694d
+		}
+		{
+			height: 1.0d
+			image: "cagedmobs:item/star_infused_netherite_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.714285714285708d
+			y: -2.3392857142857153d
+		}
+		{
+			height: 1.0d
+			image: "cagedmobs:item/star_infused_netherite_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.1785714285714164d
+			y: 2.125d
+		}
+		{
+			height: 1.0d
+			image: "cagedmobs:item/star_infused_netherite_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.214285714285708d
+			y: 2.1607142857142847d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.892857142857139d
+			y: -2.375d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.964285714285701d
+			y: -3.232142857142854d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0714285714285623d
+			y: -1.4107142857142847d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.964285714285708d
+			y: -0.5178571428571459d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.892857142857139d
+			y: -0.5178571428571459d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.107142857142847d
+			y: -2.3035714285714235d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.749999999999993d
+			y: 0.375d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.714285714285708d
+			y: 1.3035714285714306d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.892857142857139d
+			y: 2.1964285714285765d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.071428571428562d
+			y: 1.267857142857146d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.964285714285701d
+			y: 2.1964285714285765d
+		}
+		{
+			height: 1.0d
+			image: "avaritia:item/resource/crystal/crystal_matrix_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.749999999999993d
+			y: -0.5892857142857153d
+		}
+		{
+			height: 1.0d
+			image: "avaritia:item/resource/crystal/crystal_matrix_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.1785714285714164d
+			y: -0.5535714285714306d
+		}
+		{
+			height: 1.0d
+			image: "avaritia:item/resource/crystal/crystal_matrix_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.714285714285708d
+			y: 2.125d
+		}
+		{
+			height: 1.0d
+			image: "avaritia:item/resource/crystal/crystal_matrix_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.249999999999993d
+			y: -3.303571428571427d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/netherite_coin_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.749999999999993d
+			y: -1.4464285714285694d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/netherite_coin_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.571428571428569d
+			y: -0.5535714285714306d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/netherite_coin_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.107142857142847d
+			y: 2.1607142857142847d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/netherite_coin_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.214285714285708d
+			y: 1.267857142857146d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/netherite_coin_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.749999999999993d
+			y: 2.1964285714285765d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/netherite_coin_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.714285714285708d
+			y: 0.3035714285714306d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/netherite_coin_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.749999999999993d
+			y: -2.4107142857142847d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/netherite_coin_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.714285714285708d
+			y: -1.4464285714285694d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/netherite_coin_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.892857142857139d
+			y: -3.232142857142854d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/netherite_coin_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.714285714285708d
+			y: 1.232142857142854d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/netherite_coin_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.214285714285708d
+			y: -0.5178571428571459d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/netherite_coin_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.214285714285708d
+			y: -1.4464285714285694d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/netherite_coin_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.249999999999993d
+			y: -2.3392857142857153d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/netherite_coin_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.2857142857142776d
+			y: 0.3392857142857153d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/netherite_coin_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.107142857142847d
+			y: 0.3392857142857153d
+		}
+		{
+			height: 1.0d
+			image: "thermal:item/netherite_coin_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0357142857142776d
+			y: -3.232142857142854d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_5"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.464285714285701d
+			y: -0.6250000000000142d
+		}
+	]
+	order_index: 5
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1AD033F330CB07A6"]
+			dependency_requirement: "all_started"
+			hide_until_deps_complete: true
+			id: "6426515A8AB339CC"
+			rewards: [{
+				id: "35D72AC431E74540"
+				item: "draconicevolution:overworld_draconium_ore"
+				type: "item"
+			}]
+			subtitle: "晋升事宜"
+			tasks: [{
+				id: "6D4E1E522D568F61"
+				title: "主要流程"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6426515A8AB339CC"]
+			description: [
+				"相关链接："
+				""
+				"&d主世界&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"18A67F72FCE5E680\" } }"
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1BC56AD28DF42AEA\" } }"
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"37889F2814800EFE\" } }"
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6C8216A363280FC5\" } }"
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"788AF9F367FB5492\" } }"
+				"&d下界&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"685B88A1D978885E\" } }"
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"10DBC9A405B0B625\" } }"
+				"&d末地&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"65484590E67F0D4A\" } }"
+			]
+			icon: "wqjy:up_item_12"
+			id: "58492EF5093EF60E"
+			rewards: [{
+				id: "484BBDCC63D4F3A8"
+				item: "wqjy:up_item_12"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					id: "2ED28FA680E69A80"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:ignis"
+					id: "3CE5F639222F08F6"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:ender_guardian"
+					id: "395A4B9EF9096017"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:maledictus"
+					id: "3F02F7F19DEDF740"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:the_harbinger"
+					id: "42D626FC423D462E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:the_leviathan"
+					id: "6296E23B14F017A2"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:ancient_remnant"
+					id: "7518A32347175D4E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:scylla"
+					id: "1147D55D8908E069"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "首领"
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6426515A8AB339CC"]
+			description: [
+				"相关链接："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"36262EBA59595E0E\" } }"
+				""
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"67ED8DA40BED632A\" } }"
+			]
+			icon: "wqjy:up_item_18"
+			id: "1DFC3A215F19CDCF"
+			rewards: [{
+				id: "3CC63E345A4C3C7D"
+				item: "wqjy:up_item_18"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "7EECCCDD7E09982D"
+					item: "mekanism:pellet_antimatter"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "02E473004882AD7C"
+					item: "wqjy:hefl"
+					type: "item"
+				}
+			]
+			title: "晋升素材"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6426515A8AB339CC"]
+			icon: "wqjy:up_item_18"
+			id: "090ADEF6953C32F6"
+			rewards: [{
+				id: "08357795C0A40E17"
+				item: "wqjy:up_item_18"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5411C09786EB69E0"
+				item: "draconicevolution:awakened_core"
+				type: "item"
+			}]
+			title: "晋升素材"
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6426515A8AB339CC"]
+			id: "0C33E751E185DD14"
+			tasks: [{
+				id: "34DC9F6944CBFD19"
+				item: "avaritia:end_crafting_table"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["09833AAAD420B0D9"]
+			description: [
+				"&a构成方式：由一个&e聚合核心&a和若干个&e注入合成装置&a构成。"
+				""
+				"&a摆放方式相对自由，放置的&e注入合成装置&a满足构成要求，数量足够放置材料即可工作。"
+				""
+				"&6且注入合成装置可被多个聚合核心公用。"
+				""
+				"&e以聚合核心&a为中心，&e聚合核心&a六个面向外延长16格，除最近两格外，这条延长线周围一圈包括延长线一共9个格子放置的面向聚合核心的&e注入合成装置&a都有效。"
+				""
+				"&6需要注意注入合成装置前方不能有遮挡物&a(箱子，台阶，线缆，聚合核心不视为遮挡物)&6。"
+				""
+				"&a工作所需的能量需求会被分摊到各个放置了材料的&e注入合成装置&a上，由这些&e注入合成装置&a提供（故需要给每一个放置了材料的&e注入合成装置&a提供能量）。"
+				""
+				"{@pagebreak}"
+				"&e注入合成装置&a有4个等级。"
+				""
+				"&a4种等级的注入器："
+				""
+				"&f基础-1级"
+				""
+				"&9飞龙-2级"
+				""
+				"&6神龙-3级"
+				""
+				"&d混沌-4级"
+				""
+				"&e聚合装置&a合成时的等级判定为在判定范围内参与合成的&e最低等级的注入器&a等级，并&6无视未参与合成的注入器&a。"
+				""
+				"&6例如：某合成使用了8个注入器，其中7个神龙注入器，一个飞龙注入器，并且还有两个基础注入器未被使用，则此时聚合装置被判定为飞龙注入器。"
+			]
+			id: "1513FD57B6A5A2C1"
+			rewards: [{
+				id: "64810FD80844406F"
+				item: {
+					Count: 1
+					id: "minecraft:shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: {
+								"astages:owners": {
+									owner: [I;
+										-2094034348
+										1131430011
+										-1898624662
+										521106182
+									]
+								}
+							}
+							Items: [
+								{
+									Count: 1b
+									Slot: 0b
+									id: "draconicevolution:crafting_core"
+								}
+								{
+									Count: 1b
+									Slot: 1b
+									id: "create:schematic"
+									tag: {
+										Anchor: {
+											X: 0
+											Y: 0
+											Z: 0
+										}
+										Bounds: [
+											9
+											4
+											9
+										]
+										Deployed: 0b
+										File: "聚合装置.nbt"
+										Mirror: "NONE"
+										Owner: "The_X_One"
+										Rotation: "NONE"
+									}
+								}
+								{
+									Count: 36b
+									Slot: 2b
+									id: "draconicevolution:basic_crafting_injector"
+								}
+								{
+									Count: 64b
+									Slot: 3b
+									id: "mekanism:ultimate_universal_cable"
+								}
+								{
+									Count: 17b
+									Slot: 4b
+									id: "mekanism:ultimate_universal_cable"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "447FF47C422672B6"
+					item: "draconicevolution:basic_crafting_injector"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "47317E32169C13B6"
+					item: "draconicevolution:crafting_core"
+					type: "item"
+				}
+			]
+			title: "聚合装着"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1513FD57B6A5A2C1"]
+			id: "59B16F4E3EE16A15"
+			tasks: [{
+				id: "2BBF820F67F910A4"
+				item: "draconicevolution:wyvern_crafting_injector"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["59B16F4E3EE16A15"]
+			id: "1FBB6D178414A480"
+			tasks: [{
+				id: "415B1E0B9483A08F"
+				item: "draconicevolution:awakened_draconium_block"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1FBB6D178414A480"]
+			id: "5FABC676B76E4E08"
+			tasks: [{
+				id: "41CA6CD3C03698F4"
+				item: "draconicevolution:awakened_core"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["09833AAAD420B0D9"]
+			description: [
+				"&a用于远程传输能量，默认模式为输出，用于接收能量，空手潜行右击会改变为输入，用于释放能量。"
+				""
+				"&a使用&e水晶绑定扳手&a绑定能量水晶之间的链接。"
+				""
+				"&a最大无线链接数：全等级 3 个。"
+				""
+				"&a即：无论什么等级的端口水晶，都只能和 3 个&e能量中继水晶&a或者 3 &e个无线能量水晶&a&a相连。"
+				""
+				"&6所以，若想用一个端口水晶连接多个无线能量水晶，请先用能量端口水晶链接能量中继水晶后，再使用能量中继水晶与无线能量水晶相连。"
+				""
+				"&6所有能量端口水晶都可以直接给机器供电，只需把端口水晶和机器相连，再将端口水晶的模式调为输出即可。记得给端口水晶供电啊喂"
+			]
+			id: "403AE83DC9C013D2"
+			subtitle: "可用于替换能量管道"
+			tasks: [{
+				id: "70758B0E8C1D7752"
+				item: "draconicevolution:basic_io_crystal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6426515A8AB339CC"]
+			id: "09833AAAD420B0D9"
+			tasks: [{
+				id: "69E2DAC6E56A5654"
+				item: "draconicevolution:draconium_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6426515A8AB339CC"]
+			description: [
+				"相关链接："
+				""
+				"{ \"text\": \"反物质靶丸\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"36262EBA59595E0E\" } } "
+			]
+			icon: "mekanism:pellet_antimatter"
+			id: "44F952E31CE6C0BA"
+			tasks: [{
+				id: "38568D6DD713498D"
+				title: "反物质靶丸相关"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6426515A8AB339CC"]
+			id: "438A88C5AB688F29"
+			tasks: [{
+				id: "7B524A25493D4065"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "molds"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6426515A8AB339CC"]
+			description: ["&e灵魂粉尘&r*16+&e钻石粉末&r*16在&e融合机&r处合成"]
+			id: "1435EC2A823E825A"
+			tasks: [{
+				id: "6A8D8BC530825BB3"
+				item: "wqjy:up_item_8"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["438A88C5AB688F29"]
+			id: "7F1DF783EFF9CA74"
+			tasks: [{
+				id: "4FFAD5F311DB263A"
+				item: "immersiveengineering:mold_gear"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"1435EC2A823E825A"
+				"7F1DF783EFF9CA74"
+			]
+			description: ["&e灵魂粉尘&r*16在&e金属冲压机&r处合成"]
+			id: "3467E79F80121666"
+			tasks: [{
+				id: "603CB38A4E096F4F"
+				item: "wqjy:up_item_1"
+				type: "item"
+			}]
+			x: 4.071428571428562d
+			y: -3.26785714285716d
+		}
+	]
+	title: "◇&e阶段4"
+}

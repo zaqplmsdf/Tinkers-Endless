@@ -1,0 +1,1453 @@
+{
+	autofocus_id: "300840BAF40500AD"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0"
+	group: "71E4EFF8904A559D"
+	icon: { Count: 16, id: "tconstruct:pattern" }
+	id: "14F57D0D5296C987"
+	images: [
+		{
+			dependency: "03F8A9A82C2F2FCB"
+			height: 10.0d
+			image: "ftbquests:textures/picture/012.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -15.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_15"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -12.0d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_15"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -13.0d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_15"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -13.0d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_9"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -12.0d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_1"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -12.5d
+		}
+		{
+			height: 0.5d
+			image: "jei:textures/jei/atlas/gui/icons/shapeless_icon.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -8.0d
+			y: -13.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -12.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -12.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -13.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -13.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -12.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -12.0d
+		}
+		{
+			height: 2.6d
+			image: "jei:textures/jei/atlas/gui/ingredient_list_background.png"
+			order: -1
+			rotation: 0.0d
+			width: 2.6d
+			x: -10.5d
+			y: -12.5d
+		}
+		{
+			height: 1.3d
+			image: "jei:textures/jei/atlas/gui/ingredient_list_background.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.3d
+			x: -7.0d
+			y: -12.5d
+		}
+		{
+			dependency: "6F70B7D7532F803E"
+			height: 1.2d
+			image: "tconstruct:block/smeltery/controller/melter_active"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependency: "07126273C06FFA91"
+			height: 1.2d
+			image: "tconstruct:block/smeltery/controller/heater_active"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependency: "7164ABF3243CD876"
+			height: 0.33d
+			image: "tconstruct:block/foundry/faucet"
+			rotation: 0.0d
+			width: 0.33d
+			x: -4.857142857142868d
+			y: -2.9489795918367605d
+		}
+		{
+			dependency: "7164ABF3243CD876"
+			height: 0.33d
+			image: "tconstruct:block/foundry/faucet"
+			rotation: 0.0d
+			width: 0.33d
+			x: -6.14285714285716d
+			y: -2.9489795918367605d
+		}
+		{
+			dependency: "7164ABF3243CD876"
+			height: 1.2d
+			image: "tconstruct:block/smeltery/casting/table_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependency: "7164ABF3243CD876"
+			height: 1.2d
+			image: "tconstruct:block/smeltery/casting/basin_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependency: "7164ABF3243CD876"
+			height: 1.2d
+			image: "tconstruct:block/smeltery/controller/melter_inactive"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependency: "7164ABF3243CD876"
+			height: 1.2d
+			image: "tconstruct:block/smeltery/controller/heater_inactive"
+			order: -1
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependency: "257B03574F8896DD"
+			height: 1.2d
+			image: "tconstruct:block/foundry/controller/alloyer_active"
+			order: 1
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependency: "590A3AFE3B7A9018"
+			height: 1.2d
+			image: "tconstruct:block/foundry/tank/fuel_tank"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependency: "257B03574F8896DD"
+			height: 1.0d
+			image: "minecraft:block/lava_still"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependency: "590A3AFE3B7A9018"
+			height: 1.2d
+			image: "tconstruct:block/foundry/tank/ingot_gauge"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependency: "590A3AFE3B7A9018"
+			height: 1.2d
+			image: "tconstruct:block/foundry/tank/ingot_tank"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependency: "590A3AFE3B7A9018"
+			height: 1.2d
+			image: "tconstruct:block/foundry/controller/alloyer_inactive"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.5d
+			y: -0.5d
+		}
+	]
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6EF4CF6672A35A83"]
+			description: [
+				""
+				"组装工具的&9基础装配台&r，用于装配&9小型工具&r或&9强化&r工具；"
+				""
+				"&e左侧选择工具种类，在对应位置放置部件即可装配&r；"
+				""
+				"工具放在工匠站上时可在&e右侧查看详细信息&r；组装工具时可以进行一次&e重命名&r。"
+				""
+				"由于只有 3个&9材料槽位&r，无法为工具进行4槽位和5槽位的强化，且无法组装&9宽型工具&r（工具种类详见“&d工具图鉴&r”）"
+				""
+				"&a替换部件&r"
+				""
+				"&9工具槽&r放置&e工具&r，然后在&9材料槽&r放置该&e工具对应的部件&r即可替换部件"
+				""
+				"&d精准替换部件的方式请参考左图&r"
+			]
+			id: "03F8A9A82C2F2FCB"
+			rewards: [
+				{
+					id: "6EEA080C72B4CFB9"
+					item: {
+						Count: 1
+						id: "tconstruct:pick_head"
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59F956500C86812C"
+					item: {
+						Count: 1
+						id: "tconstruct:tool_binding"
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3966F3DFE231CDD5"
+					item: {
+						Count: 1
+						id: "tconstruct:tool_handle"
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "工匠的基本工作站"
+			tasks: [{
+				id: "1FB1476EF8BF4AF7"
+				item: "tconstruct:tinker_station"
+				type: "item"
+			}]
+			title: "&e&l&o工匠站&r"
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2C74727E098A23BF"]
+			description: ["资料主要来自百科站词条+个人微调润色修改"]
+			hide_until_deps_complete: true
+			id: "043C8087D2FE08E1"
+			rewards: [{
+				id: "0BDEB58F7AC10342"
+				item: "tconstruct:materials_and_you"
+				type: "item"
+			}]
+			subtitle: "开始傻瓜式教程了"
+			tasks: [{
+				id: "0E3E2C8E7F368A1A"
+				title: "工匠的基本常识"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6EF4CF6672A35A83"]
+			description: [
+				""
+				"制作&9非金属材料&r/&9软质材料&r部件的方块，右击可打开 GUI。"
+				""
+				"合成时使用的&e木板&r种类决定了制作出的&e部件制造台&r的&9腿部纹理种类&r。"
+				""
+				"{@pagebreak}"
+				""
+				"&a部件加工&r："
+				""
+				"左侧部分第一格为&9模具格&r，可放置&e模具&r或&e金质铸模&r或&e奥麦迪板&r。"
+				""
+				"若放置&e模具&r，则每制造一个部件&c消耗&r一个&e模具&r；"
+				""
+				"若放置&e金质铸模&r则&c不会被消耗&r，但&c仅能&r制作铸模&e对应的部件&r；"
+				""
+				"&e奥麦迪板&r（来自&b蘑菇构想&r）为&c不会消耗的模具&r；"
+				""
+				"第二格为&9材料格&r，可在此放入&e材料&r或&c可在部件制造台中制造&e的部件&r；"
+				""
+				"中间栏为&9部件选择栏&r，点击选择你要制造的&e部件&r，使用&e模具&r或&e奥麦迪板&r时会&e显示所有该材料&c可制作&e的部件&r，使用&e金质铸模&r时仅会显示&e该铸模可浇注的部件&r；"
+				""
+				"最右侧格为&9输出格&r。当有&e模具&r、有&e材料&r且放入材料的“&9材料值&r”达到模具对应部件所需的&9材料值&r、选中你要制造的&e部件&r时，即可制作&e部件&r。"
+				""
+				"{@pagebreak}"
+				""
+				"&a材料返还&r："
+				""
+				"1 个物品的&9材料值&r大部分都为 1，但是也有例外，如：&e木棍&r的&9材料值&r为 0.5，&9原木&r的&9材料值&r为 4；而&e部件&r的&9材料值&r与&9制作时消耗的材料值&r相同。"
+				""
+				"当使用 1 个&e普通物品&r制造部件完成后若仍&9剩余材料值&r，且该物品有&e可供返还的材料&r，则剩余的&9材料值&r会变为&e相关材料&r返还："
+				""
+				"如 1 个&e原木&r制造&e木绑定结&r，剩余的&9材料值&r将转化为 3 个&e木板&r返还到玩家的&9物品栏&r中；使用&e部件&r制造部件（如用&e木镐头&r制造&e木工具手柄&r）时则&c不会返还&r任何材料。"
+				""
+				"{@pagebreak}"
+				"&a工具拆解&r："
+				""
+				"如果在&9材料格&r放入&e装配好且&c没有强化的&r工具&r，并在&9模具格&r放置&e毒液瓶&r，则会在&9部件选择栏&r显示组成其的&e部件&r，选中部件会在输出格&e输出你选中的部件&r，原工具耐久度较高时有概率获得&e另一个部件&r；"
+				""
+				"若要放入&c经过强化&e的工具&r，则需先使用&e强化调配台&r去除所有&c非材料自带&e的强化&r；"
+			]
+			id: "14DCFFAA5BDE7354"
+			rewards: [{
+				count: 16
+				id: "32AF09A83BCF4013"
+				item: "tconstruct:pattern"
+				type: "item"
+			}]
+			subtitle: "工匠的基本工作台"
+			tasks: [{
+				id: "2E2A5CAEF8FD5816"
+				item: "tconstruct:part_builder"
+				type: "item"
+			}]
+			title: "&e&l&o部件制造台&r"
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["043C8087D2FE08E1"]
+			id: "6EF4CF6672A35A83"
+			rewards: [{
+				id: "75A696D2399650BB"
+				item: {
+					Count: 1
+					id: "mushroom_concept:almighty_ban"
+					tag: {
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"不会消耗的模具\"}],\"text\":\"\"}"]
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "基础物品，用于制作匠魂&e基础工作台&r和&e部件&r"
+			tasks: [{
+				id: "7B89D170EA3E3FE5"
+				item: "tconstruct:pattern"
+				type: "item"
+			}]
+			title: "&e&l&o模具&r"
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6EF4CF6672A35A83"]
+			description: [
+				""
+				"功能类似于&e工作台&r，但退出合成界面&c不会&r使放在工作站的物品返还到物品栏中，而是&a保留在工作站中&r。"
+				""
+				"如果有可以“&9存储&r”物品的方块（包括但不限于各种&e箱子&r、&e漏斗&r和&e发射器&r）与其&9水平相连&r，可以直接从工作站来访问内部物品。"
+			]
+			id: "4F67A45A07294678"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1725735DF56FC1D4"
+				table_id: 915959588376886251L
+				type: "random"
+			}]
+			subtitle: "加强版工作台"
+			tasks: [{
+				id: "0D086D2B9E61C972"
+				item: "tconstruct:crafting_station"
+				type: "item"
+			}]
+			title: "&e&l&o工作站&r"
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6EF4CF6672A35A83"]
+			description: [
+				"用于储存&e部件&r。"
+				""
+				"&6没有存储时只有一个空位&r，每在&9最后一格&r存进一种&e部件&r便会多出一个空位，可以存储任意多种部件，&c单种部件堆叠上限为 8&r，同种部件在部件箱中&c只能存在一组&r。"
+				""
+				"部件箱被破坏时&c不会保留内容物&r。"
+			]
+			id: "3D6DE2F4CB763A83"
+			subtitle: "似乎用处不大？"
+			tasks: [{
+				id: "2CD623E40A2D7C73"
+				item: "tconstruct:part_chest"
+				type: "item"
+			}]
+			title: "&e&l&o部件箱"
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3D6DE2F4CB763A83"]
+			description: [
+				"&e工匠箱&r是一个拥有 &964 个储存格&r的箱子，可以放入&6任何物品&r。"
+				""
+				"&6所有物品在工匠箱内的最大堆叠上限均变为 16 个&r，最大堆叠上限若低于16则以原堆叠数为准，因此工匠箱毕竟适合用于&6存储最大堆叠数不超过16&r的物品。"
+				""
+				"&a可以通过和某种染料合成或和多种染料同时合成来染成不同的颜色。&r"
+			]
+			id: "54E1D959B328EE73"
+			rewards: [{
+				id: "16E27B60DB3B7346"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:iron_chest"
+					tag: {
+						accentColor: 3949738
+						mainColor: 3949738
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&o四舍五入约等于一个箱子"
+			tasks: [{
+				id: "3F5FE8F4B6B1A82D"
+				item: "tconstruct:tinkers_chest"
+				type: "item"
+			}]
+			title: "&e&l&o工匠箱"
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["300840BAF40500AD"]
+			icon: "wqjy:up_item_15"
+			id: "6E49932BD6A6CCAB"
+			rewards: [{
+				id: "506F770FAFE6BB37"
+				item: "wqjy:up_item_15"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "要善于使用jei"
+			tasks: [
+				{
+					consume_items: true
+					id: "0C36971884EB20B8"
+					item: "mushroom_daydream:slime_pawn"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2CF3E6C7D1DEB1FE"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			title: "晋升素材（主要）"
+			x: -9.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["300840BAF40500AD"]
+			icon: "wqjy:up_item_15"
+			id: "357DF590E3B58B4F"
+			rewards: [{
+				id: "017ED5F06A3781AC"
+				item: "wqjy:up_item_15"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "要善于使用jei"
+			tasks: [
+				{
+					id: "420DFAE3B2960606"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09F6C74504167D03"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "738846FF2F59EAFA"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "193C31BECB84922B"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "261C44DC85ECC61A"
+					item: {
+						Count: 1
+						id: "aether:iron_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "晋升素材（主要）"
+			x: -7.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0C37ECD3C406ED38"]
+			description: [""]
+			icon: "wqjy:up_item_9"
+			id: "233C513F84268EB9"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "20EED0B691F8B6FB"
+				item: "wqjy:up_item_9"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "使用喷溅型突变药水喷溅对应怪物生成，也可制作其刷怪蛋"
+			tasks: [
+				{
+					disable_toast: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: "mutantmonsters:mutant_zombie_spawn_egg"
+					id: "075283272E2E34B6"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_spawn_egg"
+					id: "7FE8FFF0B51AE5B2"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					entity: "mutantmonsters:mutant_creeper"
+					icon: "mutantmonsters:mutant_creeper_spawn_egg"
+					id: "5C25D5CCFCD0BB29"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "首领（主要）"
+			x: -7.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["300840BAF40500AD"]
+			icon: "wqjy:up_item_15"
+			id: "5C45AC4BB7187263"
+			rewards: [{
+				id: "1B955389A07B5AFB"
+				item: "wqjy:up_item_15"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "要善于使用jei"
+			tasks: [
+				{
+					id: "4921FF70F459C36C"
+					item: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DDC2B80FA279E9C"
+					item: {
+						Count: 1
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4651D8641D98232F"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E6AD839F497D826"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55E002E625C3423D"
+					item: {
+						Count: 1
+						id: "minecraft:iron_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "晋升素材（主要）"
+			x: -9.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2C74727E098A23BF"]
+			description: ["完成所有主要任务后按上方配方制作证明"]
+			hide_until_deps_complete: true
+			id: "300840BAF40500AD"
+			subtitle: "晋升事宜"
+			tasks: [{
+				id: "3EB0E1186C9A0F65"
+				title: "主要流程"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"03F8A9A82C2F2FCB"
+				"14DCFFAA5BDE7354"
+			]
+			description: [
+				"通过前面的教程，你已经学会&9制作工具&r了，现在，做出一把工具试一下"
+				""
+				"提示：前面的任务已经给于你一把&e镐子&r所需的&6所有部件&r"
+			]
+			id: "6432E893C0679558"
+			rewards: [{
+				id: "1F84EB8A4C0CBD36"
+				item: "alexscaves:pearl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A1E1608B13038A0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:modifiable"
+					}
+				}
+				title: "任意匠魂工具"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["300840BAF40500AD"]
+			description: [
+				"相关链接："
+				""
+				"{ \"text\": \"点击跳转\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6896DEE10D2D83F5\" } }"
+			]
+			id: "0C37ECD3C406ED38"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "192CAF47E195C565"
+				item: {
+					Count: 1
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "mutantmonsters:chemical_x"
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0C37ECD3C406ED38"]
+			id: "3B2A00B6D9CF81BE"
+			tasks: [
+				{
+					id: "24CBC533B0C12223"
+					item: "mutantmonsters:mutant_zombie_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "583DCDAE41A7A00D"
+					item: "mutantmonsters:mutant_skeleton_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "766F34C9DAD9BF42"
+					item: "mutantmonsters:mutant_creeper_spawn_egg"
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2C74727E098A23BF"]
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:observer"
+			id: "09C59E40F058D66F"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "72060335E60CD8A1"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "3696EDED81FA48D0"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6432E893C0679558"]
+			description: [
+				"现在，你已经学会&9制作工具&r了，那么，是时候开始&9强化&r你的工具了"
+				""
+				"把&e工具&r放置&9工具槽&r，而后将&e珍珠&r放到&9材料槽&r，看，&e你的工具&r获得了&d闪亮&r词条并拥有了&d附魔光效&r！"
+				""
+				"什么？你问有什么用？没什么用，只是好看，毕竟这只是个教你如何强化的教程。"
+				""
+				"&b强化&r可通过jei搜索“&6强化&r”查看&b全部强化&r或通过&e工匠大百科&r查看部分强化"
+				""
+				"{ \"text\": \"常用强化列表\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"64B42DB0F1B70407\" } }"
+			]
+			icon: {
+				Count: 1
+				id: "tconstruct:pickaxe"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_display: 1b
+					tic_materials: [
+						"tconstruct:ui_render#head"
+						"tconstruct:ui_render#handle"
+						"tconstruct:ui_render#extra"
+						"tconstruct:ui_render#large"
+						"tconstruct:ui_render#extra_large"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tconstruct:shiny"
+						}
+						{
+							level: 1
+							name: "tconstruct:pierce"
+						}
+					]
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 2.0f
+						"tconstruct:attack_speed": 1.2f
+					}
+					tic_upgrades: [{
+						level: 1
+						name: "tconstruct:shiny"
+					}]
+					tic_volatile_data: {
+						abilities: 1
+						defense: 3
+						"tconstruct:rarity": 3
+						"tconstruct:shiny": 1b
+						upgrades: 1
+					}
+				}
+			}
+			id: "317701FE9D76D048"
+			rewards: [{
+				id: "1A4FE38A26716022"
+				item: {
+					Count: 1
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:luck"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F02F103A4701970"
+				type: "checkmark"
+			}]
+			title: "关于强化"
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["14DCFFAA5BDE7354"]
+			description: ["可通过材料图鉴查看，非❓️纹理的材料即为当前可使用的材料"]
+			id: "6E75E0F50399157D"
+			tasks: [{
+				id: "60CB16AC1A3514CD"
+				title: "可使用材料"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"043C8087D2FE08E1"
+				"002A8323600F86EC"
+			]
+			hide_until_deps_complete: true
+			id: "3FB698E18F262FD2"
+			rewards: [{
+				id: "7DE3B97EF6279E50"
+				item: {
+					Count: 1
+					id: "tconstruct:puny_smelting"
+					tag: {
+						mantle: {
+							book: {
+								current_page: "ranged_materials.cloudertinker:devilchain"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "03CD8A2658A00FB9"
+				title: "熔炼术"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["089388B9E8D4307B"]
+			id: "7164ABF3243CD876"
+			rewards: [{
+				count: 8
+				id: "1C37FB9E812471B4"
+				item: "tconstruct:seared_brick"
+				type: "item"
+			}]
+			subtitle: "制作冶炼炉部件的重要材料，由砖泥烧制而成或将焦黑熔石浇注到锭金质铸模上获得。"
+			tasks: [{
+				id: "76ED5D9FC3709926"
+				item: "tconstruct:seared_brick"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3FB698E18F262FD2"]
+			description: [""]
+			id: "089388B9E8D4307B"
+			rewards: [{
+				count: 16
+				id: "424A9FEAE59B7C5D"
+				item: "tconstruct:grout"
+				type: "item"
+			}]
+			subtitle: "由&e黏土&r、&e沙砾&r以及&e沙子合成&r，可以烧制成&e焦黑砖。"
+			tasks: [{
+				id: "230CC6BCA90109C1"
+				item: "tconstruct:grout"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["52522FE6129EDD62"]
+			description: [
+				"拥有&e9锭&r的空间，不可拓展。"
+				""
+				"将&e浇注口&r直接安装在&e熔化炉&r上以导出液体。"
+				""
+				"用于前期融化单种流体"
+				""
+				"详情见 &9入门熔炼术-熔化炉&r 条目"
+				""
+				"&6可长按[W]进行思索&r"
+			]
+			hide_dependency_lines: true
+			id: "6F70B7D7532F803E"
+			rewards: [{
+				id: "268E585D9DC2644A"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			shape: "none"
+			subtitle: "你的第一座冶炼炉。\\n将其安放在任意储罐或加热器的上方来接受热源。"
+			tasks: [{
+				id: "373EF14005685C1F"
+				item: "tconstruct:seared_melter"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7164ABF3243CD876"]
+			description: [
+				"安装在&e任意可存储流体的方块&r上，可&6右键该方块输出流体&r。"
+				""
+				"&c仅当正下方一格有可以接受液体的方块（如其他储罐、铸造盆和铸件台）时液体才可流出。&r"
+				""
+				"&cPS：装有水、熔岩的炼药锅属于特殊方块状态，内部不含有流体&r"
+			]
+			hide_dependency_lines: true
+			id: "52A3C56FB995F273"
+			shape: "none"
+			subtitle: "简易的万用流体管道"
+			tasks: [{
+				id: "5FAD8EC1BC7B53EE"
+				item: "tconstruct:seared_faucet"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7164ABF3243CD876"]
+			description: [
+				"通过&6在其上方放置&e“浇注口”&6之后放置任意可以进行浇注的物品（如：&e铸模&6、&e桶&6）即可进行浇注；&r"
+				""
+				"并且&6支持漏斗以及其他模组的“管道”运输成品&r。"
+			]
+			hide_dependency_lines: true
+			id: "7344C5A62D58A18F"
+			shape: "none"
+			tasks: [{
+				id: "5D544597DB5A75CA"
+				item: "tconstruct:seared_table"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7164ABF3243CD876"]
+			hide_dependency_lines: true
+			id: "0D25DB74ABE55B4B"
+			shape: "none"
+			tasks: [{
+				id: "649FD8A0DA834904"
+				item: "tconstruct:seared_basin"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7164ABF3243CD876"]
+			description: [
+				"可使用&e煤炭&r、&e木板&r等燃料作为能源。"
+				""
+				"放在&e焦黑熔化炉&r下给熔化炉提供热源。"
+				""
+				"&6无论输入什么材料输出的温度均为800℃&r"
+			]
+			hide_dependency_lines: true
+			id: "07126273C06FFA91"
+			shape: "none"
+			subtitle: "“利用固态燃料为熔化炉提供热源。”"
+			tasks: [{
+				id: "06D7AF0EE7D07185"
+				item: "tconstruct:seared_heater"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7164ABF3243CD876"]
+			description: [
+				"&e焦黑材料量器&r|&e焦黑燃料量器"
+				"&r"
+				"可存储流体，&e燃料量器&r可存储4B(4000mb)的流体；"
+				"&e材料量器&r可存储4320mb流体，"
+				"&6方块被破坏时将保留内部流体&r"
+				""
+				"用于制作&e熔化炉"
+				""
+				"&r可用于作为&e冶炼炉燃料储罐&r"
+				""
+				"也能当做流体保留装置"
+			]
+			id: "52522FE6129EDD62"
+			tasks: [{
+				id: "4183586E6268387C"
+				title: "焦黑量器"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["03F8A9A82C2F2FCB"]
+			description: [
+				"&a升级版的工匠站，可用于组装几乎所有工具"
+				"&r"
+				"&6与原版铁砧的合成配方类似，可使用模组中的大部分合金材料合成；与铁砧不同的是，工匠砧不会因使用而开裂、损坏，也无法进行铁砧的修理和附魔操作。"
+				""
+				"&d可用于强化物品，具有5格的强化材料放置空间，用于放置物品强化的材料；也可以在组装工具或修改工具时对工具进行重命名，不限次数。&r"
+				""
+				"&a拥有5格材料槽，因此可以用于替换宽型工具的部件&r"
+			]
+			id: "38B44317EB66AFB3"
+			rewards: [{
+				id: "3A4A24519AD62E9D"
+				item: {
+					Count: 1
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:haste"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FB060E0EFCC1539"
+				item: {
+					Count: 1
+					id: "tconstruct:tinkers_anvil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7164ABF3243CD876"]
+			description: [
+				"&e强化调配台&r是调节工具、武器或盔甲的强化的方块，右击可打开 GUI。"
+				""
+				"在强化调配台中："
+				""
+				"左侧从上往下第一格为工具格，可放入需要调配强化的物品；"
+				""
+				"左侧第二格和左侧第三格，可放入需要调配强化所使用的材料；"
+				""
+				"中间栏为强化选择栏，点击选择一个想要调配的强化；"
+				""
+				"最右侧格为输出格。"
+				""
+				"{@pagebreak}"
+				"强化调配"
+				""
+				"放入有强化的匠魂工具和毒液桶/毒液瓶/湿海绵，可移除选择的强化，返还桶/玻璃瓶/海绵和该强化消耗的槽位；"
+				""
+				"放入有强化的匠魂工具和隐身药水(3:00)，可隐藏选择的强化在工具上留下的纹理，返还玻璃瓶；"
+				""
+				"放入有强化的匠魂工具和奶桶，可取消隐藏选择的强化，返还桶；"
+				""
+				"放入有强化的匠魂工具和指南针，可将选择的强化在工具上产生的纹理与原强化列表中下一个强化产生的纹理位置互换，不消耗指南针；"
+				""
+				"放入有交互强化的任意黏液手杖，可将选择的交互强化使用的按键由右键改为左键，或由左键改为右键。"
+				""
+				"{@pagebreak}"
+				"强化提取"
+				""
+				"放入有附魔的物品和提取材料，若物品上的附魔有着对应的强化，则可以选择一种强化并提取为对应的强化水晶（数量与原附魔等级相同），消耗原附魔物品和相同份数的提取材料。"
+				""
+				"放入紫水晶碎片，可提取无槽位强化。"
+				""
+				"放入碧空黏液水晶和 3 份青金石，可提取升级强化；"
+				""
+				"放入大地黏液水晶和金锭，可提取防御强化；"
+				""
+				"放入灵浆水晶和钻石，可提取能力强化；"
+				""
+				"放入末影黏液水晶和 5 份龙息，可提取任意强化，并返还未附魔物品和玻璃瓶；"
+				""
+				"放入有强化的匠魂工具、末影黏液水晶和龙息，可以选择任意一种强化（创造强化除外）并提取为对应的强化水晶（数量与原附魔等级相同），消耗相同份数的提取材料，返还该强化消耗的槽位和玻璃瓶。"
+			]
+			id: "29AA703DAF51E764"
+			rewards: [
+				{
+					id: "56579730F98DEE82"
+					item: "minecraft:wet_sponge"
+					type: "item"
+				}
+				{
+					id: "12C28788C0EE7BD1"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "40B86FABE6427476"
+					item: "tconstruct:earth_slime_crystal"
+					type: "item"
+				}
+				{
+					id: "5EA494022FE8EB69"
+					item: "tconstruct:sky_slime_crystal"
+					type: "item"
+				}
+				{
+					id: "139848EC63A40B85"
+					item: "tconstruct:ender_slime_crystal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "06656E3EA7CB4CF6"
+				item: {
+					Count: 1
+					id: "tconstruct:modifier_worktable"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3FB698E18F262FD2"]
+			id: "7EDB5913D43D9DC6"
+			rewards: [{
+				id: "3C84D9E94E31210A"
+				item: {
+					Count: 1
+					id: "tconstruct:fantastic_foundry"
+					tag: {
+						mantle: {
+							book: {
+								current_page: "intro.page0"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "69AEBD3AFFECF678"
+				type: "checkmark"
+			}]
+			title: "熔铸术"
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7EDB5913D43D9DC6"]
+			description: ["由&e岩浆膏&r、&e沙砾&r以及&e灵魂土&r合成，可以烧制成&e焦褐砖&r。"]
+			id: "3C3D4B6474E36FDA"
+			rewards: [{
+				count: 16
+				id: "59D47BF47BE9F5B6"
+				item: "tconstruct:nether_grout"
+				type: "item"
+			}]
+			tasks: [{
+				id: "166E2D757F72D1F8"
+				item: "tconstruct:nether_grout"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3C3D4B6474E36FDA"]
+			id: "590A3AFE3B7A9018"
+			rewards: [{
+				count: 8
+				id: "4D76FBCC24C02A01"
+				item: "tconstruct:scorched_brick"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1602B5F48F220D70"
+				item: "tconstruct:scorched_brick"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["590A3AFE3B7A9018"]
+			description: [
+				"&e焦黑材料量器&r|&e焦黑燃料量器"
+				"&r"
+				"可存储流体，&e燃料量器&r可存储4B(4000mb)的流体；"
+				"&e材料量器&r可存储4320mb流体，"
+				"&6方块被破坏时将保留内部流体&r"
+				""
+				"用于制作&e熔合金炉"
+				""
+				"&r可用于作为&e熔铸炉燃料储罐&r"
+				""
+				"也能当做流体保留装置"
+			]
+			id: "5FA73FFF453A37B1"
+			tasks: [{
+				id: "66FD76C9FD1F2E20"
+				title: "焦褐量器"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5FA73FFF453A37B1"]
+			description: [
+				"&6可以将&e相邻的储罐&r（&e焦黑燃料储罐&r，&e焦褐燃料量器&r等均可）&6内部的流体自动合成对应的合金流体"
+				""
+				"底部需放置&e储罐&r或&e加热器&r提供热源。"
+			]
+			hide_dependency_lines: true
+			id: "257B03574F8896DD"
+			rewards: [
+				{
+					id: "4DD1DE26442E57AE"
+					item: {
+						Count: 1
+						id: "tconstruct:seared_ingot_gauge"
+						tag: {
+							tank: {
+								Amount: 4000
+								FluidName: "tconstruct:molten_iron"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41EDE67D673FEA33"
+					item: {
+						Count: 1
+						id: "tconstruct:seared_ingot_gauge"
+						tag: {
+							tank: {
+								Amount: 4320
+								FluidName: "mushroom_concept:molten_coal"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&m所以为什么不直接逃课极限冶炼炉？"
+			tasks: [{
+				id: "4ACEF80638F51B72"
+				item: "tconstruct:scorched_alloyer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6F70B7D7532F803E"
+				"76CC1934C282AAD7"
+			]
+			description: [
+				"&e冶炼炉控制器&a是&9冶炼炉多结构&a的核心方块之一。"
+				""
+				"&a必须放置在冶炼炉的侧面。"
+				""
+				"&a右键打开GUI，左侧的&9冶炼槽&a可以放入任何物品，但是只有&e可被熔炼的物品&a才会被熔炼，否则会显示“&c不能熔化该物品&a”的提示可以用来当箱子。"
+				""
+				"&a中间为内部液体界面，不同种类的液体会根据种类/数量显示为不同颜色/厚度的“液体层”。"
+				""
+				"&a鼠标指针放在液体上会显示该液体的&9数量(单位为原版块/锭/粒)&a，按住shift键会以B/mB作为单位。"
+				""
+				"&a如鼠标指针放在界面中空的位置，则会显示此冶炼炉&9总容量/已用容量/剩余容量(单位同为原版块/锭/粒)&a，按住shift则以B/mB作为单位。"
+				""
+				"&a左键任意一种内部液体则会将此种液体移至冶炼炉最下部(优先被导出)。"
+				""
+				"&a右侧为&9燃料槽&a，可以显示当前燃料的种类、温度以及剩余量(单位为mB)。"
+				""
+				"相关链接："
+				""
+				"{ \"text\": \"极限冶炼炉\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"29266C1D3E8DB385\" } }"
+			]
+			hide_until_deps_complete: true
+			id: "07178F4F6C135389"
+			rewards: [{
+				id: "3F4FE5F037C9B53C"
+				item: "tconstruct:mighty_smelting"
+				type: "item"
+			}]
+			subtitle: "可按[W]进行思索"
+			tasks: [{
+				id: "2E2FF1AC95E90A00"
+				item: "tconstruct:smeltery_controller"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"76CC1934C282AAD7"
+				"6F70B7D7532F803E"
+			]
+			description: [
+				"&a与&e冶炼炉&a类似，但&6不会&a将内部流体合成为合金"
+				""
+				"&a且在熔炼时&6有概率获取特殊的流体&a产物"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2A42938EC1F431C5"
+			subtitle: "可按[W]进行思索"
+			tasks: [{
+				id: "5ABD853B138B1122"
+				item: "tconstruct:foundry_controller"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+	]
+	title: "◇&7阶段0"
+}

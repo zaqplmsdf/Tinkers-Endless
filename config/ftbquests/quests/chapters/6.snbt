@@ -5,6 +5,7 @@
 	group: "3172704A8AED52C1"
 	id: "66C99EF566B71F29"
 	order_index: 6
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -386,5 +387,5 @@
 			y: 4.0d
 		}
 	]
-	title: "&6燃料列表"
+	title: "◇&6燃料列表"
 }

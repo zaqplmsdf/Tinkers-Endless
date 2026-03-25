@@ -39,6 +39,7 @@
 		}
 	]
 	order_index: 8
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -47,19 +48,19 @@
 			id: "578C71D1C74DD60D"
 			tasks: [{
 				id: "70C59BCFD670FB0A"
-				title: "基本工具"
+				title: "小型工具"
 				type: "checkmark"
 			}]
 			x: -3.5d
 			y: -2.5d
 		}
 		{
-			description: ["部件大于等于四，因此需要再工匠砧制作和替换部件的工具"]
+			description: ["部件大于等于四，因此需要在工匠砧制作和替换部件的工具"]
 			icon: "tconstruct:tinkers_anvil"
 			id: "6BC3B5CF48A7C461"
 			tasks: [{
 				id: "4895ABD85D8025BA"
-				title: "重型工具"
+				title: "宽型工具"
 				type: "checkmark"
 			}]
 			x: -3.5d
@@ -5407,7 +5408,7 @@
 			y: 8.0d
 		}
 		{
-			description: ["使用星构素催化剂强化任意对应位置的护甲可获得对应装备效果"]
+			description: ["&a使用&e星构素催化剂&a作为&e强化材料&a对任意&e对应位置的护甲&a强化可获得对应装备效果"]
 			id: "5F4F4C331E5283EB"
 			tasks: [
 				{
@@ -5460,7 +5461,7 @@
 			y: 13.0d
 		}
 		{
-			description: ["使用星构素催化剂强化任意对应位置的护甲可获得对应装备效果"]
+			description: ["&a使用&e星构素催化剂&a作为&e强化材料&a对任意&e对应位置的护甲&a强化可获得对应装备效果"]
 			id: "5BBC6E6C55A59BCF"
 			tasks: [
 				{
@@ -5806,5 +5807,5 @@
 		}
 	]
 	subtitle: ["完成"]
-	title: "·&f工具图鉴"
+	title: "◇&f工具图鉴"
 }

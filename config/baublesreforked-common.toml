@@ -91,7 +91,7 @@
 		#1. 只写模组ID，不要写冒号和物品名称
 		#2. 大小写敏感，建议使用小写
 		#3. 这里禁止的模组会优先于其他检测规则
-		disabledMods = ["sophisticatedbackpacks"]
+		disabledMods = ["sophisticatedbackpacks", "AE2"]
 
 	#修饰符设置
 	[general.modifiers]

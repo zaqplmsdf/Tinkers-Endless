@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
             F:Item.of('create:creative_motor', '{}'),
             G:Item.of('pneumaticcraft:creative_compressor', '{}'),
             H:Item.of('botania:creative_pool', '{}'),
-            I:Item.of('mekanism:creative_bin', '{}'),
+            I:Item.of('ticex:celestial_core', '{}'),
             J:Item.of('botania:lens_storm', '{}'),
             K:Item.of('createaddition:creative_energy', '{}'),
             L:Item.of('mekanism:creative_chemical_tank', '{}'),

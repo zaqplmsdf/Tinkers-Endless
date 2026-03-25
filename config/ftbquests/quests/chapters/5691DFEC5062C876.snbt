@@ -1,6 +1,6 @@
 {
 	consume_items: true
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	default_repeatable_quest: true
 	disable_toast: true
@@ -14,8 +14,8 @@
 			image: "thermal:item/netherite_coin_0"
 			rotation: 0.0d
 			width: 3.0d
-			x: -4.5d
-			y: -1.0d
+			x: 3.0d
+			y: 2.5d
 		}
 		{
 			dependency: "35ACD1962D72E6DF"
@@ -31,8 +31,8 @@
 			image: "thermal:item/bronze_coin_0"
 			rotation: 0.0d
 			width: 1.5d
-			x: -5.5d
-			y: -2.0d
+			x: -6.0d
+			y: 2.5d
 		}
 		{
 			height: 1.5d
@@ -40,23 +40,23 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: -3.5d
-			y: -2.0d
+			y: 2.5d
 		}
 		{
 			height: 1.5d
 			image: "thermal:item/gold_coin_2"
 			rotation: 0.0d
 			width: 1.5d
-			x: -5.5d
-			y: 0.0d
+			x: -1.5d
+			y: 2.5d
 		}
 		{
 			height: 1.5d
 			image: "thermal:item/enderium_coin_3"
 			rotation: 0.0d
 			width: 1.5d
-			x: -3.5d
-			y: 0.0d
+			x: 0.5d
+			y: 2.5d
 		}
 		{
 			height: 1.0d
@@ -1520,8 +1520,8 @@
 			order: 10
 			rotation: 0.0d
 			width: 1.0d
-			x: -3.0d
-			y: -1.0d
+			x: -11.0d
+			y: -5.5d
 		}
 		{
 			height: 1.0d
@@ -1529,8 +1529,8 @@
 			order: 10
 			rotation: 0.0d
 			width: 1.0d
-			x: -6.0d
-			y: -1.0d
+			x: -11.0d
+			y: -6.5d
 		}
 		{
 			height: 1.0d
@@ -1538,8 +1538,8 @@
 			order: 10
 			rotation: 0.0d
 			width: 1.0d
-			x: -4.5d
-			y: -2.5d
+			x: -11.0d
+			y: -7.5d
 		}
 		{
 			height: 1.0d
@@ -1547,24 +1547,24 @@
 			order: 10
 			rotation: 0.0d
 			width: 1.0d
-			x: -4.5d
-			y: 0.5d
+			x: -11.0d
+			y: -1.5d
 		}
 		{
 			height: 4.0d
 			image: "draconicevolution:block/draconium_ore_overlay"
 			rotation: 0.0d
 			width: 4.0d
-			x: -9.5d
-			y: -5.0d
+			x: -4.0d
+			y: -6.0d
 		}
 		{
 			height: 6.0d
 			image: "avaritia:item/resource/singularity/eternal_singularity2"
 			rotation: 0.0d
 			width: 6.0d
-			x: 1.0d
-			y: -5.5d
+			x: -9.0d
+			y: 0.5d
 		}
 		{
 			height: 1.0d
@@ -1572,7 +1572,49 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 3.0d
-			y: 2.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "farmersdelight:item/cabbage_seeds"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:block/farmland"
+			rotation: 0.0d
+			width: 6.0d
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			height: 2.0d
+			image: "trailandtales_delight:item/baked_torchflower_seeds"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			height: 3.0d
+			image: "thermal:item/spinach_seeds"
+			rotation: 0.0d
+			width: 3.0d
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:item/wheat_seeds"
+			order: 1
+			rotation: 0.0d
+			width: 5.0d
+			x: -1.5d
+			y: -3.5d
 		}
 	]
 	order_index: 0
@@ -1597,8 +1639,8 @@
 				type: "item"
 			}]
 			title: "指环"
-			x: -6.0d
-			y: 1.5d
+			x: -9.5d
+			y: -1.5d
 		}
 		{
 			can_repeat: true
@@ -1619,8 +1661,8 @@
 				type: "item"
 			}]
 			title: "&5魔力透镜"
-			x: -1.0d
-			y: 0.0d
+			x: -8.5d
+			y: -4.5d
 		}
 		{
 			can_repeat: true
@@ -1641,8 +1683,8 @@
 				type: "item"
 			}]
 			title: "&d永恒魔力池"
-			x: -1.0d
-			y: -1.0d
+			x: -9.5d
+			y: -4.5d
 		}
 		{
 			can_repeat: true
@@ -1677,8 +1719,8 @@
 				type: "item"
 			}]
 			title: "&d创造石板"
-			x: -1.0d
-			y: 1.0d
+			x: -7.5d
+			y: -4.5d
 		}
 		{
 			can_repeat: true
@@ -1712,8 +1754,8 @@
 				type: "item"
 			}]
 			title: "&1创造弹药盒"
-			x: -1.0d
-			y: -2.0d
+			x: -8.5d
+			y: -2.5d
 		}
 		{
 			can_repeat: true
@@ -1761,8 +1803,8 @@
 				}
 			]
 			title: "&5全类型创造弹药盒"
-			x: -1.0d
-			y: -3.0d
+			x: -9.5d
+			y: -2.5d
 		}
 		{
 			can_repeat: true
@@ -1807,8 +1849,8 @@
 				type: "item"
 			}]
 			title: "&6应力与电力"
-			x: 0.0d
-			y: -2.0d
+			x: -4.0d
+			y: -5.5d
 		}
 		{
 			can_repeat: true
@@ -1859,8 +1901,8 @@
 				type: "item"
 			}]
 			title: "&6创造槽位"
-			x: 0.0d
-			y: 0.0d
+			x: -4.0d
+			y: -3.5d
 		}
 		{
 			can_repeat: true
@@ -1905,8 +1947,8 @@
 				type: "item"
 			}]
 			title: "&a植物魔法三件套"
-			x: -2.0d
-			y: 0.0d
+			x: -5.0d
+			y: -4.5d
 		}
 		{
 			can_repeat: true
@@ -1927,8 +1969,8 @@
 				type: "item"
 			}]
 			title: "&5创造魔源罐"
-			x: -2.0d
-			y: -2.0d
+			x: -6.5d
+			y: -4.5d
 		}
 		{
 			can_repeat: true
@@ -1955,8 +1997,8 @@
 				type: "item"
 			}]
 			title: "能力槽"
-			x: 1.0d
-			y: -0.5d
+			x: -8.5d
+			y: -3.5d
 		}
 		{
 			can_repeat: true
@@ -1983,8 +2025,8 @@
 				type: "item"
 			}]
 			title: "升级槽"
-			x: 1.0d
-			y: 0.5d
+			x: -7.5d
+			y: -3.5d
 		}
 		{
 			can_repeat: true
@@ -2011,8 +2053,8 @@
 				type: "item"
 			}]
 			title: "防御槽"
-			x: 1.0d
-			y: 1.5d
+			x: -6.5d
+			y: -3.5d
 		}
 		{
 			can_repeat: true
@@ -2039,8 +2081,8 @@
 				type: "item"
 			}]
 			title: "灵魂槽"
-			x: 1.0d
-			y: 2.5d
+			x: -5.5d
+			y: -3.5d
 		}
 		{
 			can_repeat: true
@@ -2061,8 +2103,8 @@
 				type: "item"
 			}]
 			title: "创造发电机"
-			x: 1.0d
-			y: -1.5d
+			x: -6.5d
+			y: -5.5d
 		}
 		{
 			can_repeat: true
@@ -2083,8 +2125,8 @@
 				type: "item"
 			}]
 			title: "创造马达"
-			x: 1.0d
-			y: -2.5d
+			x: -7.5d
+			y: -5.5d
 		}
 		{
 			can_repeat: true
@@ -2105,8 +2147,8 @@
 				type: "item"
 			}]
 			title: "创造蓄电池"
-			x: 1.0d
-			y: -3.5d
+			x: -8.5d
+			y: -5.5d
 		}
 		{
 			can_repeat: true
@@ -2129,8 +2171,8 @@
 				type: "item"
 			}]
 			title: "创造流体储罐"
-			x: 1.0d
-			y: -4.5d
+			x: -9.5d
+			y: -5.5d
 		}
 		{
 			can_repeat: true
@@ -2154,8 +2196,8 @@
 				type: "item"
 			}]
 			title: "抽卡"
-			x: 2.0d
-			y: -1.0d
+			x: -6.5d
+			y: -2.5d
 		}
 		{
 			can_repeat: true
@@ -2174,8 +2216,8 @@
 				type: "item"
 			}]
 			title: "灵魂"
-			x: 3.0d
-			y: -1.0d
+			x: -5.5d
+			y: -2.5d
 		}
 		{
 			can_repeat: false
@@ -2198,8 +2240,8 @@
 				type: "checkmark"
 			}]
 			title: "一个简单的说明"
-			x: -4.5d
-			y: -2.5d
+			x: -11.0d
+			y: -7.5d
 		}
 		{
 			can_repeat: false
@@ -2210,526 +2252,8 @@
 				title: "兑换窗口"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: -1.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["20F14AA83DDD8100"]
-			id: "0862121F49B46AEA"
-			rewards: [{
-				auto: "enabled"
-				id: "31F0806702B234C7"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "7C3FEE0D21787DE3"
-				item: {
-					Count: 1
-					id: "minecraft:wooden_shovel"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -7.0d
-			y: -4.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["20F14AA83DDD8100"]
-			id: "3B9BF9BA57F731DA"
-			rewards: [{
-				auto: "enabled"
-				id: "1AC5EB0CB6A40103"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				id: "677D488FF515FBF4"
-				item: {
-					Count: 1
-					id: "minecraft:wooden_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -7.0d
-			y: -6.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["20F14AA83DDD8100"]
-			id: "4F09E8E3A27B3B15"
-			rewards: [{
-				auto: "enabled"
-				id: "033E39C889A43560"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "2C7193B5CB7A8D47"
-				item: {
-					Count: 1
-					id: "minecraft:wooden_axe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -7.0d
+			x: -11.0d
 			y: -5.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["20F14AA83DDD8100"]
-			id: "443A641BF3EAF3C2"
-			rewards: [{
-				auto: "enabled"
-				id: "427ECB031E46BC41"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				id: "2319B30929ACB5BE"
-				item: {
-					Count: 1
-					id: "minecraft:wooden_hoe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -7.0d
-			y: -3.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["20F14AA83DDD8100"]
-			id: "14AA5197C906A6C8"
-			rewards: [{
-				auto: "enabled"
-				id: "28E2954503C261DF"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "2582D64D7FDAC31F"
-				item: {
-					Count: 1
-					id: "minecraft:stone_hoe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -6.0d
-			y: -3.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["20F14AA83DDD8100"]
-			id: "49B0D16A2A6F968F"
-			rewards: [{
-				auto: "enabled"
-				id: "1727DF3E57757062"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "4C934EE65E34CBA8"
-				item: {
-					Count: 1
-					id: "minecraft:stone_axe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -6.0d
-			y: -5.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["20F14AA83DDD8100"]
-			id: "0D84DD8969884487"
-			rewards: [{
-				auto: "enabled"
-				id: "0A4AF2D29EFB5800"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "2B1E33623D5CF026"
-				item: {
-					Count: 1
-					id: "minecraft:stone_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -6.0d
-			y: -6.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["20F14AA83DDD8100"]
-			id: "39047F9255C1CDD8"
-			rewards: [{
-				auto: "enabled"
-				id: "6AC6712A8FD25601"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "631E9D65DA9BB67B"
-				item: {
-					Count: 1
-					id: "minecraft:stone_shovel"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -6.0d
-			y: -4.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["20F14AA83DDD8100"]
-			id: "15648728E1D6DEE5"
-			rewards: [{
-				auto: "enabled"
-				id: "1C9C7667C064E4F6"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "41FB6A8DEA7956C1"
-				item: {
-					Count: 1
-					id: "minecraft:iron_hoe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -5.0d
-			y: -3.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["20F14AA83DDD8100"]
-			id: "111AB9412D5738D0"
-			rewards: [{
-				auto: "enabled"
-				id: "3C20351089C433D7"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "1FC1CEFDA6DEDB77"
-				item: {
-					Count: 1
-					id: "minecraft:iron_axe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -5.0d
-			y: -5.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["20F14AA83DDD8100"]
-			id: "085DCDAFBD3E13F3"
-			rewards: [{
-				auto: "enabled"
-				id: "789037E2553EBBD4"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "78606D99ED89490C"
-				item: {
-					Count: 1
-					id: "minecraft:iron_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -5.0d
-			y: -6.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["20F14AA83DDD8100"]
-			id: "3842C6A50FBC4308"
-			rewards: [{
-				auto: "enabled"
-				id: "4D980D2488036133"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "291C95FB23299726"
-				item: {
-					Count: 1
-					id: "minecraft:iron_shovel"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -5.0d
-			y: -4.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["20F14AA83DDD8100"]
-			id: "2289B1F1F72BD916"
-			rewards: [{
-				auto: "enabled"
-				id: "0FC9CD566E9CA3FE"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "6E1950ED8DA0CE61"
-				item: {
-					Count: 1
-					id: "minecraft:diamond_hoe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -3.0d
-			y: -3.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["20F14AA83DDD8100"]
-			id: "5FC0FCF3A6FF3544"
-			rewards: [{
-				auto: "enabled"
-				id: "3403964255FE8662"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "15C8E74F7B1D0316"
-				item: {
-					Count: 1
-					id: "minecraft:diamond_axe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -3.0d
-			y: -5.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["20F14AA83DDD8100"]
-			id: "24B9F05FEE1E847F"
-			rewards: [{
-				auto: "enabled"
-				id: "1B51EC07E0D957DE"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "3E1CCF173149B8BF"
-				item: {
-					Count: 1
-					id: "minecraft:diamond_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -3.0d
-			y: -6.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["20F14AA83DDD8100"]
-			id: "50E29D03176C7164"
-			rewards: [{
-				auto: "enabled"
-				id: "64A61EE04DFF132A"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "7FAEA0CEC6A3DACE"
-				item: {
-					Count: 1
-					id: "minecraft:diamond_shovel"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -3.0d
-			y: -4.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["20F14AA83DDD8100"]
-			id: "7AC0BCFBF2A1CD42"
-			rewards: [{
-				auto: "enabled"
-				id: "27E36605FDB46A04"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "12427E9448EF959A"
-				item: {
-					Count: 1
-					id: "minecraft:netherite_hoe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -2.0d
-			y: -3.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["20F14AA83DDD8100"]
-			id: "1F22C1C8EBBA7CE6"
-			rewards: [{
-				auto: "enabled"
-				id: "39CD222CFB0AB114"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "1B3F4EC96AEF42F9"
-				item: {
-					Count: 1
-					id: "minecraft:netherite_axe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -2.0d
-			y: -5.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["20F14AA83DDD8100"]
-			id: "0FA75966AC62B9A6"
-			rewards: [{
-				auto: "enabled"
-				id: "5E157A6338A97F4E"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "0C4884D3FDF61B43"
-				item: {
-					Count: 1
-					id: "minecraft:netherite_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -2.0d
-			y: -6.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["20F14AA83DDD8100"]
-			id: "2E4580BBF5C920A0"
-			rewards: [{
-				auto: "enabled"
-				id: "659E742FFA373A6E"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "63F8958013DBE949"
-				item: {
-					Count: 1
-					id: "minecraft:netherite_shovel"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -2.0d
-			y: -4.5d
 		}
 		{
 			can_repeat: false
@@ -2743,36 +2267,8 @@
 				type: "checkmark"
 			}]
 			title: "多余的教程书"
-			x: -6.0d
-			y: -1.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["30A65566832E7492"]
-			id: "34EAB643931FCDB1"
-			rewards: [{
-				auto: "enabled"
-				id: "3ED370F0952CF957"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "2F62C627BC5EF80A"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "minecraft:lectern_books"
-					}
-				}
-				title: "Any #minecraft:lectern_books"
-				type: "item"
-			}]
-			title: "一部分"
-			x: -7.0d
-			y: -2.5d
+			x: -11.0d
+			y: -6.5d
 		}
 		{
 			can_repeat: true
@@ -2788,218 +2284,19 @@
 			tasks: [{
 				consume_items: true
 				id: "317F2744EB2715B2"
-				item: "mekanism:dictionary"
-				type: "item"
-			}]
-			x: -7.0d
-			y: -1.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["30A65566832E7492"]
-			id: "19AB8076996AEC95"
-			rewards: [{
-				auto: "enabled"
-				id: "7FBFC338AE9AB4C1"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "58E9FAD88BD7AE64"
-				item: "alexsmobs:animal_dictionary"
-				type: "item"
-			}]
-			x: -7.0d
-			y: -0.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["30A65566832E7492"]
-			id: "55AA25C692DDE71A"
-			rewards: [{
-				auto: "enabled"
-				id: "2FD1CE72368EEBB1"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "0A0D7E5A34CC599C"
-				item: "alexscaves:cave_book"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 0.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["30A65566832E7492"]
-			id: "4B098ECC494028CD"
-			rewards: [{
-				auto: "enabled"
-				id: "60EDAAF65F96C923"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "4C5DDD4CEF086FD8"
-				item: "enigmaticlegacy:the_acknowledgment"
-				type: "item"
-			}]
-			x: -8.0d
-			y: -2.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["30A65566832E7492"]
-			id: "20F7265D53386024"
-			rewards: [{
-				auto: "enabled"
-				id: "636CA3677AD0A93B"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "2A53E350FBD99C4D"
-				item: "ftbquests:book"
-				type: "item"
-			}]
-			x: -8.0d
-			y: -1.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["30A65566832E7492"]
-			id: "53F1F0F0A073D4A8"
-			rewards: [{
-				auto: "enabled"
-				id: "5D6FB089F45CD634"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "75C6F2D7C631355A"
-				item: "solcarrot:food_book"
-				type: "item"
-			}]
-			x: -8.0d
-			y: -0.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["30A65566832E7492"]
-			id: "1A77B60AF9B7E142"
-			rewards: [{
-				auto: "enabled"
-				id: "53EF5668D1E73CC2"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "3D641965D7FF9B75"
-				item: "aether:book_of_lore"
-				type: "item"
-			}]
-			x: -8.0d
-			y: 0.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["30A65566832E7492"]
-			id: "3A76C995960DBCC8"
-			rewards: [{
-				auto: "enabled"
-				id: "78B6B849442487A7"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "172A1B19FE9A168B"
 				item: {
 					Count: 1
-					id: "iceandfire:bestiary"
+					id: "itemfilters:tag"
 					tag: {
-						Pages: [I;0]
+						value: "wqjy:recycle_book"
 					}
 				}
+				title: "Any #wqjy:recycle_book"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -2.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["30A65566832E7492"]
-			id: "7929CA0D50C187EF"
-			rewards: [{
-				auto: "enabled"
-				id: "1E0B7FBA631250B5"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "63919B77849155D1"
-				item: "tinkersjewelry:book"
-				type: "item"
-			}]
-			x: -9.0d
-			y: -1.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["30A65566832E7492"]
-			id: "013E3AF36491E4C2"
-			rewards: [{
-				auto: "enabled"
-				id: "75C3DA6727754723"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "46E3B1B6BA0B8959"
-				item: "nffgirls:mob_dictionary"
-				type: "item"
-			}]
-			x: -9.0d
-			y: -0.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["30A65566832E7492"]
-			icon: "nffgirlsgaia:mob_dictionary"
-			id: "48D966A62FF9DEF1"
-			rewards: [{
-				auto: "enabled"
-				id: "31372F9268513468"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "055C353BACA3A8AF"
-				item: "nffgirlsgaia:mob_dictionary"
-				type: "item"
-			}]
-			x: -9.0d
-			y: 0.5d
+			title: "回收"
+			x: -9.5d
+			y: -6.5d
 		}
 		{
 			can_repeat: true
@@ -3012,6 +2309,7 @@
 				team_reward: true
 				type: "item"
 			}]
+			subtitle: "DLC物品"
 			tasks: [{
 				consume_items: true
 				id: "7D57920868FB9A8B"
@@ -3033,8 +2331,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
-			y: -1.5d
+			x: -8.5d
+			y: -6.5d
 		}
 		{
 			can_repeat: true
@@ -3047,6 +2345,7 @@
 				team_reward: true
 				type: "item"
 			}]
+			subtitle: "DLC物品"
 			tasks: [{
 				consume_items: true
 				id: "760A18F2B858CCD2"
@@ -3068,8 +2367,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
-			y: -0.5d
+			x: -7.5d
+			y: -6.5d
 		}
 		{
 			can_repeat: false
@@ -3079,8 +2378,8 @@
 				type: "checkmark"
 			}]
 			title: "一些小东西的兑换"
-			x: -4.5d
-			y: 0.5d
+			x: -11.0d
+			y: -1.5d
 		}
 		{
 			can_repeat: true
@@ -3106,8 +2405,8 @@
 				type: "item"
 			}]
 			title: "用于重铸某些装备"
-			x: -3.5d
-			y: 2.5d
+			x: -4.5d
+			y: -1.5d
 		}
 		{
 			can_repeat: false
@@ -3580,8 +2879,8 @@
 				type: "item"
 			}]
 			title: "锻造模板"
-			x: -5.5d
-			y: 2.5d
+			x: -6.5d
+			y: -1.5d
 		}
 		{
 			can_repeat: false
@@ -5285,182 +4584,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["30A65566832E7492"]
-			description: ["似乎每次进入世界都会给一本，但是用这玩意刷经验属实没必要"]
-			id: "34D5D7113406C8CA"
-			rewards: [{
-				auto: "enabled"
-				id: "2A1C19E0CA439354"
-				team_reward: true
-				type: "xp"
-				xp: 20
-			}]
-			tasks: [{
-				id: "7B5DE14BA3D4737B"
-				item: {
-					Count: 1
-					id: "minecraft:written_book"
-					tag: {
-						author: "附魔导师"
-						generation: 0
-						pages: [
-							"{\"color\":\"light_purple\",\"extra\":[{\"color\":\"dark_purple\",\"text\":\"本书将为你介绍附魔和机制等信息（书中出现的所有数值均为默认数值，可以自行在配置文件调控）。\"}],\"text\":\"欢迎！\\n\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"时空斩 - 攻击间隔>2秒时造成额外伤害并使目标时间回溯（仅可附魔于近战武器；回溯level+1秒，追加level*2伤害）。\\n\"},{\"color\":\"light_purple\",\"text\":\"灵吸 - 击杀叠加印记层数以提升武器造成的伤害（仅可作用于武器；每层印记+0.1武器攻击伤害，上限150层）。\\n\"}],\"text\":\"基础附魔指南01：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"轻语 - 无视护甲造成真实伤害(仅可作用于弓箭；无视目标护甲，并使弓箭+7固定伤害)。\\n\"},{\"color\":\"light_purple\",\"text\":\"潮涌 - 生成水柱弹飞敌人（仅可作用于三叉戟；level*0.5+1格垂直击退）。\\n\"}],\"text\":\"基础附魔指南02：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"凛冬 - 攻击目标以施加减速并生成积雪（仅可作用于武器；level减速等级，level个积雪）。\\n\"},{\"color\":\"light_purple\",\"text\":\"制裁 -对生命>50%的敌人造成倍数伤害（仅可附魔于武器；level*0.3+1倍数）。\\n\"}],\"text\":\"基础附魔指南03：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"审判 - 对生命≤50%的敌人造成倍数伤害（仅可附魔于武器；level*0.3+1倍数）。\\n\"},{\"color\":\"light_purple\",\"text\":\"生命汲取 - 按伤害比例回复生命（仅可作用于武器；level*0.1的比例恢复）。\\n\"}],\"text\":\"基础附魔指南04：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"暴击 - 概率造成3倍伤害（仅可附魔于武器；level*0.2的概率）。\\n\"},{\"color\":\"light_purple\",\"text\":\"宽恕 - 根据最大生命值提升伤害（仅可作用于防具；每1点最大生命+2%造成的伤害）。\\n\"}],\"text\":\"基础附魔指南05：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"淬魂 - 基于目标最大生命比例造成额外伤害（仅可作用于武器；level*0.01比例）。\\n\"},{\"color\":\"light_purple\",\"text\":\"坚毅 - 固定减伤（仅可作用于防具；-1点受到的所有伤害。）。\\n\"}],\"text\":\"基础附魔指南06：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"泄火 - 受到伤害时爆发造成level*2点范围伤害（仅可作用于防具；伤害数值会随“全魔”等级而提升）。\\n\"},{\"color\":\"light_purple\",\"text\":\"闪避 - 概率瞬移躲避攻击（仅可作用于防具；level*0.04的概率）。\\n\"}],\"text\":\"基础附魔指南07：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"圣佑 - 提升最大生命值（仅可作用于防具；level*2最大生命值）。\\n\"},{\"color\":\"light_purple\",\"text\":\"全魔 - 牺牲生命换取近战攻击力（仅可作用于防具；+ level*2近战攻击力，- level*2+2最大生命）。\\n\"}],\"text\":\"基础附魔指南08：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"传承 - 防止装备损毁并叠加层数以提升生命，但是装备耐久度下降翻倍（仅可作用于防具；每层+2最大生命）。\\n\"},{\"color\":\"light_purple\",\"text\":\"复仇 - 免疫死亡（45s冷却）并恢复生命，对周边所有生物造成伤害（消耗耐久值）（仅可附魔于胸甲；恢复level*2+2生命，造成level*5+5伤害）。\\n\"}],\"text\":\"基础附魔指南09：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"盾反 - 治疗并击退攻击者（仅可作用于盾牌；恢复2点生命值+1.5倍击退前方3*3内所有生物）。\\n\"},{\"color\":\"light_purple\",\"text\":\"自然愈合 - 8秒未受伤害自动回血（仅可附魔于胸甲；极速恢复自身生命值）。\\n\"}],\"text\":\"基础附魔指南10：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"光耀 - 驱散怪物并提供照明（仅可作用于头盔；3格范围驱散敌对生物+发光效果）。\\n\"},{\"color\":\"light_purple\",\"text\":\"暗影步 - 潜行时隐身并加速（仅可作用于鞋子；level*0.2+0.2加速）。\\n\"}],\"text\":\"基础附魔指南11：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"邪行 - 生成毒雾并免疫中毒（仅可附魔于鞋子；level*3点伤害/0.5秒，level 2级减速，level 3级减速加虚弱）。\\n\"},{\"color\":\"light_purple\",\"text\":\"疾风 - 提升疾跑速度（仅可附魔于护腿；level*0.3加速）。\\n\"}],\"text\":\"基础附魔指南12：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"大地之怒 - 疾跑时发动震地攻击（仅可作用于护腿；3*3格范围击飞，1.5秒冷却）。\\n\"},{\"color\":\"light_purple\",\"text\":\"至高 - 免疫击退并免疫负面状态（仅可作用于头盔；完全击退抗性+大部分debuff免疫）。\\n\"}],\"text\":\"基础附魔指南13：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"沃土 - 右键锄地时会有概率产出一定数量的骨粉（仅可作用于锄；level*0.15+0.1概率，level个骨粉）。\\n\"},{\"color\":\"light_purple\",\"text\":\"勘探 - 挖掘时有几率掉落任意矿石（仅可作用于铲，可被“时运”加成；level*0.8*（1+时运等级*0.4）概率）。\\n\"}],\"text\":\"基础附魔指南14：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"引渡 - 钓鱼时获得额外经验（仅可作用于钓鱼竿；level*12到level*20点经验值）。\\n\"},{\"color\":\"light_purple\",\"text\":\"连锁 - 挖掘3x3x3范围内的同种方块（仅可作用于镐，可被“时运”和“精准采集”加成）。\\n\"}],\"text\":\"基础附魔指南15：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"灵性 - 吸引附近的动物（仅可作用于头盔）。\\n\"},{\"color\":\"light_purple\",\"text\":\"海之安抚 - 在水中或雨中时持续恢复生命值（仅可作用于胸甲）。\\n\"}],\"text\":\"基础附魔指南16：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"沉眠 - 睡觉后获得额外1点生命值（仅可作用于护腿）。\\n\"},{\"color\":\"light_purple\",\"text\":\"复苏 - 使周围的花草生长（仅可作用于鞋）。\\n\"}],\"text\":\"基础附魔指南17：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"狂战 - 攻击时增加可无限叠加的3秒的攻击速度和移速效果，并击退敌人（仅可作用于斧）。\\n\"},{\"color\":\"light_purple\",\"text\":\"引爆 - 用弩击杀生物时引发大范围的爆炸（仅可作用于弩）。\\n\"}],\"text\":\"基础附魔指南18：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"裁剪 - 用剪刀右键生物时获得额外掉落物（仅可作用于剪刀，可被“时运”加成；level*0.03-1+0.02*时运等级 概率，4+时运等级*2经验值）。\\n\"},{\"color\":\"light_purple\",\"text\":\"呼唤来者 - 在玩家附近召唤一个隶属于玩家的铁傀儡。（仅可附魔于“呼唤”类型的山羊角）。\\n\"}],\"text\":\"基础附魔指南19：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"憧憬未来 - 使大范围内（半径32格）的所有生物获得短暂的加速效果。（仅可附魔于“憧憬”类型的山羊角）。\\n\"},{\"color\":\"light_purple\",\"text\":\"想象彼岸 - 使大范围内（半径32格）的所有生物短暂浮空。（仅可附魔于“想象”类型的山羊角）。\\n\"}],\"text\":\"基础附魔指南20：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"沉思过往 - 使大范围内（半径32格）的所有生物获得短暂的减速效果。（仅可附魔于“沉思”类型的山羊角）。\\n\"},{\"color\":\"light_purple\",\"text\":\"歌颂生灵 - 为大范围内（半径32格）的所有生物恢复少量生命值。（仅可附魔于“歌颂”类型的山羊角）。\\n\"}],\"text\":\"基础附魔指南21：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"寻觅何物 - 为吹奏者指引超大范围内最近的特殊结构。（仅可附魔于“寻觅”类型的山羊角）。\\n\"},{\"color\":\"light_purple\",\"text\":\"感受当下 - 清除大范围（半径32格）内的所有生物的所有buff效果。（仅可附魔于“感受”类型的山羊角）。\\n\"}],\"text\":\"基础附魔指南22：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"仰慕星辰 - 为吹奏者指引超大范围内最近的特殊结构。（仅可附魔于“寻觅”类型的山羊角）。\\n\"},{\"color\":\"light_purple\",\"text\":\"时停斩 - 概率时停生物3秒并取消生物无敌帧（仅可附魔于武器；level*0.1概率）。\\n\"}],\"text\":\"基础附魔指南23：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"爱弦之诗·终章 - 玩家饥饿值始终为满，每次攻击有50%概率附加12点物理伤害（仅可附魔于“书与笔”，且物品须在副手才会生效）。\\n\"},{\"color\":\"light_purple\",\"text\":\"爱弦之诗·如梦 - 玩家的最大生命值+14（仅可附魔于“书与笔”，且物品须在副手才会生效）。\\n\"}],\"text\":\"基础附魔指南24：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"爱弦之诗·星眸 - 攻击目标会引发小范围的爆炸（仅可附魔于“书与笔”，且物品须在副手才会生效）。\\n\"},{\"color\":\"light_purple\",\"text\":\"爱弦之诗·月尘 - 获得+9近战攻击力，生命恢复效果×2（仅可附魔于“书与笔”，且物品须在副手才会生效）。\\n\"}],\"text\":\"基础附魔指南25：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"爱弦之诗·神颂 - 为周围友方单位每秒恢复3点生命（仅可附魔于“书与笔”，且物品须在副手才会生效）。\\n\"},{\"color\":\"light_purple\",\"text\":\"爱弦之诗·旅谣 - 所有的经验获取×2（仅可附魔于“书与笔”，且物品须在副手才会生效）。\\n\"}],\"text\":\"基础附魔指南26：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"混乱 - 每13s使玩家半径13格内的所有生物的仇恨转移到非玩家的其他随机生物上（仅可附魔于头盔）。\\n\"},{\"color\":\"light_purple\",\"text\":\"挺进 - 移速随时间增加而增加（仅可附魔于胸甲；移速增加有上限）。\\n\"}],\"text\":\"基础附魔指南27：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"终焉之咒源 - 每一段时间对周围所有生物添加负面效果并对自身造成伤害（仅可附魔于头盔；13-(level-1)*3秒间隔，添加level个负面效果，自身受到2点伤害）。\\n\"}],\"text\":\"基础附魔指南28：\\n\"}"
-							"{\"text\":\"Buff效果（下一面）\\n\"}"
-							"{\"extra\":[{\"color\":\"dark_purple\",\"text\":\"任何具有此效果的实体都会被神秘气流推动向后移动。等级越高，推动强度越大。\"}],\"text\":\"厄风：\\n\"}"
-							"{\"extra\":[{\"color\":\"dark_red\",\"text\":\"任何具有此效果的实体受到的所有伤害增加。每级增加20%所有受到的伤害。\"}],\"text\":\"悲劫：\\n\"}"
-							"{\"extra\":[{\"color\":\"gold\",\"text\":\"在此效果存在期间，玩家击杀生物后会掉落大量矿物，玩家每秒获得(level+1)*7的经验值，等级越高掉落的矿物也越多。\"}],\"text\":\"奇迹星光：\\n\"}"
-							"{\"text\":\"这个世界的机制（下一面）\\n\"}"
-							"{\"extra\":[{\"italic\":true,\"text\":\"玩家在任意0.585s的时间内若进行了连续2次的跳跃，则会触发二段跳（可被跳跃药水增益），同时消耗1点饥饿值。默认“L”键开关哦。\"}],\"text\":\"二段跳：\\n\"}"
-							"{\"extra\":[{\"color\":\"red\",\"text\":\"唤魔者将有50%概率免疫死亡并恢复自身12点生命值，可无限触发。唤魔者会使用不死图腾很合理吧？\"}],\"text\":\"不死：\\n\"}"
-							"{\"extra\":[{\"color\":\"aqua\",\"text\":\"雪傀儡发射的雪球有35%的概率造成2点伤害并对目标附加减速和虚弱效果。\"}],\"text\":\"臻冰：\\n\"}"
-							"{\"extra\":[{\"color\":\"dark_purple\",\"text\":\"末影人在对目标造成伤害后，有30%的概率将目标传送到半径13格内的随机位置。\"}],\"text\":\"干扰：\\n\"}"
-							"{\"extra\":[{\"color\":\"dark_green\",\"text\":\"女巫丢置药水时有50%概率额外丢出4种负面药水（中毒、虚弱、缓慢和瞬间伤害药水）。\"}],\"text\":\"狂乱：\\n\"}"
-							"{\"extra\":[{\"color\":\"blue\",\"text\":\"悦灵每隔12秒为最近的玩家恢复2点生命值和增加1点经验值；恼鬼受到虚弱buff影响时会转变为悦灵\"}],\"text\":\"悦舞：\\n\"}"
-							"{\"extra\":[{\"color\":\"green\",\"text\":\"嗅探兽刨挖时有概率掉落额外的稀有物品（嗅探兽死亡后会掉落1个苔藓块)：\\n附魔之瓶:50%概率掉落2-4个\\n光灵箭:40%概率掉落4-6个\\n附魔金苹果:10%概率掉落1-2个\\n嗅探兽蛋:15%概率掉落1个\"}],\"text\":\"探魔：\\n\"}"
-							"{\"extra\":[{\"color\":\"gold\",\"text\":\"亡灵生物的发光效果存在期间，每秒会受到2点魔法伤害。\"}],\"text\":\"光灼：\\n\"}"
-							"{\"extra\":[{\"color\":\"blue\",\"text\":\"当玩家右键磁石指针时，玩家将传送至相关绑定的磁石半径2格内的随机的合法位置，有150秒冷却时间（磁石和磁石指针必须在同一个维度）。\"}],\"text\":\"回溯：\\n\"}"
-							"{\"extra\":[{\"color\":\"red\",\"text\":\"铁傀儡和雪傀儡会优先攻击玩家最近攻击过的目标（需要傀儡在玩家半径20/16格内）。\"}],\"text\":\"统领：\\n\"}"
-							"{\"extra\":[{\"color\":\"red\",\"text\":\"僵尸击杀目标后会生成一个新的僵尸；骷髅射手在攻击后有概率后撤并提高移速。\"}],\"text\":\"同化/游走：\\n\"}"
-							"{\"extra\":[{\"color\":\"light_purple\",\"text\":\"在铁砧中将需要的附魔物品放在左侧，附魔容器（EnchantLoader）放在右侧，同时花费1级经验，即可使附魔物品的任意一项附魔等级+1（不可超过最大值）\"}],\"text\":\"注魔：\\n\"}"
-							"{\"extra\":[{\"color\":\"gray\",\"text\":\"在高度（Y轴=0为参考水平高度）130格至530格的区间内，玩家从高度100格起每20格增加%5概率获得2秒的不同等级的“厄风”的负面效果（13秒冷却）。\"}],\"text\":\"来自高处的恶意：\\n\"}"
-							"{\"text\":\"添加的合成配方（下一面）\\n\"}"
-							"{\"extra\":[{\"color\":\"gold\",\"text\":\"鞍：3个皮革+1个铁锭。\"},{\"color\":\"gold\",\"text\":\"附魔金苹果：8个附魔之瓶+1个金苹果。\"}],\"text\":\"合成配方：\\n\"}"
-						]
-						resolved: 1b
-						title: "我的更多附魔说明书"
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -11.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["20F14AA83DDD8100"]
-			id: "746213B4C8CA6FD6"
-			rewards: [{
-				auto: "enabled"
-				id: "08A2DB13C552AF0D"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				id: "3DA5E96FADBDA7EC"
-				item: {
-					Count: 1
-					id: "minecraft:golden_hoe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -4.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["20F14AA83DDD8100"]
-			id: "0B528B3CA3DFEC6D"
-			rewards: [{
-				auto: "enabled"
-				id: "7A3521FC9289C002"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				id: "5D08E13B7DF82CF5"
-				item: {
-					Count: 1
-					id: "minecraft:golden_shovel"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -4.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["20F14AA83DDD8100"]
-			id: "768327AF080E3F5A"
-			rewards: [{
-				auto: "enabled"
-				id: "5AEF7C68A29FD956"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				id: "640589294A729ABC"
-				item: {
-					Count: 1
-					id: "minecraft:golden_axe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -4.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["20F14AA83DDD8100"]
-			id: "36BA47E93163453D"
-			rewards: [{
-				auto: "enabled"
-				id: "104CDBDA2A982D0B"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				id: "3E3683EFB4205F79"
-				item: {
-					Count: 1
-					id: "minecraft:golden_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -4.0d
-			y: -6.5d
-		}
-		{
 			dependencies: ["2663F92195AC57A6"]
 			description: [
 				"温度最高的冶炼炉燃料"
@@ -5515,8 +4638,8 @@
 				}
 			]
 			title: "&5极致的燃料"
-			x: -2.0d
-			y: -1.0d
+			x: -9.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["0A92EF96F43A3085"]
@@ -5696,8 +4819,8 @@
 				type: "item"
 			}]
 			title: "&6极限冶炼炉"
-			x: -6.5d
-			y: 2.5d
+			x: -9.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0A92EF96F43A3085"]
@@ -5729,128 +4852,8 @@
 				}
 			]
 			title: "纹饰模板兑换"
-			x: -3.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["20F14AA83DDD8100"]
-			id: "0A3888CD2E61309E"
-			rewards: [{
-				auto: "enabled"
-				id: "3A7829CE49946495"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				id: "3EA502CE4B43E74B"
-				item: {
-					Count: 1
-					id: "minecraft:wooden_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -7.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["20F14AA83DDD8100"]
-			id: "73BE96FFC4DB9C3F"
-			rewards: [{
-				auto: "enabled"
-				id: "04404179C684120E"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				id: "6E8224221AA99B0B"
-				item: {
-					Count: 1
-					id: "minecraft:stone_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -6.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["20F14AA83DDD8100"]
-			id: "5FCE9870E45992AF"
-			rewards: [{
-				auto: "enabled"
-				id: "67AE17C433E80F3F"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				id: "78946F2C114323D9"
-				item: {
-					Count: 1
-					id: "minecraft:iron_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -5.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["20F14AA83DDD8100"]
-			id: "5600D9C3799998E1"
-			rewards: [{
-				auto: "enabled"
-				id: "410278C56E67B73E"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				id: "3B58E96A1EDF8F6C"
-				item: {
-					Count: 1
-					id: "minecraft:golden_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -4.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["20F14AA83DDD8100"]
-			id: "79A6AE00441023AC"
-			rewards: [{
-				auto: "enabled"
-				id: "76E20BA0635D61E5"
-				item: "thermal:copper_coin"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				id: "33A34B3C731D66A2"
-				item: {
-					Count: 1
-					id: "minecraft:diamond_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -3.0d
-			y: -7.5d
+			x: -5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["20F14AA83DDD8100"]
@@ -5866,14 +4869,16 @@
 				id: "2E662594C8F70699"
 				item: {
 					Count: 1
-					id: "minecraft:netherite_sword"
+					id: "itemfilters:tag"
 					tag: {
-						Damage: 0
+						value: "wqjy:disable_tool"
 					}
 				}
+				title: "Any #wqjy:disable_tool"
 				type: "item"
 			}]
-			x: -2.0d
+			title: "回收"
+			x: -9.5d
 			y: -7.5d
 		}
 		{
@@ -5889,15 +4894,14 @@
 				title: "&6添加饰品栏"
 				type: "choice"
 			}]
-			shape: "none"
 			tasks: [{
 				disable_toast: true
 				id: "35AEBF353AD15421"
 				item: "kubejs:achievement"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 2.0d
+			x: -0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0A92EF96F43A3085"]
@@ -5934,8 +4938,8 @@
 				}
 			]
 			title: "&6修饰词"
-			x: -4.0d
-			y: 1.5d
+			x: -7.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0A92EF96F43A3085"]
@@ -5983,8 +4987,8 @@
 				}
 			]
 			title: "&e传说修饰词"
-			x: -5.0d
-			y: 1.5d
+			x: -8.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0A92EF96F43A3085"]
@@ -6146,8 +5150,8 @@
 				type: "item"
 			}]
 			title: "&5极限熔铸炉"
-			x: -2.5d
-			y: 2.5d
+			x: -8.5d
+			y: -0.5d
 		}
 		{
 			description: [
@@ -6169,8 +5173,8 @@
 				type: "item"
 			}]
 			title: "珠宝"
-			x: -4.5d
-			y: 2.5d
+			x: -3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2663F92195AC57A6"]
@@ -6189,8 +5193,8 @@
 				type: "item"
 			}]
 			title: "创造模式压缩机"
-			x: 0.0d
-			y: -1.0d
+			x: -5.5d
+			y: -5.5d
 		}
 		{
 			description: ["可使用&e末影币*4&r+&e合金币*5&r合成&e术石盲盒&r"]
@@ -6218,8 +5222,8 @@
 				type: "item"
 			}]
 			title: "术石兑换"
-			x: -10.5d
-			y: -3.0d
+			x: 2.25d
+			y: -0.75d
 		}
 		{
 			id: "7F4DBAF50BFD6207"
@@ -6244,8 +5248,8 @@
 				title: "石板兑换"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -2.5d
+			x: -4.375d
+			y: 1.25d
 		}
 		{
 			id: "6C0F489564283328"
@@ -6261,8 +5265,8 @@
 				type: "kill"
 				value: 1000L
 			}]
-			x: -7.5d
-			y: 1.5d
+			x: -11.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -6285,9 +5289,889 @@
 				type: "item"
 			}]
 			title: "恶意手杖"
-			x: -8.5d
-			y: 1.5d
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			description: ["提供了所有种植用方块"]
+			icon: "minecraft:farmland"
+			id: "54136C55DC4D8798"
+			rewards: [
+				{
+					id: "53FAD4B23B04D547"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+				{
+					id: "71329FC263D1652F"
+					item: "minecraft:podzol"
+					type: "item"
+				}
+				{
+					id: "77697CDF8A7E4EA2"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+				{
+					id: "213258E80E6DF4C3"
+					item: "minecraft:grass_block"
+					type: "item"
+				}
+				{
+					id: "443C775C08E107D5"
+					item: "minecraft:mycelium"
+					type: "item"
+				}
+				{
+					id: "134C7CC6DD152873"
+					item: "minecraft:clay"
+					type: "item"
+				}
+				{
+					id: "1AC776FF1F39912B"
+					item: "minecraft:farmland"
+					type: "item"
+				}
+				{
+					id: "75D9873C79B0C2E8"
+					item: "aether:quicksoil"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 10L
+				id: "1F47FB29F38FCAA7"
+				item: { Count: 10, id: "thermal:copper_coin" }
+				type: "item"
+			}]
+			title: "耕地方块"
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				""
+				"在这里可以买到所有&e农作物&r种子（应该不会有遗漏）"
+				"开局赠送一个价值64铜币的盒子（雾），要好好利用哦"
+			]
+			icon: "minecraft:apple"
+			id: "1EDE17DA7745A0B5"
+			rewards: [{
+				id: "6009C5EA5A14D710"
+				item: {
+					Count: 1
+					id: "minecraft:lime_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 1b
+									Slot: 0b
+									id: "minecraft:glow_berries"
+								}
+								{
+									Count: 1b
+									Slot: 1b
+									id: "minecraft:carrot"
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "minecraft:torchflower_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 3b
+									id: "minecraft:cocoa_beans"
+								}
+								{
+									Count: 1b
+									Slot: 4b
+									id: "minecraft:potato"
+								}
+								{
+									Count: 1b
+									Slot: 5b
+									id: "minecraft:pumpkin_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 6b
+									id: "minecraft:pitcher_pod"
+								}
+								{
+									Count: 1b
+									Slot: 7b
+									id: "minecraft:beetroot_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 8b
+									id: "minecraft:sweet_berries"
+								}
+								{
+									Count: 1b
+									Slot: 9b
+									id: "minecraft:melon_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 10b
+									id: "minecraft:nether_wart"
+								}
+								{
+									Count: 1b
+									Slot: 11b
+									id: "minecraft:wheat_seeds"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+						display: {
+							Lore: ["{\"text\":\"§5各原版种子*1\"}"]
+							Name: "{\"text\":\"§2原版种子盒\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E3F0DBB833C3992"
+				type: "checkmark"
+			}]
+			title: "说明"
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1EDE17DA7745A0B5"]
+			icon: "minecraft:grass_block"
+			id: "348058802CB54E54"
+			rewards: [{
+				id: "250E7F61181DD81A"
+				item: {
+					Count: 1
+					id: "minecraft:lime_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 1b
+									Slot: 0b
+									id: "minecraft:glow_berries"
+								}
+								{
+									Count: 1b
+									Slot: 1b
+									id: "minecraft:carrot"
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "minecraft:torchflower_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 3b
+									id: "minecraft:cocoa_beans"
+								}
+								{
+									Count: 1b
+									Slot: 4b
+									id: "minecraft:potato"
+								}
+								{
+									Count: 1b
+									Slot: 5b
+									id: "minecraft:pumpkin_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 6b
+									id: "minecraft:pitcher_pod"
+								}
+								{
+									Count: 1b
+									Slot: 7b
+									id: "minecraft:beetroot_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 8b
+									id: "minecraft:sweet_berries"
+								}
+								{
+									Count: 1b
+									Slot: 9b
+									id: "minecraft:melon_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 10b
+									id: "minecraft:nether_wart"
+								}
+								{
+									Count: 1b
+									Slot: 11b
+									id: "minecraft:wheat_seeds"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+						display: {
+							Lore: ["{\"text\":\"§5各原版种子*1\"}"]
+							Name: "{\"text\":\"§2原版种子盒\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "0C69C222A923C560"
+				item: { Count: 64, id: "thermal:copper_coin" }
+				type: "item"
+			}]
+			title: "原版种子盒"
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1EDE17DA7745A0B5"]
+			icon: {
+				Count: 1
+				id: "youkaishomecoming:suwako_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "03EB45294CDC587D"
+			rewards: [{
+				id: "134A37066233BC22"
+				item: {
+					Count: 1
+					id: "minecraft:white_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 1b
+									Slot: 0b
+									id: "youkaishomecoming:soybean"
+								}
+								{
+									Count: 1b
+									Slot: 1b
+									id: "youkaishomecoming:redbean"
+									tag: {
+										display: {
+											Lore: ["{\"text\":\"§a种植在黏土或砂土上\"}"]
+										}
+									}
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "youkaishomecoming:green_coffee_bean"
+									tag: {
+										display: {
+											Lore: ["{\"text\":\"§a在灰化土上种植\"}"]
+										}
+									}
+								}
+								{
+									Count: 1b
+									Slot: 3b
+									id: "youkaishomecoming:tea_seeds"
+									tag: {
+										display: {
+											Lore: ["{\"text\":\"§a在草方块上种植\"}"]
+										}
+									}
+								}
+								{
+									Count: 1b
+									Slot: 4b
+									id: "youkaishomecoming:udumbara_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 5b
+									id: "youkaishomecoming:mandrake_root"
+								}
+								{
+									Count: 1b
+									Slot: 6b
+									id: "youkaishomecoming:cucumber_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 7b
+									id: "youkaishomecoming:red_grape_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 8b
+									id: "youkaishomecoming:black_grape_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 9b
+									id: "youkaishomecoming:white_grape_seeds"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+						display: {
+							Lore: [ ]
+							Name: "{\"text\":\"§a怪物们的归家种子盒\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "6703497CEBCC9E07"
+				item: { Count: 64, id: "thermal:copper_coin" }
+				type: "item"
+			}]
+			title: "怪物们的归家种子盒"
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1EDE17DA7745A0B5"]
+			icon: "farmersdelight:stove"
+			id: "401F58293A1209DF"
+			rewards: [{
+				id: "758CDE0F83AEC3A4"
+				item: {
+					Count: 1
+					id: "minecraft:brown_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							CustomName: "{\"text\":\"§6农夫乐事种子盒\"}"
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 1b
+									Slot: 0b
+									id: "endersdelight:chorusflame"
+								}
+								{
+									Count: 1b
+									Slot: 1b
+									id: "endersdelight:voidpepper"
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "farmersdelight:rice"
+									tag: {
+										display: {
+											Lore: ["{\"text\":\"§a种植在上方有且仅有一格高的水源方块的泥土上\"}"]
+										}
+									}
+								}
+								{
+									Count: 1b
+									Slot: 3b
+									id: "trailandtales_delight:lantern_fruit_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 4b
+									id: "miners_delight:cave_carrot"
+								}
+								{
+									Count: 1b
+									Slot: 5b
+									id: "farmersdelight:tomato_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 6b
+									id: "farmersdelight:cabbage_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 7b
+									id: "rusticdelight:coffee_beans"
+								}
+								{
+									Count: 1b
+									Slot: 8b
+									id: "rusticdelight:cotton_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 9b
+									id: "rusticdelight:bell_pepper_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 10b
+									id: "farmersdelight:onion"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+						display: {
+							Name: "{\"text\":\"§6农夫乐事种子盒\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "40528CAEE1110694"
+				item: { Count: 64, id: "thermal:copper_coin" }
+				type: "item"
+			}]
+			title: "农夫乐事种子盒"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1EDE17DA7745A0B5"]
+			icon: "ars_nouveau:creative_spell_book"
+			id: "2D3CA98F5D071867"
+			rewards: [
+				{
+					id: "55C6774F8668DA39"
+					item: "ars_nouveau:magebloom_crop"
+					type: "item"
+				}
+				{
+					id: "08044599B2426374"
+					item: "ars_nouveau:sourceberry_bush"
+					type: "item"
+				}
+			]
+			subtitle: "不建议购买"
+			tasks: [{
+				count: 64L
+				id: "3B0C53F2AB6F3A5D"
+				item: { Count: 64, id: "thermal:copper_coin" }
+				type: "item"
+			}]
+			title: "新生魔艺种子"
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1EDE17DA7745A0B5"]
+			icon: {
+				Count: 1
+				id: "thermal:wrench"
+				tag: { }
+			}
+			id: "2F35C6FD647EAAEF"
+			rewards: [{
+				id: "17739041BC8F7636"
+				item: {
+					Count: 1
+					id: "minecraft:orange_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 1b
+									Slot: 0b
+									id: "thermal:gunpowder_mushroom_spores"
+									tag: {
+										display: {
+											Lore: ["{\"text\":\"§a种植在菌丝或灰化土上\"}"]
+										}
+									}
+								}
+								{
+									Count: 1b
+									Slot: 1b
+									id: "thermal:spinach_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "thermal:strawberry_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 3b
+									id: "thermal:tea_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 4b
+									id: "thermal:barley_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 5b
+									id: "thermal:tomato_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 6b
+									id: "thermal:glowstone_mushroom_spores"
+									tag: {
+										display: {
+											Lore: ["{\"text\":\"§a种植在菌丝或灰化土上\"}"]
+										}
+									}
+								}
+								{
+									Count: 1b
+									Slot: 7b
+									id: "thermal:peanut_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 8b
+									id: "thermal:coffee_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 9b
+									id: "thermal:hops_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 10b
+									id: "thermal:eggplant_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 11b
+									id: "thermal:sadiroot_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 12b
+									id: "thermal:slime_mushroom_spores"
+									tag: {
+										display: {
+											Lore: ["{\"text\":\"§a种植在菌丝或灰化土上\"}"]
+										}
+									}
+								}
+								{
+									Count: 1b
+									Slot: 13b
+									id: "thermal:frost_melon_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 14b
+									id: "thermal:rice_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 15b
+									id: "thermal:green_bean_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 16b
+									id: "thermal:bell_pepper_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 17b
+									id: "thermal:redstone_mushroom_spores"
+									tag: {
+										display: {
+											Lore: ["{\"text\":\"§a种植在菌丝或灰化土上\"}"]
+										}
+									}
+								}
+								{
+									Count: 1b
+									Slot: 18b
+									id: "thermal:radish_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 19b
+									id: "thermal:flax_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 20b
+									id: "thermal:onion_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 21b
+									id: "thermal:corn_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 22b
+									id: "thermal:amaranth_seeds"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+						display: {
+							Lore: [ ]
+							Name: "{\"text\":\"§6热力系列种子盒\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "50183E775B23E51D"
+				item: { Count: 64, id: "thermal:copper_coin" }
+				type: "item"
+			}]
+			title: "热力系列种子盒"
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1EDE17DA7745A0B5"]
+			icon: "aether:aether_portal_frame"
+			id: "5D47C2A644ACE21C"
+			rewards: [{
+				id: "612538214356925C"
+				item: {
+					Count: 1
+					id: "minecraft:light_blue_shulker_box"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 1b
+									Slot: 0b
+									id: "aether:berry_bush_stem"
+								}
+								{
+									Count: 1b
+									Slot: 1b
+									id: "aether_redux:zanberry_bush_stem"
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "deep_aether:squash_seeds"
+								}
+								{
+									Count: 1b
+									Slot: 3b
+									id: "deep_aether:goldenleaf_berries"
+									tag: {
+										display: {
+											Lore: ["{\"text\":\"§a种植在速沙上\"}"]
+										}
+									}
+								}
+								{
+									Count: 1b
+									Slot: 4b
+									id: "aether_redux:wynd_oats"
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+						display: {
+							Lore: [ ]
+							Name: "{\"text\":\"§b天境传说种子盒\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "31AA70882FF40A31"
+				item: { Count: 64, id: "thermal:copper_coin" }
+				type: "item"
+			}]
+			title: "天境传说种子盒"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1EDE17DA7745A0B5"]
+			description: ["所以我为什么不直接打草呢？"]
+			icon: "immersiveengineering:wirecoil_copper"
+			id: "4F8B880B0DFC0719"
+			rewards: [{
+				id: "2EF4C0715FF0BFD8"
+				item: "immersiveengineering:seed"
+				type: "item"
+			}]
+			subtitle: "极度不建议购买"
+			tasks: [{
+				count: 64L
+				id: "0B7799EFD7113BCD"
+				item: { Count: 64, id: "thermal:copper_coin" }
+				type: "item"
+			}]
+			title: "沉浸工程种子"
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1EDE17DA7745A0B5"]
+			description: ["没错，只有火炬浆果"]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "266762EC03EE027E"
+			rewards: [{
+				id: "0870A9CEE243B1BA"
+				item: "twilightforest:torchberries"
+				type: "item"
+			}]
+			subtitle: "不建议购买"
+			tasks: [{
+				count: 64L
+				id: "62E7C84E6525E68E"
+				item: { Count: 64, id: "thermal:copper_coin" }
+				type: "item"
+			}]
+			title: "暮色森林种子"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0A92EF96F43A3085"]
+			description: [
+				"&6过于简单，因此无法自动化"
+				"&r"
+				"&c蓝图无法放置线缆，因此请自行放置&r"
+			]
+			icon: "ae2:terminal"
+			id: "51F638C0B89D7768"
+			rewards: [{
+				id: "52FFEB3BC19C553F"
+				item: {
+					Count: 1
+					id: "minecraft:shulker_box"
+					tag: {
+						BlockEntityTag: {
+							CustomName: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"极简ae存储\"}],\"text\":\"\"}"
+							ForgeCaps: {
+								"astages:owners": {
+									owner: [I;
+										-2094034348
+										1131430011
+										-1898624662
+										521106182
+									]
+								}
+							}
+							Items: [
+								{
+									Count: 1b
+									Slot: 0b
+									id: "ae2:1k_crafting_storage"
+								}
+								{
+									Count: 1b
+									Slot: 1b
+									id: "ae2:item_storage_cell_256k"
+									tag: { }
+								}
+								{
+									Count: 1b
+									Slot: 2b
+									id: "ae2:crafting_terminal"
+								}
+								{
+									Count: 1b
+									Slot: 3b
+									id: "ae2:controller"
+								}
+								{
+									Count: 1b
+									Slot: 4b
+									id: "ae2:drive"
+								}
+								{
+									Count: 1b
+									Slot: 5b
+									id: "ae2:wireless_access_point"
+								}
+								{
+									Count: 1b
+									Slot: 6b
+									id: "appliede:emc_interface"
+								}
+								{
+									Count: 1b
+									Slot: 7b
+									id: "appliede:emc_module"
+								}
+								{
+									Count: 1b
+									Slot: 8b
+									id: "appliede:transmutation_terminal"
+								}
+								{
+									Count: 1b
+									Slot: 9b
+									id: "ae2:crafting_accelerator"
+								}
+								{
+									Count: 1b
+									Slot: 10b
+									id: "ae2:fluix_glass_cable"
+								}
+								{
+									Count: 1b
+									Slot: 11b
+									id: "aeinfinitybooster:dimension_card"
+								}
+								{
+									Count: 1b
+									Slot: 12b
+									id: "ae2:wireless_crafting_terminal"
+									tag: {
+										IsInitialized: 1b
+										baublesreforked.ModifierId: "aquatic"
+										baublesreforked.ModifierUUID: "8aeda2ac-0fa6-4655-bbd4-75cd5f3a6910"
+										internalCurrentPower: 1600000.0d
+									}
+								}
+								{
+									Count: 1b
+									Slot: 13b
+									id: "appliede:wireless_transmutation_terminal"
+									tag: {
+										internalCurrentPower: 1600000.0d
+									}
+								}
+							]
+							id: "minecraft:shulker_box"
+						}
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"极简ae存储\"}],\"text\":\"\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "麻雀虽小"
+			tasks: [{
+				id: "00BAC6E68AB289C9"
+				item: "kubejs:cat"
+				type: "item"
+			}]
+			title: "极简ae存储"
+			x: -7.5d
+			y: -0.5d
 		}
 	]
-	title: "·&6兑换"
+	title: "◇&6兑换"
 }

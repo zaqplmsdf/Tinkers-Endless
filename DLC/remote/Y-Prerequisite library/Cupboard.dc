@@ -1,18 +1,18 @@
 [download]
 modrinth_projectid = ""
 modrinth_versionid = ""
-curseforge_projectid = "326652"
-curseforge_fileid = "5470032"
-directUrl = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/7746/490/cupboard-1.20.1-3.5.jar"
 priority = "curseforge"
 
 [basic]
 identifier = "Cupboard"
 type = "mod"
-file_name = "cupboard-1.20.1-2.7.jar"
+file_name = "cupboard-1.20.1-3.5.jar"
 isInList = true
 isHidden = false
-AllowEnableByAll = false
+AllowEnableByAll = true
 alarm = false
 dependencies = ""
 conflicts = ""

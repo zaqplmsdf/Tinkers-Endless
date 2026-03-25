@@ -23,8 +23,17 @@
 			x: 0.5d
 			y: 0.5d
 		}
+		{
+			height: 1.0d
+			image: "tacz:textures/flash/common_muzzle_flash.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -0.5d
+		}
 	]
 	order_index: 10
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -208,6 +217,173 @@
 			x: 0.0d
 			y: -1.0d
 		}
+		{
+			dependencies: ["1AFEE6933745CF3E"]
+			description: [
+				"用于制作&etacz枪械&r的&e配件&r，&e枪械配件&r拥有不同的&9属性加成"
+				"&r"
+				"打开gui，&6在上方位置工作栏选中你需要的配件种类&r，而后&6在下方左侧位置选中想要的配件&r，这时&9右方&r会显示&e该配件需要的材料&r，&6当材料足够时点击右下角的制造&r即可制造选中的配件"
+				""
+				"&c注：按下shift会将背包内的材料一次性合成多个配件，合成时请注意不要做多了"
+				"&r"
+				"工作台UI左上角可以选择你想要的属性，选择后将会显示对该属性有更改的配件"
+				""
+				"&6手持枪械时&r对该工作台按下&9交互键&r（默认&e鼠标键4&r）可&6仅显示&r该枪械可装备的配件"
+				""
+				"配件种类：&e瞄具&r、&e枪口组件&r、&e枪托&r、&e握把&r、&e扩容弹匣&r、&e激光指示器&r"
+			]
+			id: "0CAE6181AB3BEAB2"
+			tasks: [{
+				id: "1DB0EB24D90A700E"
+				item: {
+					Count: 1
+					id: "tacz:workbench_c"
+					tag: {
+						BlockId: "tacz:attachment_workbench"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1AFEE6933745CF3E"]
+			description: [
+				"用于&e制作tacz枪械&r"
+				""
+				"打开gui，&6在上方位置工作栏选中你需要的枪械种类&r，而后&6在下方左侧位置选中想要的枪械&r，这时&9右方&r会显示&e该枪械需要的材料&r，&6当材料足够时点击右下角的制造&r即可制造选中的枪械"
+				""
+				"枪械种类：&e手枪&r、&e狙击枪&r、&e步枪&r、&e冲锋枪&r、&e霰弹枪&r、&e重型武器&r、&e机枪&r"
+			]
+			id: "6E6A0E2DC5C01A58"
+			tasks: [{
+				id: "6120EF261EE6259F"
+				item: "tacz:gun_smith_table"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1AFEE6933745CF3E"]
+			description: [
+				"用于制作&etacz弹药"
+				"&r"
+				"打开gui，&6在上方位置工作栏选中你需要的弹药种类&r，而后&6在下方左侧位置选中想要的弹药&r，这时&9右方&r会显示&e该弹药需要的材料&r，&6当材料足够时点击右下角的制造&r即可制造选中的弹药"
+				""
+				"&c注：按下shift会将背包内的材料一次性合成多组弹药，合成时请注意不要做多了"
+				"&r"
+				"&6手持枪械时&r对该工作台按下&9交互键&r（默认&e鼠标键4&r）可&6仅显示&r该枪械&e可使用的弹药&r"
+			]
+			id: "0B98582D589DE8C4"
+			tasks: [{
+				id: "517F4A36D77A66BC"
+				item: {
+					Count: 1
+					id: "tacz:workbench_a"
+					tag: {
+						BlockId: "tacz:ammo_workbench"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["002A8323600F86EC"]
+			hide_until_deps_complete: true
+			id: "1AFEE6933745CF3E"
+			tasks: [{
+				id: "218EE7572476B9FE"
+				title: "优化你的枪械"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0CAE6181AB3BEAB2"]
+			icon: {
+				Count: 1
+				id: "tacz:attachment"
+				tag: {
+					AttachmentId: "lradd:scope_holosun"
+				}
+			}
+			id: "085CC71F31E9802D"
+			rewards: [{
+				id: "39310599C448C399"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:extended_mag_3"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "07D042E9671BE0F1"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: { }
+				}
+				title: "任意tacz部件"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6E6A0E2DC5C01A58"]
+			description: [
+				"1.将&e闪耀星构核心&r在&e1000℃&r下融化为&e星构之流"
+				"&r"
+				"2.将手持任意&etacz枪械&r对&e铸件台&r按下&9交互键&r（默认&e鼠标键4&r）将&e枪械&r放到&e铸件台&r上"
+				""
+				"3.用&e星构之流&r浇筑&etacz枪械&r获得&e星构素催化剂 - 现代实弹枪械"
+				"&r"
+				"4.使用&e星构素催化剂 - 现代实弹枪械&r与&e任意大板&r、&e任意坚韧手柄&r在&e工匠站&r或&e工匠砧&r组装"
+				""
+				"这样你就可以获得用于匠魂材料属性并可以进行匠魂强化的&e匠魂枪械（闪击枪）&r"
+			]
+			id: "5B5205375EC2CED1"
+			tasks: [{
+				id: "606C77C0F42BAF6A"
+				title: "如何制作匠魂枪械？"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
+				""
+				"当物品在背包内但长时间未完成目标时可以点一次"
+			]
+			icon: "minecraft:observer"
+			id: "25329718183B52EF"
+			rewards: [{
+				auto: "no_toast"
+				description: ""
+				id: "0C376B34C9778EA1"
+				title: "确保可以正常运作的措施"
+				type: "toast"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "4D17A981898582A2"
+				title: "&e检测任务"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
 	]
-	title: "·&1枪械"
+	title: "◇&1枪械"
 }

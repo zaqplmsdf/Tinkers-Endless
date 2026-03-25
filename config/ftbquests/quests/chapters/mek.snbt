@@ -20,6 +20,8 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["76CC1934C282AAD7"]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "mekanism:configurator"
@@ -50,6 +52,8 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["76CC1934C282AAD7"]
+			hide_until_deps_complete: true
 			id: "5B0884C4C00EBE23"
 			rewards: [{
 				id: "7D7B6A38FD4CC724"
@@ -234,6 +238,8 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["76CC1934C282AAD7"]
+			hide_until_deps_complete: true
 			id: "4960336FEA97EF77"
 			subtitle: "同样不多赘述，不过提供充电服务(这服务真的有用吗)"
 			tasks: [{
@@ -504,6 +510,9 @@
 			y: -5.5d
 		}
 		{
+			dependencies: ["76CC1934C282AAD7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "3AC30D67B63EF3FD"
 			subtitle: "此处仅展示基础，更高级请查看JEI，高级物品可以增加容量和传输速度，大部分管道都需要使用配置器调整抽出模式才能构从容器中抽取单位"
 			tasks: [{
@@ -594,6 +603,8 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["76CC1934C282AAD7"]
+			hide_until_deps_complete: true
 			id: "1B4AF4C24830B32B"
 			tasks: [{
 				id: "01340D8C78837190"
@@ -704,6 +715,9 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["76CC1934C282AAD7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "mekanism:qio_drive_array"
 			id: "663A7CC237714AC7"
 			rewards: [{
@@ -764,6 +778,9 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["76CC1934C282AAD7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "0EA3CDCC5D294C4E"
 			subtitle: "以下两个是mek必备的配置工具"
 			tasks: [{
@@ -792,6 +809,9 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["76CC1934C282AAD7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "59C14BB6DAFF5C96"
 			subtitle: "使用工厂安装器，shift右键可以升级放置状态下的机器，需要按阶段升级"
 			tasks: [{
@@ -847,6 +867,9 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["76CC1934C282AAD7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "48A644C490211D9B"
 			subtitle: "可以给机器加装升级，升级有具体描述"
 			tasks: [{
@@ -913,6 +936,8 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["76CC1934C282AAD7"]
+			hide_until_deps_complete: true
 			id: "6C25CE27D282C8D6"
 			tasks: [{
 				id: "4ED14DF84DCE7720"
@@ -1050,6 +1075,9 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["76CC1934C282AAD7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "mekanism:mekasuit_helmet"
 			id: "24743F65C0FC5F95"
 			rewards: [{
@@ -1103,6 +1131,9 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["76CC1934C282AAD7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "76B224FA18435861"
 			rewards: [{
 				id: "61C2426978C563F6"
@@ -1119,6 +1150,9 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["76CC1934C282AAD7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "19399A40B545606C"
 			subtitle: "制作单元，给mek套装加装"
 			tasks: [{
@@ -1130,6 +1164,9 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["76CC1934C282AAD7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "30D60DCEF956C898"
 			subtitle: "工具也能浇筑"
 			tasks: [{
@@ -1147,6 +1184,10 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["76CC1934C282AAD7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: false
 			id: "0D4AB71568C6B0D5"
 			subtitle: "使用星构素浇筑制作"
 			tasks: [
@@ -1260,6 +1301,9 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["76CC1934C282AAD7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "3C12B0CA06DAC5DA"
 			subtitle: "电解制取氢气和氧气"
 			tasks: [{
@@ -1271,6 +1315,9 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["76CC1934C282AAD7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "59CA263802E58B9B"
 			subtitle: "作为mek套制作原材料，下面是制作方法"
 			tasks: [{
@@ -1310,6 +1357,9 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["76CC1934C282AAD7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "1584D450B0911032"
 			subtitle: "请前往反物质靶丸章节查看"
 			tasks: [{
@@ -1322,6 +1372,9 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["76CC1934C282AAD7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "49588860F6453F2C"
 			rewards: [{
 				id: "619A9C1FE9AA32D0"
@@ -1381,6 +1434,9 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["76CC1934C282AAD7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "627617F77DF96D91"
 			rewards: [{
 				id: "4DEF55CF25D93837"
@@ -1454,6 +1510,9 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["76CC1934C282AAD7"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "17A6788B7DEC0D39"
 			subtitle: "其他物品暂不说明(如有需要再添加)"
 			tasks: [{
@@ -1466,5 +1525,5 @@
 		}
 	]
 	subtitle: ["&b感谢群友.栖松听风的提供"]
-	title: "·&b[Mek]通用机械"
+	title: "◇&b[Mek]通用机械"
 }

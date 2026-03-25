@@ -32,7 +32,7 @@
 
 ["ars nouveau"]
 	#Internal cooldown ticks of spellcasting
-	reactiveCooldown = 10
+	reactiveCooldown = 0
 
 #Provided by AddonAPI:
 #Module Options

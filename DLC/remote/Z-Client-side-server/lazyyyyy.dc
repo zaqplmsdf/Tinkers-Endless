@@ -3,7 +3,7 @@ modrinth_projectid = ""
 modrinth_versionid = ""
 curseforge_projectid = ""
 curseforge_fileid = ""
-directUrl = "https://cdn-alt.modrinth.com/data/U8A8WZbk/versions/9vBKElli/lazyyyyy-lexforge-core-0.14.19.jar"
+directUrl = "https://mediafilez.forgecdn.net/files/7010/786/lazyyyyy-lexforge-core-0.14.19.jar"
 priority = "curseforge,modrinth,directurl"
 
 [basic]
@@ -13,7 +13,7 @@ file_name = "lazyyyyy-lexforge-core-0.14.19.jar"
 appliedTarget = "mods"
 isInList = true
 isHidden = false
-AllowEnableByAll = false
+AllowEnableByAll = true
 alarm = false
 UserRemoved = true
 dependencies = ""

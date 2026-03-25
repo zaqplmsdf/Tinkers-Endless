@@ -9,6 +9,7 @@
 	icon: "sakuratinker:molten_infinity_bucket"
 	id: "39DBD49582530E23"
 	order_index: 5
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -260,5 +261,5 @@
 			y: -1.5d
 		}
 	]
-	title: "·&3流体置换"
+	title: "◇&3流体置换"
 }

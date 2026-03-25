@@ -82,49 +82,6 @@
 	quests: [
 		{
 			description: [
-				"相关链接："
-				""
-				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6896DEE10D2D83F5\" } }"
-			]
-			id: "233C513F84268EB9"
-			rewards: [{
-				id: "20EED0B691F8B6FB"
-				item: "wqjy:up_item_9"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [
-				{
-					disable_toast: true
-					entity: "mutantmonsters:mutant_zombie"
-					icon: "mutantmonsters:mutant_zombie_spawn_egg"
-					id: "075283272E2E34B6"
-					type: "kill"
-					value: 1L
-				}
-				{
-					disable_toast: true
-					entity: "mutantmonsters:mutant_skeleton"
-					icon: "mutantmonsters:mutant_skeleton_spawn_egg"
-					id: "7FE8FFF0B51AE5B2"
-					type: "kill"
-					value: 1L
-				}
-				{
-					disable_toast: true
-					entity: "mutantmonsters:mutant_creeper"
-					icon: "mutantmonsters:mutant_creeper_spawn_egg"
-					id: "5C25D5CCFCD0BB29"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "首领"
-			x: -1.5d
-			y: -2.0d
-		}
-		{
-			description: [
 				""
 				"解锁："
 				"&etacz 相关工作台&r"
@@ -132,6 +89,8 @@
 				"&e机械动力相关&r"
 				"&e熔化炉相关&r"
 				"&e2级材料&r"
+				""
+				"对应任务同步更新或显示"
 			]
 			id: "002A8323600F86EC"
 			rewards: [{
@@ -153,170 +112,6 @@
 			title: "阶段1"
 			x: -1.0d
 			y: -1.0d
-		}
-		{
-			id: "6E49932BD6A6CCAB"
-			rewards: [{
-				id: "506F770FAFE6BB37"
-				item: "wqjy:up_item_15"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [
-				{
-					consume_items: true
-					id: "0C36971884EB20B8"
-					item: "mushroom_daydream:slime_pawn"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "2CF3E6C7D1DEB1FE"
-					item: "minecraft:gold_ingot"
-					type: "item"
-				}
-			]
-			title: "晋升材料"
-			x: -0.5d
-			y: 0.0d
-		}
-		{
-			id: "5C45AC4BB7187263"
-			rewards: [{
-				id: "1B955389A07B5AFB"
-				item: "wqjy:up_item_15"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "4921FF70F459C36C"
-					item: {
-						Count: 1
-						id: "minecraft:iron_sword"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0DDC2B80FA279E9C"
-					item: {
-						Count: 1
-						id: "minecraft:iron_shovel"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4651D8641D98232F"
-					item: {
-						Count: 1
-						id: "minecraft:iron_pickaxe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3E6AD839F497D826"
-					item: {
-						Count: 1
-						id: "minecraft:iron_axe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "55E002E625C3423D"
-					item: {
-						Count: 1
-						id: "minecraft:iron_hoe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "晋升素材"
-			x: -2.0d
-			y: -0.5d
-		}
-		{
-			id: "357DF590E3B58B4F"
-			rewards: [{
-				id: "017ED5F06A3781AC"
-				item: "wqjy:up_item_15"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "420DFAE3B2960606"
-					item: {
-						Count: 1
-						id: "minecraft:iron_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "09F6C74504167D03"
-					item: {
-						Count: 1
-						id: "minecraft:iron_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "738846FF2F59EAFA"
-					item: {
-						Count: 1
-						id: "minecraft:iron_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "193C31BECB84922B"
-					item: {
-						Count: 1
-						id: "minecraft:iron_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "261C44DC85ECC61A"
-					item: {
-						Count: 1
-						id: "aether:iron_gloves"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "晋升素材"
-			x: 0.0d
-			y: -1.5d
 		}
 		{
 			dependencies: ["002A8323600F86EC"]
@@ -353,10 +148,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"13F5243DDC69E2B5"
-				"03FA631D240E88AA"
-			]
+			dependencies: ["13F5243DDC69E2B5"]
 			dependency_requirement: "one_completed"
 			description: [
 				"解锁："
@@ -488,618 +280,6 @@
 			title: "阶段6"
 			x: 13.5d
 			y: 1.5d
-		}
-		{
-			hide_dependency_lines: true
-			id: "4BAF04334EFF43C9"
-			rewards: [{
-				id: "2B3D70DB6FFF5366"
-				item: "wqjy:up_item_16"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [
-				{
-					consume_items: true
-					id: "22AF6E980461CA46"
-					item: {
-						Count: 1
-						id: "tacz:ammo_box"
-						tag: {
-							Level: 0
-						}
-					}
-					match_nbt: false
-					type: "item"
-				}
-				{
-					id: "10D81956D9DC6D1A"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: { }
-						}
-						id: "projecte:philosophers_stone"
-						tag: { }
-					}
-					match_nbt: false
-					type: "item"
-				}
-			]
-			title: "晋升素材"
-			x: 1.0d
-			y: 2.0d
-		}
-		{
-			dependency_requirement: "all_started"
-			hide_dependency_lines: true
-			id: "2835981697A322AC"
-			rewards: [{
-				id: "4295C2E58F3091AB"
-				item: "wqjy:up_item_16"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "684C05DA6BDB57CE"
-					item: "create:andesite_alloy"
-					type: "item"
-				}
-				{
-					id: "69FADB87B7D18774"
-					item: "create:brass_ingot"
-					type: "item"
-				}
-			]
-			title: "晋升素材"
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			description: [
-				"相关链接："
-				""
-				"&d末影人突变体&r："
-				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"35961F46175F4ECF\" } }"
-				"&d湫诺云魔&r："
-				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3B541353494D2DCB\" } }"
-				"&d凋灵&r："
-				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4B5760727FBE8107\" } }"
-				"&dbetter米诺菇&r："
-				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3ADFFC6F817E9CFF\" } }"
-				"&d死者之王&r："
-				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"57190DA3CDF384A5\" } }"
-			]
-			id: "5397F1005C4C7E92"
-			rewards: [{
-				id: "2819326D442E0DC3"
-				item: "wqjy:up_item_10"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [
-				{
-					entity: "mutantmonsters:mutant_enderman"
-					id: "19B105DA41255982"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "legendary_monsters:cloud_golem"
-					id: "3940942DC347FAAF"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "minecraft:wither"
-					id: "44BE5EE9537EE301"
-					title: "凋零"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "better_minoshroomtaur:better_minoshroomtaur"
-					id: "6C06628CD3432247"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "irons_spellbooks:dead_king"
-					id: "41777685733ED839"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "首领"
-			x: 3.5d
-			y: -2.0d
-		}
-		{
-			description: [
-				"相关链接："
-				""
-				"&d末影龙&r："
-				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1770001C37B2F63D\" } }"
-				"&d虚空蠕虫&r："
-				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6B68168A5F90AC60\" } }"
-				"&d腐化英雄（墓园巫妖）&r："
-				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"02499CD17C00CF85\" } }"
-			]
-			id: "484908A65073BA85"
-			rewards: [{
-				id: "03425E8D3BEFA030"
-				item: "wqjy:up_item_11"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [
-				{
-					entity: "minecraft:ender_dragon"
-					id: "34D89087040B4895"
-					title: "末影龙"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "graveyard:lich"
-					id: "22AA00BFFE087B86"
-					type: "kill"
-					value: 1L
-				}
-				{
-					advancement: "alexsmobs:alexsmobs/void_worm_kill"
-					criterion: ""
-					id: "20067CA83BCF1EE8"
-					type: "advancement"
-				}
-			]
-			title: "首领"
-			x: 6.0d
-			y: 3.5d
-		}
-		{
-			description: [
-				"相关链接："
-				""
-				"&d主世界&r："
-				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"18A67F72FCE5E680\" } }"
-				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1BC56AD28DF42AEA\" } }"
-				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"37889F2814800EFE\" } }"
-				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6C8216A363280FC5\" } }"
-				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"788AF9F367FB5492\" } }"
-				"&d下界&r："
-				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"685B88A1D978885E\" } }"
-				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"10DBC9A405B0B625\" } }"
-				"&d末地&r："
-				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"65484590E67F0D4A\" } }"
-			]
-			id: "58492EF5093EF60E"
-			rewards: [{
-				id: "484BBDCC63D4F3A8"
-				item: "wqjy:up_item_12"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [
-				{
-					entity: "cataclysm:netherite_monstrosity"
-					id: "2ED28FA680E69A80"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "cataclysm:ignis"
-					id: "3CE5F639222F08F6"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "cataclysm:ender_guardian"
-					id: "395A4B9EF9096017"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "cataclysm:maledictus"
-					id: "3F02F7F19DEDF740"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "cataclysm:the_harbinger"
-					id: "42D626FC423D462E"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "cataclysm:the_leviathan"
-					id: "6296E23B14F017A2"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "cataclysm:ancient_remnant"
-					id: "7518A32347175D4E"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "cataclysm:scylla"
-					id: "1147D55D8908E069"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "首领"
-			x: 9.5d
-			y: -1.0d
-		}
-		{
-			description: [
-				"相关链接："
-				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"03089997C59957E5\" } }"
-			]
-			id: "3F04A0838131F174"
-			rewards: [{
-				id: "27C002B41F791F7F"
-				item: "wqjy:gaiya"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "extrabotany:main/gaia_trial"
-				criterion: ""
-				id: "486409D0F024F913"
-				type: "advancement"
-			}]
-			x: 14.5d
-			y: -1.5d
-		}
-		{
-			id: "3393F03EC1FC036D"
-			rewards: [{
-				id: "525ABD78C3B4D8B9"
-				item: "wqjy:up_item_5"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "4EA9DFBBAF369ED9"
-					item: "botania:terrasteel_ingot"
-					type: "item"
-				}
-				{
-					id: "063A7CF6A46407DA"
-					item: "botania:gaia_ingot"
-					type: "item"
-				}
-			]
-			title: "晋升素材"
-			x: 5.5d
-			y: -2.0d
-		}
-		{
-			id: "1CFA87B6BA13C29E"
-			rewards: [{
-				id: "7CC97C2F9812EECA"
-				item: "wqjy:up_item_14"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "2DC049FD1DBA3638"
-					item: {
-						Count: 1
-						id: "extrabotany:pleiades_combat_maid_headgear"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "64D761E67A3EF8D8"
-					item: {
-						Count: 1
-						id: "extrabotany:pleiades_combat_maid_suit"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "48B08AB8C2AB4A03"
-					item: {
-						Count: 1
-						id: "extrabotany:pleiades_combat_maid_skirt"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "185C51E920F92886"
-					item: {
-						Count: 1
-						id: "extrabotany:pleiades_combat_maid_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "晋升素材"
-			x: 4.5d
-			y: 0.5d
-		}
-		{
-			id: "1F1006100E27BD20"
-			rewards: [{
-				id: "28E75DDB61843A49"
-				item: "wqjy:up_item_4"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "4B05736A9B006A0F"
-					item: "l2hostility:hostility_orb"
-					type: "item"
-				}
-				{
-					id: "2C539734FAE3710D"
-					item: "l2hostility:bottle_of_curse"
-					type: "item"
-				}
-				{
-					id: "0296B7E0BDB0D885"
-					item: "l2hostility:bottle_of_sanity"
-					type: "item"
-				}
-			]
-			title: "晋升素材"
-			x: 4.5d
-			y: -2.5d
-		}
-		{
-			description: [
-				"相关链接"
-				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4631894C0583BD96\" } }"
-			]
-			id: "0DADE3BBE4B1E484"
-			rewards: [{
-				id: "1E66E4FBDDF5EF63"
-				item: "wqjy:hundun"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				entity: "draconicevolution:draconic_guardian"
-				id: "13657C8E3E619D3A"
-				type: "kill"
-				value: 1L
-			}]
-			x: 12.5d
-			y: 4.5d
-		}
-		{
-			description: [
-				"相关链接："
-				""
-				"&d喷流刃&r："
-				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"779A5A3234350D7F\" } }"
-			]
-			id: "362ACBDCA1AE37AA"
-			rewards: [{
-				id: "41C3D9A5382AFE5F"
-				item: "wqjy:up_item_3"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [
-				{
-					consume_items: true
-					id: "300C5F7B4E4C21F0"
-					item: {
-						Count: 1
-						id: "tinkers_advanced:electron_tuner"
-						tag: {
-							Damage: 0
-							etstlib_tool_uuid: "7fbb5291-559b-406a-8110-51ea950f015b"
-							tic_broken: 0b
-							tic_display: 1b
-							tic_materials: [
-								"tconstruct:ui_render#head"
-								"tconstruct:ui_render#handle"
-								"tconstruct:ui_render#extra"
-								"tconstruct:ui_render#large"
-								"tconstruct:ui_render#extra_large"
-							]
-							tic_modifiers: [
-								{
-									level: 1
-									name: "tinkers_advanced:ender_tuner"
-								}
-								{
-									level: 1
-									name: "tconstruct:silky_shears"
-								}
-							]
-							tic_persistent: { }
-							tic_stats: {
-								"tconstruct:attack_damage": 1.7142859f
-								"tconstruct:attack_speed": 2.4f
-								"tconstruct:max_energy": 100000.0f
-							}
-							tic_volatile_data: {
-								abilities: 4
-								upgrades: 5
-							}
-						}
-					}
-					match_nbt: false
-					type: "item"
-				}
-				{
-					id: "2F54297ABF010D94"
-					item: "tconstruct:molten_manyullyn_bucket"
-					type: "item"
-				}
-				{
-					id: "3D45479F08616A22"
-					item: "tinkerscalibration:moltenwitherium_bucket"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "08010D99B6E03FBE"
-					item: {
-						Count: 1
-						id: "tconstruct:swasher"
-						tag: {
-							Damage: 0
-							display: {
-								Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"dark_purple\",\"text\":\"无法替换部件\"}],\"text\":\"\"}"]
-								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"text\":\"任意喷流刃\"}],\"text\":\"\"}"
-							}
-							etstlib_tool_uuid: "1baa1347-f91a-4222-9992-34e595e2790f"
-							tic_broken: 0b
-							tic_display: 1b
-							tic_materials: [
-								"tconstruct:ui_render#head"
-								"tconstruct:ui_render#handle"
-								"tconstruct:ui_render#extra"
-								"tconstruct:ui_render#large"
-								"tconstruct:ui_render#extra_large"
-							]
-							tic_modifiers: [
-								{
-									level: 3
-									name: "tconstruct:tank_handler"
-								}
-								{
-									level: 1
-									name: "tconstruct:spitting"
-								}
-								{
-									level: 1
-									name: "tconstruct:spilling"
-								}
-								{
-									level: 1
-									name: "tconstruct:bucketing"
-								}
-								{
-									level: 1
-									name: "tconstruct:silky_shears"
-								}
-							]
-							tic_persistent: { }
-							tic_stats: {
-								"tconstruct:attack_damage": 1.0f
-								"tconstruct:attack_speed": 1.5f
-								"tconstruct:draw_speed": 1.5f
-								"tconstruct:durability": 2.0f
-								"tconstruct:tank_capacity": 3000.0f
-							}
-							tic_volatile_data: {
-								abilities: 1
-								defense: 3
-								"tconstruct:total_tanks": 1
-								upgrades: 1
-							}
-						}
-					}
-					match_nbt: false
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "5F3BF30DB384F32B"
-					item: {
-						Count: 1
-						id: "sakuratinker:power_bank"
-						tag: {
-							Damage: 0
-							display: {
-								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"text\":\"任意充电宝\"}],\"text\":\"\"}"
-							}
-							etstlib_tool_uuid: "02125842-28b3-42d7-8e48-79712bebd864"
-							tic_broken: 0b
-							tic_display: 1b
-							tic_materials: [
-								"tconstruct:ui_render#head"
-								"tconstruct:ui_render#handle"
-								"tconstruct:ui_render#extra"
-								"tconstruct:ui_render#large"
-								"tconstruct:ui_render#extra_large"
-							]
-							tic_persistent: {
-								"sakuratinker:charge_mode": 0
-							}
-						}
-					}
-					match_nbt: false
-					type: "item"
-				}
-			]
-			title: "晋升素材"
-			x: 9.0d
-			y: 1.5d
-		}
-		{
-			description: [
-				"相关链接："
-				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"36262EBA59595E0E\" } }"
-				""
-				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"67ED8DA40BED632A\" } }"
-			]
-			id: "1DFC3A215F19CDCF"
-			rewards: [{
-				id: "3CC63E345A4C3C7D"
-				item: "wqjy:up_item_18"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "7EECCCDD7E09982D"
-					item: "mekanism:pellet_antimatter"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "02E473004882AD7C"
-					item: "wqjy:hefl"
-					type: "item"
-				}
-			]
-			title: "晋升素材"
-			x: 7.0d
-			y: -4.0d
-		}
-		{
-			id: "090ADEF6953C32F6"
-			rewards: [{
-				id: "08357795C0A40E17"
-				item: "wqjy:up_item_18"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				id: "5411C09786EB69E0"
-				item: "draconicevolution:awakened_core"
-				type: "item"
-			}]
-			title: "晋升素材"
-			x: 10.5d
-			y: -4.5d
 		}
 		{
 			description: [
@@ -1429,6 +609,7 @@
 				id: "2970A45E7C3BFCC2"
 				type: "checkmark"
 			}]
+			title: "重复解锁"
 			x: 0.5d
 			y: -3.5d
 		}
@@ -1452,6 +633,7 @@
 				id: "20A84163D98598ED"
 				type: "checkmark"
 			}]
+			title: "重复解锁"
 			x: 1.5d
 			y: -3.5d
 		}
@@ -1475,6 +657,7 @@
 				id: "125EA09B520A3C33"
 				type: "checkmark"
 			}]
+			title: "重复解锁"
 			x: 2.5d
 			y: -3.5d
 		}
@@ -1498,6 +681,7 @@
 				id: "15EB58A24FD38E61"
 				type: "checkmark"
 			}]
+			title: "重复解锁"
 			x: 3.5d
 			y: -3.5d
 		}
@@ -1521,6 +705,7 @@
 				id: "75C925E1F570AE37"
 				type: "checkmark"
 			}]
+			title: "重复解锁"
 			x: 4.5d
 			y: -3.5d
 		}
@@ -1544,6 +729,7 @@
 				id: "68BCD691B9F8531E"
 				type: "checkmark"
 			}]
+			title: "重复解锁"
 			x: 5.5d
 			y: -3.5d
 		}
@@ -6075,5 +5261,5 @@
 			y: -5.0d
 		}
 	]
-	title: "·&6阶段"
+	title: "◇&6阶段"
 }

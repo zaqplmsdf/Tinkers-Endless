@@ -8,7 +8,7 @@
 	group: "200DE5ABA2A71E38"
 	icon: "kubejs:wqjy_box_1"
 	id: "7F868BFEB80E470A"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -10028,5 +10028,5 @@
 			y: -0.5d
 		}
 	]
-	title: "·&5食物盒兑换"
+	title: "◇&5食物盒兑换"
 }

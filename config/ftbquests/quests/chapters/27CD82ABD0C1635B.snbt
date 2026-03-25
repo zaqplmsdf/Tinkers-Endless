@@ -516,6 +516,17 @@
 			x: -0.5d
 			y: 0.5d
 		}
+		{
+			dependencies: ["50A285FBD1A00410"]
+			id: "40CE5EF39AFFD0EE"
+			tasks: [{
+				id: "3982EC20EAD05FDF"
+				item: "dreamtinker:glyph_tinker"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
 	]
-	title: "·&d新生魔艺"
+	title: "◇&d新生魔艺"
 }

@@ -1,0 +1,1428 @@
+{
+	autofocus_id: "45F89EBA3CC90CD4"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "b2"
+	group: "71E4EFF8904A559D"
+	icon: {
+		Count: 1
+		id: "botania:lexicon"
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
+	id: "6128C19AD3E317FE"
+	images: [
+		{
+			height: 15.0d
+			image: "avaritia:textures/gui/jei/tables/sculk_jei.png"
+			order: -1
+			rotation: 0.0d
+			width: 15.0d
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.749999999999993d
+			y: 2.875000000000014d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_4"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_5"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.928571428571416d
+			y: 2.9821428571428683d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_10"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.107142857142847d
+			y: 3.017857142857153d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_14"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.035714285714278d
+			y: 3.8392857142857295d
+		}
+	]
+	order_index: 3
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["13F5243DDC69E2B5"]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "45F89EBA3CC90CD4"
+			subtitle: "晋升事宜"
+			tasks: [{
+				id: "430616A2A6A55770"
+				title: "主要流程"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["45F89EBA3CC90CD4"]
+			icon: "wqjy:up_item_14"
+			id: "1CFA87B6BA13C29E"
+			rewards: [{
+				id: "7CC97C2F9812EECA"
+				item: "wqjy:up_item_14"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "2DC049FD1DBA3638"
+					item: {
+						Count: 1
+						id: "extrabotany:pleiades_combat_maid_headgear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "64D761E67A3EF8D8"
+					item: {
+						Count: 1
+						id: "extrabotany:pleiades_combat_maid_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "48B08AB8C2AB4A03"
+					item: {
+						Count: 1
+						id: "extrabotany:pleiades_combat_maid_skirt"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "185C51E920F92886"
+					item: {
+						Count: 1
+						id: "extrabotany:pleiades_combat_maid_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "晋升素材"
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["45F89EBA3CC90CD4"]
+			description: [
+				"相关链接："
+				""
+				"&d末影人突变体&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"35961F46175F4ECF\" } }"
+				"&d湫诺云魔&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3B541353494D2DCB\" } }"
+				"&d凋灵&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4B5760727FBE8107\" } }"
+				"&dbetter米诺菇&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3ADFFC6F817E9CFF\" } }"
+				"&d死者之王&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"57190DA3CDF384A5\" } }"
+			]
+			icon: "wqjy:up_item_10"
+			id: "5397F1005C4C7E92"
+			rewards: [{
+				id: "2819326D442E0DC3"
+				item: "wqjy:up_item_10"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					entity: "mutantmonsters:mutant_enderman"
+					id: "19B105DA41255982"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "legendary_monsters:cloud_golem"
+					id: "3940942DC347FAAF"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:wither"
+					id: "44BE5EE9537EE301"
+					title: "凋零"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "better_minoshroomtaur:better_minoshroomtaur"
+					id: "6C06628CD3432247"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "irons_spellbooks:dead_king"
+					id: "41777685733ED839"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "首领"
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["45F89EBA3CC90CD4"]
+			icon: "wqjy:up_item_4"
+			id: "1F1006100E27BD20"
+			rewards: [{
+				id: "28E75DDB61843A49"
+				item: "wqjy:up_item_4"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "4B05736A9B006A0F"
+					item: "l2hostility:hostility_orb"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2C539734FAE3710D"
+					item: "l2hostility:bottle_of_curse"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0296B7E0BDB0D885"
+					item: "l2hostility:bottle_of_sanity"
+					type: "item"
+				}
+			]
+			title: "晋升素材"
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["45F89EBA3CC90CD4"]
+			icon: "wqjy:up_item_5"
+			id: "3393F03EC1FC036D"
+			rewards: [{
+				id: "525ABD78C3B4D8B9"
+				item: "wqjy:up_item_5"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "4EA9DFBBAF369ED9"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "063A7CF6A46407DA"
+					item: "botania:gaia_ingot"
+					type: "item"
+				}
+			]
+			title: "晋升素材"
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["45F89EBA3CC90CD4"]
+			id: "6BC29E2D0CC5DAC2"
+			rewards: [
+				{
+					id: "5E9485AF2E493EB9"
+					item: "immersiveengineering:manual"
+					type: "item"
+				}
+				{
+					id: "4CE2302B7E42E1EE"
+					item: "immersiveengineering:ore_aluminum"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A232F057FC787C3"
+				title: "沉浸工程"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6BC29E2D0CC5DAC2"]
+			description: [
+				"使用焦炉制作焦炭产生的杂酚油制作"
+				""
+				"&m&6也可以去村庄找沉浸工程的房子并给屋顶掀了&r"
+			]
+			id: "0A9F95D533173CEE"
+			rewards: [{
+				id: "160EAB41ED15634A"
+				item: "immersiveengineering:creosote_bucket"
+				type: "item"
+			}]
+			subtitle: "沉浸科技的基础"
+			tasks: [{
+				id: "303CD33A0F23E476"
+				item: "immersiveengineering:treated_wood_horizontal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0A9F95D533173CEE"]
+			description: [""]
+			id: "4462AEC5E6BE41D4"
+			tasks: [{
+				id: "031C3E3FC65C1973"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0A9F95D533173CEE"]
+			id: "3C8D481F7B8F75D9"
+			tasks: [{
+				id: "1BCA1812C99B0FED"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "components"
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3C8D481F7B8F75D9"
+				"4462AEC5E6BE41D4"
+			]
+			id: "225DE214DF870E68"
+			tasks: [{
+				id: "5BA2C59E84438BFE"
+				item: "mysticalagradditions:creative_essence"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0A9F95D533173CEE"]
+			description: ["&e熔融铁&r+&e熔融煤炭&r合金"]
+			id: "60BD0CB0BB8FC431"
+			rewards: [{
+				count: 12
+				id: "07D8B438905753A7"
+				item: "immersiveengineering:ingot_steel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17DB0489EF5966F7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "钢锭"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["60BD0CB0BB8FC431"]
+			description: [
+				"&a建议使用&e蓝图&a搭建。注意两个传送带必须同向，活塞方向向下。"
+				""
+				"&a搭建完成之后用工程师锤右击第二层中心的活塞即可。"
+				""
+				"&a机制&r"
+				""
+				"&2输入输出"
+				""
+				"&6顶部橙点输入能量&r。侧面红石工程块红点处可以通入红石信号，通入红石信号会关闭机器，使用工程师螺丝刀可以反转红石信号。"
+				""
+				"根据搭建时传送带摆放的方向，&6指向活塞的传送带为物品输入端，指离活塞的传送带为物品输出端。&r输入输出特性与传送带完全相同。"
+				""
+				"&6手持模具右键空的滑块底部即可安装模具。手持模具右键已有模具的滑块可更换模具，空手潜行右击模具可将其取下。"
+			]
+			icon: "immersiveengineering:metal_press"
+			id: "16252BE1263E1AB9"
+			rewards: [{
+				id: "41EB74131B90DF17"
+				item: {
+					Count: 1
+					id: "create:schematic"
+					tag: {
+						Anchor: {
+							X: -54
+							Y: -60
+							Z: -12
+						}
+						Bounds: [
+							1
+							3
+							3
+						]
+						Deployed: 1b
+						File: "金属冲压机.nbt"
+						Mirror: "NONE"
+						Owner: "The_X_One"
+						Rotation: "NONE"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "427087AABDAC2D40"
+					item: { Count: 2, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "707D5DEAA6FCA6C5"
+					item: { Count: 2, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					id: "4178E20E5B9E582B"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "47AB715EF22DC651"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "781F8421E21CA8E4"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+			]
+			title: "金属冲压机"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["13F5243DDC69E2B5"]
+			hide_until_deps_complete: true
+			id: "530723787F1AB5B6"
+			tasks: [{
+				id: "0045FEE588FF4BAB"
+				item: "tconstruct:gem_cast"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"530723787F1AB5B6"
+				"16252BE1263E1AB9"
+				"225DE214DF870E68"
+			]
+			hide_dependency_lines: true
+			id: "1B4ED449E7EDC532"
+			tasks: [{
+				id: "1529F9DA28D6A0E5"
+				item: "wqjy:up_item_13"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["45F89EBA3CC90CD4"]
+			description: [
+				"&6焚烧转化获得，概率极低，推荐直接兑换"
+				"&r"
+				"&m当然如果你想安全获取的话还是老实在家焚烧转化吧&r"
+			]
+			id: "78CA42B506896582"
+			tasks: [{
+				id: "399189035932DD9B"
+				item: "l2complements:cursed_droplet"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["78CA42B506896582"]
+			id: "2D1DFDD48C37BA9F"
+			tasks: [{
+				id: "430B827B3962CB50"
+				item: "l2hostility:bottle_of_curse"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["45F89EBA3CC90CD4"]
+			id: "2F2233E30B94BB51"
+			rewards: [{
+				id: "0F6E3427CF826E7A"
+				item: {
+					Count: 1
+					id: "botania:lexicon"
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C8DE41B5F457AE2"
+				title: "植物魔法"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2F2233E30B94BB51"]
+			description: [
+				"&e花药台&r植物魔法最为基础也是最为重要的设备。"
+				""
+				"&e注满水的花药台&r&a能够被投掷特定的魔法材料，其中包括&e神秘花瓣&a、&e魔力花瓣&a、&e红石根与符文等&a。&r"
+				""
+				"&a如果魔法材料组合正确，&e花药台&a就能够被投掷&e小麦种子&a以开启注魔过程并生成&a魔法植物，&a其中包括&e产能植物&a与&e功能植物&a两大类。"
+				""
+				"&b添加水可以手持水桶或海洋法杖右击，也可以直接投掷水桶，下雨也可以为花药台补充水。"
+				""
+				"&a手持材料投向&e花药台&a就可以添加，shift右击取出上一个加入的材料。"
+				""
+				"&a按照jei显示的配方加入材料后，投入&e任意种子&e就会得到所制作的花。"
+				""
+				"&6可向其使用熔岩桶以装入熔岩，而后不断产生火星粒子。"
+				""
+				"&6可以向其投掷藤蔓，使其被植被覆盖。两者不能共存。"
+			]
+			hide_until_deps_complete: true
+			id: "089813B9DA5F396B"
+			tasks: [{
+				id: "18878EC68AB105E8"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["089813B9DA5F396B"]
+			description: [
+				"&e白雏菊&a是最基础的功能花之一，主要用于获得&e活木&a和&e活石&a。工作范围为以花为中心&93 × 3 &a的平面。"
+				""
+				"&e白雏菊&a会缓慢地将同等高度紧邻的方块变为另外的方块。具体可通过对着&e白雏菊&a按&9U&a查看。"
+				""
+				"&e末地石&a转换为&e深板岩圆石&a后，会升起一小团的&d末地空气云团&a，手持&e玻璃瓶&a可以被收集为一个&e瓶装末地空气。"
+				""
+				"&a也可以使用内部装有空玻璃瓶的发射器来收集。"
+				""
+				"&a转化过程需要 60 秒。该过程能够被时间之瓶、加速火把一类的物品加速。"
+				""
+				"&b增生之种对其有效。当白雏菊被种植在蕴魔土上时，所需时间由原来的 60 秒缩短至 30 秒。"
+				""
+				"&b在转化过程中，被转化的方块将会持续显示出白色颗粒效果。"
+				""
+				"&6一切刷新方块状态的行为都会导致白雏菊净化进度清零，包括但不限于在过程中被打断更换白雏菊，使用活塞推动方块等"
+				""
+				"&6并且白雏菊的净化速率不能因为范围内存在多个白雏菊而叠加"
+			]
+			id: "2A0F9BB8772CD7C7"
+			tasks: [{
+				id: "7FC65F44EF130A17"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2A0F9BB8772CD7C7"]
+			id: "53445EF13FCFF85B"
+			tasks: [{
+				id: "2E5DF8E2ACE5D340"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2A0F9BB8772CD7C7"]
+			id: "177FF6EFD81F2373"
+			tasks: [{
+				id: "696D6DAE33D96F9A"
+				item: "botania:livingwood_log"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["53445EF13FCFF85B"]
+			description: [
+				"&a用于存储魔力，普通魔力池能储存 &91000000 mana&a 的魔力。"
+				""
+				"&e手持森林&a法杖指向&e魔力池&a时，显示的&b蓝色条&a为&e魔力池&a内部贮存的&9魔力量&a，只能看到魔力的大致存量，其中一个小格代表 &9250000 mana&a。"
+				""
+				"&e森林法杖&a右键点击就可以查看&#A1B5FF点击魔力池时&e魔力池&a的贮存量，并不会随魔力储量实时更新。"
+				""
+				"&a手持&e森林法杖&a潜行右键点击可以改变&e魔力池&a的&9魔力传输方式&a。"
+				""
+				"&6魔力石板指向魔力池，表示魔力池将主动吸取掉落在魔力池中的魔力存储物品。"
+				""
+				"&6若箭头指向改变，则表示魔力池将主动给掉落在魔力池中的魔力存储物品补充魔力。"
+			]
+			id: "59F716EA0DA385D0"
+			tasks: [{
+				id: "50AB8ECA2AFACCE1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:mana_pools"
+					}
+				}
+				title: "Any #botania:mana_pools"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"2819D27C7E9BF6F8"
+				"4AFF0DD4F482F320"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&e符文祭坛&a是植物魔法中重要的装置，它可以制作各种&e符文&a。"
+				""
+				"&a使用时需要准备好合成&e符文的&e原料，&e活石与&e森林法杖和&e魔力发射器用以供给魔力。"
+				""
+				"&e符文祭坛&a的特性类似&e花药台&a，物品放上去会在祭坛上方飞舞且不会消失，需要注入魔力和相应的材料才可以制造出&e符文&a，当条件满足后祭坛会出现闪电的粒子效果，在祭坛上投掷&e活石&a，用&e森林法杖&a右键即可获得制作好的&e符文"
+				""
+				"&6当材料中具有符文时，符文不会被消耗掉，而是在制作完成后会随着成品一起返还。"
+			]
+			id: "5DF2D8A3448C65BC"
+			tasks: [{
+				id: "5C00D15B8016CC23"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["177FF6EFD81F2373"]
+			description: [
+				"&a基础的&e魔力发射器&a，未安装&e透镜&a时发出绿色脉冲，拥有1000点的魔力缓存区"
+				""
+				"&a标准情况下每束脉冲魔力量160，魔力流失前时间3s(60ticks)。"
+				""
+				"&a只有缓存内魔力≥160且末端有可接收魔力的方块(如&e魔力池或其他&e魔力发射器)时才会发出脉冲，并且上一道脉冲必须已经击中方块或消失。"
+				""
+				"{@pagebreak}"
+				"&6注：如果&e魔力发射器&6旁边有&e魔力环绕器&6，或者发射的魔力经过&e魔力环绕器&6。"
+				""
+				"&6那么将会被它吸引，在这个魔力脉冲消耗殆尽或撞上方块之前，下一道魔力无法发射。"
+				""
+				"&6如果发射器接受到红石信号，就会停止发射魔力。"
+				""
+				"&6需要注意的是，如果发射的脉冲魔力量多于魔力池所能容纳的魔力量，那么多余的魔力会浪费掉"
+				""
+				"&c注：所有魔力发射器在发射魔力的时候都会损耗微量的魔力，在同类的发射器线路中，相对的第二个发射器总是在发射19次魔力后囤积一次上一个发射器所发射的魔力以维持消耗。"
+				""
+				"&c魔力脉冲会被禁止火把弹开"
+			]
+			id: "3B23C1C8C3611871"
+			tasks: [{
+				id: "77AF7C43E9EA5B6A"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"5DF2D8A3448C65BC"
+				"3B23C1C8C3611871"
+			]
+			id: "7ACA2C361F75588C"
+			tasks: [
+				{
+					id: "693A76FAB310E1D7"
+					item: "botania:rune_earth"
+					type: "item"
+				}
+				{
+					id: "0780012CC2162015"
+					item: "botania:rune_fire"
+					type: "item"
+				}
+				{
+					id: "729CC2C7966DFC8F"
+					item: "botania:rune_water"
+					type: "item"
+				}
+				{
+					id: "1EC39315EB03CC7E"
+					item: "botania:rune_air"
+					type: "item"
+				}
+				{
+					id: "51CC7C01DD7394E3"
+					item: "botania:rune_mana"
+					type: "item"
+				}
+			]
+			title: "必要的符文"
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"7ACA2C361F75588C"
+				"254B4C73E49EC521"
+			]
+			description: [
+				"&a一个制作&e泰拉钢&a的设备，必须用&e火花&a或&a盖亚魔力发射器&a供给魔力，制作一个泰拉钢需要半池的魔力(500000mana)。"
+				""
+				"&a制作时如果拿出物品，会导致魔力流失。"
+				""
+				"&a可以在&d植物魔法辞典-基础知识-泰拉钢&a位置查看多方块结构。"
+			]
+			id: "61B6DC03E14D9B92"
+			tasks: [{
+				id: "12D9D2CB74C339F3"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2F2233E30B94BB51"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "254B4C73E49EC521"
+			tasks: [{
+				id: "4D4E3EF02C0684F2"
+				item: "botania:spark"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["61B6DC03E14D9B92"]
+			description: ["&e魔力钢&a+&e魔力珍珠&a+&e魔力钻石&a在&e泰拉凝聚板&a或&e注魔板处&a合成"]
+			id: "4EE85E0FD2ED0F5F"
+			tasks: [{
+				id: "5CDD8C8A45669A2C"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4EE85E0FD2ED0F5F"]
+			description: [
+				"&a玩家虽然不可以通过，但可以通过精灵传送门交易物品。"
+				""
+				"&a需要 8 个活木、3 个微光活木、1 个精灵门核心、2 个自然水晶和 2 个魔力池，其中活木和微光活木分别可以用活木原木和微光活木原木及其去皮变种代替。"
+				""
+				"&6门框内不能放有任何方块。"
+				""
+				"&a搭建完成后，给两个魔力池各放入至少 100000 mana，用森林法杖右击精灵门核心开启传送门。"
+				""
+				"&m&6其实不用放魔力池和自然水晶也能开启，正常获得成就，但是会来不及吸收任何物品就马上关闭。"
+				""
+				"&6可以使用魔力发射器对魔力池供能，也可以使用火花，当然魔力石板等存储魔力的物品也可以，只是丢到魔力池上需要一定技巧。"
+				""
+				"&6因为火花是实体，所以可以与自然水晶重合。"
+				""
+				"&6使用时先放置魔力池，再在其上放置火花及火花升级（推荐聚集升级），最后放置自然水晶。"
+				""
+				"&c因为本整合包永恒魔力池过于便宜，因此也可以直接使用永恒魔力池"
+			]
+			id: "615537A19B166307"
+			rewards: [{
+				id: "452AA251556CDEC4"
+				item: {
+					Count: 1
+					id: "create:schematic"
+					tag: {
+						Anchor: {
+							X: 0
+							Y: 0
+							Z: 0
+						}
+						Bounds: [
+							2
+							5
+							5
+						]
+						Deployed: 0b
+						File: "精灵门.nbt"
+						Mirror: "NONE"
+						Owner: "The_X_One"
+						Rotation: "NONE"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "77C0E1A0162D6528"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+				{
+					id: "06F870475DD42789"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["59F716EA0DA385D0"]
+			description: ["&a将&e钻石&a投入&e魔力池，消耗&910000 mana&a转化。"]
+			id: "4AFF0DD4F482F320"
+			tasks: [{
+				id: "41FEE2525BA17DDF"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["59F716EA0DA385D0"]
+			description: ["&a将&e铁锭&a投入&e魔力池，消耗&93000 mana&a转化。"]
+			id: "196D05909951D728"
+			tasks: [{
+				id: "37336E914434F5C6"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["59F716EA0DA385D0"]
+			description: ["&a将&e末影珍珠&a投入&e魔力池，消耗&96000 mana&a转化。"]
+			id: "2819D27C7E9BF6F8"
+			tasks: [{
+				id: "1AC86B8EC92CACA5"
+				item: "botania:mana_pearl"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["615537A19B166307"]
+			id: "1345727EBEB6E6FB"
+			tasks: [{
+				id: "155E6DE2A731BC0B"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["615537A19B166307"]
+			id: "38F423A74D2497C0"
+			tasks: [{
+				id: "3C9A7AC937848FA3"
+				item: "botania:pixie_dust"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["615537A19B166307"]
+			id: "080943D56362DDF1"
+			tasks: [{
+				id: "3C04A8E8ED338681"
+				item: "botania:dragonstone"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1345727EBEB6E6FB"]
+			description: [
+				"&a用于制作&e泰拉钢锭&a以及&e精灵钢锭&a。"
+				""
+				"&a和&e泰拉凝聚板&a不同的是，此多方块结构上方的&e火花&a需要&e火花升级&a才能正常工作。"
+				""
+				"&a可以在&d植物魔法辞典-神话植物学-精灵凝聚板&a位置查看多方块结构。"
+			]
+			id: "44AFDD3CDA2657BB"
+			tasks: [{
+				id: "14D352ACC795E1C8"
+				item: "mythicbotany:mana_infuser"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"1345727EBEB6E6FB"
+				"38F423A74D2497C0"
+				"080943D56362DDF1"
+			]
+			id: "3BDA1359F7F3C570"
+			tasks: [{
+				id: "0756356758D335C9"
+				item: "botania:rainbow_rod"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3BDA1359F7F3C570"]
+			id: "1B9CE869247EF175"
+			tasks: [{
+				id: "15AA5FF26548C7F3"
+				item: "botania:shimmerrock"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["44AFDD3CDA2657BB"]
+			id: "2A2D1E1204F47C03"
+			subtitle: "稍微强点的泰拉钢"
+			tasks: [{
+				id: "48F3AE4A57B71DDE"
+				item: "mythicbotany:alfsteel_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["45F89EBA3CC90CD4"]
+			description: [
+				"在地牢箱子中获得"
+				""
+				"&7也能可通过击杀牢骨和牢尸获得&r"
+				""
+				"{ \"text\": \"牢骨&牢尸\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4BF056D4FC527AA0\" } }"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2F586AFBBD8CCA3B"
+			tasks: [{
+				id: "6F9F43D0F5CD7526"
+				item: "enigmaticaddons:earth_heart_fragment"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2A2D1E1204F47C03"]
+			id: "26AE0AF1191F431B"
+			rewards: [{
+				id: "1E0B9738124D16AF"
+				item: {
+					Count: 1
+					id: "create:schematic"
+					tag: {
+						Anchor: {
+							X: 0
+							Y: 0
+							Z: 0
+						}
+						Bounds: [
+							9
+							3
+							9
+						]
+						Deployed: 0b
+						File: "盖亚祭坛.nbt"
+						Mirror: "NONE"
+						Owner: "The_X_One"
+						Rotation: "NONE"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7891A3D928A355EC"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["53A0A9759DB3500A"]
+			id: "7DCCC2960FB41AD1"
+			tasks: [{
+				id: "351188B37ED1CBF8"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["26AE0AF1191F431B"]
+			id: "53A0A9759DB3500A"
+			rewards: [{
+				id: "7DB9D0A4A3EA1796"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "extrabotany:exguide"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30F83FB96D174198"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["53A0A9759DB3500A"]
+			id: "21B47FC4126A60A5"
+			tasks: [{
+				id: "068FD24EA72672BE"
+				item: "extrabotany:das_rheingold"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["21B47FC4126A60A5"]
+			id: "6BB7A6561E9AB898"
+			rewards: [
+				{
+					id: "3AC13720F2020731"
+					item: {
+						Count: 1
+						id: "extrabotany:pleiades_combat_maid_headgear"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:thorns"
+									lvl: 3s
+								}
+								{
+									id: "ensorcellation:soulbound"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+								{
+									id: "hmag:health_boost"
+									lvl: 5s
+								}
+								{
+									id: "minecraft:aqua_affinity"
+									lvl: 1s
+								}
+								{
+									id: "ars_nouveau:reactive"
+									lvl: 3s
+								}
+								{
+									id: "ensorcellation:xp_boost"
+									lvl: 3s
+								}
+								{
+									id: "alexsmobsinteraction:stabilizer"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:respiration"
+									lvl: 3s
+								}
+								{
+									id: "ars_nouveau:mana_boost"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "ensorcellation:air_affinity"
+									lvl: 1s
+								}
+								{
+									id: "ars_nouveau:mana_regen"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:protection"
+									lvl: 4s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B67A1A75C439A63"
+					item: {
+						Count: 1
+						id: "extrabotany:sanguine_pleiades_combat_maid_suit"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "ars_nouveau:reactive"
+									lvl: 3s
+								}
+								{
+									id: "ars_nouveau:mana_boost"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:thorns"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "alexsmobsinteraction:lightweight"
+									lvl: 1s
+								}
+								{
+									id: "ensorcellation:reach"
+									lvl: 3s
+								}
+								{
+									id: "ensorcellation:soulbound"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+								{
+									id: "hmag:health_boost"
+									lvl: 5s
+								}
+								{
+									id: "ensorcellation:vitality"
+									lvl: 3s
+								}
+								{
+									id: "ars_nouveau:mana_regen"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:protection"
+									lvl: 4s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D293E85445B4D6A"
+					item: {
+						Count: 1
+						id: "extrabotany:pleiades_combat_maid_skirt"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "ars_nouveau:reactive"
+									lvl: 3s
+								}
+								{
+									id: "ars_nouveau:mana_boost"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:thorns"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "ensorcellation:soulbound"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+								{
+									id: "hmag:health_boost"
+									lvl: 5s
+								}
+								{
+									id: "ars_nouveau:mana_regen"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:protection"
+									lvl: 4s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A92FDFB361C78C6"
+					item: {
+						Count: 1
+						id: "extrabotany:pleiades_combat_maid_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "ars_nouveau:reactive"
+									lvl: 3s
+								}
+								{
+									id: "ars_nouveau:mana_boost"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:thorns"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "ensorcellation:soulbound"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+								{
+									id: "hmag:health_boost"
+									lvl: 5s
+								}
+								{
+									id: "minecraft:depth_strider"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:feather_falling"
+									lvl: 4s
+								}
+								{
+									id: "ars_nouveau:mana_regen"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:protection"
+									lvl: 4s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "423A838CEB7E1A1C"
+					item: {
+						Count: 1
+						id: "extrabotany:pleiades_combat_maid_headgear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F016AC7C6972F01"
+					item: {
+						Count: 1
+						id: "extrabotany:pleiades_combat_maid_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F47BA3877A0C044"
+					item: {
+						Count: 1
+						id: "extrabotany:pleiades_combat_maid_skirt"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "290F4F0FC7249CD5"
+					item: {
+						Count: 1
+						id: "extrabotany:pleiades_combat_maid_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6BC29E2D0CC5DAC2"]
+			id: "0CF1A421067DAC35"
+			tasks: [{
+				count: 27L
+				id: "189C7768CE7F77BE"
+				item: { Count: 4, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["45F89EBA3CC90CD4"]
+			id: "2AD7E81C56F50361"
+			tasks: [{
+				id: "38082D82FA38BD91"
+				title: "幽匿工作台"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2AD7E81C56F50361"]
+			description: ["由监守者掉落"]
+			id: "435ECA0A2A848CF7"
+			tasks: [{
+				id: "6B7F44CB371C4A41"
+				item: "minecraft:sculk_catalyst"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2AD7E81C56F50361"]
+			description: ["使用带有&d精准采集&r附魔或&d丝触强化&r的工具挖掘获得"]
+			id: "59B5EBECD85AD6AF"
+			tasks: [{
+				id: "2E60BE7B87D6B376"
+				item: "minecraft:sculk_shrieker"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"435ECA0A2A848CF7"
+				"59B5EBECD85AD6AF"
+			]
+			id: "4735D6F2C73A3726"
+			tasks: [{
+				id: "1BCA3506D2D31E7D"
+				item: "avaritia:sculk_crafting_table"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+	]
+	title: "◇&b阶段2"
+}

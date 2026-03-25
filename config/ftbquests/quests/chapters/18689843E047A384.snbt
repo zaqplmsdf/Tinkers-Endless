@@ -66,15 +66,44 @@
 		}
 	}
 	id: "18689843E047A384"
-	images: [{
-		height: 1.0d
-		image: "ae2:block/controller_lights"
-		order: 10
-		rotation: 0.0d
-		width: 1.0d
-		x: -0.5d
-		y: -0.5d
-	}]
+	images: [
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			order: 10
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependency: "7081FB9D133A5E83"
+			height: 1.0d
+			image: "tgears:block/tinker_depot_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependency: "7081FB9D133A5E83"
+			height: 2.5d
+			image: "ticex:item/tool/parts/slashblade_saya_ticex_infinity"
+			rotation: 0.0d
+			width: 2.5d
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependency: "707BA3428B11A2DB"
+			height: 2.5d
+			image: "ticex:item/tool/parts/slashblade_saya_ticex_crystal_matrix"
+			rotation: 0.0d
+			width: 2.5d
+			x: 4.5d
+			y: 4.5d
+		}
+	]
 	order_index: 11
 	quest_links: [ ]
 	quests: [
@@ -168,14 +197,25 @@
 					item: "dummmmmmy:target_dummy"
 					type: "item"
 				}
+				{
+					id: "1A33861E30BA3DB7"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "srelic:acg_book"
+						}
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "321D4FDCED967836"
 				type: "checkmark"
 			}]
 			title: "说明"
-			x: -0.5d
-			y: -0.5d
+			x: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["35ACD1962D72E6DF"]
@@ -357,8 +397,8 @@
 				value: 5000
 			}]
 			title: "开拓之旅"
-			x: 1.5d
-			y: -0.5d
+			x: 8.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5C5024E65ADAA02C"]
@@ -548,14 +588,15 @@
 				value: 1000
 			}]
 			title: "存护之志！"
-			x: 3.5d
-			y: -0.5d
+			x: 8.5d
+			y: 5.0d
 		}
 		{
+			dependencies: ["24CAB2B697FE00EA"]
 			description: [
 				"&e星构核心-魂魄&r+&e附魔书&r可为匠魂拔刀剑附魔变为&3印刀&r"
 				""
-				"&3印刀&r改名后将化为&5妖刀&r"
+				"&3印刀&r改名后将化为&5妖刀&r（&4需在铁砧上进行！&r）"
 			]
 			id: "7D883979E3A1566E"
 			rewards: [{
@@ -612,14 +653,15 @@
 				type: "item"
 			}]
 			title: "魂魄强化"
-			x: -0.5d
-			y: 1.0d
+			x: 12.5d
+			y: 2.5d
 		}
 		{
+			dependencies: ["24CAB2B697FE00EA"]
 			description: [
 				"&e闪耀星构核心流体&r浇筑到任意&e拔刀剑&r上获取"
 				""
-				"用于&b拵&r强化，可改变匠魂拔刀剑的外貌和&9SA&r"
+				"用于&b拵&r强化，可使匠魂拔刀剑继承被浇铸拔刀剑的外貌、&9SA&r、耀魂值和杀敌数。"
 			]
 			id: "17A4F9095CCF6772"
 			tasks: [{
@@ -692,8 +734,8 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: -0.5d
-			y: 2.5d
+			x: 12.5d
+			y: 0.5d
 		}
 		{
 			can_repeat: true
@@ -728,9 +770,474 @@
 				title: "模型切换"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: 1.0d
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			description: ["本页面模组为拔刀剑：重锋，请仔细辨别。"]
+			id: "1D7D1258147EBD81"
+			tasks: [{
+				id: "6F0B7621D1284214"
+				title: "注意事项"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"你于第一次造成伤害时便会掉落此物，标志着锻刀之旅的开端。"
+				"此物品和其合成物品可对拔刀剑进行精炼。"
+				"破碎的耀魂可达到的最大精炼等级为10，每次精炼增加100耀魂值。"
+			]
+			id: "707BA3428B11A2DB"
+			tasks: [{
+				id: "46EF6890542E2990"
+				item: "slashblade:proudsoul_tiny"
+				type: "item"
+			}]
+			title: "拔刀剑の开端"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["707BA3428B11A2DB"]
+			description: ["破碎的耀魂的升级版，最高可达到精炼等级为50，每次增加500耀魂值。"]
+			hide_until_deps_complete: true
+			id: "4E0665BA67217F0E"
+			shape: "circle"
+			tasks: [{
+				id: "2C1502977540DF89"
+				item: "slashblade:proudsoul"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4E0665BA67217F0E"]
+			description: [
+				"由破碎的耀魂和铁锭合成获得。"
+				"可达到最大精炼等级为100，每次精炼增加1000耀魂值。"
+			]
+			hide_until_deps_complete: true
+			id: "62EC5DCBFC1140EC"
+			tasks: [{
+				id: "61FE19F34346C87E"
+				item: "slashblade:proudsoul_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["62EC5DCBFC1140EC"]
+			description: [
+				"这些物品从耀魂铁锭开始需烧炼获得。"
+				"耀魂宝珠可达到最大精炼等级为150，每次精炼增加1500耀魂值。"
+				"耀魂结晶可达到最大精炼等级为200，每次精炼增加2000耀魂值。"
+			]
+			hide_until_deps_complete: true
+			id: "506E02390C247DB3"
+			tasks: [
+				{
+					id: "4E312F6CFB6A4FFA"
+					item: "slashblade:proudsoul_sphere"
+					type: "item"
+				}
+				{
+					id: "016D3CBE4F87D795"
+					item: "slashblade:proudsoul_crystal"
+					type: "item"
+				}
+			]
+			title: "更高级的精炼"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["506E02390C247DB3"]
+			description: [
+				"这是最高级的精炼材料。"
+				"精炼等级无上限，但每次精炼会扣除10耀魂值。"
+			]
+			id: "484D77D2EED52E11"
+			tasks: [{
+				id: "28C5E7AAF4FC909F"
+				item: "slashblade:proudsoul_trapezohedron"
+				type: "item"
+			}]
+			title: "最强の精炼道具！"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["707BA3428B11A2DB"]
+			description: ["这是你的第一把拔刀剑，最弱但最基础。"]
+			hide_until_deps_complete: true
+			id: "3E72CFA622BC5A80"
+			tasks: [{
+				id: "6309FF76E49212B4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 0b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							proudSoul: 0
+						}
+					}
+					id: "slashblade:slashblade_wood"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3E72CFA622BC5A80"]
+			description: ["由无铭刀⌈木偶⌋合成获得，可以合成更强力的拔刀剑。"]
+			hide_until_deps_complete: true
+			id: "509086CE7EF00CC8"
+			tasks: [{
+				id: "22C0CBC9074D1692"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 0b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							proudSoul: 0
+						}
+					}
+					id: "slashblade:slashblade_bamboo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["509086CE7EF00CC8"]
+			description: ["由无铭刀⌈竹光⌋合成获得，可合成更强力的拔刀剑。"]
+			hide_until_deps_complete: true
+			id: "38C327DF5564871D"
+			tasks: [{
+				id: "4E74921BCC78F642"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 0b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							proudSoul: 0
+						}
+					}
+					id: "slashblade:slashblade_silverbamboo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E72CFA622BC5A80"]
+			description: ["由无铭刀⌈木偶⌋合成获得，可合成更强力的拔刀剑。"]
+			hide_until_deps_complete: true
+			id: "2476ECC720DFC90A"
+			tasks: [{
+				id: "6F2C182BD365093B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 0b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							proudSoul: 0
+						}
+					}
+					id: "slashblade:slashblade_white"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2476ECC720DFC90A"]
+			description: [
+				"由损坏的利刀⌈白鞘⌋合成获得，可合成更高等级的拔刀剑。"
+				"&o&n有趣的是，本模组的所有高等级拔刀剑的实质都是这把刀。&r&r"
+			]
+			id: "6AAED888240EEF18"
+			tasks: [{
+				id: "19A35DFBAFA79749"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 0b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 4.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 40
+							proudSoul: 0
+							translationKey: ""
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6AAED888240EEF18"
+				"38C327DF5564871D"
+			]
+			dependency_requirement: "one_completed"
+			description: ["那么更高级的拔刀剑如何制作，就需要你使用JEI好好的摸索一番了。"]
+			id: "33D3665A0F2D4220"
+			tasks: [{
+				id: "19D0FB74DEDC220D"
+				title: "更高级的拔刀剑"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["33D3665A0F2D4220"]
+			description: ["前方为至高境界，一般人禁止入内......"]
+			id: "7081FB9D133A5E83"
+			tasks: [{
+				id: "6383E940EB912084"
+				title: "高阶の技艺"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7081FB9D133A5E83"]
+			description: [
+				"从现在开始，你就是拔刀剑锻造技艺的最高峰。"
+				"注：此锻造方法需解锁3阶段才可使用。"
+			]
+			hide_until_deps_complete: true
+			id: "24CAB2B697FE00EA"
+			tasks: [
+				{
+					id: "1FBAC70923A8179B"
+					item: {
+						Count: 1
+						id: "ticex:slashblade_blade"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "75753B0690F2EB0D"
+					item: {
+						Count: 1
+						id: "ticex:slashblade_saya"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3BE82DBB148E3345"
+					item: {
+						Count: 1
+						id: "tconstruct:tough_handle"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "再锻"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["33D3665A0F2D4220"]
+			description: ["来自异界的书，记录了神秘的材料的获取方法。"]
+			id: "6CC2813D92722AC3"
+			tasks: [{
+				id: "6A60049B0593467C"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "srelic:acg_book"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18A67F72FCE5E680"]
+			description: ["由被诅咒的战士掉落的拔刀剑，拥有本包理论dps上限最高的sa。"]
+			hide_until_deps_complete: true
+			id: "07D21A1FB1BC2CD6"
+			invisible: true
+			tasks: [{
+				id: "00675669511A77D4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/sword/sword.obj"
+							RepairCounter: 0
+							SpecialAttackType: "srelic:explashon"
+							SpecialEffects: ["slashblade_addon:burst_drive"]
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/named/sword/sword.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 32.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 256
+							proudSoul: 0
+							translationKey: "item.slashblade.sword"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						bladeState: {
+							ModelName: "slashblade:model/named/sword/sword.obj"
+							TextureName: "slashblade:model/named/sword/sword.png"
+							translationKey: "item.slashblade.sword"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 14.0d
+			y: 1.5d
 		}
 	]
-	title: "·&e拔刀剑"
+	title: "◇&e拔刀剑"
 }

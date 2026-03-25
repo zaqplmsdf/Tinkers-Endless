@@ -1,0 +1,18 @@
+[basic]
+identifier = "ticr"
+type = "resourcepack"
+file_name = "ticresourcepacks.zip"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+alarm = false
+dependencies = []
+conflicts = [
+  "TMT"
+]
+
+[DisplayName]
+zh_cn = "工具纹理资源包"
+
+[tip]
+zh_cn = "请关闭TMT（匠魂材质修复）后开启"

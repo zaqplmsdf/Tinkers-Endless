@@ -591,6 +591,90 @@
     {
       "item": "exdeorum:dust",
       "emc": 1
+    },
+    {
+      "item": "minecraft:water_bucket",
+      "emc": 784
+    },
+    {
+      "item": "minecraft:charcoal",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:gold_nugget",
+      "emc": 227
+    },
+    {
+      "item": "minecraft:bone_meal",
+      "emc": 48
+    },
+    {
+      "item": "mysticalagradditions:creative_essence",
+      "emc": 1030350
+    },
+    {
+      "item": "wqjy:up_item_13",
+      "emc": 10303500
+    },
+    {
+      "item": "mythicbotany:alfsteel_ingot",
+      "emc": 9720
+    },
+    {
+      "item": "curseofpandora:dried_brain",
+      "emc": 4096
+    },
+    {
+      "item": "curseofpandora:eroded_brain",
+      "emc": 4096
+    },
+    {
+      "item": "curseofpandora:rotten_brain",
+      "emc": 4096
+    },
+    {
+      "item": "curseofpandora:dried_spine",
+      "emc": 4096
+    },
+    {
+      "item": "curseofpandora:eroded_spine",
+      "emc": 4096
+    },
+    {
+      "item": "curseofpandora:rotten_spine",
+      "emc": 4096
+    },
+    {
+      "item": "curseofpandora:spellbound_orb",
+      "emc": 4096
+    },
+    {
+      "item": "curseofpandora:barbaric_blood",
+      "emc": 4096
+    },
+    {
+      "item": "curseofpandora:shadow_fragment",
+      "emc": 4096
+    },
+    {
+      "item": "curseofpandora:hellfire_rune",
+      "emc": 4096
+    },
+    {
+      "item": "curseofpandora:angelic_feather",
+      "emc": 4096
+    },
+    {
+      "item": "curseofpandora:sculk_crystal",
+      "emc": 4096
+    },
+    {
+      "item": "curseofpandora:barbaric_edge",
+      "emc": 4096
+    },
+    {
+      "item": "curseofpandora:mini_beacon_base",
+      "emc": 4096
     }
   ]
 }

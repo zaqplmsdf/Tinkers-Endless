@@ -1,9 +1,9 @@
 [download]
-modrinth_projectid = "yE4MbG65"
-modrinth_versionid = "h9trYS7V"
+modrinth_projectid = ""
+modrinth_versionid = ""
 curseforge_projectid = ""
 curseforge_fileid = ""
-directUrl = ""
+directUrl = "https://cdn-alt.modrinth.com/data/yE4MbG65/versions/h9trYS7V/c2meF-0.2.0%2Balpha.12-all.jar"
 priority = "modrinth"
 
 [basic]
@@ -14,7 +14,7 @@ isInList = true
 isHidden = false
 AllowEnableByAll = false
 alarm = false
-dependencies = "tfthreadsafetyaddon"
+dependencies = ""
 conflicts = ""
 
 [DisplayName]

@@ -1,9 +1,9 @@
 [download]
 modrinth_projectid = ""
 modrinth_versionid = ""
-curseforge_projectid = "351264"
-curseforge_fileid = "7291067"
-directUrl = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/7291/67/kotlinforforge-4.12.0-all.jar"
 priority = "curseforge"
 
 [basic]
@@ -13,7 +13,7 @@ file_name = "kotlinforforge-4.12.0-all.jar"
 appliedTarget = "mods"
 isInList = true
 isHidden = false
-AllowEnableByAll = false
+AllowEnableByAll = true
 alarm = false
 dependencies = ""
 conflicts = ""
