@@ -558,6 +558,7 @@
 			subtitle: "要善于使用jei"
 			tasks: [
 				{
+					consume_items: true
 					id: "420DFAE3B2960606"
 					item: {
 						Count: 1
@@ -569,6 +570,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "09F6C74504167D03"
 					item: {
 						Count: 1
@@ -580,6 +582,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "738846FF2F59EAFA"
 					item: {
 						Count: 1
@@ -591,6 +594,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "193C31BECB84922B"
 					item: {
 						Count: 1
@@ -602,6 +606,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "261C44DC85ECC61A"
 					item: {
 						Count: 1
@@ -673,6 +678,7 @@
 			subtitle: "要善于使用jei"
 			tasks: [
 				{
+					consume_items: true
 					id: "4921FF70F459C36C"
 					item: {
 						Count: 1
@@ -684,6 +690,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "0DDC2B80FA279E9C"
 					item: {
 						Count: 1
@@ -695,6 +702,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "4651D8641D98232F"
 					item: {
 						Count: 1
@@ -706,6 +714,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "3E6AD839F497D826"
 					item: {
 						Count: 1
@@ -717,6 +726,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "55E002E625C3423D"
 					item: {
 						Count: 1
@@ -734,6 +744,7 @@
 		}
 		{
 			dependencies: ["2C74727E098A23BF"]
+			dependency_requirement: "one_completed"
 			description: ["完成所有主要任务后按上方配方制作证明"]
 			hide_until_deps_complete: true
 			id: "300840BAF40500AD"

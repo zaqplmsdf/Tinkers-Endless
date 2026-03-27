@@ -114,7 +114,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["002A8323600F86EC"]
+			dependencies: [
+				"002A8323600F86EC"
+				"03FA631D240E88AA"
+			]
 			description: [
 				"解锁："
 				"&e沉浸工程相关&r"
@@ -148,7 +151,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["13F5243DDC69E2B5"]
+			dependencies: [
+				"13F5243DDC69E2B5"
+				"03FA631D240E88AA"
+			]
 			dependency_requirement: "one_completed"
 			description: [
 				"解锁："
@@ -591,7 +597,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["002A8323600F86EC"]
+			dependencies: [
+				"002A8323600F86EC"
+				"03FA631D240E88AA"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "wqjy:up_1"
@@ -615,7 +624,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["13F5243DDC69E2B5"]
+			dependencies: [
+				"13F5243DDC69E2B5"
+				"03FA631D240E88AA"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "wqjy:up_2"

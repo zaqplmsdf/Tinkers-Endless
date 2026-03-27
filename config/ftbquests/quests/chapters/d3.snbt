@@ -397,11 +397,13 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "2F54297ABF010D94"
 					item: "tconstruct:molten_manyullyn_bucket"
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "3D45479F08616A22"
 					item: "tinkerscalibration:moltenwitherium_bucket"
 					type: "item"
