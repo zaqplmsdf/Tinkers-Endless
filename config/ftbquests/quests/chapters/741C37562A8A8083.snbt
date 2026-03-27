@@ -28,13 +28,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["19EF10A2B2064B38"]
 			description: [
 				"emc尽量控制在&e9.2quintillion（百兆）&r以下"
 				""
 				"emc在&e9.2quintillion（百兆）&r以上时，会导致奥术平板无法使用jei合成"
 			]
-			hide_until_deps_complete: true
 			id: "59D678FEFA7EE9AC"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -184,13 +182,11 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["002A8323600F86EC"]
 			description: [
 				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
 				""
 				"当物品在背包内但长时间未完成目标时可以点一次"
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:observer"
 			id: "0BF745F8F3932A9F"
 			rewards: [{
@@ -209,235 +205,6 @@
 			x: -1.0d
 			y: 0.0d
 		}
-		{
-			dependencies: ["19EF10A2B2064B38"]
-			id: "651F1DAC9F95235F"
-			subtitle: "甚至不如一个钻石箱子"
-			tasks: [{
-				id: "530641C8997CC5B1"
-				item: "projecte:alchemical_chest"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["651F1DAC9F95235F"]
-			description: [
-				"有类似箱子的界面，右键打开，有&e13×7&r格的&9存储空间&r，可以在&9左上角的格子&r里放置&9物品标本&r。"
-				""
-				"（&c仅能放置能量收集器燃料系列标本&r，标本存在时才能储存EMC，放置标本不消耗物品）"
-				""
-				"&6当能量凝聚器中存储的EMC值达到标本物品的EMC值时，会消耗EMC复制目标物品&r。"
-				""
-				"如果被复制的物品EMC为&c负数&r，则会&6“消耗负数EMC值”（即增加EMC值）&r并且生成对应物品。"
-				""
-				"此方块需配合&e能量收集器&r或者&e反物质继电器&r，可以吸收贴近此方块能量收集器的EMC。"
-			]
-			id: "182C59468F6C23E8"
-			tasks: [{
-				id: "625644E67B4414E7"
-				item: "projecte:condenser_mk1"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["182C59468F6C23E8"]
-			description: [
-				"有类似箱子的GUI，右键打开，可以将放在左侧物品栏（6×7格）的物品摧毁并获取其中的EMC值（无目标物品时不会摧毁）。"
-				""
-				"可以在左上角的格子里放置目标物品，当能量凝聚器中存储的EMC值大于等于目标物品的EMC值时，会消耗EMC值转换为目标物品，生成的物品存储于右侧物品栏（6×7格）。"
-				""
-				"能量收集器或者反物质继电器可以为能量凝聚器MK2提供EMC，可以达到自动化的效果，例如TE的弱化能源炉。"
-			]
-			id: "76C06C38C6A285A3"
-			tasks: [{
-				id: "265848EC6B7723AB"
-				item: "projecte:condenser_mk2"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["19EF10A2B2064B38"]
-			description: [
-				"&6放在地上凭空产生EMC，也可以将产生的EMC注入贴着此方块的反物质继电器，&r"
-				""
-				"能被周围&e台座&r上的&e时间洪流怀表（已ban）&r或&e加速火把&r加速，还能用凭空产生的EMC转换此方块中的物品。"
-			]
-			id: "7FCAC786C9AD1E14"
-			tasks: [{
-				id: "463D30F4D283719C"
-				item: "projecte:collector_mk1"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["7FCAC786C9AD1E14"]
-			id: "19076BC4FCA3963A"
-			tasks: [{
-				id: "13935644E2182A23"
-				item: "projecte:collector_mk2"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["19076BC4FCA3963A"]
-			id: "686D0AC9D35C7C39"
-			tasks: [{
-				id: "70014D4F69DAE27B"
-				item: "projecte:collector_mk3"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["002A8323600F86EC"]
-			hide_until_deps_complete: true
-			id: "19EF10A2B2064B38"
-			tasks: [{
-				id: "0CE04191A1290537"
-				title: "等价交换"
-				type: "checkmark"
-			}]
-			x: 0.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["19EF10A2B2064B38"]
-			description: [
-				"通过消耗拥有EMC值的物品提取其中的EMC，"
-				"拥有6个额外的空格允许玩家放置需要处理掉的EMC物品。"
-				""
-				"【产生EMC】"
-				""
-				"不消耗物品就产生EMC，需要能量收集器，"
-				""
-				"与能量收集器搭配使用的时候，产生的能量会流入反物质继电器并且被储存起来，这样做的优势是，会产生额外的EMC值，"
-				""
-				"数量基于反物质继电器的等级和周围能量收集器的数量，"
-				""
-				"最多可以放六个面。"
-				""
-				"【转移EMC】"
-				""
-				"EMC被反物质继电器存贮，直到在充电位置放入一个卡莱恩之星，"
-				""
-				"也会把EMC存入邻近的机器（除了其他反物质继电器）反物质继电器也会作为多个没有在加工燃料的收集器的管道导入到一个加工燃料的收集器中，"
-				""
-				"能量凝聚器、暗物质和红物质熔炉也可以接受能量。"
-			]
-			id: "075D383607917274"
-			tasks: [{
-				id: "50DFCAA52A565CBC"
-				item: "projecte:relay_mk1"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["075D383607917274"]
-			id: "47960C97C1967D15"
-			tasks: [{
-				id: "45FC5D46FFB9D093"
-				item: "projecte:relay_mk2"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["47960C97C1967D15"]
-			id: "189943F6D146C5E8"
-			tasks: [{
-				id: "32561C7AE252AA3F"
-				item: "projecte:relay_mk3"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["19EF10A2B2064B38"]
-			description: ["空手右击&e暗物质台座&r或者&9接收红石脉冲&r的时候，会根据&e所放的炼金物品&r产生一定的效果，按下查看&9碰撞箱按键&r（&eF3+B&r）显示&9具体范围&r。"]
-			id: "1525895AE04A4F2E"
-			tasks: [{
-				id: "683CCCB4DED1C2CE"
-				item: "projecte:dm_pedestal"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["19EF10A2B2064B38"]
-			description: [
-				"当&e禁止火把&r&6被放置后可以产生一个强劲力场，推开周围的怪物，友好的生物不受影响。&r"
-				""
-				"可以将4格内的怪物推开11格的范围。"
-				""
-				"&6多个火把产生的推力会叠加，包括方向，如同“力的合成”。"
-				"&r"
-				"禁止火把的力场也可以排斥&e大部分弹射物&r例如&e弓箭&r，&e鸡蛋&r。这类物品都拥有抛物线，即它们会改变方向。其它不会改变方向的飞弹射物例如烈焰人的火球和凋灵之首等，不能排斥。"
-				""
-				"监守者的音波攻击不属于弹射物，不能阻挡。"
-				""
-				"会发出13级的亮光，比火把低一级。"
-				""
-				"尽管它很强大，但是在主世界挂机时请勿过分信任它，因为&c它并不能推开鸡骑士&r"
-				""
-				"&c注意：禁止火把可以推开植物魔法的脉冲并将其随机弹射，这会造成一定程度的服务器或客户端卡顿，同时会导致魔力发射器无法正常输出魔力&r"
-			]
-			id: "6D5CB80DFFEDD1B5"
-			tasks: [{
-				id: "2C5C5DBB3B3759F1"
-				item: "projecte:interdiction_torch"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["19EF10A2B2064B38"]
-			description: [
-				"&e爆破新星&r是一种比&6TNT爆炸威力更大的炼金TNT&r。"
-				""
-				"它爆炸时&6只会破坏方块并对生物造成伤害&r，对掉落物没有影响，尽管它们也是实体。"
-				""
-				"&6爆炸后被炸毁的所有方块会自动掉落在爆破新星放置的位置。&r"
-				""
-				"它的引线时间&c大约只有1秒&r。"
-			]
-			id: "611B4CE769FCD7BE"
-			tasks: [{
-				id: "69B29C1264CE6567"
-				item: "projecte:nova_catalyst"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["611B4CE769FCD7BE"]
-			id: "19152DEE78309AA9"
-			subtitle: "威力更大的爆破新星"
-			tasks: [{
-				id: "1F0E4552386A4C9A"
-				item: "projecte:nova_cataclysm"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 1.0d
-		}
 	]
-	title: "◇&c等价交换"
+	title: "·&c等价交换"
 }

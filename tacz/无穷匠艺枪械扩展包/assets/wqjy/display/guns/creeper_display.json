@@ -1,0 +1,11 @@
+{
+  "ammo_count_style": "normal",
+  "damage_style": "per_projectile",
+  "use_default_animation": "rifle",
+  "lod": {},
+  "slot": "wqjy:gun/slot/creeper",
+  "animation": "wqjy:creeper",
+  "texture": "wqjy:gun/uv/creeper",
+  "hud": "wqjy:gun/hud/creeper",
+  "model": "wqjy:gun/creeper_geo"
+}

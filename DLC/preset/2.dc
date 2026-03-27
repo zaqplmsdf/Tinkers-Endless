@@ -1,6 +1,6 @@
 enable = [
-  "Kotlin for Forge",
   "",
+  "Kotlin for Forge",
   "Placebo",
   "betterf3",
   "",
@@ -64,16 +64,16 @@ conflicts = [
 ]
 
 [DisplayName]
-en_us = "§2[Main] Performance Stability"
-zh_cn = "§2[主要]性能、稳定"
+  en_us = "§2[Main] Performance Stability"
+  zh_cn = "§2[主要]性能、稳定"
 
 [tip]
-en_us = """§2[Performance: Extremely High]  
+  en_us = """§2[Performance: Extremely High]  
 §2[Compatibility: Extremely High]  
 
 §2Best stability preset! Performance is also extremely high but slightly lower than the 2.5 test preset  
 §4[Incompatible: Cerulean DespawnTweaks]"""
-zh_cn = """§2[性能:极高]
+  zh_cn = """§2[性能:极高]
 §2[兼容:极高]
 
 §2最佳稳定预设!性能也是极高的,但是性能不如2.5测试预设

@@ -1,6 +1,0 @@
-{
-    "parent":"item/generated",
-    "textures":{
-        "layer0":"item/eternal","layer1":"item/back"
-    }
-}

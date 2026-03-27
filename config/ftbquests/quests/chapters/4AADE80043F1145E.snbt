@@ -99,7 +99,6 @@
 		}
 	]
 	order_index: 4
-	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -256,5 +255,5 @@
 		}
 	]
 	subtitle: ["极简收容"]
-	title: "◇&6汤姆存储"
+	title: "·&6汤姆存储"
 }

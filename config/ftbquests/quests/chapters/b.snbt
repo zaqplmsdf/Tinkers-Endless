@@ -141,8 +141,7 @@
 		}
 	}
 	id: "424DD11D9D024DF3"
-	order_index: 8
-	progression_mode: "flexible"
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -422,7 +421,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: -2.0d
 		}
 		{
@@ -646,7 +645,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: -3.0d
 		}
 		{
@@ -717,7 +716,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: -2.0d
 		}
 		{
@@ -838,7 +837,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: -3.0d
 		}
 		{
@@ -1135,8 +1134,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -3.0d
-			y: -1.0d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["25EEF2774F92F7DB"]
@@ -1258,8 +1257,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -3.0d
-			y: -4.0d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			can_repeat: false
@@ -1902,7 +1901,7 @@
 				item: "wqjy:wuqi_2"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: -2.0d
 		}
 		{
@@ -2126,7 +2125,7 @@
 				item: "wqjy:wuqi_1"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: -3.0d
 		}
 		{
@@ -2173,7 +2172,10 @@
 					tag: {
 						bladeState: {
 							ModelName: "slashblade:model/named/sword/sword.obj"
+							SpecialAttackType: "srelic:explashon"
+							SpecialEffects: ["slashblade_addon:burst_drive"]
 							TextureName: "slashblade:model/named/sword/sword.png"
+							isSealed: 0b
 							translationKey: "item.slashblade.sword"
 						}
 					}
@@ -2182,8 +2184,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 0.0d
-			y: -2.5d
+			x: -1.5d
+			y: -0.5d
 		}
 		{
 			can_repeat: true
@@ -2211,5 +2213,5 @@
 			y: -4.5d
 		}
 	]
-	title: "◇&b一些非匠魂的武器"
+	title: "·&b一些非匠魂的武器"
 }

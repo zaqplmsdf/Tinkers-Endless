@@ -68,7 +68,6 @@
 			dependencies: ["418A682BE565AEC3"]
 			hide_until_deps_complete: false
 			id: "1DD99B351A75C6E1"
-			invisible: true
 			rewards: [
 				{
 					id: "72B4D5A23C386A51"
@@ -78,11 +77,6 @@
 				{
 					id: "28A32A6EC5DE3BE1"
 					item: "artifacts:crystal_heart"
-					type: "item"
-				}
-				{
-					id: "47610900B59F247F"
-					item: "enigmaticlegacy:the_acknowledgment"
 					type: "item"
 				}
 			]
@@ -666,7 +660,6 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "暂时获得安眠"
 			tasks: [{
 				consume_items: true
 				count: 3L
@@ -1647,5 +1640,5 @@
 		"消除你的诅咒"
 		"&b感谢群友“阿紫”进行补充"
 	]
-	title: "◇&4七咒之戒"
+	title: "·&4七咒之戒"
 }

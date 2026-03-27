@@ -26,15 +26,21 @@ enable = [
   "",
   "",
   "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
   ""
 ]
 conflicts = [
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
   "",
   "",
   "",
@@ -58,14 +64,14 @@ conflicts = [
 ]
 
 [DisplayName]
-en_us = "§2[Optional] Auxiliary Optimization"
-zh_cn = "§6[可选]辅助优化"
+  en_us = "§2[Optional] Auxiliary Optimization"
+  zh_cn = "§6[可选]辅助优化"
 
 [tip]
-en_us = """§6[Compatibility: Unknown]  
+  en_us = """§6[Compatibility: Unknown]  
 §2[Feature Optimization] Provides a noticeably improved feature experience after installation  
 §4But may cause client startup errors!"""
-zh_cn = """§2[功能:高]
+  zh_cn = """§2[功能:高]
 §6[兼容:未知]
 §2[功能优化]加入之后可以获得不错的功能体验
 §4但是启动客户端可能会报错！"""

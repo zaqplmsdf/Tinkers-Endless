@@ -1,0 +1,9 @@
+{
+  "name": "wqjy.gun.creeper.name",
+  "tooltip": "wqjy.gun.creeper.desc",
+  "data": "wqjy:creeper_data",
+  "display": "wqjy:creeper_display",
+  "type": "rpg",
+  "item_type": "modern_kinetic",
+  "sort": 10
+}

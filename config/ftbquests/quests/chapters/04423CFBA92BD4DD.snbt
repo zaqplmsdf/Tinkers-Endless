@@ -43,7 +43,6 @@
 		}
 	]
 	order_index: 2
-	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -390,5 +389,5 @@
 			y: 5.5d
 		}
 	]
-	title: "◇&a无&b尽&c贪&d婪&e相&6关"
+	title: "·&a无&b尽&c贪&d婪&e相&6关"
 }

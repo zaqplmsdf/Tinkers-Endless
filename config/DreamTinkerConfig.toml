@@ -279,17 +279,4 @@
 	#How much damage reduction per level provided in %
 	#Range: 0.0 ~ 1.0
 	ArtsManaShieldBase = 0.8
-	#Max active of effect that would be clear, effect duration less than this would not be clear
-	#Range: 0.0 ~ 100000.0
-	AsOneTT = 40.0
-	#Effect in this black would not be removed
-	as_one_blacklist = ["modid:effect"]
-
-["Transmute Configuration"]
-	#The default temperature provided by each heater block
-	#Range: 0 ~ 10000
-	TransmuteHeaterTemperature = 500
-	#The accelerator fuel rate provided by each block
-	#Range: 0 ~ 20000
-	TransmuteFuelAccelerator = 15
 

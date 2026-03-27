@@ -178,7 +178,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["37CE25782986CD2B"]
 			id: "6C47D72ECE4FFD79"
 			rewards: [{
 				count: 3
@@ -452,13 +451,11 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["13F5243DDC69E2B5"]
 			description: [
 				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
 				""
 				"当物品在背包内但长时间未完成目标时可以点一次"
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:observer"
 			id: "70206F2BC98F6FE5"
 			rewards: [{
@@ -477,29 +474,6 @@
 			x: 0.5d
 			y: 1.0d
 		}
-		{
-			dependencies: ["13F5243DDC69E2B5"]
-			hide_until_deps_complete: true
-			id: "37CE25782986CD2B"
-			rewards: [{
-				id: "1FF805E414A87C3F"
-				item: {
-					Count: 1
-					id: "botania:lexicon"
-					tag: {
-						"botania:elven_unlock": 1b
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "2259BC3C34B4D329"
-				type: "checkmark"
-			}]
-			title: "开始植物魔法"
-			x: -1.5d
-			y: 0.0d
-		}
 	]
-	title: "◇&a植物魔法"
+	title: "·&a植物魔法"
 }

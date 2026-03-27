@@ -50,11 +50,13 @@
 		}
 	]
 	order_index: 0
-	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["050C746D73171DCB"]
+			dependencies: [
+				"050C746D73171DCB"
+				"052971BAC754FF0C"
+			]
 			id: "60583C8989E592F3"
 			rewards: [{
 				count: 16
@@ -107,11 +109,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: [
-				"418A682BE565AEC3"
-				"052971BAC754FF0C"
-			]
-			hide_until_deps_complete: true
+			dependencies: ["418A682BE565AEC3"]
 			id: "050C746D73171DCB"
 			rewards: [{
 				auto: "enabled"
@@ -818,13 +816,11 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["052971BAC754FF0C"]
 			description: [
 				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
 				""
 				"当物品在背包内但长时间未完成目标时可以点一次"
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:observer"
 			id: "20C8349AAD98E844"
 			rewards: [{
@@ -866,5 +862,5 @@
 			y: -1.5d
 		}
 	]
-	title: "◇&e基本"
+	title: "·&e基本"
 }

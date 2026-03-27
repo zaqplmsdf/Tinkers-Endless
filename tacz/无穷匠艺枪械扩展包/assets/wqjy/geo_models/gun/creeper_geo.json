@@ -1,0 +1,188 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.animations",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 9,
+				"visible_bounds_height": 4,
+				"visible_bounds_offset": [0, 0, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "root2",
+					"parent": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "tou",
+					"parent": "root2",
+					"pivot": [-11, 5, 5]
+				},
+				{
+					"name": "lei",
+					"parent": "tou",
+					"pivot": [-27, 5, 5]
+				},
+				{
+					"name": "bone",
+					"parent": "lei",
+					"pivot": [-6, 6, 1],
+					"cubes": [
+						{"origin": [1, 7, 9], "size": [1, 1, 1], "uv": [1, 1]},
+						{"origin": [1, 7, 8], "size": [1, 1, 1], "uv": [1, 1]},
+						{"origin": [1, 6, 9], "size": [1, 1, 1], "uv": [1, 1]}
+					]
+				},
+				{
+					"name": "bone2",
+					"parent": "lei",
+					"pivot": [-6, 6, -8],
+					"cubes": [
+						{"origin": [1, 7, 0], "size": [1, 1, 1], "uv": [1, 1]},
+						{"origin": [1, 7, 1], "size": [1, 1, 1], "uv": [1, 1]},
+						{"origin": [1, 6, 0], "size": [1, 1, 1], "uv": [1, 1]}
+					]
+				},
+				{
+					"name": "bb_main",
+					"parent": "tou",
+					"pivot": [-11, 5, 5],
+					"cubes": [
+						{"origin": [-11, 0, -1], "size": [12, 12, 12], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "tui",
+					"parent": "root2",
+					"pivot": [-28, 6, 5]
+				},
+				{
+					"name": "tui1",
+					"parent": "tui",
+					"pivot": [-27, 10, 5],
+					"cubes": [
+						{"origin": [-35, 10, -1], "size": [8, 6, 6], "uv": [28, 30]}
+					]
+				},
+				{
+					"name": "tui2",
+					"parent": "tui",
+					"pivot": [-27, 2, 5],
+					"cubes": [
+						{"origin": [-35, -4, 5], "size": [8, 6, 6], "uv": [28, 30]}
+					]
+				},
+				{
+					"name": "tui3",
+					"parent": "tui",
+					"pivot": [-27, 2, 5],
+					"cubes": [
+						{"origin": [-35, -4, -1], "size": [8, 6, 6], "uv": [28, 30]}
+					]
+				},
+				{
+					"name": "tui4",
+					"parent": "tui",
+					"pivot": [-27, 2, 5],
+					"cubes": [
+						{"origin": [-35, 10, 5], "size": [8, 6, 6], "uv": [28, 30]}
+					]
+				},
+				{
+					"name": "bb_main2",
+					"parent": "root2",
+					"pivot": [-11, 5, 5],
+					"cubes": [
+						{"origin": [-29, 1, 0], "size": [18, 10, 10], "uv": [0, 44]}
+					]
+				},
+				{
+					"name": "righthand_pos",
+					"parent": "root",
+					"pivot": [-15, 18, 0],
+					"rotation": [-89.99999, -77.5, -147.50001],
+					"cubes": [
+						{"origin": [-22, 18, -2], "size": [3, 12, 4], "uv": [10, 48]}
+					]
+				},
+				{
+					"name": "left_hand_and_mag",
+					"parent": "root",
+					"pivot": [-29, -10, 27]
+				},
+				{
+					"name": "danxia",
+					"parent": "left_hand_and_mag",
+					"pivot": [-29, -10, 27],
+					"cubes": [
+						{
+							"origin": [-9, 3, 1],
+							"size": [8, 8, 8],
+							"uv": {
+								"north": {"uv": [56, 0], "uv_size": [8, 8]},
+								"east": {"uv": [56, 0], "uv_size": [8, 8]},
+								"south": {"uv": [56, 0], "uv_size": [8, 8]},
+								"west": {"uv": [56, 0], "uv_size": [8, 8]},
+								"up": {"uv": [48, 0], "uv_size": [8, 8]},
+								"down": {"uv": [48, 8], "uv_size": [8, -8]}
+							}
+						}
+					]
+				},
+				{
+					"name": "lefthand_pos",
+					"parent": "left_hand_and_mag",
+					"pivot": [-12, 0, 24],
+					"rotation": [92.66399, -14.76689, -10.34527],
+					"cubes": [
+						{"origin": [-8, 0, 22], "size": [3, 12, 4], "uv": [10, 48]}
+					]
+				},
+				{
+					"name": "positioning",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "iron_view",
+					"parent": "positioning",
+					"pivot": [-36, 13, 21],
+					"rotation": [0, -90, 0]
+				},
+				{
+					"name": "idle_view",
+					"parent": "positioning",
+					"pivot": [-32, 13, 23],
+					"rotation": [0, -75, 0]
+				},
+				{
+					"name": "refit_view",
+					"parent": "positioning",
+					"pivot": [-13, 0, 31]
+				},
+				{
+					"name": "ground",
+					"parent": "positioning",
+					"pivot": [-18, 0, 8]
+				},
+				{
+					"name": "thirdperson_hand",
+					"parent": "positioning",
+					"pivot": [-8, 13, 6],
+					"rotation": [0, -90, 0]
+				},
+				{
+					"name": "fixed",
+					"parent": "positioning",
+					"pivot": [-17, 0, 10]
+				}
+			]
+		}
+	]
+}

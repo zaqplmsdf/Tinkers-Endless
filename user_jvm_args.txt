@@ -1,0 +1,33 @@
+# 内存设置
+-Xms8G
+-Xmx8G
+
+# GC 设置（G1）
+-XX:+UseG1GC
+-XX:+ParallelRefProcEnabled
+-XX:MaxGCPauseMillis=200
+
+# 实验性选项
+-XX:+UnlockExperimentalVMOptions
+-XX:+UseStringDeduplication
+
+# G1 优化
+-XX:G1NewSizePercent=20
+-XX:G1MaxNewSizePercent=30
+-XX:G1HeapRegionSize=4M
+-XX:G1ReservePercent=15
+-XX:G1HeapWastePercent=10
+-XX:G1MixedGCCountTarget=4
+-XX:InitiatingHeapOccupancyPercent=20
+-XX:G1MixedGCLiveThresholdPercent=85
+-XX:G1RSetUpdatingPauseTimePercent=5
+-XX:SurvivorRatio=8
+
+# Aikar 标志
+-Dusing.aikars.flags=https://mcflags.emc.gs 
+-Daikars.new.flags=true
+
+# 可选：GC 日志（调试时用）
+# -Xlog:gc*:logs/java_gc.log
+
+#觉得不好用可以删掉，或者换成你自己的！！！！！！！！！！！！！

@@ -64,16 +64,16 @@ conflicts = [
 ]
 
 [DisplayName]
-en_us = "§2[Main] Vanilla Optimization"
-zh_cn = "§2[主要]原版优化"
+  en_us = "§2[Main] Vanilla Optimization"
+  zh_cn = "§2[主要]原版优化"
 
 [tip]
-en_us = """§2[Performance: High]  
+  en_us = """§2[Performance: High]  
 §2[Compatibility: Extremely High]  
 
 §2[Vanilla Enhanced Optimization] Compatibility is higher than all other presets Ideal choice for players who prefer vanilla with a few lightweight mods  
 §4[Incompatible: DespawnTweaks]"""
-zh_cn = """§2[性能:高]
+  zh_cn = """§2[性能:高]
 §2[兼容:极高]
 
 §2[原版增强优化]兼容性比所有的预设还要高,属于玩原版带点小模组玩家的首选

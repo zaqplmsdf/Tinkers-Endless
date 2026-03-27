@@ -29,6 +29,7 @@ ServerEvents.recipes((event) => {
     tconstruct.alloy(Fluid.of("ticex:molten_infinity", 1), [Fluid.of("wqjy:reborn", 1), Fluid.of("sakuratinker:molten_infinity", 1)]).temperature(1);
     tconstruct.alloy(Fluid.of("ticex:molten_neutron", 1), [Fluid.of("wqjy:reborn", 1), Fluid.of("sakuratinker:molten_neutron", 1)]).temperature(1);
     tconstruct.alloy(Fluid.of("ticex:molten_crystal_matrix", 1), [Fluid.of("wqjy:reborn", 1), Fluid.of("sakuratinker:molten_crystal_matrix", 1)]).temperature(1);
+    tconstruct.alloy(Fluid.of("cloudertinker:molten_knightmetal", 1), [Fluid.of("wqjy:reborn", 1), Fluid.of("tconstruct:molten_knightmetal", 1)]).temperature(1);
     tconstruct.alloy(Fluid.of("tinkers_thinking:molten_echo", 1), [Fluid.of("wqjy:reborn", 1), Fluid.of("dreamtinker:molten_echo_shard", 1)]).temperature(1);
     tconstruct.alloy(Fluid.of("dreamtinker:molten_evil", 1), [Fluid.of("wqjy:reborn", 1), Fluid.of("sakuratinker:molten_nefarious", 1)]).temperature(1);
     tconstruct.alloy(Fluid.of("sakuratinker:molten_etherium", 1), [Fluid.of("wqjy:reborn", 1), Fluid.of("dreamtinker:unstable_liquid_aether", 1)]).temperature(1);

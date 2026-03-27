@@ -18,8 +18,7 @@
       "minecraft:flame": true,
       "minecraft:small_flame": false,
       "minecraft:smoke": false,
-      "minecraft:dragon_breath": false,
-      "tconstruct:axe_attack": false
+      "minecraft:dragon_breath": false
     }
   },
   "detail_settings": {

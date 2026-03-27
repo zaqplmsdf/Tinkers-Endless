@@ -502,7 +502,6 @@
 		}
 	]
 	order_index: 9
-	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -1355,5 +1354,5 @@
 		"由于不太清楚现在的版本你们都用什么，因此只能是画饼了"
 		"将会不断完善"
 	]
-	title: "◇&7实用强化目录（WIP）"
+	title: "·&7实用强化目录（WIP）"
 }

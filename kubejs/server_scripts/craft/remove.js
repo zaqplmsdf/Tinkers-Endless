@@ -31,9 +31,7 @@ ServerEvents.recipes(event => {
         {id: 'sakuratinker:materials/etherium/etherium_melting'}, 
         {id: 'ticex:smeltery/casting/seared/seared_rf_furnace'}, 
         {id: 'ticex:smeltery/casting/scorched/scorched_rf_furnace'},
-        {id: 'tinkerscalibration:tools/materials/melting/dragonbreath/bottle'},
-        {id: 'avaritia:mek_creative_bin'},
-        {id: 'momotinker:tools/modifiers/abilities/gainsalone'}
+        {id: 'tinkerscalibration:tools/materials/melting/dragonbreath/bottle'}
     ])
 });
 

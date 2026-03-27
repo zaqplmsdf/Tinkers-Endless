@@ -1,0 +1,8 @@
+{
+  "type": "tconstruct:tool_building",
+  "extra_requirements": [
+    { "item": "mushroom_daydream:legend_paper" }
+  ],
+  "result": "tconstruct:minotaur_axe",
+  "result_count": 1
+}

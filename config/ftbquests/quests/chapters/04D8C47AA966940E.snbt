@@ -218,13 +218,10 @@
 		}
 	]
 	order_index: 1
-	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["043C8087D2FE08E1"]
 			description: [""]
-			hide_until_deps_complete: true
 			id: "22287760172917CB"
 			subtitle: "&6以快速进入下一挖掘等级为主"
 			tasks: [{
@@ -1098,7 +1095,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["043C8087D2FE08E1"]
 			description: [
 				"战斗女仆套装源自mod【额外植物学】"
 				""
@@ -1106,7 +1102,6 @@
 				""
 				"值得注意的是，该匠魂护甲种类仅拥有&e镶板&r和&e女仆核心&r两个部件，而女仆核心只有七种材料"
 			]
-			hide_until_deps_complete: true
 			id: "33EC6FE943741BD4"
 			tasks: [{
 				id: "12A14AA5CC441F4D"
@@ -2242,13 +2237,11 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["043C8087D2FE08E1"]
 			description: [
 				"在&e部件制作台&r制作"
 				""
 				"&1拥有极高数值及其下位材料的词条&r"
 			]
-			hide_until_deps_complete: true
 			id: "6EB6E0142B3C73AA"
 			shape: "octagon"
 			size: 1.5d
@@ -2362,13 +2355,11 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["043C8087D2FE08E1"]
 			description: [
 				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
 				""
 				"当物品在背包内但长时间未完成目标时可以点一次"
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:observer"
 			id: "4B0A304EB6CE8171"
 			rewards: [{
@@ -2388,5 +2379,5 @@
 			y: 6.0d
 		}
 	]
-	title: "◇&d材料推荐与铸模"
+	title: "·&d材料推荐与铸模"
 }

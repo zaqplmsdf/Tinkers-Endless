@@ -6,14 +6,10 @@
 	icon: "create:cogwheel"
 	id: "4A24577650C5F8A2"
 	order_index: 13
-	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["4C289E30C45042AE"]
-			dependency_requirement: "one_started"
 			id: "008844694B4A95B2"
-			min_required_dependencies: 1
 			subtitle: "基础中的基础"
 			tasks: [{
 				id: "0C738503BF2EE0C9"
@@ -24,9 +20,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["002A8323600F86EC"]
 			description: ["按W开始思索"]
-			hide_until_deps_complete: true
 			icon: "create:brass_hand"
 			id: "1E24242C6739483F"
 			subtitle: "俺寻思之力"
@@ -39,7 +33,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["1E24242C6739483F"]
 			id: "28BD529B20A055FB"
 			subtitle: "&m不如女仆动力"
 			tasks: [{
@@ -51,7 +44,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["28BD529B20A055FB"]
 			description: [
 				"当玩家对其右击时，会逆时针以 &932 RPM&r 的速度旋转 10 ticks，并消耗 转速 * 0.0099 点饥饿值。"
 				""
@@ -72,12 +64,6 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["28BD529B20A055FB"]
-			description: [
-				"前期便宜好用的应力来源，可以堆叠（水车仙人.jpg）"
-				"下图是两种常见的水车拜访方式"
-				"{image:ftbquests:textures/picture/013.png width:100 height:100 align:center}"
-			]
 			id: "0DF41848BCA20E14"
 			tasks: [
 				{
@@ -91,19 +77,10 @@
 					type: "item"
 				}
 			]
-			title: "水车和大型水车"
 			x: -3.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["28BD529B20A055FB"]
-			description: [
-				"机械动力里后期应力来源，在这个包里推荐购买创造马达作为应力来源，前中期风车和水车产出的应力足够了"
-				"其中熔岩，水，机械臂需要重新放置，置物台上需要放置铁桶具体看视频内容"
-				"这是来源链接："
-				"https://www.bilibili.com/video/BV1qGxjeFExT/?spm_id_from=333.337.search-card.all.click"
-				"{image:ftbquests:textures/picture/016.png width:100 height:100 align:center}"
-			]
 			id: "334F1816A80C64B5"
 			tasks: [
 				{
@@ -121,30 +98,16 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["28BD529B20A055FB"]
-			description: [
-				"风帆与风车轴承，通过风力来产生应力，风车仙人的来源"
-				"{image:ftbquests:textures/picture/017.png width:100 height:100 align:center}"
-			]
 			id: "55972034DE38901C"
-			tasks: [
-				{
-					id: "49A80C80EF4C3656"
-					item: "create:windmill_bearing"
-					type: "item"
-				}
-				{
-					id: "366EB4D79D1120FE"
-					item: "create:white_sail"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "49A80C80EF4C3656"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
 			x: -3.0d
 			y: 0.5d
 		}
 		{
-			dependencies: ["28BD529B20A055FB"]
-			description: ["无限的应力，可以在商店购买"]
 			id: "5122ED4F81BD0DB2"
 			tasks: [{
 				id: "543E17B105BF3D90"
@@ -155,20 +118,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["28BD529B20A055FB"]
-			description: [
-				"交流发电机：使用动能来发电的一种机器，与电动马达作用相反，有一个应力输入面和能量输出面。"
-				""
-				"需要 32 RPM 及以上的转速才能工作，有 5 kFE 的能量缓存空间。"
-				""
-				"应力消耗：64 su/RPM；"
-				"蓄电池：存储 FE 能量的设备，每个方块可以存储 2 MFE 的电能，可以单独使用，也可以搭建成为多方块蓄电池。"
-				"电动马达：使用电力来产生动能的一种机器，与交流发电机作用相反，有一个应力输出面和能量输入面，可以在能量输入面调整转速先调好再接能量。"
-				""
-				"转速范围与调速方式均与创造马达相同，有 5 kFE 的能量缓存空间。"
-				""
-				"产出应力：64 su/RPM；"
-			]
 			id: "78552E964CE9A2AF"
 			tasks: [
 				{
@@ -191,7 +140,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["1E24242C6739483F"]
 			id: "4C289E30C45042AE"
 			tasks: [{
 				id: "13C9579344D5A40E"
@@ -202,7 +150,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["1E24242C6739483F"]
 			id: "5B4C14512C0FDD29"
 			tasks: [{
 				id: "77BFD922C1D01DAE"
@@ -213,7 +160,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["1E24242C6739483F"]
 			id: "0E44D31FC94EA5C2"
 			tasks: [{
 				id: "1F810937B82D7D30"
@@ -225,13 +171,11 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["002A8323600F86EC"]
 			description: [
 				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
 				""
 				"当物品在背包内但长时间未完成目标时可以点一次"
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:observer"
 			id: "7269E53C9289BB75"
 			rewards: [{
@@ -250,596 +194,7 @@
 			x: 0.5d
 			y: 0.5d
 		}
-		{
-			dependencies: ["008844694B4A95B2"]
-			dependency_requirement: "one_completed"
-			id: "7D35E81DFCB565CC"
-			tasks: [{
-				id: "256A8C7DF4CC097E"
-				item: "create:shaft"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["7D35E81DFCB565CC"]
-			description: [
-				"它可以被流体的流动推动，以此旋转产生应力。"
-				""
-				"水车可以水平或垂直放置，水车某一面只要存在任意流动的流体，且所有驱动流体的流动方向相同，即可产生应力。"
-				""
-				"当水车被驱动时，会固定产生 256 su 的应力，不会因存在多个同向驱动液体而增加。"
-				""
-				"当有两股流向相反的流体接触水车时，水车不会转动。"
-				""
-				"岩浆块或灵魂沙产生的气泡柱可以用来驱动水车，不过它们不能增加生产的应力量。"
-			]
-			id: "11238E9875250EA1"
-			tasks: [{
-				id: "3416F3CC8A1A8355"
-				item: "create:water_wheel"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["11238E9875250EA1"]
-			description: [
-				"利用水流旋转产生动力，与水车相比速度减半但应力加倍。"
-				""
-				"与水车相同，水流覆盖的面数对转速和应力没有任何影响。"
-			]
-			id: "2BE1357BFF9B1A20"
-			tasks: [{
-				id: "3DE5F29D30560E5C"
-				item: "create:large_water_wheel"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["4086F861369145F1"]
-			description: [
-				"一种可以模拟玩家操作的作业元件。"
-				"应力消耗：4 su/RPM"
-				"（神的开始）"
-			]
-			id: "3C8BC9A4E6B85332"
-			tasks: [
-				{
-					id: "2581D7CBDCF331E6"
-					item: "create:deployer"
-					type: "item"
-				}
-				{
-					id: "514DDED225B9339F"
-					item: "create:depot"
-					type: "item"
-				}
-			]
-			x: 0.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["4086F861369145F1"]
-			description: [
-				"可以用于伤害实体，砍伐树木，物品加工"
-				"应力消耗：4su/RPM"
-			]
-			id: "487421E006AF6B36"
-			tasks: [{
-				id: "65828AF6D7234A8C"
-				item: "create:mechanical_saw"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["7D35E81DFCB565CC"]
-			id: "1733C747B0F3AF89"
-			tasks: [{
-				id: "7BB9F18912E3C1D8"
-				item: "create:hand_crank"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["33FF5829E936FC39"]
-			dependency_requirement: "all_started"
-			id: "35D56F8202242C29"
-			tasks: [{
-				id: "39DC2974A31AD4F6"
-				item: "create:iron_sheet"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["33FF5829E936FC39"]
-			id: "3C16C14BD52B55BD"
-			tasks: [{
-				id: "05DC311A616CDAC4"
-				item: "create:golden_sheet"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["33FF5829E936FC39"]
-			id: "75215031C44ED3EE"
-			tasks: [{
-				id: "5B44D1CC5653CA60"
-				item: "create:copper_sheet"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["33FF5829E936FC39"]
-			id: "2B816B03F68E9305"
-			tasks: [{
-				id: "7C8F5A430FF20770"
-				item: "create:brass_sheet"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["4086F861369145F1"]
-			description: [
-				"推动实体，批量加工"
-				"鼓风机产生的气流可以用来推动实体（包括生物、物品等）。"
-				""
-				"当为其提供顺时针旋转力时，会使其产生吹力；逆时针旋转力则会使其产生吸力。风力的大小取决于转速的大小。"
-				""
-				"暴露在气流中的实体，跳跃高度会略微减小，因此被推动的玩家无法跳上一格高的方块。"
-				""
-				"在气流中按住 潜行键，可以减小玩家受到风力的影响，气流不会影响在创造模式下飞行的玩家。"
-				""
-				"将 分散网 安装在鼓风机前，可以将鼓风机的气流向四面八方分散，吸引或排斥所有方向上的实体。"
-				""
-				"方块会阻挡气流。无碰撞体积或带有 fan_transparent 标签的方块（如铁栏杆）除外。"
-				"应力 消耗：2 su/RPM"
-			]
-			id: "4A20AB3D52EA1D97"
-			tasks: [{
-				id: "779EA077F44D966B"
-				item: "create:encased_fan"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["008844694B4A95B2"]
-			description: ["用安山合金对去皮的木头右键"]
-			id: "4086F861369145F1"
-			tasks: [{
-				id: "70960E196285B261"
-				item: "create:andesite_casing"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["002A8323600F86EC"]
-			description: [
-				"蓝图桌可以制作已存储的蓝图，该整合包已经添加了部分蓝图，可以自行使用"
-				"蓝图大炮，可以通过添加火药和蓝图所需的材料来放置蓝图内的物品"
-			]
-			hide_until_deps_complete: true
-			id: "2F7C4347B17EE489"
-			tasks: [
-				{
-					id: "3760DCE15B91FBF4"
-					item: "create:schematic_table"
-					type: "item"
-				}
-				{
-					id: "499262CD9FD4126B"
-					item: "create:schematicannon"
-					type: "item"
-				}
-			]
-			x: -4.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["2F7C4347B17EE489"]
-			description: [
-				"机械动力里后期应力来源，在这个包里推荐购买创造马达作为应力来源，前中期风车和水车产出的应力足够了"
-				"其中熔岩，水，机械臂需要重新放置，置物台上需要放置铁桶具体看视频内容"
-				"这是来源链接："
-				"https://www.bilibili.com/video/BV1qGxjeFExT/?spm_id_from=333.337.search-card.all.click"
-				"{image:ftbquests:textures/picture/011.png width:100 height:100 align:center}"
-			]
-			id: "7811439E463878E1"
-			rewards: [{
-				id: "43DC6452086370CB"
-				item: {
-					Count: 1
-					id: "create:schematic"
-					tag: {
-						Anchor: {
-							X: 0
-							Y: 0
-							Z: 0
-						}
-						Bounds: [
-							6
-							5
-							6
-						]
-						Deployed: 0b
-						File: "6×5×5【炼药锅+任意燃料】14W锅炉引擎无消耗版-怖冥萌物ACR.nbt"
-						Mirror: "NONE"
-						Owner: "The_X_One"
-						Rotation: "NONE"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "076EC9DF7887E96E"
-				type: "checkmark"
-			}]
-			title: "14万应力锅炉"
-			x: -4.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["2F7C4347B17EE489"]
-			id: "6C4E345001BAA235"
-			rewards: [{
-				id: "6AB5D405D298CCEF"
-				item: {
-					Count: 1
-					id: "create:schematic"
-					tag: {
-						Anchor: {
-							X: -49
-							Y: -60
-							Z: -36
-						}
-						Bounds: [
-							3
-							2
-							17
-						]
-						Deployed: 1b
-						File: "树场.nbt"
-						Mirror: "NONE"
-						Owner: "The_X_One"
-						Rotation: "NONE"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "03448A912D3B3685"
-				type: "checkmark"
-			}]
-			title: "树场"
-			x: -5.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["2F7C4347B17EE489"]
-			description: [
-				"9600铁锭每小时，前期可以当作小刷emc机，需要自行接入圆石输入和动力输入具体参考视频"
-				"：https://www.creativemechanicserver.com/detail/458"
-				"https://www.bilibili.com/video/BV16XdHYGEXn/?spm_id_from=333.337.search-card.all.click"
-				"（and符号）vd_source=6d33e64517f5f02a1404fdacd41006b7"
-				"{image:ftbquests:textures/picture/014.png width:100 height:100 align:center}"
-			]
-			id: "629BB569DCEE5571"
-			rewards: [{
-				id: "7EFF91E785E19B82"
-				item: {
-					Count: 1
-					id: "create:schematic"
-					tag: {
-						Anchor: {
-							X: -72
-							Y: -60
-							Z: -4
-						}
-						Bounds: [
-							5
-							5
-							5
-						]
-						Deployed: 1b
-						File: "[1.21.1]5x5x5刷铁机-透明探索版-涵涵子.nbt"
-						Mirror: "NONE"
-						Owner: "The_X_One"
-						Rotation: "NONE"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "0B675D57F028FB93"
-				type: "checkmark"
-			}]
-			title: "刷铁机"
-			x: -3.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["6A0E8ED423F79E09"]
-			id: "4E3DB4E8B779D66D"
-			tasks: [{
-				id: "30FD978C66D21DDA"
-				item: "create:brass_ingot"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["4E3DB4E8B779D66D"]
-			id: "6638AB4268ACA958"
-			subtitle: "用黄铜锭对去皮的木头右键"
-			tasks: [{
-				id: "5954ED6CB87B0BA8"
-				item: "create:brass_casing"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -8.0d
-		}
-		{
-			dependencies: ["35D56F8202242C29"]
-			description: ["好用程度远超原版漏斗"]
-			id: "0FD18A37E98DFDF9"
-			subtitle: "溜槽是一种容器，拥有 64 个物品 / 1物品栏的存储空间，其中已有物品时无法再继续存放物品。溜槽自身单次最多只能吸收 16 个物品，但可以被动输入超过 16 个物品（如：使用传送带/智能溜槽向其中传入 64 个物品），玩家可以右键溜槽将物品取出。也可利用各物流手段于溜槽交互。无鼓风机的情况下溜槽默认将物品向下运输，如果底部有向上的鼓风机则可以将物品向上运输。也可以配合其他 Mod 的拾取功能，比如真空箱子/有磁铁升级的精妙背包等，来实现鼓风机的自动化。"
-			tasks: [{
-				id: "3843EF5FA25CCBF0"
-				item: "create:chute"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -8.0d
-		}
-		{
-			dependencies: ["6638AB4268ACA958"]
-			description: ["更对情况下，充当高速漏斗"]
-			id: "3F8EDB444E716A9A"
-			subtitle: "黄铜漏斗是常用的物流方块，其使用方式非常灵活，功能性比安山漏斗更好。"
-			tasks: [{
-				id: "39C996995D43FF70"
-				item: "create:brass_funnel"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -9.0d
-		}
-		{
-			dependencies: ["0FD18A37E98DFDF9"]
-			id: "15EF20ABCC5C0304"
-			subtitle: "智能溜槽带有一个过滤器槽位，可以指定其只流通特定的物品。单次通过的物品数量最多为 64 个。智能溜槽正上方与容器直接相连时，准星对准过滤器槽位长按右键便可以设定每次通过的物品数量。"
-			tasks: [{
-				id: "3D5A900C65583587"
-				item: "create:smart_chute"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -9.0d
-		}
-		{
-			dependencies: ["6638AB4268ACA958"]
-			id: "3944B1196C19F388"
-			subtitle: "存储 FE 能量的设备，每个方块可以存储 2 MFE 的电能，可以单独使用，也可以搭建成为多方块蓄电池。"
-			tasks: [{
-				id: "7F3DE77567AD4471"
-				item: "createaddition:modular_accumulator"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -9.0d
-		}
-		{
-			dependencies: ["6638AB4268ACA958"]
-			id: "3F848368579130B8"
-			subtitle: "动力合成器可以执行“自动合成”以及“动力合成”配方。“自动合成”配方是自动适配原版工作台中进行的所有配方，而“动力合成”配方是机械动力添加的特殊配方。"
-			tasks: [{
-				id: "62C48D06E424691E"
-				item: "create:mechanical_crafter"
-				type: "item"
-			}]
-			x: -3.5d
-			y: -9.0d
-		}
-		{
-			dependencies: ["6638AB4268ACA958"]
-			id: "1032F658EF5195AC"
-			subtitle: "使用转速控制器时，需要在其上方放置一个大齿轮。大齿轮和转速控制器的传动轴均可用于动力输入或输出。对转速控制器上的转速界面按住右键以调节输出位置的转速与旋转方向。为转速控制器下方传动轴接入动力时，转速控制器控制的是上方大齿轮的转速与方向；反过来如果先为大齿轮接入动力，则转速控制器控制的是传动轴的转速与方向。可以将其理解为一个全自动变速器，因此在设定较高的输出转速时，需要注意总应力是否足够，以免发生过载。"
-			tasks: [{
-				id: "4CA1AE8858F5E0BF"
-				item: "create:rotation_speed_controller"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -9.0d
-		}
-		{
-			dependencies: ["6638AB4268ACA958"]
-			id: "2BC4ED6C81DD7E28"
-			subtitle: "设置输出目标放置显示链接器前，需要设置一个输出目标以显示内容。直接对目标右击以设置。"
-			tasks: [{
-				id: "01BF7F08EABEE875"
-				item: "create:display_link"
-				type: "item"
-			}]
-			x: -5.5d
-			y: -9.0d
-		}
-		{
-			dependencies: ["6638AB4268ACA958"]
-			description: ["应力消耗：4 su/RPM"]
-			id: "1916E36F4B3CC4FB"
-			subtitle: "可以搭建钟，旋转第一个连接的结构作为时针，第二个作为分针。链接方式为在转盘面放置两个不相连的结构。仅放置一个结构也是可以的，只会组装第一个结构（时针）。空手右键即可装配/拆卸时钟结构，但只有从底面通入应力时才会旋转。时针和分针会自动按照游戏内时间旋转到对应的位置，即一个游戏日时针旋转2圈（12小时制）。分针同理。（由于游戏内时间较快，分针看起来像秒针一样）时针和分针不是连续变化，也就是说，指针并不是像动力轴承结构一样按照某种固定的速度旋转，而是不断地转动到下一个位置（12等分圆周）。"
-			tasks: [{
-				id: "4F5524C7701A62B6"
-				item: "create:clockwork_bearing"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -9.0d
-		}
-		{
-			dependencies: ["6638AB4268ACA958"]
-			id: "21F2E49E0B2124BF"
-			subtitle: "移动物品动力臂是机械动力模组内最灵活的物流方式，可以在工作范围内的任意两点间移动物品。动力臂需要用齿轮驱动进行供能，转速越快工作速度越快，其工作范围大约是半径为 5 的球形。（立体空间）。动力臂一次最多可以移动一组物品。放置使用动力臂需要设定输入与输出目标，动力臂会在输入端拿取物品，并在输出端放下物品，方法如下：手持动力臂，右击要设定的位置，右击一次设为输入端（蓝色），右击两次设为输出端（黄色），可设置多个输入端或输出端。设定完毕后放置动力臂即可，在动力臂工作范围外的目标会被自动移除。在设定过程中左键点击可以取消设定。需要注意的是，动力臂只能设定“开放式存储空间”为目标，例如传送带、置物台、溜槽等，原版的漏斗和箱子等容器不能被设定为目标。"
-			tasks: [{
-				id: "554779A7EE985A04"
-				item: "create:mechanical_arm"
-				type: "item"
-			}]
-			x: -7.5d
-			y: -9.0d
-		}
-		{
-			dependencies: ["6638AB4268ACA958"]
-			id: "1120C1E85AE1D7F5"
-			subtitle: "检测物品，检测特定物品，检测方块，检测漏斗"
-			tasks: [{
-				id: "34EF57273A3402FF"
-				item: "create:content_observer"
-				type: "item"
-			}]
-			x: -8.5d
-			y: -9.0d
-		}
-		{
-			dependencies: ["35D56F8202242C29"]
-			description: ["可以和tom存储联动"]
-			id: "63ACBF1881FD9336"
-			subtitle: "单个物品保险库最多可以储存 20 组物品。多个物品保险库的结构总容量为 (保险库数量 * 20) 如81个保险库结构为 81 *20 = 1620 组物品。当物品保险库的底部被 2*2 或 3*3 放置时会自动合并成一个结构。物品保险库结构的长度上限是宽度的 3 倍，超出上限后会被当作一个新的物品保险库结构。"
-			tasks: [{
-				id: "13781FE98527F691"
-				item: "create:item_vault"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -8.0d
-		}
-		{
-			dependencies: ["2F7C4347B17EE489"]
-			description: [
-				"伪16gt鼓风机组，前期烧东西飞快，便宜又好用（有4种类别来烧）"
-				"https://www.creativemechanicserver.com/detail/307/"
-				"https://www.bilibili.com/video/BV1NfF3eAE6g/?spm_id_from=333.337.search-card.all.click（and）vd_source=6d33e64517f5f02a1404fdacd41006b7"
-				"{image:ftbquests:textures/picture/015.png width:100 height:100 align:center}"
-			]
-			id: "686F5696BF2A2BC6"
-			rewards: [{
-				id: "7DB457C2AF6C0CDE"
-				item: {
-					Count: 1
-					id: "create:schematic"
-					tag: {
-						Anchor: {
-							X: -71
-							Y: -60
-							Z: -4
-						}
-						Bounds: [
-							7
-							5
-							5
-						]
-						Deployed: 1b
-						File: "四倍鼓风机组.nbt"
-						Mirror: "NONE"
-						Owner: "The_X_One"
-						Rotation: "NONE"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "18D1D5EB0B30DDEF"
-				title: "鼓风机组"
-				type: "checkmark"
-			}]
-			x: -2.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["4086F861369145F1"]
-			description: [
-				"动力搅拌器可以执行“混合搅拌”“自动搅拌”和“自动酿造”类型的配方。"
-				""
-				"    “混合搅拌”为机械动力专为动力搅拌器设计的配方。"
-				""
-				"    “自动搅拌”为自动适配的工作台无序合成配方（即在工作台中进行，对物品摆放位置没有要求的配方）。"
-				""
-				"    “自动酿造”为自动适配的 酿造台 配方，并且可以用 1 个原料制作出 4 瓶药水（使用酿造台为 3 瓶）。所有自动酿造配方都需要烈焰人燃烧室的加热。"
-				"动力搅拌器需要配合 工作盆 加工物品。将动力搅拌器放置于工作盆上方第二格，当工作盆内有有效配方的物品时开始加工。"
-				""
-				"部分配方需要 烈焰人燃烧室 的加热，执行此类配方时需要将烈焰人燃烧室放置在工作盆下方并提供燃料。"
-				"应力消耗：4 su/RPM"
-			]
-			id: "6A0E8ED423F79E09"
-			tasks: [
-				{
-					id: "3C87811942BD4132"
-					item: "create:mechanical_mixer"
-					type: "item"
-				}
-				{
-					id: "7998A57321F1CBC2"
-					item: "create:basin"
-					type: "item"
-				}
-			]
-			x: -2.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["4086F861369145F1"]
-			description: [
-				"铁板，金板制作者，通过应力可以制作大量物品，具体看jei"
-				"可以压缩物品，塑性，冲压"
-				"通过使用动力冲压机加工掉落物或 传送带/置物台 上的物品的配方。"
-				"通过使用动力冲压机来加工 工作盆 内的物品的配方。"
-				"通过使用动力冲压机来加工 工作盆 内的物品的配方。"
-				"用于执行 4*4 或 9*9 的单一材料合成配方。"
-				"可用于将多种原料加工为成品。主要用于将金属锭加工为金属板。应力 消耗：8 su/RPM"
-			]
-			id: "33FF5829E936FC39"
-			tasks: [
-				{
-					id: "5438E0ABDB261CFB"
-					item: "create:mechanical_press"
-					type: "item"
-				}
-				{
-					id: "3AFB0BE06B4D45CF"
-					item: "create:basin"
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: -6.0d
-		}
 	]
-	subtitle: [
-		"按W开始思索"
-		"&b感谢群友“. ”的提供"
-	]
+	subtitle: ["按W开始思索"]
 	title: "·&6机械动力(WIP)"
 }
