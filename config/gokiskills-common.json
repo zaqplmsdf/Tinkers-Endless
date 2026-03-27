@@ -6,6 +6,60 @@
     "maxLevel": 1
   },
   "skills": {
+    "gokiskills:jump_boost": {
+      "enabled": true,
+      "costMultiplier": 1.0,
+      "downgradeReturnFactor": 0.8,
+      "bonusMultiplier": 1.0,
+      "minLevel": 0,
+      "defaultLevel": 0,
+      "maxLevel": 25
+    },
+    "gokiskills:digging": {
+      "enabled": true,
+      "costMultiplier": 1.0,
+      "downgradeReturnFactor": 0.8,
+      "bonusMultiplier": 1.0,
+      "minLevel": 0,
+      "defaultLevel": 0,
+      "maxLevel": 25
+    },
+    "gokiskills:fencing": {
+      "enabled": true,
+      "costMultiplier": 1.0,
+      "downgradeReturnFactor": 0.8,
+      "bonusMultiplier": 1.0,
+      "minLevel": 0,
+      "defaultLevel": 0,
+      "maxLevel": 25
+    },
+    "gokiskills:harvesting": {
+      "enabled": true,
+      "costMultiplier": 1.0,
+      "downgradeReturnFactor": 0.8,
+      "bonusMultiplier": 1.0,
+      "minLevel": 0,
+      "defaultLevel": 0,
+      "maxLevel": 25
+    },
+    "gokiskills:blast_protection": {
+      "enabled": true,
+      "costMultiplier": 1.0,
+      "downgradeReturnFactor": 0.8,
+      "bonusMultiplier": 1.0,
+      "minLevel": 0,
+      "defaultLevel": 0,
+      "maxLevel": 25
+    },
+    "gokiskills:boxing": {
+      "enabled": true,
+      "costMultiplier": 1.0,
+      "downgradeReturnFactor": 0.8,
+      "bonusMultiplier": 1.0,
+      "minLevel": 0,
+      "defaultLevel": 0,
+      "maxLevel": 25
+    },
     "gokiskills:shearing": {
       "enabled": true,
       "costMultiplier": 1.0,
@@ -124,60 +178,6 @@
       "maxLevel": 25
     },
     "gokiskills:leaper": {
-      "enabled": true,
-      "costMultiplier": 1.0,
-      "downgradeReturnFactor": 0.8,
-      "bonusMultiplier": 1.0,
-      "minLevel": 0,
-      "defaultLevel": 0,
-      "maxLevel": 25
-    },
-    "gokiskills:jump_boost": {
-      "enabled": true,
-      "costMultiplier": 1.0,
-      "downgradeReturnFactor": 0.8,
-      "bonusMultiplier": 1.0,
-      "minLevel": 0,
-      "defaultLevel": 0,
-      "maxLevel": 25
-    },
-    "gokiskills:digging": {
-      "enabled": true,
-      "costMultiplier": 1.0,
-      "downgradeReturnFactor": 0.8,
-      "bonusMultiplier": 1.0,
-      "minLevel": 0,
-      "defaultLevel": 0,
-      "maxLevel": 25
-    },
-    "gokiskills:fencing": {
-      "enabled": true,
-      "costMultiplier": 1.0,
-      "downgradeReturnFactor": 0.8,
-      "bonusMultiplier": 1.0,
-      "minLevel": 0,
-      "defaultLevel": 0,
-      "maxLevel": 25
-    },
-    "gokiskills:harvesting": {
-      "enabled": true,
-      "costMultiplier": 1.0,
-      "downgradeReturnFactor": 0.8,
-      "bonusMultiplier": 1.0,
-      "minLevel": 0,
-      "defaultLevel": 0,
-      "maxLevel": 25
-    },
-    "gokiskills:blast_protection": {
-      "enabled": true,
-      "costMultiplier": 1.0,
-      "downgradeReturnFactor": 0.8,
-      "bonusMultiplier": 1.0,
-      "minLevel": 0,
-      "defaultLevel": 0,
-      "maxLevel": 25
-    },
-    "gokiskills:boxing": {
       "enabled": true,
       "costMultiplier": 1.0,
       "downgradeReturnFactor": 0.8,

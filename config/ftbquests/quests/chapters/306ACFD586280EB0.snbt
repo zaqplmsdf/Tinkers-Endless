@@ -1,4 +1,5 @@
 {
+	autofocus_id: "66AB37FDB8E82AF8"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "306ACFD586280EB0"
@@ -362,10 +363,9 @@
 			]
 			id: "48EA7EA221033477"
 			rewards: [{
-				auto: "enabled"
-				id: "15ECC134BBE87A54"
-				type: "xp"
-				xp: 20
+				id: "7A7DC012C5E2B16E"
+				item: "waystones:waystone"
+				type: "item"
 			}]
 			tasks: [{
 				id: "46A7CA19454DB1E6"
@@ -549,7 +549,7 @@
 				""
 				"经群友测试，&e魔力钢&r同样存在该问题"
 				""
-				"（已有三位群友中招，但作者并未出现该问题）"
+				"（已有4位群友中招，但作者并未出现该问题）"
 				""
 				""
 				"{@pagebreak}"
@@ -635,6 +635,25 @@
 			description: ["群号：854637057"]
 			icon: "wqjy:wqjy_logo"
 			id: "1ED94B629EC8E8CA"
+			rewards: [{
+				id: "43B30195B29C0FD1"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "传送门方块"
+						display: {
+							Lore: ["{\"text\":\"并没有什么实际作用，只是用来跳转网页\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"]
+							Name: "[{\"text\":\"工匠手稿\",\"color\":\"gold\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+						}
+						generation: 3
+						pages: ["{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"yellow\",\"text\":\"相关网址：\\n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.mcmod.cn/modpack/1257.html\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"单击跳转\"}},\"text\":\"百科站整合包主页\\n\\n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://bbsmc.net/modpack/tinkers-endless\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"单击跳转\"}},\"text\":\"BBSMC整合包主页\\n\\n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://qm.qq.com/q/pEchddxbAO\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"单击跳转\"}},\"text\":\"官方讨论群\"}],\"text\":\"声明：本整合包完全免费，如果你花钱了，那么恭喜你被骗了\\n\"}"]
+						resolved: 1b
+						title: "工匠书稿"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "66A92A81D93B0895"
 				title: "讨论群"
@@ -644,5 +663,6 @@
 			y: -3.5d
 		}
 	]
-	title: "·&f说明与命令"
+	subtitle: ["&c必看！！"]
+	title: "◇&f说明与命令"
 }

@@ -26,6 +26,7 @@ StartupEvents.registry('item', event => {
   .displayName('§d成就奖章')
   .texture('wqjy:item/chengjiu')
   .tooltip('§5成就奖励')
+  .tooltip('§5可用于兑换饰品槽')
 
   event.create('xiushichi')
   .displayName('§e空白修饰词')

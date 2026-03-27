@@ -3,17 +3,17 @@ neverShow = false
 ShowFrequency = "perlaunchmanager"
 
 [Title]
-  en_us = "Tinkers Endless modpack DLC content"
-  zh_cn = "无穷匠艺整合包DLC内容"
+en_us = "Tinkers Endless modpack DLC content"
+zh_cn = "无穷匠艺整合包DLC内容"
 
 [Subhead]
-  enabled = "true"
-  en_us = "Made by X_X"
-  zh_cn = "by：某不知名下界传送门"
+enabled = "true"
+en_us = "Made by X_X"
+zh_cn = "by：某不知名下界传送门"
 
 [Contents]
-  en_us = ""
-  zh_cn = """
+en_us = ""
+zh_cn = """
 官方讨论群：[854637057](https://qm.qq.com/q/pEchddxbAO)，可以直接点击跳转链接
 §a
 也可通过主页面按键或游戏内任务赠送的工匠手稿跳转

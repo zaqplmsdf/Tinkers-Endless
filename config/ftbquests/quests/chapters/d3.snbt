@@ -1,0 +1,1091 @@
+{
+	autofocus_id: "1CEB87EDFE2F4A2F"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "d3"
+	group: "71E4EFF8904A559D"
+	icon: "mekanism:dictionary"
+	id: "7ADB89026FEE64C4"
+	images: [
+		{
+			height: 15.0d
+			image: "avaritia:textures/gui/jei/tables/nether_jei.png"
+			order: -1
+			rotation: 0.0d
+			width: 15.0d
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_11"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.500000000000014d
+			y: -1.8392857142857224d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.321428571428584d
+			y: -0.9107142857142918d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_17"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.321428571428584d
+			y: 0.8749999999999929d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_17"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.321428571428584d
+			y: -2.7321428571428683d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.500000000000014d
+			y: 0.8749999999999929d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.500000000000014d
+			y: -2.7321428571428648d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_4"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.142857142857146d
+			y: -0.9821428571428541d
+		}
+		{
+			height: 15.0d
+			image: "avaritia:textures/gui/jei/tables/nether_jei.png"
+			order: -1
+			rotation: 0.0d
+			width: 15.0d
+			x: 10.5d
+			y: 8.0d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:block/end_stone_bricks"
+			rotation: 0.0d
+			width: 0.8d
+			x: 7.464285714285715d
+			y: 5.874999999999993d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 0.8d
+			x: 5.607142857142861d
+			y: 4.053571428571409d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:block/end_stone_bricks"
+			rotation: 0.0d
+			width: 0.8d
+			x: 6.535714285714285d
+			y: 5.874999999999993d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:block/end_stone_bricks"
+			rotation: 0.0d
+			width: 0.8d
+			x: 5.642857142857139d
+			y: 5.839285714285701d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:block/end_stone_bricks"
+			rotation: 0.0d
+			width: 0.8d
+			x: 4.75d
+			y: 5.839285714285701d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:block/end_stone_bricks"
+			rotation: 0.0d
+			width: 0.8d
+			x: 8.357142857142854d
+			y: 5.839285714285701d
+		}
+		{
+			height: 0.9d
+			image: "minecraft:block/end_stone_bricks"
+			rotation: 0.0d
+			width: 0.4d
+			x: 8.357142857142854d
+			y: 4.98214285714284d
+		}
+		{
+			height: 0.9d
+			image: "minecraft:block/end_stone_bricks"
+			rotation: 0.0d
+			width: 0.4d
+			x: 4.75d
+			y: 4.946428571428555d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 0.8d
+			x: 7.428571428571431d
+			y: 4.053571428571409d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 0.8d
+			x: 5.642857142857146d
+			y: 4.98214285714284d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 0.8d
+			x: 7.464285714285715d
+			y: 4.98214285714284d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 0.8d
+			x: 6.571428571428569d
+			y: 4.946428571428555d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:item/end_crystal"
+			rotation: 0.0d
+			width: 0.8d
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:block/emerald_block"
+			rotation: 0.0d
+			width: 0.8d
+			x: 8.32142857142857d
+			y: 4.017857142857125d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:block/emerald_block"
+			rotation: 0.0d
+			width: 0.8d
+			x: 4.714285714285715d
+			y: 4.053571428571409d
+		}
+		{
+			height: 1.0d
+			image: "avaritia:item/resource/crystal/crystal_matrix_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.357142857142854d
+			y: 3.089285714285701d
+		}
+		{
+			height: 1.0d
+			image: "avaritia:item/resource/crystal/crystal_matrix_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.75d
+			y: 3.1607142857142705d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/ender_eye"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.571428571428569d
+			y: 3.196428571428555d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/ender_eye"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.392857142857139d
+			y: 3.1607142857142705d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.142857142857139d
+			y: 4.017857142857125d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:block/sculk_shrieker_side"
+			rotation: 0.0d
+			width: 0.8d
+			x: 6.535714285714285d
+			y: 3.124999999999986d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_17"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.75d
+			y: -2.732142857142854d
+		}
+	]
+	order_index: 4
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["76CC1934C282AAD7"]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "1CEB87EDFE2F4A2F"
+			rewards: [{
+				id: "5B35B94336333A61"
+				item: "mekanism:osmium_ore"
+				type: "item"
+			}]
+			subtitle: "晋升事宜"
+			tasks: [{
+				id: "7B7C7BAE4BD7917F"
+				title: "主要流程"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1CEB87EDFE2F4A2F"]
+			description: [
+				"相关链接："
+				""
+				"&d末影龙&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1770001C37B2F63D\" } }"
+				"&d虚空蠕虫&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6B68168A5F90AC60\" } }"
+				"&d腐化英雄（墓园巫妖）&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"02499CD17C00CF85\" } }"
+			]
+			icon: "wqjy:up_item_11"
+			id: "484908A65073BA85"
+			rewards: [{
+				id: "03425E8D3BEFA030"
+				item: "wqjy:up_item_11"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					id: "34D89087040B4895"
+					title: "末影龙"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "graveyard:lich"
+					id: "22AA00BFFE087B86"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "alexsmobs:alexsmobs/void_worm_kill"
+					criterion: ""
+					id: "20067CA83BCF1EE8"
+					type: "advancement"
+				}
+			]
+			title: "首领"
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1CEB87EDFE2F4A2F"]
+			description: [
+				"&e惰性凋灵矿石&r生成于下界&9Y=5~10&r范围之间"
+				""
+				"相关链接："
+				""
+				"&d喷流刃&r："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"779A5A3234350D7F\" } }"
+			]
+			icon: "wqjy:up_item_3"
+			id: "362ACBDCA1AE37AA"
+			rewards: [{
+				id: "41C3D9A5382AFE5F"
+				item: "wqjy:up_item_3"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "300C5F7B4E4C21F0"
+					item: {
+						Count: 1
+						id: "tinkers_advanced:electron_tuner"
+						tag: {
+							Damage: 0
+							etstlib_tool_uuid: "7fbb5291-559b-406a-8110-51ea950f015b"
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tinkers_advanced:ender_tuner"
+								}
+								{
+									level: 1
+									name: "tconstruct:silky_shears"
+								}
+							]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:attack_damage": 1.7142859f
+								"tconstruct:attack_speed": 2.4f
+								"tconstruct:max_energy": 100000.0f
+							}
+							tic_volatile_data: {
+								abilities: 4
+								upgrades: 5
+							}
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2F54297ABF010D94"
+					item: "tconstruct:molten_manyullyn_bucket"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3D45479F08616A22"
+					item: "tinkerscalibration:moltenwitherium_bucket"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "08010D99B6E03FBE"
+					item: {
+						Count: 1
+						id: "tconstruct:swasher"
+						tag: {
+							Damage: 0
+							display: {
+								Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"dark_purple\",\"text\":\"无法替换部件\"}],\"text\":\"\"}"]
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"text\":\"任意喷流刃\"}],\"text\":\"\"}"
+							}
+							etstlib_tool_uuid: "1baa1347-f91a-4222-9992-34e595e2790f"
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_modifiers: [
+								{
+									level: 3
+									name: "tconstruct:tank_handler"
+								}
+								{
+									level: 1
+									name: "tconstruct:spitting"
+								}
+								{
+									level: 1
+									name: "tconstruct:spilling"
+								}
+								{
+									level: 1
+									name: "tconstruct:bucketing"
+								}
+								{
+									level: 1
+									name: "tconstruct:silky_shears"
+								}
+							]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:attack_damage": 1.0f
+								"tconstruct:attack_speed": 1.5f
+								"tconstruct:draw_speed": 1.5f
+								"tconstruct:durability": 2.0f
+								"tconstruct:tank_capacity": 3000.0f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								defense: 3
+								"tconstruct:total_tanks": 1
+								upgrades: 1
+							}
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5F3BF30DB384F32B"
+					item: {
+						Count: 1
+						id: "sakuratinker:power_bank"
+						tag: {
+							Damage: 0
+							display: {
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"text\":\"任意充电宝\"}],\"text\":\"\"}"
+							}
+							etstlib_tool_uuid: "02125842-28b3-42d7-8e48-79712bebd864"
+							tic_broken: 0b
+							tic_display: 1b
+							tic_materials: [
+								"tconstruct:ui_render#head"
+								"tconstruct:ui_render#handle"
+								"tconstruct:ui_render#extra"
+								"tconstruct:ui_render#large"
+								"tconstruct:ui_render#extra_large"
+							]
+							tic_persistent: {
+								"sakuratinker:charge_mode": 0
+							}
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "晋升素材"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1CEB87EDFE2F4A2F"]
+			description: ["使用幽匿工作台合成"]
+			id: "421BE77020049515"
+			tasks: [{
+				id: "38EA1CC216FADBD5"
+				item: "avaritia:nether_crafting_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1CEB87EDFE2F4A2F"]
+			description: [
+				"请前往相关教程页查看："
+				""
+				"{ \"text\": \"mek\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"555498F182C5A066\" } }"
+			]
+			id: "058692D854F86A6D"
+			tasks: [{
+				id: "0976A3F1CF9F9802"
+				title: "mek相关教程"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["058692D854F86A6D"]
+			description: [
+				"融合机（或融合工厂）"
+				""
+				"粉碎机（或粉碎工厂）"
+				""
+				"化学氧化机"
+				""
+				"冶金灌注机"
+			]
+			id: "4D54FBA13A3D47DF"
+			tasks: [{
+				id: "62FABA986489DBF2"
+				title: "所需机械"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["421BE77020049515"]
+			description: ["可通过炼狱工作台合成"]
+			id: "289A96DDC48D05DB"
+			tasks: [{
+				id: "3EFA972EBF1F392F"
+				item: "minecraft:end_portal_frame"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"289A96DDC48D05DB"
+				"4D54FBA13A3D47DF"
+			]
+			description: ["使用&e粉碎机&r粉碎&e末地传送门框架&r获取"]
+			hide_dependency_lines: true
+			id: "29197EBFD55E4129"
+			shape: "gear"
+			tasks: [{
+				id: "6E08922A3C1F9E27"
+				item: "wqjy:up_item_17"
+				type: "item"
+			}]
+			x: 4.750000000000014d
+			y: 0.8392857142857153d
+		}
+		{
+			dependencies: ["4D54FBA13A3D47DF"]
+			description: ["使用&e融合机&r将16*&e烈焰粉&r+16*&e黑曜石&r融合获取"]
+			hide_dependency_lines: true
+			id: "0EE77A279FF06185"
+			shape: "gear"
+			tasks: [{
+				id: "5E9ABC57D33CCB38"
+				item: "wqjy:up_item_2"
+				type: "item"
+			}]
+			x: 4.678571428571445d
+			y: -0.9821428571428612d
+		}
+		{
+			dependencies: [
+				"4D54FBA13A3D47DF"
+				"20E9B82A1DB1CEF2"
+			]
+			description: [
+				"&a使用&e化学氧化机&a将&e魂樱锭&a转化为&#FF7FDF樱璎嘤&a气体"
+				""
+				"&a然后使用&e化学结晶器&a将&#FF7FDF樱璎嘤&a气体结晶获得"
+			]
+			hide_dependency_lines: true
+			id: "5A9B11A4878E5C19"
+			shape: "gear"
+			tasks: [{
+				id: "2BA101371081290C"
+				item: "wqjy:up_item_7"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1CEB87EDFE2F4A2F"]
+			icon: "sakuratinker:soul_sakura"
+			id: "24BD8D8876656A03"
+			tasks: [{
+				id: "76E2A532C0861C6A"
+				title: "魂樱锭制作"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["24BD8D8876656A03"]
+			description: ["制备&e奥鲁莫斯&r"]
+			id: "20F42825C777AFCE"
+			tasks: [
+				{
+					id: "2519414B7F537199"
+					item: "sakuratinker:orichalcum_raw"
+					type: "item"
+				}
+				{
+					id: "7FAA3619954AF28A"
+					item: "sakuratinker:prometheum_raw"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["24BD8D8876656A03"]
+			description: ["&e零素矿&r需前往&9下界基岩顶部&r挖掘"]
+			id: "629CBE6F4324D5E1"
+			tasks: [{
+				id: "38F00BB4BF5A2991"
+				item: "sakuratinker:eezo_ore"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["24BD8D8876656A03"]
+			description: ["制备&e玛玉灵&r"]
+			id: "1B473B984F24F8C9"
+			tasks: [{
+				id: "4FDEC56E4418D73E"
+				item: "tconstruct:raw_cobalt"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["24BD8D8876656A03"]
+			id: "2BCD435D64283CB6"
+			tasks: [{
+				id: "38A6C457F28BD79D"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"1B473B984F24F8C9"
+				"629CBE6F4324D5E1"
+				"20F42825C777AFCE"
+				"2BCD435D64283CB6"
+			]
+			description: [
+				"前置产物合金为&e虚金"
+				"&r"
+				"使用&e虚金&r浇筑&e樱花树叶&r则可获得&e魂樱锭&r"
+			]
+			id: "6CE7AAC5AA0E62D3"
+			tasks: [{
+				id: "77344387569A0C92"
+				item: "minecraft:cherry_leaves"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6CE7AAC5AA0E62D3"]
+			id: "20E9B82A1DB1CEF2"
+			tasks: [{
+				id: "2ED8CE16C908E34A"
+				item: "sakuratinker:soul_sakura"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3EBEDB6B630C30C7"]
+			description: [
+				"使用&e伏打水晶&r作为&e模具&r在&e部件制作台&r制作获得"
+				""
+				"或使用&e伏打水晶&r作为&e基底&r浇筑获得"
+			]
+			id: "78CE6DE189F61C9F"
+			tasks: [{
+				id: "07FBC28E4EC57927"
+				item: "tinkers_advanced:flux_core"
+				type: "item"
+			}]
+			title: "任意通量核心"
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1CEB87EDFE2F4A2F"]
+			icon: {
+				Count: 1
+				id: "tinkers_advanced:electron_tuner"
+				tag: {
+					Damage: 0
+					etstlib_tool_uuid: "36df11de-c49b-4540-aa82-5554db177694"
+					tic_broken: 0b
+					tic_display: 1b
+					tic_materials: [
+						"tconstruct:ui_render#head"
+						"tconstruct:ui_render#handle"
+						"tconstruct:ui_render#extra"
+						"tconstruct:ui_render#large"
+						"tconstruct:ui_render#extra_large"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tinkers_advanced:ender_tuner"
+						}
+						{
+							level: 1
+							name: "tconstruct:energy_handler"
+						}
+						{
+							level: 1
+							name: "tconstruct:silky_shears"
+						}
+					]
+					tic_persistent: { }
+					tic_stats: {
+						"etstlib:power_multiplier": 2.0f
+						"tconstruct:attack_damage": 1.7142859f
+						"tconstruct:attack_speed": 2.4f
+						"tconstruct:max_energy": 100000.0f
+					}
+					tic_volatile_data: {
+						abilities: 4
+						upgrades: 5
+					}
+				}
+			}
+			id: "1F7C76A99209C14B"
+			tasks: [{
+				id: "3FFE902780EC4063"
+				title: "环流电子协调剑"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1F7C76A99209C14B"]
+			description: ["&e铁&r+&e碧空黏液&r+&e焦黑熔石&r合金获取"]
+			id: "6560AB5D4C32E897"
+			tasks: [{
+				id: "02CB9CDB56E3F5A7"
+				item: "tconstruct:slimesteel_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1F7C76A99209C14B"]
+			description: ["搜&esky slime island&r，使用碧空黏液泥土合成"]
+			id: "76B4398274DBF9D5"
+			tasks: [{
+				id: "7AD58EEFFB4C3615"
+				item: "tconstruct:sky_slime_crystal"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1F7C76A99209C14B"]
+			description: ["古城箱子或合成获取"]
+			id: "600E2BF489D25660"
+			tasks: [{
+				id: "6F04CEA5D9551AAC"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"76B4398274DBF9D5"
+				"600E2BF489D25660"
+				"6560AB5D4C32E897"
+			]
+			id: "443DF94F6B09C49B"
+			tasks: [{
+				id: "779FA8489CC52289"
+				item: "tinkers_advanced:resonance_crystal"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1F7C76A99209C14B"]
+			description: ["&e钴&r+&e金&r+&e岩浆（不是熔岩）&r合金获取"]
+			hide_dependency_lines: true
+			id: "0764DA5A2525675B"
+			tasks: [{
+				id: "364AF43907F2932F"
+				item: "tconstruct:queens_slime_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1F7C76A99209C14B"]
+			description: ["&e金&r+&e灵浆（需使用熔铸炉）&r+&e焦褐熔石&r合金获取"]
+			hide_dependency_lines: true
+			id: "279B916BB21DDFB5"
+			tasks: [{
+				id: "0BF7D3E83AE899B0"
+				item: "tconstruct:cinderslime_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"443DF94F6B09C49B"
+				"0764DA5A2525675B"
+				"279B916BB21DDFB5"
+			]
+			id: "1007557B1E39B0A7"
+			tasks: [{
+				id: "52DDB1E5C27C7ADC"
+				item: "tinkers_advanced:disintegrate_crystal"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1007557B1E39B0A7"]
+			id: "3EBEDB6B630C30C7"
+			tasks: [{
+				id: "0FEAD6D3CBF76CD5"
+				item: "tinkers_advanced:voltaic_crystal"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["78CE6DE189F61C9F"]
+			id: "23456A740B96ADE2"
+			tasks: [{
+				id: "260D358C3EF5B32D"
+				item: {
+					Count: 1
+					id: "tinkers_advanced:electron_tuner"
+					tag: {
+						Damage: 0
+						etstlib_tool_uuid: "2b0149ca-445e-4db6-b8ce-2aa9b31b5f52"
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tinkers_advanced:ender_tuner"
+							}
+							{
+								level: 1
+								name: "tconstruct:energy_handler"
+							}
+							{
+								level: 1
+								name: "tconstruct:silky_shears"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"etstlib:power_multiplier": 2.0f
+							"tconstruct:attack_damage": 1.7142859f
+							"tconstruct:attack_speed": 2.4f
+							"tconstruct:max_energy": 100000.0f
+						}
+						tic_volatile_data: {
+							abilities: 4
+							upgrades: 5
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1CEB87EDFE2F4A2F"]
+			icon: {
+				Count: 1
+				id: "tconstruct:swasher"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_display: 1b
+					tic_materials: [
+						"tconstruct:ui_render#head"
+						"tconstruct:ui_render#handle"
+						"tconstruct:ui_render#extra"
+						"tconstruct:ui_render#large"
+						"tconstruct:ui_render#extra_large"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "tconstruct:tank_handler"
+						}
+						{
+							level: 1
+							name: "tconstruct:spitting"
+						}
+						{
+							level: 1
+							name: "tconstruct:spilling"
+						}
+						{
+							level: 1
+							name: "tconstruct:bucketing"
+						}
+						{
+							level: 1
+							name: "tconstruct:silky_shears"
+						}
+					]
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 1.0f
+						"tconstruct:attack_speed": 1.5f
+						"tconstruct:draw_speed": 1.5f
+						"tconstruct:durability": 2.0f
+						"tconstruct:tank_capacity": 3000.0f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						defense: 3
+						"tconstruct:total_tanks": 1
+						upgrades: 1
+					}
+				}
+			}
+			id: "7A63456025DD5582"
+			tasks: [{
+				id: "6FED047122500CCA"
+				title: "喷流刃"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7A63456025DD5582"]
+			description: [
+				"在用&e刷子&r刷远古海洋废墟的&e可疑的沙子"
+				"&r"
+				"或直接使用&e下界合金币&r*5兑换"
+				""
+				"相关链接："
+				""
+				"{ \"text\": \"远古工具模具兑换\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"796C2BB2C56C169A\" } } "
+			]
+			id: "44598157C76A2F4F"
+			tasks: [{
+				id: "58207DE71F27CB22"
+				item: "tinkersancient:swasher_head_cast"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44598157C76A2F4F"]
+			description: ["&a组装时的流体储罐为任意&e匠魂流体储罐&r"]
+			id: "5A39E86A98DE9DE8"
+			tasks: [{
+				id: "14975F9183B125BA"
+				item: {
+					Count: 1
+					id: "tconstruct:swasher"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_display: 1b
+						tic_materials: [
+							"tconstruct:ui_render#head"
+							"tconstruct:ui_render#handle"
+							"tconstruct:ui_render#extra"
+							"tconstruct:ui_render#large"
+							"tconstruct:ui_render#extra_large"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "tconstruct:tank_handler"
+							}
+							{
+								level: 1
+								name: "tconstruct:spitting"
+							}
+							{
+								level: 1
+								name: "tconstruct:spilling"
+							}
+							{
+								level: 1
+								name: "tconstruct:bucketing"
+							}
+							{
+								level: 1
+								name: "tconstruct:silky_shears"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 1.0f
+							"tconstruct:attack_speed": 1.5f
+							"tconstruct:draw_speed": 1.5f
+							"tconstruct:durability": 2.0f
+							"tconstruct:tank_capacity": 3000.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 3
+							"tconstruct:total_tanks": 1
+							upgrades: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+	]
+	title: "◇&d阶段3"
+}

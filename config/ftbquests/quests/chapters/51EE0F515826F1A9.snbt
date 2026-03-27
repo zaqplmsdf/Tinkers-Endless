@@ -96,12 +96,12 @@
 		}
 	]
 	order_index: 0
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
 				"新手奖励"
-				"&m可&4千万不要&f在连弩上浪费材料升级呢&r"
 				""
 				"开局建议先搞到25个铜币合成1个金币换一个&e飞行戒指&r（对应当前版本堪称简单）"
 				""
@@ -161,25 +161,6 @@
 				{
 					id: "5492AB9FBF10A9C5"
 					item: "sophisticatedbackpacks:diamond_backpack"
-					type: "item"
-				}
-				{
-					id: "745E3D1F9D18372A"
-					item: {
-						Count: 1
-						id: "minecraft:written_book"
-						tag: {
-							author: "传送门方块"
-							display: {
-								Lore: ["{\"text\":\"并没有什么实际作用，只是用来跳转网页\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"]
-								Name: "[{\"text\":\"工匠手稿\",\"color\":\"gold\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
-							}
-							generation: 3
-							pages: ["{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"yellow\",\"text\":\"相关网址：\\n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.mcmod.cn/modpack/1257.html\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"单击跳转\"}},\"text\":\"百科站整合包主页\\n\\n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://bbsmc.net/modpack/tinkers-endless\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"单击跳转\"}},\"text\":\"BBSMC整合包主页\\n\\n\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://qm.qq.com/q/pEchddxbAO\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"单击跳转\"}},\"text\":\"官方讨论群\"}],\"text\":\"声明：本整合包完全免费，如果你花钱了，那么恭喜你被骗了\\n\"}"]
-							resolved: 1b
-							title: "工匠书稿"
-						}
-					}
 					type: "item"
 				}
 				{
@@ -1322,6 +1303,41 @@
 					}
 					type: "item"
 				}
+				{
+					id: "482C038D669007D6"
+					item: {
+						Count: 1
+						id: "thermal:satchel"
+						tag: {
+							ItemInv: {
+								ItemInv: [
+									{
+										Count: 1b
+										Slot: 0b
+										id: "toms_storage:ts.inventory_connector"
+									}
+									{
+										Count: 1b
+										Slot: 1b
+										id: "toms_storage:ts.storage_terminal"
+									}
+									{
+										Count: 6b
+										Slot: 2b
+										id: "sophisticatedstorage:iron_barrel"
+										tag: {
+											woodType: "oak"
+										}
+									}
+								]
+							}
+							display: {
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"新手存储小包\"}],\"text\":\"\"}"
+							}
+						}
+					}
+					type: "item"
+				}
 			]
 			shape: "pentagon"
 			tasks: [{
@@ -1390,6 +1406,8 @@
 			can_repeat: true
 			dependencies: ["418A682BE565AEC3"]
 			description: [
+				"注：&e阿卡什宝典&r已&c不再赠送全部教程书&r，改为&6根据游戏进程逐个赠送&r"
+				""
 				"在工作台将&e阿卡什宝典&r与&e其他模组手册&r合成，右击即可点击手册查看，左击空气即可切换回&e阿卡什宝典&r。"
 				""
 				"当然，你也可以将&e许多工具&r与&e阿卡什宝典&r融合，包括&e便携式转化桌&r，&e奥术平板&r，&e群系指南针&r等"
@@ -1406,42 +1424,26 @@
 			id: "2FD0D71C13478BD6"
 			rewards: [
 				{
-					id: "002F481E0BC1D95E"
+					id: "7CD22263C01BDF90"
 					item: {
 						Count: 1
 						id: "akashictome:tome"
 						tag: {
 							"akashictome:data": {
-								aether: {
-									Count: 1b
-									id: "aether:book_of_lore"
-								}
-								alexscaves: {
-									Count: 1b
-									id: "alexscaves:cave_book"
-								}
 								alexsmobs: {
 									Count: 1b
 									id: "alexsmobs:animal_dictionary"
+									tag: { }
 								}
 								ars_nouveau: {
 									Count: 1b
 									id: "ars_nouveau:worn_notebook"
-								}
-								botania: {
-									Count: 1b
-									id: "botania:lexicon"
-									tag: {
-										"botania:elven_unlock": 1b
-									}
-								}
-								enigmaticlegacy: {
-									Count: 1b
-									id: "enigmaticlegacy:the_acknowledgment"
+									tag: { }
 								}
 								ftbquests: {
 									Count: 1b
 									id: "ftbquests:book"
+									tag: { }
 								}
 								grimoireofgaia: {
 									Count: 1b
@@ -1450,59 +1452,6 @@
 										"patchouli:book": "grimoireofgaia:gaiapedia"
 									}
 								}
-								ice_and_fire_delight: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "ice_and_fire_delight:cookbook"
-									}
-								}
-								iceandfire: {
-									Count: 1b
-									id: "iceandfire:bestiary"
-									tag: {
-										Pages: [I;
-											0
-											24
-											6
-											7
-											5
-											17
-											2
-											3
-											12
-											16
-											10
-											14
-											23
-											1
-											8
-											9
-											26
-											25
-											15
-											4
-											13
-											20
-											22
-											21
-											11
-											19
-											18
-										]
-										"akashictome:displayName": {
-											text: "{\"translate\":\"item.iceandfire.bestiary\"}"
-										}
-										"akashictome:is_morphing": 1b
-										display: {
-											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.iceandfire.bestiary\"}]}"
-										}
-									}
-								}
-								immersiveengineering: {
-									Count: 1b
-									id: "immersiveengineering:manual"
-								}
 								irons_spellbooks: {
 									Count: 1b
 									id: "patchouli:guide_book"
@@ -1510,103 +1459,18 @@
 										"patchouli:book": "irons_spellbooks:iss_guide_book"
 									}
 								}
-								l2hostility: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "l2hostility:hostility_guide"
-									}
-								}
-								mekanism: {
-									Count: 1b
-									id: "mekanism:dictionary"
-								}
-								mg_secrets_of_mermaids: {
-									Count: 1b
-									ForgeCaps: {
-										Parent: {
-											Items: [ ]
-											Size: 0
-										}
-									}
-									id: "mg_secrets_of_mermaids:of_mermaids_and_other_sea_monsters"
-									tag: {
-										Inventory: {
-											Items: [ ]
-											Size: 0
-										}
-									}
-								}
-								monsters_and_girls: {
-									Count: 1b
-									ForgeCaps: {
-										Parent: {
-											Items: [ ]
-											Size: 0
-										}
-									}
-									id: "monsters_and_girls:monster_girls_bestiary"
-									tag: {
-										Inventory: {
-											Items: [ ]
-											Size: 0
-										}
-									}
-								}
-								mysticalagriculture: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "mysticalagriculture:guide"
-									}
-								}
-								nffgirls: {
-									Count: 1b
-									id: "nffgirls:mob_dictionary"
-								}
-								nffgirlsgaia: {
-									Count: 1b
-									id: "nffgirlsgaia:mob_dictionary"
-								}
-								pneumaticcraft: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "pneumaticcraft:book"
-									}
-								}
 								solcarrot: {
 									Count: 1b
 									id: "solcarrot:food_book"
-									tag: {
-										"akashictome:displayName": {
-											text: "{\"translate\":\"item.solcarrot.food_book\"}"
-										}
-										"akashictome:is_morphing": 1b
-										display: {
-											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.solcarrot.food_book\"}]}"
-										}
-									}
-								}
-								thermal: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "thermal:guidebook"
-									}
-								}
-								tinkersjewelry: {
-									Count: 1b
-									id: "tinkersjewelry:book"
+									tag: { }
 								}
 							}
-							"akashictome:is_morphing": 1b
 						}
 					}
 					type: "item"
 				}
 				{
-					id: "77B44DF7AE37BCFA"
+					id: "15267D033CEFECE0"
 					item: {
 						Count: 1
 						id: "akashictome:tome"
@@ -2352,7 +2216,7 @@
 		}
 		{
 			description: [
-				"未解锁的物品&4大部分都无法拾取&r且呈现&c红色问号&r的材质，可借助&e拾取升级&r和&e磁铁升级&r暂时保存到背包里"
+				"未解锁的物品&4大部分都无法拾取&r且呈现&c红色问号&r（❓）️的材质，可借助&e拾取升级&r和&e磁铁升级&r暂时保存到背包里"
 				""
 				"阶段任务位置："
 				""
@@ -2375,5 +2239,6 @@
 			y: 2.5d
 		}
 	]
-	title: "·&e基础"
+	subtitle: ["&c必看！！"]
+	title: "◇&e基础"
 }

@@ -5,6 +5,7 @@
 	group: "3172704A8AED52C1"
 	id: "66C99EF566B71F29"
 	order_index: 6
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -137,7 +138,7 @@
 			subtitle: "2000℃"
 			tasks: [{
 				amount: 1000L
-				fluid: "cloudertinker:fire_tear"
+				fluid: "minecraft:water"
 				id: "43DF20A1E95EFCCB"
 				type: "fluid"
 			}]
@@ -154,7 +155,7 @@
 			subtitle: "2000℃"
 			tasks: [{
 				amount: 1000L
-				fluid: "cloudertinker:molten_fiery"
+				fluid: "minecraft:water"
 				id: "43268C44A4C36C4A"
 				type: "fluid"
 			}]
@@ -188,7 +189,7 @@
 			subtitle: "2000℃"
 			tasks: [{
 				amount: 1000L
-				fluid: "cloudertinker:fire_blood"
+				fluid: "minecraft:water"
 				id: "405228C1A2781BFA"
 				type: "fluid"
 			}]
@@ -386,5 +387,5 @@
 			y: 4.0d
 		}
 	]
-	title: "&6燃料列表"
+	title: "◇&6燃料列表"
 }

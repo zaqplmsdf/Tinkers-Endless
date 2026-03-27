@@ -1208,7 +1208,7 @@
 				type: "checkmark"
 			}]
 			x: -5.0d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			description: [
@@ -1231,7 +1231,7 @@
 				type: "checkmark"
 			}]
 			x: -5.0d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -1340,7 +1340,24 @@
 			x: -3.0d
 			y: -3.5d
 		}
+		{
+			description: [
+				"&b催化剂&r：湮灭之眼"
+				""
+				"&e仪式物品&r：末地传送门框架*12；末影之眼*12"
+				"&c祭品&r："
+			]
+			icon: "legendary_monsters:teleport_machine"
+			id: "5FD45DBF4648B633"
+			tasks: [{
+				id: "60382F36FF654373"
+				type: "checkmark"
+			}]
+			title: "传送装置"
+			x: -5.0d
+			y: 5.0d
+		}
 	]
 	subtitle: ["为什么选无中生有？因为找不到别的合适的了"]
-	title: "·&bDLC-空岛进行时"
+	title: "◆&bDLC-空岛进行时"
 }

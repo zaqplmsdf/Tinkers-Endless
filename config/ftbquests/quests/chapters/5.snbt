@@ -43,6 +43,7 @@
 		}
 	]
 	order_index: 4
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -59,11 +60,7 @@
 		}
 		{
 			dependencies: ["50B3448ED00EFC8E"]
-			description: [
-				"结晶"
-				""
-				"(&e核废料的创造储罐&r会回收的，别买进转化桌或者改其他化学品了，除非你不想开启下一阶段了)"
-			]
+			description: ["结晶"]
 			id: "67ED8DA40BED632A"
 			rewards: [{
 				id: "76A416937F83AD9C"
@@ -217,7 +214,11 @@
 		}
 		{
 			dependencies: ["341640D349486818"]
-			description: ["制备核废料"]
+			description: [
+				"制备核废料"
+				""
+				"&7不建议使用加速火把&r"
+			]
 			id: "394719B5EE9A57DF"
 			rewards: [
 				{
@@ -427,7 +428,9 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["76CC1934C282AAD7"]
 			description: ["制备水蒸气"]
+			hide_until_deps_complete: true
 			id: "6811EB58DB1152B7"
 			tasks: [{
 				id: "28B2848A16A5A5E3"
@@ -457,7 +460,10 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["76CC1934C282AAD7"]
 			description: ["制备二氧化硫"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "2B66F71D2D42A17E"
 			tasks: [{
 				id: "729F190838B13861"
@@ -472,7 +478,10 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["76CC1934C282AAD7"]
 			description: ["制备氧气"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "76CCDFA58A5C4BEB"
 			tasks: [{
 				id: "1757A41F05E174AA"
@@ -503,7 +512,9 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["76CC1934C282AAD7"]
 			description: ["制备铀黄饼"]
+			hide_until_deps_complete: true
 			id: "0178FD5F848165A6"
 			tasks: [{
 				id: "02610CFBBF8C03A5"
@@ -516,6 +527,18 @@
 		{
 			dependencies: ["544B1612A34E0BA5"]
 			id: "40B8A1B5ABDF40E8"
+			rewards: [
+				{
+					id: "4D800BAE81095BFA"
+					item: "mekanism:pellet_plutonium"
+					type: "item"
+				}
+				{
+					id: "1EAEBA16CC8AA831"
+					item: "mekanism:pellet_polonium"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "37794ECF841C2803"
@@ -537,13 +560,20 @@
 			hide_until_deps_complete: true
 			icon: "mekanism:pellet_polonium"
 			id: "2835D837D59C9C59"
-			rewards: [{
-				auto: "enabled"
-				id: "09463B4290B100E8"
-				table_id: 6926866559260598424L
-				team_reward: true
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "09463B4290B100E8"
+					table_id: 6926866559260598424L
+					team_reward: true
+					type: "random"
+				}
+				{
+					id: "234008EFD5AE4F2B"
+					item: "tinkers_advanced:irradium_ingot"
+					team_reward: true
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					consume_items: true
@@ -568,12 +598,20 @@
 			hide_until_deps_complete: true
 			icon: "mekanism:pellet_plutonium"
 			id: "1AEF27A5D989020F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3CF03CCE7D133DD7"
-				table_id: 7622883243112234381L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "3CF03CCE7D133DD7"
+					table_id: 7622883243112234381L
+					team_reward: true
+					type: "random"
+				}
+				{
+					id: "2841C1E2DB2CC6F2"
+					item: "tinkers_advanced:protocite_pellet"
+					team_reward: true
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					consume_items: true
@@ -637,11 +675,14 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["76CC1934C282AAD7"]
 			description: [
 				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
 				""
 				"当物品在背包内但长时间未完成目标时可以点一次"
 			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "minecraft:observer"
 			id: "6AA7A4A2DD59A0D7"
 			rewards: [{
@@ -661,5 +702,5 @@
 			y: -3.0d
 		}
 	]
-	title: "·&5反物质靶丸"
+	title: "◇&5反物质靶丸"
 }

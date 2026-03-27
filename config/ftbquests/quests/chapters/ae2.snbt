@@ -409,12 +409,39 @@
 		{
 			dependencies: ["07FC92E00B70611D"]
 			id: "02F24125936690EA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6252B76E5F49DD8A"
-				table_id: 915959588376886251L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6252B76E5F49DD8A"
+					table_id: 915959588376886251L
+					type: "random"
+				}
+				{
+					id: "3AE3950B66A0CFCA"
+					item: {
+						Count: 1
+						id: "create:schematic"
+						tag: {
+							Anchor: {
+								X: 11
+								Y: -60
+								Z: 44
+							}
+							Bounds: [
+								7
+								7
+								7
+							]
+							Deployed: 1b
+							File: "7x7ae框架.nbt"
+							Mirror: "NONE"
+							Owner: "The_X_One"
+							Rotation: "NONE"
+						}
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			subtitle: "构建AE网络的核心，每个面都可以提供8个频道"
 			tasks: [{
@@ -1175,5 +1202,5 @@
 		}
 	]
 	subtitle: ["&b感谢群友“栖松听风”提供"]
-	title: "·&bae2"
+	title: "◇&bae2"
 }

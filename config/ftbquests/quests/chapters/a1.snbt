@@ -1,0 +1,1685 @@
+{
+	autofocus_id: "4344E892881440A6"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "a1"
+	group: "71E4EFF8904A559D"
+	icon: "tgears:blazing_chocolate_hand"
+	id: "6703751617D583A4"
+	images: [
+		{
+			height: 1.16d
+			image: "createaddition:block/digital_adapter/block"
+			rotation: 0.0d
+			width: 1.16d
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			height: 1.16d
+			image: "createaddition:block/digital_adapter/block"
+			rotation: 0.0d
+			width: 1.16d
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			height: 1.16d
+			image: "createaddition:block/digital_adapter/block"
+			rotation: 0.0d
+			width: 1.16d
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			height: 1.16d
+			image: "createaddition:block/digital_adapter/block"
+			rotation: 0.0d
+			width: 1.16d
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			height: 1.16d
+			image: "createaddition:block/digital_adapter/block"
+			rotation: 0.0d
+			width: 1.16d
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			height: 1.16d
+			image: "createaddition:block/digital_adapter/block"
+			rotation: 0.0d
+			width: 1.16d
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			height: 1.16d
+			image: "createaddition:block/digital_adapter/block"
+			rotation: 0.0d
+			width: 1.16d
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			height: 1.16d
+			image: "createaddition:block/digital_adapter/block"
+			rotation: 0.0d
+			width: 1.16d
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			height: 1.16d
+			image: "createaddition:block/digital_adapter/block"
+			rotation: 0.0d
+			width: 1.16d
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			height: 1.16d
+			image: "createaddition:block/digital_adapter/block"
+			rotation: 0.0d
+			width: 1.16d
+			x: 13.0d
+			y: 3.5d
+		}
+		{
+			height: 1.16d
+			image: "createaddition:block/digital_adapter/block"
+			rotation: 0.0d
+			width: 1.16d
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			height: 1.16d
+			image: "createaddition:block/digital_adapter/block"
+			rotation: 0.0d
+			width: 1.16d
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			height: 1.16d
+			image: "createaddition:block/digital_adapter/block"
+			rotation: 0.0d
+			width: 1.16d
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			height: 1.16d
+			image: "createaddition:block/digital_adapter/block"
+			rotation: 0.0d
+			width: 1.16d
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			height: 1.16d
+			image: "createaddition:block/digital_adapter/block"
+			rotation: 0.0d
+			width: 1.16d
+			x: 14.0d
+			y: 4.5d
+		}
+		{
+			height: 1.16d
+			image: "createaddition:block/digital_adapter/block"
+			rotation: 0.0d
+			width: 1.16d
+			x: 13.0d
+			y: 4.5d
+		}
+		{
+			height: 1.16d
+			image: "createaddition:block/digital_adapter/block"
+			rotation: 0.0d
+			width: 1.16d
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			height: 1.16d
+			image: "createaddition:block/digital_adapter/block"
+			rotation: 0.0d
+			width: 1.16d
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			height: 1.16d
+			image: "createaddition:block/digital_adapter/block"
+			rotation: 0.0d
+			width: 1.16d
+			x: 12.0d
+			y: 5.5d
+		}
+		{
+			height: 1.16d
+			image: "createaddition:block/digital_adapter/block"
+			rotation: 0.0d
+			width: 1.16d
+			x: 13.0d
+			y: 5.5d
+		}
+		{
+			height: 1.16d
+			image: "createaddition:block/digital_adapter/block"
+			rotation: 0.0d
+			width: 1.16d
+			x: 14.0d
+			y: 5.5d
+		}
+		{
+			height: 1.16d
+			image: "createaddition:block/digital_adapter/block"
+			rotation: 0.0d
+			width: 1.16d
+			x: 18.0d
+			y: 3.5d
+		}
+		{
+			height: 1.16d
+			image: "createaddition:block/digital_adapter/block"
+			rotation: 0.0d
+			width: 1.16d
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			height: 1.16d
+			image: "createaddition:block/digital_adapter/block"
+			rotation: 0.0d
+			width: 1.16d
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			height: 1.16d
+			image: "createaddition:block/digital_adapter/block"
+			rotation: 0.0d
+			width: 1.16d
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			height: 1.16d
+			image: "createaddition:block/digital_adapter/block"
+			rotation: 0.0d
+			width: 1.16d
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			height: 0.5d
+			image: "wqjy:item/up_item_16"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			height: 0.5d
+			image: "wqjy:item/up_item_16"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			height: 0.5d
+			image: "wqjy:item/up_item_6"
+			rotation: 0.0d
+			width: 0.5d
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			height: 0.5d
+			image: "wqjy:item/up_2"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			height: 0.5d
+			image: "wqjy:item/up_item_6"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 18.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 3.5d
+		}
+		{
+			height: 0.5d
+			image: "create:item/precision_mechanism"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 13.0d
+			y: 3.5d
+		}
+		{
+			height: 0.5d
+			image: "create:item/polished_rose_quartz"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 13.0d
+			y: 4.5d
+		}
+		{
+			height: 0.5d
+			image: "create:item/polished_rose_quartz"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			height: 0.5d
+			image: "create:item/polished_rose_quartz"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			height: 0.5d
+			image: "create:item/polished_rose_quartz"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			height: 0.5d
+			image: "minecraft:item/iron_ingot"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			height: 0.5d
+			image: "minecraft:item/iron_ingot"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 14.0d
+			y: 4.5d
+		}
+		{
+			height: 0.5d
+			image: "minecraft:item/iron_ingot"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			height: 0.5d
+			image: "minecraft:item/iron_ingot"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			height: 0.5d
+			image: "thermal:item/silver_ingot"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			height: 0.5d
+			image: "thermal:item/silver_ingot"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			height: 0.5d
+			image: "thermal:item/silver_ingot"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 13.0d
+			y: 5.5d
+		}
+		{
+			height: 0.5d
+			image: "thermal:item/silver_ingot"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			height: 0.5d
+			image: "thermal:item/lead_ingot"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			height: 0.5d
+			image: "thermal:item/lead_ingot"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 14.0d
+			y: 5.5d
+		}
+		{
+			height: 0.5d
+			image: "thermal:item/lead_ingot"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			height: 0.5d
+			image: "thermal:item/lead_ingot"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			height: 0.5d
+			image: "thermal:item/lead_ingot"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			height: 0.5d
+			image: "thermal:item/lead_ingot"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			height: 0.5d
+			image: "thermal:item/lead_ingot"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			height: 0.5d
+			image: "thermal:item/lead_ingot"
+			order: 1
+			rotation: 0.0d
+			width: 0.5d
+			x: 12.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stripped_birch_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/recipe_transfer.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/cogwheel_axis"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/iron_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "create:item/iron_sheet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/recipe_transfer.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbchunks:textures/faces/minecraft/blaze.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/recipe_transfer.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: 180.0d
+			width: 1.0d
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: 180.0d
+			width: 1.0d
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "create:item/zinc_ingot"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/copper_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.107142857142861d
+			y: -0.25d
+		}
+		{
+			height: 1.5d
+			image: "create:item/sand_paper"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "create:item/iron_sheet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/recipe_transfer.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.962619047619043d
+			y: 7.413095238095245d
+		}
+		{
+			height: 1.0d
+			image: "create:block/andesite_casing"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: 180.0d
+			width: 1.0d
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "create:item/brass_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stripped_birch_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/crafting_table_front"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			height: 1.16d
+			image: "createaddition:block/digital_adapter/block"
+			rotation: 0.0d
+			width: 1.16d
+			x: 7.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/recipe_transfer.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: -45.0d
+			width: 1.0d
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/recipe_transfer.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 14.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 15.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 16.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			height: 3.9d
+			image: "jei:textures/jei/atlas/gui/ingredient_list_background.png"
+			order: -1
+			rotation: 0.0d
+			width: 3.9d
+			x: 1.0d
+			y: 15.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 15.0d
+		}
+		{
+			height: 1.3d
+			image: "jei:textures/jei/atlas/gui/ingredient_list_background.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.3d
+			x: 5.0d
+			y: 15.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 15.0d
+		}
+		{
+			height: 1.0d
+			image: "create:item/brass_sheet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 16.0d
+		}
+		{
+			height: 1.0d
+			image: "create:item/andesite_alloy"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 14.0d
+		}
+		{
+			height: 1.0d
+			image: "create:item/brass_sheet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			height: 1.0d
+			image: "create:item/brass_sheet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 15.0d
+		}
+		{
+			height: 1.0d
+			image: "create:item/brass_sheet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			height: 1.0d
+			image: "create:item/electron_tube"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 13.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/andesite_casing"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			height: 1.3d
+			image: "jei:textures/jei/atlas/gui/ingredient_list_background.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.3d
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			height: 1.3d
+			image: "jei:textures/jei/atlas/gui/ingredient_list_background.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.3d
+			x: 5.0d
+			y: 13.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 13.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 14.0d
+		}
+		{
+			height: 1.3d
+			image: "jei:textures/jei/atlas/gui/ingredient_list_background.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.3d
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			height: 1.0d
+			image: "create:item/brass_hand"
+			rotation: 135.0d
+			width: 1.0d
+			x: 10.0d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/depot_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 14.0d
+		}
+		{
+			height: 1.0d
+			image: "create:item/golden_sheet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "create:item/brass_hand"
+			rotation: 135.0d
+			width: 1.0d
+			x: 11.0d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "create:item/brass_hand"
+			rotation: 135.0d
+			width: 1.0d
+			x: 12.0d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/depot_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 14.0d
+		}
+		{
+			height: 1.0d
+			image: "create:block/depot_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 14.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: 13.5d
+		}
+	]
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4344E892881440A6"]
+			icon: "wqjy:up_item_16"
+			id: "4BAF04334EFF43C9"
+			rewards: [{
+				id: "2B3D70DB6FFF5366"
+				item: "wqjy:up_item_16"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "要善于使用jei"
+			tasks: [
+				{
+					consume_items: true
+					id: "22AF6E980461CA46"
+					item: {
+						Count: 1
+						id: "tacz:ammo_box"
+						tag: {
+							Level: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "10D81956D9DC6D1A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "projecte:philosophers_stone"
+						tag: { }
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "晋升素材"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4344E892881440A6"]
+			dependency_requirement: "all_started"
+			description: ["如果不知道怎么弄就去看任务中的教程"]
+			icon: "wqjy:up_item_16"
+			id: "2835981697A322AC"
+			rewards: [{
+				id: "4295C2E58F3091AB"
+				item: "wqjy:up_item_16"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "较为麻烦，但任务是保姆级的"
+			tasks: [
+				{
+					consume_items: true
+					id: "684C05DA6BDB57CE"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0ABB2B5F4523D95D"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			title: "晋升素材"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"002A8323600F86EC"
+				"03FA631D240E88AA"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "4344E892881440A6"
+			subtitle: "晋升事宜"
+			tasks: [{
+				id: "074B244F1CDC6249"
+				title: "主要流程"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4344E892881440A6"]
+			description: [
+				"由&e铁粒/锌粒&r*2+&e安山岩&r*2合成"
+				""
+				"{ \"text\": \"点击跳转机械动力教程页\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1E24242C6739483F\" } }"
+			]
+			id: "7A24AB33109A75D0"
+			tasks: [{
+				id: "1C55C1ECD590A32E"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7A24AB33109A75D0"]
+			description: [
+				"玩家手持 &e安山合金&r 对放置的&e去皮原木&r右击获得，或使用 &e机械手&r 以&e安山合金&r 使用 &e去皮原木&r获得 1 个。"
+				""
+				"用途"
+				""
+				"用于制造各种机械。"
+				""
+				"可放置，材质会相连。"
+				""
+				"对&e传送带&r或&e传动杆&r右键可以进行封装，&a不消耗机壳&r。"
+				""
+				"&e齿轮&r可以使用&e安山/黄铜机壳&r装壳。装壳后的齿轮不仅更美观，还可以使用扳手关闭一侧的传动轴连接。(&6更重要的是可以减少设备渲染压力&r)"
+			]
+			hide_dependency_lines: true
+			id: "2952FB847B40E226"
+			tasks: [{
+				id: "1AEBB8E7FFE2A987"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2952FB847B40E226"]
+			description: [
+				"&e传动杆&r+&e安山机壳&r+&e铁块&r合成"
+				""
+				"&a用途"
+				"&r"
+				"&2冲压"
+				"&r"
+				"通过使用&e动力冲压机&r加工&e掉落物&r或 &e传送带/置物台&r 上的物品的配方。"
+				""
+				"主要用于将&e金属锭&r加工为&e金属板&r。"
+				""
+				"&2塑形&r"
+				""
+				"通过使用&e动力冲压机&r来加工&e 工作盆 &r内的物品的配方。"
+				""
+				"&6可用于将多种原料加工为成品。&r"
+				""
+				"&2自动压缩"
+				"&r"
+				"通过使用&e动力冲压机&r来加工 &e工作盆&r 内的物品的配方。"
+				""
+				"用于执行 &94*4&r 或 &99*9 &r的&e单一材料&r合成配方。"
+			]
+			hide_dependency_lines: true
+			id: "218D820E1B686E0A"
+			tasks: [{
+				id: "5E4E8DE0473B916E"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["218D820E1B686E0A"]
+			description: [
+				"&e铁板&r*4+&e下界岩&r*1合成"
+				""
+				"用于合成&e 烈焰人燃烧室&r 或转化 &e鼓风机&r 产生的气流（风）。"
+				""
+				"&a燃烧"
+				"&r"
+				"&e打火石&r可以点燃&e空的烈焰人燃烧室&r。"
+				""
+				"&e空的烈焰人燃烧室&r允许 &e鼓风机&r 的气流通过。"
+				""
+				"&6当鼓风机的气流（风）经过被点燃的空烈焰人燃烧室时，会变根据燃烧状态成为 批量烟熏/批量缠魂 气流（风）。&r"
+				""
+				"使用&e灵魂土&r或&e灵魂沙&r右击&6可以让火变成灵魂火&r。"
+				""
+				"&6无论使用灵魂沙还是灵魂土，燃烧室的底座材质都将由下界岩变为灵魂沙。&m灵魂土哪里去了？"
+				"&r"
+				"只有燃烧室处于&9燃烧状态&r，才能转变火焰类型。"
+				""
+				"&6如果被点燃的空烈焰人燃烧室被扑灭，燃烧室的底座将变回下界岩材质。&r"
+				""
+				""
+				""
+				"火焰仅可被&e喷溅型水瓶&r扑灭。"
+				""
+				"&c但任何其他喷溅药水无法扑灭火焰。&r &m 这一点都不科学"
+				"&r"
+				"&c空的烈焰人燃烧室不是含水方块，因此无法浸水，也无法被水扑灭。"
+				"&r"
+			]
+			id: "287BC37AE22FB784"
+			subtitle: "“你火热的朋友的一个小小的铁质的家。我相信你会好好利用他们做黑奴的！”"
+			tasks: [{
+				id: "3F4123571A75DB61"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["287BC37AE22FB784"]
+			description: [
+				"手持&e空的烈焰人燃烧室&r右键&9烈焰人&r可获得&e烈焰人燃烧室&r"
+				""
+				"&e烈焰人燃烧室&r是用于为&e工作盆&r配方 / &e锅炉&r提供热量的元件。也可用于作为列车的驾驶员，或物流网络的仓库管理员。"
+				""
+				"&a燃烧状态"
+				"&r"
+				"&e烈焰人燃烧室&r需要&e燃料&r以运作，&a玩家可以通过手持任意燃料对其右击投喂&r。"
+				""
+				"对其投喂&e普通燃料&r时会进入&9一般燃烧&r状态，其燃烧时间取决于该燃料在原版熔炉中的燃烧时间。"
+				""
+				"&c一般燃烧结束后会进入熄灭状态。"
+				""
+				"对其投喂&e烈焰蛋糕&r会使其进入&9超级燃烧状态&r。&a燃烧室内的烈焰人会变为蓝色。&r一个烈焰蛋糕能够维持超级燃烧&6 160 秒&r。"
+				""
+				"&6超级燃烧结束后会进入 250 秒 的一般燃烧状态，随后熄灭。"
+				""
+				"&d对其使用&e创造模式烈焰蛋糕&d可以在燃烧模式之间切换，并永久保持调整后的状态，直到你再次调整。"
+				""
+				"对其投掷鸡蛋会进入一般燃烧状态，持续 4 秒，并发出咀嚼音效。"
+			]
+			id: "5C1FB27E6826F170"
+			tasks: [{
+				id: "385AF9EFCFF80DD8"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7A24AB33109A75D0"]
+			description: [
+				"&e安山合金&r*5合成"
+				""
+				"可以与 &e动力辊压机 &r和 &e动力搅拌器&r 配合使用，&6内部的物品和流体会作为相关配方的原材料。也可以储存一定量的任意物品和流体。&r"
+			]
+			hide_dependency_lines: true
+			id: "0443106169B713DD"
+			tasks: [{
+				id: "4EBCB230828E8975"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5C1FB27E6826F170"
+				"0443106169B713DD"
+			]
+			description: ["&e铜锭&r+&d锌锭&r，由&9混合搅拌&r获得"]
+			hide_dependency_lines: true
+			id: "53151D34227DC95D"
+			tasks: [{
+				id: "598BA5115391DD03"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4344E892881440A6"]
+			description: ["&e任意石英&r+&e红石粉&r*8合成"]
+			hide_dependency_lines: true
+			id: "060FD3BA26CE4269"
+			tasks: [{
+				id: "7212D0DED7F07A82"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["060FD3BA26CE4269"]
+			description: ["主手手持&e玫瑰石英&r，副手手持&e任意砂纸&r长按右键打磨获得"]
+			hide_dependency_lines: true
+			id: "011743F99D4C712F"
+			tasks: [{
+				id: "510B30635B762983"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["011743F99D4C712F"]
+			description: ["&e磨制玫瑰石英&r+&e铁板&r合成"]
+			hide_dependency_lines: true
+			id: "268236D2459DF112"
+			tasks: [{
+				id: "0EEFE0418E67CAB6"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"7D327F9C22BE452B"
+				"4C2D558897FEFFD0"
+			]
+			description: [
+				"&e齿轮&r+&e安山机壳&r+&e搅拌器&r"
+				""
+				"&a用途"
+				"&r"
+				"&2加工物品"
+				"&r"
+				"&e动力搅拌器&r可以执行&9“混合搅拌”“自动搅拌”&r和&9“自动酿造”&r类型的配方。"
+				""
+				"&9“混合搅拌”&6为机械动力专为动力搅拌器设计的配方。"
+				""
+				"&9“自动搅拌”&6为自动适配的工作台&9无序合成&6配方（即在工作台中进行，对物品摆放位置没有要求的配方）。"
+				""
+				"&9“自动酿造”&6为自动适配的 &e酿造台&6 配方，并且可以用 1 个原料制作出 4 瓶药水（使用酿造台为 3 瓶）。所有自动酿造配方都需要&e烈焰人燃烧室&6的加热。"
+				""
+				"&2摆放"
+				""
+				"&e动力搅拌器&d需要配合 &e工作盆 &d加工物品。将动力搅拌器放置于&e工作盆&d上方第二格，当&e工作盆&d内有有效配方的物品时开始加工。"
+				""
+				"&d部分配方需要 &e烈焰人燃烧室&d 的加热，执行此类配方时需要将&e烈焰人燃烧室&d放置在工作盆下方并提供燃料。"
+			]
+			hide_dependency_lines: true
+			id: "53DE44A5EAD7AF0E"
+			tasks: [{
+				id: "0CA4B6A643DF40C1"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["218D820E1B686E0A"]
+			description: [
+				"&e安山合金&r（A）*2+&e铁板&r（I）*5"
+				""
+				"合成公式："
+				"[*  A  *]"
+				"[ I  A   I ]"
+				"[ I   I   I ]"
+			]
+			hide_dependency_lines: true
+			id: "7D327F9C22BE452B"
+			tasks: [{
+				id: "7B03CEE23E436DAE"
+				item: "create:whisk"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7A24AB33109A75D0"]
+			description: ["传动杆+木板"]
+			hide_dependency_lines: true
+			id: "4C2D558897FEFFD0"
+			tasks: [{
+				id: "36EC233E4D416689"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["53151D34227DC95D"]
+			description: [
+				"玩家手持&e 黄铜锭 &r对放置的&e去皮原木&r右击获得，或使用&e 机械手&r 以&e黄铜锭&r 使用 &e去皮原木&r获得 1 个。"
+				""
+				"用途："
+				""
+				"{ \"text\": \"同安山机壳\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2952FB847B40E226\" } }"
+			]
+			hide_dependency_lines: true
+			id: "12D15F1A9BF18FB3"
+			tasks: [{
+				id: "50D6DFF1B9C04F6C"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["12D15F1A9BF18FB3"]
+			description: [
+				"&e电子管&r+&e黄铜机壳&r+&e工作台&r合成"
+				""
+				"&a用途"
+				""
+				"&2物品合成"
+				""
+				"&e动力合成器可以执行“自动合成”以及“动力合成”配方。"
+				""
+				"“&9自动合成&r”配方是&6自动适配原版工作台中进行的所有配方&r，而“&6动力合成&r”配方是&6机械动力添加的特殊配方&r。"
+				""
+				"&c由于作者比较懒，因此没ban自动合成的阶段配方，因此，当你发现有配方仅有自动合成配方时，那就是阶段禁用的配方，使用是属于逃课玩法的"
+				""
+				"&c本整合不禁止逃课，但也不提倡，因为会缩减整合包寿命，并且已经给出了阶段解锁的方式，没必要逃课"
+				"{@pagebreak}"
+				"&2摆放与调整"
+				""
+				"使用&e动力合成器&r合成物品时须将&6动力合成器摆放为该物品配方的形状，形成一个合成结构。&r"
+				""
+				"&c若配方输入格存在不相邻部分，则需要补充额外的动力合成器"
+				"&r"
+				"接着，使用&e扳手&r调整合成结构的路径，以&6使合成器的合成路径相连&r。"
+				""
+				"合成路径需要且&c仅需要一个出口&r，否则物品不会被合成。"
+				"{@pagebreak}"
+				"&2材料输入与供能"
+				""
+				"玩家可以手持物品右击动力合成器的正面将其放入，空手右击则能取出物品。也可以通过漏斗等物流元件从各面输入物品。动力合成器也是动力臂可用的目标之一。"
+				""
+				"动力合成器需要在侧面使用齿轮供能。动力合成器本身也能够传递动力，因此一个合成结构只需在一处供能。"
+				"{@pagebreak}"
+				"&2运作"
+				""
+				"&b触发"
+				""
+				"&6当一个组成合成结构的所有动力合成器都被填满时，就会开始运作。&r"
+				""
+				"如果希望启动未填满的合成结构，可以对合成结构中的任意一个合成器&c输入红石信号&r以强制启动。"
+				""
+				"玩家可以在合成器上安装 合成器盖板，安装盖板的合成器不能储存物品，但是会被视为被填充的合成器。当其他合成器都被填充时，合成结构就会自动启动。"
+				""
+				"&b开始合成"
+				""
+				"运作时，合成结构上的材料会开始从末端往出口逐步靠拢，每步所需时间为 1000/合成器的RPM tick。"
+				""
+				"当所有材料到达末端时，会消耗 1 步所需的时间合成出成品，随后成品会被弹出。另外："
+				""
+				"如末端的合成器指向容器，则会将成品储存在该容器中。"
+				""
+				"如该配方不可用，则会在最后一步将全部材料作为掉落物弹出。"
+				""
+				"{@pagebreak}"
+				"&2连接"
+				""
+				"手持扳手对两个同一个面向的动力合成器的接缝处右击可以连接它们。向其中一个合成器输入物品时，会分配给所连接的所有合成器。"
+				""
+				"如果两个相邻的动力合成器通过其他的动力合成器实现了间接连接，则会主动建立直接连接。"
+				""
+				"在同一处再次使用扳手右击可以取消连接，取消时可能会主动改其他接缝来实现目标合成器的完全分离。"
+				"{@pagebreak}"
+				""
+				"&2合成速度"
+				""
+				"合成速度主要由动力合成器的转速决定，但其并不是唯一影响合成速度的因素。"
+				""
+				"合成所需的步数也会影响合成速度。它取决于合成结构的路径安排，使用更适合的路径可以减少步数从而提升效率。"
+			]
+			hide_dependency_lines: true
+			id: "41012B4FF36D2D11"
+			subtitle: "较为复杂，建议长按[W]进行俺寻思"
+			tasks: [{
+				id: "6BAB1B8F93A947EB"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["53151D34227DC95D"]
+			description: ["&e黄铜板&r*4+&e安山合金&r*1"]
+			hide_dependency_lines: true
+			id: "3E0AB136403DB44C"
+			shape: "gear"
+			tasks: [{
+				id: "0E92C68995E19FDD"
+				item: "create:brass_hand"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3E0AB136403DB44C"]
+			description: [
+				"&e电子元件&r+&e安山机壳&r+&e黄铜手部零件"
+				""
+				"&6一种可以模拟玩家操作的作业元件。&r"
+				""
+				"&a模式"
+				""
+				"机械手拥有两个模式：&2使用模式&r与&2攻击模式&r。使用扳手可以在两个模式之间切换："
+				""
+				"&2使用模式（”指指点点“）"
+				""
+				"可以模拟玩家的&9右键点击&r，如放置方块、与生物和方块互动等。"
+				""
+				"&2攻击模式（“握拳”）"
+				""
+				"可以模拟玩家的&9左键点击&r，如攻击生物、破坏方块等。"
+				""
+				"{@pagebreak}"
+				"&2运作"
+				""
+				"机械手接入动力后，其手部部分会不断伸缩，到达最远端时使用/攻击一次。"
+				""
+				"机械手的工作流程为：&6伸出 → 使用 / 攻击 → 收回  → 等待"
+				"&r"
+				"机械手的工作速率取决于转速"
+				""
+				"&c以下情况机械手不会工作："
+				""
+				"&c溢出（见下文）"
+				""
+				"&c未接入动力"
+				""
+				"&c手持的物品是目标方块的物品形态"
+				""
+				"&c手持的物品是目标流体的桶装形态"
+				""
+				"&c收到红石信号（如被激活时有未结束的周期，则等待该周期结束才停止运作）"
+				""
+				"{@pagebreak}"
+				"&2物品存取"
+				"&r"
+				"机械手拥有一组物品的储存空间，可以使用物流元件导入 / 出物品。"
+				""
+				"在机械手的过滤插槽放入物品 / 过滤器可以指定不能被输出的物品。"
+				""
+				"当机械手进行剪取羊毛、破坏方块、杀死生物等会产生掉落物的工作时，产生的物品会直接被储存在机械手内。若此时机械手内已有物品，产物会被转移到溢出空间内，机械手会变为溢出状态。即使使机械手使用间接方式造成伤害并杀死了生物，只要伤害来源是机械手，掉落物都会被转移到机械手的储存空间中。"
+				""
+				"{@pagebreak}"
+				"&c物品溢出"
+				"&r"
+				"当出现以下两种情况时，机械手将会进入溢出状态："
+				""
+				"机械手内含有多于一种物品。"
+				""
+				"机械手内的物品与过滤插槽内的物品不匹配。"
+				""
+				"溢出状态下机械手会停止工作，此时需要通过物流元件将这些溢出的物品取出机械手才能继续工作。"
+				""
+				"机械手附带过滤插槽，在其内放入使用中的工具可以防止工具被输出。"
+				""
+				"{@pagebreak}"
+				"&2喂食/繁殖&r"
+				""
+				"机械手在使用 / 放置模式下能够能消耗手中的食物对生物或玩家投喂，生物被投喂相应的食物后会进入繁殖状态。玩家被喂食时回复相应的饥饿值、饱和度和获得该食物附带的状态效果。"
+				""
+				"{@pagebreak}"
+				"&c物品加工"
+				""
+				"&6“使用”是一种机械手进行加工方式。需要将机械手放置于置物台 / 传送带之上，给予物品并对被加工物品进行处理，详见使用。"
+				""
+				"{@pagebreak}"
+				"&c动态结构&r"
+				""
+				"动态结构包含的机械手会在移动时运作，但是其手持的物品不会渲染。"
+				""
+				"可以右击动态结构上的机械手来给予机械手物品；也可以使用扳手右击来改变机械手的工作模式。"
+				""
+				"动态结构上的机械手可以自动调取动态结构存储空间内的物品并使用；也可以自动将溢出物品送入动态结构存储空间内。"
+				""
+				"当动态结构上的机械手内的过滤器为已部署的蓝图时，机械手会调用动态结构存储空间内的方块按照蓝图进行放置。这可以用于制作“3D 打印机”。"
+			]
+			id: "499F09FE7E2AAE94"
+			subtitle: "     &c神&e之&b手     \\n&d较为复杂，建议按[W]进行俺寻思"
+			tasks: [{
+				id: "73DC75BAD27D8C1F"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4344E892881440A6"]
+			hide_dependency_lines: true
+			icon: "create:cogwheel"
+			id: "4EEDB188D7689F86"
+			shape: "none"
+			title: "齿轮"
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4344E892881440A6"]
+			hide_dependency_lines: true
+			icon: "create:large_cogwheel"
+			id: "03C7428B1CAE41F8"
+			shape: "none"
+			title: "大齿轮"
+			x: 11.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4344E892881440A6"]
+			hide_dependency_lines: true
+			icon: "minecraft:iron_nugget"
+			id: "7C58C3660ED8240A"
+			shape: "none"
+			title: "铁粒"
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4344E892881440A6"]
+			hide_dependency_lines: true
+			icon: { Count: 5, id: "irons_spellbooks:invisibility_ring" }
+			id: "06322F8A56D0A651"
+			shape: "none"
+			title: "重复5次"
+			x: 13.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["499F09FE7E2AAE94"]
+			description: [
+				"&9序列装配配方："
+				"&r"
+				"输入&e金板&r，依次安装&e齿轮&r、&e大齿轮&r、&e铁粒&r，重复五次"
+				""
+				"&680%成功率&r"
+			]
+			hide_dependency_lines: true
+			id: "067C36F68D32B146"
+			tasks: [{
+				id: "5104C5508125CE94"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"41012B4FF36D2D11"
+				"067C36F68D32B146"
+			]
+			description: [
+				"&e精密构件&r*1+&e铁锭&r*4+&e银锭&r*4+&e磨制玫瑰石英&r*4+&e铅锭&r*8"
+				""
+				"配方请查看上方图片"
+			]
+			id: "0F339FCC90A5C817"
+			tasks: [{
+				id: "6702F3D5FB4720C4"
+				item: "wqjy:up_item_6"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.5d
+		}
+	]
+	title: "◇&a阶段1"
+}

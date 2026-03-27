@@ -1,9 +1,9 @@
 {
 	chapter_groups: [
 		{ id: "1212196CDDCD1199", title: "·&b开始" }
-		{ id: "71E4EFF8904A559D", title: "·&a阶段" }
+		{ id: "71E4EFF8904A559D", title: "·&a主线" }
 		{ id: "200DE5ABA2A71E38", title: "·&e商店" }
-		{ id: "3172704A8AED52C1", title: "·&6材料与其他" }
+		{ id: "3172704A8AED52C1", title: "·&6匠魂相关" }
 		{ id: "63383AA57008A157", title: "·&d简要方向" }
 		{ id: "457E9E90E1EE2E33", title: "·&c强敌" }
 		{ id: "4E1EC9498C14ECA0", title: "·&5可选（DLC）" }

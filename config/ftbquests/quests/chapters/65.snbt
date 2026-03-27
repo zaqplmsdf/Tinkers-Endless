@@ -1,0 +1,2522 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "65"
+	group: "71E4EFF8904A559D"
+	icon: "wqjy:eternal"
+	id: "66F906DC360428C0"
+	images: [
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			height: 3.9d
+			image: "jei:textures/jei/atlas/gui/ingredient_list_background.png"
+			order: -1
+			rotation: 0.0d
+			width: 3.9d
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			height: 1.3d
+			image: "jei:textures/jei/atlas/gui/ingredient_list_background.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.3d
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "youkaishomecoming:item/crops/udumbara_flower"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_17"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_13"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_7"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_6"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_item_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/cai"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/eternal"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/hong"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/wqjy_logo"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: 7.5d
+		}
+		{
+			height: 11.7d
+			image: "jei:textures/jei/atlas/gui/ingredient_list_background.png"
+			order: -1
+			rotation: 0.0d
+			width: 11.7d
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 17.5d
+			y: 3.5d
+		}
+		{
+			height: 1.3d
+			image: "jei:textures/jei/atlas/gui/ingredient_list_background.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.3d
+			x: 19.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/gaiya"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/hundun"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/cai"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/cai"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/cai"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/cai"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/cai"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/cai"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/cai"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/cai"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/cai"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/cai"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/cai"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/cai"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/cai"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/cai"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/cai"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/world"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/world"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/world"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/world"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/world"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/world"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/world"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/world"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/world"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/world"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/world"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/world"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/world"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/world"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/world"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/hong"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/hong"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/hong"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/hong"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/hong"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/hong"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/hong"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/hong"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/hong"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/hong"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/hong"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/hong"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/hong"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/hong"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/hong"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/eternal"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/eternal"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/eternal"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/eternal"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/eternal"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/eternal"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/eternal"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/eternal"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/eternal"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/eternal"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/eternal"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/eternal"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/eternal"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/eternal"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/eternal"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/eternal"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/eternal"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/eternal"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/eternal"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/world"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/world"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/world"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/world"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/hong"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/hong"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/hong"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/cai"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/cai"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/cai"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/cai"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/up_6"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/wq_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "wqjy:item/zhang_1"
+			rotation: 45.0d
+			width: 1.0d
+			x: 12.425000000000054d
+			y: 3.6880952380952294d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			height: 3.9d
+			image: "jei:textures/jei/atlas/gui/ingredient_list_background.png"
+			order: -1
+			rotation: 0.0d
+			width: 3.9d
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			height: 1.3d
+			image: "jei:textures/jei/atlas/gui/ingredient_list_background.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.3d
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/nether_star"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -4.5d
+		}
+	]
+	order_index: 6
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["03185E5A96617E68"]
+			description: [
+				"相关链接"
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4631894C0583BD96\" } }"
+			]
+			icon: "wqjy:hundun"
+			id: "0DADE3BBE4B1E484"
+			rewards: [{
+				id: "1E66E4FBDDF5EF63"
+				item: "wqjy:hundun"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "draconicevolution:draconic_guardian"
+				id: "13657C8E3E619D3A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["03185E5A96617E68"]
+			description: [
+				"相关链接："
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"03089997C59957E5\" } }"
+			]
+			icon: "wqjy:gaiya"
+			id: "3F04A0838131F174"
+			rewards: [{
+				id: "27C002B41F791F7F"
+				item: "wqjy:gaiya"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "extrabotany:main/gaia_trial"
+				criterion: ""
+				id: "486409D0F024F913"
+				type: "advancement"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["276486BA5B9B3832"]
+			dependency_requirement: "all_started"
+			hide_until_deps_complete: true
+			id: "03185E5A96617E68"
+			rewards: [{
+				id: "09FF3FEA9AF5195B"
+				item: "extrabotany:challenge_ticket"
+				type: "item"
+			}]
+			subtitle: "晋升事宜"
+			tasks: [{
+				id: "451C8A771DE2A8DC"
+				title: "主要流程"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03185E5A96617E68"]
+			icon: "wqjy:myth"
+			id: "1A9E00F388DD0F87"
+			rewards: [{
+				id: "5EF52716752FB9D0"
+				item: {
+					Count: 1
+					id: "create:schematic"
+					tag: {
+						Anchor: {
+							X: 0
+							Y: 0
+							Z: 0
+						}
+						Bounds: [
+							5
+							5
+							5
+						]
+						Deployed: 0b
+						File: "电弧炉.nbt"
+						Mirror: "NONE"
+						Owner: "The_X_One"
+						Rotation: "NONE"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "668EEFE610D62D2F"
+				title: "神话锭"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A9E00F388DD0F87"]
+			description: [""]
+			id: "1AC0C9BD476A05C8"
+			tasks: [
+				{
+					id: "36C91C1F2531F480"
+					item: "botania:ender_air_bottle"
+					type: "item"
+				}
+				{
+					id: "339884322FF40388"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+				{
+					id: "666180169C0F599A"
+					item: "botania:dragonstone"
+					type: "item"
+				}
+			]
+			title: "准备"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1AC0C9BD476A05C8"]
+			description: ["使用&e泰拉凝聚板&r合成"]
+			id: "7DD13EAED4117D5D"
+			tasks: [{
+				id: "066AFF128E1A5463"
+				item: "extrabotany:aerialite_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A9E00F388DD0F87"]
+			description: ["&e煤炭&a扔进&e存在魔力的魔力池&a中转化"]
+			id: "1283E88CFDE5C1B4"
+			tasks: [{
+				id: "380F488CB4089CBB"
+				item: "extrabotany:nightmare_fuel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1283E88CFDE5C1B4"]
+			description: ["&a食用&e梦魇燃料&a获取"]
+			id: "0B37BCF23A0C348E"
+			tasks: [{
+				id: "063E56B2B3E31A15"
+				item: "extrabotany:spirit_fuel"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78109B4DCC4A4E78"]
+			id: "1E27A18225332872"
+			tasks: [{
+				id: "599D9F6819CC4E53"
+				item: "extrabotany:spirit_fragment"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0B37BCF23A0C348E"
+				"1CC821BA07504959"
+			]
+			id: "78109B4DCC4A4E78"
+			tasks: [
+				{
+					id: "3954ADC8AAE0A43C"
+					item: "extrabotany:pedestal_livingrock"
+					type: "item"
+				}
+				{
+					id: "6958D10CE06DBDF4"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "extrabotany:hammers"
+						}
+					}
+					title: "Any #extrabotany:hammers"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1A9E00F388DD0F87"]
+			hide_dependency_lines: true
+			id: "6C199913E1F60BCD"
+			tasks: [{
+				id: "2643C3561FFFACE4"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["78109B4DCC4A4E78"]
+			id: "675C806C5180E38C"
+			tasks: [{
+				id: "58BA998D675E1B7B"
+				item: "extrabotany:gilded_potato_mashed"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1A9E00F388DD0F87"]
+			id: "1CC821BA07504959"
+			tasks: [{
+				id: "5D011FD7CE7FA727"
+				item: "extrabotany:gilded_potato"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6C199913E1F60BCD"
+				"1E27A18225332872"
+				"675C806C5180E38C"
+			]
+			description: ["在&e符文祭坛&r合成"]
+			id: "049194FD44584FBF"
+			tasks: [{
+				id: "444D1E24CBC645BC"
+				item: "extrabotany:photonium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"675C806C5180E38C"
+				"1283E88CFDE5C1B4"
+			]
+			description: ["在&e符文祭坛&r合成"]
+			id: "40ABCE1C4ABC9206"
+			tasks: [{
+				id: "7952D29E04BD65E2"
+				item: "extrabotany:shadowium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1A9E00F388DD0F87"]
+			hide_dependency_lines: true
+			id: "157CA49945FF1269"
+			tasks: [{
+				id: "7EDB573BB610275F"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"157CA49945FF1269"
+				"7DD13EAED4117D5D"
+				"049194FD44584FBF"
+				"40ABCE1C4ABC9206"
+			]
+			description: ["使用&e电弧炉&r或&e冶炼炉&r合金获取"]
+			id: "38621FF9DA885BB8"
+			tasks: [{
+				id: "5809681051BFBF7C"
+				item: "wqjy:myth"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6BE5177703BAF421"]
+			description: ["&e巨型圆石*1&a+&e大地之心碎片*8"]
+			id: "3F4F991A9C3CDD7A"
+			tasks: [{
+				id: "07CC5DD9EFDAC832"
+				item: "wqjy:world"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["50034BCFD49BB026"]
+			description: ["&d暮色森林&a挖掘获取，或&e64*圆石&a在&e富集仓&a制做"]
+			id: "6BE5177703BAF421"
+			tasks: [{
+				id: "3F4234BC903B1229"
+				item: "twilightforest:giant_cobblestone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["03185E5A96617E68"]
+			icon: "wqjy:world"
+			id: "50034BCFD49BB026"
+			tasks: [{
+				id: "3A0760FC9CE77708"
+				title: "世界水晶"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["03185E5A96617E68"]
+			icon: "wqjy:eternal"
+			id: "2E517EDECF50C270"
+			tasks: [{
+				id: "6DFD28B2DF288B85"
+				title: "永恒石"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E517EDECF50C270"]
+			id: "6B5B6E138A38C8CC"
+			tasks: [{
+				count: 2L
+				id: "62746B112BD556B5"
+				item: { Count: 2, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6B5B6E138A38C8CC"]
+			description: ["&e粉碎轮&a粉碎&e红物质方块&a获取"]
+			id: "495015EC3A6B17C0"
+			tasks: [{
+				id: "258FBF2875083073"
+				item: "wqjy:eternal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["03185E5A96617E68"]
+			icon: "wqjy:hong"
+			id: "2C48AC5BA812DFE0"
+			tasks: [{
+				id: "694FFA25305DD0E9"
+				title: "虹彩锭"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C48AC5BA812DFE0"]
+			id: "3F408CA7F41ED0FF"
+			rewards: [{
+				id: "3722E5363B09F04E"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0D895D4F47FA4CDF"
+					item: "avaritia:neutron_gear"
+					type: "item"
+				}
+				{
+					id: "7CBE7DE4787E75AB"
+					item: "avaritia:crystal_matrix_ingot"
+					type: "item"
+				}
+				{
+					id: "508C27BBA68E0AC3"
+					item: "avaritia:neutron_ingot"
+					type: "item"
+				}
+			]
+			title: "准备"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3F408CA7F41ED0FF"]
+			description: ["&e中子齿轮&a+&e水晶矩阵锭&a+&e中子锭&a在&e锻造台&a合成"]
+			id: "08BB07D60CA97C7C"
+			tasks: [{
+				id: "7D732C593C59D647"
+				item: "wqjy:hong"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["03185E5A96617E68"]
+			icon: "wqjy:wqjy_logo"
+			id: "70F5A891104F29EF"
+			tasks: [{
+				id: "624F8A0A61CC94CB"
+				title: "看板娘"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["70F5A891104F29EF"]
+			description: ["&e幻昙花叶片&a可通过&d商店-兑换-左上角位置&a的&d怪物们的归家种子盒&a任务兑换"]
+			id: "706556692BA0584D"
+			tasks: [
+				{
+					id: "306287E22286A5DD"
+					item: "wqjy:myth"
+					type: "item"
+				}
+				{
+					id: "7B871C3BC33E59AC"
+					item: "wqjy:up_item_6"
+					type: "item"
+				}
+				{
+					id: "0F1EA8D0D468ABE1"
+					item: "wqjy:eternal"
+					type: "item"
+				}
+				{
+					id: "41C01DAE7AB8C5C7"
+					item: "wqjy:up_item_1"
+					type: "item"
+				}
+				{
+					id: "0B7C7416F23202A3"
+					item: "wqjy:up_item_7"
+					type: "item"
+				}
+				{
+					id: "0EB6D7F8CC4EB815"
+					item: "wqjy:up_item_13"
+					type: "item"
+				}
+				{
+					id: "4232624A4590CC0B"
+					item: "wqjy:up_item_2"
+					type: "item"
+				}
+				{
+					id: "08CB8ACDCFF60B86"
+					item: "wqjy:up_item_17"
+					type: "item"
+				}
+				{
+					id: "696118124834D442"
+					item: "youkaishomecoming:udumbara_flower"
+					type: "item"
+				}
+			]
+			title: "材料"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["706556692BA0584D"]
+			id: "411103380DA108BD"
+			tasks: [{
+				id: "695122A5A3A6BE09"
+				item: "wqjy:wqjy_logo"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["03185E5A96617E68"]
+			icon: "wqjy:zhang_1"
+			id: "2D7CE1A4FFE8070D"
+			tasks: [{
+				id: "3619F7B0CAE5EBAF"
+				title: "遗忘断杖"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["03185E5A96617E68"]
+			hide_dependent_lines: true
+			icon: "wqjy:jian"
+			id: "5EA9065F851B5A9F"
+			tasks: [{
+				id: "71ADEEF7EDC1CB14"
+				title: "断境残锋"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["03185E5A96617E68"]
+			description: ["只能前往一个"]
+			icon: "minecraft:dragon_head"
+			id: "09D2A15CEC0508BF"
+			rewards: [{
+				command: "/tp @p 10000 ~ 0"
+				elevate_perms: true
+				id: "5817DDC3375552A1"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "31C62FF61FFEC0A5"
+				item: { Count: 16, id: "thermal:netherite_coin" }
+				type: "item"
+			}]
+			title: "前往混沌龙岛"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D7CE1A4FFE8070D"]
+			id: "14E14B82621F583A"
+			tasks: [
+				{
+					id: "1E9DDB70C587FEFD"
+					item: "irons_spellbooks:ice_staff"
+					type: "item"
+				}
+				{
+					id: "0FC044667863E864"
+					item: "irons_spellbooks:blood_staff"
+					type: "item"
+				}
+				{
+					id: "6D0705C4A04BD2DE"
+					item: "irons_spellbooks:lightning_rod"
+					type: "item"
+				}
+				{
+					id: "6FA0401E70C02D8D"
+					item: "irons_spellbooks:artificer_cane"
+					type: "item"
+				}
+			]
+			title: "所需材料"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2D7CE1A4FFE8070D"]
+			id: "21DA8F73B6C97516"
+			subtitle: "是的，死者之王的刷怪蛋可以制作"
+			tasks: [{
+				id: "06094A0698B75346"
+				item: "irons_spellbooks:dead_king_corpse_spawn_egg"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["14E14B82621F583A"]
+			id: "012F7580752B8A72"
+			tasks: [{
+				id: "5A5664BBA95E7ADF"
+				item: "wqjy:up_item_20"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["012F7580752B8A72"]
+			description: ["&e奥法残片&r+&e任意法杖&r*8"]
+			id: "7A04F410D1DAFC7A"
+			tasks: [{
+				id: "0EE5885532FA1A0B"
+				item: "wqjy:zhang_1"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5EA9065F851B5A9F"]
+			description: [
+				"生命锭+绿宝石*2"
+				""
+				"生命锭：高炉烧制不死图腾获得"
+			]
+			id: "229B8197998A2EB0"
+			tasks: [{
+				id: "399EC855F04E9A59"
+				item: {
+					Count: 1
+					id: "l2complements:totemic_gold_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"093DF544A8BA9F63"
+				"47BD667EDA92E605"
+				"432578FA5E9632DC"
+				"4C2084D6A8C9AF1A"
+				"5043F257EE2A20FB"
+				"229B8197998A2EB0"
+				"0FF4F37DD855B63B"
+				"5BF9A1767562F5F5"
+			]
+			hide_dependency_lines: true
+			id: "29F76957C7124E69"
+			tasks: [{
+				id: "1EFE054757612EBD"
+				item: "wqjy:up_item_19"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5EA9065F851B5A9F"]
+			description: [
+				"海晶碎片+海神锭*2"
+				""
+				"海神锭：高炉烧制三叉戟获得"
+				""
+				"三叉戟：可使用幽匿工作台合成"
+			]
+			id: "5BF9A1767562F5F5"
+			tasks: [{
+				id: "64E69CE16EE4177B"
+				item: {
+					Count: 1
+					id: "l2complements:poseidite_sword"
+					tag: {
+						Damage: 0
+						UserInWater: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5EA9065F851B5A9F"]
+			description: ["天使加护+天使之翼*2+天使神降+逐日之翼*2+裂空结晶*2+生命剑"]
+			id: "093DF544A8BA9F63"
+			subtitle: "&a所需大部分材料可在&d兑换-莱特兰材料处&a兑换获得"
+			tasks: [{
+				id: "4F07BBFDDCC6F151"
+				item: {
+					Count: 1
+					id: "curseofpandora:angelic_judgement"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5EA9065F851B5A9F"]
+			id: "5043F257EE2A20FB"
+			subtitle: "&a所需大部分材料可在&d兑换-莱特兰材料处&a兑换获得"
+			tasks: [{
+				id: "3FB33ED833A22E26"
+				item: {
+					Count: 1
+					id: "curseofpandora:cursed_karma"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5EA9065F851B5A9F"]
+			id: "432578FA5E9632DC"
+			tasks: [{
+				id: "56E0DD1C078AB9FF"
+				item: {
+					Count: 1
+					id: "l2complements:sculkium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5EA9065F851B5A9F"]
+			id: "0FF4F37DD855B63B"
+			subtitle: "&a所需大部分材料可在&d兑换-莱特兰材料处&a兑换获得"
+			tasks: [{
+				id: "2D0ED2A6FBA1BE25"
+				item: {
+					Count: 1
+					id: "curseofpandora:abyssal_edge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5EA9065F851B5A9F"]
+			id: "4C2084D6A8C9AF1A"
+			tasks: [{
+				id: "24CAC37274B421B4"
+				item: {
+					Count: 1
+					id: "l2complements:shulkerate_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5EA9065F851B5A9F"]
+			id: "47BD667EDA92E605"
+			subtitle: "&a所需大部分材料可在&d兑换-莱特兰材料处&a兑换获得"
+			tasks: [{
+				id: "15D7CC77F667A704"
+				item: {
+					Count: 1
+					id: "curseofpandora:doom_star"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["29F76957C7124E69"]
+			description: ["&e锻铸粉尘&a+&e任意剑&a*8"]
+			id: "795D610B7179740E"
+			tasks: [{
+				id: "4BFF6DFDE68B2B9D"
+				item: "wqjy:jian"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+	]
+	title: "◇&6阶段5"
+}
