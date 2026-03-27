@@ -118,6 +118,7 @@
 				"002A8323600F86EC"
 				"03FA631D240E88AA"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"解锁："
 				"&e沉浸工程相关&r"
@@ -601,6 +602,7 @@
 				"002A8323600F86EC"
 				"03FA631D240E88AA"
 			]
+			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "wqjy:up_1"
@@ -628,6 +630,7 @@
 				"13F5243DDC69E2B5"
 				"03FA631D240E88AA"
 			]
+			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "wqjy:up_2"
