@@ -938,7 +938,7 @@
 		}
 		{
 			dependencies: ["14DCFFAA5BDE7354"]
-			description: ["&a在jei搜索&r&e$stage_&r+&d当前阶段的数字&r&e（0-6）&r&a可查看当前阶段解锁后可使用的材料&r"]
+			description: ["可通过材料图鉴查看，非❓️纹理的材料即为当前可使用的材料"]
 			id: "6E75E0F50399157D"
 			tasks: [{
 				id: "60CB16AC1A3514CD"
@@ -950,10 +950,9 @@
 		}
 		{
 			dependencies: [
+				"043C8087D2FE08E1"
 				"002A8323600F86EC"
-				"03FA631D240E88AA"
 			]
-			dependency_requirement: "one_completed"
 			hide_until_deps_complete: true
 			id: "3FB698E18F262FD2"
 			rewards: [{

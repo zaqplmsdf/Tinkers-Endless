@@ -1,0 +1,25 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/7746/490/cupboard-1.20.1-3.5.jar"
+priority = "curseforge"
+
+[basic]
+identifier = "Cupboard"
+type = "mod"
+file_name = "cupboard-1.20.1-3.5.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§2(server/Client-side)Cupboard"
+
+[tip]
+en_us = "§2(server/Client-side)Cupboard"
+zh_cn = "§2(服/客户端)Cupboard前置"

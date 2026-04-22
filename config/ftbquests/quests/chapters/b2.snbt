@@ -462,11 +462,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"13F5243DDC69E2B5"
-				"03FA631D240E88AA"
-			]
-			dependency_requirement: "one_completed"
+			dependencies: ["13F5243DDC69E2B5"]
 			hide_until_deps_complete: true
 			id: "530723787F1AB5B6"
 			tasks: [{

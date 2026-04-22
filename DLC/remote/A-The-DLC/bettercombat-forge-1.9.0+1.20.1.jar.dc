@@ -1,0 +1,25 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = ["https://mediafilez.forgecdn.net/files/7287/334/bettercombat-forge-1.9.0%2B1.20.1.jar"]
+priority = ["curseforge", "modrinth", "directUrl"]
+
+[basic]
+identifier = "betterc"
+file_name = "bettercombat-forge-1.9.0+1.20.1.jar"
+type = "mod"
+RedirectUrl = ""
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+dependencies = []
+conflicts = []
+alarm = false
+
+[DisplayName]
+zh_cn = "更好的战斗"
+
+[tip]
+zh_cn = "本模组提供了来自《我的世界：地下城》的精美的攻击动画，且包含多个单手、双手和双持攻击动画资源，与准确的武器碰撞箱检测。"

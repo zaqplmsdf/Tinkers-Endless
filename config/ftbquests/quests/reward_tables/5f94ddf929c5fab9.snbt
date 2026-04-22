@@ -1,7 +1,7 @@
 {
 	id: "5F94DDF929C5FAB9"
 	loot_size: 1
-	order_index: 9
+	order_index: 10
 	rewards: [
 		{ item: "minecraft:shaper_armor_trim_smithing_template" }
 		{ item: "minecraft:raiser_armor_trim_smithing_template" }

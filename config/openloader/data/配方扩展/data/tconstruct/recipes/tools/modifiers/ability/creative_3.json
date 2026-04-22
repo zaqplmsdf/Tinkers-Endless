@@ -8,6 +8,6 @@
   ],
   "result": "tconstruct:creative_3",
   "tools": {
-    "tag": "tconstruct:modifiable"
+    "tag": "tconstruct:modifiable/bonus_slots"
   }
 }

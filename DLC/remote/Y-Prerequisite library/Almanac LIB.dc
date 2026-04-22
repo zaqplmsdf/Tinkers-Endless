@@ -1,0 +1,25 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = "1115285"
+curseforge_fileid = "5803518"
+directUrl = ""
+priority = "curseforge"
+
+[basic]
+identifier = "Almanac LIB"
+type = "mod"
+file_name = "almanac-1.20.x-forge-1.0.2.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§2(server/Client-side)Almanac LIB"
+
+[tip]
+en_us = "§2(server/Client-side)Almanac LIB"
+zh_cn = "§2(服/客户端)Almanac LIB前置"

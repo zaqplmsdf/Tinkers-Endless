@@ -1,0 +1,25 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/7208/557/createthreadedtrains-forge-1.20.1-1.0.0.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "Create Threaded Trains"
+type = "mod"
+file_name = "createthreadedtrains-forge-1.20.1-1.0.0.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§6(Client/Server)Create Threaded Trains"
+
+[tip]
+en_us = "§6(Client/Server)This mod moves railway network calculations to a separate thread, running them concurrently with other in-tick tasks, which reduces the time consumed per game tick."
+zh_cn = "§6(客户端/服)该模组将铁路网的计算转移至另一个线程，与游戏刻内的其他任务同时开始计算，这能够减少每刻的时间。"

@@ -1,0 +1,29 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/7088/113/corpsecurioscompat-1.20.1-Forge-3.1.3.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "corpse_1"
+type = "mod"
+file_name = "corpsecurioscompat-1.20.1-Forge-3.1.3.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+alarm = false
+dependencies = [
+  "BaguetteLib",
+  "Corpse"
+]
+conflicts = ""
+
+[DisplayName]
+en_us = "Corpse x Curios API Compat"
+zh_cn = "遗体curiosaps兼容"
+
+[tip]
+en_us = "Added compatible content for the Corpse mod and Curios API."
+zh_cn = "（服务端需装、客户端需装）为遗体mod和Curios API添加了兼容内容。（如果你需要开启死亡不掉落请不要开启遗体系列mod）"

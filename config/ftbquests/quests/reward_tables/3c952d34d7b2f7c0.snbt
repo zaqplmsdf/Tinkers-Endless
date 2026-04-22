@@ -1,7 +1,7 @@
 {
 	id: "3C952D34D7B2F7C0"
 	loot_size: 1
-	order_index: 13
+	order_index: 14
 	rewards: [
 		{
 			command: "/curios add ring @p 1"

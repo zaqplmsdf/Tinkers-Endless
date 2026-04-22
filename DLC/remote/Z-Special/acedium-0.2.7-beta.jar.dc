@@ -1,0 +1,25 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://files.zohopublic.com.cn/public/workdrive-public/download/4oaq41fe63992677346aa8d29ce57db6413fa"
+priority = "modrinth"
+
+[basic]
+identifier = "Acedium"
+type = "mod"
+file_name = "acedium-0.2.7-beta.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§4(Client-side)Acedium"
+
+[tip]
+en_us = "§4(Client-side)Requires NVIDIA GTX 1600 series or newer to run. AMD GPUs are not supported. Significantly improves base frame rate. Using shaders may cause insufficient VRAM and lead to crashes—please monitor your VRAM usage."
+zh_cn = "§4(客户端)需要  NVIDIA GTX 1600 系列或更新版本才能运行、不支持A卡 大幅度提高基础帧率（开光影可能会导致显存不够爆显！请注意显存）"

@@ -22,8 +22,7 @@
   "windowsCompatibilitySettings": {
     "enableConversionStatusApi": true,
     "enableCursorPositionTracking": true,
-    "enableCompositionFontTweaks": true,
-    "enableIngameIME": false
+    "enableCompositionFontTweaks": true
   },
   "linuxCompatibilitySettings": {
     "enableKeyboardPatch": true,

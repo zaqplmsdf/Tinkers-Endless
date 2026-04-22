@@ -3047,11 +3047,7 @@
 			y: -5.5d
 		}
 		{
-			description: [
-				"&c已配备其他的方式，材料图鉴不再更新"
-				"&r"
-				"&a在jei搜索&r&e$stage_&r+&d当前阶段的数字&r&e（0-6）&r&a可查看当前阶段解锁后可使用的材料&r"
-			]
+			description: [""]
 			id: "20A3D9C4534FDB2E"
 			subtitle: "暂不添加详细说明，请使用jei查看材料数据"
 			tasks: [{

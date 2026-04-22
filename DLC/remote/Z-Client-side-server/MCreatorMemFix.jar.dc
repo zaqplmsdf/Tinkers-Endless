@@ -1,0 +1,25 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/7150/962/MCreatorMemFix-1.0.4.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "MCreatorMemFix"
+type = "mod"
+file_name = "MCreatorMemFix-1.0.4.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§6(服/客户端)MCreator修复"
+
+[tip]
+en_us = "§6(server/Client-side)This mod fixes a large memory allocation bug in MCreator for Forge 1.20.1. Conflicts may occur if other mods also modify the same class files of MCreator. Do not use this mod if you do not have MCreator mods installed."
+zh_cn = "§6(服/客户端)此模组修复了 MCreator 在 Forge 1.20.1 版本中的大内存分配错误 当其他模组也修改 MCreator 模组的相同类文件时，可能会发生冲突 没装MCreatorMOD不要使用"

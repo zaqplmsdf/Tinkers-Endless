@@ -1,0 +1,26 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/5937/939/dimthread-FORGE-mc1.20.1-v1.2.1.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "Dimensional Threading Reforked"
+type = "mod"
+file_name = "dimthread-FORGE-mc1.20.1-v1.2.1.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§4(server/Client-side)Dimensional Threading Reforked"
+zh_cn = "§4(服/客户端)多线程优化"
+
+[tip]
+en_us = "§4Warning: This mod may cause serious issues! Use with caution! It could corrupt your world! Always back up your save before using! Uses multithreading to improve Minecraft performance."
+zh_cn = "§4警告:此mod可能会有大问题！谨慎开启！并且可能炸档！如果使用请备份存档！利用多线程来提高MC性能"

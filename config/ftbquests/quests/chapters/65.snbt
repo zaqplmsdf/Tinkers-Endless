@@ -2154,7 +2154,7 @@
 		}
 		{
 			dependencies: ["70F5A891104F29EF"]
-			description: ["&e幻昙花叶片&a可通过&d商店-兑换-右上角位置&a的&d怪物们的归家种子盒&a任务兑换"]
+			description: ["&e幻昙花叶片&a可通过&d商店-兑换-左上角位置&a的&d怪物们的归家种子盒&a任务兑换"]
 			id: "706556692BA0584D"
 			tasks: [
 				{
@@ -2320,7 +2320,7 @@
 		}
 		{
 			dependencies: ["012F7580752B8A72"]
-			description: ["&e奥法残片&r+&e任意法杖&r*7+&e锻造模板·远古升级"]
+			description: ["&e奥法残片&r+&e任意法杖&r*8"]
 			id: "7A04F410D1DAFC7A"
 			tasks: [{
 				id: "0EE5885532FA1A0B"
@@ -2507,7 +2507,7 @@
 		}
 		{
 			dependencies: ["29F76957C7124E69"]
-			description: ["&e锻铸粉尘&a+&e任意剑&a*7+&e锻造模板·远古升级"]
+			description: ["&e锻铸粉尘&a+&e任意剑&a*8"]
 			id: "795D610B7179740E"
 			tasks: [{
 				id: "4BFF6DFDE68B2B9D"

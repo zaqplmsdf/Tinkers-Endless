@@ -193,6 +193,11 @@
 					type: "item"
 				}
 				{
+					id: "0EF86D99C4685BD4"
+					item: "dummmmmmy:target_dummy"
+					type: "item"
+				}
+				{
 					id: "1A33861E30BA3DB7"
 					item: {
 						Count: 1
@@ -201,11 +206,6 @@
 							"patchouli:book": "srelic:acg_book"
 						}
 					}
-					type: "item"
-				}
-				{
-					id: "777E842D53E0C10B"
-					item: "powerful_dummy:dummy_stand"
 					type: "item"
 				}
 			]

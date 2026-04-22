@@ -1,0 +1,26 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/7463/766/fastnbt-1.20.1-1.2-forge.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "fastnbt"
+type = "mod"
+file_name = "fastnbt-1.20.1-1.2-forge.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§6(Client-side)fastnbt"
+zh_cn = "§6(客户端)快速NBT"
+
+[tip]
+en_us = "§6(Client-side)Mostly compatible May occasionally cause items to disappear when inserted and then removed"
+zh_cn = "§6(客户端)大多数兼容 最多会出现放入在放出然后东西消失的BUG"

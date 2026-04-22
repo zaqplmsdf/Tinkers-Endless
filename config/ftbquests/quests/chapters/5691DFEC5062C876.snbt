@@ -18,6 +18,15 @@
 			y: 2.5d
 		}
 		{
+			dependency: "35ACD1962D72E6DF"
+			height: 1.0d
+			image: "avaritia:item/tools/infinity_crossbow/pull_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 4.5d
+		}
+		{
 			height: 1.5d
 			image: "thermal:item/bronze_coin_0"
 			rotation: 0.0d
@@ -1559,6 +1568,14 @@
 		}
 		{
 			height: 1.0d
+			image: "wqjy:item/cat"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
 			image: "farmersdelight:item/cabbage_seeds"
 			rotation: 0.0d
 			width: 1.0d
@@ -1782,9 +1799,7 @@
 							Creative: 1b
 						}
 					}
-					match_nbt: true
 					type: "item"
-					weak_nbt_match: true
 				}
 			]
 			title: "&5全类型创造弹药盒"
@@ -2165,7 +2180,6 @@
 				"2663F92195AC57A6"
 				"1AD033F330CB07A6"
 			]
-			hide_until_deps_complete: true
 			icon: "botania:bauble_box"
 			id: "3C22DBED3A91F1A3"
 			rewards: [{
@@ -2182,7 +2196,7 @@
 				type: "item"
 			}]
 			title: "抽卡"
-			x: -4.5d
+			x: -6.5d
 			y: -2.5d
 		}
 		{
@@ -2202,7 +2216,7 @@
 				type: "item"
 			}]
 			title: "灵魂"
-			x: -6.5d
+			x: -5.5d
 			y: -2.5d
 		}
 		{
@@ -2395,6 +2409,459 @@
 			y: -1.5d
 		}
 		{
+			can_repeat: false
+			dependencies: ["35ACD1962D72E6DF"]
+			description: [
+				"&m是的，它其实可以升级！&r"
+				"&m在升级到最高等级前，只能修复，千万&4不能强化&r"
+				"&m否则将无法继续升级"
+				""
+				"&c由于现版本已可以正常替换连弩部件，因此该任务条目已无效&r"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tinkers_thinking:repeating_crossbow"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: ["{\"text\":\"§6没想到吧，其实是可以升级的！\"}"]
+						Name: "{\"text\":\"§f稍加强化骨弩\"}"
+					}
+					etstlib_tool_uuid: "9d089d4d-32ea-4ce0-ac74-1128b56152ec"
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:bone"
+						"tconstruct:bone"
+						"cloudertinker:arctic_fur"
+					]
+					tic_modifiers: [
+						{
+							level: 2
+							name: "tconstruct:pierce"
+						}
+						{
+							level: 1
+							name: "cloudertinker:twilight"
+						}
+						{
+							level: 1
+							name: "cloudertinker:frosttought"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.6f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:accuracy": 0.85f
+						"tconstruct:attack_damage": 3.25f
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:draw_speed": 0.85f
+						"tconstruct:durability": 120.0f
+						"tconstruct:velocity": 0.95f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			id: "2D3009F79EEB42BA"
+			rewards: [{
+				id: "4FAE7A8423119904"
+				item: {
+					Count: 1
+					id: "tinkers_thinking:repeating_crossbow"
+					tag: {
+						Damage: 0
+						display: {
+							Lore: ["{\"text\":\"§6没想到吧，其实是可以升级的！\"}"]
+							Name: "{\"text\":\"§f稍加强化骨弩\"}"
+						}
+						etstlib_tool_uuid: "9d089d4d-32ea-4ce0-ac74-1128b56152ec"
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:bone"
+							"tconstruct:bone"
+							"cloudertinker:arctic_fur"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+							{
+								level: 2
+								name: "tconstruct:pierce"
+							}
+							{
+								level: 1
+								name: "cloudertinker:twilight"
+							}
+							{
+								level: 1
+								name: "cloudertinker:frosttought"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.6f
+						}
+						tic_persistent: {
+							abilities: -1
+							"tconstruct:creative": {
+								upgrades: -2
+							}
+						}
+						tic_stats: {
+							"tconstruct:accuracy": 0.85f
+							"tconstruct:attack_damage": 3.25f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:draw_speed": 0.85f
+							"tconstruct:durability": 120.0f
+							"tconstruct:velocity": 0.95f
+						}
+						tic_upgrades: [
+							{
+								level: 1
+								name: "tinker_transplant:reload_tinker_arrows"
+							}
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+						]
+						tic_volatile_data: {
+							abilities: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "78853AAC9941BF0D"
+					item: {
+						Count: 1
+						id: "tinkers_thinking:repeating_crossbow"
+						tag: {
+							Damage: 0
+							display: {
+								Lore: ["{\"text\":\"§6可以一次性装填三根箭，但是无法升级\"}"]
+								Name: "{\"text\":\"§7前途渺茫连弩\"}"
+							}
+							etstlib_tool_uuid: "bd534006-fafa-4bf7-95aa-98addda3a071"
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:wood"
+								"tconstruct:wood"
+								"cloudertinker:arctic_fur"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+								{
+									level: 2
+									name: "tconstruct:cultivated"
+								}
+								{
+									level: 2
+									name: "mushroom_daydream:ecological"
+								}
+								{
+									level: 1
+									name: "cloudertinker:twilight"
+								}
+								{
+									level: 1
+									name: "cloudertinker:frosttought"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.6f
+							}
+							tic_persistent: {
+								abilities: -1
+								"tconstruct:creative": {
+									upgrades: -2
+								}
+							}
+							tic_stats: {
+								"tconstruct:attack_damage": 1.0f
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:draw_speed": 0.8f
+								"tconstruct:durability": 96.0f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tinker_transplant:reload_tinker_arrows"
+								}
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					count: 64L
+					id: "20391CA8C97808D7"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "56453283C042D465"
+					item: { Count: 16, id: "thermal:copper_coin" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["2D3009F79EEB42BA"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tinkers_thinking:repeating_crossbow"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: [
+							"{\"text\":\"§6二次升级后已经是龙骨材质了\"}"
+							"{\"text\":\"§6用“龙之骨”修复\"}"
+						]
+						Name: "{\"text\":\"§f龙骨弩\"}"
+					}
+					etstlib_tool_uuid: "35497cc7-87f9-428c-a909-f846debc6c58"
+					tic_broken: 0b
+					tic_materials: [
+						"mushroom_concept:dragonbone"
+						"mushroom_concept:dragonbone"
+						"cloudertinker:arctic_fur"
+					]
+					tic_modifiers: [
+						{
+							level: 2
+							name: "mushroom_concept:dragon_angry"
+						}
+						{
+							level: 4
+							name: "tconstruct:pierce"
+						}
+						{
+							level: 1
+							name: "cloudertinker:twilight"
+						}
+						{
+							level: 1
+							name: "cloudertinker:frosttought"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.6f
+					}
+					tic_persistent: {
+						abilities: -1
+					}
+					tic_stats: {
+						"tconstruct:accuracy": 0.85f
+						"tconstruct:attack_damage": 8.0f
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:draw_speed": 0.85f
+						"tconstruct:durability": 873.60004f
+						"tconstruct:velocity": 1.05f
+					}
+					tic_upgrades: [{
+						level: 1
+						name: "tinker_transplant:reload_tinker_arrows"
+					}]
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			id: "5FA6F54893508DE3"
+			rewards: [{
+				id: "0CB65D7E4A450D5A"
+				item: {
+					Count: 1
+					id: "tinkers_thinking:repeating_crossbow"
+					tag: {
+						Damage: 0
+						display: {
+							Lore: [
+								"{\"text\":\"§6二次升级后已经是龙骨材质了\"}"
+								"{\"text\":\"§6用“龙之骨”修复\"}"
+							]
+							Name: "{\"text\":\"§f龙骨弩\"}"
+						}
+						etstlib_tool_uuid: "35497cc7-87f9-428c-a909-f846debc6c58"
+						tic_broken: 0b
+						tic_materials: [
+							"mushroom_concept:dragonbone"
+							"mushroom_concept:dragonbone"
+							"cloudertinker:arctic_fur"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+							{
+								level: 2
+								name: "mushroom_concept:dragon_angry"
+							}
+							{
+								level: 4
+								name: "tconstruct:pierce"
+							}
+							{
+								level: 1
+								name: "cloudertinker:twilight"
+							}
+							{
+								level: 1
+								name: "cloudertinker:frosttought"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.6f
+						}
+						tic_persistent: {
+							abilities: -1
+							"tconstruct:creative": {
+								upgrades: -2
+							}
+						}
+						tic_stats: {
+							"tconstruct:accuracy": 0.85f
+							"tconstruct:attack_damage": 8.0f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:draw_speed": 0.85f
+							"tconstruct:durability": 873.60004f
+							"tconstruct:velocity": 1.05f
+						}
+						tic_upgrades: [
+							{
+								level: 1
+								name: "tinker_transplant:reload_tinker_arrows"
+							}
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+						]
+						tic_volatile_data: {
+							abilities: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "48DB478A06363D88"
+					item: {
+						Count: 1
+						id: "tinkers_thinking:repeating_crossbow"
+						tag: {
+							Damage: 0
+							display: {
+								Lore: ["{\"text\":\"§6没想到吧，其实是可以升级的！\"}"]
+								Name: "{\"text\":\"§f稍加强化骨弩\"}"
+							}
+							etstlib_tool_uuid: "9d089d4d-32ea-4ce0-ac74-1128b56152ec"
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:bone"
+								"tconstruct:bone"
+								"cloudertinker:arctic_fur"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+								{
+									level: 2
+									name: "tconstruct:pierce"
+								}
+								{
+									level: 1
+									name: "cloudertinker:twilight"
+								}
+								{
+									level: 1
+									name: "cloudertinker:frosttought"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.6f
+							}
+							tic_persistent: {
+								abilities: -1
+								"tconstruct:creative": {
+									upgrades: -2
+								}
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 0.85f
+								"tconstruct:attack_damage": 3.25f
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:draw_speed": 0.85f
+								"tconstruct:durability": 120.0f
+								"tconstruct:velocity": 0.95f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tinker_transplant:reload_tinker_arrows"
+								}
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					count: 64L
+					id: "5412004FD955FA39"
+					item: { Count: 64, id: "iceandfire:dragonbone" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "1E79F361AF7B00F1"
+					item: { Count: 64, id: "thermal:copper_coin" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
 			dependencies: ["0A92EF96F43A3085"]
 			icon: "minecraft:netherite_upgrade_smithing_template"
 			id: "10E81872EDDF22F4"
@@ -2414,6 +2881,1707 @@
 			title: "锻造模板"
 			x: -6.5d
 			y: -1.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["5FA6F54893508DE3"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tinkers_thinking:repeating_crossbow"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: [
+							"{\"text\":\"§bCRAZY DIAMOND!!!\"}"
+							"{\"text\":\"§B使用钻石修复\"}"
+						]
+						Name: "{\"text\":\"§b疯狂钻石\"}"
+					}
+					etstlib_tool_uuid: "276b00a0-6a5c-48da-ad14-33a7e1bfbcff"
+					tic_broken: 0b
+					tic_materials: [
+						"tinkerscalibration:diamond"
+						"tinkerscalibration:diamond"
+						"cloudertinker:arctic_fur"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "tconstruct:diamond"
+						}
+						{
+							level: 2
+							name: "tinkerscalibration:glisten"
+						}
+						{
+							level: 1
+							name: "cloudertinker:twilight"
+						}
+						{
+							level: 1
+							name: "cloudertinker:frosttought"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.6f
+					}
+					tic_persistent: {
+						abilities: -1
+					}
+					tic_stats: {
+						"tconstruct:accuracy": 0.85f
+						"tconstruct:attack_damage": 3.5f
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:draw_speed": 1.1f
+						"tconstruct:durability": 2000.0f
+						"tconstruct:harvest_tier": "minecraft:diamond"
+						"tconstruct:projectile_damage": 2.5f
+						"tconstruct:velocity": 1.1f
+					}
+					tic_upgrades: [
+						{
+							level: 1
+							name: "tconstruct:diamond"
+						}
+						{
+							level: 1
+							name: "tinker_transplant:reload_tinker_arrows"
+						}
+					]
+					tic_volatile_data: {
+						abilities: 1
+						"tconstruct:rarity": 1
+						upgrades: 2
+					}
+				}
+			}
+			id: "28E22C4759382E22"
+			rewards: [{
+				id: "706131F37C20AE93"
+				item: {
+					Count: 1
+					id: "tinkers_thinking:repeating_crossbow"
+					tag: {
+						Damage: 0
+						display: {
+							Lore: [
+								"{\"text\":\"§bCRAZY DIAMOND!!!\"}"
+								"{\"text\":\"§B使用钻石修复\"}"
+							]
+							Name: "{\"text\":\"§b疯狂钻石\"}"
+						}
+						etstlib_tool_uuid: "276b00a0-6a5c-48da-ad14-33a7e1bfbcff"
+						tic_broken: 0b
+						tic_materials: [
+							"tinkerscalibration:diamond"
+							"tinkerscalibration:diamond"
+							"cloudertinker:arctic_fur"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "tconstruct:diamond"
+							}
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+							{
+								level: 2
+								name: "tinkerscalibration:glisten"
+							}
+							{
+								level: 1
+								name: "cloudertinker:twilight"
+							}
+							{
+								level: 1
+								name: "cloudertinker:frosttought"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.6f
+						}
+						tic_persistent: {
+							abilities: -1
+							"tconstruct:creative": {
+								upgrades: -2
+							}
+						}
+						tic_stats: {
+							"tconstruct:accuracy": 0.85f
+							"tconstruct:attack_damage": 3.5f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:draw_speed": 1.1f
+							"tconstruct:durability": 2000.0f
+							"tconstruct:harvest_tier": "minecraft:diamond"
+							"tconstruct:projectile_damage": 2.5f
+							"tconstruct:velocity": 1.1f
+						}
+						tic_upgrades: [
+							{
+								level: 1
+								name: "tconstruct:diamond"
+							}
+							{
+								level: 1
+								name: "tinker_transplant:reload_tinker_arrows"
+							}
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+						]
+						tic_volatile_data: {
+							abilities: 1
+							"tconstruct:rarity": 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "167E1DF6F3299B2E"
+					item: {
+						Count: 1
+						id: "tinkers_thinking:repeating_crossbow"
+						tag: {
+							Damage: 0
+							display: {
+								Lore: [
+									"{\"text\":\"§6二次升级后已经是龙骨材质了\"}"
+									"{\"text\":\"§6用“龙之骨”修复\"}"
+								]
+								Name: "{\"text\":\"§f龙骨弩\"}"
+							}
+							etstlib_tool_uuid: "35497cc7-87f9-428c-a909-f846debc6c58"
+							tic_broken: 0b
+							tic_materials: [
+								"mushroom_concept:dragonbone"
+								"mushroom_concept:dragonbone"
+								"cloudertinker:arctic_fur"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+								{
+									level: 2
+									name: "mushroom_concept:dragon_angry"
+								}
+								{
+									level: 4
+									name: "tconstruct:pierce"
+								}
+								{
+									level: 1
+									name: "cloudertinker:twilight"
+								}
+								{
+									level: 1
+									name: "cloudertinker:frosttought"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.6f
+							}
+							tic_persistent: {
+								abilities: -1
+								"tconstruct:creative": {
+									upgrades: -2
+								}
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 0.85f
+								"tconstruct:attack_damage": 8.0f
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:draw_speed": 0.85f
+								"tconstruct:durability": 873.60004f
+								"tconstruct:velocity": 1.05f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tinker_transplant:reload_tinker_arrows"
+								}
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					count: 64L
+					id: "43156F871C0BC3A7"
+					item: { Count: 64, id: "minecraft:diamond" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7064B5C8D35A07BA"
+					item: { Count: 8, id: "thermal:silver_coin" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["28E22C4759382E22"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tinkers_thinking:repeating_crossbow"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: [
+							"{\"text\":\"§6是的，需要用合金锭修复\"}"
+							"{\"text\":\"§6不要尝试给它用远古残骸，否则就无法继续进化了\"}"
+						]
+						Name: "{\"text\":\"§8下界合金连弩\"}"
+					}
+					etstlib_tool_uuid: "0854e1a3-9f14-427d-afec-467404fe7094"
+					tic_broken: 0b
+					tic_materials: [
+						"tinkerscalibration:netherite"
+						"tinkerscalibration:netherite"
+						"cloudertinker:arctic_fur"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "tconstruct:diamond"
+						}
+						{
+							level: 3
+							name: "tconstruct:netherite"
+						}
+						{
+							level: 2
+							name: "tinkerscalibration:blacksmith"
+						}
+						{
+							level: 1
+							name: "cloudertinker:twilight"
+						}
+						{
+							level: 1
+							name: "cloudertinker:frosttought"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.6f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:accuracy": 0.8f
+						"tconstruct:attack_damage": 4.2000003f
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:draw_speed": 0.7f
+						"tconstruct:durability": 4008.9604f
+						"tconstruct:harvest_tier": "minecraft:netherite"
+						"tconstruct:projectile_damage": 2.5f
+						"tconstruct:velocity": 1.32f
+					}
+					tic_upgrades: [
+						{
+							level: 1
+							name: "tconstruct:diamond"
+						}
+						{
+							level: 1
+							name: "tconstruct:netherite"
+						}
+					]
+					tic_volatile_data: {
+						abilities: 1
+						"tconstruct:indestructible": 1b
+						"tconstruct:rarity": 2
+						upgrades: 2
+					}
+				}
+			}
+			id: "0DB056201386F955"
+			rewards: [{
+				id: "1D72A1380D1F7370"
+				item: {
+					Count: 1
+					id: "tinkers_thinking:repeating_crossbow"
+					tag: {
+						Damage: 0
+						display: {
+							Lore: [
+								"{\"text\":\"§6对，没错，需要下界合金锭修复\"}"
+								"{\"text\":\"§6不要尝试用下界合金碎片修复，会附上一个强化导致无法继续升级\"}"
+							]
+							Name: "{\"text\":\"§8下界合金连弩\"}"
+						}
+						etstlib_tool_uuid: "0854e1a3-9f14-427d-afec-467404fe7094"
+						tic_broken: 0b
+						tic_materials: [
+							"tinkerscalibration:netherite"
+							"tinkerscalibration:netherite"
+							"cloudertinker:arctic_fur"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "tconstruct:diamond"
+							}
+							{
+								level: 3
+								name: "tconstruct:netherite"
+							}
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+							{
+								level: 2
+								name: "tinkerscalibration:blacksmith"
+							}
+							{
+								level: 1
+								name: "cloudertinker:twilight"
+							}
+							{
+								level: 1
+								name: "cloudertinker:frosttought"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.6f
+						}
+						tic_persistent: {
+							abilities: -1
+							"tconstruct:creative": {
+								upgrades: -2
+							}
+						}
+						tic_stats: {
+							"tconstruct:accuracy": 0.8f
+							"tconstruct:attack_damage": 4.2000003f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:draw_speed": 0.7f
+							"tconstruct:durability": 4008.9604f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:projectile_damage": 2.5f
+							"tconstruct:velocity": 1.32f
+						}
+						tic_upgrades: [
+							{
+								level: 1
+								name: "tconstruct:diamond"
+							}
+							{
+								level: 1
+								name: "tconstruct:netherite"
+							}
+							{
+								level: 1
+								name: "tinker_transplant:reload_tinker_arrows"
+							}
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+						]
+						tic_volatile_data: {
+							abilities: 1
+							"tconstruct:indestructible": 1b
+							"tconstruct:rarity": 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5F9F75BABA9234FB"
+					item: {
+						Count: 1
+						id: "tinkers_thinking:repeating_crossbow"
+						tag: {
+							Damage: 0
+							display: {
+								Lore: [
+									"{\"text\":\"§bCRAZY DIAMOND!!!\"}"
+									"{\"text\":\"§B使用钻石修复\"}"
+								]
+								Name: "{\"text\":\"§b疯狂钻石\"}"
+							}
+							etstlib_tool_uuid: "276b00a0-6a5c-48da-ad14-33a7e1bfbcff"
+							tic_broken: 0b
+							tic_materials: [
+								"tinkerscalibration:diamond"
+								"tinkerscalibration:diamond"
+								"cloudertinker:arctic_fur"
+							]
+							tic_modifiers: [
+								{
+									level: 3
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+								{
+									level: 2
+									name: "tinkerscalibration:glisten"
+								}
+								{
+									level: 1
+									name: "cloudertinker:twilight"
+								}
+								{
+									level: 1
+									name: "cloudertinker:frosttought"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.6f
+							}
+							tic_persistent: {
+								abilities: -1
+								"tconstruct:creative": {
+									upgrades: -2
+								}
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 0.85f
+								"tconstruct:attack_damage": 3.5f
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:draw_speed": 1.1f
+								"tconstruct:durability": 2000.0f
+								"tconstruct:harvest_tier": "minecraft:diamond"
+								"tconstruct:projectile_damage": 2.5f
+								"tconstruct:velocity": 1.1f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tinker_transplant:reload_tinker_arrows"
+								}
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+								"tconstruct:rarity": 1
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "3DF8176E2655D306"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "320B06E5568DDFC5"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0DB056201386F955"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tinkers_thinking:repeating_crossbow"
+				tag: {
+					Damage: 0
+					etstlib_tool_uuid: "e47f6823-bf09-45e5-ba50-fa9f35ba5038"
+					tic_broken: 0b
+					tic_materials: [
+						"tinkerscalibration:darkmatter"
+						"tinkerscalibration:darkmatter"
+						"cloudertinker:arctic_fur"
+					]
+					tic_modifiers: [
+						{
+							level: 2
+							name: "tinkerscalibration:subdue"
+						}
+						{
+							level: 1
+							name: "cloudertinker:twilight"
+						}
+						{
+							level: 1
+							name: "cloudertinker:frosttought"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.6f
+					}
+					tic_persistent: {
+						abilities: -1
+					}
+					tic_stats: {
+						"tconstruct:accuracy": 1.0f
+						"tconstruct:attack_damage": 3.0f
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:durability": 2208.0f
+						"tconstruct:velocity": 1.05f
+					}
+					tic_upgrades: [{
+						level: 1
+						name: "tinker_transplant:reload_tinker_arrows"
+					}]
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			id: "5B7684C49402F3C1"
+			rewards: [{
+				id: "4806D49786B529EB"
+				item: {
+					Count: 1
+					id: "tinkers_thinking:repeating_crossbow"
+					tag: {
+						Damage: 0
+						display: {
+							Lore: [
+								"{\"text\":\"§c这是一把暗物质连弩！\"}"
+								"{\"text\":\"§c用暗物质（等价交换的）修复\"}"
+							]
+							Name: "{\"text\":\"§c黑洞物质\"}"
+						}
+						etstlib_tool_uuid: "e47f6823-bf09-45e5-ba50-fa9f35ba5038"
+						tic_broken: 0b
+						tic_materials: [
+							"tinkerscalibration:darkmatter"
+							"tinkerscalibration:darkmatter"
+							"cloudertinker:arctic_fur"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+							{
+								level: 2
+								name: "tinkerscalibration:subdue"
+							}
+							{
+								level: 1
+								name: "cloudertinker:twilight"
+							}
+							{
+								level: 1
+								name: "cloudertinker:frosttought"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.6f
+						}
+						tic_persistent: {
+							abilities: -1
+							"tconstruct:creative": {
+								upgrades: -2
+							}
+						}
+						tic_stats: {
+							"tconstruct:accuracy": 1.0f
+							"tconstruct:attack_damage": 3.0f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:durability": 2208.0f
+							"tconstruct:velocity": 1.05f
+						}
+						tic_upgrades: [
+							{
+								level: 1
+								name: "tinker_transplant:reload_tinker_arrows"
+							}
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+						]
+						tic_volatile_data: {
+							abilities: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0C1A79B457BE5E15"
+					item: {
+						Count: 1
+						id: "tinkers_thinking:repeating_crossbow"
+						tag: {
+							Damage: 0
+							display: {
+								Lore: [
+									"{\"text\":\"§6对，没错，需要下界合金锭修复\"}"
+									"{\"text\":\"§6不要尝试用下界合金碎片修复，会附上一个强化导致无法继续升级\"}"
+								]
+								Name: "{\"text\":\"§8下界合金连弩\"}"
+							}
+							etstlib_tool_uuid: "0854e1a3-9f14-427d-afec-467404fe7094"
+							tic_broken: 0b
+							tic_materials: [
+								"tinkerscalibration:netherite"
+								"tinkerscalibration:netherite"
+								"cloudertinker:arctic_fur"
+							]
+							tic_modifiers: [
+								{
+									level: 3
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 3
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+								{
+									level: 2
+									name: "tinkerscalibration:blacksmith"
+								}
+								{
+									level: 1
+									name: "cloudertinker:twilight"
+								}
+								{
+									level: 1
+									name: "cloudertinker:frosttought"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.6f
+							}
+							tic_persistent: {
+								abilities: -1
+								"tconstruct:creative": {
+									upgrades: -2
+								}
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 0.8f
+								"tconstruct:attack_damage": 4.2000003f
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:draw_speed": 0.7f
+								"tconstruct:durability": 4008.9604f
+								"tconstruct:harvest_tier": "minecraft:netherite"
+								"tconstruct:projectile_damage": 2.5f
+								"tconstruct:velocity": 1.32f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tconstruct:diamond"
+								}
+								{
+									level: 1
+									name: "tconstruct:netherite"
+								}
+								{
+									level: 1
+									name: "tinker_transplant:reload_tinker_arrows"
+								}
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+								"tconstruct:indestructible": 1b
+								"tconstruct:rarity": 2
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					count: 64L
+					id: "1A4A8046CFCC08CD"
+					item: { Count: 64, id: "projecte:dark_matter" }
+					type: "item"
+				}
+				{
+					id: "1CD3B52E3D769D18"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0DB056201386F955"]
+			icon: {
+				Count: 1
+				id: "tinkers_thinking:repeating_crossbow"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: [
+							"{\"text\":\"§b钻石晶格与下界之星的完美结合\"}"
+							"{\"text\":\"§b使用水晶矩阵锭修复\"}"
+						]
+						Name: "{\"text\":\"§b星尘闪烁之弩\"}"
+					}
+					etstlib_tool_uuid: "31928035-93db-4b94-a787-dd04f107d9db"
+					tic_broken: 0b
+					tic_materials: [
+						"sakuratinker:crystal_matrix"
+						"sakuratinker:crystal_matrix"
+						"cloudertinker:arctic_fur"
+					]
+					tic_modifiers: [
+						{
+							level: 2
+							name: "sakuratinker:crystalline"
+						}
+						{
+							level: 1
+							name: "cloudertinker:twilight"
+						}
+						{
+							level: 1
+							name: "cloudertinker:frosttought"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.6f
+					}
+					tic_persistent: {
+						abilities: -1
+					}
+					tic_stats: {
+						"tconstruct:accuracy": 1.0f
+						"tconstruct:attack_damage": 11.0f
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:draw_speed": 1.1f
+						"tconstruct:durability": 1920.0f
+						"tconstruct:velocity": 1.3f
+					}
+					tic_upgrades: [{
+						level: 1
+						name: "tinker_transplant:reload_tinker_arrows"
+					}]
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			id: "3BA9DE6AAEC181E7"
+			rewards: [{
+				id: "55CD99CF05B3D51F"
+				item: {
+					Count: 1
+					id: "tinkers_thinking:repeating_crossbow"
+					tag: {
+						Damage: 0
+						display: {
+							Lore: [
+								"{\"text\":\"§b钻石晶格与下界之星的完美结合\"}"
+								"{\"text\":\"§b使用水晶矩阵锭修复\"}"
+							]
+							Name: "{\"text\":\"§b星尘闪烁之弩\"}"
+						}
+						etstlib_tool_uuid: "31928035-93db-4b94-a787-dd04f107d9db"
+						tic_broken: 0b
+						tic_materials: [
+							"sakuratinker:crystal_matrix"
+							"sakuratinker:crystal_matrix"
+							"cloudertinker:arctic_fur"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+							{
+								level: 2
+								name: "sakuratinker:crystalline"
+							}
+							{
+								level: 1
+								name: "cloudertinker:twilight"
+							}
+							{
+								level: 1
+								name: "cloudertinker:frosttought"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.6f
+						}
+						tic_persistent: {
+							abilities: -1
+							"tconstruct:creative": {
+								upgrades: -2
+							}
+						}
+						tic_stats: {
+							"tconstruct:accuracy": 1.0f
+							"tconstruct:attack_damage": 11.0f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:draw_speed": 1.1f
+							"tconstruct:durability": 1920.0f
+							"tconstruct:velocity": 1.3f
+						}
+						tic_upgrades: [
+							{
+								level: 1
+								name: "tinker_transplant:reload_tinker_arrows"
+							}
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+						]
+						tic_volatile_data: {
+							abilities: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3F0D67F3C3208D69"
+					item: {
+						Count: 1
+						id: "tinkers_thinking:repeating_crossbow"
+						tag: {
+							Damage: 0
+							display: {
+								Lore: [
+									"{\"text\":\"§c这是一把暗物质连弩！\"}"
+									"{\"text\":\"§c用暗物质（等价交换的）修复\"}"
+								]
+								Name: "{\"text\":\"§c黑洞物质\"}"
+							}
+							etstlib_tool_uuid: "e47f6823-bf09-45e5-ba50-fa9f35ba5038"
+							tic_broken: 0b
+							tic_materials: [
+								"tinkerscalibration:darkmatter"
+								"tinkerscalibration:darkmatter"
+								"cloudertinker:arctic_fur"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+								{
+									level: 2
+									name: "tinkerscalibration:subdue"
+								}
+								{
+									level: 1
+									name: "cloudertinker:twilight"
+								}
+								{
+									level: 1
+									name: "cloudertinker:frosttought"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.6f
+							}
+							tic_persistent: {
+								abilities: -1
+								"tconstruct:creative": {
+									upgrades: -2
+								}
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 1.0f
+								"tconstruct:attack_damage": 3.0f
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:durability": 2208.0f
+								"tconstruct:velocity": 1.05f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tinker_transplant:reload_tinker_arrows"
+								}
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					count: 64L
+					id: "765FCD297BABBEE4"
+					item: { Count: 64, id: "avaritia:crystal_matrix_ingot" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "167CE96F5C7B29E7"
+					item: { Count: 16, id: "thermal:gold_coin" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0DB056201386F955"]
+			icon: {
+				Count: 1
+				id: "tinkers_thinking:repeating_crossbow"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: [
+							"{\"text\":\"§4距离最终形态已经很近了！\"}"
+							"{\"text\":\"§4使用纯粹恐惧修复\"}"
+						]
+						Name: "{\"text\":\"§4恐惧龙颅连弩\"}"
+					}
+					etstlib_tool_uuid: "6c8b72ab-6c1a-43cc-8d5c-57ecb46b9113"
+					tic_broken: 0b
+					tic_materials: [
+						"mushroom_daydream:pure_horror"
+						"mushroom_daydream:pure_horror"
+						"cloudertinker:arctic_fur"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tconstruct:creative_slot"
+						}
+						{
+							level: 2
+							name: "mushroom_daydream:sharp_shadow"
+						}
+						{
+							level: 2
+							name: "mushroom_daydream:evil_shadow"
+						}
+						{
+							level: 1
+							name: "cloudertinker:twilight"
+						}
+						{
+							level: 1
+							name: "cloudertinker:frosttought"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.6f
+					}
+					tic_persistent: {
+						abilities: -1
+						"tconstruct:creative": {
+							upgrades: -2
+						}
+					}
+					tic_stats: {
+						"tconstruct:accuracy": 1.0f
+						"tconstruct:attack_damage": 8.0f
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:draw_speed": 0.65f
+						"tconstruct:durability": 1305.6f
+						"tconstruct:velocity": 1.25f
+					}
+					tic_upgrades: [
+						{
+							level: 1
+							name: "tinker_transplant:reload_tinker_arrows"
+						}
+						{
+							level: 1
+							name: "tconstruct:creative_slot"
+						}
+					]
+					tic_volatile_data: {
+						abilities: 1
+					}
+				}
+			}
+			id: "1139EBF53D6684B2"
+			rewards: [{
+				id: "0BCAA2C00A9EEBC1"
+				item: {
+					Count: 1
+					id: "tinkers_thinking:repeating_crossbow"
+					tag: {
+						Damage: 0
+						display: {
+							Lore: [
+								"{\"text\":\"§4距离最终形态已经很近了！\"}"
+								"{\"text\":\"§4使用纯粹恐惧修复\"}"
+							]
+							Name: "{\"text\":\"§4恐惧龙颅连弩\"}"
+						}
+						etstlib_tool_uuid: "6c8b72ab-6c1a-43cc-8d5c-57ecb46b9113"
+						tic_broken: 0b
+						tic_materials: [
+							"mushroom_daydream:pure_horror"
+							"mushroom_daydream:pure_horror"
+							"cloudertinker:arctic_fur"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+							{
+								level: 2
+								name: "mushroom_daydream:sharp_shadow"
+							}
+							{
+								level: 2
+								name: "mushroom_daydream:evil_shadow"
+							}
+							{
+								level: 1
+								name: "cloudertinker:twilight"
+							}
+							{
+								level: 1
+								name: "cloudertinker:frosttought"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.6f
+						}
+						tic_persistent: {
+							abilities: -1
+							"tconstruct:creative": {
+								upgrades: -2
+							}
+						}
+						tic_stats: {
+							"tconstruct:accuracy": 1.0f
+							"tconstruct:attack_damage": 8.0f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:draw_speed": 0.65f
+							"tconstruct:durability": 1305.6f
+							"tconstruct:velocity": 1.25f
+						}
+						tic_upgrades: [
+							{
+								level: 1
+								name: "tinker_transplant:reload_tinker_arrows"
+							}
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+						]
+						tic_volatile_data: {
+							abilities: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4D572B3898DA0A06"
+					item: {
+						Count: 1
+						id: "tinkers_thinking:repeating_crossbow"
+						tag: {
+							Damage: 0
+							display: {
+								Lore: [
+									"{\"text\":\"§b钻石晶格与下界之星的完美结合\"}"
+									"{\"text\":\"§b使用水晶矩阵锭修复\"}"
+								]
+								Name: "{\"text\":\"§b星尘闪烁之弩\"}"
+							}
+							etstlib_tool_uuid: "31928035-93db-4b94-a787-dd04f107d9db"
+							tic_broken: 0b
+							tic_materials: [
+								"sakuratinker:crystal_matrix"
+								"sakuratinker:crystal_matrix"
+								"cloudertinker:arctic_fur"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+								{
+									level: 2
+									name: "sakuratinker:crystalline"
+								}
+								{
+									level: 1
+									name: "cloudertinker:twilight"
+								}
+								{
+									level: 1
+									name: "cloudertinker:frosttought"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.6f
+							}
+							tic_persistent: {
+								abilities: -1
+								"tconstruct:creative": {
+									upgrades: -2
+								}
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 1.0f
+								"tconstruct:attack_damage": 11.0f
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:draw_speed": 1.1f
+								"tconstruct:durability": 1920.0f
+								"tconstruct:velocity": 1.3f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tinker_transplant:reload_tinker_arrows"
+								}
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					count: 32L
+					id: "3CCFA2F5B29C6A9F"
+					item: { Count: 32, id: "mushroom_daydream:pure_horror" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "588940A2B85E444B"
+					item: { Count: 32, id: "thermal:enderium_coin" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0DB056201386F955"]
+			icon: {
+				Count: 1
+				id: "tinkers_thinking:repeating_crossbow"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: [
+							"{\"text\":\"§d当它觉醒之时便是那至高无上的神话之弩\"}"
+							"{\"text\":\"§d使用龙之戈伯修复\"}"
+						]
+						Name: "{\"text\":\"§d龙心沉眠之弩\"}"
+					}
+					etstlib_tool_uuid: "dcd49b11-1a20-46ac-9d91-13bc2a8decd4"
+					tic_broken: 0b
+					tic_materials: [
+						"mushroom_daydream:gobber_dragon"
+						"mushroom_daydream:gobber_dragon"
+						"cloudertinker:arctic_fur"
+					]
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tconstruct:creative_slot"
+						}
+						{
+							level: 2
+							name: "mushroom_daydream:arrogant"
+						}
+						{
+							level: 2
+							name: "mushroom_daydream:gobber_max"
+						}
+						{
+							level: 1
+							name: "cloudertinker:twilight"
+						}
+						{
+							level: 1
+							name: "cloudertinker:frosttought"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.6f
+					}
+					tic_persistent: {
+						abilities: -1
+						"tconstruct:creative": {
+							abilities: 4
+							upgrades: 2
+						}
+					}
+					tic_stats: {
+						"tconstruct:accuracy": 1.0f
+						"tconstruct:attack_damage": 18.0f
+						"tconstruct:attack_speed": 10.8f
+						"tconstruct:draw_speed": 7.2000003f
+						"tconstruct:durability": 28800.002f
+						"tconstruct:mining_speed": 9.0f
+						"tconstruct:projectile_damage": 18.0f
+						"tconstruct:velocity": 9.0f
+					}
+					tic_upgrades: [
+						{
+							level: 1
+							name: "tconstruct:creative_slot"
+						}
+						{
+							level: 1
+							name: "tinker_transplant:reload_tinker_arrows"
+						}
+					]
+					tic_volatile_data: {
+						abilities: 1
+					}
+				}
+			}
+			id: "7A62F63D3A88F32B"
+			rewards: [{
+				id: "1EA8AD4CB3E5630B"
+				item: {
+					Count: 1
+					id: "tinkers_thinking:repeating_crossbow"
+					tag: {
+						Damage: 0
+						display: {
+							Lore: [
+								"{\"text\":\"§d当它觉醒之时便是那至高无上的神话之弩\"}"
+								"{\"text\":\"§d使用龙之戈伯修复\"}"
+							]
+							Name: "{\"text\":\"§d龙心沉眠之弩\"}"
+						}
+						etstlib_tool_uuid: "dcd49b11-1a20-46ac-9d91-13bc2a8decd4"
+						tic_broken: 0b
+						tic_materials: [
+							"mushroom_daydream:gobber_dragon"
+							"mushroom_daydream:gobber_dragon"
+							"cloudertinker:arctic_fur"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+							{
+								level: 2
+								name: "mushroom_daydream:arrogant"
+							}
+							{
+								level: 2
+								name: "mushroom_daydream:gobber_max"
+							}
+							{
+								level: 1
+								name: "cloudertinker:twilight"
+							}
+							{
+								level: 1
+								name: "cloudertinker:frosttought"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.6f
+						}
+						tic_persistent: {
+							abilities: -1
+							"tconstruct:creative": {
+								abilities: 4
+								upgrades: 2
+							}
+						}
+						tic_stats: {
+							"tconstruct:accuracy": 1.0f
+							"tconstruct:attack_damage": 18.0f
+							"tconstruct:attack_speed": 10.8f
+							"tconstruct:draw_speed": 7.2000003f
+							"tconstruct:durability": 28800.002f
+							"tconstruct:mining_speed": 9.0f
+							"tconstruct:projectile_damage": 18.0f
+							"tconstruct:velocity": 9.0f
+						}
+						tic_upgrades: [
+							{
+								level: 1
+								name: "tconstruct:creative_slot"
+							}
+							{
+								level: 1
+								name: "tinker_transplant:reload_tinker_arrows"
+							}
+						]
+						tic_volatile_data: {
+							abilities: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "490F287E6C26DC38"
+					item: {
+						Count: 1
+						id: "tinkers_thinking:repeating_crossbow"
+						tag: {
+							Damage: 0
+							display: {
+								Lore: [
+									"{\"text\":\"§4距离最终形态已经很近了！\"}"
+									"{\"text\":\"§4使用纯粹恐惧修复\"}"
+								]
+								Name: "{\"text\":\"§4恐惧龙颅连弩\"}"
+							}
+							etstlib_tool_uuid: "6c8b72ab-6c1a-43cc-8d5c-57ecb46b9113"
+							tic_broken: 0b
+							tic_materials: [
+								"mushroom_daydream:pure_horror"
+								"mushroom_daydream:pure_horror"
+								"cloudertinker:arctic_fur"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+								{
+									level: 2
+									name: "mushroom_daydream:sharp_shadow"
+								}
+								{
+									level: 2
+									name: "mushroom_daydream:evil_shadow"
+								}
+								{
+									level: 1
+									name: "cloudertinker:twilight"
+								}
+								{
+									level: 1
+									name: "cloudertinker:frosttought"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.6f
+							}
+							tic_persistent: {
+								abilities: -1
+								"tconstruct:creative": {
+									upgrades: -2
+								}
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 1.0f
+								"tconstruct:attack_damage": 8.0f
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:draw_speed": 0.65f
+								"tconstruct:durability": 1305.6f
+								"tconstruct:velocity": 1.25f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tinker_transplant:reload_tinker_arrows"
+								}
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					count: 64L
+					id: "568FC36756375530"
+					item: { Count: 64, id: "gobber2:dragon_star" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "0A4F1A10B2BAD660"
+					item: { Count: 32, id: "mushroom_daydream:dragon_gobber" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0DB056201386F955"]
+			icon: {
+				Count: 1
+				id: "tinkers_thinking:repeating_crossbow"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: [
+							"{\"text\":\"§1一§2击§3必§4杀§5！§6！§7！\"}"
+							"{\"text\":\"§a使§b用§c无§d尽§e之§f锭§1修§2复§3！§4（§5实§6际§7上§8是§9无§1限§a耐§b久§c的§d！§e）\"}"
+						]
+						Name: "{\"text\":\"§a完§b美§c解§d放§e-§f无§1尽§2与§3永§4恒§5之§6弩\"}"
+					}
+					etstlib_tool_uuid: "895a46e4-c22c-47c2-bae6-3797ec6a4d85"
+					tic_broken: 0b
+					tic_materials: [
+						"ticex:infinity"
+						"ticex:infinity"
+						"cloudertinker:arctic_fur"
+					]
+					tic_modifiers: [
+						{
+							level: 2
+							name: "ticex:omnipotence"
+						}
+						{
+							level: 2
+							name: "ticex:cosmic_unbreakable"
+						}
+						{
+							level: 1
+							name: "tconstruct:creative_slot"
+						}
+						{
+							level: 2
+							name: "ticex:cosmic_luck"
+						}
+						{
+							level: 2
+							name: "ticex:bedrock_breaker"
+						}
+						{
+							level: 1
+							name: "cloudertinker:twilight"
+						}
+						{
+							level: 1
+							name: "cloudertinker:frosttought"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.6f
+					}
+					tic_persistent: {
+						abilities: -1
+						"tconstruct:creative": {
+							abilities: 32
+							upgrades: 30
+						}
+					}
+					tic_stats: {
+						"tconstruct:accuracy": 1.0f
+						"tconstruct:attack_damage": 4996.5f
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:draw_speed": 100.700005f
+						"tconstruct:durability": 175822.42f
+						"tconstruct:velocity": 100.9f
+					}
+					tic_upgrades: [
+						{
+							level: 1
+							name: "tinker_transplant:reload_tinker_arrows"
+						}
+						{
+							level: 1
+							name: "tconstruct:creative_slot"
+						}
+					]
+					tic_volatile_data: {
+						abilities: 33
+						upgrades: 32
+					}
+				}
+			}
+			id: "3596276F640DF446"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23EBAB3857616C70"
+				table_id: 3979621933686462349L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "6D992A0FC917F3F8"
+					item: {
+						Count: 1
+						id: "tinkers_thinking:repeating_crossbow"
+						tag: {
+							Damage: 0
+							display: {
+								Lore: [
+									"{\"text\":\"§d当它觉醒之时便是那至高无上的神话之弩\"}"
+									"{\"text\":\"§d使用龙之戈伯修复\"}"
+								]
+								Name: "{\"text\":\"§d龙心沉眠之弩\"}"
+							}
+							etstlib_tool_uuid: "dcd49b11-1a20-46ac-9d91-13bc2a8decd4"
+							tic_broken: 0b
+							tic_materials: [
+								"mushroom_daydream:gobber_dragon"
+								"mushroom_daydream:gobber_dragon"
+								"cloudertinker:arctic_fur"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+								{
+									level: 2
+									name: "mushroom_daydream:arrogant"
+								}
+								{
+									level: 2
+									name: "mushroom_daydream:gobber_max"
+								}
+								{
+									level: 1
+									name: "cloudertinker:twilight"
+								}
+								{
+									level: 1
+									name: "cloudertinker:frosttought"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.6f
+							}
+							tic_persistent: {
+								abilities: -1
+								"tconstruct:creative": {
+									abilities: 4
+									upgrades: 2
+								}
+							}
+							tic_stats: {
+								"tconstruct:accuracy": 1.0f
+								"tconstruct:attack_damage": 18.0f
+								"tconstruct:attack_speed": 10.8f
+								"tconstruct:draw_speed": 7.2000003f
+								"tconstruct:durability": 28800.002f
+								"tconstruct:mining_speed": 9.0f
+								"tconstruct:projectile_damage": 18.0f
+								"tconstruct:velocity": 9.0f
+							}
+							tic_upgrades: [
+								{
+									level: 1
+									name: "tconstruct:creative_slot"
+								}
+								{
+									level: 1
+									name: "tinker_transplant:reload_tinker_arrows"
+								}
+							]
+							tic_volatile_data: {
+								abilities: 1
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					count: 8L
+					id: "19292944453E4DC5"
+					item: { Count: 8, id: "avaritia:infinity_catalyst" }
+					type: "item"
+				}
+				{
+					count: 19L
+					id: "0B10E823990815F3"
+					item: { Count: 19, id: "avaritia:infinity_ingot" }
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "3FAECF5FC3E81619"
+					item: { Count: 7, id: "avaritia:crystal_matrix" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "6F8263592DC5039C"
+					item: { Count: 10, id: "avaritia:neutron_ingot" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "05BA6AD18B6DBB15"
+					item: { Count: 64, id: "thermal:netherite_coin" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2663F92195AC57A6"]
@@ -2987,29 +5155,21 @@
 		}
 		{
 			description: [
-				"&m&4因为未知问题，部分珠宝宝石无法正常合成，所以在这里兑换"
-				"&r"
-				"&c该问题已修复&r"
+				"因为未知问题，部分珠宝宝石无法正常合成，所以在这里兑换"
 				""
-				"&a可通过jei搜索&r&e$cut_gems&r&a查看可进行合成珠宝的物品&r"
-				""
-				"&a由可合成珠宝的物品+模具/奥麦迪板合成对应珠宝&r"
+				"（其实是作者懒得加合成表了）"
 			]
 			id: "1733A24E5847FC3A"
 			rewards: [{
-				id: "4707A6961E1EF106"
-				item: "minecraft:stone"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "10EAA803ED0C1371"
+				table_id: 3454659708684365752L
+				team_reward: true
+				type: "choice"
 			}]
 			tasks: [{
-				id: "0E52F746C9A28F37"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "wqjy:cut_gems"
-					}
-				}
+				id: "434E91E3652479C3"
+				item: "thermal:netherite_coin"
 				type: "item"
 			}]
 			title: "珠宝"
@@ -3092,7 +5252,6 @@
 			y: 1.25d
 		}
 		{
-			can_repeat: false
 			id: "6C0F489564283328"
 			rewards: [{
 				id: "539F12FC8E23D3FC"
@@ -3916,29 +6075,67 @@
 								{
 									Count: 1b
 									Slot: 0b
-									id: "appliede:emc_module"
+									id: "ae2:1k_crafting_storage"
 								}
 								{
 									Count: 1b
 									Slot: 1b
-									id: "appliede:emc_interface"
+									id: "ae2:item_storage_cell_256k"
+									tag: { }
 								}
 								{
 									Count: 1b
 									Slot: 2b
-									id: "appliede:transmutation_terminal"
+									id: "ae2:crafting_terminal"
 								}
 								{
 									Count: 1b
 									Slot: 3b
-									id: "appliede:wireless_transmutation_terminal"
-									tag: {
-										internalCurrentPower: 1600000.0d
-									}
+									id: "ae2:controller"
 								}
 								{
 									Count: 1b
 									Slot: 4b
+									id: "ae2:drive"
+								}
+								{
+									Count: 1b
+									Slot: 5b
+									id: "ae2:wireless_access_point"
+								}
+								{
+									Count: 1b
+									Slot: 6b
+									id: "appliede:emc_interface"
+								}
+								{
+									Count: 1b
+									Slot: 7b
+									id: "appliede:emc_module"
+								}
+								{
+									Count: 1b
+									Slot: 8b
+									id: "appliede:transmutation_terminal"
+								}
+								{
+									Count: 1b
+									Slot: 9b
+									id: "ae2:crafting_accelerator"
+								}
+								{
+									Count: 1b
+									Slot: 10b
+									id: "ae2:fluix_glass_cable"
+								}
+								{
+									Count: 1b
+									Slot: 11b
+									id: "aeinfinitybooster:dimension_card"
+								}
+								{
+									Count: 1b
+									Slot: 12b
 									id: "ae2:wireless_crafting_terminal"
 									tag: {
 										IsInitialized: 1b
@@ -3949,53 +6146,11 @@
 								}
 								{
 									Count: 1b
-									Slot: 5b
-									id: "ae2:cell_component_256k"
-								}
-								{
-									Count: 1b
-									Slot: 6b
-									id: "ae2:wireless_access_point"
-								}
-								{
-									Count: 1b
-									Slot: 7b
-									id: "ae2:controller"
-								}
-								{
-									Count: 1b
-									Slot: 8b
-									id: "ae2:drive"
-								}
-								{
-									Count: 1b
-									Slot: 9b
-									id: "ae2:crafting_accelerator"
-								}
-								{
-									Count: 1b
-									Slot: 10b
-									id: "ae2:1k_crafting_storage"
-								}
-								{
-									Count: 1b
-									Slot: 11b
-									id: "ae2:fluix_glass_cable"
-								}
-								{
-									Count: 1b
-									Slot: 12b
-									id: "ae2:crafting_terminal"
-								}
-								{
-									Count: 1b
 									Slot: 13b
-									id: "ae2things:disk_housing"
-								}
-								{
-									Count: 1b
-									Slot: 14b
-									id: "aeinfinitybooster:dimension_card"
+									id: "appliede:wireless_transmutation_terminal"
+									tag: {
+										internalCurrentPower: 1600000.0d
+									}
 								}
 							]
 							id: "minecraft:shulker_box"
@@ -4015,59 +6170,6 @@
 			}]
 			title: "极简ae存储"
 			x: -7.5d
-			y: -0.5d
-		}
-		{
-			icon: "kubejs:cat"
-			icon_scale: 1.5d
-			id: "36E8CB0B19692282"
-			rewards: [{
-				id: "0291E27C63C7D1D8"
-				item: "kubejs:cat"
-				type: "item"
-			}]
-			shape: "gear"
-			subtitle: "为服务端提供"
-			tasks: [{
-				consume_items: true
-				count: 64L
-				id: "766D8C4BD81F2789"
-				item: { Count: 64, id: "thermal:netherite_coin" }
-				type: "item"
-			}]
-			title: "猫币兑换"
-			x: 3.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["0A92EF96F43A3085"]
-			icon: "l2complements:eternal_anvil"
-			id: "3B7ECDCB5F24C8DE"
-			rewards: [{
-				id: "4B77CB9CFF74EA46"
-				item: "l2complements:eternal_anvil"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "4D450E5385F1857F"
-					item: "sophisticatedbackpacks:everlasting_upgrade"
-					type: "item"
-				}
-				{
-					id: "4F7C6C6F323EB98D"
-					item: "minecraft:anvil"
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "6658F8D78C5B4BE9"
-					item: { Count: 16, id: "thermal:netherite_coin" }
-					type: "item"
-				}
-			]
-			title: "永恒铁砧"
-			x: -6.5d
 			y: -0.5d
 		}
 	]

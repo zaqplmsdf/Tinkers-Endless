@@ -1,10 +1,8 @@
 
 ["Limited Damage Indicator Particle"]
+	DisplayDamageParticlesEvenWhenDamageIsLow = false
 	#Range: > 0
 	MaximumNumberOfDamageIndicatorParticle = 100
 	#Range: 0.0 ~ 1.7976931348623157E308
 	DamageIndicatorParticleMultiplier = 1.0
-	#This will affect particles more widely
-	#This mode use different Mixin method, which may causes compatibility issues
-	EnhanceMode = false
 

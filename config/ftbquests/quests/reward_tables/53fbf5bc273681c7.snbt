@@ -1,7 +1,7 @@
 {
 	id: "53FBF5BC273681C7"
 	loot_size: 1
-	order_index: 20
+	order_index: 21
 	rewards: [
 		{
 			command: "/yaoyaocoin disable @p all"

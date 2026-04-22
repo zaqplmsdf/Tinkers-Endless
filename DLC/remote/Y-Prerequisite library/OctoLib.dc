@@ -1,0 +1,25 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/6274/623/OctoLib-FORGE-0.5.0.1%2B1.20.1.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "OctoLib"
+type = "mod"
+file_name = "OctoLib-FORGE-0.5.0.1+1.20.1.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§2(server/Client-side)OctoLib"
+
+[tip]
+en_us = "§2(server/Client-side)OctoLib"
+zh_cn = "§2(服/客户端)前置库"

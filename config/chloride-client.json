@@ -43,9 +43,7 @@
   "rainDropParticles": true,
   "crackingBlockParticles": true,
   "destroyedBlockParticles": true,
-  "disabledParticles": [
-    "minecraft:damage_indicator"
-  ],
+  "disabledParticles": [],
   "tileEntityDistanceCulling": true,
   "tileEntityCullingDistanceX": 4096,
   "tileEntityCullingDistanceY": 32,

@@ -1,7 +1,7 @@
 {
 	id: "2C84E4FEFE58A2A7"
 	loot_size: 1
-	order_index: 8
+	order_index: 9
 	rewards: [
 		{
 			command: "/weather clear"

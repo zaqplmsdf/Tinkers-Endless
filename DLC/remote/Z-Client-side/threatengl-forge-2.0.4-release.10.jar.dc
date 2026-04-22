@@ -1,0 +1,26 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://cdn.modrinth.com/data/RSFrpoou/versions/tHOhq8kE/threatengl-forge-2.0.4-release.10.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "threatengl"
+type = "mod"
+file_name = "threatengl-forge-2.0.4-release.10.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§2(Client-side)ThreatenGL"
+zh_cn = "§2(客户端)ThreatenGL"
+
+[tip]
+en_us = "§2(Client-side)ThreatenGL"
+zh_cn = "§2(客户端)强制启动OpenGL4.6 如果你无法启动加速渲染可以删除此mod"

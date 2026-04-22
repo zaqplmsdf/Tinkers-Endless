@@ -1,0 +1,26 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/7598/201/syncfix-0.0.8.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "syncfix"
+type = "mod"
+file_name = "syncfix-0.0.8.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§4(Client-side)Sync Fix"
+zh_cn = "§4(客户端)同步修复"
+
+[tip]
+en_us = "§4(Client-side)Uses ClassGraph to detect all types of Minecraft mods, including certain mod variants (without directly accessing or modifying code), then enhances performance, improves server-client synchronization, and fixes slow tick/frame issues (AI mods may cause issues)"
+zh_cn = "§4(客户端)用 classraph 检测所有类型的 Minecraft 模组包括部分模组（但它不会直接访问或修改代码）然后提升性能，增强服务器与客户端同步，修复缓慢的刻帧问题(AI模组可能会出问题)"

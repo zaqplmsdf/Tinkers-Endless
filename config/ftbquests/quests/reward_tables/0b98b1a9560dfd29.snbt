@@ -1,7 +1,7 @@
 {
 	id: "0B98B1A9560DFD29"
 	loot_size: 1
-	order_index: 7
+	order_index: 8
 	rewards: [
 		{
 			command: "/gamerule keepInventory false"

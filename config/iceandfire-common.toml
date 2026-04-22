@@ -163,7 +163,7 @@
 		#Range: 1.0 ~ 10000.0
 		"Siren Max Health" = 50.0
 		#True to make the screen pink when sirens attract players
-		"Use Siren Shader" = false
+		"Use Siren Shader" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
 		"Spawn Sirens Chance" = 400

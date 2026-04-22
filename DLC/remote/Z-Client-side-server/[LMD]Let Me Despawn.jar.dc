@@ -1,0 +1,29 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/6311/230/letmedespawn-1.20.x-forge-1.5.0.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "[LMD]Let Me Despawn"
+type = "mod"
+file_name = "letmedespawn-1.20.x-forge-1.5.0.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = "Almanac LIB"
+conflicts = ""
+
+[DisplayName]
+en_us = "§2(server/Client-side)[LMD]Let Me Despawn"
+
+[tip]
+en_us = """§2(server/Client-side)Compatibility:High
+Performance:High
+§4Incompatible: DespawnTweaks — mobs that pick up weapons, armor, or other items will still naturally despawn, and the items they were holding will drop back onto the ground upon despawning."""
+zh_cn = """§2(服/客户端)兼容:高
+性能:高
+§4不兼容:DespawnTweaks 生物拿起过武器、盔甲或者别的东西，它也会自然消失。当它们消失时，拿起的东西都会重新掉到地上。"""

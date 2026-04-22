@@ -1,0 +1,26 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://cdn-alt.modrinth.com/data/XBjSDj8t/versions/ZptEa3Xa/sweeper_maid-1.1.1.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "sweeper_maid"
+type = "mod"
+file_name = "sweeper_maid-1.1.1.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§2(server/Client-side)Sweeper Maid"
+zh_cn = "§2(服/客户端)[SM]清洁女仆"
+
+[tip]
+en_us = "§2(server/Client-side)Sweeper Maid"
+zh_cn = "§2(服/客户端)清理垃圾"

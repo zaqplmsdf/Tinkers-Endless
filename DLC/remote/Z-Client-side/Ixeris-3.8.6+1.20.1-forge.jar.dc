@@ -1,0 +1,25 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/7753/801/Ixeris-4.1.3%2B1.20.1-forge.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "Ixeris"
+type = "mod"
+file_name = "Ixeris-4.1.3+1.20.1-forge.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§2(Client-side)Ixeris"
+
+[tip]
+en_us = "§2(Client-side)Adds smoother graphics, low frame stabilization (may cause low frame issues with shaders)"
+zh_cn = "§2(客户端)加入可以增加画面丝滑、low帧稳定§4（可能导致光影low帧不足、不支持手机）"

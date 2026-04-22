@@ -5,19 +5,15 @@
 	default_repeatable_quest: true
 	disable_toast: true
 	filename: "7F868BFEB80E470A"
-	group: "4E1EC9498C14ECA0"
+	group: "200DE5ABA2A71E38"
 	icon: "kubejs:wqjy_box_1"
 	id: "7F868BFEB80E470A"
-	order_index: 4
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			can_repeat: false
-			description: [
-				"因为某些原因的问题，食物盒从合成方式修改为任务兑换了"
-				""
-				"需开启A-食物盒DLC板块的所有内容"
-			]
+			description: ["因为某些原因的问题，食物盒从合成方式修改为任务兑换了"]
 			id: "44E02FE535B1B20D"
 			rewards: [{
 				id: "40DF003AAB71356A"
@@ -10032,5 +10028,5 @@
 			y: -0.5d
 		}
 	]
-	title: "◆&5食物盒兑换"
+	title: "◇&5食物盒兑换"
 }

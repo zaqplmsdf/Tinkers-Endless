@@ -1,0 +1,27 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/7581/36/particle_core-0.3.3%2B1.20.1%2Bforge.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "particle_core"
+type = "mod"
+file_name = "particle_core-0.3.3+1.20.1+forge.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§2(Client-side)Particle Core"
+zh_cn = "§2(客户端)粒子·优化"
+
+[tip]
+en_us = "§2(Client-side)Particle Core Highly compatible particle optimization! Requires two prerequisite libraries Kotlin for Forge.Fzzy Config"
+zh_cn = """§2(客户端)粒子·优化 兼容性特别高的粒子优化 需要两个前置库
+§4内存换帧率 和钌的粒子优化不兼容"""

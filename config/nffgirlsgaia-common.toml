@@ -11,7 +11,4 @@
 	allowsDayHostileMobSpawnOnGround = true
 	#If true, hostile Gaia day mobs will be neutral when the brightness is high, just like vanilla Spiders.
 	dayMobsNeutralInBrightPlaces = false
-	#Modify this to reduce the spawn of Behender. Its spawn rate (0-1) is multiplied by this value.
-	#Range: 0.0 ~ 1.0
-	behenderSpawnRate = 1.0
 

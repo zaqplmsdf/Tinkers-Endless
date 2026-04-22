@@ -1,7 +1,7 @@
 {
 	id: "3A6060F269365E0D"
 	loot_size: 1
-	order_index: 24
+	order_index: 25
 	rewards: [
 		{ item: "tinkersancient:melting_pan_handle_cast_fragment_2" }
 		{ item: "tinkersancient:melting_pan_handle_cast_fragment_1" }

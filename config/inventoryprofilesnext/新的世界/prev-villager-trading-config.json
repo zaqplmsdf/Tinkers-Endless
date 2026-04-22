@@ -21,8 +21,7 @@
         "immersiveengineering:outfitter": [],
         "immersiveengineering:gunsmith": [],
         "mca.adventurer": [],
-        "mca.cultist": [],
-        "immersiveengineering:electrician": []
+        "mca.cultist": []
     },
     "globalBookmarks1": {
         "armorer": [],
@@ -46,8 +45,7 @@
         "immersiveengineering:outfitter": [],
         "immersiveengineering:gunsmith": [],
         "mca.adventurer": [],
-        "mca.cultist": [],
-        "immersiveengineering:electrician": []
+        "mca.cultist": []
     },
     "globalBookmarks2": {
         "armorer": [],
@@ -71,7 +69,6 @@
         "immersiveengineering:outfitter": [],
         "immersiveengineering:gunsmith": [],
         "mca.adventurer": [],
-        "mca.cultist": [],
-        "immersiveengineering:electrician": []
+        "mca.cultist": []
     }
 }

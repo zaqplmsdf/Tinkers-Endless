@@ -1,0 +1,30 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = "1406509"
+curseforge_fileid = "26.1"
+directUrl = ""
+priority = "curseforge,modrinth,directurl"
+
+[basic]
+identifier = "Fast Recipe Search"
+type = "mod"
+file_name = "fastrecipesearch-1.20.1-26.1-forge.jar"
+appliedTarget = "mods"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+UserRemoved = true
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§6(server/Client-side)Fast Recipe Search"
+
+[tip]
+en_us = """§6(server/Client-side)Compatibility: High
+Performance: Unknown  
+Optimizes recipes; in most cases, at worst, recipe-related issues may occur."""
+zh_cn = """§6(服/客户端)兼容:高
+性能:未知   优化配方 在大多情况下最多配方出现问题"""

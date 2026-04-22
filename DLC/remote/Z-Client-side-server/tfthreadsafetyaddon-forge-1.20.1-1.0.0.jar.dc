@@ -1,0 +1,25 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/7558/911/tfthreadsafetyaddon-forge-1.20.1-1.1.0.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "tfthreadsafetyaddon"
+type = "mod"
+file_name = "tfthreadsafetyaddon-forge-1.20.1-1.1.0.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§6(server/Client-side)tfthreadsafetyaddon"
+
+[tip]
+en_us = "§6(server/Client-sideFixes the compatibility issue between C2 (Forge version) and Twilight Forest. Warning! Do not use this mod if you don't have Twilight Forest installed, or it will cause errors!"
+zh_cn = "§6(服/客户端)修复C2-forge版的与暮色的错误 警告！不装暮色就别用这个mod否则会报错！"

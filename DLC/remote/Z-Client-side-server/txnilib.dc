@@ -1,0 +1,29 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://files.zohopublic.com.cn/public/workdrive-public/download/4oaq40a1e77bfe47a44b4b9c6fd669771c594"
+priority = "curseforge"
+
+[basic]
+identifier = "txnilib"
+type = "mod"
+file_name = "txnilib-forge-1.0.24-1.20.1.jar"
+appliedTarget = "mods"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+UserRemoved = true
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§6(server/Client-side)txnilib"
+
+[tip]
+en_us = """§6(server/Client-side)Removed the built-in library of Interconnect
+§4Warning:This dependency is incompatible with most txnilibmod versions"""
+zh_cn = """§6(服/客户端)删除了互联的内置库
+§4警告:这对于大部分的txnilibmod来说这个前置是不兼容的"""

@@ -1,0 +1,28 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/7515/215/modernfix-forge-5.26.2%2Bmc1.20.1.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "ModernFix"
+type = "mod"
+file_name = "modernfix-forge-5.26.2+mc1.20.1.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§6(server/Client-side)ModernFix"
+zh_cn = "§6(服/客户端)现代化修复"
+
+[tip]
+en_us = """§6(server/Client-side)Significantly improves gameplay experience Slightly increases FPS
+§4May cause client-side errors"""
+zh_cn = """§6(服/客户端)使用后大幅度提高游戏体验 略微提高帧率
+§4可能会导致客户端报错 """

@@ -1,2 +1,0 @@
-// Compost colors for powerful_dummy. You may add your own colors, change existing ones, or remove colors that aren't needed.
-dummy_stand, #d2a841

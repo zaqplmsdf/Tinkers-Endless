@@ -24,11 +24,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"002A8323600F86EC"
-				"03FA631D240E88AA"
-			]
-			dependency_requirement: "one_completed"
+			dependencies: ["002A8323600F86EC"]
 			description: ["按W开始思索"]
 			hide_until_deps_complete: true
 			icon: "create:brass_hand"
@@ -229,11 +225,7 @@
 		}
 		{
 			can_repeat: true
-			dependencies: [
-				"002A8323600F86EC"
-				"03FA631D240E88AA"
-			]
-			dependency_requirement: "one_completed"
+			dependencies: ["002A8323600F86EC"]
 			description: [
 				"用于解决&e任务检测过慢&r的问题，任务更新时会进行一次检测"
 				""

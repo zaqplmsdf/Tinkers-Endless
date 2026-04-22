@@ -1,7 +1,7 @@
 {
 	id: "4C8F84C2E51ABBDE"
 	loot_size: 1
-	order_index: 23
+	order_index: 24
 	rewards: [
 		{
 			command: "/gamerule mobGriefing false"

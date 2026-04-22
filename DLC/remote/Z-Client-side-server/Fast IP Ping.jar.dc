@@ -1,0 +1,25 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/7317/271/fast-ip-ping-v1.0.8-mc1.20.4-forge.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "fast-ip-ping"
+type = "mod"
+file_name = "fast-ip-ping-v1.0.8-mc1.20.4-forge.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§2(server/Client-side)Fast IP Ping"
+
+[tip]
+en_us = "§2(server/Client-side)Bypass reverse DNS lookup to speed up server IP resolution by approximately 1 to 5 seconds"
+zh_cn = "§2(服/客户端)通过绕过反向 DNS 检查加快约 1 秒至 5 秒的服务器 IP 解析时间"

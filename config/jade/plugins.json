@@ -95,9 +95,6 @@
     "crafting_monitor": true,
     "part_name": true
   },
-  "yes_steve_model": {
-    "model_info": true
-  },
   "projecte": {
     "emc_provider": true
   },
@@ -141,10 +138,6 @@
     "camo": true,
     "semiblock": true
   },
-  "expatternprovider": {
-    "jade_chamber": true,
-    "jade_wireless": true
-  },
   "balm": {
     "jade": true
   },
@@ -165,9 +158,6 @@
   },
   "twilightforest": {
     "quest_ram_wool": true
-  },
-  "corpse": {
-    "corpse": true
   },
   "mysticalagriculture": {
     "infused_farmland": true,

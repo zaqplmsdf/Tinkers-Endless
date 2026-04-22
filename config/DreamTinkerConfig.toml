@@ -284,12 +284,6 @@
 	AsOneTT = 40.0
 	#Effect in this black would not be removed
 	as_one_blacklist = ["modid:effect"]
-	#The dodge rate of Virtual Dodge per level
-	#Range: 0.0 ~ 0.95
-	VirtualDodge = 0.05
-	#The damage Reduce for the first four warnings
-	#Range: 0.0 ~ 1.0
-	FirthMark = 0.2
 
 ["Transmute Configuration"]
 	#The default temperature provided by each heater block

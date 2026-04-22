@@ -1,0 +1,26 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://mediafilez.forgecdn.net/files/6296/598/smoothchunk-1.20.1-4.1.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "smoothchunk"
+type = "mod"
+file_name = "smoothchunk-1.20.1-4.1.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "(server/Client-side) Cupboard Smooth Chunk Save"
+zh_cn = "(服/客户端)前置：Cupboard 平滑区块保存"
+
+[tip]
+en_us = "(server/Client-side) Cupboard server-side compatible (not needed for singleplayer)"
+zh_cn = "(服/客户端) 前置：Cupboard 穿透+服务端可用（单人可以不用）"

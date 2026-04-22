@@ -1,0 +1,26 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = "https://cdn.modrinth.com/data/c7m1mi73/versions/96y8nmkX/packetfixer-3.3.1-1.18-1.20.4-merged.jar"
+priority = "modrinth"
+
+[basic]
+identifier = "packetfixer"
+type = "mod"
+file_name = "packetfixer-3.3.1-1.18-1.20.4-merged.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = false
+alarm = false
+dependencies = ""
+conflicts = ""
+
+[DisplayName]
+en_us = "§2(server/Client-side)Packet Fixer"
+zh_cn = "§2(服/客户端)数据包修复(Packet Fixer)"
+
+[tip]
+en_us = "§2(server/Client-side)Generally intended for TACZ! Increases datapack limit and fixes certain issues. Internal network tunneling may be unstable."
+zh_cn = "§2(服/客户端)一般情况TACZ专用！提高数据包上限修复一些问题、内网穿透可能不稳定"

@@ -1,7 +1,7 @@
 {
 	id: "0D6DF448D5181869"
 	loot_size: 1
-	order_index: 12
+	order_index: 13
 	rewards: [
 		{ item: "twilightforest:minotaur_spawn_egg" }
 		{ item: "twilightforest:naga_spawn_egg", weight: 0.5f }

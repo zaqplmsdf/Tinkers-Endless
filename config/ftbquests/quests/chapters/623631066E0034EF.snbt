@@ -599,11 +599,6 @@
 		}
 		{
 			dependency_requirement: "all_started"
-			description: [
-				"相关链接："
-				""
-				"{ \"text\": \"解锁万剑归一\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2CB57323C7D37AC7\" } } "
-			]
 			icon: "minecraft:barrier"
 			id: "03FA631D240E88AA"
 			incompatible: ["3B9BD1DF2EB5D7CF"]
@@ -673,50 +668,6 @@
 					}
 					type: "item"
 				}
-				{
-					auto: "enabled"
-					command: "/say @p 现在你可以在 主线-一些非匠魂的武器 板块开启万剑归一的使用权"
-					elevate_perms: true
-					icon: {
-						Count: 1
-						id: "sakuratinker:blade_convergence"
-						tag: {
-							Damage: 0
-							tic_broken: 0b
-							tic_display: 1b
-							tic_materials: [
-								"tconstruct:ui_render#head"
-								"tconstruct:ui_render#handle"
-								"tconstruct:ui_render#extra"
-								"tconstruct:ui_render#large"
-								"tconstruct:ui_render#extra_large"
-							]
-							tic_modifiers: [{
-								level: 1
-								name: "sakuratinker:blade_convergence"
-							}]
-							tic_multipliers: {
-								"tconstruct:attack_damage": 1.5f
-								"tconstruct:durability": 2.0f
-							}
-							tic_persistent: { }
-							tic_stats: {
-								"sakuratinker:range": 1.0f
-								"tconstruct:attack_damage": 7.5f
-								"tconstruct:attack_speed": 2.0f
-								"tconstruct:durability": 4.0f
-								"tconstruct:mining_speed": 2.0f
-							}
-							tic_volatile_data: {
-								abilities: 1
-								upgrades: 3
-							}
-						}
-					}
-					id: "137D650C01D7A833"
-					title: "一个说明"
-					type: "command"
-				}
 			]
 			shape: "hexagon"
 			size: 1.5d
@@ -735,7 +686,7 @@
 			dependencies: ["418A682BE565AEC3"]
 			id: "4231796E58D26F1E"
 			rewards: [{
-				auto: "enabled"
+				auto: "disabled"
 				id: "326776AAEDA8017D"
 				table_id: 7365258202012942308L
 				team_reward: false
@@ -771,49 +722,6 @@
 					icon: "thermal:lock"
 					id: "170100E588ED1D7C"
 					title: "移除阶段2"
-					type: "command"
-				}
-				{
-					command: "/astages remove @p blade_convergence"
-					elevate_perms: true
-					icon: {
-						Count: 1
-						id: "sakuratinker:blade_convergence"
-						tag: {
-							Damage: 0
-							tic_broken: 0b
-							tic_display: 1b
-							tic_materials: [
-								"tconstruct:ui_render#head"
-								"tconstruct:ui_render#handle"
-								"tconstruct:ui_render#extra"
-								"tconstruct:ui_render#large"
-								"tconstruct:ui_render#extra_large"
-							]
-							tic_modifiers: [{
-								level: 1
-								name: "sakuratinker:blade_convergence"
-							}]
-							tic_multipliers: {
-								"tconstruct:attack_damage": 1.5f
-								"tconstruct:durability": 2.0f
-							}
-							tic_persistent: { }
-							tic_stats: {
-								"sakuratinker:range": 1.0f
-								"tconstruct:attack_damage": 7.5f
-								"tconstruct:attack_speed": 2.0f
-								"tconstruct:durability": 4.0f
-								"tconstruct:mining_speed": 2.0f
-							}
-							tic_volatile_data: {
-								abilities: 1
-								upgrades: 3
-							}
-						}
-					}
-					id: "685F7EC944A732BF"
-					title: "移除万剑归一使用权"
 					type: "command"
 				}
 				{
