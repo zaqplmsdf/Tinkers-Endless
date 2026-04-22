@@ -7,20 +7,20 @@
 	id: "02F4D6D2AA3EF091"
 	images: [
 		{
-			height: 1.0d
+			height: 2.0d
 			image: "ae2:block/controller_lights"
 			rotation: 0.0d
-			width: 1.0d
-			x: -3.0d
-			y: -3.0d
+			width: 2.0d
+			x: -10.5d
+			y: -1.5d
 		}
 		{
-			height: 1.0d
+			height: 3.0d
 			image: "ae2:block/controller_lights"
 			rotation: 0.0d
-			width: 1.0d
-			x: -4.5d
-			y: -3.0d
+			width: 3.0d
+			x: -7.5d
+			y: -1.5d
 		}
 	]
 	order_index: 5
@@ -61,8 +61,8 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: -3.0d
+			x: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["229F0A5D3B0A471F"]
@@ -80,8 +80,8 @@
 				item: "ae2:fluix_crystal"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -3.0d
+			x: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5B335F80C5C46BC3"]
@@ -97,8 +97,8 @@
 				item: "ae2:meteorite_compass"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 0.0d
+			x: -4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6707D1BBF80A093E"]
@@ -122,7 +122,7 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
+			x: -4.0d
 			y: -1.5d
 		}
 		{
@@ -171,6 +171,7 @@
 				"5E2664024FB8E71A"
 			]
 			dependency_requirement: "one_completed"
+			icon: "ae2:flawless_budding_quartz"
 			id: "1473150ADAABB345"
 			rewards: [{
 				id: "1223A2C0D4F04CD1"
@@ -179,14 +180,12 @@
 			}]
 			subtitle: "只有无暇的母岩才能源源不断产出水晶，可以用纸箱无伤搬运，或者别的什么方法"
 			tasks: [{
-				consume_items: false
-				id: "27906CAA3EAD4554"
-				item: "ae2:flawless_budding_quartz"
-				only_from_crafting: true
-				type: "item"
+				id: "18E7621039A4065B"
+				type: "checkmark"
 			}]
+			title: "无瑕的赛特斯母岩"
 			x: -3.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			id: "2780D38A453A9F5B"
@@ -202,8 +201,8 @@
 				item: "mekanism:cardboard_box"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.5d
+			x: -4.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4A48A3F39A558720"]
@@ -219,7 +218,7 @@
 				item: "ae2:inscriber"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 1.5d
 			y: -1.5d
 		}
 		{
@@ -237,8 +236,8 @@
 				item: "ae2:certus_quartz_dust"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.0d
+			x: 1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["374A261A4B2106E0"]
@@ -256,8 +255,8 @@
 				item: "ae2:silicon"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -4.5d
+			x: 2.5d
+			y: -2.5d
 		}
 		{
 			can_repeat: true
@@ -276,8 +275,8 @@
 				type: "item"
 			}]
 			title: "不想自己做的话"
-			x: -4.5d
-			y: 1.5d
+			x: -4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6C40B976BFF088E6"]
@@ -294,18 +293,25 @@
 				item: "ae2:wireless_access_point"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -6.0d
+			x: 5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3665322FCAA75F5C"]
 			id: "22DDD8AF3CC7ADDC"
-			rewards: [{
-				id: "5897318AB677406C"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "可以放在饰品栏，或者直接拿着右键，远程访问你的AE网络，可以将多个终端合成为一个（普通无线终端不能合成）"
+			rewards: [
+				{
+					id: "5897318AB677406C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "43E5E0CF5F872193"
+					item: "ae2wtlib:wireless_universal_terminal"
+					type: "item"
+				}
+			]
+			subtitle: "可以放在饰品栏，或者直接拿着右键，远程访问你的AE网络，可以将多个终端合成为一个或者直接安装在通用终端（普通无线终端不能合成）"
 			tasks: [
 				{
 					id: "55C52ABD6B51B36E"
@@ -322,10 +328,15 @@
 					item: "ae2wtlib:wireless_pattern_access_terminal"
 					type: "item"
 				}
+				{
+					id: "77675E43A85EDE45"
+					item: "appliede:wireless_transmutation_terminal"
+					type: "item"
+				}
 			]
 			title: "更多无线终端"
-			x: 1.5d
-			y: -7.5d
+			x: 6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["51EDA04DA0072EE3"]
@@ -353,7 +364,7 @@
 				}
 			]
 			title: "电路板"
-			x: 0.0d
+			x: 2.5d
 			y: -1.5d
 		}
 		{
@@ -367,8 +378,8 @@
 				type: "item"
 			}]
 			title: "硅板"
-			x: 0.0d
-			y: -4.5d
+			x: 3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -403,8 +414,8 @@
 				}
 			]
 			title: "处理器"
-			x: 0.0d
-			y: -3.0d
+			x: 3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["07FC92E00B70611D"]
@@ -449,8 +460,8 @@
 				item: "ae2:controller"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.0d
+			x: 5.25d
+			y: -1.5d
 		}
 		{
 			dependencies: ["07FC92E00B70611D"]
@@ -466,8 +477,8 @@
 				item: "ae2:drive"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: 2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["07FC92E00B70611D"]
@@ -487,8 +498,8 @@
 				item: "ae2:io_port"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: 4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3A9B3D7AE83E6380"]
@@ -515,10 +526,15 @@
 					item: "ae2:pattern_access_terminal"
 					type: "item"
 				}
+				{
+					id: "76CFFBF9269DF294"
+					item: "appliede:transmutation_terminal"
+					type: "item"
+				}
 			]
 			title: "更多终端"
-			x: -1.5d
-			y: 0.0d
+			x: 4.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3FA84486BA32DC6B"]
@@ -533,8 +549,8 @@
 				item: "ae2:wireless_terminal"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -6.0d
+			x: 6.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3FA84486BA32DC6B"]
@@ -550,8 +566,8 @@
 				item: "ae2:wireless_booster"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -6.0d
+			x: 5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["158963017B6295C6"]
@@ -567,8 +583,8 @@
 				item: "aeinfinitybooster:infinity_card"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -7.5d
+			x: 5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["663049A98ABC38F7"]
@@ -584,8 +600,8 @@
 				item: "aeinfinitybooster:dimension_card"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -7.5d
+			x: 6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["06D59C7C8321E9B2"]
@@ -595,8 +611,8 @@
 				item: "ae2:energy_acceptor"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 1.5d
+			x: -8.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["06D59C7C8321E9B2"]
@@ -619,7 +635,7 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
+			x: -6.5d
 			y: 0.5d
 		}
 		{
@@ -663,8 +679,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 1.5d
+			x: 3.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["374A261A4B2106E0"]
@@ -697,8 +713,8 @@
 				}
 			]
 			title: "线缆"
-			x: -3.0d
-			y: -4.5d
+			x: 1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2FF71CEB06324992"]
@@ -714,7 +730,7 @@
 				type: "checkmark"
 			}]
 			title: "更大的容量"
-			x: -1.5d
+			x: 3.5d
 			y: 1.5d
 		}
 		{
@@ -739,8 +755,8 @@
 				}
 			]
 			title: "输入和输出"
-			x: -4.5d
-			y: -4.5d
+			x: 0.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6C40B976BFF088E6"]
@@ -757,8 +773,8 @@
 				type: "item"
 			}]
 			title: "我不想用元件存储怎么办"
-			x: -3.0d
-			y: -6.0d
+			x: 0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["02F24125936690EA"]
@@ -783,8 +799,8 @@
 				}
 			]
 			title: "跨纬度"
-			x: 3.0d
-			y: -3.0d
+			x: 7.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -803,8 +819,8 @@
 				item: "ae2wtlib:quantum_bridge_card"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -4.5d
+			x: 7.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -831,8 +847,8 @@
 				}
 			]
 			title: "制作缠绕奇点"
-			x: 4.5d
-			y: -3.0d
+			x: 7.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7E2A44E411BD6FBC"]
@@ -847,8 +863,8 @@
 				item: "ae2:tiny_tnt"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -4.5d
+			x: 8.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["435EF6D6D3857D6B"]
@@ -872,8 +888,8 @@
 				}
 			]
 			title: "制作奇点"
-			x: 3.0d
-			y: -1.5d
+			x: 7.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6C40B976BFF088E6"]
@@ -889,8 +905,8 @@
 				item: "ae2:interface"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -6.0d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["07FC92E00B70611D"]
@@ -906,8 +922,8 @@
 				item: "ae2:terminal"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -926,8 +942,8 @@
 				item: "appliede:emc_module"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 8.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2FF71CEB06324992"]
@@ -959,8 +975,8 @@
 				}
 			]
 			title: "便携元件"
-			x: 0.0d
-			y: 1.5d
+			x: 2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["02F24125936690EA"]
@@ -977,7 +993,7 @@
 				type: "item"
 			}]
 			title: "自动化合成"
-			x: 3.0d
+			x: 6.5d
 			y: 1.5d
 		}
 		{
@@ -1002,7 +1018,7 @@
 				}
 			]
 			title: "合成"
-			x: 4.5d
+			x: 5.5d
 			y: 1.5d
 		}
 		{
@@ -1019,8 +1035,8 @@
 				item: "ae2:crafting_unit"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.0d
+			x: 7.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6D8A1BCE01B8CC4E"]
@@ -1031,8 +1047,8 @@
 				item: "ae2:1k_crafting_storage"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 3.0d
+			x: 7.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["42D829C5768850C2"]
@@ -1048,8 +1064,8 @@
 				type: "checkmark"
 			}]
 			title: "更多存储器"
-			x: 6.0d
-			y: 3.0d
+			x: 7.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6D8A1BCE01B8CC4E"]
@@ -1065,8 +1081,8 @@
 				item: "ae2:crafting_accelerator"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.0d
+			x: 6.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6D8A1BCE01B8CC4E"]
@@ -1113,16 +1129,18 @@
 				type: "item"
 			}]
 			title: "如何写样板"
-			x: 4.5d
-			y: 0.0d
+			x: 6.5d
+			y: 2.5d
 		}
 		{
-			dependencies: [
-				"6707D1BBF80A093E"
-				"17BF3FC6466C3A0A"
-				"6E538151078C5E85"
+			dependencies: ["6707D1BBF80A093E"]
+			description: [
+				"后续所需DLC包括："
+				""
+				"[EAE]AE2扩展      ExtendedAE"
+				""
+				"[AAE]高级AE       AdvancedAE"
 			]
-			hide_dependent_lines: true
 			hide_until_deps_complete: true
 			id: "7AF621C4548EA283"
 			rewards: [{
@@ -1130,14 +1148,14 @@
 				type: "xp"
 				xp: 100
 			}]
-			size: 3.0d
-			subtitle: "若后续添加更多附属则继续"
+			size: 2.0d
+			subtitle: "后续为DLC内容，若未开启DLC则不可用"
 			tasks: [{
 				id: "66430648DD9C8B90"
 				type: "checkmark"
 			}]
 			title: "进阶后续"
-			x: 6.5d
+			x: -10.5d
 			y: -1.5d
 		}
 		{
@@ -1155,8 +1173,8 @@
 				type: "item"
 			}]
 			title: "分区设备"
-			x: 0.0d
-			y: 3.0d
+			x: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["229F0A5D3B0A471F"]
@@ -1166,14 +1184,14 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "用电催熟，不如加速火把"
+			subtitle: "用电催熟，不如直接用加速火把"
 			tasks: [{
 				id: "422C05B520CC51E0"
 				item: "ae2:growth_accelerator"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -3.0d
+			x: -4.0d
+			y: -3.5d
 		}
 		{
 			can_repeat: true
@@ -1197,8 +1215,1031 @@
 				title: "&e检测任务"
 				type: "checkmark"
 			}]
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"006E1AB32EEF330C"
+				"59E055D86B2E70DC"
+			]
+			dependency_requirement: "one_started"
+			hide_until_deps_complete: true
+			id: "0C5578E60011BB8D"
+			min_required_tasks: 1
+			subtitle: "升级"
+			tasks: [{
+				id: "5B27A4659279A930"
+				item: "expatternprovider:pattern_provider_upgrade"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C40B976BFF088E6"]
+			id: "62BB3F7D7A482B9D"
+			subtitle: "用于将物品转化为EMC和使用 EMC转化物品"
+			tasks: [
+				{
+					id: "4E854175ECF16D7D"
+					item: "appliede:emc_import_bus"
+					type: "item"
+				}
+				{
+					id: "49CB30475F514F75"
+					item: "appliede:emc_export_bus"
+					type: "item"
+				}
+			]
+			title: "转化输入和输出"
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"62BB3F7D7A482B9D"
+				"542C70603B09B5E4"
+				"59E055D86B2E70DC"
+			]
+			dependency_requirement: "all_started"
+			hide_until_deps_complete: true
+			id: "1C3624E155F940B8"
+			subtitle: "给予输入输出接口更多的升级空间"
+			tasks: [
+				{
+					id: "38534BF67F3B471C"
+					item: "expatternprovider:emc_io_bus_upgrade"
+					type: "item"
+				}
+				{
+					id: "50F5E13E02E6C33E"
+					item: "expatternprovider:io_bus_upgrade"
+					type: "item"
+				}
+			]
+			title: "升级"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7AF621C4548EA283"]
+			description: ["由于该模组提供内置讲解，因此仅提供发展流程，其他不多做解释，可按[G]键查看."]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "expatternprovider:ex_pattern_provider"
+			id: "59E055D86B2E70DC"
+			rewards: [{
+				id: "67DCC03FFD511802"
+				item: "expatternprovider:fishbig"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "AE2 扩展是 AE2 的附属模组，提供了一系列切实解决原版 AE2 痛点的物品，为本就可能性无穷的经典模组 AE2 带来了新的可能性！"
+			tasks: [{
+				id: "44FFE9E8B83F5E50"
+				title: "EAE部分"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["7AF621C4548EA283"]
+			description: ["由于该模组提供内置讲解，因此仅提供发展流程，其他不多做解释，可按[G]键查看。"]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "advanced_ae:small_adv_pattern_provider"
+			id: "034874EF98080699"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "高级AE（AdvancedAE）添加了一些实用的自动化设备，如高级样板供应器和量子计算机，可以改善玩家使用ME系统时的体验"
+			tasks: [{
+				id: "15F8DBCF5E9D53FB"
+				title: "AAE部分"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["794D32A53FF8EFB3"]
+			id: "2B2F91E3BAC80B54"
+			tasks: [
+				{
+					id: "359842F13023CB90"
+					item: "appliede:emc_interface"
+					type: "item"
+				}
+				{
+					id: "7E3CAAD185B20FE8"
+					item: "appliede:cable_emc_interface"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"2B2F91E3BAC80B54"
+				"794D32A53FF8EFB3"
+				"59E055D86B2E70DC"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: false
+			id: "4386778BA90B00BC"
+			subtitle: "给予接口更多的升级空间"
+			tasks: [
+				{
+					id: "69517A497412B107"
+					item: "expatternprovider:interface_upgrade"
+					type: "item"
+				}
+				{
+					id: "0B73CC5F39CF7D2A"
+					item: "expatternprovider:emc_interface_upgrade"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"050D869BDEC4F429"
+				"59E055D86B2E70DC"
+			]
+			hide_until_deps_complete: true
+			id: "73F1B073BD02ACED"
+			subtitle: "用不同的过滤方式存储"
+			tasks: [
+				{
+					id: "0ADA91067C13A172"
+					item: "expatternprovider:tag_storage_bus"
+					type: "item"
+				}
+				{
+					id: "0B65A57F5870CFA8"
+					item: "expatternprovider:mod_storage_bus"
+					type: "item"
+				}
+				{
+					id: "2BEE34A5CAFCF30E"
+					item: "expatternprovider:precise_storage_bus"
+					type: "item"
+				}
+			]
+			title: "更多存储总线"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2FE5F1EF931854B4"
+				"59E055D86B2E70DC"
+			]
+			hide_until_deps_visible: true
+			id: "5918C627547AEBA4"
+			subtitle: "可以多加一倍的磁盘"
+			tasks: [{
+				id: "0F32362EE228443F"
+				item: "expatternprovider:drive_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5B335F80C5C46BC3"
+				"59E055D86B2E70DC"
+			]
+			hide_until_deps_complete: true
+			id: "1B0D9E420001A7EA"
+			subtitle: "能一次给多个物品充电"
+			tasks: [{
+				id: "55E44EF562338C53"
+				item: "expatternprovider:ex_charger"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"51EDA04DA0072EE3"
+				"59E055D86B2E70DC"
+			]
+			hide_until_deps_complete: true
+			id: "555CEBC09672C3B9"
+			tasks: [{
+				id: "60F85BC36A81F06D"
+				item: "expatternprovider:ex_inscriber"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["59E055D86B2E70DC"]
+			hide_until_deps_complete: true
+			id: "35A2C682398C4B44"
+			subtitle: "转移设备的好帮手"
+			tasks: [{
+				id: "43C07A697BDAA149"
+				item: {
+					Count: 1
+					id: "expatternprovider:me_packing_tape"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"59E055D86B2E70DC"
+				"034874EF98080699"
+			]
+			id: "09962926ABA20BB0"
+			tasks: [
+				{
+					id: "7967C7EB85E97D1A"
+					item: "advanced_ae:wireless_quantum_crafter_terminal"
+					type: "item"
+				}
+				{
+					id: "111549273AB14982"
+					item: "expatternprovider:wireless_ex_pat"
+					type: "item"
+				}
+			]
+			title: "DLC新加入的终端"
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"32B8ACB3732F1A8D"
+				"034874EF98080699"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "7F7AD70779F18C8B"
+			subtitle: "反应仓（Reaction Chamber）是用于进行诸多高级AE相关合成的机器，有多种功能，需要提供大量能量以工作"
+			tasks: [{
+				id: "080CF50AAF2BBAAA"
+				item: "advanced_ae:reaction_chamber"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"4A48A3F39A558720"
+				"59E055D86B2E70DC"
+			]
+			description: [
+				"它需要充能赛特斯石英水晶和能量才能开始工作。 手持充能赛特斯石英水晶，鼠标右键点击将其放入。一次可以放入64个。"
+				""
+				"但注意，它不能将有瑕的母岩变成无瑕的母岩，也即最高可以修复到的等级是有瑕的。"
+			]
+			hide_until_deps_complete: true
+			id: "765A91597DEDB887"
+			subtitle: "用于修复损坏程度不一的赛特斯石英母岩（包括赛特斯石英块）。每次修复都会使母岩完整度提升一级。"
+			tasks: [{
+				id: "4A6AF554CC18ADF7"
+				item: "expatternprovider:crystal_fixer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"192288A734083250"
+				"0CBC21EC5FE9C43B"
+			]
+			id: "650323C5BAEB9B21"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "可以加装升级卡，详情请按G查看"
+			tasks: [
+				{
+					id: "4D0E111FBE2EA5E2"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D911F47D60E68FB"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32E15A05635D1703"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27B7973165DAB110"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "量子套装"
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["650323C5BAEB9B21"]
+			id: "0C7C398FB8C28D1C"
+			subtitle: "用于给量子套装安装升级"
+			tasks: [{
+				id: "67248EA9B3D279BF"
+				item: "advanced_ae:quantum_upgrade_base"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7F7AD70779F18C8B"]
+			id: "5DFD9E802C27C296"
+			tasks: [{
+				id: "28231AD5942DA52F"
+				item: "advanced_ae:shattered_singularity"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DFD9E802C27C296"]
+			id: "6CB20D65A6D2E52A"
+			tasks: [{
+				id: "2309191A63459789"
+				item: "advanced_ae:quantum_processor_press"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"51F69BD3F41D3F09"
+				"6CB20D65A6D2E52A"
+			]
+			id: "6D3ECDBF59A3BC4E"
+			tasks: [{
+				id: "41CAD171CE16BFEA"
+				item: "advanced_ae:printed_quantum_processor"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6D3ECDBF59A3BC4E"
+				"60061A18E25ABD81"
+			]
+			hide_until_deps_visible: true
+			id: "515EACEB4DED6DE2"
+			tasks: [{
+				id: "332670E47A43647F"
+				item: "advanced_ae:quantum_processor"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7F7AD70779F18C8B"]
+			id: "51F69BD3F41D3F09"
+			tasks: [{
+				id: "2DAD606BA6C241E8"
+				item: "advanced_ae:quantum_alloy"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["51F69BD3F41D3F09"]
+			id: "0CBC21EC5FE9C43B"
+			tasks: [{
+				id: "148A7E21BE6B0ADE"
+				item: "advanced_ae:quantum_alloy_plate"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"5DFD9E802C27C296"
+				"51EDA04DA0072EE3"
+			]
+			hide_until_deps_visible: true
+			id: "0739B92BC770A0CE"
+			tasks: [{
+				id: "545FA7BBADE7B82C"
+				item: "advanced_ae:quantum_infused_dust"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["515EACEB4DED6DE2"]
+			id: "192288A734083250"
+			tasks: [{
+				id: "3F89195F91412932"
+				item: "advanced_ae:quantum_storage_component"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"48BC7B5996E9DF98"
+				"32B8ACB3732F1A8D"
+				"515EACEB4DED6DE2"
+			]
+			hide_until_deps_visible: true
+			id: "7DB77DEE68B5F3AE"
+			tasks: [{
+				id: "1FBD2CDFF9A81E6A"
+				item: "advanced_ae:quantum_unit"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"22B2872E178CF1F3"
+				"2D20B186BB57D7C5"
+			]
+			id: "3C5D5E632824F416"
+			tasks: [{
+				id: "5EECD5645ADE343E"
+				item: "advanced_ae:quantum_core"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7DB77DEE68B5F3AE"]
+			id: "6D71E1D640ED158B"
+			tasks: [{
+				id: "723771348886290B"
+				item: "advanced_ae:quantum_storage_128"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6D71E1D640ED158B"]
+			id: "22B2872E178CF1F3"
+			tasks: [{
+				id: "3868A4F8193C6250"
+				item: "advanced_ae:quantum_storage_256"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"22B2872E178CF1F3"
+				"3C5D5E632824F416"
+			]
+			id: "43940FF80392FBC4"
+			tasks: [{
+				id: "10E5254911159D45"
+				item: "advanced_ae:data_entangler"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7DB77DEE68B5F3AE"]
+			id: "2D20B186BB57D7C5"
+			tasks: [{
+				id: "21DECBE7444C25DC"
+				item: "advanced_ae:quantum_accelerator"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3C5D5E632824F416"
+				"2D20B186BB57D7C5"
+			]
+			id: "01083458D70B21F7"
+			tasks: [{
+				id: "333CD859813CFCE5"
+				item: "advanced_ae:quantum_multi_threader"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["034874EF98080699"]
+			hide_until_deps_visible: true
+			id: "4E57CAE006268034"
+			subtitle: "AAE必选：量子计算机，如何搭建及详细内容按G查看"
+			tasks: [{
+				id: "2DB9D942CD7F4BEC"
+				item: "advanced_ae:quantum_structure"
+				type: "item"
+			}]
+			title: "开始制作量子计算机"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2D20B186BB57D7C5"]
+			id: "62B33207634FD972"
+			tasks: [{
+				id: "43D34CFD7616E6C0"
+				item: "advanced_ae:quantum_crafter"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"034874EF98080699"
+				"0C5578E60011BB8D"
+			]
+			dependency_requirement: "one_started"
+			hide_until_deps_complete: true
+			id: "0DC0012AEA8FEBC6"
+			subtitle: "再次升级"
+			tasks: [
+				{
+					id: "2204A83325705CEE"
+					item: "advanced_ae:adv_pattern_provider_capacity_upgrade"
+					type: "item"
+				}
+				{
+					id: "5925D98E123D08A5"
+					item: "advanced_ae:adv_pattern_provider_upgrade"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"3E972D2FBE648E08"
+				"515EACEB4DED6DE2"
+			]
+			hide_until_deps_visible: true
+			id: "77E712DB180AEA26"
+			tasks: [{
+				id: "247617F34345F201"
+				item: "advanced_ae:quantum_crafter_terminal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"32B8ACB3732F1A8D"
+				"59E055D86B2E70DC"
+			]
+			dependency_requirement: "all_started"
+			hide_until_deps_complete: true
+			id: "17E7B6C835466FA3"
+			subtitle: "制作奇点的好帮手"
+			tasks: [
+				{
+					id: "01B8842631A291D5"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "minecraft:cobblestone"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "486CC3D3538E6B92"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "minecraft:water"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"3E972D2FBE648E08"
+				"59E055D86B2E70DC"
+			]
+			dependency_requirement: "all_started"
+			hide_until_deps_complete: true
+			id: "2CB5B7362E714314"
+			subtitle: "更多功能"
+			tasks: [
+				{
+					id: "5413C1168E4B84BF"
+					item: "expatternprovider:ex_pattern_access_part"
+					type: "item"
+				}
+				{
+					id: "267B26F7256125DD"
+					item: "expatternprovider:ex_crafting_terminal"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"6E538151078C5E85"
+				"59E055D86B2E70DC"
+			]
+			hide_until_deps_complete: true
+			id: "0349B94A21EFA483"
+			tasks: [{
+				id: "0EBB04096D275DEA"
+				item: "expatternprovider:pattern_modifier"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"6E538151078C5E85"
+				"034874EF98080699"
+			]
+			hide_until_deps_complete: true
+			id: "29B5A485E0FB9257"
+			tasks: [{
+				id: "40EC545320419DB0"
+				item: {
+					Count: 1
+					id: "advanced_ae:adv_pattern_encoder"
+					tag: {
+						IsInitialized: 1b
+						baublesreforked.ModifierId: "clumsy"
+						baublesreforked.ModifierUUID: "0f82da1c-0f19-4c81-8d75-5c31bfd0f4e5"
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["06D59C7C8321E9B2"]
+			id: "30D175793A0D1988"
+			rewards: [{
+				id: "3F08FB2472C66EA6"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "如果想要更详细的教程，可以跳转查看百科"
+			tasks: [{
+				id: "2A6F782468345CB4"
+				title: "通量"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6C40B976BFF088E6"
+				"59E055D86B2E70DC"
+			]
+			hide_until_deps_complete: true
+			id: "2B7C453B2DBF30D3"
+			tasks: [
+				{
+					id: "4A616246A12BAA91"
+					item: "expatternprovider:wireless_tool"
+					type: "item"
+				}
+				{
+					id: "1F20441EABA8D308"
+					item: "expatternprovider:wireless_connect"
+					type: "item"
+				}
+			]
+			title: "无线链接"
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2B7C453B2DBF30D3"]
+			description: ["具体请前往百科查看"]
+			id: "0BEACAAAF90E7D5F"
+			subtitle: "ME无线集线器（ME Wireless Hub）是一种可以同时连接多个ME无线连接器的设备"
+			tasks: [{
+				id: "1E51A3AA2CE52E22"
+				item: "expatternprovider:wireless_hub"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"40E4C76F1F2824FD"
+				"59E055D86B2E70DC"
+			]
+			hide_until_deps_complete: true
+			id: "47A54B0AE08C7B9A"
+			subtitle: "提升效率"
+			tasks: [{
+				id: "17D100BF005A6530"
+				item: "expatternprovider:ex_io_port"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"006E1AB32EEF330C"
+				"59E055D86B2E70DC"
+			]
+			hide_until_deps_complete: true
+			id: "408E306B7A379146"
+			tasks: [
+				{
+					id: "57D78269906A8906"
+					item: "expatternprovider:ingredient_buffer"
+					type: "item"
+				}
+				{
+					id: "2B2155F2AFDA3A59"
+					item: "expatternprovider:ex_molecular_assembler"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"794D32A53FF8EFB3"
+				"59E055D86B2E70DC"
+			]
+			hide_until_deps_complete: true
+			id: "73EB2CCD094B25B0"
+			tasks: [{
+				id: "39AB2DAFB5EC457E"
+				item: "expatternprovider:oversize_interface"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["555CEBC09672C3B9"]
+			id: "0473A1C8FD8E1917"
+			subtitle: "压印机还是太慢了"
+			tasks: [{
+				id: "048F2236944CAEA4"
+				item: "expatternprovider:circuit_cutter"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["408E306B7A379146"]
+			id: "1E1B9F2ED49D6672"
+			tasks: [{
+				id: "653AA78B4A5A041B"
+				item: "expatternprovider:caner"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["59E055D86B2E70DC"]
+			hide_until_deps_visible: true
+			id: "7C4560DB60D0957B"
+			subtitle: "EAE必选：装配矩阵，搭建详情按G查看"
+			tasks: [{
+				id: "13C58740690FB0A1"
+				item: "expatternprovider:assembler_matrix_frame"
+				type: "item"
+			}]
+			title: "开始建设装配矩阵"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C4560DB60D0957B"]
+			id: "11EE585825364739"
+			tasks: [
+				{
+					id: "7AA6B389BB0B7CFE"
+					item: "expatternprovider:assembler_matrix_wall"
+					type: "item"
+				}
+				{
+					id: "1F2C7F1C06056AC4"
+					item: "expatternprovider:assembler_matrix_glass"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["11EE585825364739"]
+			id: "480C57810E177277"
+			tasks: [{
+				id: "423A87FF20251FC0"
+				item: "expatternprovider:assembler_matrix_pattern"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["11EE585825364739"]
+			id: "4352D5CC282FF32D"
+			tasks: [{
+				id: "3ED05C80FF7EC24D"
+				item: "expatternprovider:assembler_matrix_crafter"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["11EE585825364739"]
+			id: "7E8ABD7A15ED7ADF"
+			tasks: [{
+				id: "45B7B19F6CEF0A32"
+				item: "expatternprovider:assembler_matrix_speed"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30D175793A0D1988"]
+			hide_until_deps_complete: true
+			id: "7C3B004D0DE5CF2A"
+			tasks: [{
+				id: "75D2F301555C303F"
+				item: "fluxnetworks:flux_dust"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1D78F7CAE8D09916"]
+			id: "4F0A00B51FEA65A1"
+			tasks: [{
+				id: "019D1F09312EC250"
+				item: "fluxnetworks:basic_flux_storage"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4F0A00B51FEA65A1"]
+			id: "7282EB61F4EB0666"
+			tasks: [{
+				id: "24A0A3FD2B0CB16A"
+				item: "fluxnetworks:herculean_flux_storage"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7282EB61F4EB0666"]
+			id: "0A7857BB5CBE5813"
+			tasks: [{
+				id: "1FA5EE89B10438CF"
+				item: "fluxnetworks:gargantuan_flux_storage"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7C3B004D0DE5CF2A"]
+			id: "6C5C0039B8E8D44D"
+			tasks: [{
+				id: "769DBFF8B0C82F8C"
+				item: "fluxnetworks:flux_core"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6C5C0039B8E8D44D"]
+			id: "1D78F7CAE8D09916"
+			tasks: [{
+				id: "4372D41E9749BC17"
+				item: "fluxnetworks:flux_block"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1D78F7CAE8D09916"]
+			id: "2C23044D5E5A4C41"
+			tasks: [{
+				id: "790C3DC71DF67631"
+				item: "fluxnetworks:flux_controller"
+				type: "item"
+			}]
 			x: -5.5d
-			y: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1D78F7CAE8D09916"]
+			id: "4EE8F6B9C33433D8"
+			tasks: [
+				{
+					id: "52C51141834F9485"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+				{
+					id: "56F6C7B31447839B"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+			]
+			title: "能量输入输出"
+			x: -5.5d
+			y: 2.5d
 		}
 	]
 	subtitle: ["&b感谢群友“栖松听风”提供"]
