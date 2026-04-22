@@ -1,0 +1,31 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = [
+  "https://mediafilez.forgecdn.net/files/7746/665/maidsconstruct-1.0.1-forge%2Bmc1.20.1.jar"
+]
+priority = "modrinth"
+
+[basic]
+identifier = "maid_4"
+type = "mod"
+file_name = "maidsconstruct-1.0.1-forge+mc1.20.1.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+alarm = false
+RedirectUrl = "https://www.mcmod.cn/class/25370.html"
+dependencies = [
+  "maid"
+]
+conflicts = []
+
+[DisplayName]
+en_us = "Maid's Construct"
+zh_cn = "女仆匠魂"
+
+[tip]
+en_us = "Maid's Construct is a Minecraft 1.20.1 Forge mod that provides linkage functionality between Touhou Little Maid and Tinkers' Construct 3."
+zh_cn = "（服务端需装、客户端需装）女仆匠魂（Maid's Construct） 是一个 Minecraft 1.20.1 Forge 模组，为 车万女仆（Touhou Little Maid）和 匠魂 3（Tinkers' Construct 3） 之间提供联动功能。"

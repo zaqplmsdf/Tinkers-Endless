@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:part_builder",
+  "cost": 2,
+  "pattern": "tconstruct:repair_kit",
+  "pattern_item": [
+    {
+      "item": "mushroom_concept:almighty_ban"
+    }
+  ],
+  "result": {
+    "item": "tconstruct:repair_kit"
+  }
+}

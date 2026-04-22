@@ -1,0 +1,2 @@
+// Compost colors for zenith. You may add your own colors, change existing ones, or remove colors that aren't needed.
+zenith, #7d98af

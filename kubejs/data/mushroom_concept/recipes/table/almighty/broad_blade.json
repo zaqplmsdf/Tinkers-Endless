@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:part_builder",
+  "cost": 8,
+  "pattern": "tconstruct:broad_blade",
+  "pattern_item": [
+    {
+      "item": "mushroom_concept:almighty_ban"
+    }
+  ],
+  "result": {
+    "item": "tconstruct:broad_blade"
+  }
+}

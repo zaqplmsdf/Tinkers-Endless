@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:part_builder",
+  "cost": 3,
+  "pattern": "sakuratinker:spell_cloth",
+  "pattern_item": [
+    {
+      "item": "mushroom_concept:almighty_ban"
+    }
+  ],
+  "result": {
+    "item": "sakuratinker:spell_cloth"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:part_builder",
+  "cost": 3,
+  "pattern": "tconstruct:tough_binding",
+  "pattern_item": [
+    {
+      "item": "mushroom_concept:almighty_ban"
+    }
+  ],
+  "result": {
+    "item": "tconstruct:tough_binding"
+  }
+}

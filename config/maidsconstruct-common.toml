@@ -1,0 +1,8 @@
+
+[general]
+	#If true, maids are immune to smeltery entity melting damage and won't produce fluid.
+	MaidSmelteryImmunity = true
+	#Fluid IDs that maids are allowed to use as smeltery fuel.
+	#Default: ["minecraft:lava", "tconstruct:blazing_blood"]
+	AllowedFuels = ["minecraft:lava", "tconstruct:blazing_blood"]
+

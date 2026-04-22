@@ -650,7 +650,11 @@
 		}
 		{
 			dependencies: ["24BD8D8876656A03"]
-			description: ["&e零素矿&r需前往&9下界基岩顶部&r挖掘"]
+			description: [
+				"&e零素矿&r需前往&9下界基岩顶部&r挖掘"
+				""
+				"Y=&e123&r-Y=&e126&r"
+			]
 			id: "629CBE6F4324D5E1"
 			tasks: [{
 				id: "38F00BB4BF5A2991"

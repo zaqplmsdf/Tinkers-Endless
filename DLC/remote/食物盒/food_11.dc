@@ -1,0 +1,27 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = [
+  "https://mediafilez.forgecdn.net/files/5448/189/silentsdelight-forge-1.0.1-1.20.1.jar"
+]
+priority = "modrinth"
+
+[basic]
+identifier = "food_11"
+type = "mod"
+file_name = "silentsdelight-forge-1.0.1-1.20.1.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+alarm = false
+RedirectUrl = "https://www.mcmod.cn/class/14856.html"
+dependencies = []
+conflicts = []
+
+[DisplayName]
+zh_cn = "幽匿乐事"
+
+[tip]
+zh_cn = "（服务端需装、客户端需装）"

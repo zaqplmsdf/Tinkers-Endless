@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "wqjy:up_2"
+    },
+    "title": {
+      "translate": "advancement.wqjy:up_2"
+    },
+    "description": {
+      "translate": "advancement.wqjy:up_2.desc"
+    },
+    "frame":"task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "wqjy:main/start",
+  "criteria": {
+    "get_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["wqjy:up_2"]
+          }
+        ]
+      }
+    }
+  }
+}

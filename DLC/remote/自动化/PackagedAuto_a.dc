@@ -1,0 +1,29 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = [
+  "https://mediafilez.forgecdn.net/files/6980/903/PackagedAvaritia-Re-1.20.1-2.2.2.13.jar"
+]
+priority = "modrinth"
+
+[basic]
+identifier = "PackagedAuto_a"
+type = "mod"
+file_name = "PackagedAvaritia-Re-1.20.1-2.2.2.13.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+alarm = false
+RedirectUrl = "https://www.mcmod.cn/class/7826.html"
+dependencies = [
+  "PackagedAuto"
+]
+conflicts = []
+
+[DisplayName]
+zh_cn = "封包无尽贪婪"
+
+[tip]
+zh_cn = "PackagedAvaritia 是一个 封包合成、无尽贪婪、和 [AE2] 应用能源 2 的扩展，增加了像使用 梦魇工作台 一样自动合成的能力。"

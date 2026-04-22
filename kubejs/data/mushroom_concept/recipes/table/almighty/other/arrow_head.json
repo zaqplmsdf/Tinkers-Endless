@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:part_builder",
+  "cost": 4,
+  "pattern": "sakuratinker:arrow_head",
+  "pattern_item": [
+    {
+      "item": "mushroom_concept:almighty_ban"
+    }
+  ],
+  "result": {
+    "item": "sakuratinker:arrow_head"
+  }
+}

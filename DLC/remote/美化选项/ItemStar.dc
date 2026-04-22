@@ -1,0 +1,27 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = [
+  "https://mediafilez.forgecdn.net/files/4985/588/Highlighter-1.20.1-forge-1.1.9.jar"
+]
+priority = "modrinth"
+
+[basic]
+identifier = "ItemStar"
+type = "mod"
+file_name = "Highlighter-1.20.1-forge-1.1.9.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+alarm = false
+RedirectUrl = ""
+dependencies = []
+conflicts = []
+
+[DisplayName]
+zh_cn = "物品高亮"
+
+[tip]
+zh_cn = "[§a客户端需装§r|§c服务端无效§r]此模组会为背包中新拾取的物品显示闪烁的星星图标，以便快速找到它们。"

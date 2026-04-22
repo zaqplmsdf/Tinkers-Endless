@@ -1,0 +1,27 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = [
+  "https://mediafilez.forgecdn.net/files/6180/421/ends_delight-2.5.1%2Bforge.1.20.1.jar"
+]
+priority = "modrinth"
+
+[basic]
+identifier = "food_6"
+type = "mod"
+file_name = "ends_delight-2.5.1+forge.1.20.1.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+alarm = false
+RedirectUrl = "https://www.mcmod.cn/class/6298.html"
+dependencies = []
+conflicts = []
+
+[DisplayName]
+zh_cn = "末地乐事"
+
+[tip]
+zh_cn = "（服务端需装、客户端需装）"

@@ -1,7 +1,7 @@
 {
 	id: "73714F32A2EFF2D8"
 	loot_size: 1
-	order_index: 22
+	order_index: 21
 	rewards: [
 		{ item: "curseofpandora:dried_brain" }
 		{ item: "curseofpandora:eroded_brain" }

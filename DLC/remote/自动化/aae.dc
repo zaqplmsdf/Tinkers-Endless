@@ -1,0 +1,29 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = [
+  "https://mediafilez.forgecdn.net/files/7939/754/AdvancedAE-1.3.5-1.20.1.jar"
+]
+priority = "modrinth"
+
+[basic]
+identifier = "aae"
+type = "mod"
+file_name = "AdvancedAE-1.3.5-1.20.1.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+alarm = false
+RedirectUrl = "https://www.mcmod.cn/class/16225.html"
+dependencies = [
+  "Glodium"
+]
+conflicts = []
+
+[DisplayName]
+zh_cn = "高级AE"
+
+[tip]
+zh_cn = "高级AE（AdvancedAE）添加了一些实用的自动化设备，如高级样板供应器和量子计算机，可以改善玩家使用ME系统时的体验。"

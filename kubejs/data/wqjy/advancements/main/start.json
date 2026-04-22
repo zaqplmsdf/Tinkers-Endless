@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "wqjy:wqjy_logo"
+    },
+    "title": {
+      "translate": "advancementTab.wqjy"
+    },
+    "description": {
+      "translate": "advancementTab.wqjy.desc"
+    },
+    "background": "minecraft:textures/block/diamond_block.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "player_tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

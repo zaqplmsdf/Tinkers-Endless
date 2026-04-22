@@ -1,0 +1,27 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = [
+  "https://mediafilez.forgecdn.net/files/7799/980/Cave-Delight-1.20.1-2.0.1.jar"
+]
+priority = "modrinth"
+
+[basic]
+identifier = "food_2"
+type = "mod"
+file_name = "Cave-Delight-1.20.1-2.0.1.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+alarm = false
+RedirectUrl = ""
+dependencies = []
+conflicts = []
+
+[DisplayName]
+zh_cn = "洞穴乐事"
+
+[tip]
+zh_cn = "（服务端需装、客户端需装）"

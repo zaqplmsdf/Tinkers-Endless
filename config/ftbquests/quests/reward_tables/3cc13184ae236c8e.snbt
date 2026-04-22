@@ -13,7 +13,7 @@
 		string_id: "7"
 	}
 	loot_size: 1
-	order_index: 27
+	order_index: 26
 	rewards: [
 		{
 			item: {

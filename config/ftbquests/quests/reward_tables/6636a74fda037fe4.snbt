@@ -1,7 +1,7 @@
 {
 	id: "6636A74FDA037FE4"
 	loot_size: 1
-	order_index: 30
+	order_index: 29
 	rewards: [
 		{ item: "minecraft:rotten_flesh", weight: 10.0f }
 		{ item: "thermal:copper_coin", weight: 8.0f }

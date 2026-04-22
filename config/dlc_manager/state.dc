@@ -1,32 +1,4 @@
 [DLC]
-  [mod:DLC|Y-Prerequisite library/cupboard-1.20.1-3.5.jar]
-    enabled = true
-    appliedTargets = ["mods\\cupboard-1.20.1-3.5.jar"]
-
-  [mod:DLC|Z-Client-side/BetterF3-7.0.2-Forge-1.20.1.jar]
-    enabled = true
-    appliedTargets = ["mods\\BetterF3-7.0.2-Forge-1.20.1.jar"]
-
-  [mod:DLC|Z-Client-side/betterfpsdist-1.20.1-6.0.jar]
-    enabled = true
-    appliedTargets = ["mods\\betterfpsdist-1.20.1-6.0.jar"]
-
-  [mod:DLC|A-The-DLC/TooManyTinkers-0.3.0.jar]
+  [mod:DLC|美化选项/TooManyTinkers-0.3.0.jar]
     enabled = true
     appliedTargets = ["mods\\TooManyTinkers-0.3.0.jar"]
-
-  [mod:DLC|Z-Create-Optimization-6.0.6/oculus-flywheel-compat-Forge-2.0.3.jar]
-    enabled = true
-    appliedTargets = ["mods\\oculus-flywheel-compat-Forge-2.0.3.jar"]
-
-  [mod:DLC|Z-Create-Optimization-6.0.6/createbetterfps-1.20.1-1.1.1.jar]
-    enabled = true
-    appliedTargets = ["mods\\createbetterfps-1.20.1-1.1.1.jar"]
-
-  [mod:DLC|Z-Create-Optimization-6.0.6/createthreadedtrains-forge-1.20.1-1.0.0.jar]
-    enabled = true
-    appliedTargets = ["mods\\createthreadedtrains-forge-1.20.1-1.0.0.jar"]
-
-  [mod:DLC|Z-Client-side-server/efficient_hashing-forge-1.0.0+1.20.1-mod.jar]
-    enabled = true
-    appliedTargets = ["mods\\efficient_hashing-forge-1.0.0+1.20.1-mod.jar"]

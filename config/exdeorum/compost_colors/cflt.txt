@@ -1,0 +1,3 @@
+// Compost colors for cflt. You may add your own colors, change existing ones, or remove colors that aren't needed.
+custom_warp_pearl, #f2f2f2
+warp_pearl, #f2f2f2

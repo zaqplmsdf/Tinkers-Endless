@@ -161,250 +161,7 @@
 					Count: 1
 					id: "extrabotany:excalibur"
 					tag: {
-						AttributeModifiers: [
-							{
-								Amount: 3.0d
-								AttributeName: "forge:entity_reach"
-								Operation: 0
-								Slot: "mainhand"
-								UUID: [I;
-									1898794145
-									-1666561915
-									-1696378098
-									1839437802
-								]
-							}
-							{
-								Amount: 2.147483647E9d
-								AttributeName: "minecraft:generic.attack_damage"
-								Operation: 0
-								Slot: "mainhand"
-								UUID: [I;
-									-435761674
-									1416380772
-									-1329312698
-									1655988914
-								]
-							}
-							{
-								Amount: 2.4d
-								AttributeName: "minecraft:generic.attack_speed"
-								Operation: 0
-								Slot: "mainhand"
-								UUID: [I;
-									418533311
-									2113291692
-									-1272813287
-									-1065431350
-								]
-							}
-							{
-								Amount: 0.3d
-								AttributeName: "minecraft:generic.movement_speed"
-								Operation: 1
-								Slot: "mainhand"
-								UUID: [I;
-									1621949555
-									-496416251
-									-2012231637
-									220972013
-								]
-							}
-							{
-								Amount: -0.05d
-								AttributeName: "l2damagetracker:damage_reduction"
-								Operation: 1
-								Slot: "offhand"
-								UUID: [I;
-									-1912873049
-									136333719
-									-1495840055
-									463221562
-								]
-							}
-							{
-								Amount: 1.0d
-								AttributeName: "minecraft:generic.attack_damage"
-								Operation: 2
-								Slot: "offhand"
-								UUID: [I;
-									1169451741
-									-2109127351
-									-1195462917
-									-1500051502
-								]
-							}
-							{
-								Amount: 2.0d
-								AttributeName: "irons_spellbooks:spell_power"
-								Operation: 2
-								Slot: "offhand"
-								UUID: [I;
-									-143022650
-									-1818669159
-									-1709443732
-									209451194
-								]
-							}
-							{
-								Amount: 2.0d
-								AttributeName: "irons_spellbooks:spell_resist"
-								Operation: 2
-								Slot: "offhand"
-								UUID: [I;
-									2060554099
-									886263352
-									-1922928368
-									-1526124115
-								]
-							}
-							{
-								Amount: 2.0d
-								AttributeName: "slashblade:slashblade_damage"
-								Operation: 2
-								Slot: "mainhand"
-								UUID: [I;
-									-2122579126
-									736248253
-									-1886098451
-									-1474537346
-								]
-							}
-							{
-								Amount: 2.0d
-								AttributeName: "slashblade:slashblade_damage"
-								Operation: 2
-								Slot: "offhand"
-								UUID: [I;
-									-374275729
-									-1565569354
-									-1133759198
-									-1701706353
-								]
-							}
-							{
-								Amount: 2.0d
-								AttributeName: "irons_spellbooks:mana_regen"
-								Operation: 2
-								Slot: "offhand"
-								UUID: [I;
-									-844140993
-									-2064757277
-									-1801629753
-									-760447072
-								]
-							}
-							{
-								Amount: 2.0d
-								AttributeName: "irons_spellbooks:max_mana"
-								Operation: 2
-								Slot: "offhand"
-								UUID: [I;
-									1977455471
-									-1675999926
-									-2016482007
-									771989637
-								]
-							}
-							{
-								Amount: 0.5d
-								AttributeName: "l2damagetracker:crit_rate"
-								Operation: 0
-								Slot: "offhand"
-								UUID: [I;
-									1453404939
-									629620805
-									-2062887704
-									249518662
-								]
-							}
-						]
 						Damage: 0
-						Enchantments: [
-							{
-								id: "enigmaticaddons:frost_aspect"
-								lvl: 255
-							}
-							{
-								id: "mme:critical_strike"
-								lvl: 255
-							}
-							{
-								id: "ensorcellation:soulbound"
-								lvl: 255
-							}
-							{
-								id: "minecraft:sweeping"
-								lvl: 255
-							}
-							{
-								id: "mme:judgment"
-								lvl: 255
-							}
-							{
-								id: "draconicevolution:reaper_enchantment"
-								lvl: 255
-							}
-							{
-								id: "minecraft:unbreaking"
-								lvl: 255
-							}
-							{
-								id: "mme:soul_siphon"
-								lvl: 255
-							}
-							{
-								id: "mme:life_steal"
-								lvl: 255
-							}
-							{
-								id: "ars_nouveau:reactive"
-								lvl: 255
-							}
-							{
-								id: "mme:sanction"
-								lvl: 255
-							}
-							{
-								id: "minecraft:looting"
-								lvl: 255
-							}
-							{
-								id: "enigmaticlegacy:slayer"
-								lvl: 255
-							}
-							{
-								id: "hmag:water_aspect"
-								lvl: 255
-							}
-							{
-								id: "minecraft:knockback"
-								lvl: 255
-							}
-							{
-								id: "ensorcellation:leech"
-								lvl: 255
-							}
-							{
-								id: "minecraft:sharpness"
-								lvl: 255
-							}
-							{
-								id: "minecraft:smite"
-								lvl: 255
-							}
-							{
-								id: "minecraft:bane_of_arthropods"
-								lvl: 255
-							}
-							{
-								id: "ensorcellation:damage_illager"
-								lvl: 255
-							}
-						]
-						HideFlags: 37
-						SoulSiphonStacks: 150
-						Unbreakable: 1b
 						display: {
 							Lore: [
 								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_purple\",\"text\":\"于是，一位悲伤的王孤身踏上了守护的道路\"}],\"text\":\"\"}"
@@ -414,8 +171,6 @@
 							]
 							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"#FF0000\",\"text\":\"荒\"},{\"color\":\"#FF5000\",\"text\":\"古\"},{\"color\":\"#FFA000\",\"text\":\"岁\"},{\"color\":\"#FFFF00\",\"text\":\"月\"},{\"color\":\"#A0FF00\",\"text\":\"的\"},{\"color\":\"#50FF00\",\"text\":\"永\"},{\"color\":\"#00FF00\",\"text\":\"恒\"},{\"color\":\"#00FF50\",\"text\":\"哀\"},{\"color\":\"#00FFA0\",\"text\":\"歌\"}],\"text\":\"\"}"
 						}
-						soulbindUUID: "935ba862-946e-4134-bb81-3efdc434ef74"
-						tic_persistent: { }
 					}
 				}
 				match_nbt: true
@@ -437,200 +192,6 @@
 					Count: 1
 					id: "irons_spellbooks:blood_staff"
 					tag: {
-						AttributeModifiers: [
-							{
-								Amount: 50.0d
-								AttributeName: "irons_spellbooks:spell_power"
-								Operation: 0
-								Slot: "mainhand"
-								UUID: [I;
-									1597881818
-									548226202
-									-1349048396
-									-1963479654
-								]
-							}
-							{
-								Amount: 263296.0d
-								AttributeName: "minecraft:generic.attack_damage"
-								Operation: 0
-								Slot: "mainhand"
-								UUID: [I;
-									1719081995
-									1354580892
-									-1750654324
-									-959645421
-								]
-							}
-							{
-								Amount: 1.0d
-								AttributeName: "irons_spellbooks:cast_time_reduction"
-								Operation: 1
-								Slot: "mainhand"
-								UUID: [I;
-									-74352423
-									1666534930
-									-1202499997
-									-785991316
-								]
-							}
-							{
-								Amount: 1.0d
-								AttributeName: "irons_spellbooks:cooldown_reduction"
-								Operation: 1
-								Slot: "mainhand"
-								UUID: [I;
-									1723651085
-									-1709423402
-									-1100145364
-									461319373
-								]
-							}
-							{
-								Amount: 0.5d
-								AttributeName: "l2damagetracker:crit_rate"
-								Operation: 0
-								Slot: "mainhand"
-								UUID: [I;
-									347749268
-									-297056053
-									-1941342029
-									-1024975803
-								]
-							}
-							{
-								Amount: 2.0d
-								AttributeName: "minecraft:generic.attack_speed"
-								Operation: 0
-								Slot: "mainhand"
-								UUID: [I;
-									-1311740524
-									740576946
-									-1282354231
-									-156919491
-								]
-							}
-							{
-								Amount: 3.0d
-								AttributeName: "forge:entity_reach"
-								Operation: 0
-								Slot: "mainhand"
-								UUID: [I;
-									2121315970
-									-519550538
-									-1307259195
-									-920305770
-								]
-							}
-							{
-								Amount: 3.0d
-								AttributeName: "irons_spellbooks:mana_regen"
-								Operation: 1
-								Slot: "mainhand"
-								UUID: [I;
-									-986487000
-									1674069890
-									-1136046456
-									1188157610
-								]
-							}
-							{
-								Amount: 400.0d
-								AttributeName: "irons_spellbooks:max_mana"
-								Operation: 0
-								Slot: "mainhand"
-								UUID: [I;
-									-861124175
-									1979403994
-									-1812661614
-									-463012240
-								]
-							}
-							{
-								Amount: 1.0d
-								AttributeName: "irons_spellbooks:ice_spell_power"
-								Operation: 1
-								Slot: "mainhand"
-								UUID: [I;
-									-411150965
-									-1246935924
-									-1781186423
-									-1898459890
-								]
-							}
-							{
-								Amount: 1.0d
-								AttributeName: "irons_spellbooks:ice_magic_resist"
-								Operation: 1
-								Slot: "mainhand"
-								UUID: [I;
-									-1123088554
-									-258260634
-									-1643967746
-									-2037544792
-								]
-							}
-						]
-						Enchantments: [
-							{
-								id: "draconicevolution:reaper_enchantment"
-								lvl: 255
-							}
-							{
-								id: "minecraft:sweeping"
-								lvl: 255
-							}
-							{
-								id: "ars_nouveau:reactive"
-								lvl: 255
-							}
-							{
-								id: "hmag:water_aspect"
-								lvl: 255
-							}
-							{
-								id: "mme:judgment"
-								lvl: 255
-							}
-							{
-								id: "mme:life_steal"
-								lvl: 255
-							}
-							{
-								id: "mme:soul_siphon"
-								lvl: 255
-							}
-							{
-								id: "mme:sanction"
-								lvl: 255
-							}
-							{
-								id: "enigmaticaddons:frost_aspect"
-								lvl: 255
-							}
-							{
-								id: "mme:critical_strike"
-								lvl: 255
-							}
-							{
-								id: "enigmaticlegacy:slayer"
-								lvl: 255
-							}
-							{
-								id: "minecraft:sharpness"
-								lvl: 255
-							}
-							{
-								id: "minecraft:smite"
-								lvl: 255
-							}
-							{
-								id: "minecraft:bane_of_arthropods"
-								lvl: 255
-							}
-						]
-						HideFlags: 1
-						RepairCost: 0
 						display: {
 							Lore: [
 								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_purple\",\"text\":\"我从未停留，直至那熟悉的小塔脚下开满鲜花\"}],\"text\":\"\"}"
@@ -1116,10 +677,6 @@
 							}
 						]
 						Damage: 0
-						Enchantments: [{
-							id: ""
-							lvl: 0
-						}]
 						Unbreakable: 1b
 						display: {
 							Lore: [
@@ -1154,96 +711,6 @@
 					Count: 1
 					id: "irons_spellbooks:blood_staff"
 					tag: {
-						AttributeModifiers: [
-							{
-								Amount: 9931.0d
-								AttributeName: "minecraft:generic.attack_damage"
-								Operation: 0
-								Slot: "mainhand"
-								UUID: [I;
-									-86029279
-									-868531546
-									-1950802828
-									978365207
-								]
-							}
-							{
-								Amount: 3.0d
-								AttributeName: "forge:entity_reach"
-								Operation: 0
-								Slot: "mainhand"
-								UUID: [I;
-									2118834754
-									-1034796570
-									-2131656216
-									-1231362341
-								]
-							}
-							{
-								Amount: -2.4d
-								AttributeName: "minecraft:generic.attack_speed"
-								Operation: 0
-								Slot: "mainhand"
-								UUID: [I;
-									1620167271
-									15745609
-									-1632731735
-									-1219086925
-								]
-							}
-							{
-								Amount: 0.25d
-								AttributeName: "irons_spellbooks:mana_regen"
-								Operation: 1
-								Slot: "mainhand"
-								UUID: [I;
-									1629772114
-									658656833
-									-1338840410
-									-84363809
-								]
-							}
-							{
-								Amount: 0.15d
-								AttributeName: "irons_spellbooks:cast_time_reduction"
-								Operation: 1
-								Slot: "mainhand"
-								UUID: [I;
-									1668792434
-									532039346
-									-1643662110
-									1563445524
-								]
-							}
-							{
-								Amount: 0.15d
-								AttributeName: "irons_spellbooks:cooldown_reduction"
-								Operation: 1
-								Slot: "mainhand"
-								UUID: [I;
-									1286190377
-									-24296174
-									-1759047149
-									-2131164003
-								]
-							}
-							{
-								Amount: 0.1d
-								AttributeName: "ars_nouveau:ars_nouveau.perk.spell_damage"
-								Operation: 1
-								Slot: "mainhand"
-								UUID: [I;
-									1927165686
-									-642953976
-									-1112808195
-									-534769183
-								]
-							}
-						]
-						Enchantments: [{
-							id: ""
-							lvl: 0
-						}]
 						Unbreakable: 1b
 						display: {
 							Lore: [
@@ -2130,9 +1597,11 @@
 			y: -3.0d
 		}
 		{
+			can_repeat: false
 			description: ["一把还算不错的拔刀剑，由咒翼灵骸掉落（需使用拔刀剑击杀，必定掉落）"]
 			id: "26DC9953040F7F3A"
 			tasks: [{
+				consume_items: false
 				id: "1C9002757F55726B"
 				item: {
 					Count: 1
@@ -2183,7 +1652,7 @@
 				weak_nbt_match: true
 			}]
 			x: 0.0d
-			y: -2.5d
+			y: -4.5d
 		}
 		{
 			can_repeat: true
@@ -2209,6 +1678,477 @@
 			}]
 			x: -4.0d
 			y: -4.5d
+		}
+		{
+			can_repeat: false
+			id: "2E4C2E4F8BC24F22"
+			rewards: [{
+				id: "77E8726F42505518"
+				item: "srelic:rainbow_star"
+				type: "item"
+			}]
+			subtitle: "天顶剑不会被盖亚守护者III缴械"
+			tasks: [{
+				consume_items: false
+				id: "79310FA82FB25579"
+				item: "zenith:zenith"
+				match_nbt: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "zenith:zenith"
+				tag: {
+					AttributeModifiers: [
+						{
+							Amount: 3.0d
+							AttributeName: "forge:entity_reach"
+							Operation: 0
+							Slot: "mainhand"
+							UUID: [I;
+								-1745860561
+								-1193393493
+								-1156458796
+								1486742284
+							]
+						}
+						{
+							Amount: 3.3550336E7d
+							AttributeName: "minecraft:generic.attack_damage"
+							Operation: 0
+							Slot: "mainhand"
+							UUID: [I;
+								326626121
+								2070628388
+								-1706086911
+								-1708112486
+							]
+						}
+						{
+							Amount: 20.0d
+							AttributeName: "minecraft:generic.attack_speed"
+							Operation: 0
+							Slot: "mainhand"
+							UUID: [I;
+								787630753
+								1485326844
+								-1129168527
+								1613988194
+							]
+						}
+					]
+					Enchantments: [
+						{
+							id: "minecraft:sweeping"
+							lvl: 255
+						}
+						{
+							id: "ars_nouveau:reactive"
+							lvl: 255
+						}
+						{
+							id: "ensorcellation:soulbound"
+							lvl: 1
+						}
+						{
+							id: "draconicevolution:reaper_enchantment"
+							lvl: 255
+						}
+						{
+							id: "enigmaticaddons:frost_aspect"
+							lvl: 255
+						}
+						{
+							id: "enigmaticlegacy:slayer"
+							lvl: 255
+						}
+						{
+							id: "hmag:water_aspect"
+							lvl: 255
+						}
+						{
+							id: "l2complements:cursed_blade"
+							lvl: 5
+						}
+						{
+							id: "l2hostility:split_suppressor"
+							lvl: 1
+						}
+						{
+							id: "minecraft:smite"
+							lvl: 255
+						}
+						{
+							id: "minecraft:bane_of_arthropods"
+							lvl: 255
+						}
+						{
+							id: "minecraft:sharpness"
+							lvl: 255
+						}
+					]
+					HideFlags: 1
+					display: {
+						Lore: [
+							"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"#9AFFBF\",\"text\":\"左键或右键释放循环剑刃\"}],\"text\":\"\"}"
+							"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"#9AFFBF\",\"text\":\"不会被盖亚守护者III收缴\"}],\"text\":\"\"}"
+						]
+						Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"#61FFFF\",\"text\":\"真·天顶剑\"}],\"text\":\"\"}"
+					}
+					tic_persistent: {
+						"aether_tinker:heroic_spirit": 73
+						"mushroom_concept:heroic_spirit": 100
+					}
+					zenith_parts: [
+						{
+							color: 14115889
+							item: "wqjy:jian"
+							rotation: 0.785d
+							rotation_center_height: 0.125d
+							scale: 3.75d
+							trail_width: 1
+						}
+						{
+							color: 13296127
+							item: "zenith:zenith"
+							rotation: 0.785d
+							rotation_center_height: 0.125d
+							scale: 3.75d
+							trail_width: 1
+						}
+						{
+							color: 51455
+							item: "wqjy:zhang_1"
+							rotation: 0.785d
+							rotation_center_height: 0.125d
+							scale: 3.75d
+							trail_width: 1
+						}
+						{
+							color: 14115889
+							item: "extrabotany:excalibur"
+							rotation: 0.785d
+							rotation_center_height: 0.125d
+							scale: 3.75d
+							trail_width: 1
+						}
+						{
+							color: 14115889
+							item: "mythicbotany:alfsteel_sword"
+							rotation: 0.785d
+							rotation_center_height: 0.125d
+							scale: 3.75d
+							trail_width: 1
+						}
+						{
+							color: 14115889
+							item: "hmag:insomnia_sword"
+							rotation: 0.785d
+							rotation_center_height: 0.125d
+							scale: 3.75d
+							trail_width: 1
+						}
+						{
+							color: 14115889
+							item: "sakuratinker:blade_convergence"
+							rotation: 0.785d
+							rotation_center_height: 0.125d
+							scale: 3.75d
+							trail_width: 1
+						}
+						{
+							color: 14115889
+							item: "wqjy:jian"
+							rotation: 0.785d
+							rotation_center_height: 0.125d
+							scale: 0.75d
+							trail_width: 1
+						}
+						{
+							color: 14115889
+							item: "wqjy:jian"
+							rotation: 0.785d
+							rotation_center_height: 0.125d
+							scale: 0.75d
+							trail_width: 1
+						}
+					]
+				}
+			}
+			id: "332BF7180CDEDE9B"
+			rewards: [{
+				id: "57FE4D0F19DA7A16"
+				item: {
+					Count: 1
+					id: "zenith:zenith"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 3.0d
+								AttributeName: "forge:entity_reach"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									-1745860561
+									-1193393493
+									-1156458796
+									1486742284
+								]
+							}
+							{
+								Amount: 3.3550336E7d
+								AttributeName: "minecraft:generic.attack_damage"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									326626121
+									2070628388
+									-1706086911
+									-1708112486
+								]
+							}
+							{
+								Amount: 20.0d
+								AttributeName: "minecraft:generic.attack_speed"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									787630753
+									1485326844
+									-1129168527
+									1613988194
+								]
+							}
+						]
+						Enchantments: [
+							{
+								id: "minecraft:sweeping"
+								lvl: 255
+							}
+							{
+								id: "ars_nouveau:reactive"
+								lvl: 255
+							}
+							{
+								id: "ensorcellation:soulbound"
+								lvl: 1
+							}
+							{
+								id: "draconicevolution:reaper_enchantment"
+								lvl: 255
+							}
+							{
+								id: "enigmaticaddons:frost_aspect"
+								lvl: 255
+							}
+							{
+								id: "enigmaticlegacy:slayer"
+								lvl: 255
+							}
+							{
+								id: "hmag:water_aspect"
+								lvl: 255
+							}
+							{
+								id: "l2complements:cursed_blade"
+								lvl: 5
+							}
+							{
+								id: "l2hostility:split_suppressor"
+								lvl: 1
+							}
+							{
+								id: "minecraft:smite"
+								lvl: 255
+							}
+							{
+								id: "minecraft:bane_of_arthropods"
+								lvl: 255
+							}
+							{
+								id: "minecraft:sharpness"
+								lvl: 255
+							}
+						]
+						HideFlags: 1
+						display: {
+							Lore: [
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"#9AFFBF\",\"text\":\"左键或右键释放循环剑刃\"}],\"text\":\"\"}"
+								"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"#9AFFBF\",\"text\":\"不会被盖亚守护者III收缴\"}],\"text\":\"\"}"
+							]
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"#DEFFFF\",\"text\":\"真·盖亚屠戮者·天顶剑\"}],\"text\":\"\"}"
+						}
+						tic_persistent: {
+							"aether_tinker:heroic_spirit": 73
+							"mushroom_concept:heroic_spirit": 100
+							"mushroom_daydream:flare": 15.0f
+						}
+						zenith_parts: [
+							{
+								color: 16777158
+								item: "wqjy:jian"
+								rotation: 0.785d
+								rotation_center_height: 0.125d
+								scale: 3.75d
+								trail_width: 1
+							}
+							{
+								color: 13296127
+								item: "zenith:zenith"
+								rotation: 0.785d
+								rotation_center_height: 0.125d
+								scale: 3.75d
+								trail_width: 1
+							}
+							{
+								color: 51455
+								item: "wqjy:zhang_1"
+								rotation: 0.785d
+								rotation_center_height: 0.125d
+								scale: 3.75d
+								trail_width: 1
+							}
+							{
+								color: 16777088
+								item: "extrabotany:excalibur"
+								rotation: 0.785d
+								rotation_center_height: 0.125d
+								scale: 3.75d
+								trail_width: 1
+							}
+							{
+								color: 16752640
+								item: "mythicbotany:alfsteel_sword"
+								rotation: 0.785d
+								rotation_center_height: 0.125d
+								scale: 3.75d
+								trail_width: 1
+							}
+							{
+								color: 983039
+								item: "hmag:insomnia_sword"
+								rotation: 0.785d
+								rotation_center_height: 0.125d
+								scale: 3.75d
+								trail_width: 1
+							}
+							{
+								color: 16777215
+								item: "sakuratinker:blade_convergence"
+								rotation: 0.785d
+								rotation_center_height: 0.125d
+								scale: 3.75d
+								trail_width: 1
+							}
+							{
+								color: 14115889
+								item: "composite_material:copper_sword"
+								rotation: 0.785d
+								rotation_center_height: 0.125d
+								scale: 3.75d
+								trail_width: 1
+							}
+							{
+								color: 9830400
+								item: "avaritia:infinity_sword"
+								rotation: 0.785d
+								rotation_center_height: 0.125d
+								scale: 3.75d
+								trail_width: 1
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "6090EDED4461F322"
+					item: "wqjy:wuqi_2"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "19B0BAF4ADFD8F26"
+					item: "wqjy:wuqi_1"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5D1843FDFFDE84AF"
+					item: "zenith:zenith"
+					type: "item"
+				}
+			]
+			title: "真·天顶剑"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"2E4C2E4F8BC24F22"
+				"03FA631D240E88AA"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				Count: 1
+				id: "sakuratinker:blade_convergence"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_display: 1b
+					tic_materials: [
+						"tconstruct:ui_render#head"
+						"tconstruct:ui_render#handle"
+						"tconstruct:ui_render#extra"
+						"tconstruct:ui_render#large"
+						"tconstruct:ui_render#extra_large"
+					]
+					tic_modifiers: [{
+						level: 1
+						name: "sakuratinker:blade_convergence"
+					}]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 1.5f
+						"tconstruct:durability": 2.0f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"sakuratinker:range": 1.0f
+						"tconstruct:attack_damage": 7.5f
+						"tconstruct:attack_speed": 2.0f
+						"tconstruct:durability": 4.0f
+						"tconstruct:mining_speed": 2.0f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			id: "2CB57323C7D37AC7"
+			rewards: [{
+				command: "/astages add @p blade_convergence"
+				elevate_perms: true
+				icon: "thermal:lock"
+				id: "0F0CD5A4B537E096"
+				silent: true
+				title: "解锁：万剑归一"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0710E0DE932C33AE"
+				type: "checkmark"
+			}]
+			title: "解锁万剑归一"
+			x: 0.0d
+			y: -1.5d
 		}
 	]
 	title: "◇&b一些非匠魂的武器"
