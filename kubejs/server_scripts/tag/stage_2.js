@@ -169,7 +169,6 @@ ServerEvents.tags('item', event =>{
         '#forge:storage_blocks/steeleaf',
         '#forge:ingots/bismuth',
         '#forge:ingots/black_chocolate',
-        '#forge:obsidian',
         '#forge:ingots/ratlantis_gem',
         '#forge:storage_blocks/echo_bronze',
         '#forge:nuggets/echo_bronze',

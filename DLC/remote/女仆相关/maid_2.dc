@@ -8,7 +8,7 @@ priority = ["modrinth"]
 
 [basic]
 identifier = "maid_2"
-file_name = "maid_command-1.0.1.jarmaid_command-1.0.1.jar"
+file_name = "maid_command-1.0.1.jar"
 type = "mod"
 RedirectUrl = "https://www.mcmod.cn/class/20538.html"
 isInList = true

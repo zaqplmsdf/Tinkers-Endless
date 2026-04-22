@@ -122,6 +122,7 @@ ServerEvents.tags('item', event =>{
             'tinkersinnovation:slime_bone',
             '#forge:ingots/brass',
             '#forge:nuggets/brass',
+            '#forge:obsidian',
             '#forge:storage_blocks/brass'
         ]
     )

@@ -4,6 +4,7 @@ EntityEvents.spawned(event => {
     const forbiddenItems = [
         'tconstruct:melting_pan',
         'tconstruct:war_pick',
+        'tinkers_things:blockram',
         'tconstruct:swasher',
         'tconstruct:battlesign',
         'tconstruct:minotaur_axe' // 修正原输入中的拼写错误
