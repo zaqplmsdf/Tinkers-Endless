@@ -1,5 +1,6 @@
+//置换配方
 ServerEvents.recipes(event => {
-
+    //黑钢
     event.shapeless(
         Item.of('wqjy:black_steel_ingot'),
         [
@@ -12,6 +13,7 @@ ServerEvents.recipes(event => {
             'wqjy:black_steel_ingot'
         ]
     )
+    //凋灵合金
     event.shapeless(
         Item.of('wqjy:witherite_ingot'),
         [
@@ -24,6 +26,7 @@ ServerEvents.recipes(event => {
             'wqjy:witherite_ingot'
         ]
     )
+    //咒魂锭
     event.shapeless(
         Item.of('cataclysm:cursium_ingot'),
         [
@@ -36,6 +39,7 @@ ServerEvents.recipes(event => {
             'cataclysm:cursium_ingot'
         ]
     )
+    //腾炎锭
     event.shapeless(
         Item.of('cataclysm:ignitium_ingot'),
         [
@@ -48,7 +52,7 @@ ServerEvents.recipes(event => {
             'cataclysm:ignitium_ingot'
         ]
     )
-
+    //远古金属
     event.shapeless(
         Item.of('wqjy:ancient_metal_ingot'),
         [

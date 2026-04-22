@@ -1,3 +1,4 @@
+//移除配方
 ServerEvents.recipes(event => {
     event.remove({
         id: "twilightforest:uncrafting_table",
@@ -33,7 +34,11 @@ ServerEvents.recipes(event => {
         {id: 'ticex:smeltery/casting/scorched/scorched_rf_furnace'},
         {id: 'tinkerscalibration:tools/materials/melting/dragonbreath/bottle'},
         {id: 'avaritia:mek_creative_bin'},
-        {id: 'momotinker:tools/modifiers/abilities/gainsalone'}
+        {id: 'momotinker:tools/modifiers/abilities/gainsalone'},
+        {id: 'zenith:zenith'},
+        {id: 'tinkersjewelry:tools/parts/builder/ender_pearl'},
+        {id: 'tinkersjewelry:tools/parts/builder/hematite'},
+        {id: 'tinkersjewelry:tools/parts/builder/obsidian'}
     ])
 });
 

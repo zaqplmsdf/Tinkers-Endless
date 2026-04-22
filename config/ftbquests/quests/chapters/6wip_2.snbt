@@ -343,6 +343,7 @@
 			y: 13.0d
 		}
 		{
+			description: ["攻击可造成范围伤害，并附加材料效果。"]
 			id: "71B553BC8C945BD4"
 			tasks: [{
 				id: "55646CBEE738B5FA"
@@ -384,6 +385,7 @@
 			y: -2.5d
 		}
 		{
+			description: ["自带&9长臂2&r，攻击距离较远。"]
 			id: "298800761E0251CD"
 			tasks: [{
 				id: "426FA38C7867334E"
@@ -427,6 +429,7 @@
 			y: -2.5d
 		}
 		{
+			description: ["较强的饰品，不同的材料拥有的属性不同，并可使自己的攻击附加材料效果。"]
 			id: "509C93606A29899C"
 			tasks: [{
 				id: "5A556FEAA54E7C04"
@@ -460,6 +463,7 @@
 			y: -2.5d
 		}
 		{
+			description: ["本武器可将攻击伤害转换为魔法伤害。"]
 			id: "61AC07A0C00D8F6A"
 			tasks: [{
 				id: "76FEECC5C0F929A7"
@@ -502,6 +506,7 @@
 			y: -2.5d
 		}
 		{
+			description: ["需搭配工匠左轮使用，也可当做武器。"]
 			id: "46689EDF34EB79BC"
 			tasks: [{
 				id: "6A9F4B62EB61C4EA"
@@ -541,6 +546,7 @@
 			y: -1.5d
 		}
 		{
+			description: ["自带&9怒火&r，右键可蓄力重击。"]
 			id: "351EE017DD09646E"
 			tasks: [{
 				id: "0870693CA6AB6745"
@@ -596,6 +602,7 @@
 			y: -1.5d
 		}
 		{
+			description: ["挖掘速度略慢，同时拥有斧和镐的功能。"]
 			id: "272856361D4FC82D"
 			tasks: [{
 				id: "51C516CF76373044"
@@ -646,6 +653,7 @@
 			y: -1.5d
 		}
 		{
+			description: ["就是镐子。"]
 			id: "129FABC77EEB4C55"
 			tasks: [{
 				id: "15BC721F8085627D"
@@ -685,6 +693,7 @@
 			y: -1.5d
 		}
 		{
+			description: ["同时拥有锄头和剪刀的功能。"]
 			id: "5B252EA901498919"
 			tasks: [{
 				id: "02F15E83BE6E91DF"
@@ -737,6 +746,7 @@
 			y: -1.5d
 		}
 		{
+			description: ["戒指的效果由宝石决定。"]
 			id: "6B01286778BC2BCF"
 			tasks: [{
 				id: "7EE933D476BE8BFE"
@@ -767,6 +777,7 @@
 			y: -1.5d
 		}
 		{
+			description: ["拥有斧头（不可给原木去皮）和铲子的功能，可制造耕地。"]
 			id: "14E35CBF50522245"
 			tasks: [{
 				id: "669F53D335345277"
@@ -813,6 +824,7 @@
 			y: -1.5d
 		}
 		{
+			description: ["就是斧子。"]
 			id: "01D7DEC66D6A10F0"
 			tasks: [{
 				id: "51C0362E437BCDD9"
@@ -852,6 +864,7 @@
 			y: -1.5d
 		}
 		{
+			description: ["匠魂新更新的一次性投掷武器，不同的材料可能会改变此工具的功能。"]
 			id: "690F34C8DA6551DF"
 			tasks: [
 				{
@@ -916,6 +929,7 @@
 			y: -1.5d
 		}
 		{
+			description: ["和原版弓相差无几。"]
 			id: "1DDEA49C6633994A"
 			tasks: [{
 				id: "198D437C5CCC124A"
@@ -956,6 +970,7 @@
 			y: -0.5d
 		}
 		{
+			description: ["就是钓鱼竿，不过箭头材料可以改变钓鱼竿的功能。"]
 			id: "5FE21F0154132E8A"
 			tasks: [{
 				id: "13F6278435B01AF0"
@@ -998,6 +1013,7 @@
 			y: -0.5d
 		}
 		{
+			description: ["就是弩。"]
 			id: "6499B76C0D1F97B4"
 			tasks: [{
 				id: "53CA2225EB397069"
@@ -1036,6 +1052,7 @@
 			y: -0.5d
 		}
 		{
+			description: ["可按住右键进行远程攻击并触发工匠子弹的特效。"]
 			id: "48B1087FC6D788CC"
 			tasks: [{
 				id: "725FF451C822ED0C"
@@ -1080,8 +1097,8 @@
 			y: -0.5d
 		}
 		{
+			description: ["需要配合&e箭矢装载&r和&e实用箭袋&r强化使用的箭矢，可直接损耗耐久而不射出本物品。"]
 			id: "569A5E3DA32085EA"
-			subtitle: "可能无法使用"
 			tasks: [{
 				id: "0CE6301DD518B91F"
 				item: {
@@ -1122,6 +1139,7 @@
 			y: -0.5d
 		}
 		{
+			description: ["攻速较快，并带有穿甲特效。"]
 			id: "662805F76872EB30"
 			tasks: [{
 				id: "44828D908CB00D77"
@@ -1167,6 +1185,7 @@
 			y: -0.5d
 		}
 		{
+			description: ["配合&e置久换弹&r强化使用的箭矢。"]
 			id: "5A76BF3C4BFECD0E"
 			tasks: [{
 				id: "089C9098F423B22D"
@@ -1207,6 +1226,7 @@
 			y: -0.5d
 		}
 		{
+			description: ["手套的效果取决于宝石。"]
 			id: "3F1A0F0EFF54EEA8"
 			tasks: [{
 				id: "1FA7DD5EA37E7F40"
@@ -1238,6 +1258,7 @@
 			y: 0.5d
 		}
 		{
+			description: ["护符的效果取决于宝石。"]
 			id: "3629C3EAA8DA3E25"
 			tasks: [{
 				id: "0865C5FE2C22984E"
@@ -1269,6 +1290,7 @@
 			y: 0.5d
 		}
 		{
+			description: ["手镯的效果取决于宝石。"]
 			id: "71F38B91032D4FD9"
 			tasks: [{
 				id: "661BF30DF8F3300A"
@@ -1299,6 +1321,7 @@
 			y: 0.5d
 		}
 		{
+			description: ["较强的饰品，拥有部件材料的效果。"]
 			id: "068BD242F2102AD6"
 			tasks: [{
 				id: "5F6D0858776397B7"
@@ -1335,6 +1358,7 @@
 			y: 0.5d
 		}
 		{
+			description: ["同铁魔法的法术书。"]
 			id: "7F200E4F5E5999FC"
 			tasks: [{
 				id: "478924BD0200C2F2"
@@ -1382,6 +1406,7 @@
 			y: 0.5d
 		}
 		{
+			description: ["使用方法同拔刀剑，详见拔刀剑章节。"]
 			id: "59EE7585F9E4D142"
 			tasks: [{
 				id: "01453577C1DB7483"
@@ -1425,6 +1450,7 @@
 			y: -0.5d
 		}
 		{
+			description: ["可发射箭矢和副手的工具。"]
 			id: "1977F87A646D4C77"
 			tasks: [{
 				id: "5BE22D0FE3B4F692"
@@ -1470,6 +1496,7 @@
 			y: -0.5d
 		}
 		{
+			description: ["同额外植物学的女仆套。"]
 			id: "76A374A335003365"
 			tasks: [
 				{
@@ -1601,6 +1628,7 @@
 			y: 0.5d
 		}
 		{
+			description: ["同原版护甲。"]
 			id: "4AF2F8962EBC15ED"
 			tasks: [
 				{
@@ -1724,6 +1752,7 @@
 			y: 0.5d
 		}
 		{
+			description: ["本护甲词条会较多，但槽位很吃紧。"]
 			id: "1530BFFBE2C9DF33"
 			tasks: [
 				{
@@ -1847,6 +1876,7 @@
 			y: 0.5d
 		}
 		{
+			description: ["项链的效果取决于宝石。"]
 			id: "7FE703C6D340CE0B"
 			tasks: [{
 				id: "174B0EBA06831669"
@@ -1877,6 +1907,7 @@
 			y: 0.5d
 		}
 		{
+			description: ["可造成范围伤害的消耗性箭矢。"]
 			id: "0B5542F93C611188"
 			tasks: [{
 				id: "7F9AA064D8E11376"
@@ -1921,6 +1952,7 @@
 			y: 1.5d
 		}
 		{
+			description: ["攻速较快，攻击系数较低的武器，推荐副手使用。"]
 			id: "102E91E7F1638A64"
 			tasks: [{
 				id: "3F48927F2FE73173"
@@ -1980,6 +2012,7 @@
 			y: 1.5d
 		}
 		{
+			description: ["就是剑。"]
 			id: "79751FA90528F830"
 			tasks: [{
 				id: "13DE6DA6DFD2835B"
@@ -2026,6 +2059,7 @@
 			y: 1.5d
 		}
 		{
+			description: ["自带&9穿刺&r和&9粉碎&r的剑。"]
 			id: "5BE358C632A2ADF8"
 			tasks: [{
 				id: "39EA2C5E235B1E49"
@@ -2074,7 +2108,10 @@
 		}
 		{
 			can_repeat: true
-			description: [""]
+			description: [
+				"可放入匠魂工具，在使用时会随机使用放入的匠魂工具。"
+				"此饰品会按照攻击力增加戒指槽。"
+			]
 			icon: {
 				Count: 1
 				id: "dreamtinker:silence_glove"
@@ -2105,6 +2142,8 @@
 					tic_stats: {
 						"tconstruct:attack_damage": 1.0f
 						"tconstruct:attack_speed": 1.2f
+						"tconstruct:block_amount": 6.0f
+						"tconstruct:block_angle": 60.0f
 					}
 					tic_volatile_data: {
 						abilities: 1
@@ -2158,6 +2197,8 @@
 						tic_persistent: { }
 						tic_stats: {
 							"tconstruct:attack_speed": 1.2f
+							"tconstruct:block_amount": 6.0f
+							"tconstruct:block_angle": 60.0f
 							"tconstruct:durability": 60.0f
 							"tconstruct:mining_speed": 2.0f
 						}
@@ -2182,6 +2223,7 @@
 			y: 9.5d
 		}
 		{
+			description: ["由骷髅剑鱼头骨浇铸而成的武器，攻速较高。"]
 			id: "58D1AEA44F1DDFC0"
 			tasks: [{
 				id: "2151991BED580E2D"
@@ -2231,6 +2273,7 @@
 			y: 9.5d
 		}
 		{
+			description: ["具有&9投掷&r和&9复返&r，手持时无法挖掘方块，掷出命中的方块会被挖掘。"]
 			id: "447A846A07A26786"
 			tasks: [{
 				id: "028855A3B71D0FE6"
@@ -2282,6 +2325,7 @@
 			y: 9.5d
 		}
 		{
+			description: ["shift+右键可绑定坐标，右键会传送至绑定的坐标并施加传送冷却。"]
 			id: "2204CA841AD73754"
 			tasks: [{
 				id: "6FC66350F3C51648"
@@ -2327,6 +2371,7 @@
 			y: 9.5d
 		}
 		{
+			description: ["装填一次可发射3次的弩。"]
 			id: "5D4992180249DF8A"
 			tasks: [{
 				id: "200ECA767403B996"
@@ -2367,6 +2412,7 @@
 			y: 9.5d
 		}
 		{
+			description: ["暮色森林中牛头人的武器，冲刺时攻击可造成更高的伤害。"]
 			id: "7188E0A7FD495A92"
 			tasks: [{
 				id: "50352EA550564852"
@@ -2408,6 +2454,7 @@
 			y: 9.5d
 		}
 		{
+			description: ["可装填液体，射出和近战喷溅的不同液体会施加不同的效果。"]
 			id: "438AFDAC5CC60AE6"
 			tasks: [{
 				id: "1AE3375DB666B073"
@@ -2469,6 +2516,7 @@
 			y: 9.5d
 		}
 		{
+			description: ["自带&9熔炼+&r效果，挖掘矿物可获得更高的产量。"]
 			id: "49F52A03518C3DCD"
 			tasks: [{
 				id: "5BF19EDA4DE26F75"
@@ -2524,6 +2572,7 @@
 			y: 9.5d
 		}
 		{
+			description: ["只可在古城获得的一种远古工具，可完成任务进行进化获得更强的效果。"]
 			id: "76388E3FB4B965F8"
 			tasks: [{
 				id: "50CF6E9023D81424"
@@ -2573,6 +2622,7 @@
 			y: 10.5d
 		}
 		{
+			description: ["可进行短时间的格挡，格挡成功会自动反击。"]
 			id: "3E24EF80A08D071D"
 			tasks: [{
 				id: "14EF6F7157C501D3"
@@ -2619,6 +2669,11 @@
 			y: 9.5d
 		}
 		{
+			description: [
+				"只可在末地城获得的远古工具，可完成任务进化获得更强的效果。"
+				"shift+右键绑定坐标，右键可瞬移至绑定的坐标。"
+				"进化前死亡会自动触发瞬移效果。"
+			]
 			id: "550869D12C09097C"
 			tasks: [{
 				id: "52F66CD0DED4FD0F"
@@ -2662,6 +2717,7 @@
 			y: 10.5d
 		}
 		{
+			description: ["右键会进行格挡，松开右键进行一次攻击。"]
 			id: "56D94E6E61693643"
 			tasks: [{
 				id: "060E7D1836AEF464"
@@ -2713,6 +2769,7 @@
 			y: 10.5d
 		}
 		{
+			description: ["同时拥有弩和镐子效果的一种武器。"]
 			id: "33F6A48AEA648994"
 			tasks: [{
 				id: "672CFE80AA1F0076"
@@ -2757,6 +2814,7 @@
 			y: 10.5d
 		}
 		{
+			description: ["下落过程中攻击会造成更高伤害的一种武器。"]
 			id: "1E05EACB37E38968"
 			tasks: [{
 				id: "30F3E96C50D29578"
@@ -2801,6 +2859,7 @@
 			y: 10.5d
 		}
 		{
+			description: ["只可在沉船和埋藏的宝藏获得的远古工具，可完成任务进化并获得更强的效果。"]
 			id: "1B949295E51BB91A"
 			tasks: [{
 				id: "644A9F902D0033DE"
@@ -2839,6 +2898,10 @@
 			y: 11.5d
 		}
 		{
+			description: [
+				"长按右键并蓄力条为满时，松开右键可进行范围攻击。"
+				"蓄力条在准星旁查看。"
+			]
 			id: "314731E071C9D35A"
 			tasks: [{
 				id: "344C2B77A19EC175"
@@ -2889,6 +2952,10 @@
 			y: 11.5d
 		}
 		{
+			description: [
+				"长按右键并蓄力条为满时，松开右键可进行突进。"
+				"蓄力条在准星旁查看。"
+			]
 			id: "7708E6647F39D36D"
 			tasks: [{
 				id: "60728FF4BB067847"
@@ -2938,6 +3005,10 @@
 			y: 11.5d
 		}
 		{
+			description: [
+				"长按右键并蓄力条为满时，松开右键可进行远程范围攻击。"
+				"蓄力条在准星旁查看，消耗经验可增加攻击伤害。"
+			]
 			id: "23D4C5B561639196"
 			tasks: [{
 				id: "10FCD5F3D48DA2CE"
@@ -2976,6 +3047,7 @@
 			y: 11.5d
 		}
 		{
+			description: ["可长按右键，松开释放范围攻击。"]
 			id: "42938CE88A7EBC30"
 			tasks: [{
 				id: "67932C02995B2DD3"
@@ -3017,6 +3089,7 @@
 			y: 3.0d
 		}
 		{
+			description: ["可按住右键持续攻击，会较快消耗饱食度。"]
 			id: "2E04ED656CC48773"
 			tasks: [{
 				id: "32A16DABA2B259DF"
@@ -3058,6 +3131,7 @@
 			y: 3.0d
 		}
 		{
+			description: ["带有&9共鸣&r效果，主副手均持有时发起额外攻击。"]
 			id: "7A5421A409A1DEEA"
 			tasks: [{
 				id: "28CC54D1FABEA7A6"
@@ -3102,6 +3176,7 @@
 			y: 3.0d
 		}
 		{
+			description: ["攻速极慢但伤害极高且拥有较远的攻击距离。"]
 			id: "1AD72C5AAD1421DD"
 			tasks: [{
 				id: "01F4197FC4055D98"
@@ -3148,6 +3223,7 @@
 			y: 3.0d
 		}
 		{
+			description: ["可消耗耐久回复饱食度。"]
 			id: "70AFF72F7066B048"
 			tasks: [{
 				id: "4B807D07BC635710"
@@ -3186,6 +3262,7 @@
 			y: 3.0d
 		}
 		{
+			description: ["手持时会为周围的玩家附加buff，非玩家生物施加debuff（此效果疑似未触发）。"]
 			id: "1A8758D65BE20BD0"
 			tasks: [{
 				id: "22BE797C5280AF8B"
@@ -3230,6 +3307,7 @@
 			y: 3.0d
 		}
 		{
+			description: ["自带&e投掷&r强化的武器。"]
 			id: "5E1FB39E2AD91552"
 			tasks: [{
 				id: "42609A2CCEFC9607"
@@ -3275,6 +3353,7 @@
 			y: 3.0d
 		}
 		{
+			description: ["太刀虾蒸鹅心。。。"]
 			id: "19D74CBB2ABA2CFE"
 			tasks: [{
 				id: "7330651912ED2825"
@@ -3329,6 +3408,7 @@
 			y: 3.0d
 		}
 		{
+			description: ["自带&e长臂&r和&e碎甲&r强化。"]
 			id: "124CC615D1D7E56E"
 			tasks: [{
 				id: "70411B1FF3F3ABD9"
@@ -3379,6 +3459,7 @@
 			y: 3.0d
 		}
 		{
+			description: ["自带&9法强提升&r效果，可增加持有者的最大法力值。"]
 			id: "56B25A5538E553DA"
 			tasks: [{
 				id: "008DC581C6C9866A"
@@ -3430,6 +3511,7 @@
 			y: 4.0d
 		}
 		{
+			description: ["带有&9双击&r效果，可主副手一起使用。"]
 			id: "46F314F96724289F"
 			tasks: [{
 				id: "2CD839879E65A9AB"
@@ -3488,6 +3570,7 @@
 			y: 4.0d
 		}
 		{
+			description: ["请输入文本。"]
 			id: "4673FF7CA15FBB6A"
 			tasks: [{
 				id: "629BB067B8B6A798"
@@ -3533,6 +3616,7 @@
 			y: 4.0d
 		}
 		{
+			description: ["可增加使用者的触及距离并增加通用抗性。"]
 			id: "7797FBC2F49D2C34"
 			tasks: [{
 				id: "500B0F2CB049DEA4"
@@ -3578,6 +3662,7 @@
 			y: 4.0d
 		}
 		{
+			description: ["右键可掷出并造成持续的伤害。"]
 			id: "751EDB24F2A8345D"
 			tasks: [{
 				id: "3195B0A889285EE6"
@@ -3623,6 +3708,7 @@
 			y: 4.0d
 		}
 		{
+			description: ["攻速较快，并可造成穿甲攻击。"]
 			id: "00118DFF3216F21D"
 			tasks: [{
 				id: "25CAA7FF5E871175"
@@ -3666,6 +3752,7 @@
 			y: 4.0d
 		}
 		{
+			description: ["右键可丢出投掷物，命中会回复生命值。"]
 			id: "21A5208883AAE631"
 			tasks: [{
 				id: "2DFDA53ED0A2EFEE"
@@ -3710,6 +3797,7 @@
 			y: 4.0d
 		}
 		{
+			description: ["右键可掷出投掷物，对命中的目标造成持续伤害。"]
 			id: "0BBAF28F20E1060E"
 			tasks: [{
 				id: "3597D1CFA9552D55"
@@ -3748,6 +3836,7 @@
 			y: 4.0d
 		}
 		{
+			description: ["已被禁用。"]
 			id: "0B52ACE2D5E211D1"
 			tasks: [{
 				id: "45BE290D4CF7A8DC"
@@ -3829,6 +3918,7 @@
 			y: 4.0d
 		}
 		{
+			description: ["使用方法同链锯剑，不过威力较高。"]
 			id: "230CCDACC0AF5D23"
 			tasks: [{
 				id: "38213694DE6B30D0"
@@ -3892,6 +3982,7 @@
 			y: 5.0d
 		}
 		{
+			description: ["自带&e长臂1&r强化和&9沉重&r效果。"]
 			id: "5919969AA62AF7E7"
 			tasks: [{
 				id: "78EFFC5348FBF19E"
@@ -3942,6 +4033,7 @@
 			y: 5.0d
 		}
 		{
+			description: ["可造成范围攻击，并带有现实压制伤害。"]
 			id: "7B3520132546AC2E"
 			tasks: [{
 				id: "1A12C317D2F93BBA"
@@ -3987,6 +4079,7 @@
 			y: 5.0d
 		}
 		{
+			description: ["攻击会在目标点召唤若干幻影剑造成额外的伤害。"]
 			id: "70E248E7E9966877"
 			tasks: [{
 				id: "5CC5AD8824F94063"
@@ -4031,6 +4124,7 @@
 			y: 5.0d
 		}
 		{
+			description: ["可搭配&e置久换弹&r强化使用。"]
 			id: "52478D08CBCCD333"
 			tasks: [{
 				id: "102F7888B1E0206B"
@@ -4072,6 +4166,7 @@
 			y: 5.0d
 		}
 		{
+			description: ["可shift+右键调整工具的性质。"]
 			id: "6AE7EB6D4FBFC95B"
 			tasks: [{
 				id: "6930B205606DD973"
@@ -4175,6 +4270,7 @@
 			y: 5.0d
 		}
 		{
+			description: ["自带&e投掷&r和&e复返&r强化。"]
 			id: "2BD32A72F2650FE5"
 			tasks: [{
 				id: "07D1D286C901A5F5"
@@ -4216,6 +4312,7 @@
 			y: 5.0d
 		}
 		{
+			description: ["可装填液体，装填后长按右键并松开可使用远程攻击。"]
 			id: "367E4E85D51A4236"
 			tasks: [{
 				id: "2FC8535D0ACF7E32"
@@ -4271,6 +4368,7 @@
 			y: 5.0d
 		}
 		{
+			description: ["shift+右键可切换进攻模式和增益模式，长按右键并松开可施加不同的效果。"]
 			id: "2CD27AB8EF8E21C0"
 			tasks: [{
 				id: "1FB7CCD71EBAC0DD"
@@ -4318,6 +4416,7 @@
 			y: 6.0d
 		}
 		{
+			description: ["自带&9长距&r效果，触及范围较大。"]
 			id: "28AA0C7728B87449"
 			tasks: [{
 				id: "01CD2FBF647DC2A1"
@@ -4361,6 +4460,7 @@
 			y: 6.0d
 		}
 		{
+			description: ["可消耗盾值进行格挡，部件较多。"]
 			id: "15D097B5B049EAA4"
 			tasks: [{
 				id: "5B7503A061015237"
@@ -4419,6 +4519,7 @@
 			y: 6.0d
 		}
 		{
+			description: ["自带&e投掷&r和&e复返&r强化。"]
 			id: "12765741E62D04C8"
 			tasks: [{
 				id: "6E48F12E27D5C2AF"
@@ -4470,6 +4571,7 @@
 			y: 6.0d
 		}
 		{
+			description: ["可储存能量并对物品栏或饰品栏中的物品充能，shift+右键可切换充能模式。"]
 			id: "7DE7E0E105F36E2C"
 			tasks: [{
 				id: "320E490D0F1B6262"
@@ -4501,6 +4603,7 @@
 			y: 6.0d
 		}
 		{
+			description: ["消耗耐久发出弹射物的武器。"]
 			id: "48CA864A0539ACD5"
 			tasks: [{
 				id: "3D2CCC02A159F9E0"
@@ -4542,6 +4645,7 @@
 			y: 6.0d
 		}
 		{
+			description: ["一次可对3x3范围进行制造耕地或收割行为，并带有剪刀功能的工具。"]
 			id: "0F80E39A15712060"
 			tasks: [{
 				id: "6D1CCCC5788360C5"
@@ -4597,6 +4701,7 @@
 			y: 6.0d
 		}
 		{
+			description: ["自带&9穿甲2&r，可挖掘石头及相邻的同种类方块，可使用&e延展&r强化扩大连锁范围。"]
 			id: "2CEB4E3767A51D90"
 			tasks: [{
 				id: "5D9C64E8B7687637"
@@ -4643,6 +4748,7 @@
 			y: 6.0d
 		}
 		{
+			description: ["带有原版5种工具效果的综合型工具。"]
 			id: "6E2884375B24D2E2"
 			tasks: [{
 				id: "29BD296CBAB181F2"
@@ -4699,6 +4805,7 @@
 			y: 6.0d
 		}
 		{
+			description: ["皇冠的效果取决于宝石。"]
 			id: "6E5D11D854B2713D"
 			tasks: [{
 				id: "54FD373F7E335356"
@@ -4729,6 +4836,7 @@
 			y: 7.0d
 		}
 		{
+			description: ["拥有较多部件的护甲，无防御槽。"]
 			id: "1EA99FFA91416683"
 			tasks: [
 				{
@@ -4869,6 +4977,7 @@
 			y: 7.0d
 		}
 		{
+			description: ["在不同的槽位拥有不同的效果，可使用新生魔艺提高护甲阶级。"]
 			id: "240E0E72B09CA0C8"
 			tasks: [
 				{
@@ -5061,6 +5170,7 @@
 			y: 7.0d
 		}
 		{
+			description: ["自带&9投掷&r效果。"]
 			id: "10216956E29D86F5"
 			tasks: [{
 				id: "59CD439301348956"
@@ -5101,6 +5211,7 @@
 			y: 7.0d
 		}
 		{
+			description: ["同新生魔艺的法术书。"]
 			id: "49036C05C1174F55"
 			tasks: [{
 				id: "59143556F402800D"
@@ -5147,6 +5258,7 @@
 			y: 7.0d
 		}
 		{
+			description: ["相比短弓拥有较慢的拉弦速度。"]
 			id: "32702A53F3C7C848"
 			tasks: [{
 				id: "1D0EBE367EB0897D"
@@ -5185,6 +5297,7 @@
 			y: 7.0d
 		}
 		{
+			description: ["自带&9亡灵杀手2&r，可一次挖掘3x3的石质方块。"]
 			id: "0B51B7B0420265AB"
 			tasks: [{
 				id: "5C1C9BBF62E1AEB7"
@@ -5231,6 +5344,7 @@
 			y: 7.0d
 		}
 		{
+			description: ["拥有斧子的效果，可一次挖掘6个竖直方向的木质方块，&e延展&r强化可交替增加高度和深度。"]
 			id: "2284EE6993DA1729"
 			tasks: [{
 				id: "288F9AF70922A888"
@@ -5277,6 +5391,7 @@
 			y: 7.0d
 		}
 		{
+			description: ["自带&9击退2&r，可对3x3范围的土质方块进行挖掘或产生土径。"]
 			id: "3680F5C826CB5866"
 			tasks: [{
 				id: "7EDA7C155AE61C6D"
@@ -5328,6 +5443,7 @@
 			y: 7.0d
 		}
 		{
+			description: ["纯粹的buff架子。"]
 			id: "314F538FE91B0396"
 			tasks: [{
 				id: "5C6D6A5CEF643EE0"
@@ -5364,6 +5480,7 @@
 			y: 8.0d
 		}
 		{
+			description: ["一种武器，自带&9针对2&r，可提升条件伤害。"]
 			id: "48C38B9A20EF26A4"
 			tasks: [{
 				id: "2610B33CF33FD171"
@@ -5671,6 +5788,7 @@
 			y: -2.5d
 		}
 		{
+			description: ["自带鞘翅的一种护甲。"]
 			id: "595FF98DD09DD009"
 			tasks: [
 				{

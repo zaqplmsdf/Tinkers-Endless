@@ -383,14 +383,23 @@
 		{ item: "sakuratinker:soul_sakura", weight: 0.5f }
 		{ item: "tinkers_advanced:activated_chromatic_steel", weight: 0.5f }
 		{ item: "projecte:red_matter", weight: 0.1f }
-		{ item: "avaritia:infinity_ingot", weight: 0.05f }
 		{
 			item: {
 				Count: 1
 				id: "minecraft:chest"
 				tag: {
 					BlockEntityTag: {
-						ForgeCaps: { }
+						CustomName: "{\"text\":\"真的惊喜！\"}"
+						ForgeCaps: {
+							"astages:owners": {
+								owner: [I;
+									-2094034348
+									1131430011
+									-1898624662
+									521106182
+								]
+							}
+						}
 						Items: [
 							{
 								Count: 1b
@@ -525,15 +534,13 @@
 							{
 								Count: 1b
 								Slot: 26b
-								id: "avaritia:infinity_ingot"
+								id: "minecraft:nether_star"
 							}
 						]
 						id: "minecraft:chest"
 					}
-					RepairCost: 0
 					display: {
 						Lore: ["\"(+NBT)\""]
-						Name: "{\"text\":\"真的惊喜！\"}"
 					}
 				}
 			}

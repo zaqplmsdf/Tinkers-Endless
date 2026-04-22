@@ -6,7 +6,7 @@
   "forge:gems/sapphire": "iceandfire:sapphire_gem",
   "forge:ingots/bronze": "tcintegrations:bronze_ingot",
   "forge:ingots/lumium": "thermal:lumium_ingot",
-  "forge:ingots/electrum": "createaddition:electrum_ingot",
+  "forge:ingots/electrum": "thermal:electrum_ingot",
   "forge:silicon": "ae2:silicon",
   "forge:gems/apatite": "thermal:apatite",
   "forge:ingots/silver": "iceandfire:silver_ingot",

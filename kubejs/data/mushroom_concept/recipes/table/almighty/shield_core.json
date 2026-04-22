@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:part_builder",
+  "cost": 4,
+  "pattern": "tconstruct:shield_core",
+  "pattern_item": {
+    "item": "mushroom_concept:almighty_ban"
+  },
+  "result": {
+    "item": "tconstruct:shield_core"
+  }
+}

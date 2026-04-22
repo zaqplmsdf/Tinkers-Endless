@@ -1,0 +1,17 @@
+[basic]
+identifier = "food_box"
+file_name = "box.js"
+type = "others"
+appliedTarget = "kubejs/server_scripts/DLC"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+dependencies = ["food_1", "food_2", "food_3", "food_4", "food_5", "food_6", "food_7", "food_8", "food_9", "food_10", "food_11"]
+conflicts = []
+alarm = false
+
+[DisplayName]
+zh_cn = "食品盒兑换物配方"
+
+[tip]
+zh_cn = "(客户端选装、服务端必装)"

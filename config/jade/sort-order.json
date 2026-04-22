@@ -19,6 +19,7 @@
   "balm:jade": null,
   "cagedmobs:cagedmobs_jade": null,
   "cagedmobs:hide_container_items": null,
+  "corpse:corpse": null,
   "exdeorum:barrel": null,
   "exdeorum:crucible": null,
   "exdeorum:infested_leaves": null,
@@ -27,6 +28,9 @@
   "exnihilosequentia:crucible": null,
   "exnihilosequentia:infesting_leaves": null,
   "exnihilosequentia:sieve": null,
+  "expatternprovider:jade_chamber": null,
+  "expatternprovider:jade_wireless": null,
+  "expatternprovider:tile_data": null,
   "extendedcrafting:advanced_auto_table": null,
   "extendedcrafting:advanced_table": null,
   "extendedcrafting:auto_ender_crafter": null,
@@ -144,5 +148,6 @@
   "touhou_little_maid:shrine_lamp": null,
   "touhou_little_maid:tombstone": null,
   "twilightforest:quest_ram_wool": null,
-  "waystones:waystone": null
+  "waystones:waystone": null,
+  "yes_steve_model:model_info": null
 }

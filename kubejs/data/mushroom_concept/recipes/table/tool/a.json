@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:part_builder",
+  "cost": 3,
+  "pattern": "tconstruct:boots_plating",
+  "pattern_item": [
+    {
+      "item": "mushroom_concept:almighty_ban"
+    },
+    {
+      "tag": "tconstruct:patterns/default"
+    },
+    {
+      "item": "tconstruct:boots_plating_cast"
+    }
+  ],
+  "result": {
+    "item": "tconstruct:boots_plating"
+  }
+}

@@ -478,7 +478,11 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["13F5243DDC69E2B5"]
+			dependencies: [
+				"13F5243DDC69E2B5"
+				"03FA631D240E88AA"
+			]
+			dependency_requirement: "one_completed"
 			hide_until_deps_complete: true
 			id: "37CE25782986CD2B"
 			rewards: [{

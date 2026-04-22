@@ -1,0 +1,25 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = ["https://mediafilez.forgecdn.net/files/6660/5/culturaldelights-0.16.5.jar"]
+priority = ["modrinth"]
+
+[basic]
+identifier = "food_3"
+file_name = "culturaldelights-0.16.5.jar"
+type = "mod"
+RedirectUrl = "https://www.mcmod.cn/class/5609.html"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+dependencies = []
+conflicts = []
+alarm = false
+
+[DisplayName]
+zh_cn = "多元乐事"
+
+[tip]
+zh_cn = "（服务端需装、客户端需装）"

@@ -1,0 +1,26 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = ["https://mediafilez.forgecdn.net/files/6825/169/maidaddition-1.1.4-beta-all.jar"]
+priority = ["modrinth"]
+
+[basic]
+identifier = "MaidAddition"
+file_name = "maidaddition-1.1.4-beta-all.jar"
+type = "mod"
+RedirectUrl = "https://www.mcmod.cn/class/19825.html"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+dependencies = ["maid"]
+conflicts = []
+alarm = false
+
+[DisplayName]
+en_us = "MaidAddition"
+
+[tip]
+en_us = "This module adds the following 3 functions to the Touhou Maid: forced chunk loading, hand crank, and simple Chinese commands"
+zh_cn = "（服务端需装、客户端需装）本模组为车万女仆增加了以下 3 个功能：强加载区块、手摇曲柄、简单的中文指令"

@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "name": "powder",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "legendary_monsters:portal_shard"
+        }
+      ]
+    },
+    {
+      "name": "book",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "wqjy:the_book",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

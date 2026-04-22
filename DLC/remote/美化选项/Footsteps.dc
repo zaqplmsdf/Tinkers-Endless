@@ -1,0 +1,25 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = ["https://mediafilez.forgecdn.net/files/5015/286/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar"]
+priority = ["curseforge", "modrinth", "directUrl"]
+
+[basic]
+identifier = "Footsteps"
+file_name = "PresenceFootsteps-1.20.1-1.9.1-beta.1.jar"
+type = "mod"
+RedirectUrl = "https://www.mcmod.cn/class/4819.html"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+dependencies = []
+conflicts = []
+alarm = false
+
+[DisplayName]
+zh_cn = "脚步声"
+
+[tip]
+zh_cn = "[§a客户端需装§r|§5服务端无效§r]这是脚步声（Presence Footsteps）的非官方 Forge 版，若有问题请勿报告给 Fabric 版作者。"

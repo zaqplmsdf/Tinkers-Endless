@@ -1,0 +1,27 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = ["https://cdn-alt.modrinth.com/data/R0bDWFAW/versions/YpdxfSC2/touhoulittlemaid-1.5.2-forge%2Bmc1.20.1.jar"]
+priority = ["modrinth"]
+
+[basic]
+identifier = "maid"
+file_name = "touhoulittlemaid-1.5.2-forge+mc1.20.1.jar"
+type = "mod"
+RedirectUrl = "https://www.mcmod.cn/class/1796.html"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+dependencies = []
+conflicts = []
+alarm = false
+
+[DisplayName]
+en_us = "Touhou Little Maid"
+zh_cn = "车万女仆"
+
+[tip]
+en_us = "The module adds maids with comprehensive functions, who can help players complete various auxiliary tasks while being cute. At the same time, a large number of other interesting contents related to maids have been added, such as statues, figurines, cushions, etc."
+zh_cn = "[§a服务端需装§r|§a客户端需装§r]模组添加了功能全面的女仆，卖萌的同时还能帮助玩家完成各种辅助工作。同时围绕女仆也添加了大量其他趣味性内容，诸如雕像、手办、坐垫等内容。"

@@ -1,0 +1,25 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = ["https://mediafilez.forgecdn.net/files/6048/921/PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar"]
+priority = ["curseforge", "modrinth", "directUrl"]
+
+[basic]
+identifier = "PlayerRevive"
+file_name = "PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar"
+type = "mod"
+RedirectUrl = ""
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+dependencies = ["CreatCore"]
+conflicts = []
+alarm = false
+
+[DisplayName]
+zh_cn = "玩家救援"
+
+[tip]
+zh_cn = "它允许玩家在死亡后 60 秒内被救起。"

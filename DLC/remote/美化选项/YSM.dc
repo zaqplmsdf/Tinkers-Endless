@@ -1,0 +1,25 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = ["https://cdn-alt.modrinth.com/data/86xjpqqS/versions/6tgs5ocU/ysm-2.6.4-forge%2Bmc1.20.1-release.jar"]
+priority = ["curseforge", "modrinth", "directUrl"]
+
+[basic]
+identifier = "YSM"
+file_name = "ysm-2.6.4-forge+mc1.20.1-release.jar"
+type = "mod"
+RedirectUrl = "https://www.mcmod.cn/class/8616.html"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+dependencies = []
+conflicts = []
+alarm = false
+
+[DisplayName]
+zh_cn = "[YSM]是，史蒂夫模型"
+
+[tip]
+zh_cn = "[§a客户端需装§r|§a服务端需装§r]Yes Steve Model 是一个修改原版玩家模型的 Minecraft 模组。"

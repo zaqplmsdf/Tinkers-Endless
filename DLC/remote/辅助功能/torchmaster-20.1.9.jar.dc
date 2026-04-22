@@ -1,0 +1,27 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = [
+  "https://mediafilez.forgecdn.net/files/5849/456/torchmaster-20.1.9.jar"
+]
+priority = "modrinth"
+
+[basic]
+identifier = "Torchmaster"
+type = "mod"
+file_name = "torchmaster-20.1.9.jar"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+alarm = false
+RedirectUrl = ""
+dependencies = []
+conflicts = []
+
+[DisplayName]
+zh_cn = "火炬大师"
+
+[tip]
+zh_cn = "这个模组添加了能减少敌对性生物生成的火把。"

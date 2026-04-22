@@ -60,7 +60,7 @@
 		{
 			dependencies: ["59D678FEFA7EE9AC"]
 			description: [
-				"等价交换团队："
+				"等价交换团队（需启用等价交换团队DLC）："
 				""
 				"指令"
 				""
@@ -300,7 +300,11 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["002A8323600F86EC"]
+			dependencies: [
+				"002A8323600F86EC"
+				"03FA631D240E88AA"
+			]
+			dependency_requirement: "one_completed"
 			hide_until_deps_complete: true
 			id: "19EF10A2B2064B38"
 			tasks: [{

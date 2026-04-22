@@ -1,0 +1,25 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = ["https://mediafilez.forgecdn.net/files/6186/385/AdvancementPlaques-1.20.1-forge-1.6.9.jar"]
+priority = ["curseforge", "modrinth", "directUrl"]
+
+[basic]
+identifier = "AdvaPlaques"
+file_name = "AdvancementPlaques-1.20.1-forge-1.6.9.jar"
+type = "mod"
+RedirectUrl = ""
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+dependencies = []
+conflicts = []
+alarm = false
+
+[DisplayName]
+zh_cn = "进度牌匾"
+
+[tip]
+zh_cn = "[§a客户端需装§r|§6服务端选装§r]此模组用华丽的发光窗口取代了那些无聊的进度弹窗，使得玩家在游玩 Minecraft 时更加富有仪式感。"

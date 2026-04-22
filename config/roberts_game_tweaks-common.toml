@@ -14,7 +14,7 @@ increaseMaxStackSizeTo64 = false
 #Whether to enable "increase the max stack size to 16 for enchanted books"
 increaseMaxStackSizeForEnchantedBooks = true
 #Whether to enable "increase the max stack size to 16 for potions"
-increaseMaxStackSizeForPotions = false
+increaseMaxStackSizeForPotions = true
 #Whether to enable "increase the max stack size to 16 for saddles, boats, minecarts, beds"
 increaseMaxStackSizeForOthers = true
 #The prefix word of tooltips
@@ -36,4 +36,15 @@ showAttributesForFoods = false
 showEffectsForFoods = true
 #Whether to remove the vanilla tooltips
 removeVanillaTooltips = false
+#A blacklist used to specify the items which not required durability info
+#For example: "minecraft:wooden_sword, diamond_sword, @tconstruct"
+durabilityBlacklist = "@tconstruct"
+#A blacklist used to specify the items which not required weapons tooltips
+#For example: "minecraft:wooden_sword, diamond_sword, @tconstruct"
+weaponsTooltipsBlacklist = ""
+#A blacklist used to specify the items which not required armors tooltips
+#For example: "minecraft:iron_chestplate, diamond_chestplate, @tconstruct"
+armorsTooltipsBlacklist = ""
+#Whether to show the burn time tooltips for fuel
+showBurnTimeForFuel = true
 

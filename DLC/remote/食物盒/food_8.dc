@@ -1,0 +1,25 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = ["https://mediafilez.forgecdn.net/files/6259/758/aquaculturedelight-1.1.1-forge-1.20.1.jar"]
+priority = ["modrinth"]
+
+[basic]
+identifier = "food_8"
+file_name = "aquaculturedelight-1.1.1-forge-1.20.1.jar"
+type = "mod"
+RedirectUrl = "https://www.mcmod.cn/class/13332.html"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+dependencies = []
+conflicts = []
+alarm = false
+
+[DisplayName]
+zh_cn = "水产乐事"
+
+[tip]
+zh_cn = "（服务端需装、客户端需装）"

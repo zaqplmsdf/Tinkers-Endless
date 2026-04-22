@@ -33,5 +33,25 @@
     },
     "com.brucedelta.projectx1.gameObjs.container.ArcaneTabletContainer": {
         "ignore": true
+    },
+    "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -18,
+                "bottom": 23
+            },
+            "SORT": {
+                "horizontalOffset": -42,
+                "bottom": 73
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -30,
+                "bottom": 60
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -18,
+                "bottom": 47
+            }
+        }
     }
 }

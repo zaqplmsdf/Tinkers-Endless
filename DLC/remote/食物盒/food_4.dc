@@ -1,0 +1,25 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = ["https://mediafilez.forgecdn.net/files/4652/60/oceansdelight-1.0.2-1.20.jar"]
+priority = ["modrinth"]
+
+[basic]
+identifier = "food_4"
+file_name = "oceansdelight-1.0.2-1.20.jar"
+type = "mod"
+RedirectUrl = "https://www.mcmod.cn/class/9830.html"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+dependencies = []
+conflicts = []
+alarm = false
+
+[DisplayName]
+zh_cn = "海洋乐事"
+
+[tip]
+zh_cn = "（服务端需装、客户端需装）"

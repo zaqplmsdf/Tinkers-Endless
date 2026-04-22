@@ -1382,6 +1382,8 @@
 				""
 				"&c合成配方转化已修改为通过货币槽等比兑换（按住shift）&r"
 				""
+				"&d服务端可能没有货币槽，该问题暂未解决"
+				""
 				"可使用&e妖妖币mod&r进行存储，&e每种货币&r的上限为&e999&r"
 				""
 				"可整体移动存储框的位置，按住&ecrtl键&r可单格微调"
@@ -1808,7 +1810,18 @@
 		{
 			can_repeat: true
 			dependencies: ["508D6A8FCAA795DE"]
-			description: [""]
+			description: [
+				"&m&c原任务兑换方式已删除，现在通过合成兑换&r&r"
+				""
+				"&c合成配方转化已修改为通过货币槽等比兑换（按住shift）&r"
+				""
+				"&d服务端可能没有货币槽，该问题暂未解决"
+				""
+				"可使用&e妖妖币mod&r进行存储，&e每种货币&r的上限为&e999&r"
+				""
+				"可整体移动存储框的位置，按住&ecrtl键&r可单格微调"
+				"{image:ftbquests:textures/picture/008.png width:200 height:43 align:center}"
+			]
 			id: "6B58F88C0A56D800"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2216,7 +2229,9 @@
 		}
 		{
 			description: [
-				"未解锁的物品&4大部分都无法拾取&r且呈现&c红色问号&r（❓）️的材质，可借助&e拾取升级&r和&e磁铁升级&r暂时保存到背包里"
+				"&a未解锁的物品&r&4大部分都无法拾取&r&a，可借助&r&e拾取升级&r&a和&r&e磁铁升级&r&a暂时保存到背包里"
+				"&r"
+				"&a在jei搜索&r&e$stage_&r+&d当前阶段的数字&r&e（0-6）&r&a可查看当前阶段解锁后可使用的材料&r"
 				""
 				"阶段任务位置："
 				""

@@ -1,0 +1,25 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = ["https://mediafilez.forgecdn.net/files/7633/106/rusticdelight-forge-1.20.1-1.5.1.jar"]
+priority = ["modrinth"]
+
+[basic]
+identifier = "food_9"
+file_name = "rusticdelight-forge-1.20.1-1.5.1.jar"
+type = "mod"
+RedirectUrl = "https://www.mcmod.cn/class/16610.html"
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+dependencies = []
+conflicts = []
+alarm = false
+
+[DisplayName]
+zh_cn = "乡村乐事"
+
+[tip]
+zh_cn = "（服务端需装、客户端需装）"

@@ -1,0 +1,25 @@
+[download]
+modrinth_projectid = ""
+modrinth_versionid = ""
+curseforge_projectid = ""
+curseforge_fileid = ""
+directUrl = ["https://mediafilez.forgecdn.net/files/7875/199/chat_heads-0.15.1-forge-1.20.jar"]
+priority = ["curseforge", "modrinth", "directUrl"]
+
+[basic]
+identifier = "ChatHeads"
+file_name = "chat_heads-0.15.1-forge-1.20.jar"
+type = "mod"
+RedirectUrl = ""
+isInList = true
+isHidden = false
+AllowEnableByAll = true
+dependencies = []
+conflicts = []
+alarm = false
+
+[DisplayName]
+zh_cn = "聊天头像"
+
+[tip]
+zh_cn = "[§a客户端需装§r|§c服务端无效§r]一款客户端模组，在玩家所发送的信息前显示其皮肤头像，使得分辨玩家相对更加容易，同时使信息外观更加精美。"
