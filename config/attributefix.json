@@ -188,10 +188,10 @@
       }
     },
     "baublesreforked:jump_strength": {
-      "enabled": true,
+      "enabled": false,
       "min": {
         "default": 0,
-        "value": 0.1
+        "value": 0
       },
       "max": {
         "default": 10,
@@ -363,17 +363,6 @@
         "value": 1
       }
     },
-    "ars_nouveau:ars_nouveau.perk.max_mana": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10000,
-        "value": 10000
-      }
-    },
     "tconstruct:player.experience_multiplier": {
       "enabled": false,
       "min": {
@@ -383,6 +372,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "ars_nouveau:ars_nouveau.perk.max_mana": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "tconstruct:player.critical_damage": {
@@ -507,10 +507,10 @@
       }
     },
     "forge:entity_gravity": {
-      "enabled": false,
+      "enabled": true,
       "min": {
         "default": -8,
-        "value": -8
+        "value": 0.01
       },
       "max": {
         "default": 8,
@@ -561,17 +561,6 @@
         "value": 10000
       }
     },
-    "ars_nouveau:ars_nouveau.perk.saturation": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10000,
-        "value": 10000
-      }
-    },
     "irons_spellbooks:summon_damage": {
       "enabled": false,
       "min": {
@@ -581,6 +570,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "ars_nouveau:ars_nouveau.perk.saturation": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "goety:soul_discount": {
@@ -638,17 +638,6 @@
         "value": 1000000
       }
     },
-    "forge:swim_speed": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
     "tinkersjewelry:silk": {
       "enabled": false,
       "min": {
@@ -658,6 +647,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "forge:swim_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "touhou_little_maid:maid_crossbow_attack_speed": {
@@ -1507,17 +1507,6 @@
         "value": 100
       }
     },
-    "ice_and_fire_delight:number_of_explosions": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 9999,
-        "value": 9999
-      }
-    },
     "l2hostility:extra_scale": {
       "enabled": false,
       "min": {
@@ -1527,6 +1516,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "ice_and_fire_delight:number_of_explosions": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 9999,
+        "value": 9999
       }
     },
     "ars_nouveau:ars_nouveau.perk.spell_damage": {
@@ -1804,17 +1804,6 @@
         "value": 10000
       }
     },
-    "marveloustinker:player.summon_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2147483647,
-        "value": 2147483647
-      }
-    },
     "traveloptics:aqua_spell_power": {
       "enabled": false,
       "min": {
@@ -1824,6 +1813,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "marveloustinker:player.summon_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
       }
     },
     "attributeslib:crit_damage": {
@@ -1914,17 +1914,6 @@
         "value": 2048
       }
     },
-    "ftbultimine:exhaustion_modifier": {
-      "enabled": false,
-      "min": {
-        "default": -179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-        "value": -179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-      },
-      "max": {
-        "default": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
-        "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-      }
-    },
     "irons_spellbooks:ender_magic_resist": {
       "enabled": false,
       "min": {
@@ -1934,6 +1923,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "ftbultimine:exhaustion_modifier": {
+      "enabled": false,
+      "min": {
+        "default": -179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+        "value": -179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      },
+      "max": {
+        "default": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+        "value": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
       }
     },
     "nffgirls:nffgirls.xp_gain_rate": {
@@ -2035,17 +2035,6 @@
         "value": 1000
       }
     },
-    "baublesreforked:life_steal": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 10
-      }
-    },
     "tinkersjewelry:trade": {
       "enabled": false,
       "min": {
@@ -2057,15 +2046,15 @@
         "value": 100
       }
     },
-    "nffgirls:nffgirls.persistent_ranged_healing": {
-      "enabled": false,
+    "baublesreforked:life_steal": {
+      "enabled": true,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1024,
-        "value": 1024
+        "default": 1,
+        "value": 10
       }
     },
     "tconstruct:generic.protection_cap": {
@@ -2077,6 +2066,17 @@
       "max": {
         "default": 0.949999988079071,
         "value": 0.949999988079071
+      }
+    },
+    "nffgirls:nffgirls.persistent_ranged_healing": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "touhou_little_maid:maid_pickup_range": {
