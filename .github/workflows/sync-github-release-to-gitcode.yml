@@ -161,7 +161,7 @@ jobs:
                   url = f"{gh_base}/repos/{source_repo}/releases/latest"
               return [gh_get(url).json()]
 
-          def gitcode_request(method, path, *, params=None, data=None, json_body=None, headers=None, timeout=120, allow_redirects=True):
+          def gitcode_request(method, path, *, params=None, data=None, json_body=None, headers=None, timeout=120):
               url = f"{gitcode_base}{path}"
               merged_headers = dict(gitcode_headers)
               if headers:
@@ -174,7 +174,6 @@ jobs:
                   json=json_body,
                   headers=merged_headers,
                   timeout=timeout,
-                  allow_redirects=allow_redirects,
               )
 
           def load_json_or_none(resp):
@@ -264,6 +263,8 @@ jobs:
                   return url
               parsed = urlparse(url)
               query = dict(parse_qsl(parsed.query, keep_blank_values=True))
+              if "AccessKeyId" in query or "Signature" in query:
+                  return url
               query.setdefault("access_token", gitcode_token)
               return urlunparse(parsed._replace(query=urlencode(query)))
 
@@ -320,26 +321,24 @@ jobs:
                       f"Failed to finalize GitCode asset '{asset_name}' after upload: {resp.status_code} {resp.text}"
                   )
 
-          def upload_gitcode_asset(release_tag, asset_name, asset_bytes):
+          def open_upload_attempts(release_tag, asset_name):
               encoded_tag = quote(release_tag, safe="")
               resp = gitcode_request(
                   "GET",
                   f"/repos/{gitcode_owner}/{gitcode_repo}/releases/{encoded_tag}/upload_url",
                   params={"file_name": asset_name},
                   timeout=120,
-                  allow_redirects=False,
               )
               if resp.status_code >= 400:
                   raise SystemExit(f"Failed to get GitCode upload URL: {resp.status_code} {resp.text}")
               upload_url, upload_method, upload_fields, upload_headers = parse_upload_descriptor(resp)
-              upload_url = append_access_token(upload_url)
-              content_type = "application/octet-stream"
-
-              # GitCode's upload response shape may vary by deployment. Try the most likely
-              # object-storage patterns first, then fall back to POST-based uploads.
+              signed_upload = bool(upload_headers)
+              if not signed_upload:
+                  upload_url = append_access_token(upload_url)
               attempts = []
-              if upload_headers:
+              if signed_upload:
                   attempts.append(("PUT_SIGNED", upload_url, upload_headers))
+                  return attempts
               if upload_fields:
                   attempts.append(("POST_FORM", upload_url, upload_fields))
               if "{?name,label}" in upload_url:
@@ -351,57 +350,76 @@ jobs:
                   attempts.append(("PUT_RAW", upload_url, None))
                   attempts.append(("POST_RAW", upload_url, None))
                   attempts.append(("POST_FORM_FILE", upload_url, None))
+              return attempts
 
+          def upload_gitcode_asset(release_tag, asset_name, asset_path):
+              content_type = "application/octet-stream"
+              asset_size = asset_path.stat().st_size
               attempt_errors = []
               last_error = None
-              for kind, url, payload in attempts:
-                  try:
-                      if kind == "PUT_SIGNED":
-                          upload_resp = requests.put(
-                              url,
-                              data=asset_bytes,
-                              headers=payload,
-                              timeout=600,
-                          )
-                          if upload_resp.status_code == 203 and "CallBack.0002" in (upload_resp.text or ""):
-                              manual_gitcode_obs_callback(release_tag, url, payload, asset_name, len(asset_bytes))
+              signed_retry_delays = [0, 5, 20, 60, 120]
+              for signed_attempt, retry_delay in enumerate(signed_retry_delays, start=1):
+                  if retry_delay:
+                      import time
+                      time.sleep(retry_delay)
+                  attempts = open_upload_attempts(release_tag, asset_name)
+                  for kind, url, payload in attempts:
+                      try:
+                          if kind == "PUT_SIGNED":
+                              upload_headers = dict(payload or {})
+                              upload_headers.setdefault("Content-Length", str(asset_size))
+                              with asset_path.open("rb") as upload_stream:
+                                  upload_resp = requests.put(
+                                      url,
+                                      data=upload_stream,
+                                      headers=upload_headers,
+                                      timeout=(60, 7200),
+                                  )
+                              if upload_resp.status_code == 203 and "CallBack.0002" in (upload_resp.text or ""):
+                                  manual_gitcode_obs_callback(release_tag, url, payload, asset_name, asset_size)
+                                  return
+                          elif kind == "POST_FORM":
+                              with asset_path.open("rb") as upload_stream:
+                                  upload_resp = requests.post(
+                                      url,
+                                      data=payload,
+                                      files={"file": (asset_name, upload_stream, content_type)},
+                                      headers=gitcode_upload_headers(url),
+                                      timeout=(60, 7200),
+                                  )
+                          elif kind == "POST_FORM_FILE":
+                              with asset_path.open("rb") as upload_stream:
+                                  upload_resp = requests.post(
+                                      url,
+                                      files={"file": (asset_name, upload_stream, content_type)},
+                                      headers=gitcode_upload_headers(url),
+                                      timeout=(60, 7200),
+                                  )
+                          elif kind == "POST_RAW":
+                              with asset_path.open("rb") as upload_stream:
+                                  upload_resp = requests.post(
+                                      url,
+                                      data=upload_stream,
+                                      headers=gitcode_upload_headers(url, {"Content-Type": content_type, "Content-Length": str(asset_size)}),
+                                      timeout=(60, 7200),
+                                  )
+                          else:
+                              with asset_path.open("rb") as upload_stream:
+                                  upload_resp = requests.put(
+                                      url,
+                                      data=upload_stream,
+                                      headers=gitcode_upload_headers(url, {"Content-Type": content_type, "Content-Length": str(asset_size)}),
+                                      timeout=(60, 7200),
+                                  )
+                          if upload_resp.status_code < 300:
                               return
-                      elif kind == "POST_FORM":
-                          upload_resp = requests.post(
-                              url,
-                              data=payload,
-                              files={"file": (asset_name, asset_bytes, content_type)},
-                              headers=gitcode_upload_headers(url),
-                              timeout=600,
-                          )
-                      elif kind == "POST_FORM_FILE":
-                          upload_resp = requests.post(
-                              url,
-                              files={"file": (asset_name, asset_bytes, content_type)},
-                              headers=gitcode_upload_headers(url),
-                              timeout=600,
-                          )
-                      elif kind == "POST_RAW":
-                          upload_resp = requests.post(
-                              url,
-                              data=asset_bytes,
-                              headers=gitcode_upload_headers(url, {"Content-Type": content_type}),
-                              timeout=600,
-                          )
-                      else:
-                          upload_resp = requests.put(
-                              url,
-                              data=asset_bytes,
-                              headers=gitcode_upload_headers(url, {"Content-Type": content_type}),
-                              timeout=600,
-                          )
-                      if upload_resp.status_code < 300:
-                          return
-                      last_error = f"{kind}: {upload_resp.status_code} {upload_resp.text}"
-                      attempt_errors.append(last_error)
-                  except Exception as exc:
-                      last_error = f"{kind}: {exc}"
-                      attempt_errors.append(last_error)
+                          last_error = f"{kind} attempt {signed_attempt}: {upload_resp.status_code} {upload_resp.text}"
+                          attempt_errors.append(last_error)
+                      except Exception as exc:
+                          last_error = f"{kind} attempt {signed_attempt}: {exc}"
+                          attempt_errors.append(last_error)
+                  if attempts and attempts[0][0] != "PUT_SIGNED":
+                      break
               details = " | ".join(attempt_errors) if attempt_errors else str(last_error)
               raise SystemExit(f"Failed to upload asset '{asset_name}' to GitCode: {details}")
 
@@ -504,22 +522,24 @@ jobs:
                           continue
                       download_headers = dict(gh_headers)
                       download_headers["Accept"] = "application/octet-stream"
-                      download_resp = requests.get(gh_asset_url, headers=download_headers, timeout=300)
-                      if download_resp.status_code >= 300:
-                          raise SystemExit(
-                              f"Failed to download GitHub asset '{source_asset_name}': {download_resp.status_code} {download_resp.text}"
-                          )
-
                       asset_path = out_dir / sanitize_artifact_name(tag_name) / gitcode_asset_name
                       asset_path.parent.mkdir(parents=True, exist_ok=True)
-                      asset_path.write_bytes(download_resp.content)
+                      with requests.get(gh_asset_url, headers=download_headers, timeout=(60, 7200), stream=True) as download_resp:
+                          if download_resp.status_code >= 300:
+                              raise SystemExit(
+                                  f"Failed to download GitHub asset '{source_asset_name}': {download_resp.status_code} {download_resp.text}"
+                              )
+                          with asset_path.open("wb") as output:
+                              for chunk in download_resp.iter_content(chunk_size=1024 * 1024):
+                                  if chunk:
+                                      output.write(chunk)
 
                       if gitcode_asset_name in existing_by_name and overwrite_assets:
                           # GitCode's public API does not expose a documented delete-asset endpoint.
                           # Re-upload and let the server decide whether it replaces or rejects.
                           pass
 
-                      upload_gitcode_asset(gitcode_tag_name, gitcode_asset_name, download_resp.content)
+                      upload_gitcode_asset(gitcode_tag_name, gitcode_asset_name, asset_path)
                       uploaded += 1
 
               total_uploaded += uploaded
