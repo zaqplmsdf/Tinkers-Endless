@@ -3,20 +3,22 @@ modrinth_projectid = ""
 modrinth_versionid = ""
 curseforge_projectid = ""
 curseforge_fileid = ""
-directUrl = ["https://mediafilez.forgecdn.net/files/7633/106/rusticdelight-forge-1.20.1-1.5.1.jar"]
-priority = ["modrinth"]
+directUrl = [
+  "https://mediafilez.forgecdn.net/files/7633/106/rusticdelight-forge-1.20.1-1.5.1.jar"
+]
+priority = "modrinth"
 
 [basic]
 identifier = "food_9"
-file_name = "rusticdelight-forge-1.20.1-1.5.1.jar"
 type = "mod"
-RedirectUrl = "https://www.mcmod.cn/class/16610.html"
+file_name = "rusticdelight-forge-1.20.1-1.5.1.jar"
 isInList = true
 isHidden = false
 AllowEnableByAll = true
+alarm = false
+RedirectUrl = "https://www.mcmod.cn/class/16610.html"
 dependencies = []
 conflicts = []
-alarm = false
 
 [DisplayName]
 zh_cn = "乡村乐事"

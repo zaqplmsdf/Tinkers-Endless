@@ -3,20 +3,24 @@ modrinth_projectid = ""
 modrinth_versionid = ""
 curseforge_projectid = ""
 curseforge_fileid = ""
-directUrl = ["https://mediafilez.forgecdn.net/files/7746/665/maidsconstruct-1.0.1-forge%2Bmc1.20.1.jar"]
-priority = ["modrinth"]
+directUrl = [
+  "https://mediafilez.forgecdn.net/files/7746/665/maidsconstruct-1.0.1-forge%2Bmc1.20.1.jar"
+]
+priority = "modrinth"
 
 [basic]
 identifier = "maid_4"
-file_name = "maidsconstruct-1.0.1-forge+mc1.20.1.jar"
 type = "mod"
-RedirectUrl = "https://www.mcmod.cn/class/25370.html"
+file_name = "maidsconstruct-1.0.1-forge+mc1.20.1.jar"
 isInList = true
 isHidden = false
 AllowEnableByAll = true
-dependencies = ["maid"]
-conflicts = []
 alarm = false
+RedirectUrl = "https://www.mcmod.cn/class/25370.html"
+dependencies = [
+  "maid"
+]
+conflicts = []
 
 [DisplayName]
 en_us = "Maid's Construct"

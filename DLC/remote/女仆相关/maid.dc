@@ -3,20 +3,22 @@ modrinth_projectid = ""
 modrinth_versionid = ""
 curseforge_projectid = ""
 curseforge_fileid = ""
-directUrl = ["https://cdn-alt.modrinth.com/data/R0bDWFAW/versions/YpdxfSC2/touhoulittlemaid-1.5.2-forge%2Bmc1.20.1.jar"]
-priority = ["modrinth"]
+directUrl = [
+  "https://cdn-alt.modrinth.com/data/R0bDWFAW/versions/YpdxfSC2/touhoulittlemaid-1.5.2-forge%2Bmc1.20.1.jar"
+]
+priority = "modrinth"
 
 [basic]
 identifier = "maid"
-file_name = "touhoulittlemaid-1.5.2-forge+mc1.20.1.jar"
 type = "mod"
-RedirectUrl = "https://www.mcmod.cn/class/1796.html"
+file_name = "touhoulittlemaid-1.5.2-forge+mc1.20.1.jar"
 isInList = true
 isHidden = false
 AllowEnableByAll = true
+alarm = false
+RedirectUrl = "https://www.mcmod.cn/class/1796.html"
 dependencies = []
 conflicts = []
-alarm = false
 
 [DisplayName]
 en_us = "Touhou Little Maid"

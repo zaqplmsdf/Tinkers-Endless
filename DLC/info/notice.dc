@@ -7,11 +7,9 @@ en_us = "Tinkers Endless modpack DLC content"
 zh_cn = "无穷匠艺整合包DLC内容"
 
 [Subhead]
-enabled = false
+enabled = "false"
 zh_cn = "by：某不知名下界传送门"
 en_us = "Made by X_X"
-
-[ContentUrl]
 
 [Contents]
 en_us = ""

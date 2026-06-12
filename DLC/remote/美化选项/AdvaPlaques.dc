@@ -3,20 +3,22 @@ modrinth_projectid = ""
 modrinth_versionid = ""
 curseforge_projectid = ""
 curseforge_fileid = ""
-directUrl = ["https://mediafilez.forgecdn.net/files/6186/385/AdvancementPlaques-1.20.1-forge-1.6.9.jar"]
-priority = ["curseforge", "modrinth", "directUrl"]
+directUrl = [
+  "https://mediafilez.forgecdn.net/files/6186/385/AdvancementPlaques-1.20.1-forge-1.6.9.jar"
+]
+priority = "modrinth"
 
 [basic]
 identifier = "AdvaPlaques"
-file_name = "AdvancementPlaques-1.20.1-forge-1.6.9.jar"
 type = "mod"
-RedirectUrl = ""
+file_name = "AdvancementPlaques-1.20.1-forge-1.6.9.jar"
 isInList = true
 isHidden = false
 AllowEnableByAll = true
+alarm = false
+RedirectUrl = ""
 dependencies = []
 conflicts = []
-alarm = false
 
 [DisplayName]
 zh_cn = "进度牌匾"

@@ -3,20 +3,24 @@ modrinth_projectid = ""
 modrinth_versionid = ""
 curseforge_projectid = ""
 curseforge_fileid = ""
-directUrl = ["https://mediafilez.forgecdn.net/files/6980/903/PackagedAvaritia-Re-1.20.1-2.2.2.13.jar"]
-priority = ["curseforge", "modrinth", "directUrl"]
+directUrl = [
+  "https://mediafilez.forgecdn.net/files/6980/903/PackagedAvaritia-Re-1.20.1-2.2.2.13.jar"
+]
+priority = "modrinth"
 
 [basic]
 identifier = "PackagedAuto_a"
-file_name = "PackagedAvaritia-Re-1.20.1-2.2.2.13.jar"
 type = "mod"
-RedirectUrl = "https://www.mcmod.cn/class/7826.html"
+file_name = "PackagedAvaritia-Re-1.20.1-2.2.2.13.jar"
 isInList = true
 isHidden = false
 AllowEnableByAll = true
-dependencies = ["PackagedAuto"]
-conflicts = []
 alarm = false
+RedirectUrl = "https://www.mcmod.cn/class/7826.html"
+dependencies = [
+  "PackagedAuto"
+]
+conflicts = []
 
 [DisplayName]
 zh_cn = "封包无尽贪婪"

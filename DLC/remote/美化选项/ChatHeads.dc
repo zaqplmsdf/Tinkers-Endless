@@ -3,20 +3,22 @@ modrinth_projectid = ""
 modrinth_versionid = ""
 curseforge_projectid = ""
 curseforge_fileid = ""
-directUrl = ["https://mediafilez.forgecdn.net/files/7875/199/chat_heads-0.15.1-forge-1.20.jar"]
-priority = ["curseforge", "modrinth", "directUrl"]
+directUrl = [
+  "https://mediafilez.forgecdn.net/files/7875/199/chat_heads-0.15.1-forge-1.20.jar"
+]
+priority = "modrinth"
 
 [basic]
 identifier = "ChatHeads"
-file_name = "chat_heads-0.15.1-forge-1.20.jar"
 type = "mod"
-RedirectUrl = ""
+file_name = "chat_heads-0.15.1-forge-1.20.jar"
 isInList = true
 isHidden = false
 AllowEnableByAll = true
+alarm = false
+RedirectUrl = ""
 dependencies = []
 conflicts = []
-alarm = false
 
 [DisplayName]
 zh_cn = "聊天头像"

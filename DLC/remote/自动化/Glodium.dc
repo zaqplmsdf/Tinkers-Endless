@@ -3,20 +3,22 @@ modrinth_projectid = ""
 modrinth_versionid = ""
 curseforge_projectid = ""
 curseforge_fileid = ""
-directUrl = ["https://mediafilez.forgecdn.net/files/5226/922/Glodium-1.20-1.5-forge.jar"]
-priority = ["curseforge", "modrinth", "directUrl"]
+directUrl = [
+  "https://mediafilez.forgecdn.net/files/5226/922/Glodium-1.20-1.5-forge.jar"
+]
+priority = "modrinth"
 
 [basic]
 identifier = "Glodium"
-file_name = "Glodium-1.20-1.5-forge.jar"
 type = "mod"
-RedirectUrl = "https://www.mcmod.cn/class/13307.html"
+file_name = "Glodium-1.20-1.5-forge.jar"
 isInList = true
 isHidden = false
 AllowEnableByAll = true
+alarm = false
+RedirectUrl = "https://www.mcmod.cn/class/13307.html"
 dependencies = []
 conflicts = []
-alarm = false
 
 [DisplayName]
 zh_cn = "Glodium"

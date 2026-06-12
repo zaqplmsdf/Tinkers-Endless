@@ -3,20 +3,24 @@ modrinth_projectid = ""
 modrinth_versionid = ""
 curseforge_projectid = ""
 curseforge_fileid = ""
-directUrl = ["https://mediafilez.forgecdn.net/files/7930/377/touhou_little_maid_spell-1.7.3.8-forge%2Bmc1.20.1.jar"]
-priority = ["modrinth"]
+directUrl = [
+  "https://mediafilez.forgecdn.net/files/7930/377/touhou_little_maid_spell-1.7.3.8-forge%2Bmc1.20.1.jar"
+]
+priority = "modrinth"
 
 [basic]
 identifier = "maid_3"
-file_name = "touhou_little_maid_spell-1.7.3.8-forge+mc1.20.1.jar"
 type = "mod"
-RedirectUrl = "https://www.mcmod.cn/class/20314.html"
+file_name = "touhou_little_maid_spell-1.7.3.8-forge+mc1.20.1.jar"
 isInList = true
 isHidden = false
 AllowEnableByAll = true
-dependencies = ["maid"]
-conflicts = []
 alarm = false
+RedirectUrl = "https://www.mcmod.cn/class/20314.html"
+dependencies = [
+  "maid"
+]
+conflicts = []
 
 [DisplayName]
 en_us = "Touhou Little Maid: Spell"

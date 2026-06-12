@@ -1,11 +1,3 @@
-[download]
-modrinth_projectid = ""
-modrinth_versionid = ""
-curseforge_projectid = ""
-curseforge_fileid = ""
-directUrl = ""
-priority = "curseforge"
-
 [basic]
 identifier = "mesh"
 type = "others"
@@ -14,6 +6,7 @@ appliedTarget = "kubejs/server_scripts/DLC"
 isInList = true
 isHidden = false
 AllowEnableByAll = true
+alarm = false
 dependencies = "exdeorum"
 conflicts = ""
 

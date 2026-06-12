@@ -3,20 +3,24 @@ modrinth_projectid = ""
 modrinth_versionid = ""
 curseforge_projectid = ""
 curseforge_fileid = ""
-directUrl = ["https://mediafilez.forgecdn.net/files/7871/763/ExtendedAE-1.20-1.4.14-forge.jar"]
-priority = ["curseforge", "modrinth", "directUrl"]
+directUrl = [
+  "https://mediafilez.forgecdn.net/files/7871/763/ExtendedAE-1.20-1.4.14-forge.jar"
+]
+priority = "modrinth"
 
 [basic]
 identifier = "eae"
-file_name = "ExtendedAE-1.20-1.4.14-forge.jar"
 type = "mod"
-RedirectUrl = "https://www.mcmod.cn/class/11534.html"
+file_name = "ExtendedAE-1.20-1.4.14-forge.jar"
 isInList = true
 isHidden = false
 AllowEnableByAll = true
-dependencies = ["Glodium"]
-conflicts = []
 alarm = false
+RedirectUrl = "https://www.mcmod.cn/class/11534.html"
+dependencies = [
+  "Glodium"
+]
+conflicts = []
 
 [DisplayName]
 zh_cn = "AE2 扩展"

@@ -3,7 +3,9 @@ modrinth_projectid = ""
 modrinth_versionid = ""
 curseforge_projectid = ""
 curseforge_fileid = ""
-directUrl = ["https://mediafilez.forgecdn.net/files/7424/522/traveloptics-6.3.0-1.20.1.jar"]
+directUrl = [
+  "https://mediafilez.forgecdn.net/files/7424/522/traveloptics-6.3.0-1.20.1.jar"
+]
 priority = "modrinth"
 
 [basic]
@@ -13,13 +15,14 @@ file_name = "traveloptics-6.3.0-1.20.1.jar"
 isInList = true
 isHidden = false
 AllowEnableByAll = true
-alarm = false
+alarm = true
 RedirectUrl = ""
 dependencies = []
 conflicts = []
 
 [DisplayName]
-en_us = "&#aa0000T.O Magic 'n Extras - Iron's Spells Addon"
+en_us = "&#aa0000T.O Magic 'n Extras - Iron's Spells Addon(Enable with caution)"
 
 [tip]
-zh_cn = "&#aa0000§l§o§n铁魔法扩展"
+zh_cn = """&#aa0000§l§o§n铁魔法扩展（谨慎开启）
+&#aa0000§l§o§n暂不适配现版本灾变，开启后会导致游戏崩溃，请等待模组作者更新"""

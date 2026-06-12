@@ -3,20 +3,24 @@ modrinth_projectid = ""
 modrinth_versionid = ""
 curseforge_projectid = ""
 curseforge_fileid = ""
-directUrl = ["https://mediafilez.forgecdn.net/files/6178/64/teamesync-1.20.1-1.1.0.jar"]
-priority = ["curseforge", "modrinth", "directUrl"]
+directUrl = [
+  "https://mediafilez.forgecdn.net/files/6178/64/teamesync-1.20.1-1.1.0.jar"
+]
+priority = "modrinth"
 
 [basic]
 identifier = "PeTS"
-file_name = "teamesync-1.20.1-1.1.0.jar"
 type = "mod"
-RedirectUrl = "https://www.mcmod.cn/class/22443.html"
+file_name = "teamesync-1.20.1-1.1.0.jar"
 isInList = true
 isHidden = false
 AllowEnableByAll = true
-dependencies = ["PeT"]
-conflicts = []
 alarm = false
+RedirectUrl = "https://www.mcmod.cn/class/22443.html"
+dependencies = [
+  "PeT"
+]
+conflicts = []
 
 [DisplayName]
 zh_cn = "ProjectE Teams Sync"

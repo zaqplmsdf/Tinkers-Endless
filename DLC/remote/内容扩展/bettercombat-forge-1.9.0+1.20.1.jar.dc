@@ -3,7 +3,9 @@ modrinth_projectid = ""
 modrinth_versionid = ""
 curseforge_projectid = ""
 curseforge_fileid = ""
-directUrl = ["https://mediafilez.forgecdn.net/files/7287/334/bettercombat-forge-1.9.0%2B1.20.1.jar"]
+directUrl = [
+  "https://mediafilez.forgecdn.net/files/7287/334/bettercombat-forge-1.9.0%2B1.20.1.jar"
+]
 priority = "modrinth"
 
 [basic]
