@@ -32,11 +32,11 @@ ServerEvents.recipes(event => {
             ' E '
         ],
         {
-            B: Item.of('wqjy:up_item_10', '{}'),
-            A: Item.of('wqjy:up_item_4', '{}'),
-            C: Item.of('wqjy:up_item_13', '{}'),
-            E: Item.of('wqjy:up_item_14', '{}'),
-            D: Item.of('wqjy:up_item_5', '{}')
+            B: Item.of('wqjy:up_item_10'),
+            A: Item.of('wqjy:up_item_4'),
+            C: Item.of('wqjy:up_item_13'),
+            E: Item.of('wqjy:up_item_14'),
+            D: Item.of('wqjy:up_item_5')
         }
     )
     //晋升证明4
@@ -51,11 +51,11 @@ ServerEvents.recipes(event => {
             'A B A'
         ],
         {
-            E: Item.of('wqjy:up_item_3', '{}'),
-            C: Item.of('wqjy:up_item_11', '{}'),
-            B: Item.of('wqjy:up_item_2', '{}'),
-            D: Item.of('wqjy:up_item_7', '{}'),
-            A: Item.of('wqjy:up_item_17', '{}')
+            E: Item.of('wqjy:up_item_3'),
+            C: Item.of('wqjy:up_item_11'),
+            B: Item.of('wqjy:up_item_2'),
+            D: Item.of('wqjy:up_item_7'),
+            A: Item.of('wqjy:up_item_17')
         }
     )
     //晋升证明5
@@ -72,12 +72,12 @@ ServerEvents.recipes(event => {
             'DDBCCBA'
         ],
         {
-            E: Item.of('wqjy:up_item_18', '{}'),
-            A: Item.of('avaritia:crystal_matrix_ingot', '{}'),
-            B: Item.of('thermal:netherite_coin', '{}'),
-            C: Item.of('wqjy:up_item_1', '{}'),
-            F: Item.of('wqjy:up_item_12', '{}'),
-            D: Item.of('cagedmobs:star_infused_netherite_ingot', '{}')
+            E: Item.of('wqjy:up_item_18'),
+            A: Item.of('avaritia:crystal_matrix_ingot'),
+            B: Item.of('thermal:netherite_coin'),
+            C: Item.of('wqjy:up_item_1'),
+            F: Item.of('wqjy:up_item_12'),
+            D: Item.of('cagedmobs:star_infused_netherite_ingot')
         }
     )
     //最终证明
@@ -96,15 +96,15 @@ ServerEvents.recipes(event => {
             'DAAAAAAAB'
         ],
         {
-            C: Item.of('wqjy:world', '{}'),
-            A: Item.of('wqjy:hong', '{}'),
-            D: Item.of('wqjy:eternal', '{}'),
-            F: Item.of('wqjy:jian', '{}'),
-            B: Item.of('wqjy:myth', '{}'),
-            G: Item.of('wqjy:wqjy_logo', '{}'),
-            H: Item.of('wqjy:zhang_1', '{}'),
-            I: Item.of('wqjy:hundun', '{}'),
-            E: Item.of('wqjy:gaiya', '{}')
+            C: Item.of('wqjy:world'),
+            A: Item.of('wqjy:hong'),
+            D: Item.of('wqjy:eternal'),
+            F: Item.of('wqjy:jian'),
+            B: Item.of('wqjy:myth'),
+            G: Item.of('wqjy:wqjy_logo'),
+            H: Item.of('wqjy:zhang_1'),
+            I: Item.of('wqjy:hundun'),
+            E: Item.of('wqjy:gaiya')
         }
     )
 });

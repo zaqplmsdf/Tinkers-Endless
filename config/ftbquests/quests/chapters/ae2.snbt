@@ -7,6 +7,7 @@
 	id: "02F4D6D2AA3EF091"
 	images: [
 		{
+			dependency: "6707D1BBF80A093E"
 			height: 2.0d
 			image: "ae2:block/controller_lights"
 			rotation: 0.0d
@@ -126,6 +127,7 @@
 			y: -1.5d
 		}
 		{
+			description: ["{ \"text\": \"群内推荐教程\", \"color\": \"light_purple\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://b23.tv/IacyIoP\" } }"]
 			icon: "ae2:controller"
 			id: "6707D1BBF80A093E"
 			rewards: [{

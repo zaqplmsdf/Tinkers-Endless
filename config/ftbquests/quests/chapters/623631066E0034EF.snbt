@@ -602,7 +602,7 @@
 			description: [
 				"相关链接："
 				""
-				"{ \"text\": \"解锁万剑归一\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2CB57323C7D37AC7\" } } "
+				"{ \"text\": \"解锁万剑归一\", \"color\": \"green\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2CB57323C7D37AC7\" } } "
 			]
 			icon: "minecraft:barrier"
 			id: "03FA631D240E88AA"
@@ -749,7 +749,7 @@
 				type: "questsadditions:time"
 			}]
 			x: 2.0d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["03FA631D240E88AA"]
@@ -923,7 +923,7 @@
 			}]
 			title: "禁用挑战模式"
 			x: 2.0d
-			y: 7.5d
+			y: 10.5d
 		}
 		{
 			can_repeat: true
@@ -949,6 +949,33 @@
 			}]
 			x: 2.0d
 			y: -3.5d
+		}
+		{
+			id: "34FFBC0718AB82F7"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "0FCF6386CDB58620"
+					ignore_reward_blocking: true
+					stage: "nightmare"
+					type: "gamestage"
+				}
+				{
+					id: "455D9A3089BF1EA1"
+					item: "l2hostility:abyssal_thorn"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "大量减少自身属性，但也会解锁一些特殊的配方"
+			tasks: [{
+				id: "26F96B7C7B77A290"
+				title: "&c梦魇模式(未完成)"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 8.0d
 		}
 	]
 	title: "◇&d成就？"

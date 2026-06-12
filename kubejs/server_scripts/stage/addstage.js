@@ -7,7 +7,7 @@ ItemEvents.rightClicked('wqjy:up_1', event => {
     const player = event.player;
     const item = event.item;
 
-    // 2. 服务端高权限静默执行命令（无需/，runCommand默认OP权限）
+    // 2. 服务端高权限静默执行命令
     event.server.runCommandSilent(`astages add @p stage_1`);
 
     // 3. 为物品添加1秒冷却（MC 20tick = 1秒）

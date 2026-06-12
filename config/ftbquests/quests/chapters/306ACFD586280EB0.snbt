@@ -183,7 +183,7 @@
 	quests: [
 		{
 			description: [
-				"把鼠标指针放在物品上按&eB&r(默认按键)"
+				"把鼠标指针放在物品上按&e0（数字0，非小键盘）&r(默认按键)"
 				"可以跳转到对应的百科词条"
 				""
 				"“百科里什么都有！”"
@@ -410,7 +410,7 @@
 				"&e共十九种&r"
 				""
 				"相关链接："
-				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"44E02FE535B1B20D\" } }"
+				"{ \"text\": \"EDIT HERE\", \"color\": \"green\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"44E02FE535B1B20D\" } }"
 			]
 			id: "740A0511D18048DE"
 			rewards: [
@@ -476,9 +476,9 @@
 				""
 				"相关链接："
 				"&b修饰词：&r"
-				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7C63E30B5924CBD0\" } }"
+				"{ \"text\": \"EDIT HERE\", \"color\": \"green\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7C63E30B5924CBD0\" } }"
 				"&b传说修饰词：&r"
-				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"64DBCEE290C6B656\" } }"
+				"{ \"text\": \"EDIT HERE\", \"color\": \"green\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"64DBCEE290C6B656\" } }"
 			]
 			hide_dependency_lines: false
 			id: "767FDF7F90D4601B"

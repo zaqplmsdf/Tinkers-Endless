@@ -265,6 +265,7 @@ ServerEvents.tags('item', event =>{
         '#forge:storage_blocks/black_gold',
         '#forge:ingots/mushroom_iron',
         '#forge:nuggets/mushroom_iron',
-        'mushroom_daydream:mizi'
+        'mushroom_daydream:mizi',
+        'dreamtinker:spiral_spin'
     ])
 })

@@ -419,7 +419,7 @@ ServerEvents.recipes(event => {
     )
     //墨水
     event.shapeless('irons_spellbooks:common_ink', [
-        Item.of('minecraft:potion', '{Potion:"minecraft:water"}').strongNBT(),
+        Item.of('minecraft:potion', '{Potion:"minecraft:water"}'),
         'irons_spellbooks:arcane_essence'
     ])
     event.shaped(
@@ -482,42 +482,42 @@ ServerEvents.recipes(event => {
         Item.of('alexscaves:cave_codex', '{CaveBiome:"alexscaves:magnetic_caves"}'),
         [
             Item.of('minecraft:paper', '{}'),
-            Item.of('alexscaves:cave_tablet', '{CaveBiome:"alexscaves:magnetic_caves"}').strongNBT()
+            Item.of('alexscaves:cave_tablet', '{CaveBiome:"alexscaves:magnetic_caves"}')
         ]
     )
     event.shapeless(
         Item.of('alexscaves:cave_codex', '{CaveBiome:"alexscaves:primordial_caves"}'),
         [
             Item.of('minecraft:paper', '{}'),
-            Item.of('alexscaves:cave_tablet', '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT()
+            Item.of('alexscaves:cave_tablet', '{CaveBiome:"alexscaves:primordial_caves"}')
         ]
     )
     event.shapeless(
         Item.of('alexscaves:cave_codex', '{CaveBiome:"alexscaves:toxic_caves"}'),
         [
             Item.of('minecraft:paper', '{}'),
-            Item.of('alexscaves:cave_tablet', '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT()
+            Item.of('alexscaves:cave_tablet', '{CaveBiome:"alexscaves:toxic_caves"}')
         ]
     )
     event.shapeless(
         Item.of('alexscaves:cave_codex', '{CaveBiome:"alexscaves:abyssal_chasm"}'),
         [
             Item.of('minecraft:paper', '{}'),
-            Item.of('alexscaves:cave_tablet', '{CaveBiome:"alexscaves:abyssal_chasm"}').strongNBT()
+            Item.of('alexscaves:cave_tablet', '{CaveBiome:"alexscaves:abyssal_chasm"}')
         ]
     )
     event.shapeless(
         Item.of('alexscaves:cave_codex', '{CaveBiome:"alexscaves:forlorn_hollows"}'),
         [
             Item.of('minecraft:paper', '{}'),
-            Item.of('alexscaves:cave_tablet', '{CaveBiome:"alexscaves:forlorn_hollows"}').strongNBT()
+            Item.of('alexscaves:cave_tablet', '{CaveBiome:"alexscaves:forlorn_hollows"}')
         ]
     )
     event.shapeless(
         Item.of('alexscaves:cave_codex', '{CaveBiome:"alexscaves:candy_cavity"}'),
         [
             Item.of('minecraft:paper', '{}'),
-            Item.of('alexscaves:cave_tablet', '{CaveBiome:"alexscaves:candy_cavity"}').strongNBT()
+            Item.of('alexscaves:cave_tablet', '{CaveBiome:"alexscaves:candy_cavity"}')
         ]
     )
     //盲盒
@@ -659,48 +659,48 @@ ServerEvents.recipes(event => {
         ],
         {
             A: Item.of('kubejs:cat', '{}'),
-            B: Item.of('avaritia:singularity', '{Id:"avaritia:iron"}').strongNBT(),
-            D: Item.of('avaritia:singularity', '{Id:"avaritia:lapis_lazuli"}').strongNBT(),
-            C: Item.of('avaritia:singularity', '{Id:"avaritia:quartz"}').strongNBT()
+            B: Item.of('avaritia:singularity', '{Id:"avaritia:iron"}'),
+            D: Item.of('avaritia:singularity', '{Id:"avaritia:lapis_lazuli"}'),
+            C: Item.of('avaritia:singularity', '{Id:"avaritia:quartz"}')
         }
     )
     //创造槽位兑换
     event.shapeless(
         Item.of('kubejs:creative_1'),
         [
-            Item.of('tconstruct:creative_slot', '{slot:"upgrades"}').strongNBT()
+            Item.of('tconstruct:creative_slot', '{slot:"upgrades"}')
         ]
     )
     event.shapeless(
         Item.of('kubejs:creative_2'),
         [
-            Item.of('tconstruct:creative_slot', '{slot:"abilities"}').strongNBT()
+            Item.of('tconstruct:creative_slot', '{slot:"abilities"}')
         ]
     )
     event.shapeless(
         Item.of('kubejs:creative_3'),
         [
-            Item.of('tconstruct:creative_slot', '{slot:"defense"}').strongNBT()
+            Item.of('tconstruct:creative_slot', '{slot:"defense"}')
         ]
     )
     event.shapeless(
         Item.of('kubejs:creative_4'),
         [
-            Item.of('tconstruct:creative_slot', '{slot:"souls"}').strongNBT()
+            Item.of('tconstruct:creative_slot', '{slot:"souls"}')
         ]
     )
     //猫币分解
     event.shapeless(
         Item.of('64x thermal:netherite_coin'),
         [
-            Item.of('kubejs:cat').strongNBT()
+            Item.of('kubejs:cat')
         ]
     )
     //猫猫鞋
     event.shapeless(
         Item.of('artifacts:kitty_slippers'),
         [
-            Item.of('kubejs:cat').strongNBT()
+            Item.of('kubejs:cat')
         ]
     )
     //饰品盒子
@@ -832,7 +832,7 @@ ServerEvents.recipes(event => {
             A: Item.of('hmag:evil_crystal_fragment', '{}'),
             D: Item.of('projecte:philosophers_stone', '{}'),
             B: Item.of('thermal:netherite_coin', '{}'),
-            C: Item.of('enigmaticlegacy:iron_ring', '{IsInitialized:1,baublesreforked.ModifierId:"reality"}').strongNBT()
+            C: Item.of('enigmaticlegacy:iron_ring', '{IsInitialized:1,baublesreforked.ModifierId:"reality"}')
         }
     )
     //修饰词升级
@@ -849,7 +849,7 @@ ServerEvents.recipes(event => {
             A: Item.of('thermal:netherite_coin', '{}'),
             B: Item.of('avaritia:upgrade_smithing_template', '{}'),
             C: Item.of('avaritia:enhancement_core', '{}'),
-            D: Item.of('baublesreforked:modifier_book', '{baublesreforked.ModifierId:"causality"}').strongNBT()
+            D: Item.of('baublesreforked:modifier_book', '{baublesreforked.ModifierId:"causality"}')
         }
     )
     event.shaped(
@@ -865,7 +865,7 @@ ServerEvents.recipes(event => {
             A: Item.of('thermal:netherite_coin', '{}'),
             B: Item.of('avaritia:upgrade_smithing_template', '{}'),
             C: Item.of('avaritia:enhancement_core', '{}'),
-            D: Item.of('baublesreforked:modifier_book', '{baublesreforked.ModifierId:"always"}').strongNBT()
+            D: Item.of('baublesreforked:modifier_book', '{baublesreforked.ModifierId:"always"}')
         }
     )
     event.shaped(
@@ -880,7 +880,7 @@ ServerEvents.recipes(event => {
             F: Item.of('avaritia:infinity_nugget', '{}'),
             A: Item.of('thermal:netherite_coin', '{}'),
             B: Item.of('avaritia:upgrade_smithing_template', '{}'),
-            D: Item.of('baublesreforked:modifier_book', '{baublesreforked.ModifierId:"thought"}').strongNBT(),
+            D: Item.of('baublesreforked:modifier_book', '{baublesreforked.ModifierId:"thought"}'),
             C: Item.of('avaritia:enhancement_core', '{}')
         }
     )
@@ -894,7 +894,7 @@ ServerEvents.recipes(event => {
         {
             E: Item.of('avaritia:eternal_singularity', '{}'),
             F: Item.of('avaritia:infinity_nugget', '{}'),
-            D: Item.of('baublesreforked:modifier_book', '{baublesreforked.ModifierId:"timeandspace"}').strongNBT(),
+            D: Item.of('baublesreforked:modifier_book', '{baublesreforked.ModifierId:"timeandspace"}'),
             A: Item.of('thermal:netherite_coin', '{}'),
             B: Item.of('avaritia:upgrade_smithing_template', '{}'),
             C: Item.of('avaritia:enhancement_core', '{}')
@@ -910,7 +910,7 @@ ServerEvents.recipes(event => {
         {
             E: Item.of('avaritia:eternal_singularity', '{}'),
             F: Item.of('avaritia:infinity_nugget', '{}'),
-            D: Item.of('baublesreforked:modifier_book', '{baublesreforked.ModifierId:"have_or_not"}').strongNBT(),
+            D: Item.of('baublesreforked:modifier_book', '{baublesreforked.ModifierId:"have_or_not"}'),
             A: Item.of('thermal:netherite_coin', '{}'),
             B: Item.of('avaritia:upgrade_smithing_template', '{}'),
             C: Item.of('avaritia:enhancement_core', '{}')
@@ -929,7 +929,7 @@ ServerEvents.recipes(event => {
             A: Item.of('thermal:netherite_coin', '{}'),
             B: Item.of('avaritia:upgrade_smithing_template', '{}'),
             C: Item.of('avaritia:enhancement_core', '{}'),
-            D: Item.of('baublesreforked:modifier_book', '{baublesreforked.ModifierId:"reality"}').strongNBT()
+            D: Item.of('baublesreforked:modifier_book', '{baublesreforked.ModifierId:"reality"}')
         }
     )
     event.shaped(
@@ -942,7 +942,7 @@ ServerEvents.recipes(event => {
         {
             E: Item.of('avaritia:eternal_singularity', '{}'),
             F: Item.of('avaritia:infinity_nugget', '{}'),
-            D: Item.of('baublesreforked:modifier_book', '{baublesreforked.ModifierId:"soul"}').strongNBT(),
+            D: Item.of('baublesreforked:modifier_book', '{baublesreforked.ModifierId:"soul"}'),
             A: Item.of('thermal:netherite_coin', '{}'),
             B: Item.of('avaritia:upgrade_smithing_template', '{}'),
             C: Item.of('avaritia:enhancement_core', '{}')
@@ -1026,7 +1026,7 @@ ServerEvents.recipes(event => {
         {
             B: 'minecraft:egg',
             A: 'minecraft:rotten_flesh',
-            C: Item.of('minecraft:splash_potion', '{Potion:"mutantmonsters:chemical_x"}').strongNBT()
+            C: Item.of('minecraft:splash_potion', '{Potion:"mutantmonsters:chemical_x"}')
         }
     )
     //突变苦力怕
@@ -1040,7 +1040,7 @@ ServerEvents.recipes(event => {
         {
             A: 'minecraft:gunpowder',
             B: 'minecraft:egg',
-            C: Item.of('minecraft:splash_potion', '{Potion:"mutantmonsters:chemical_x"}').strongNBT()
+            C: Item.of('minecraft:splash_potion', '{Potion:"mutantmonsters:chemical_x"}')
         }
     )
     //突变骷髅
@@ -1054,7 +1054,7 @@ ServerEvents.recipes(event => {
         {
             B: 'minecraft:egg',
             A: 'minecraft:bone',
-            C: Item.of('minecraft:splash_potion', '{Potion:"mutantmonsters:chemical_x"}').strongNBT()
+            C: Item.of('minecraft:splash_potion', '{Potion:"mutantmonsters:chemical_x"}')
         }
     )
     //突变末影人
@@ -1068,7 +1068,7 @@ ServerEvents.recipes(event => {
         {
             A: 'minecraft:ender_pearl',
             B: 'minecraft:egg',
-            C: Item.of('minecraft:splash_potion', '{Potion:"mutantmonsters:chemical_x"}').strongNBT()
+            C: Item.of('minecraft:splash_potion', '{Potion:"mutantmonsters:chemical_x"}')
         }
     )
     //死者之王

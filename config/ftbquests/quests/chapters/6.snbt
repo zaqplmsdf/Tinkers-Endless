@@ -10,208 +10,127 @@
 	quests: [
 		{
 			id: "31A64323B48B3C50"
-			rewards: [{
-				id: "027DB52FF54AF9CB"
+			subtitle: "&6温度：1000℃  \\n&b燃料效率：2 \\n&d加热效率：10"
+			tasks: [{
+				id: "438719278B283736"
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
-			subtitle: "1000℃"
-			tasks: [{
-				amount: 1000L
-				fluid: "minecraft:lava"
-				id: "3FF37CA72E9674C2"
-				type: "fluid"
-			}]
-			x: -2.5d
+			title: "熔岩"
+			x: -1.5d
 			y: -7.0d
 		}
 		{
 			id: "2B20E374E261D818"
-			rewards: [{
-				id: "72595425447905FD"
+			subtitle: "&6温度：1400℃  \\n&b燃料效率：2 \\n&d加热效率：10"
+			tasks: [{
+				id: "627C51822616C97A"
 				item: "mushroom_daydream:nightmare_fuel_bucket"
 				type: "item"
 			}]
-			subtitle: "1400℃"
-			tasks: [{
-				amount: 1000L
-				fluid: "mushroom_daydream:nightmare_fuel"
-				id: "1FF500936F192187"
-				type: "fluid"
-			}]
-			x: -2.5d
-			y: -6.0d
-		}
-		{
-			id: "045612197E36C891"
-			rewards: [{
-				id: "2E68767BE2E74CC5"
-				item: "tconstruct:blazing_blood_bucket"
-				type: "item"
-			}]
-			subtitle: "1500℃"
-			tasks: [{
-				amount: 1000L
-				fluid: "tconstruct:blazing_blood"
-				id: "56799DCCDBE90349"
-				type: "fluid"
-			}]
+			title: "噩梦燃料"
 			x: -2.5d
 			y: -5.0d
 		}
 		{
+			id: "045612197E36C891"
+			subtitle: "&6温度：1500℃  \\n&b燃料效率：3 \\n&d加热效率：15"
+			tasks: [{
+				id: "488ACC8D69606B01"
+				item: "tconstruct:blazing_blood_bucket"
+				type: "item"
+			}]
+			title: "烈焰血"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			icon: "aether:ambrosium_shard"
 			id: "40A732F9B0E1750E"
-			rewards: [{
-				id: "53B3AC0CFE8E5A92"
+			subtitle: "&6温度：1500℃  \\n&b燃料效率：2 \\n&d加热效率：10"
+			tasks: [{
+				id: "1D9CEE3E958BAF81"
 				item: {
 					Count: 1
-					id: "tconstruct:seared_ingot_gauge"
+					id: "tconstruct:seared_fuel_gauge"
 					tag: {
 						tank: {
-							Amount: 1000
 							FluidName: "aether_tinker:molten_ambrosium"
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
+				weak_nbt_match: true
 			}]
-			subtitle: "1500℃"
-			tasks: [{
-				amount: 1000L
-				fluid: "aether_tinker:molten_ambrosium"
-				id: "506D0EA29443C2CC"
-				type: "fluid"
-			}]
-			x: -1.5d
-			y: -5.0d
-		}
-		{
-			id: "5AA95F75943FB839"
-			rewards: [{
-				id: "6E3934E95DE4A864"
-				item: "sakuratinker:molten_aurumos_bucket"
-				type: "item"
-			}]
-			subtitle: "2000℃"
-			tasks: [{
-				amount: 1000L
-				fluid: "sakuratinker:molten_aurumos"
-				id: "557074433E637A00"
-				type: "fluid"
-			}]
+			title: "熔融神能晶"
 			x: -2.5d
 			y: -4.0d
 		}
 		{
+			id: "5AA95F75943FB839"
+			subtitle: "&6温度：2000℃  \\n&b燃料效率：4 \\n&d加热效率：20"
+			tasks: [{
+				id: "0CB29C9810990241"
+				item: "sakuratinker:molten_aurumos_bucket"
+				type: "item"
+			}]
+			title: "熔融奥鲁莫斯"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "tconstruct:large_plate"
+				tag: {
+					Material: "tinkersinnovation:soul_bone"
+				}
+			}
 			id: "74424816BBA1243F"
-			rewards: [{
-				id: "6E705BD58FD3EF43"
+			subtitle: "&6温度：2000℃  \\n&b燃料效率：2 \\n&d加热效率：20"
+			tasks: [{
+				id: "1A0DB0D5A6D1DF91"
 				item: {
 					Count: 1
 					id: "tconstruct:seared_ingot_gauge"
 					tag: {
 						tank: {
-							Amount: 1000
 							FluidName: "tinkersinnovation:blazing_soul"
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
+				weak_nbt_match: true
 			}]
-			subtitle: "2000℃"
-			tasks: [{
-				amount: 1000L
-				fluid: "tinkersinnovation:blazing_soul"
-				id: "59C6A805CE6AC293"
-				type: "fluid"
-			}]
-			x: -1.5d
-			y: -4.0d
-		}
-		{
-			id: "1BD29266B352F2C2"
-			rewards: [{
-				id: "767B57E8B0E563D6"
-				item: "cloudertinker:fire_tear_bucket"
-				type: "item"
-			}]
-			subtitle: "2000℃"
-			tasks: [{
-				amount: 1000L
-				fluid: "minecraft:water"
-				id: "43DF20A1E95EFCCB"
-				type: "fluid"
-			}]
-			x: -0.5d
-			y: -4.0d
-		}
-		{
-			id: "0BAC878C3549ECF4"
-			rewards: [{
-				id: "47EB1530CC01FCC4"
-				item: "cloudertinker:molten_fiery_bucket"
-				type: "item"
-			}]
-			subtitle: "2000℃"
-			tasks: [{
-				amount: 1000L
-				fluid: "minecraft:water"
-				id: "43268C44A4C36C4A"
-				type: "fluid"
-			}]
-			x: 0.5d
-			y: -4.0d
+			title: "液态烈焰之魂"
+			x: -2.5d
+			y: -3.0d
 		}
 		{
 			id: "51C390F157488D74"
-			rewards: [{
-				id: "6FAFD0F85D9C31FB"
+			subtitle: "&6温度：2000℃  \\n&b燃料效率：10 \\n&d加热效率：20"
+			tasks: [{
+				id: "2D456B4FFFCBDBFA"
 				item: "tinkers_advanced:over_heated_lava_bucket"
 				type: "item"
 			}]
-			subtitle: "2000℃"
-			tasks: [{
-				amount: 1000L
-				fluid: "tinkers_advanced:over_heated_lava"
-				id: "5234263ED16C5F23"
-				type: "fluid"
-			}]
-			x: 1.5d
-			y: -4.0d
-		}
-		{
-			id: "1B3C8A987BD761CA"
-			rewards: [{
-				id: "06407E64D7277302"
-				item: "cloudertinker:fire_blood_bucket"
-				type: "item"
-			}]
-			subtitle: "2000℃"
-			tasks: [{
-				amount: 1000L
-				fluid: "minecraft:water"
-				id: "405228C1A2781BFA"
-				type: "fluid"
-			}]
-			x: 2.5d
-			y: -4.0d
+			title: "过热熔岩"
+			x: -0.5d
+			y: -3.0d
 		}
 		{
 			id: "156B8E1E631D5890"
-			rewards: [{
-				id: "162E0317D3D218DB"
+			subtitle: "&6温度：2200℃  \\n&b燃料效率：4.4 \\n&d加热效率：22"
+			tasks: [{
+				id: "393929D655F04DB9"
 				item: "dreamtinker:reversed_shadow_bucket"
 				type: "item"
 			}]
-			subtitle: "2200℃"
-			tasks: [{
-				amount: 1000L
-				fluid: "dreamtinker:reversed_shadow"
-				id: "4184A9CE73BD31C9"
-				type: "fluid"
-			}]
-			x: -2.5d
-			y: -3.0d
+			title: "逆转阴影"
+			x: -1.5d
+			y: -2.0d
 		}
 		{
 			id: "41603F0200EC9C16"
@@ -220,139 +139,103 @@
 				item: "tinkers_ingenuity:dragon_breath_bucket"
 				type: "item"
 			}]
-			subtitle: "2200℃"
+			subtitle: "&6温度：2200℃  \\n&b燃料效率：2.4 \\n&d加热效率：22"
 			tasks: [{
-				amount: 1000L
-				fluid: "tinkers_ingenuity:dragon_breath"
-				id: "544B739EFD8768CF"
-				type: "fluid"
-			}]
-			x: -1.5d
-			y: -3.0d
-		}
-		{
-			id: "0A624967ED22FF48"
-			rewards: [{
-				id: "7344DA124B0D7B61"
-				item: "tinkersinnovation:lightning_bucket"
+				id: "09AD1B8E13B971C9"
+				item: "tinkers_ingenuity:dragon_breath_bucket"
 				type: "item"
 			}]
-			subtitle: "2500℃"
-			tasks: [{
-				amount: 1000L
-				fluid: "tinkersinnovation:lightning"
-				id: "29EC91B7DB18A47E"
-				type: "fluid"
-			}]
+			title: "龙息"
 			x: -2.5d
 			y: -2.0d
 		}
 		{
-			id: "27B939D5A236F27D"
-			rewards: [{
-				id: "4AC93DA1688FF7EA"
-				item: "sakuratinker:molten_soul_sakura_bucket"
+			id: "0A624967ED22FF48"
+			subtitle: "&6温度：2500℃  \\n&b燃料效率：1.6 \\n&d加热效率：25"
+			tasks: [{
+				id: "46E2434088458546"
+				item: "tinkersinnovation:lightning_bucket"
 				type: "item"
 			}]
-			subtitle: "3000℃"
-			tasks: [{
-				amount: 1000L
-				fluid: "sakuratinker:molten_soul_sakura"
-				id: "41C7138ACAD6A306"
-				type: "fluid"
-			}]
+			title: "闪电"
 			x: -2.5d
 			y: -1.0d
 		}
 		{
-			id: "05900AB115C676C7"
-			rewards: [{
-				id: "6123503C294B2EEF"
-				item: "tinkers_advanced:pyrotheum_bucket"
+			id: "27B939D5A236F27D"
+			subtitle: "&6温度：3000℃  \\n&b燃料效率：12 \\n&d加热效率：30"
+			tasks: [{
+				id: "3FE1D973D85C7C7F"
+				item: "sakuratinker:molten_soul_sakura_bucket"
 				type: "item"
 			}]
-			subtitle: "2500℃"
-			tasks: [{
-				amount: 1000L
-				fluid: "tinkers_advanced:pyrotheum"
-				id: "72692F099BC9AEE9"
-				type: "fluid"
-			}]
-			x: -1.5d
-			y: -1.0d
-		}
-		{
-			id: "7BFEFE52A2EA82D9"
-			rewards: [{
-				id: "5CC95911FA53C616"
-				item: "dreamtinker:molten_lupi_antimony_bucket"
-				type: "item"
-			}]
-			subtitle: "3600℃"
-			tasks: [{
-				amount: 1000L
-				fluid: "dreamtinker:molten_lupi_antimony"
-				id: "55CFD025C75E8A2B"
-				type: "fluid"
-			}]
+			title: "熔融魂樱"
 			x: -2.5d
 			y: 0.0d
 		}
 		{
-			id: "728CC264D6EA8C8F"
-			rewards: [{
-				id: "6D58D58EBF107E31"
-				item: "tinkers_advanced:gaseous_lava_bucket"
+			id: "05900AB115C676C7"
+			subtitle: "&6温度：3000℃  \\n&b燃料效率：50 \\n&d加热效率：30"
+			tasks: [{
+				id: "7BCBFAF9259F6ED9"
+				item: "tinkers_advanced:pyrotheum_bucket"
 				type: "item"
 			}]
-			subtitle: "4000℃"
+			title: "烈焰之炽炎"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "7BFEFE52A2EA82D9"
+			subtitle: "&6温度：3600℃  \\n&b燃料效率：7.2 \\n&d加热效率：36"
 			tasks: [{
-				amount: 1000L
-				fluid: "tinkers_advanced:gaseous_lava"
-				id: "2AE0E89CE0A17FED"
-				type: "fluid"
+				id: "6C113ADCD7C62E95"
+				item: "dreamtinker:molten_lupi_antimony_bucket"
+				type: "item"
 			}]
+			title: "熔融狼锑"
 			x: -2.5d
 			y: 1.0d
 		}
 		{
+			id: "728CC264D6EA8C8F"
+			subtitle: "&6温度：4000℃  \\n&b燃料效率：100 \\n&d加热效率：40"
+			tasks: [{
+				id: "3F9C9FE5273158C9"
+				item: "tinkers_advanced:gaseous_lava_bucket"
+				type: "item"
+			}]
+			title: "气态熔岩"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
 			id: "6E97AFF4BCC98C85"
-			rewards: [{
-				id: "69CA2820A5D889D1"
+			subtitle: "&6温度：4000℃  \\n&b燃料效率：8 \\n&d加热效率：38"
+			tasks: [{
+				id: "383E783E9B8CFB52"
 				item: "sakuratinker:molten_nihilite_bucket"
 				type: "item"
 			}]
-			subtitle: "4000℃"
-			tasks: [{
-				amount: 1000L
-				fluid: "sakuratinker:molten_nihilite"
-				id: "245571ABA110850D"
-				type: "fluid"
-			}]
-			x: -1.5d
-			y: 1.0d
-		}
-		{
-			id: "73D2F9F4E1E386D8"
-			rewards: [{
-				id: "0B1F8D2731AD5527"
-				item: "tinkers_advanced:plasmatic_lava_bucket"
-				type: "item"
-			}]
-			subtitle: "8000℃"
-			tasks: [{
-				amount: 1000L
-				fluid: "tinkers_advanced:plasmatic_lava"
-				id: "1E49FAFE471037D0"
-				type: "fluid"
-			}]
+			title: "熔融虚金"
 			x: -2.5d
 			y: 2.0d
 		}
 		{
-			description: ["由RF熔炉通电生成"]
+			id: "73D2F9F4E1E386D8"
+			subtitle: "&6温度：8000℃  \\n&b燃料效率：1000 \\n&d加热效率：80"
+			tasks: [{
+				id: "2C10621959125A7A"
+				item: "tinkers_advanced:plasmatic_lava_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			description: [""]
 			id: "503A0DD089BF650D"
-			subtitle: "10000℃"
+			subtitle: "&a由RF熔炉通电生成，\\n&a根据输入电力效率产生不同的燃料 \\n&6温度：10000℃  \\n&b燃料效率：3 \\n&d加热效率：100"
 			tasks: [
 				{
 					id: "453C5227E6F23166"
@@ -367,24 +250,169 @@
 			]
 			title: "全能级RF熔炉燃料"
 			x: -2.5d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			id: "389D1F93E49E6301"
-			rewards: [{
-				id: "1F89BADA08B07D67"
+			subtitle: "&6温度：32768℃  \\n&b燃料效率：5000 \\n&d加热效率：327"
+			tasks: [{
+				id: "3211B9ADC4071907"
 				item: "tinkers_advanced:molten_antimatter_bucket"
 				type: "item"
 			}]
-			subtitle: "32768℃"
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			id: "01C79D125DA182E3"
+			subtitle: "\\n&6温度：300℃  \\n&b燃料效率：3 \\n&d加热效率：4"
 			tasks: [{
-				amount: 1000L
-				fluid: "tinkers_advanced:molten_antimatter"
-				id: "7A58963E8FFFDCA5"
-				type: "fluid"
+				id: "5BCF2821442F5A1C"
+				item: "tinkers_delight:edible_oil_bucket"
+				type: "item"
+			}]
+			title: "食用油"
+			x: -2.5d
+			y: -9.0d
+		}
+		{
+			icon: "minecraft:coal"
+			id: "1F01C8F3925FD182"
+			subtitle: "&6温度：980℃  \\n&b燃料效率：10 \\n&d加热效率：10"
+			tasks: [{
+				id: "0B55B5899323019D"
+				item: {
+					Count: 1
+					id: "tconstruct:seared_fuel_gauge"
+					tag: {
+						tank: {
+							FluidName: "mushroom_concept:molten_coal"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "熔融煤"
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			id: "42C466F48F902D55"
+			subtitle: "&6温度：1000℃  \\n&b燃料效率：2 \\n&d加热效率：9"
+			tasks: [{
+				id: "05D7FA56973864CA"
+				item: "immersiveengineering:biodiesel_bucket"
+				type: "item"
+			}]
+			title: "生物柴油"
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			description: [""]
+			id: "1DF8E3E5E1FC3EFE"
+			subtitle: "&c左键单击目标再左键流体以查看流体的获取方式\\n&6温度&r&a：&r&9燃料的温度\\n&b燃料效率&r&a：&91mb燃料&a可持续燃烧的&9随机刻数（tik）&a，&6每tik为1/20秒\\n&d加热效率&r&a：燃料熔化矿物时的速度，基础值为10&r"
+			tasks: [{
+				id: "6443917E79658320"
+				title: "说明"
+				type: "checkmark"
 			}]
 			x: -2.5d
-			y: 4.0d
+			y: -10.0d
+		}
+		{
+			id: "2AF85AE62ED5D026"
+			subtitle: "&6温度：1000℃  \\n&b燃料效率：2 \\n&d加热效率：8"
+			tasks: [{
+				id: "7D98ED6A0456BC46"
+				item: "immersiveengineering:creosote_bucket"
+				type: "item"
+			}]
+			title: "杂酚油"
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			id: "5755953F51799B01"
+			subtitle: "&6温度：1000℃  \\n&b燃料效率：2 \\n&d加热效率：8"
+			tasks: [{
+				id: "24B650DB0118A9BD"
+				item: "thermal:creosote_bucket"
+				type: "item"
+			}]
+			title: "另一种杂酚油"
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			id: "5AC021FD161C9973"
+			subtitle: "&6温度：1200℃  \\n&b燃料效率：3.3 \\n&d加热效率：5"
+			tasks: [{
+				id: "53A6500A7D44BA91"
+				item: "thermal:crude_oil_bucket"
+				type: "item"
+			}]
+			title: "石油"
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			id: "4D96235C0E2F41DD"
+			subtitle: "&6温度：1200℃  \\n&b燃料效率：3.3 \\n&d加热效率：5"
+			tasks: [{
+				id: "667C049724534204"
+				item: "pneumaticcraft:oil_bucket"
+				type: "item"
+			}]
+			title: "原油"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "tconstruct:seared_ingot_gauge"
+				tag: {
+					tank: {
+						Amount: 4320
+						FluidName: "mushroom_concept:universal_blood"
+					}
+				}
+			}
+			id: "332A2E482D448E72"
+			subtitle: "&6温度：2000℃  \\n&b燃料效率：200 \\n&d加热效率：30"
+			tasks: [{
+				id: "1565A6CCB2EFD999"
+				item: {
+					Count: 1
+					id: "tconstruct:seared_ingot_gauge"
+					tag: {
+						tank: {
+							FluidName: "mushroom_concept:universal_blood"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "寰宇之血"
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			id: "3FD5CDE239DDA2FE"
+			subtitle: "&6温度：2000℃  \\n&b燃料效率：20 \\n&d加热效率：40"
+			tasks: [{
+				id: "12E746027756C973"
+				item: "tconstruct:fiery_liquid_bucket"
+				type: "item"
+			}]
+			title: "炽热的液体"
+			x: 1.5d
+			y: -3.0d
 		}
 	]
 	title: "◇&6燃料列表"

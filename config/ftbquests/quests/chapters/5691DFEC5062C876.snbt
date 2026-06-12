@@ -2479,25 +2479,36 @@
 			icon: "tconstruct:smeltery_controller"
 			id: "29266C1D3E8DB385"
 			rewards: [{
-				id: "78AABC143DDB88EC"
+				id: "2C9BC685DC14ECF2"
 				item: {
 					Count: 1
 					id: "sophisticatedstorage:shulker_box"
 					tag: {
 						BlockEntityTag: {
-							ForgeCaps: { }
+							ForgeCaps: {
+								"astages:owners": {
+									owner: [I;
+										-2094034348
+										1131430011
+										-1898624662
+										521106182
+									]
+								}
+							}
 							id: "sophisticatedstorage:shulker_box"
+							rms_owner: {
+								owner: [I;
+									-2094034348
+									1131430011
+									-1898624662
+									521106182
+								]
+							}
 							storageWrapper: {
 								accentColor: 16351261
 								contents: {
 									inventory: {
 										Items: [
-											{
-												Count: 1b
-												Slot: 0
-												id: "tconstruct:smeltery_controller"
-												realCount: 1
-											}
 											{
 												Count: 1b
 												Slot: 1
@@ -2553,6 +2564,12 @@
 												realCount: 3517
 											}
 											{
+												Count: -60b
+												Slot: 10
+												id: "tconstruct:seared_bricks"
+												realCount: 196
+											}
+											{
 												Count: 30b
 												Slot: 11
 												id: "tconstruct:seared_table"
@@ -2563,12 +2580,6 @@
 												Slot: 12
 												id: "tconstruct:seared_basin"
 												realCount: 30
-											}
-											{
-												Count: -60b
-												Slot: 10
-												id: "tconstruct:seared_bricks"
-												realCount: 196
 											}
 											{
 												Count: 1b
@@ -2593,9 +2604,15 @@
 												}
 											}
 											{
-												Count: 1b
+												Count: 2b
 												Slot: 16
 												id: "farmersdelight:black_canvas_sign"
+												realCount: 2
+											}
+											{
+												Count: 1b
+												Slot: 0
+												id: "wqjy:smeltery_controller"
 												realCount: 1
 											}
 										]
@@ -2641,7 +2658,6 @@
 						numberOfUpgradeSlots: 1
 					}
 				}
-				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -2828,14 +2844,31 @@
 			icon: "tconstruct:foundry_controller"
 			id: "214CD4F76F7D8D7A"
 			rewards: [{
-				id: "5DB6EC8DE31747BB"
+				id: "649B9588F38D4277"
 				item: {
 					Count: 1
 					id: "sophisticatedstorage:shulker_box"
 					tag: {
 						BlockEntityTag: {
-							ForgeCaps: { }
+							ForgeCaps: {
+								"astages:owners": {
+									owner: [I;
+										-2094034348
+										1131430011
+										-1898624662
+										521106182
+									]
+								}
+							}
 							id: "sophisticatedstorage:shulker_box"
+							rms_owner: {
+								owner: [I;
+									-2094034348
+									1131430011
+									-1898624662
+									521106182
+								]
+							}
 							storageWrapper: {
 								accentColor: 8991416
 								contents: {
@@ -2843,69 +2876,51 @@
 										Items: [
 											{
 												Count: 1b
-												Slot: 0
+												Slot: 1
 												id: "create:creative_fluid_tank"
 												realCount: 1
 											}
 											{
 												Count: 64b
-												Slot: 1
+												Slot: 2
 												id: "minecraft:lever"
 												realCount: 64
 											}
 											{
 												Count: 68b
-												Slot: 2
+												Slot: 3
 												id: "minecraft:hopper"
 												realCount: 68
 											}
 											{
-												Count: 64b
-												Slot: 4
-												id: "tconstruct:scorched_faucet"
-												realCount: 64
-											}
-											{
 												Count: 60b
-												Slot: 3
+												Slot: 4
 												id: "tconstruct:scorched_drain"
 												realCount: 60
 											}
 											{
 												Count: 1b
-												Slot: 5
+												Slot: 6
 												id: "tconstruct:scorched_fuel_tank"
 												realCount: 1
 											}
 											{
 												Count: -62b
-												Slot: 6
+												Slot: 7
 												id: "tconstruct:scorched_glass"
 												realCount: 3778
 											}
 											{
 												Count: 0b
-												Slot: 7
+												Slot: 8
 												id: "tconstruct:scorched_bricks"
 												realCount: 256
 											}
 											{
 												Count: 33b
-												Slot: 8
+												Slot: 9
 												id: "tconstruct:scorched_table"
 												realCount: 33
-											}
-											{
-												Count: 31b
-												Slot: 9
-												id: "tconstruct:scorched_basin"
-												realCount: 31
-											}
-											{
-												Count: 1b
-												Slot: 10
-												id: "tconstruct:foundry_controller"
-												realCount: 1
 											}
 											{
 												Count: 1b
@@ -2930,9 +2945,27 @@
 												}
 											}
 											{
-												Count: 1b
+												Count: 2b
 												Slot: 14
 												id: "farmersdelight:black_canvas_sign"
+												realCount: 2
+											}
+											{
+												Count: 64b
+												Slot: 5
+												id: "tconstruct:scorched_faucet"
+												realCount: 64
+											}
+											{
+												Count: 31b
+												Slot: 10
+												id: "tconstruct:scorched_basin"
+												realCount: 31
+											}
+											{
+												Count: 1b
+												Slot: 0
+												id: "wqjy:foundry_controller"
 												realCount: 1
 											}
 										]
@@ -2960,6 +2993,9 @@
 										id: "sophisticatedstorage:stack_upgrade_omega_tier"
 									}]
 								}
+								settings: {
+									global: { }
+								}
 								sortBy: "name"
 							}
 						}
@@ -2972,7 +3008,6 @@
 						numberOfUpgradeSlots: 1
 					}
 				}
-				team_reward: true
 				type: "item"
 			}]
 			tasks: [{

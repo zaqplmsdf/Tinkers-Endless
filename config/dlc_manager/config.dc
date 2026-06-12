@@ -11,11 +11,11 @@ datapackRoot = "datapacks"
 
 [ui]
 isEnableAllButtonShown = true
-isConfigButtonShown = true
+isConfigButtonShown = false
 isUButtomShown = true
 isUpdateManagerOn = true
-isSelfUpdateAutoCheckOn = true
-isPresetFuncOn = true
+isSelfUpdateAutoCheckOn = false
+isPresetFuncOn = false
 ShowOnFirstRun = false
 WaitingTime = 0
 serverSupport = true

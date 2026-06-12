@@ -105,7 +105,7 @@
 				""
 				"开局建议先搞到25个铜币合成1个金币换一个&e飞行戒指&r（对应当前版本堪称简单）"
 				""
-				"{ \"text\": \"点击跳转相关任务\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7A53AF1FE631EDB0\" } }"
+				"{ \"text\": \"点击跳转相关任务\", \"color\": \"green\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7A53AF1FE631EDB0\" } }"
 			]
 			id: "418A682BE565AEC3"
 			rewards: [
@@ -1845,6 +1845,7 @@
 			id: "4BF056D4FC527AA0"
 			rewards: [
 				{
+					auto: "enabled"
 					id: "2292B086679933EE"
 					item: {
 						Count: 1
@@ -1892,6 +1893,7 @@
 					type: "item"
 				}
 				{
+					auto: "enabled"
 					id: "0387F0A9CACCB78B"
 					item: {
 						Count: 1
@@ -2235,7 +2237,7 @@
 				""
 				"阶段任务位置："
 				""
-				"{ \"text\": \"点击跳转相关任务\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"002A8323600F86EC\" } }"
+				"{ \"text\": \"点击跳转相关任务\", \"color\": \"green\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"002A8323600F86EC\" } }"
 			]
 			icon: "sophisticatedbackpacks:advanced_magnet_upgrade"
 			id: "2C74727E098A23BF"

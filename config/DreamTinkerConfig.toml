@@ -13,9 +13,6 @@
 	#tnt arrow effect range
 	#Range: 0 ~ 100
 	TNTArrowRadius = 5
-	#Strong Explode Damage Boost
-	#Range: 1 ~ 1000
-	StrongExplodeDamageBoost = 10
 	#how many times use per level for tnt Arrow
 	#Range: 0 ~ 100
 	ContinuousExplodeTimes = 2
@@ -45,6 +42,12 @@
 	#Unit of Energy used per attack in Electric Mode, Need 10x value to consider Energy is enough to start And 0.5x value to cooldown the saw
 	#Range: 0 ~ 1000
 	ChainSawEnergyCost = 50
+	#Default number of ring slots given by silence glove. Need curios
+	#Range: 0 ~ 1000
+	SilenceGloveMaxRings = 6
+	#Still need Curios; Glove attack speed above this line would bring basic attack speed buff?
+	#Range: -10.0 ~ 10.0
+	SilenceGloveBaseLineAttackSpeed = 1.2
 
 ["Item Configuration"]
 	#MAX HP BOOST from star Regulus
@@ -52,7 +55,7 @@
 	StarRegulusMaxHP = 77
 
 ["Advancement Configuration"]
-	#Enable star regulus advancement effect
+	#Enable star Regulus advancement effect
 	StarRegulusAdvancement = true
 
 ["Effect Configuration"]
@@ -61,18 +64,12 @@
 	SilverNameBeeItemNum = 1
 
 ["LOOT Configuration"]
-	#Base chance to get Antimony drop from Ore
-	#Range: 0.0 ~ 10.0
-	AntimonyLootChance = 0.2
 	#how many times trying to dodge?
 	#Range: 0.0 ~ 1.0
 	voidPearlDropRate = 0.1
 	#how many damage this voidPearDeal?
 	#Range: 0.1 ~ 1000.0
 	voidPearlDamage = 2.0
-	#Base chance to get White Peach drop from birch
-	#Range: 0.0 ~ 10.0
-	WhitePeachLootChance = 0.2
 	#Base chance to get Soul Cast from love`s path
 	#Range: 0.0 ~ 1.0
 	SoulCastLoveLootChance = 0.1
@@ -115,12 +112,6 @@
 	#increase damage reducer from OuroboricHourglass
 	#Range: 0.0 ~ 1000.0
 	OuroboricHourglassMultiply = 2.0
-	#status boot everytime for ewige_widerkunft
-	#Range: 0.0 ~ 1.0
-	Prometheus = 0.13
-	#How many Spins can ewige_widerkunft do?
-	#Range: > 1
-	CentralFlame = 12
 	#Change to false if you think the red shade hurt your eyes, then Dark one would be instead
 	RedShadeEnable = true
 	#Allow Burn in Vain Modifier summon random Projectile when shooting
@@ -128,9 +119,7 @@
 	#Inaccuracy of Projectile sending from this Modifier
 	#Range: 0.0 ~ 1000.0
 	BurnInVainInAccuracy = 5.0
-	#
-	#Metallivorous Stibium Lupus: 
-	#Number of effective that applied on target; This is also the damage boost of The wolf answer(base on effects number)
+	#Number of effective that applied on target;
 	#Range: 0 ~ 100
 	TheWolfWonderEffectNum = 5
 	#Min time effective last in second
@@ -173,26 +162,12 @@
 	AsOneS = 0.33
 	#
 	#crying_obsidian: 
-	#Do you want more particles in Sharpened With?
-	#Range: 0 ~ 10000
-	CryingParticles = 1
-	#Damage boost of Sharpened With
-	#Range: 0.0 ~ 100.0
-	CryingDamageBoost = 0.16
 	#Torrance period for ISOLDE;also the least time allowed
 	#Range: 1 ~ 10
 	IsoLdeEaseTime = 3
 	#The seconds used to level up itself 
 	#Range: 1 ~ 1000000
 	RedTime = 1200
-	#
-	#etherium: 
-	#Can I dance?
-	#Range: 0.0 ~ 1.0
-	EnderDodgeChance = 0.1
-	#how many times trying to dodge?
-	#Range: 0 ~ 64
-	EnderDodgeTimes = 1
 	#Do you want fire in explode hit?
 	ExplodeHitFire = true
 	#Distance for ranged hit start positive
@@ -246,9 +221,6 @@
 	SpiritDefence = 3.0
 	#
 	#Amber: 
-	#Doge rate provided by Fragile But Bright per level
-	#Range: 0.0 ~ 100.0
-	FragileDodge = 0.03
 	#Max level for homunculus Life Curse Be effective. Affective Level is sum of all equipment slots
 	#Range: 1 ~ 64
 	homunculusLifeCurseMaxEffectLevel = 4
@@ -290,6 +262,19 @@
 	#The damage Reduce for the first four warnings
 	#Range: 0.0 ~ 1.0
 	FirthMark = 0.2
+	#
+	#Metallivorous Stibium Lupus: 
+	#Damage boost of the wolf was;
+	#Range: 0.0 ~ 100.0
+	TheWolfWasDevoter = 6.66
+	#
+	#etherium: 
+	#Base Explode Defense pay back damage
+	#Range: 0.0 ~ 100.0
+	BaseExplodeDefenseRate = 0.25
+	#Explode Defense pay back bonus per level
+	#Range: 0.0 ~ 100.0
+	ExplodeDefenseRatePerLevel = 0.12
 
 ["Transmute Configuration"]
 	#The default temperature provided by each heater block

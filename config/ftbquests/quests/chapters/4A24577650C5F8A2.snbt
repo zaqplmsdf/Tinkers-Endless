@@ -105,7 +105,7 @@
 				"机械动力里后期应力来源，在这个包里推荐购买创造马达作为应力来源，前中期风车和水车产出的应力足够了"
 				"其中熔岩，水，机械臂需要重新放置，置物台上需要放置铁桶具体看视频内容"
 				"这是来源链接："
-				"https://www.bilibili.com/video/BV1qGxjeFExT/?spm_id_from=333.337.search-card.all.click"
+				"{ \"text\": \"点击跳转相关链接\", \"color\": \"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://www.bilibili.com/video/BV1qGxjeFExT/?spm_id_from=333.337.search-card.all.click\" } }"
 				"{image:ftbquests:textures/picture/016.png width:100 height:100 align:center}"
 			]
 			id: "334F1816A80C64B5"
@@ -469,8 +469,8 @@
 				"机械动力里后期应力来源，在这个包里推荐购买创造马达作为应力来源，前中期风车和水车产出的应力足够了"
 				"其中熔岩，水，机械臂需要重新放置，置物台上需要放置铁桶具体看视频内容"
 				"这是来源链接："
-				"https://www.bilibili.com/video/BV1qGxjeFExT/?spm_id_from=333.337.search-card.all.click"
-				"{image:ftbquests:textures/picture/011.png width:100 height:100 align:center}"
+				"{ \"text\": \"点击跳转相关链接\", \"color\": \"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://www.bilibili.com/video/BV1qGxjeFExT/?spm_id_from=333.337.search-card.all.click\" } }"
+				"{image:ftbquests:textures/picture/016.png width:100 height:100 align:center}"
 			]
 			id: "7811439E463878E1"
 			rewards: [{
@@ -547,8 +547,8 @@
 			description: [
 				"9600铁锭每小时，前期可以当作小刷emc机，需要自行接入圆石输入和动力输入具体参考视频"
 				"：https://www.creativemechanicserver.com/detail/458"
-				"https://www.bilibili.com/video/BV16XdHYGEXn/?spm_id_from=333.337.search-card.all.click"
-				"（and符号）vd_source=6d33e64517f5f02a1404fdacd41006b7"
+				""
+				"{ \"text\": \"点击跳转相关链接\", \"color\": \"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://www.bilibili.com/video/BV16XdHYGEXn/?spm_id_from=333.337.search-card.all.click\" } }"
 				"{image:ftbquests:textures/picture/014.png width:100 height:100 align:center}"
 			]
 			id: "629BB569DCEE5571"
@@ -748,8 +748,10 @@
 			dependencies: ["2F7C4347B17EE489"]
 			description: [
 				"伪16gt鼓风机组，前期烧东西飞快，便宜又好用（有4种类别来烧）"
-				"https://www.creativemechanicserver.com/detail/307/"
-				"https://www.bilibili.com/video/BV1NfF3eAE6g/?spm_id_from=333.337.search-card.all.click（and）vd_source=6d33e64517f5f02a1404fdacd41006b7"
+				""
+				"{ \"text\": \"蓝图位置\", \"color\": \"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://www.creativemechanicserver.com/detail/307/\" } }"
+				"{ \"text\": \"视频位置\", \"color\": \"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://www.bilibili.com/video/BV1NfF3eAE6g/?spm_id_from=333.337.search-card.all.click\" } }"
+				""
 				"{image:ftbquests:textures/picture/015.png width:100 height:100 align:center}"
 			]
 			id: "686F5696BF2A2BC6"

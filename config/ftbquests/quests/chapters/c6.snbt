@@ -46,6 +46,193 @@
 			x: -0.5d
 			y: 1.0d
 		}
+		{
+			dependencies: ["013BC53875ACBC14"]
+			icon: {
+				Count: 1
+				id: "sakuratinker:blade_convergence"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"wqjy:the_end"
+						"wqjy:the_end"
+						"tconstruct:bone"
+						"wqjy:the_end"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "tinkers_advanced:supreme_density"
+						}
+						{
+							level: 3
+							name: "ticex:omnipotence"
+						}
+						{
+							level: 2
+							name: "tconstruct:energy_handler"
+						}
+						{
+							level: 3
+							name: "tconstruct:overslime"
+						}
+						{
+							level: 3
+							name: "mushroom_daydream:gobber_max"
+						}
+						{
+							level: 9
+							name: "sakuratinker:dragon_martyr"
+						}
+						{
+							level: 3
+							name: "tprt:the_dragon_power"
+						}
+						{
+							level: 3
+							name: "mushroom_daydream:future"
+						}
+						{
+							level: 3
+							name: "mushroom_daydream:materials_heart"
+						}
+						{
+							level: 3
+							name: "tinkerscalibration:subdue"
+						}
+						{
+							level: 3
+							name: "tinkersinnovation:omnipotent"
+						}
+						{
+							level: 3
+							name: "tinkerscalibration:dominate"
+						}
+						{
+							level: 3
+							name: "tprt:magic_sublimation"
+						}
+						{
+							level: 30
+							name: "tinkersinnovation:hostility"
+						}
+						{
+							level: 3
+							name: "tinkersinnovation:miracle"
+						}
+						{
+							level: 3
+							name: "tinkers_advanced:thermal_enhance"
+						}
+						{
+							level: 3
+							name: "tinkers_advanced:ionized"
+						}
+						{
+							level: 3
+							name: "sakuratinker:pain_resonance"
+						}
+						{
+							level: 3
+							name: "sakuratinker:infinitum"
+						}
+						{
+							level: 3
+							name: "sakuratinker:god_of_slime"
+						}
+						{
+							level: 3
+							name: "sakuratinker:fusion_burn"
+						}
+						{
+							level: 3
+							name: "sakuratinker:incomplete_transformation"
+						}
+						{
+							level: 3
+							name: "sakuratinker:super_luck"
+						}
+						{
+							level: 3
+							name: "sakuratinker:bedrock_breaker"
+						}
+						{
+							level: 1
+							name: "tconstruct:pierce"
+						}
+						{
+							level: 1
+							name: "sakuratinker:blade_convergence"
+						}
+						{
+							level: 3
+							name: "sakuratinker:natural_fit_upgrades"
+						}
+						{
+							level: 3
+							name: "sakuratinker:natural_fit_abilities"
+						}
+						{
+							level: 3
+							name: "tinkers_advanced:flux_infused"
+						}
+						{
+							level: 3
+							name: "tinkers_advanced:thermal_slash"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 1.5f
+						"tconstruct:durability": 2.0f
+					}
+					tic_persistent: {
+						"aether_tinker:heroic_spirit": 6
+						"momotinker:edible": 245.0f
+						"mushroom_concept:heroic_spirit": 6
+						"mushroom_daydream:flare": 6.0f
+						"tconstruct:overslime": 24400
+					}
+					tic_stats: {
+						"sakuratinker:range": 5.0f
+						"tconstruct:accuracy": 1.0f
+						"tconstruct:armor": 5.4254611E8f
+						"tconstruct:armor_toughness": 5.4254611E8f
+						"tconstruct:attack_damage": 1.49202416E14f
+						"tconstruct:attack_speed": 5.8784874E11f
+						"tconstruct:draw_speed": 5.3395579E10f
+						"tconstruct:durability": 1.98931577E14f
+						"tconstruct:harvest_tier": "sakuratinker:infinity"
+						"tconstruct:max_energy": 2.4E7f
+						"tconstruct:mining_speed": 1.08509225E11f
+						"tconstruct:overslime": 24400.0f
+						"tconstruct:projectile_damage": 9.0424352E7f
+						"tconstruct:velocity": 4.5212176E7f
+					}
+					tic_volatile_data: {
+						abilities: 391
+						hostilities: 30
+						omnipotent: 4
+						upgrades: 390
+					}
+				}
+			}
+			id: "41F248EB2CC5EB14"
+			rewards: [{
+				command: "/advancement grant @p everything"
+				elevate_perms: true
+				id: "7BA2907F28D9E160"
+				type: "command"
+			}]
+			subtitle: "会卡顿较长一段时间，本质是获得所有进度"
+			tasks: [{
+				id: "25176CD738E8801C"
+				title: "解放万剑归一真正的力量"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
 	]
 	title: "◇&c阶段6"
 }

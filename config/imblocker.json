@@ -6,12 +6,24 @@
       "net.minecraft.client.gui.screens.inventory.AbstractSignEditScreen",
       "org.embeddedt.embeddium.gui.EmbeddiumVideoOptionsScreen"
     ],
-    "enableScreenRecovering": true,
+    "enableScreenRecovering": false,
     "recoveredScreens": [
       "com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen",
       "twilightforest.client.UncraftingScreen",
       "net.minecraft.client.gui.screens.PauseScreen",
-      "net.minecraftforge.client.gui.ModListScreen"
+      "net.minecraftforge.client.gui.ModListScreen",
+      "net.minecraft.client.gui.screens.TitleScreen",
+      "net.minecraft.client.gui.screens.worldselection.SelectWorldScreen",
+      "net.minecraft.client.gui.screens.OptionsScreen",
+      "me.jellysquid.mods.sodium.client.gui.SodiumOptionsGUI",
+      "org.embeddedt.embeddium.gui.EmbeddiumVideoOptionsScreen",
+      "org.anti_ad.mc.ipnext.gui.ConfigScreen",
+      "one.pkg.kreno.shared.gui.KRenoConfigGUI",
+      "com.mrcrayfish.configured.client.screen.ModConfigSelectionScreen",
+      "com.mrcrayfish.configured.client.screen.ConfigScreen",
+      "com.mrcrayfish.configured.client.screen.EditListScreen",
+      "org.embeddedt.modernfix.screen.ModernFixConfigScreen",
+      "org.embeddedt.modernfix.screen.ModernFixOptionInfoScreen"
     ],
     "englishStateImpl": "CONVERSION_STATUS",
     "primaryEnglishState": "CJK"

@@ -1,4 +1,0 @@
-[DLC]
-  [mod:DLC|美化选项/TooManyTinkers-0.3.0.jar]
-    enabled = true
-    appliedTargets = ["mods\\TooManyTinkers-0.3.0.jar"]

@@ -1,0 +1,15 @@
+
+#This is client config!!!
+["UI Configuration"]
+	#Enable/disable shell heart render
+	shellHeartDisplayedEnable = true
+	#Extra heart rows reserved for other mods that do not update ForgeGui.leftHeight.
+	#Range: 0 ~ 10
+	shellHeartReservedRows = 0
+	#Manual X offset for shell hearts.
+	#Range: -200 ~ 200
+	shellHeartXOffset = 0
+	#Manual Y offset for shell hearts.
+	#Range: -200 ~ 200
+	shellHeartYOffset = 0
+

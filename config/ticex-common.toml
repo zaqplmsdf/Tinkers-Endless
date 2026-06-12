@@ -1,8 +1,5 @@
 
-#General
 [general]
-	#Using ticex-more-config.toml(If true, it will override your datapack!)
-	useMoreConfig = true
 	#MAX Rate Capacity(RF/t)
 	rateCapacity = 100000
 	#Fluid Transmuter valid tag prefix list
@@ -42,13 +39,11 @@
 	"SlashBlade Compat" = true
 	"Botania Compat" = true
 	"Curios API Compat" = true
-	Default = true
 	"TiCEX Original Materials and Modifiers" = true
 	"Apotheosis Compat" = true
 	"CC:Tweaked Compat" = true
 	"Iron's Spells n' Spellbooks Compat" = true
 	"Ars Nouveau Compat" = true
-	"JEI Compat" = true
 	"TaCz Compat" = true
 	"Draconic Evolution Compat" = true
 	"Create Compat" = true

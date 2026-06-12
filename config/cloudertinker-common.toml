@@ -67,3 +67,11 @@
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Savage tigermark round Explosion damage" = 0.25
 
+#Fiery melter
+#炽铁熔化炉
+[fiery_melter]
+	#Fiery melter temperature, 1500 by default.
+	#炽铁熔化炉温度。
+	#Range: > 1
+	FIERY_TEMPERATURE = 1500
+

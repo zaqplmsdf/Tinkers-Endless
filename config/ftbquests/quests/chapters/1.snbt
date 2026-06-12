@@ -3221,6 +3221,55 @@
 			x: 4.5d
 			y: -5.0d
 		}
+		{
+			description: ["{ \"text\": \"解锁方式位置\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E4C2E4F8BC24F22\" } } "]
+			icon: {
+				Count: 1
+				id: "sakuratinker:blade_convergence"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_display: 1b
+					tic_materials: [
+						"tconstruct:ui_render#head"
+						"tconstruct:ui_render#handle"
+						"tconstruct:ui_render#extra"
+						"tconstruct:ui_render#large"
+						"tconstruct:ui_render#extra_large"
+					]
+					tic_modifiers: [{
+						level: 1
+						name: "sakuratinker:blade_convergence"
+					}]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 1.5f
+						"tconstruct:durability": 2.0f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"sakuratinker:range": 1.0f
+						"tconstruct:attack_damage": 7.5f
+						"tconstruct:attack_speed": 2.0f
+						"tconstruct:durability": 4.0f
+						"tconstruct:mining_speed": 2.0f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			id: "7D2EC350CEFCE7ED"
+			shape: "diamond"
+			size: 1.7d
+			tasks: [{
+				id: "1C0CC121C63FE406"
+				title: "万剑归一"
+				type: "checkmark"
+			}]
+			x: 9.827380952380942d
+			y: 0.07142857142856229d
+		}
 	]
 	title: "◇&6阶段"
 }

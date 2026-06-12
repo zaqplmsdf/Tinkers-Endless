@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting_fuel",
+  "duration": 100,
+  "fluid": {
+    "amount": 30,
+    "fluid": "pneumaticcraft:oil"
+  },
+  "rate": 5,
+  "temperature": 1200
+}

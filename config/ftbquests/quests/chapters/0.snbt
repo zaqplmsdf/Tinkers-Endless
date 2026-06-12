@@ -356,7 +356,8 @@
 		{
 			dependencies: ["6EF4CF6672A35A83"]
 			description: [
-				""
+				"&c存在显示问题，不会显示部件产物，但可以正常制作"
+				"&r"
 				"制作&9非金属材料&r/&9软质材料&r部件的方块，右击可打开 GUI。"
 				""
 				"合成时使用的&e木板&r种类决定了制作出的&e部件制造台&r的&9腿部纹理种类&r。"
@@ -489,7 +490,7 @@
 			description: [
 				"&e工匠箱&r是一个拥有 &964 个储存格&r的箱子，可以放入&6任何物品&r。"
 				""
-				"&6所有物品在工匠箱内的最大堆叠上限均变为 16 个&r，最大堆叠上限若低于16则以原堆叠数为准，因此工匠箱毕竟适合用于&6存储最大堆叠数不超过16&r的物品。"
+				"&6所有物品在工匠箱内的最大堆叠上限均变为 16 个&r，最大堆叠上限若低于16则以原堆叠数为准，因此工匠箱比较适合用于&6存储最大堆叠数不超过16&r的物品。"
 				""
 				"&a可以通过和某种染料合成或和多种染料同时合成来染成不同的颜色。&r"
 			]
@@ -1459,6 +1460,34 @@
 			}]
 			x: -2.5d
 			y: -0.5d
+		}
+		{
+			description: [
+				"打开"
+				"{image:ftbquests:textures/picture/planner.png width:100 height:100 align:center}"
+			]
+			icon: "create:empty_schematic"
+			id: "370975C65E7D26AB"
+			rewards: [{
+				id: "5BA6F679BD7AED69"
+				item: {
+					Count: 1
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:sharpness"
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "40DBB50DA3C081B9"
+				title: "匠魂蓝图"
+				type: "checkmark"
+			}]
+			title: "&e&l&n匠魂蓝图"
+			x: -5.0d
+			y: -5.5d
 		}
 	]
 	title: "◇&7阶段0"

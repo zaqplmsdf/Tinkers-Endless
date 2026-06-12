@@ -1,6 +1,16 @@
 {
     "moze_intel.projecte.gameObjs.gui.GUITransmutation": {
-        "ignore": true
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 185,
+                "top": 173
+            },
+            "SETTINGS": {
+                "horizontalOffset": 185,
+                "top": 170
+            }
+        }
     },
     "mekanism.common.registration.impl.ContainerTypeDeferredRegister$ContainerBuilder$1": {
         "ignore": true
@@ -14,20 +24,55 @@
     "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
         "buttonHints": {
             "SHOW_EDITOR": {
-                "top": 230
+                "horizontalOffset": 201,
+                "top": 100
             },
             "SETTINGS": {
-                "top": 199
+                "horizontalOffset": 201,
+                "top": 97
+            },
+            "SORT": {
+                "horizontalOffset": -60,
+                "bottom": 38
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -48,
+                "bottom": 26
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -36,
+                "bottom": 14
             }
         }
     },
     "net.minecraft.client.gui.screens.inventory.ShulkerBoxScreen": {
         "buttonHints": {
             "SHOW_EDITOR": {
-                "top": 211
+                "horizontalOffset": 211,
+                "top": 154
             },
             "SETTINGS": {
-                "top": 210
+                "horizontalOffset": 211,
+                "top": 151
+            },
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -18
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": -18,
+                "top": 34
+            },
+            "SORT": {
+                "horizontalOffset": -54,
+                "top": -2
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -42,
+                "top": 10
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -30,
+                "top": 22
             }
         }
     },
@@ -38,20 +83,492 @@
         "buttonHints": {
             "MOVE_TO_CONTAINER": {
                 "horizontalOffset": -18,
-                "bottom": 23
+                "bottom": 20
             },
             "SORT": {
                 "horizontalOffset": -42,
-                "bottom": 73
+                "bottom": 68
             },
             "SORT_COLUMNS": {
                 "horizontalOffset": -30,
-                "bottom": 60
+                "bottom": 56
             },
             "SORT_ROWS": {
                 "horizontalOffset": -18,
-                "bottom": 47
+                "bottom": 44
+            },
+            "CONTINUOUS_CRAFTING": {
+                "horizontalOffset": 1
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 211,
+                "top": 86
+            },
+            "SETTINGS": {
+                "horizontalOffset": 211,
+                "top": 83
             }
         }
+    },
+    "net.p3pp3rf1y.sophisticatedstorage.client.gui.LimitedBarrelScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "top": 263
+            },
+            "SETTINGS": {
+                "top": 260
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.HopperScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -18,
+                "bottom": -49
+            },
+            "SORT": {
+                "horizontalOffset": -54,
+                "bottom": -13
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -42,
+                "bottom": -25
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -30,
+                "bottom": -37
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 211,
+                "top": 102
+            },
+            "SETTINGS": {
+                "horizontalOffset": 211,
+                "top": 99
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": -18,
+                "top": -2
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.CraftingScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -18,
+                "bottom": 68
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 211,
+                "top": 86
+            },
+            "SETTINGS": {
+                "horizontalOffset": 211,
+                "top": 83
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.StonecutterScreen": {
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -42,
+                "bottom": 68
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -30,
+                "bottom": 56
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -18,
+                "bottom": 44
+            },
+            "CONTINUOUS_CRAFTING": {
+                "horizontalOffset": 1,
+                "bottom": -3
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 211,
+                "top": 86
+            },
+            "SETTINGS": {
+                "horizontalOffset": 211,
+                "top": 83
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.CartographyTableScreen": {
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 211,
+                "top": 83
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 211,
+                "top": 86
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.SmithingScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 211,
+                "top": 86
+            },
+            "SETTINGS": {
+                "horizontalOffset": 211,
+                "top": 83
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.GrindstoneScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 211,
+                "top": 86
+            },
+            "SETTINGS": {
+                "horizontalOffset": 211,
+                "top": 83
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.LoomScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 211,
+                "top": 86
+            },
+            "SETTINGS": {
+                "horizontalOffset": 211,
+                "top": 83
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.FurnaceScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 211,
+                "top": 86
+            },
+            "SETTINGS": {
+                "horizontalOffset": 211,
+                "top": 83
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.SmokerScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 211,
+                "top": 86
+            },
+            "SETTINGS": {
+                "horizontalOffset": 211,
+                "top": 83
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.BlastFurnaceScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 211,
+                "top": 86
+            },
+            "SETTINGS": {
+                "horizontalOffset": 211,
+                "top": 83
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.AnvilScreen": {
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -42,
+                "bottom": 68
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -30,
+                "bottom": 56
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -18,
+                "bottom": 44
+            },
+            "CONTINUOUS_CRAFTING": {
+                "bottom": -11
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 211,
+                "top": 86
+            },
+            "SETTINGS": {
+                "horizontalOffset": 211,
+                "top": 83
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.EnchantmentScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 211,
+                "top": 86
+            },
+            "SETTINGS": {
+                "horizontalOffset": 211,
+                "top": 83
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.BrewingStandScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 211,
+                "top": 88
+            },
+            "SETTINGS": {
+                "horizontalOffset": 211,
+                "top": 85
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.BeaconScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 184,
+                "top": 59
+            },
+            "SETTINGS": {
+                "horizontalOffset": 184,
+                "top": 56
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.ContainerScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -18
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": -18,
+                "top": 34
+            },
+            "SORT": {
+                "horizontalOffset": -54,
+                "top": -2
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -42,
+                "top": 10
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -30,
+                "top": 22
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 211,
+                "top": 155
+            },
+            "SETTINGS": {
+                "horizontalOffset": 211,
+                "top": 152
+            }
+        }
+    },
+    "moze_intel.projecte.gameObjs.gui.AlchChestScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -19
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": -19,
+                "top": 36
+            },
+            "SORT": {
+                "horizontalOffset": -55
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -43,
+                "top": 12
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -31,
+                "top": 24
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 171,
+                "top": 186
+            },
+            "SETTINGS": {
+                "horizontalOffset": 171,
+                "top": 183
+            }
+        }
+    },
+    "moze_intel.projecte.gameObjs.gui.AbstractCondenserScreen$MK1": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -20
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": -20,
+                "top": 34
+            },
+            "SORT": {
+                "horizontalOffset": -56,
+                "top": -2
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -44,
+                "top": 10
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -32,
+                "top": 22
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 171,
+                "top": 187
+            },
+            "SETTINGS": {
+                "horizontalOffset": 171,
+                "top": 184
+            }
+        }
+    },
+    "moze_intel.projecte.gameObjs.gui.AbstractCondenserScreen$MK2": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -19
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": -19,
+                "top": 34
+            },
+            "SORT": {
+                "horizontalOffset": -55,
+                "top": -2
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -43,
+                "top": 10
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -31,
+                "top": 22
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 171,
+                "top": 187
+            },
+            "SETTINGS": {
+                "horizontalOffset": 171,
+                "top": 184
+            }
+        }
+    },
+    "moze_intel.projecte.gameObjs.gui.AbstractCollectorScreen$MK1": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -18
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": -18,
+                "top": 34
+            },
+            "SORT": {
+                "horizontalOffset": -54,
+                "top": -2
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -42,
+                "top": 10
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -30,
+                "top": 22
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 211,
+                "top": 154
+            },
+            "SETTINGS": {
+                "horizontalOffset": 211,
+                "top": 151
+            }
+        }
+    },
+    "moze_intel.projecte.gameObjs.gui.AbstractCollectorScreen$MK2": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -19
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": -19,
+                "top": 34
+            },
+            "SORT": {
+                "horizontalOffset": -55,
+                "top": -2
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -43,
+                "top": 10
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -31,
+                "top": 22
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 199,
+                "top": 153
+            },
+            "SETTINGS": {
+                "horizontalOffset": 199,
+                "top": 150
+            }
+        }
+    },
+    "moze_intel.projecte.gameObjs.gui.AbstractCollectorScreen$MK3": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -19
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": -19,
+                "top": 34
+            },
+            "SORT": {
+                "horizontalOffset": -55,
+                "top": -2
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -43,
+                "top": 10
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -31,
+                "top": 22
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 190,
+                "top": 153
+            },
+            "SETTINGS": {
+                "horizontalOffset": 190,
+                "top": 150
+            }
+        }
+    },
+    "io.redspace.ironsspellbooks.gui.inscription_table.InscriptionTableMenu": {
+        "ignore": true
+    },
+    "io.redspace.ironsspellbooks.gui.scroll_forge.ScrollForgeMenu": {
+        "ignore": true
+    },
+    "com.simibubi.create.content.schematics.table.SchematicTableMenu": {
+        "ignore": true
+    },
+    "fuzs.enchantinginfuser.world.inventory.InfuserMenu": {
+        "ignore": true
     }
 }

@@ -53,5 +53,7 @@
     "modifier.wqjy.evil_crystal.description": "攻击时获得力量效果",
     "modifier.wqjy.the_world": "世界",
     "modifier.wqjy.the_world.flavor": "砸瓦鲁多！",
-    "modifier.wqjy.the_world.description": "攻击附加禁锢、虚弱、挖掘疲劳"
+    "modifier.wqjy.the_world.description": "攻击附加禁锢、虚弱、挖掘疲劳",
+
+    "ali/loot_table/chests/legendary_tinkers_house": "工匠小屋箱子"
 }

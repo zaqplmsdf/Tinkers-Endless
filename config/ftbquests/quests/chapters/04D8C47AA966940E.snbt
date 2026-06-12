@@ -47,8 +47,7 @@
 			}
 			tic_volatile_data: {
 				abilities: 1
-				defense: 3
-				upgrades: 1
+				upgrades: 3
 			}
 		}
 	}

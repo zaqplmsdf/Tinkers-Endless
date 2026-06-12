@@ -14,8 +14,10 @@
                 "horizontalOffset": 27
             },
             "SHOW_EDITOR": {
-                "horizontalOffset": 28,
-                "top": -5
+                "top": 252
+            },
+            "SETTINGS": {
+                "top": 249
             }
         }
     },

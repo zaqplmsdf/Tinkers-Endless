@@ -72,6 +72,7 @@
 		}
 		{
 			dependencies: ["60583C8989E592F3"]
+			description: ["&c部件制作台存在显示问题，不会显示部件产物，但可以正常制作"]
 			id: "12B5A24A68554CCF"
 			rewards: [{
 				auto: "enabled"
@@ -294,31 +295,6 @@
 			id: "750A66096E3D9FB6"
 			rewards: [
 				{
-					id: "664AFFB7629F2841"
-					item: {
-						Count: 1
-						id: "create:schematic"
-						tag: {
-							Anchor: {
-								X: 0
-								Y: 0
-								Z: 0
-							}
-							Bounds: [
-								18
-								66
-								19
-							]
-							Deployed: 0b
-							File: "极限冶炼炉_.nbt"
-							Mirror: "NONE"
-							Owner: "The_X_One"
-							Rotation: "NONE"
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "795C4D89E4391E09"
 					item: {
 						Count: 1
@@ -465,6 +441,31 @@
 					}
 					type: "item"
 				}
+				{
+					id: "325B6288EFE34252"
+					item: {
+						Count: 1
+						id: "create:schematic"
+						tag: {
+							Anchor: {
+								X: 0
+								Y: 0
+								Z: 0
+							}
+							Bounds: [
+								18
+								66
+								19
+							]
+							Deployed: 0b
+							File: "极限冶炼炉.nbt"
+							Mirror: "NONE"
+							Owner: "The_X_One"
+							Rotation: "NONE"
+						}
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -592,31 +593,6 @@
 			description: ["&e熔铸炉&r可保留流体&9不合并&r为合金，且产生部分特有流体"]
 			id: "6CDC5DFDB1BCB034"
 			rewards: [
-				{
-					id: "04A75FF2A455B6CC"
-					item: {
-						Count: 1
-						id: "create:schematic"
-						tag: {
-							Anchor: {
-								X: 0
-								Y: 0
-								Z: 0
-							}
-							Bounds: [
-								18
-								66
-								19
-							]
-							Deployed: 0b
-							File: "极限熔铸炉.nbt"
-							Mirror: "NONE"
-							Owner: "The_X_One"
-							Rotation: "NONE"
-						}
-					}
-					type: "item"
-				}
 				{
 					id: "37DE37A5F8C4462C"
 					item: {
@@ -768,6 +744,31 @@
 							display: {
 								Name: "{\"italic\":false,\"translate\":\"create.materialChecklist\"}"
 							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68869FB05203C6B3"
+					item: {
+						Count: 1
+						id: "create:schematic"
+						tag: {
+							Anchor: {
+								X: 0
+								Y: 0
+								Z: 0
+							}
+							Bounds: [
+								18
+								66
+								19
+							]
+							Deployed: 0b
+							File: "极限熔铸炉.nbt"
+							Mirror: "NONE"
+							Owner: "The_X_One"
+							Rotation: "NONE"
 						}
 					}
 					type: "item"

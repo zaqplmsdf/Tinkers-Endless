@@ -1,0 +1,16 @@
+StartupEvents.registry('block', event => {
+  event.create('wqjy:smeltery_controller')
+    .displayName('§e冶炼炉包装方块')
+    .soundType('stone')
+    .hardness(5)
+    .resistance(1)
+    .requiresTool(false)
+})
+StartupEvents.registry('block', event => {
+  event.create('wqjy:foundry_controller')
+    .displayName('§e熔铸炉包装方块')
+    .soundType('stone')
+    .hardness(5)
+    .resistance(1)
+    .requiresTool(false)
+})

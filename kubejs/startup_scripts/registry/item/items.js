@@ -68,7 +68,6 @@ StartupEvents.registry('item', event => {
 
 //批量注册最终材料
 StartupEvents.registry('item', event => {
-    // 定义所有物品的配置项（数组形式，易扩展、易维护）
     const itemsConfig = [
         {
             id: 'wqjy:myth',

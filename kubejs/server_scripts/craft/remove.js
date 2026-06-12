@@ -38,7 +38,9 @@ ServerEvents.recipes(event => {
         {id: 'zenith:zenith'},
         {id: 'tinkersjewelry:tools/parts/builder/ender_pearl'},
         {id: 'tinkersjewelry:tools/parts/builder/hematite'},
-        {id: 'tinkersjewelry:tools/parts/builder/obsidian'}
+        {id: 'tinkersjewelry:tools/parts/builder/obsidian'},
+        {id: 'rough_blade:ming_li'},
+        {id: 'rough_blade:liu_ying'}
     ])
 });
 

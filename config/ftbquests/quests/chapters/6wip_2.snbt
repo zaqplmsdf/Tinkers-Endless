@@ -2147,7 +2147,7 @@
 					}
 					tic_volatile_data: {
 						abilities: 1
-						souls: 2
+						delusions: 2
 						"tconstruct:total_item_slots": 5
 						upgrades: 3
 					}
@@ -2204,7 +2204,7 @@
 						}
 						tic_volatile_data: {
 							abilities: 1
-							souls: 2
+							delusions: 2
 							"tconstruct:total_item_slots": 5
 							upgrades: 3
 						}

@@ -75,6 +75,10 @@
 		attackBonus = false
 		"disabled trigger modifier" = true
 
+	#万剑归一
+	["工具配置"."Blade Convergence Config"]
+		"can trigger modifier,default false" = false
+
 [drop]
 
 	#虚空珍珠掉落配置
@@ -191,4 +195,16 @@
 		#Softcap scale (bigger = slower)
 		#Range: 1.0 ~ 1000000.0
 		softcap_scale = 5000.0
+
+		#全知全能配置
+		[modifiers.soul_devourer."Omnipotence Config"]
+			#全知全能造成的最大伤害，默认Float.MAX,为false则是以当前武器攻击力为准
+			maxDamage = true
+
+["兼容配置"]
+
+	["兼容配置".modifier]
+		#Blacklist of modifiers (by ID) to skip in damage calculation
+		#Modifier黑名单
+		blacklist = ["cloudertinker:steelbone"]
 

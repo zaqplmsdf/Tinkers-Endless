@@ -1681,6 +1681,8 @@
 		}
 		{
 			can_repeat: false
+			description: ["&a制作&e天顶剑&a以解锁&e万剑归一&a使用权"]
+			hide_until_deps_complete: true
 			id: "2E4C2E4F8BC24F22"
 			rewards: [{
 				id: "77E8726F42505518"
@@ -2096,6 +2098,7 @@
 				"03FA631D240E88AA"
 			]
 			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "sakuratinker:blade_convergence"

@@ -16,3 +16,10 @@
 		#Range: 0.0 ~ 100.0
 		cosmicSpeedMultiplier = 1.0
 
+["Entity Render"]
+
+	["Entity Render"."BladeConvergence Render"]
+		#Enable All Materials Render
+		#允许完全随机的材料渲染
+		enableRandom = true
+
