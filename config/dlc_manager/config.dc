@@ -44,3 +44,4 @@ minSegmentMB = 1
 maxRetryCount = 5
 connectTimeoutSeconds = 10
 taskTimeoutSeconds = 180
+
