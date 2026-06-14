@@ -1462,12 +1462,14 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["03F8A9A82C2F2FCB"]
 			description: [
 				"打开"
 				"{image:ftbquests:textures/picture/planner.png width:100 height:100 align:center}"
 			]
 			icon: "create:empty_schematic"
 			id: "370975C65E7D26AB"
+			invisible: true
 			rewards: [{
 				id: "5BA6F679BD7AED69"
 				item: {
