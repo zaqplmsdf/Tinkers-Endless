@@ -51,7 +51,7 @@ tools:
   - projecte:rm_boots
   - projecte:watch_of_flowing_time
   - immersiveengineering:charging_.*
-  - dreamtinker:narcissus_wing
+  - avaritia:infinity_chest
 
 # The text will show on disabled tool's Tooltip
 # Support Translation Text

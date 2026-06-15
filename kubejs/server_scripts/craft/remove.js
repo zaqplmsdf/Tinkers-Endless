@@ -40,7 +40,8 @@ ServerEvents.recipes(event => {
         {id: 'tinkersjewelry:tools/parts/builder/hematite'},
         {id: 'tinkersjewelry:tools/parts/builder/obsidian'},
         {id: 'rough_blade:ming_li'},
-        {id: 'rough_blade:liu_ying'}
+        {id: 'rough_blade:liu_ying'},
+        {id: 'avaritia:infinity_chest'}
     ])
 });
 

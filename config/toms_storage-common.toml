@@ -10,5 +10,5 @@ multiblockInv = [""]
 #List of mod ids whose blocks is ignored by the inventory connector
 blockedMods = [""]
 #List of block ids ignored by the inventory connector
-blockedBlocks = [""]
+blockedBlocks = ["avaritia:infinity_chest"]
 

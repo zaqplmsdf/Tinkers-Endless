@@ -1,0 +1,1 @@
+BlockEvents.rightClicked('avaritia:infinity_chest', event => event.cancel())
