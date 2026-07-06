@@ -32,6 +32,8 @@
 			description: [
 				"一个简单的精英怪"
 				"探险家指南针搜索“&ebrass fungeon&r”"
+				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"brass fungeon\" }}"
 			]
 			id: "48E74E781746B8D3"
 			rewards: [{
@@ -53,6 +55,8 @@
 			description: [
 				"需要用镐子才能造成伤害"
 				"搜索“&e青铜地牢&r”"
+				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"青铜地牢\" }}"
 			]
 			icon: {
 				Count: 1
@@ -82,6 +86,8 @@
 				"地点“&e白银地牢&r”"
 				"挑战武神女王前需要先打女武神"
 				"凑齐十个奖牌"
+				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"白银地牢\" }}"
 			]
 			id: "33056E97C361FD7B"
 			rewards: [{
@@ -120,7 +126,11 @@
 			y: 3.0d
 		}
 		{
-			description: ["地点“&e黄金地牢&r”"]
+			description: [
+				"地点“&e黄金地牢&r”"
+				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"黄金地牢\" }}"
+			]
 			id: "3A4C90C37CF59DA6"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -139,7 +149,11 @@
 			y: 0.5d
 		}
 		{
-			description: ["搜索&ecloudy temple&r"]
+			description: [
+				"搜索&ecloudy temple&r"
+				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"cloudy temple\" }}"
+			]
 			id: "5AA5E5D95266D19A"
 			rewards: [{
 				exclude_from_claim_all: true

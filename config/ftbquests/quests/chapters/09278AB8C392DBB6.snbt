@@ -217,6 +217,7 @@
 			tasks: [{
 				entity: "minecraft:wither"
 				id: "193E394024BE0760"
+				title: "击杀：凋灵"
 				type: "kill"
 				value: 1L
 			}]
@@ -225,7 +226,11 @@
 		}
 		{
 			dependencies: ["65436E86A45F9052"]
-			description: ["搜索&eLava Eater Spawn&r"]
+			description: [
+				"搜索&eLava Eater Spawn&r"
+				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"Lava Eater Spawn\" }}"
+			]
 			id: "7C63275E6691E35A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -245,7 +250,11 @@
 		}
 		{
 			dependencies: ["65436E86A45F9052"]
-			description: ["搜索&eSkeletosaurus Nest&r"]
+			description: [
+				"搜索&eSkeletosaurus Nest&r"
+				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"Skeletosaurus Nest\" }}"
+			]
 			id: "2447B449DDBD74BA"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -291,7 +300,11 @@
 		}
 		{
 			dependencies: ["65436E86A45F9052"]
-			description: ["搜索&eBurning Arena&r"]
+			description: [
+				"搜索&eBurning Arena&r"
+				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"Burning Arena\" }}"
+			]
 			id: "4B79D32F86ACF6E8"
 			rewards: [{
 				count: 10
@@ -366,7 +379,11 @@
 		}
 		{
 			dependencies: ["65436E86A45F9052"]
-			description: ["搜索&eSoul black Smith&r"]
+			description: [
+				"搜索&eSoul black Smith&r"
+				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"Soul black Smith\" }}"
+			]
 			id: "0EF37AD3F36D7AF2"
 			tasks: [{
 				id: "4BC22DEC8050EFC2"
@@ -870,6 +887,8 @@
 				"搜索&ecitadel&r"
 				""
 				"使用&e寻魂烬灯&r右键&e炽魂符文&r召唤"
+				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"citadel\" }}"
 			]
 			id: "1FBF5569F48474F9"
 			tasks: [{

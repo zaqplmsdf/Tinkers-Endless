@@ -23,12 +23,12 @@
 			y: -3.0d
 		}
 		{
-			height: 10.5d
+			height: 12.0d
 			image: "minecraft:block/gold_block"
 			rotation: 0.0d
 			width: 12.0d
 			x: 2.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			height: 18.0d
@@ -36,23 +36,23 @@
 			rotation: 0.0d
 			width: 12.0d
 			x: 2.0d
-			y: 17.0d
+			y: 18.0d
 		}
 		{
-			height: 18.8d
+			height: 20.0d
 			image: "botania:block/terrasteel_block"
 			rotation: 0.0d
 			width: 12.0d
 			x: 12.5d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
-			height: 10.0d
+			height: 11.0d
 			image: "avaritia:block/resource/infinity"
 			rotation: 0.0d
 			width: 12.0d
 			x: 12.5d
-			y: 13.5d
+			y: 14.0d
 		}
 		{
 			height: 1.5d
@@ -60,7 +60,7 @@
 			rotation: 0.0d
 			width: 12.0d
 			x: 12.5d
-			y: 19.0d
+			y: 20.0d
 		}
 		{
 			height: 2.5d
@@ -68,7 +68,7 @@
 			rotation: 0.0d
 			width: 12.0d
 			x: 12.5d
-			y: 21.0d
+			y: 22.0d
 		}
 		{
 			height: 1.2d
@@ -76,7 +76,7 @@
 			rotation: 0.0d
 			width: 12.0d
 			x: 12.5d
-			y: 23.0d
+			y: 24.0d
 		}
 	]
 	order_index: 7
@@ -114,7 +114,7 @@
 				type: "checkmark"
 			}]
 			x: -2.5d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			icon: "tconstruct:fantastic_foundry"
@@ -125,7 +125,7 @@
 				type: "checkmark"
 			}]
 			x: 8.0d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
 			icon: "tconstruct:encyclopedia"
@@ -148,7 +148,7 @@
 				type: "checkmark"
 			}]
 			x: 8.0d
-			y: 19.0d
+			y: 20.0d
 		}
 		{
 			icon: {
@@ -191,6 +191,7 @@
 			y: -6.5d
 		}
 		{
+			description: ["你懂的，没有它你什么都做不了。"]
 			id: "53ECA6FF97F8AEE0"
 			tasks: [{
 				id: "7AE480B271A6455E"
@@ -209,6 +210,7 @@
 			y: -6.5d
 		}
 		{
+			description: ["皮革的柔韧性会让以它为材料的物品更加耐用，且不会因意外严重损坏。"]
 			id: "1B72853C67C1B3A8"
 			tasks: [{
 				id: "34F75936BD20F606"
@@ -227,6 +229,7 @@
 			y: -6.5d
 		}
 		{
+			description: ["用线作为材料可以使工具用线进行修复。"]
 			id: "2F4B55617FE92C74"
 			tasks: [{
 				id: "187D2A9E6A10687C"
@@ -237,6 +240,7 @@
 			y: -6.5d
 		}
 		{
+			description: ["击败敌人时有概率获得拐杖糖。"]
 			id: "709CAEC897AFEB61"
 			tasks: [{
 				id: "486FC131CB3D9428"
@@ -247,6 +251,7 @@
 			y: -5.0d
 		}
 		{
+			description: ["快捷栏中的天境材料会增加伤害。"]
 			id: "0F328127D0682DAD"
 			tasks: [{
 				id: "333DE7310887DD4E"
@@ -265,6 +270,7 @@
 			y: -5.0d
 		}
 		{
+			description: ["有着皮革特性的同时会使工具更耐用。"]
 			id: "385DA0645EC37EB2"
 			tasks: [{
 				id: "328170816395E96D"
@@ -275,6 +281,7 @@
 			y: -5.0d
 		}
 		{
+			description: ["耐久值越低，伤害越低，挖掘速度越高。"]
 			id: "37B1C4CD524989B4"
 			tasks: [{
 				id: "1760BE221F7406E7"
@@ -293,6 +300,7 @@
 			y: -5.0d
 		}
 		{
+			description: ["在阳光下会更耐用，且在空中会增强弹射物和挖掘速度。"]
 			id: "0610CC9590E8F472"
 			tasks: [{
 				id: "0939DFD3DA7384D1"
@@ -303,6 +311,7 @@
 			y: -5.0d
 		}
 		{
+			description: ["作为盔甲会使末影人对你保持观望态度，作为武器会增加伤害。"]
 			id: "7F9B8939C981AF17"
 			tasks: [{
 				id: "1AD7AEE4914861CA"
@@ -313,6 +322,7 @@
 			y: -5.0d
 		}
 		{
+			description: ["十分的有阅历，并且自带肢解特效。"]
 			id: "3FC7E79293DE6992"
 			tasks: [{
 				id: "38F7338600DA6CAF"
@@ -323,6 +333,7 @@
 			y: -5.0d
 		}
 		{
+			description: ["使用时会扎手，无论是你还是别人。"]
 			id: "2935E5ED6E90D575"
 			tasks: [{
 				id: "1683F6E9D46561C3"
@@ -333,6 +344,7 @@
 			y: -5.0d
 		}
 		{
+			description: ["会对不免疫火焰的生物造成额外伤害。"]
 			id: "363420C3C21CED24"
 			tasks: [{
 				id: "55656D2B025D354E"
@@ -343,6 +355,7 @@
 			y: -5.0d
 		}
 		{
+			description: ["挥动会发出弹幕。"]
 			id: "5D75D9210BF160A7"
 			tasks: [{
 				id: "70658F1C0B21B45C"
@@ -353,6 +366,7 @@
 			y: -4.0d
 		}
 		{
+			description: ["精准采集。"]
 			id: "5C666DFD41083FD6"
 			tasks: [{
 				id: "50491ADD83A07565"
@@ -363,6 +377,7 @@
 			y: -4.0d
 		}
 		{
+			description: ["让工具变成化肥！"]
 			id: "19D461FB21A86369"
 			tasks: [{
 				id: "0FD79D847BC0D179"
@@ -373,6 +388,10 @@
 			y: -4.0d
 		}
 		{
+			description: [
+				"作为暮色的材料，在暮色使用和其他维度使用会有不同的加成。"
+				"使用时会冰冻敌人。"
+			]
 			id: "1A94BD7995322429"
 			tasks: [{
 				id: "6DD324863AD87AA1"
@@ -383,6 +402,10 @@
 			y: -4.0d
 		}
 		{
+			description: [
+				"作为暮色的材料，在暮色使用和其他维度使用会有不同的加成。"
+				"在血量低于50%时，盔甲和工具会增加迅捷药水的效果或挖掘速度。"
+			]
 			id: "2B04792E456DDD91"
 			tasks: [{
 				id: "5B12D5559562F83B"
@@ -393,6 +416,11 @@
 			y: -4.0d
 		}
 		{
+			description: [
+				"作为暮色的材料，在暮色使用和其他维度使用会有不同的加成。"
+				"提升你的拉弓速度，并使被击中的生物发光。"
+				"但会让你的运气下降。"
+			]
 			id: "061F09A141BFB4FA"
 			tasks: [{
 				id: "04FE0D42F329F53B"
@@ -403,6 +431,7 @@
 			y: -4.0d
 		}
 		{
+			description: ["让工具可以吃，使用时有概率召唤老鼠，但减少耐久。"]
 			id: "3950B9F5D484309E"
 			tasks: [{
 				id: "4AFB8AF03418F5C6"
@@ -413,6 +442,7 @@
 			y: -4.0d
 		}
 		{
+			description: ["拥有十分强大的击退能力。"]
 			id: "46589204C2B5CC41"
 			tasks: [{
 				id: "6C2467878D310D3B"
@@ -423,6 +453,7 @@
 			y: -4.0d
 		}
 		{
+			description: ["额外造成中毒伤害并施加中毒。"]
 			id: "31B8D5FB58AD5B0A"
 			tasks: [{
 				id: "4C2134B619B9AD9E"
@@ -433,6 +464,7 @@
 			y: -4.0d
 		}
 		{
+			description: ["减免来自节肢动物的伤害。"]
 			id: "6C8915A49AC090B7"
 			tasks: [{
 				id: "442F19B8795C1D1C"
@@ -443,6 +475,7 @@
 			y: -3.0d
 		}
 		{
+			description: ["增加更多防御槽。"]
 			id: "1D6BBBF83A2F69DC"
 			tasks: [{
 				id: "2AFBCE9612D7D602"
@@ -453,6 +486,10 @@
 			y: -3.0d
 		}
 		{
+			description: [
+				"作为护甲会额外增加护甲值。"
+				"作为武器会无视部分护甲。"
+			]
 			id: "6A52DAFD90806532"
 			tasks: [{
 				id: "210D3BB97B525E71"
@@ -463,6 +500,7 @@
 			y: -3.0d
 		}
 		{
+			description: ["点到为止。"]
 			id: "6825505685D10B36"
 			tasks: [{
 				id: "197378261B2A9443"
@@ -473,6 +511,7 @@
 			y: -3.0d
 		}
 		{
+			description: ["和石头相反。"]
 			id: "7634D16C34B41D6F"
 			tasks: [{
 				id: "6EA13DD75DD3BA8D"
@@ -483,6 +522,7 @@
 			y: -3.0d
 		}
 		{
+			description: ["先生，你不能瞬移，除非我让你瞬移。"]
 			id: "5092985A30DF14CE"
 			tasks: [{
 				id: "0CD14ADAC3D5738C"
@@ -493,6 +533,7 @@
 			y: -3.0d
 		}
 		{
+			description: ["击杀时有概率掉落糖豆。"]
 			id: "0F711F38E02D19B7"
 			tasks: [{
 				id: "2B9DE51DEC952126"
@@ -503,6 +544,7 @@
 			y: -3.0d
 		}
 		{
+			description: ["减小移动速度减益的效果。"]
 			id: "0C021AD12F86EEF6"
 			tasks: [{
 				id: "110A47A2A576F6D0"
@@ -513,6 +555,10 @@
 			y: -3.0d
 		}
 		{
+			description: [
+				"伤害降低，但额外造成7钟伤害。"
+				"&d此伤害无来源，谨慎使用。&r"
+			]
 			id: "10C65255E4377359"
 			tasks: [{
 				id: "377C62250AD47596"
@@ -523,6 +569,7 @@
 			y: -3.0d
 		}
 		{
+			description: ["会带来更多升级槽，并可用纸修复，但耐久减少。"]
 			id: "56F4F9AECFC91732"
 			tasks: [{
 				id: "5BEE4A6833EB4652"
@@ -533,6 +580,7 @@
 			y: -2.0d
 		}
 		{
+			description: ["太阳下更耐用。"]
 			id: "086EC60152FEB412"
 			tasks: [{
 				id: "04E27CF4D055B1B7"
@@ -543,6 +591,7 @@
 			y: -2.0d
 		}
 		{
+			description: ["同仙人掌。"]
 			id: "3DBAD646B924FA11"
 			tasks: [{
 				id: "5F0E126E7858F2E2"
@@ -553,6 +602,7 @@
 			y: -2.0d
 		}
 		{
+			description: ["太阳下更耐用。"]
 			id: "7298E2D7491BFA35"
 			tasks: [{
 				id: "4056DC7D19C157F1"
@@ -563,6 +613,7 @@
 			y: -2.0d
 		}
 		{
+			description: ["全力打击更强，耐久满最强。"]
 			id: "3649AF389EF3BFFC"
 			tasks: [{
 				id: "5BFEA27CBA7F7971"
@@ -573,6 +624,7 @@
 			y: -2.0d
 		}
 		{
+			description: ["性能会随深度增加而增强。"]
 			id: "70E968744CA48FA6"
 			tasks: [{
 				id: "461679809DCBF42D"
@@ -583,6 +635,7 @@
 			y: -2.0d
 		}
 		{
+			description: ["同石头。"]
 			id: "52E9DCE2F24B817D"
 			tasks: [{
 				id: "298A1C1AD27CBBCA"
@@ -593,6 +646,7 @@
 			y: -2.0d
 		}
 		{
+			description: ["同木头。"]
 			id: "1CD6EAF33ACCE06E"
 			tasks: [{
 				id: "506BE4B29EBD1781"
@@ -611,6 +665,7 @@
 			y: -2.0d
 		}
 		{
+			description: ["工具不匹配时挖掘速度更快，同时是骨头。"]
 			id: "46564BCD22090EC0"
 			tasks: [{
 				id: "28BB5C890050CA2F"
@@ -621,6 +676,7 @@
 			y: -2.0d
 		}
 		{
+			description: ["作为盔甲会增强法力值和法强。"]
 			id: "5D2D5BC6024565CF"
 			tasks: [{
 				id: "5961B132CD011A2B"
@@ -631,6 +687,7 @@
 			y: -1.0d
 		}
 		{
+			description: ["使用时概率掉落活化水晶碎片。"]
 			id: "68DF7DAB63170B9C"
 			tasks: [{
 				id: "58E5E2C2FBF96111"
@@ -641,6 +698,7 @@
 			y: 0.5d
 		}
 		{
+			description: ["黏液覆层会增强工具属性。"]
 			id: "704C8A930D430A33"
 			tasks: [{
 				id: "344D917533608E4E"
@@ -651,6 +709,10 @@
 			y: 0.5d
 		}
 		{
+			description: [
+				"作为盔甲拥有爆炸和弹射物抗性。"
+				"作为工具耐久更多，会吸引物品，但更难修复。"
+			]
 			id: "47ED54CFD8010E5C"
 			tasks: [{
 				id: "3F3B209E0DBB34F3"
@@ -661,6 +723,7 @@
 			y: 0.5d
 		}
 		{
+			description: ["我一刀剁了______的（被屏蔽）。"]
 			id: "58586B30E0C7B4AC"
 			tasks: [{
 				id: "6165250A6A55AF00"
@@ -671,6 +734,11 @@
 			y: 0.5d
 		}
 		{
+			description: [
+				"这是巫妖的材料。"
+				"作为护甲拥有吸取攻击者生命的功能。"
+				"作为武器拥有暴击吸血和主动掉血加强自己的效果。"
+			]
 			id: "5A5FEAEAEAB628B7"
 			tasks: [{
 				id: "764262AB94D75E50"
@@ -681,6 +749,7 @@
 			y: 0.5d
 		}
 		{
+			description: ["拥有吸血效果。"]
 			id: "1B15311EF809318A"
 			tasks: [{
 				id: "060DB1D887D1F31F"
@@ -691,6 +760,7 @@
 			y: 0.5d
 		}
 		{
+			description: ["生物群系越热越厉害，反之越弱。"]
 			id: "2D13BA4A3E74C90D"
 			tasks: [{
 				id: "4C14A137E5C0363C"
@@ -701,6 +771,7 @@
 			y: 0.5d
 		}
 		{
+			description: ["使用会变成妖怪。"]
 			id: "568E28592D9A3D89"
 			tasks: [{
 				id: "7055F7F65C29B4DF"
@@ -711,6 +782,7 @@
 			y: 0.5d
 		}
 		{
+			description: ["耐久较多的材料。"]
 			id: "0B51C68B4A2A6477"
 			tasks: [{
 				id: "3FAD89C6DF3014BC"
@@ -721,6 +793,10 @@
 			y: 0.5d
 		}
 		{
+			description: [
+				"作为近战武器会熔炼目标和掉落物，光照下更强，寒冷时会增加挖掘速度。"
+				"作为远程武器会额外造成虚空伤害，并把负面效果转移，但可能会伤害自己。"
+			]
 			id: "12E2DE0524780D07"
 			tasks: [{
 				id: "0D69ECC04E59C0AC"
@@ -731,6 +807,7 @@
 			y: 1.5d
 		}
 		{
+			description: ["会取消击退。"]
 			id: "30A5CA954725AE56"
 			tasks: [{
 				id: "5B3DC7B718E2AA3A"
@@ -741,6 +818,7 @@
 			y: 1.5d
 		}
 		{
+			description: ["汲取灵魂。"]
 			id: "77E1656B9561C178"
 			tasks: [{
 				id: "11062DE8C8045188"
@@ -751,6 +829,7 @@
 			y: 1.5d
 		}
 		{
+			description: ["消耗耐久时有概率恢复饥饿度和饱和度。"]
 			id: "7E2C2061FF9CCFB8"
 			tasks: [{
 				id: "71E56B25D72FDE76"
@@ -761,6 +840,7 @@
 			y: 1.5d
 		}
 		{
+			description: ["对火特攻的材料。"]
 			id: "0C86B7AB5F259B10"
 			tasks: [{
 				id: "559B7A707A2BCF2C"
@@ -771,6 +851,10 @@
 			y: 1.5d
 		}
 		{
+			description: [
+				"作为盔甲拥有火焰保护。"
+				"挖掘可熔炼材料时会更快。"
+			]
 			id: "01DABAD81C484638"
 			tasks: [{
 				id: "419BC0312CD9B4DD"
@@ -781,6 +865,7 @@
 			y: 1.5d
 		}
 		{
+			description: ["大幅增加伤害，但减少能力槽。"]
 			id: "574F0FBFA78AD372"
 			tasks: [{
 				id: "7415B88E472B4422"
@@ -791,6 +876,7 @@
 			y: 1.5d
 		}
 		{
+			description: ["易碎。"]
 			id: "0F94B0F43D569BD9"
 			tasks: [{
 				id: "120A590DBB4DAA2B"
@@ -801,6 +887,7 @@
 			y: 1.5d
 		}
 		{
+			description: ["将经验转化为能量，可减少耐久损耗并传送攻击目标。"]
 			id: "61A361E898534DFE"
 			tasks: [{
 				id: "3B8AE726B97ACCA9"
@@ -811,6 +898,10 @@
 			y: 1.5d
 		}
 		{
+			description: [
+				"作为盔甲时可减少受到的伤害。"
+				"作为武器时可累计时计增加伤害。"
+			]
 			id: "5A25A99B57C1DA2E"
 			tasks: [{
 				id: "34986D9198EB620E"
@@ -821,6 +912,10 @@
 			y: 2.5d
 		}
 		{
+			description: [
+				"增加法力值、法力恢复和法术抗性。"
+				"同时是皮革。"
+			]
 			id: "0DD617366C88FB0A"
 			tasks: [{
 				id: "106406E0D2A1A984"
@@ -831,6 +926,11 @@
 			y: 2.5d
 		}
 		{
+			description: [
+				"作为暮色的材料，在暮色使用和其他维度使用会有不同的加成。"
+				"挖掘石头时加速，会将攻击的生物拉向自己。"
+				"同时是铁锭。"
+			]
 			id: "5EE402F543FD8504"
 			tasks: [{
 				id: "56AA0EA0F5863B73"
@@ -841,6 +941,10 @@
 			y: 2.5d
 		}
 		{
+			description: [
+				"作为盔甲时会使攻击者短时间受到的魔法伤害增加。"
+				"作为武器，中毒会使武器更强。"
+			]
 			id: "65404D69399E3746"
 			tasks: [{
 				id: "61E7896DC330212F"
@@ -851,6 +955,10 @@
 			y: 2.5d
 		}
 		{
+			description: [
+				"用作箭头会传送自身。"
+				"宝石会阻止目标瞬移。"
+			]
 			id: "54D59ADBBCE6F78C"
 			tasks: [{
 				id: "34D9DF4BEECD2928"
@@ -861,6 +969,10 @@
 			y: 2.5d
 		}
 		{
+			description: [
+				"用作工具会累计石盾，减免耐久损耗。"
+				"宝石会施加抗性提升（有上限）。"
+			]
 			id: "1EED5AC1BC33B199"
 			tasks: [{
 				id: "1596604436667EDD"
@@ -871,6 +983,10 @@
 			y: 2.5d
 		}
 		{
+			description: [
+				"作为盔甲时越高越强，少量减少重力。"
+				"作为武器时会施加漂浮效果，目标位置越高越强。"
+			]
 			id: "43BF7A395180099C"
 			tasks: [{
 				id: "29717B9198703CF5"
@@ -881,6 +997,7 @@
 			y: 2.5d
 		}
 		{
+			description: ["暂时和远古兽皮没有区别。"]
 			id: "1E4A65F723420E70"
 			tasks: [{
 				id: "2585EFA1673B7365"
@@ -891,6 +1008,7 @@
 			y: 2.5d
 		}
 		{
+			description: ["对亡灵有额外的伤害，使用时会获得饱和。"]
 			id: "2F48DB7A69747405"
 			tasks: [{
 				id: "631B2E7FFF286335"
@@ -901,6 +1019,7 @@
 			y: 2.5d
 		}
 		{
+			description: ["连续使用会有强力的击退效果，但降低使用者速度。"]
 			id: "2D1D5260E924D5DC"
 			tasks: [{
 				id: "5815696AD79C7F0D"
@@ -911,6 +1030,7 @@
 			y: 3.5d
 		}
 		{
+			description: ["受击累计怨念，消耗怨念造成更多的伤害。"]
 			id: "02E14152DF59D754"
 			tasks: [{
 				id: "031E1C6061F8DEFB"
@@ -921,6 +1041,10 @@
 			y: 3.5d
 		}
 		{
+			description: [
+				"这是巫妖的材料。"
+				"会对目标造成凋灵伤害并施加缓慢虚弱。"
+			]
 			id: "5C7244A0BB52BED6"
 			tasks: [{
 				id: "2D9F4CFDA2DF1117"
@@ -931,6 +1055,10 @@
 			y: 3.5d
 		}
 		{
+			description: [
+				"每次受伤会增加伤害，死亡时重置。"
+				"作为武器，偷袭更强。"
+			]
 			id: "0C1B759B995A8B65"
 			tasks: [{
 				id: "4803FE905192C685"
@@ -941,6 +1069,10 @@
 			y: 3.5d
 		}
 		{
+			description: [
+				"作为盔甲时可看见周围的矿石。"
+				"作为武器时会施加缓慢。"
+			]
 			id: "0379EB6852F958FF"
 			tasks: [{
 				id: "637249E4066FFBF6"
@@ -951,6 +1083,7 @@
 			y: 3.5d
 		}
 		{
+			description: ["不在主手会施加寒气。攻击有几率消耗寒气造成额外的霜冻伤害并施加缓慢。"]
 			id: "7E7B053DC50B9BEF"
 			tasks: [{
 				id: "38E0F84A63A394B3"
@@ -961,6 +1094,10 @@
 			y: 3.5d
 		}
 		{
+			description: [
+				"作为盔甲时和亡灵生物保持中立。"
+				"作为武器时会吓跑敌人。"
+			]
 			id: "63B18A19D21AE44B"
 			tasks: [{
 				id: "529BAB25CDE1DC9F"
@@ -971,6 +1108,10 @@
 			y: 3.5d
 		}
 		{
+			description: [
+				"作为盔甲时减免来自下界生物的伤害。"
+				"作为武器时在下界更强。"
+			]
 			id: "3B981095B1C1394E"
 			tasks: [{
 				id: "4D5F8D1BF96036A3"
@@ -981,6 +1122,10 @@
 			y: 3.5d
 		}
 		{
+			description: [
+				"作为盔甲时吸收3%的伤害并加一颗黄心。"
+				"作为武器时会根据耐久造成额外法术伤害。"
+			]
 			id: "094D015C2E75AEA4"
 			tasks: [{
 				id: "56A32AFDB1A1863B"
@@ -991,6 +1136,7 @@
 			y: 3.5d
 		}
 		{
+			description: ["击退极强！"]
 			id: "76BE271054A90AF0"
 			tasks: [{
 				id: "17AFC8CFDABFAFD5"
@@ -1001,6 +1147,11 @@
 			y: 4.5d
 		}
 		{
+			description: [
+				"作为暮色的材料，在暮色使用和其他维度使用会有不同的加成。"
+				"有更多升级槽。"
+				"这是线。"
+			]
 			id: "7B744C64FA0BA19A"
 			tasks: [{
 				id: "6EFAC3C5C14AE175"
@@ -1011,6 +1162,7 @@
 			y: 4.5d
 		}
 		{
+			description: ["潜行时最多受到50%最大生命值的伤害。"]
 			id: "62FC082E3A48C47C"
 			tasks: [{
 				id: "3337C2048288945C"
@@ -1021,6 +1173,7 @@
 			y: 4.5d
 		}
 		{
+			description: ["使你可以鞘翅飞行。"]
 			id: "71EA8679FC12F31F"
 			tasks: [{
 				id: "524727C7A3131D3F"
@@ -1031,6 +1184,7 @@
 			y: 4.5d
 		}
 		{
+			description: ["根据攻速或盔甲韧性增加耐久。"]
 			id: "6D266B8E95078052"
 			tasks: [{
 				id: "6E7DB22F332724FD"
@@ -1041,6 +1195,11 @@
 			y: 4.5d
 		}
 		{
+			description: [
+				"作为暮色的材料，在暮色使用和其他维度使用会有不同的加成。"
+				"冲刺时造成额外伤害。"
+				"这是金制物品。"
+			]
 			id: "4951A690743930DB"
 			tasks: [{
 				id: "31E6CBD08655E290"
@@ -1051,6 +1210,7 @@
 			y: 4.5d
 		}
 		{
+			description: ["水中会自我修复。"]
 			id: "0C2B70A2AC98690D"
 			tasks: [{
 				id: "41D43F6D23A18DBE"
@@ -1061,6 +1221,7 @@
 			y: 4.5d
 		}
 		{
+			description: ["近战攻击使目标获得激变效果。"]
 			id: "03EA1D6F7870590B"
 			tasks: [{
 				id: "4039C2EE45FEA0DB"
@@ -1071,6 +1232,11 @@
 			y: 4.5d
 		}
 		{
+			description: [
+				"作为盔甲时免疫中毒和凋灵。"
+				"作为武器时全力打击造成少量魔法伤害。"
+				"这是赛特斯石英。"
+			]
 			id: "30B07BFBA6B887F0"
 			tasks: [{
 				id: "7F68B0D7CE6C8E82"
@@ -1081,6 +1247,10 @@
 			y: 4.5d
 		}
 		{
+			description: [
+				"攻击额外造成伤害。"
+				"这是骨头。"
+			]
 			id: "3A138B602D304961"
 			tasks: [{
 				id: "512EBAB183D7F8D0"
@@ -1091,6 +1261,7 @@
 			y: 5.5d
 		}
 		{
+			description: ["耐久更多，但难修。"]
 			id: "5635895C1246A5F9"
 			tasks: [{
 				id: "73D4BE414778B5A9"
@@ -1101,6 +1272,7 @@
 			y: 5.5d
 		}
 		{
+			description: ["对亡灵特攻。"]
 			id: "423B2AE0619877B7"
 			tasks: [{
 				id: "604D3969E5E8B8D0"
@@ -1119,6 +1291,7 @@
 			y: 5.5d
 		}
 		{
+			description: ["会影响防护，增强拉弓和举盾。"]
 			id: "3B40EBB434EEF1E7"
 			tasks: [{
 				id: "7EFDBECCC2474911"
@@ -1129,6 +1302,7 @@
 			y: 5.5d
 		}
 		{
+			description: ["减少移速，增加挖掘速度。"]
 			id: "74C619A32B7AC212"
 			tasks: [{
 				id: "41E39F7B9477EDF0"
@@ -1147,6 +1321,10 @@
 			y: 5.5d
 		}
 		{
+			description: [
+				"作为盔甲有弹射物保护。"
+				"作为武器吸引掉落物。"
+			]
 			id: "3C17E3E1A0849CB9"
 			tasks: [{
 				id: "2D5A52DF9AE96A1C"
@@ -1157,6 +1335,7 @@
 			y: 5.5d
 		}
 		{
+			description: ["损失耐久时恢复其他工具耐久。"]
 			id: "506A873A6B3839D3"
 			tasks: [{
 				id: "00301C5FCD5D646A"
@@ -1167,6 +1346,10 @@
 			y: 5.5d
 		}
 		{
+			description: [
+				"作为武器时，满蓄力暴击会增加伤害，否则增加速度。"
+				"作为盔甲时，受到弹射物伤害和近战伤害会增加护甲、护甲韧性和壳中血，否则增加保护和神秘面纱。"
+			]
 			id: "6568DA0A366923D7"
 			tasks: [{
 				id: "0D648D1F6F4F8B30"
@@ -1177,6 +1360,10 @@
 			y: 5.5d
 		}
 		{
+			description: [
+				"作为护甲时，增加魔法保护，并使猪灵对你中立。"
+				"作为武器时随机增加伤害。"
+			]
 			id: "5AEECC14014E18FC"
 			tasks: [{
 				id: "5789F9A4F356031A"
@@ -1187,6 +1374,7 @@
 			y: 5.5d
 		}
 		{
+			description: ["更耐用，伤害和韧性更高。"]
 			id: "12F81EBDF90C9B27"
 			tasks: [{
 				id: "011625BE76196F3D"
@@ -1197,6 +1385,10 @@
 			y: 6.5d
 		}
 		{
+			description: [
+				"作为史莱姆材料对史莱姆特攻。"
+				"这也是仙人掌。"
+			]
 			id: "629B49A375D7D101"
 			tasks: [{
 				id: "38B74AA1A33CE66C"
@@ -1207,6 +1399,10 @@
 			y: 6.5d
 		}
 		{
+			description: [
+				"作为武器时攻击有几率石化目标。"
+				"作为粘液头颅可以使蛇发女妖中立，并拥有石化技能。"
+			]
 			id: "0DF9E631974349E8"
 			tasks: [{
 				id: "4270DB55333F69CA"
@@ -1217,6 +1413,7 @@
 			y: 6.5d
 		}
 		{
+			description: ["工具可以吃，并有牛奶的效果。"]
 			id: "7AE5D3CFD7AB742D"
 			tasks: [{
 				id: "036A54AFE01A4F60"
@@ -1227,6 +1424,7 @@
 			y: 6.5d
 		}
 		{
+			description: ["残血时增加攻击伤害和拉弓速度。"]
 			id: "50F62A02A5D8CAAA"
 			tasks: [{
 				id: "68EB5B60F6545D70"
@@ -1237,6 +1435,7 @@
 			y: 6.5d
 		}
 		{
+			description: ["我是来传染流感的，包括我自己。"]
 			id: "73B19690376BEEC3"
 			tasks: [{
 				id: "5F62CF3090100FB6"
@@ -1247,6 +1446,10 @@
 			y: 6.5d
 		}
 		{
+			description: [
+				"这是巫妖的材料。"
+				"攻击有概率召唤僵尸并施加中毒。"
+			]
 			id: "0AE329E6042B57AB"
 			tasks: [{
 				id: "249D453F9966F5A3"
@@ -1257,6 +1460,11 @@
 			y: 6.5d
 		}
 		{
+			description: [
+				"在暮色森林或魔法森林群系会缓慢修复。"
+				"作为盔甲时免疫部分负面效果并获得夜视。"
+				"作为武器时有概率造成额外伤害并削弱敌人。"
+			]
 			id: "58CAB95801E50D3B"
 			tasks: [{
 				id: "29A0E9DED330D6D0"
@@ -1267,6 +1475,7 @@
 			y: 6.5d
 		}
 		{
+			description: ["使用时有概率召唤动物。"]
 			id: "4602B8684C846CDA"
 			tasks: [{
 				id: "64927E3967BAACD2"
@@ -1277,6 +1486,10 @@
 			y: 6.5d
 		}
 		{
+			description: [
+				"升高重力，会使敌人短时间无法跳跃和飞行。"
+				"这是蛙鸣体。"
+			]
 			id: "49CA5A2B5FE5DF03"
 			tasks: [{
 				id: "00EEEF676E2D3EF0"
@@ -1287,6 +1500,10 @@
 			y: 7.5d
 		}
 		{
+			description: [
+				"高耐久增加抗性，低耐久减少。"
+				"消耗耐久时概率额外消耗。"
+			]
 			id: "3CCA4AD8AEE87FEA"
 			tasks: [{
 				id: "61AACD0D9CA9145B"
@@ -1297,6 +1514,11 @@
 			y: 7.5d
 		}
 		{
+			description: [
+				"这是巫妖的材料。"
+				"作为护甲时受击会施加护盾权杖的效果。"
+				"作为武器时右键可施加护盾权杖的效果，并拥有亡灵杀手。"
+			]
 			id: "252447CC9B96795D"
 			tasks: [{
 				id: "3DCDFB0E60A1FCC9"
@@ -1307,6 +1529,7 @@
 			y: 7.5d
 		}
 		{
+			description: ["提升速度和击退抗性，但放下时会受到伤害。"]
 			id: "7975B9097C5BD289"
 			tasks: [{
 				id: "6E2F96F7AC9F16C0"
@@ -1317,6 +1540,7 @@
 			y: 7.5d
 		}
 		{
+			description: ["会缓慢恢复黏液覆层。"]
 			id: "572D7BC6F9A1A8E6"
 			tasks: [{
 				id: "654936D290C75B76"
@@ -1335,6 +1559,7 @@
 			y: 7.5d
 		}
 		{
+			description: ["消耗耐久时随机生成史莱姆。"]
 			id: "14D15946C097DA31"
 			tasks: [{
 				id: "2417AE44BB4B4A60"
@@ -1345,6 +1570,7 @@
 			y: 7.5d
 		}
 		{
+			description: ["随工具和盔甲磨损增加升级或防御槽。"]
 			id: "7377045763AEE863"
 			tasks: [{
 				id: "0CF6766AF13640A1"
@@ -1363,6 +1589,10 @@
 			y: 7.5d
 		}
 		{
+			description: [
+				"可令目标悬浮一段时间。"
+				"这是蛙鸣体。"
+			]
 			id: "0A5360D96C912988"
 			tasks: [{
 				id: "212E3C8DBF9965D7"
@@ -1373,6 +1603,7 @@
 			y: 7.5d
 		}
 		{
+			description: ["这就是阅历本身。"]
 			id: "62BEB1C1E6547731"
 			tasks: [{
 				id: "5A76CCDEC6AD2779"
@@ -1383,6 +1614,7 @@
 			y: 7.5d
 		}
 		{
+			description: ["更耐用且易修理。"]
 			id: "505BF9FAEC4D3977"
 			tasks: [{
 				id: "1070C4D49533F676"
@@ -1393,6 +1625,10 @@
 			y: 8.5d
 		}
 		{
+			description: [
+				"会对目标施加流血。强度和亮度有关。"
+				"这是燧石。"
+			]
 			id: "0E2FF1401C13C3DA"
 			tasks: [{
 				id: "0F1E0D96414118E4"
@@ -1403,6 +1639,10 @@
 			y: 8.5d
 		}
 		{
+			description: [
+				"增加防御槽但减少护甲。"
+				"金子做的。"
+			]
 			id: "45FA69B427C0E804"
 			tasks: [{
 				id: "6FBE5BD1E012BA0D"
@@ -1413,6 +1653,10 @@
 			y: 8.5d
 		}
 		{
+			description: [
+				"提升大多数属性，但减少拉弓速度。"
+				"作为盔甲有火焰保护。"
+			]
 			id: "2DFA8CA76E5B9E65"
 			tasks: [{
 				id: "348A1B7D5E42B86D"
@@ -1423,6 +1667,7 @@
 			y: 8.5d
 		}
 		{
+			description: ["长臂猿。"]
 			id: "256F794AC71448C5"
 			tasks: [{
 				id: "507DC66AA0FAAE20"
@@ -1433,6 +1678,7 @@
 			y: 8.5d
 		}
 		{
+			description: ["悬空优势。"]
 			id: "28534C3EF85E64F9"
 			tasks: [{
 				id: "07CE88AFB018940C"
@@ -1443,6 +1689,7 @@
 			y: 8.5d
 		}
 		{
+			description: ["提升冰霜法强并施加冰冻。"]
 			id: "732BDD9C7E41D3D6"
 			tasks: [{
 				id: "584F46975DE5775D"
@@ -1450,9 +1697,10 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
+			description: ["受伤转化霜盾，减免耐久损耗。"]
 			id: "7B060656BD04591D"
 			tasks: [{
 				id: "1124E6F8EA85C2D6"
@@ -1460,9 +1708,13 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
+			description: [
+				"作为盔甲会增加蜜酿点数增加护甲值。"
+				"作为武器会召唤蜜蜂战斗。"
+			]
 			id: "530E4DACEFDDD753"
 			tasks: [{
 				id: "6E12BE9210C7E04C"
@@ -1470,9 +1722,10 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
+			description: ["吃东西回血。"]
 			id: "071893BEF251D762"
 			tasks: [{
 				id: "6767EF998D20EA1B"
@@ -1480,9 +1733,13 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
+			description: [
+				"作为盔甲降低被感知距离。"
+				"作为武器消耗电量增加护甲穿透。"
+			]
 			id: "71B561F4B26C6D75"
 			tasks: [{
 				id: "5914CC287B7AB19B"
@@ -1490,9 +1747,10 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
+			description: ["额外造成魔法伤害。作为盔甲时会延长受击无敌。"]
 			id: "7905A8D6AAEF83D3"
 			tasks: [{
 				id: "1F72206267929B8C"
@@ -1500,9 +1758,10 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
+			description: ["周围有怪物获得速度和急迫。"]
 			id: "1B3387F6D5F22109"
 			tasks: [{
 				id: "43B7B0B84DED2463"
@@ -1510,9 +1769,10 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
+			description: ["精华。"]
 			id: "4CFB48EC5B2A98E4"
 			tasks: [{
 				id: "54CF742D065924D8"
@@ -1520,9 +1780,13 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
+			description: [
+				"额外获得能力槽。"
+				"有代价的。"
+			]
 			id: "53669C3307E1036B"
 			tasks: [{
 				id: "5E254DA9C06F2D73"
@@ -1530,9 +1794,13 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
+			description: [
+				"作为盔甲血越少伤害越高，减少交易价格。"
+				"作为武器暴击吸血，攻击召唤铁砧下砸。"
+			]
 			id: "6B71E3C379970FCC"
 			tasks: [{
 				id: "48987B1444CAC514"
@@ -1540,9 +1808,10 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
+			description: ["点燃周围敌人。"]
 			id: "2DDEDC65A171710D"
 			tasks: [{
 				id: "3E8D2BF589A66E7E"
@@ -1550,9 +1819,13 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
+			description: [
+				"获得夜视，高亮攻击目标。"
+				"金子做的。"
+			]
 			id: "6E66A7CC968D7ADA"
 			tasks: [{
 				id: "7CC8FFD9461D7283"
@@ -1560,9 +1833,10 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
+			description: ["提高工具耐久和盔甲韧性。"]
 			id: "5C0D73ACAC7554B2"
 			tasks: [{
 				id: "5441A783C27089A7"
@@ -1570,9 +1844,13 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
+			description: [
+				"增加软数值，减少硬数值。"
+				"长臂猿。"
+			]
 			id: "5CD15E1C330FC424"
 			tasks: [{
 				id: "042470497354B154"
@@ -1580,9 +1858,10 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
+			description: ["极冷环境加强，极热削弱。"]
 			id: "25222A07B156C092"
 			tasks: [{
 				id: "17E509F305A5A836"
@@ -1598,9 +1877,10 @@
 			}]
 			title: "康铜"
 			x: 3.5d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
+			description: ["拥有隐身效果，并减少受到伤害或增加造成伤害。"]
 			id: "01DBA973F494ED47"
 			tasks: [{
 				id: "5C6175247BDF2ED0"
@@ -1608,9 +1888,14 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
+			description: [
+				"受击获得力量，全力攻击获得抗性提升和伤害吸收。"
+				"作为盔甲概率减少受到伤害，隐身时会增加消耗速率并增加概率。"
+				"作为武器会消耗隐身增加伤害，击杀获得隐身。"
+			]
 			id: "4DF851DA9EE31E07"
 			tasks: [{
 				id: "40587043E0022580"
@@ -1618,9 +1903,14 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
+			description: [
+				"沉。"
+				"长。"
+				"石。"
+			]
 			id: "4A061C15754555E0"
 			tasks: [{
 				id: "238A8C69AFE0E061"
@@ -1628,9 +1918,14 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
+			description: [
+				"盔甲：对穿甲抗性"
+				"近战武器：对石头挖掘速度"
+				"远程武器：降低箭速提升伤害"
+			]
 			id: "3F94ACFC71719BCB"
 			tasks: [{
 				id: "36D9C6FD85AC1EB4"
@@ -1638,9 +1933,13 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 12.0d
+			y: 13.0d
 		}
 		{
+			description: [
+				"盔甲：少量减少重力效果，防护和身处高度成正比"
+				"武器：对目标施加漂浮，越高伤害越高，少量抵消控制挖掘惩罚"
+			]
 			id: "7F47D79157083D36"
 			tasks: [{
 				id: "21C76A34860CA10E"
@@ -1648,9 +1947,10 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 12.0d
+			y: 13.0d
 		}
 		{
+			description: ["使敌人短暂滞空"]
 			id: "579D5E5DBDD2858E"
 			tasks: [{
 				id: "5D1C63B64ED76526"
@@ -1658,9 +1958,14 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 12.0d
+			y: 13.0d
 		}
 		{
+			description: [
+				"暮色森林。"
+				"盔甲：身处魔法森林获得饱和、抗性提升"
+				"武器：额外造成伤害和减速，不身处魔法森林对自己施加饥饿和虚弱"
+			]
 			id: "633B6EA82479E36B"
 			tasks: [{
 				id: "2F921E807856B510"
@@ -1668,9 +1973,14 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 12.0d
+			y: 13.0d
 		}
 		{
+			description: [
+				"史莱姆。"
+				"盔甲：受伤消耗黏液覆层随机回复生命"
+				"武器：随机增伤"
+			]
 			id: "6FEEEEBEB400F2B0"
 			tasks: [{
 				id: "71545909E9EF76EA"
@@ -1678,9 +1988,10 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 12.0d
+			y: 13.0d
 		}
 		{
+			description: ["消耗耐久时概率回血"]
 			id: "27A1E67A2C6191B9"
 			tasks: [{
 				id: "37E95CAAD86305B5"
@@ -1688,9 +1999,13 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 12.0d
+			y: 13.0d
 		}
 		{
+			description: [
+				"石头。"
+				"概率和目标换位"
+			]
 			id: "490408FDE84EED03"
 			tasks: [{
 				id: "3682E33AFF53E4E6"
@@ -1698,9 +2013,13 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 12.0d
+			y: 13.0d
 		}
 		{
+			description: [
+				"盔甲：靴子脚下带水，提高获得战利品概率，但减少抗性"
+				"武器：攻击召唤雨；雨中增伤"
+			]
 			id: "513CBC783D88AD8F"
 			tasks: [{
 				id: "38E8E5FA9087E51E"
@@ -1708,9 +2027,13 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 12.0d
+			y: 13.0d
 		}
 		{
+			description: [
+				"盔甲：受到伤害时免疫并减少生命值"
+				"武器：额外造成伤害并减少生命值"
+			]
 			id: "3BC7999AFF258603"
 			tasks: [{
 				id: "5BAC78B16C305957"
@@ -1718,9 +2041,13 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 12.0d
+			y: 13.0d
 		}
 		{
+			description: [
+				"幽匿能量。"
+				"有能量时提升挖掘速度、拉弓速度和盔甲韧性"
+			]
 			id: "31A1075347B00120"
 			tasks: [{
 				id: "4D15C0176DC9D781"
@@ -1728,9 +2055,13 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 13.0d
+			y: 14.0d
 		}
 		{
+			description: [
+				"盔甲：降低敌人察觉范围，增加护甲和韧性，获得伤害减免和爆裂抗性"
+				"武器：移除目标无敌帧并削减护甲"
+			]
 			id: "491B41403FBB9AE0"
 			tasks: [{
 				id: "3F6F958A8B2111B4"
@@ -1738,9 +2069,13 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 13.0d
+			y: 14.0d
 		}
 		{
+			description: [
+				"暮色森林。"
+				"根据快捷栏的钢叶数量获得加成，快捷栏有钢叶时自我修复"
+			]
 			id: "3A799C7D4269B5A4"
 			tasks: [{
 				id: "51D48E8C07DFE447"
@@ -1748,9 +2083,10 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 13.0d
+			y: 14.0d
 		}
 		{
+			description: ["提升法强和最大法力值"]
 			id: "3FF60BD8387A2519"
 			tasks: [{
 				id: "108414B657CED42A"
@@ -1758,9 +2094,14 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 13.0d
+			y: 14.0d
 		}
 		{
+			description: [
+				"暮色森林。"
+				"护甲：冰冻敌人，反射已冰冻敌人"
+				"武器：寒气，冰冻敌人，对冰冻敌人造成额外伤害"
+			]
 			id: "072F182253108836"
 			tasks: [{
 				id: "022CF1B5B85F4591"
@@ -1768,9 +2109,13 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 13.0d
+			y: 14.0d
 		}
 		{
+			description: [
+				"史莱姆。"
+				"冰冻敌人，其在一段时间后收到额外伤害"
+			]
 			id: "4198E66D14966A61"
 			tasks: [{
 				id: "5E539F450F294826"
@@ -1778,9 +2123,10 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 13.0d
+			y: 14.0d
 		}
 		{
+			description: ["小幅提升工具属性，特性提升一半"]
 			id: "0BA7FB503DB13F18"
 			tasks: [{
 				id: "38645E2658708F09"
@@ -1788,9 +2134,10 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 13.0d
+			y: 14.0d
 		}
 		{
+			description: ["精华。"]
 			id: "77ABE2BFD2C7F63E"
 			tasks: [{
 				id: "264A4E17DCAEDACE"
@@ -1798,9 +2145,10 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 13.0d
+			y: 14.0d
 		}
 		{
+			description: ["致残敌人，工具耐久高增加攻击力，反之速度"]
 			id: "7846DF5B6EA11D3E"
 			tasks: [{
 				id: "581228AA52E3B444"
@@ -1808,9 +2156,10 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 13.0d
+			y: 14.0d
 		}
 		{
+			description: ["降低视线交错敌人的伤害或提高对视线交错敌人的伤害"]
 			id: "3E6AC873B6B98480"
 			tasks: [{
 				id: "223B9E358F78F97F"
@@ -1818,9 +2167,10 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 14.0d
+			y: 15.0d
 		}
 		{
+			description: ["有概率缴械目标，武器会降低攻击力提升击退"]
 			id: "175BD365BCA3754F"
 			tasks: [{
 				id: "72E675F7FA7C0D42"
@@ -1828,9 +2178,10 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 14.0d
+			y: 15.0d
 		}
 		{
+			description: ["工具更多伤害，护甲更多护甲，但行动困难"]
 			id: "61A264059032F1C6"
 			tasks: [{
 				id: "01EC881918FC15F2"
@@ -1838,9 +2189,13 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 14.0d
+			y: 15.0d
 		}
 		{
+			description: [
+				"焦黑砖。"
+				"着火时工具属性会被加成"
+			]
 			id: "1C869CA793C0B12E"
 			tasks: [{
 				id: "5D2AD18B3B76F1E6"
@@ -1848,9 +2203,15 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 14.0d
+			y: 15.0d
 		}
 		{
+			description: [
+				"增加一个妄见槽，不会被火焰摧毁。"
+				"盔甲：对目标施加基于主手的击退"
+				"近战武器：提高矿物产量"
+				"远程武器：去除目标效果"
+			]
 			id: "7DE24361C5F6E2F9"
 			tasks: [{
 				id: "6986DC676E5D5AA9"
@@ -1858,9 +2219,13 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 14.0d
+			y: 15.0d
 		}
 		{
+			description: [
+				"暮色森林。"
+				"每秒给予速度和急迫，概率清空快捷栏和装备栏冷却"
+			]
 			id: "16BB4003E0E14D94"
 			tasks: [{
 				id: "21A7A572EB42380C"
@@ -1868,9 +2233,10 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 14.0d
+			y: 15.0d
 		}
 		{
+			description: ["提升属性，清空升级槽"]
 			id: "7FDE104F442FE8CE"
 			tasks: [{
 				id: "77EB783B5B81B382"
@@ -1878,9 +2244,15 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 14.0d
+			y: 15.0d
 		}
 		{
+			description: [
+				"铁锭。"
+				"盔甲：降低猪灵察觉范围"
+				"近战武器：上次挖掘方块在一定范围内，则提升挖掘速度"
+				"远程武器：一定射击次数后提高准确度"
+			]
 			id: "17D0340F1F8FA3C6"
 			tasks: [{
 				id: "269CE978A3F5ACAA"
@@ -1888,9 +2260,10 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 14.0d
+			y: 15.0d
 		}
 		{
+			description: ["使目标虚弱和凋灵"]
 			id: "561F5878587D5A47"
 			tasks: [{
 				id: "4E6D6C42C75B9CD5"
@@ -1898,9 +2271,10 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 14.0d
+			y: 15.0d
 		}
 		{
+			description: ["将目标拉向自己"]
 			id: "46B0EEF691B31366"
 			tasks: [{
 				id: "70FB7A4938CF69C7"
@@ -1908,9 +2282,14 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 15.0d
+			y: 16.0d
 		}
 		{
+			description: [
+				"暮色森林。"
+				"钻石。"
+				"冲刺时增伤"
+			]
 			id: "35CF1FFC96B9D6D0"
 			tasks: [{
 				id: "1CD4363CEB9636AA"
@@ -1918,9 +2297,13 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 15.0d
+			y: 16.0d
 		}
 		{
+			description: [
+				"盔甲：死亡时复活，并获得无敌，有冷却时间"
+				"武器：根据正面buff数量增伤"
+			]
 			id: "17914AA032D4522A"
 			tasks: [{
 				id: "099F51F334C0E503"
@@ -1928,9 +2311,10 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 15.0d
+			y: 16.0d
 		}
 		{
+			description: ["阳光下增益"]
 			id: "7A778AEBE4B3105C"
 			tasks: [{
 				id: "344289545A83042A"
@@ -1938,9 +2322,13 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 15.0d
+			y: 16.0d
 		}
 		{
+			description: [
+				"暮色森林。"
+				"黑暗处工具增益，对目标施加凋灵"
+			]
 			id: "6F070243FD3DFAC5"
 			tasks: [{
 				id: "2297AF94A0E0B1F1"
@@ -1948,9 +2336,14 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 15.0d
+			y: 16.0d
 		}
 		{
+			description: [
+				"暮色森林。"
+				"石头。"
+				"时运。"
+			]
 			id: "00784CB76E57D279"
 			tasks: [{
 				id: "19E2B3DF1C64B827"
@@ -1958,9 +2351,10 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 15.0d
+			y: 16.0d
 		}
 		{
+			description: ["挖掘方块后概率消耗耐久获得急迫"]
 			id: "1F5A02A3368B0346"
 			tasks: [{
 				id: "7F73940889913D30"
@@ -1968,9 +2362,10 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 15.0d
+			y: 16.0d
 		}
 		{
+			description: ["给予目标黑死病"]
 			id: "6681B73D3E74B60B"
 			tasks: [{
 				id: "72D511AB3225724C"
@@ -1978,9 +2373,10 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 15.0d
+			y: 16.0d
 		}
 		{
+			description: ["攻击目标使其受到当前生命的瘟疫伤害"]
 			id: "6394D4DC7ADEBB69"
 			tasks: [{
 				id: "1AF7620A7393B1C0"
@@ -1988,9 +2384,10 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 15.0d
+			y: 16.0d
 		}
 		{
+			description: ["对周围敌人造成伤害，温度越高伤害越高"]
 			id: "5A8C3DF910A7B2D2"
 			tasks: [{
 				id: "039839D914EE7B45"
@@ -1998,9 +2395,10 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 16.0d
+			y: 17.0d
 		}
 		{
+			description: ["击飞自身周围生物"]
 			id: "11BE34925415B6D8"
 			tasks: [{
 				id: "50839F0D013060AD"
@@ -2008,9 +2406,10 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 16.0d
+			y: 17.0d
 		}
 		{
+			description: ["可以吃。"]
 			id: "1021334632558AC8"
 			tasks: [{
 				id: "5D9EEE1A6840DF15"
@@ -2018,9 +2417,10 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 16.0d
+			y: 17.0d
 		}
 		{
+			description: ["在水中给予增益"]
 			id: "6DC511207CB48D85"
 			tasks: [{
 				id: "4F572869A440AD07"
@@ -2028,9 +2428,10 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 16.0d
+			y: 17.0d
 		}
 		{
+			description: ["水中工具会提升属性"]
 			id: "430FF41B112693C0"
 			tasks: [{
 				id: "1FDBBD2E22BFAFC3"
@@ -2038,9 +2439,10 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 16.0d
+			y: 17.0d
 		}
 		{
+			description: ["增加恶意槽，对目标造成混沌伤害"]
 			id: "4B8698191BED4E9A"
 			tasks: [{
 				id: "0447D88DD4CDD438"
@@ -2048,9 +2450,13 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 16.0d
+			y: 17.0d
 		}
 		{
+			description: [
+				"魔力修复。"
+				"概率生成小精灵"
+			]
 			id: "2D199CED319EA65A"
 			tasks: [{
 				id: "3A4AFC65716A1C7C"
@@ -2058,9 +2464,10 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 16.0d
+			y: 17.0d
 		}
 		{
+			description: ["饱食度够高时获得增益"]
 			id: "1B3F13911BF7E264"
 			tasks: [{
 				id: "66F4283F737B4EEB"
@@ -2068,9 +2475,10 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 16.0d
+			y: 17.0d
 		}
 		{
+			description: ["锋利。"]
 			id: "0C9D37B660945468"
 			tasks: [{
 				id: "419C02E1A971A28C"
@@ -2078,9 +2486,10 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 16.0d
+			y: 17.0d
 		}
 		{
+			description: ["增加升级槽"]
 			id: "10354F79C8AB8726"
 			tasks: [{
 				id: "56D12C5DEE27C5CD"
@@ -2088,9 +2497,14 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 17.0d
+			y: 18.0d
 		}
 		{
+			description: [
+				"脆的哟。"
+				"盔甲：概率对双方反伤"
+				"武器：额外伤害"
+			]
 			id: "1EEE68722F135B71"
 			tasks: [{
 				id: "38FB66B8DC078BCE"
@@ -2098,9 +2512,10 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 17.0d
+			y: 18.0d
 		}
 		{
+			description: ["对水中目标造成更多伤害"]
 			id: "78196E87C5377FE6"
 			tasks: [{
 				id: "78FA977B0E88DCB2"
@@ -2108,9 +2523,10 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 17.0d
+			y: 18.0d
 		}
 		{
+			description: ["饥饿值越低，工具增益越高"]
 			id: "292529A29C2AE72F"
 			tasks: [{
 				id: "2D5DF956F9C1D915"
@@ -2118,9 +2534,10 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 17.0d
+			y: 18.0d
 		}
 		{
+			description: ["增强食物恢复效果"]
 			id: "5431C3D7DC03A0E8"
 			tasks: [{
 				id: "64F71C8ED987DCA9"
@@ -2128,9 +2545,14 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 17.0d
+			y: 18.0d
 		}
 		{
+			description: [
+				"消耗耐久回复生命值"
+				"盔甲：恢复生命值，免疫凋灵、中毒、饥饿"
+				"武器：对亡灵双倍伤害"
+			]
 			id: "20876731CFAE5BEF"
 			tasks: [{
 				id: "230DF669EFFA69FF"
@@ -2138,9 +2560,13 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 17.0d
+			y: 18.0d
 		}
 		{
+			description: [
+				"视为在水中"
+				"武器：水中更好用"
+			]
 			id: "150B245E2447DBFD"
 			tasks: [{
 				id: "3D7A69F5C4FA47AC"
@@ -2148,9 +2574,10 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 17.0d
+			y: 18.0d
 		}
 		{
+			description: ["水中降低耐久损耗概率"]
 			id: "54892D0426B65E46"
 			tasks: [{
 				id: "6E0FDB746D838686"
@@ -2158,9 +2585,13 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 17.0d
+			y: 18.0d
 		}
 		{
+			description: [
+				"史莱姆。"
+				"会随时间恢复无此特性工具的黏液覆层"
+			]
 			id: "251A838409991485"
 			tasks: [{
 				id: "7FD62E8E8F6BF6B6"
@@ -2168,9 +2599,10 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 17.0d
+			y: 18.0d
 		}
 		{
+			description: ["生命危急时提供灵魂回复"]
 			id: "49ABE13A08AE0580"
 			tasks: [{
 				id: "4DEDA891A34F5D6A"
@@ -2178,9 +2610,10 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 18.0d
+			y: 19.0d
 		}
 		{
+			description: ["消耗黏液覆层回复饱食度和饱和度"]
 			id: "0929DA0C39636AA1"
 			tasks: [{
 				id: "31BFD0A333AB9522"
@@ -2188,9 +2621,10 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 18.0d
+			y: 19.0d
 		}
 		{
+			description: ["远程传输掉落物"]
 			id: "7789B518F2948CEE"
 			tasks: [{
 				id: "44A330B8743742CA"
@@ -2198,9 +2632,10 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 18.0d
+			y: 19.0d
 		}
 		{
+			description: ["小幅提升工具所有属性"]
 			id: "06BF7289E15D9A1A"
 			tasks: [{
 				id: "2517D66AE50CAA95"
@@ -2208,9 +2643,13 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 18.0d
+			y: 19.0d
 		}
 		{
+			description: [
+				"就是绿宝石。"
+				"珠宝：交易折扣"
+			]
 			id: "72A3352E4CECE042"
 			tasks: [{
 				id: "5D2125B103EA556B"
@@ -2218,9 +2657,10 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 18.0d
+			y: 19.0d
 		}
 		{
+			description: ["使目标流血"]
 			id: "1CCD3B755B2D1023"
 			tasks: [{
 				id: "21A974CDBE7D9691"
@@ -2228,9 +2668,10 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 18.0d
+			y: 19.0d
 		}
 		{
+			description: ["对燃烧目标根据秒数增伤，并增加燃烧时间"]
 			id: "5A8C59929B87B4EF"
 			tasks: [{
 				id: "28119D1AE9E884F1"
@@ -2238,9 +2679,10 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 18.0d
+			y: 19.0d
 		}
 		{
+			description: ["给予目标漂浮，并抑制瞬移"]
 			id: "7B16CBD5583A1E81"
 			tasks: [{
 				id: "7ED9C9CBC1C6B40C"
@@ -2248,9 +2690,15 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 18.0d
+			y: 19.0d
 		}
 		{
+			description: [
+				"盔甲：增加攻速，限制格挡角度"
+				"近战武器：挖掘不匹配方块加速"
+				"远程武器：增加初速度，限制出射角"
+				"珠宝：能力槽"
+			]
 			id: "610EA79B18103FE4"
 			tasks: [{
 				id: "30FD1FAD2E308350"
@@ -2258,9 +2706,13 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 18.0d
+			y: 19.0d
 		}
 		{
+			description: [
+				"玫瑰金。"
+				"镶金。"
+			]
 			id: "4A528A244B4ACEC4"
 			tasks: [{
 				id: "426DA794B43A3A32"
@@ -2268,9 +2720,13 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 19.0d
+			y: 20.0d
 		}
 		{
+			description: [
+				"盔甲：单次限伤50%，有冷却"
+				"武器：杀猪"
+			]
 			id: "7C491DBC408186DC"
 			tasks: [{
 				id: "03563203C8C7BE3D"
@@ -2278,9 +2734,13 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 19.0d
+			y: 20.0d
 		}
 		{
+			description: [
+				"对目标施加破伤风，增伤并略微降低护甲"
+				"增加近战伤害，减少攻击速度和移动速度"
+			]
 			id: "5233050998340F0A"
 			tasks: [{
 				id: "3D8D2D26D2F5D167"
@@ -2288,9 +2748,15 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 19.0d
+			y: 20.0d
 		}
 		{
+			description: [
+				"钻石。"
+				"盔甲：提高韧性和击退抗性"
+				"武器：挖掘时概率出矿物粒"
+				"珠宝：护甲值"
+			]
 			id: "6D356ED67556AC15"
 			tasks: [{
 				id: "2FAA0C328B970558"
@@ -2298,9 +2764,13 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 19.0d
+			y: 20.0d
 		}
 		{
+			description: [
+				"盔甲：近战保护"
+				"武器：加速！"
+			]
 			id: "3CC00A9F931DA655"
 			tasks: [{
 				id: "384791FD627B1E46"
@@ -2308,9 +2778,10 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 19.0d
+			y: 20.0d
 		}
 		{
+			description: ["更加耐用，属性更高"]
 			id: "16E19942F12EDC31"
 			tasks: [{
 				id: "36D0D03E223B1E92"
@@ -2326,9 +2797,10 @@
 			}]
 			title: "钢"
 			x: 3.5d
-			y: 19.0d
+			y: 20.0d
 		}
 		{
+			description: ["你知道的，这其实是钢叶、燧石、骨头和纳瓦特尔的合体。"]
 			id: "7EBD6BBF4EFD9F76"
 			tasks: [{
 				id: "73264B090EB01D05"
@@ -2336,9 +2808,13 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 19.0d
+			y: 20.0d
 		}
 		{
+			description: [
+				"暮色森林。"
+				"快捷栏里有钢叶会自我修复"
+			]
 			id: "0EF38CB9C715766F"
 			tasks: [{
 				id: "5DC023EF3028FF17"
@@ -2346,9 +2822,10 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 19.0d
+			y: 20.0d
 		}
 		{
+			description: ["重量十分大。"]
 			id: "6BF27AF85351DDD7"
 			tasks: [{
 				id: "15CE24DA59449DC9"
@@ -2356,9 +2833,10 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 19.0d
+			y: 20.0d
 		}
 		{
+			description: ["高度越高，耐久度消耗越少"]
 			id: "2E207F1510672C06"
 			tasks: [{
 				id: "1566DA2C6796DE68"
@@ -2366,9 +2844,13 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 20.0d
+			y: 21.0d
 		}
 		{
+			description: [
+				"盔甲：提高攻击伤害和挖掘速度"
+				"武器：轻盈，使目标流血"
+			]
 			id: "501BD12321CDE106"
 			tasks: [{
 				id: "7FE5B8CE2E807784"
@@ -2376,9 +2858,15 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 20.0d
+			y: 21.0d
 		}
 		{
+			description: [
+				"暮色森林。"
+				"史莱姆。"
+				"盔甲：对目标施加缓慢，自身缓慢获得抗性提升"
+				"武器：提高伤害并施加缓慢"
+			]
 			id: "574EB973C502F34F"
 			tasks: [{
 				id: "654E87E685ACCC60"
@@ -2386,9 +2874,10 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 20.0d
+			y: 21.0d
 		}
 		{
+			description: ["光照越低工具越强"]
 			id: "7F7EFC25738E4911"
 			tasks: [{
 				id: "25B547218E537DE9"
@@ -2396,9 +2885,10 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 20.0d
+			y: 21.0d
 		}
 		{
+			description: ["挖掘时概率提供急迫，概率回复饱食度"]
 			id: "02631C2B7A96665A"
 			tasks: [{
 				id: "49A07E875E736374"
@@ -2406,9 +2896,10 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 20.0d
+			y: 21.0d
 		}
 		{
+			description: ["食物分段回复"]
 			id: "5E53098C08E3140B"
 			tasks: [{
 				id: "4DD0967BEBD84700"
@@ -2416,9 +2907,10 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 20.0d
+			y: 21.0d
 		}
 		{
+			description: ["可挖掘基岩，部分伤害转为虚空伤害"]
 			id: "32564102C538C79F"
 			tasks: [{
 				id: "4D7C91C718FCAD9B"
@@ -2426,9 +2918,14 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 20.0d
+			y: 21.0d
 		}
 		{
+			description: [
+				"暮色森林。"
+				"皮革。"
+				"雪怪。"
+			]
 			id: "40E2F1FFE330CE79"
 			tasks: [{
 				id: "7A4234FA13F1A5CF"
@@ -2436,9 +2933,13 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 20.0d
+			y: 21.0d
 		}
 		{
+			description: [
+				"食用工具获得速度、急迫和饥饿"
+				"护甲：雨中格挡和跳跃提升，脱离会受到更多格挡的伤害"
+			]
 			id: "2401E4D847D2F998"
 			tasks: [{
 				id: "1A70824ED4197522"
@@ -2446,9 +2947,10 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 20.0d
+			y: 21.0d
 		}
 		{
+			description: ["根据攻击力施加折磨效果"]
 			id: "4C512CCAB96B73A1"
 			tasks: [{
 				id: "1700C210BEEA02AB"
@@ -2456,9 +2958,13 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 21.0d
+			y: 22.0d
 		}
 		{
+			description: [
+				"对亡灵和魔法有奇效。"
+				"木头。"
+			]
 			id: "70D0C118D4BFBB3F"
 			tasks: [{
 				id: "3F92D2C5242D2919"
@@ -2466,9 +2972,10 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 21.0d
+			y: 22.0d
 		}
 		{
+			description: ["减少重力，快捷栏没有其他物品时提供加成"]
 			id: "0E8F9DDE31B81E4B"
 			tasks: [{
 				id: "1A751E5E24E2C4CC"
@@ -2476,9 +2983,10 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 21.0d
+			y: 22.0d
 		}
 		{
+			description: ["对目标造成凋灵效果，持有者也有概率获得"]
 			id: "43990F0EF9D6A377"
 			tasks: [{
 				id: "1578ECC6B6F6901F"
@@ -2486,9 +2994,13 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 21.0d
+			y: 22.0d
 		}
 		{
+			description: [
+				"暮色森林。"
+				"双标领域大神，是动物有奖励，是怪物有惩罚。"
+			]
 			id: "77EAF07DF2129317"
 			tasks: [{
 				id: "25EA2A200904DAFE"
@@ -2496,9 +3008,10 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 21.0d
+			y: 22.0d
 		}
 		{
+			description: ["耐久增加，属性随耐久提升而提升"]
 			id: "1E01C3F88945F92A"
 			tasks: [{
 				id: "434C98D5F76334D0"
@@ -2506,9 +3019,13 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 21.0d
+			y: 22.0d
 		}
 		{
+			description: [
+				"绑定结：用魔力修复自身"
+				"弓弦：消耗魔力射箭"
+			]
 			id: "3FD7C3AB950BCEA4"
 			tasks: [{
 				id: "4B03A87C5A994C2D"
@@ -2516,9 +3033,10 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 21.0d
+			y: 22.0d
 		}
 		{
+			description: ["水下消耗耐久时获得水下呼吸，概率回复生命值"]
 			id: "79F9E5D199057A26"
 			tasks: [{
 				id: "1E60176DCA34B658"
@@ -2526,9 +3044,10 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 21.0d
+			y: 22.0d
 		}
 		{
+			description: ["这也是蓝宝石。"]
 			id: "016081A393E43E20"
 			tasks: [{
 				id: "36815D875FB73E3E"
@@ -2536,9 +3055,13 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 21.0d
+			y: 22.0d
 		}
 		{
+			description: [
+				"随机给予持有者buff，目标debuff"
+				"自带附魔光效。"
+			]
 			id: "4C2818BAA225DB19"
 			tasks: [{
 				id: "713782C5DA74C61C"
@@ -2546,9 +3069,10 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 22.0d
+			y: 23.0d
 		}
 		{
+			description: ["增加修补效率、耐久、攻速、精确度和击退抗性"]
 			id: "5AC50B604B9CC4C0"
 			tasks: [{
 				id: "6C4A3AFB8A77D5B3"
@@ -2564,9 +3088,10 @@
 			}]
 			title: "黄铜"
 			x: -0.5d
-			y: 22.0d
+			y: 23.0d
 		}
 		{
+			description: ["用魔力修复自身"]
 			id: "5DF774BA58B2E3CC"
 			tasks: [{
 				id: "3D89BE06AEE63EFA"
@@ -2574,9 +3099,10 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 22.0d
+			y: 23.0d
 		}
 		{
+			description: ["自带灵魂绑定，逐渐适应耐久消耗，根据原版统计提高对对应生物加成，增加使用者能见度"]
 			id: "761454148212F148"
 			tasks: [{
 				id: "72B33EAD222055E9"
@@ -2584,9 +3110,13 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 22.0d
+			y: 23.0d
 		}
 		{
+			description: [
+				"攻击力和弹射物力量小幅提升"
+				"这是骨头。"
+			]
 			id: "1FE3488DB2AA3B3A"
 			tasks: [{
 				id: "54C212B8E5B1EA10"
@@ -2594,19 +3124,21 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 22.0d
+			y: 23.0d
 		}
 		{
+			description: ["[ \"见\", { \"text\": \"龙晶\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0EC9EE32C64073DA\" } }, \"。\" ]"]
 			id: "060DECB34F5E6387"
 			tasks: [{
 				id: "1D98CC16E5216136"
 				item: "ticex:wyvern_crystal"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 22.0d
+			x: 4.5d
+			y: 24.0d
 		}
 		{
+			description: ["耐久越高，挖掘速度越快"]
 			id: "7D6D205EEF63E634"
 			tasks: [{
 				id: "30CBF16F303A598E"
@@ -2614,9 +3146,10 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 22.0d
+			y: 23.0d
 		}
 		{
+			description: ["对闪电特攻，武器会额外消耗耐久造成减益效果"]
 			id: "61A680979F9A9E27"
 			tasks: [{
 				id: "6813178DD4CC97B3"
@@ -2624,9 +3157,10 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 22.0d
+			y: 23.0d
 		}
 		{
+			description: ["减速周围敌人"]
 			id: "3C193A272E32952F"
 			tasks: [{
 				id: "6068761F19BE8600"
@@ -2634,9 +3168,14 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 22.0d
+			y: 23.0d
 		}
 		{
+			description: [
+				"盔甲：提高生命上限，减少回复上限，根据伤害和生命上限的大小减伤或增伤"
+				"武器：耐久耗尽时回复耐久并提高数值"
+				"爆！"
+			]
 			id: "1E1DC4E50FA1615A"
 			tasks: [{
 				id: "53686CA6B2C0F580"
@@ -2644,9 +3183,10 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 23.0d
+			y: 24.0d
 		}
 		{
+			description: ["击中时概率消耗耐久获得力量"]
 			id: "244E0D611BFC8734"
 			tasks: [{
 				id: "0C0746B20376A193"
@@ -2654,9 +3194,13 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 23.0d
+			y: 24.0d
 		}
 		{
+			description: [
+				"爆炸保护。"
+				"自身着火时工具会随机提高属性，有上限"
+			]
 			id: "4DE42EF297B62DE0"
 			tasks: [{
 				id: "5E67006B2C56469E"
@@ -2664,9 +3208,13 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 23.0d
+			y: 24.0d
 		}
 		{
+			description: [
+				"工具寿命更长"
+				"但不出意外的话就要出意外了"
+			]
 			id: "2F1DCA9FA2CAE00D"
 			tasks: [{
 				id: "2EF52F211BFCA461"
@@ -2674,9 +3222,13 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 23.0d
+			y: 24.0d
 		}
 		{
+			description: [
+				"盔甲：金子做的。"
+				"武器：额外造成魔法伤害"
+			]
 			id: "6BF995CF278BAA87"
 			tasks: [{
 				id: "2AE190383F364072"
@@ -2684,9 +3236,10 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 23.0d
+			y: 24.0d
 		}
 		{
+			description: ["增加攻击力和护甲"]
 			id: "02664DF2D9C02F4E"
 			tasks: [{
 				id: "63B200BEC1CB9DD8"
@@ -2697,16 +3250,25 @@
 			y: 23.0d
 		}
 		{
+			description: [
+				"TiCEX的龙研晶系列共同拥有概率使目标流血和额外造成龙研伤害的特性"
+				"攻击时概率获取的怪物灵魂永远龙研的刷怪笼"
+				"这些特性等级会随晶等级提高而提高，混沌晶每个部件的每个特性均为3级。"
+			]
 			id: "0EC9EE32C64073DA"
 			tasks: [{
 				id: "10F8BD28AAE7049A"
 				item: "ticex:draconium_crystal"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 23.0d
+			x: 3.5d
+			y: 24.0d
 		}
 		{
+			description: [
+				"史莱姆。"
+				"黏液覆层会更厚"
+			]
 			id: "294B6D9B454A6225"
 			tasks: [{
 				id: "14F9C9F12C47B8A1"
@@ -2714,7 +3276,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 23.0d
+			y: 24.0d
 		}
 		{
 			icon: "tinkersjewelry:book"
@@ -2726,7 +3288,7 @@
 				type: "checkmark"
 			}]
 			x: 8.0d
-			y: 23.0d
+			y: 24.0d
 		}
 		{
 			id: "702CEA83C1BFB4A1"
@@ -2744,19 +3306,19 @@
 			}]
 			title: "树叶"
 			x: 12.0d
-			y: 20.5d
+			y: 21.5d
 		}
 		{
 			icon: "tconstruct:tinkers_gadgetry"
 			id: "0F06CACE2F32FC37"
-			subtitle: "一共三种箭羽，请认真识别；\\n已有材料不再额外添加"
+			subtitle: "一共两种箭羽，请认真识别；\\n已有材料不再额外添加"
 			tasks: [{
 				id: "6FA5AEA25F2BF808"
 				title: "箭羽材料"
 				type: "checkmark"
 			}]
 			x: 8.0d
-			y: 20.5d
+			y: 21.5d
 		}
 		{
 			id: "38712ABB50F4DBD5"
@@ -2766,7 +3328,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 20.5d
+			y: 21.5d
 		}
 		{
 			id: "4B579F7424E309A2"
@@ -2784,7 +3346,7 @@
 			}]
 			title: "黏液树叶"
 			x: 13.0d
-			y: 20.5d
+			y: 21.5d
 		}
 		{
 			id: "01D2CEB88394A331"
@@ -2794,7 +3356,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 20.5d
+			y: 21.5d
 		}
 		{
 			id: "46FE4AD137E1015F"
@@ -2804,7 +3366,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 20.5d
+			y: 21.5d
 		}
 		{
 			id: "73A2FE131E1C4CBC"
@@ -2814,7 +3376,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 20.5d
+			y: 21.5d
 		}
 		{
 			id: "4C63BF27217500F1"
@@ -2824,7 +3386,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 20.5d
+			y: 21.5d
 		}
 		{
 			id: "4C852F3317693ADB"
@@ -2834,7 +3396,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 21.5d
+			y: 22.5d
 		}
 		{
 			id: "5A5531025CB8A8D4"
@@ -2844,7 +3406,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 21.5d
+			y: 22.5d
 		}
 		{
 			id: "3DF1EE5E0E3BA82A"
@@ -2854,7 +3416,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 21.5d
+			y: 22.5d
 		}
 		{
 			id: "292A362740F72BAE"
@@ -2864,9 +3426,13 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 21.5d
+			y: 22.5d
 		}
 		{
+			description: [
+				"咱们有这个材料吗？"
+				"更多用在饰品的合成。"
+			]
 			id: "246A8182016014E8"
 			tasks: [{
 				id: "046BAECB4294A06F"
@@ -2874,9 +3440,13 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
+			description: [
+				"查无此人。"
+				"纯数值材料。"
+			]
 			id: "5182B64158F0D9A1"
 			tasks: [{
 				id: "08899C8D6BF0929B"
@@ -2884,9 +3454,10 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
+			description: ["法爷必备护甲材料！"]
 			id: "41EA89A0E25E9C69"
 			tasks: [{
 				id: "507F985E36F0D783"
@@ -2894,9 +3465,10 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
+			description: ["抛光体系材料，有强度的。"]
 			id: "35CDED68126E7B64"
 			tasks: [{
 				id: "134072981692344C"
@@ -2904,9 +3476,13 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
+			description: [
+				"无视无敌吗，有点意思啊。"
+				"可惜不太有用。"
+			]
 			id: "59B59E85E824F24C"
 			tasks: [{
 				id: "7EFAEB36887C585B"
@@ -2914,9 +3490,13 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
+			description: [
+				"冰霜女王说是，但没有自己的特性。"
+				"寒冷流派材料。"
+			]
 			id: "6405976495CD75D6"
 			tasks: [{
 				id: "01D2B6CECC9B3E71"
@@ -2924,9 +3504,10 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
+			description: ["你知道冷冻的果冻吗？"]
 			id: "2C6B30208F25F01B"
 			tasks: [{
 				id: "6383FDF9458E2BEF"
@@ -2934,9 +3515,10 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
+			description: ["有两种以太，较强的是不稳定以太。"]
 			id: "6597CAC318C435EB"
 			tasks: [{
 				id: "0A0B0032C31EAFD5"
@@ -2944,9 +3526,10 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
+			description: ["材料罢了，实际用作部件情况少。"]
 			id: "18D17748BFEB09BD"
 			tasks: [{
 				id: "7535EA9565DFC38A"
@@ -2954,9 +3537,13 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
+			description: [
+				"这是？"
+				"有神秘的用处。"
+			]
 			id: "6BFB77E14F2D0F90"
 			tasks: [{
 				id: "14443C0B6BC692A5"
@@ -2964,9 +3551,10 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
+			description: ["强化领域并非大神。"]
 			id: "46933CA8E792A1B3"
 			tasks: [{
 				id: "48A28983389E0728"
@@ -2974,9 +3562,10 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
+			description: ["谁？"]
 			id: "670AE367A86C4596"
 			tasks: [{
 				id: "34605F3642ACD155"
@@ -2984,9 +3573,13 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
+			description: [
+				"我的天哪，愿力提高伤害，护甲记录伤害。"
+				"小趣事：渴望宝石现效果是重做后的效果，原效果分给了同模组的其他材料。"
+			]
 			id: "7F0D96B54593DC81"
 			tasks: [{
 				id: "751BED64F705EE89"
@@ -2994,9 +3587,13 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
+			description: [
+				"这是奇美拉。"
+				"buff清除者说是。"
+			]
 			id: "4BBCA5A184EB4DB8"
 			tasks: [{
 				id: "3925F97FAA1313E6"
@@ -3004,9 +3601,10 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
+			description: ["槽位很多啊很多，可惜精神状态不是很好。"]
 			id: "499887752F35D773"
 			tasks: [{
 				id: "1228C8158B1C25F8"
@@ -3014,9 +3612,10 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
+			description: ["按道理说这其实是九头蛇的鳞片。"]
 			id: "6DD7A7569D9D6624"
 			tasks: [{
 				id: "47743BE46ADA8F4A"
@@ -3024,9 +3623,13 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
+			description: [
+				"消耗魔力加强自身。"
+				"体修魔法师。"
+			]
 			id: "4DA5FB20BD784C88"
 			tasks: [{
 				id: "4B5569D141FD6C32"
@@ -3034,9 +3637,13 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
+			description: [
+				"坚守者？！"
+				"护甲效果和直接做的是一样的。"
+			]
 			id: "1574352C43D4E744"
 			tasks: [{
 				id: "07F53DC4BF84AF59"
@@ -3044,7 +3651,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			description: [
@@ -3063,6 +3670,10 @@
 			y: -7.5d
 		}
 		{
+			description: [
+				"究极材料，但是是过客方面的究极。"
+				"主要拿去做其他材料了。"
+			]
 			id: "7B88D6D0B33092E5"
 			tasks: [{
 				id: "408C57381E6FBB14"
@@ -3070,9 +3681,10 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
+			description: ["不愧是牢先，还能在早期版本导致崩溃。"]
 			id: "5D6EE55372930C5C"
 			tasks: [{
 				id: "446E765426B0C0BD"
@@ -3080,9 +3692,10 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
+			description: ["把怪物变成云彩，一吹就跑。"]
 			id: "42C4247180A49269"
 			tasks: [{
 				id: "108BD04ABE471A9E"
@@ -3090,9 +3703,10 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
+			description: ["黏液：我们联合！"]
 			id: "5CD1356B5A9CEE89"
 			tasks: [{
 				id: "3389BA937FF242B3"
@@ -3100,9 +3714,10 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
+			description: ["生活多姿多彩，槽位也是。"]
 			id: "383CB5F12F96F5ED"
 			tasks: [{
 				id: "0DE6E1824430F873"
@@ -3110,9 +3725,10 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
+			description: ["永不完结的终焉城堡。"]
 			id: "0063F00ED5C4D4E1"
 			tasks: [{
 				id: "6060F7AE80A3B26D"
@@ -3120,9 +3736,10 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
+			description: ["你就躲吧，谁找得到你啊。"]
 			id: "1BD0AF96EB5390D5"
 			tasks: [{
 				id: "726FA197898DE658"
@@ -3130,9 +3747,10 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
+			description: ["飞！"]
 			id: "7A2D5159710FD65F"
 			tasks: [{
 				id: "128A5EE0DC34A4D9"
@@ -3140,9 +3758,10 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
+			description: ["原子级采掘速度。"]
 			id: "76318BA5A249AE8F"
 			tasks: [{
 				id: "3DB85C33A2347C18"
@@ -3150,9 +3769,10 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
+			description: ["爆破领域大神，但谁都炸。"]
 			id: "031CEDA92C05C98C"
 			tasks: [{
 				id: "5C9E5E5680E69C29"
@@ -3160,9 +3780,10 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
+			description: ["练成钢筋铁骨的秘诀就是浇铸下界合金锭。"]
 			id: "56D0E6293605B021"
 			tasks: [{
 				id: "0E0D51369F96E30F"
@@ -3170,9 +3791,10 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
+			description: ["真是美味啊！"]
 			id: "234C77859361B242"
 			tasks: [{
 				id: "2736364A4F0918BB"
@@ -3180,9 +3802,10 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
+			description: ["亡灵的至高强者。"]
 			id: "4618C69CFD93CD2F"
 			tasks: [{
 				id: "43DD7F3906FB0B77"
@@ -3190,9 +3813,10 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
+			description: ["对，这就是下界合金。"]
 			id: "772FE01AE9C29831"
 			tasks: [{
 				id: "5F4DAC4C33E6C6CF"
@@ -3200,9 +3824,13 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
+			description: [
+				"回响？"
+				"！？回响打击？！"
+			]
 			id: "29F53B62FA59D7A6"
 			tasks: [{
 				id: "370CE8447A5AA445"
@@ -3210,9 +3838,10 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
+			description: ["这啥呀这都。"]
 			id: "317907B4BC30AD5D"
 			tasks: [{
 				id: "152C10F9A5DF15CE"
@@ -3220,9 +3849,10 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
+			description: ["黏液体系又一得力干将。"]
 			id: "5F3F5874438E05DD"
 			tasks: [{
 				id: "2BFC58F33579BB8B"
@@ -3230,9 +3860,10 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
+			description: ["暴击领域大神。"]
 			id: "4690FE45CAB0C49D"
 			tasks: [{
 				id: "242B9C1DBB7B1395"
@@ -3240,9 +3871,10 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
+			description: ["削减生命之神。"]
 			id: "73228BF5D92446A8"
 			tasks: [{
 				id: "663F26313A658EED"
@@ -3250,9 +3882,10 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
+			description: ["这是材料底板，建议合成用。"]
 			id: "28C8D3E53A60181E"
 			tasks: [{
 				id: "57F31B57E9F6DAC8"
@@ -3260,9 +3893,10 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
+			description: ["这是转化桌材料。"]
 			id: "07536835AFFDA28B"
 			tasks: [{
 				id: "5BC6CEB2B6382622"
@@ -3270,9 +3904,10 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
+			description: ["这是？"]
 			id: "015C06B3842DA021"
 			tasks: [{
 				id: "63DB470DBBA8AB01"
@@ -3280,9 +3915,10 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
+			description: ["来赚钱来了这是。"]
 			id: "55706DB309C1B5EC"
 			tasks: [{
 				id: "579C987758B2CC46"
@@ -3290,9 +3926,10 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
+			description: ["诸神黄昏对抗者。"]
 			id: "46DE30592DAC3833"
 			tasks: [{
 				id: "253591F2C0DE4263"
@@ -3300,9 +3937,10 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
+			description: ["下界合金巨兽。"]
 			id: "7EF74011C9B1661E"
 			tasks: [{
 				id: "20E53C3E3428D493"
@@ -3310,9 +3948,10 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
+			description: ["这又是？"]
 			id: "0FF0F373774C27BE"
 			tasks: [{
 				id: "54E12FB892D9BFDE"
@@ -3320,9 +3959,10 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
+			description: ["[ \"同\", { \"text\": \"戈伯\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7FDE104F442FE8CE\" } }, \"。\" ]"]
 			id: "2635796376009009"
 			tasks: [{
 				id: "631036BD7EC1D869"
@@ -3330,9 +3970,10 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
+			description: ["玻璃版下界之星。"]
 			id: "040D038F8FD21887"
 			tasks: [{
 				id: "637C9E0333367B82"
@@ -3340,9 +3981,10 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -1.5d
+			y: -2.5d
 		}
 		{
+			description: ["萨满祭司领域大神。"]
 			id: "3CD723BBE8437318"
 			tasks: [{
 				id: "4DE603F20D1EFD9C"
@@ -3350,9 +3992,10 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -1.5d
+			y: -2.5d
 		}
 		{
+			description: ["给老资历桂霞了，下版本听说还要加强。"]
 			id: "29720DAB53BDC953"
 			tasks: [{
 				id: "68F66D1855330359"
@@ -3360,9 +4003,13 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -1.5d
+			y: -2.5d
 		}
 		{
+			description: [
+				"末地戈伯的代行者。"
+				"数值怪必备材料。"
+			]
 			id: "0DE1C0537BF92DA2"
 			tasks: [{
 				id: "7721CF96EEDA93CD"
@@ -3370,9 +4017,10 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -1.5d
+			y: -2.5d
 		}
 		{
+			description: ["滚烫的下界合金。"]
 			id: "67E3D64C174B5949"
 			tasks: [{
 				id: "66C8B39DECC67714"
@@ -3380,9 +4028,10 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: -1.5d
+			y: -2.5d
 		}
 		{
+			description: ["优雅某种意义上可以避免各种伤害。"]
 			id: "6B1671090787D197"
 			tasks: [{
 				id: "25B90724E20029A7"
@@ -3390,9 +4039,10 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: -1.5d
+			y: -2.5d
 		}
 		{
+			description: ["着火加速，原来还是蒸汽机啊。"]
 			id: "31FE8379F9653420"
 			tasks: [{
 				id: "05CC3E202F1C38A3"
@@ -3400,9 +4050,10 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: -1.5d
+			y: -2.5d
 		}
 		{
+			description: ["这是中文吗.jpg"]
 			id: "5727BA6B8598A9E5"
 			tasks: [{
 				id: "7D615CA2A1CC2D3D"
@@ -3410,9 +4061,10 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -1.5d
+			y: -2.5d
 		}
 		{
+			description: ["发烧了。"]
 			id: "2DE71C727F62001C"
 			tasks: [{
 				id: "4F99496BE4C69E6F"
@@ -3420,9 +4072,10 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: -1.5d
+			y: -2.5d
 		}
 		{
+			description: ["不会降温的铁锭。"]
 			id: "0EFCC84DE056372E"
 			tasks: [{
 				id: "638DC25F87804D88"
@@ -3430,9 +4083,13 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
+			description: [
+				"你是......"
+				"你谁啊？"
+			]
 			id: "76FA6CC1584EBA0A"
 			tasks: [{
 				id: "0AABF37602F0516D"
@@ -3440,9 +4097,10 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
+			description: ["盖亚魂指定合作伙伴。"]
 			id: "750EEDF56F636F96"
 			tasks: [{
 				id: "20FB55ADBA2AA21C"
@@ -3450,9 +4108,10 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
+			description: ["这是材料底板，建议合成用。"]
 			id: "18DB28970B404707"
 			tasks: [{
 				id: "0495464095DED864"
@@ -3460,19 +4119,21 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
+			description: ["国防科技。"]
 			id: "1621D2643983D629"
 			tasks: [{
 				id: "220E8593C2FB8405"
 				item: "mushroom_daydream:heimdallr"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -0.5d
+			x: 10.0d
+			y: 0.5d
 		}
 		{
+			description: ["[ \"见\", { \"text\": \"龙晶\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0EC9EE32C64073DA\" } }, \"。\" ]"]
 			id: "1F3D5637C1B13AE1"
 			tasks: [{
 				id: "5972B74AB6845C68"
@@ -3480,9 +4141,10 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
+			description: ["龟缩流打法。"]
 			id: "58758FFC8838510A"
 			tasks: [{
 				id: "62876FE3360E72BE"
@@ -3490,9 +4152,10 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
+			description: ["龟缩领域大神。"]
 			id: "1D8774E837106E9E"
 			tasks: [{
 				id: "294F215340B1679C"
@@ -3500,9 +4163,10 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
+			description: ["家里的净水器。"]
 			id: "7623CA22CDB81FBB"
 			tasks: [{
 				id: "0C87CC317DE81386"
@@ -3510,9 +4174,10 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
+			description: ["十分甚至九分的热血。"]
 			id: "5F25A4114A361B2F"
 			tasks: [{
 				id: "1BB9D7E42AC4DAFA"
@@ -3520,9 +4185,10 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 0.5d
+			y: -0.5d
 		}
 		{
+			description: ["落下的怨恨泪水。"]
 			id: "18B6440FB24147DE"
 			tasks: [{
 				id: "59247C69804F4731"
@@ -3530,9 +4196,10 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 0.5d
+			y: -0.5d
 		}
 		{
+			description: ["又称生命之息。"]
 			id: "38C17A410F608BD6"
 			tasks: [{
 				id: "3B09B9F28A0F80AD"
@@ -3540,9 +4207,10 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 0.5d
+			y: -0.5d
 		}
 		{
+			description: ["脱离家后才能更好的释！放！自！我！"]
 			id: "502D5F878FAD7080"
 			tasks: [{
 				id: "7CEC22D0133EAB41"
@@ -3550,9 +4218,10 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 0.5d
+			y: -0.5d
 		}
 		{
+			description: ["永恒不灭之代表。"]
 			id: "0EDBBA554B836B54"
 			tasks: [{
 				id: "01D630B265A6BD59"
@@ -3560,9 +4229,10 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 0.5d
+			y: -0.5d
 		}
 		{
+			description: ["我觉得你不会做这个的。"]
 			id: "49676BD836F2634F"
 			tasks: [{
 				id: "41D445612313C44E"
@@ -3570,9 +4240,10 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 0.5d
+			y: -0.5d
 		}
 		{
+			description: ["皇牌空战领域大神。"]
 			id: "1EF0DCA49096591C"
 			tasks: [{
 				id: "790F5E897DDADC4C"
@@ -3580,9 +4251,10 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 0.5d
+			y: -0.5d
 		}
 		{
+			description: ["这是强化版材料。"]
 			id: "7F006D88759FA4EA"
 			tasks: [{
 				id: "6A391B7680D4494A"
@@ -3590,9 +4262,10 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 0.5d
+			y: -0.5d
 		}
 		{
+			description: ["铁傀儡的回响。"]
 			id: "376901D7A2D39D9A"
 			tasks: [{
 				id: "2951817A6F3314F5"
@@ -3600,9 +4273,10 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 0.5d
+			y: -0.5d
 		}
 		{
+			description: ["神说，你不许拥有效果。"]
 			id: "541DD3E3DA9C916E"
 			tasks: [{
 				id: "445E6716F9A0660D"
@@ -3610,19 +4284,21 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
+			description: ["[ \"见\", { \"text\": \"龙晶\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0EC9EE32C64073DA\" } }, \"。\" ]"]
 			id: "1E224252F55F061D"
 			tasks: [{
 				id: "716EC9BE75D8CA6F"
 				item: "ticex:draconic_crystal"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 1.5d
+			x: 13.0d
+			y: -1.5d
 		}
 		{
+			description: ["秘银，但不是法术。"]
 			id: "38F8080316B2027C"
 			tasks: [{
 				id: "31140189FAF68C51"
@@ -3630,9 +4306,10 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
+			description: ["通常作为副产物出场。"]
 			id: "36C69AE8BC361CA9"
 			tasks: [{
 				id: "0472F53281D3CB79"
@@ -3640,9 +4317,10 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
+			description: ["精华。"]
 			id: "2ADA69798F880D65"
 			tasks: [{
 				id: "2EE693586B2095C5"
@@ -3650,9 +4328,10 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
+			description: ["加强版暗物质。"]
 			id: "29B39C320788F83A"
 			tasks: [{
 				id: "47EEB27BE2C68249"
@@ -3660,9 +4339,10 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
+			description: ["刷怪笼，紫颂果。"]
 			id: "02B35057B9E5F178"
 			tasks: [{
 				id: "0BA1C7705283E12F"
@@ -3670,9 +4350,10 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
+			description: ["生命之息的真持有者。"]
 			id: "1F41FC72F63AF6FD"
 			tasks: [{
 				id: "418C8A7F3A6D90F8"
@@ -3680,9 +4361,10 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
+			description: ["玻璃做的。"]
 			id: "74D8D46E416F7834"
 			tasks: [{
 				id: "399D6E06D1E89401"
@@ -3690,9 +4372,10 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
+			description: ["这是登神长阶的第一关。"]
 			id: "3306E42AA7FA17BC"
 			tasks: [{
 				id: "1EFAA4143CDE8DAF"
@@ -3700,9 +4383,10 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
+			description: ["加强版玛玉灵。"]
 			id: "7A4EDF4998676E1E"
 			tasks: [{
 				id: "0B4513CFC6F74004"
@@ -3710,9 +4394,10 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
+			description: ["丢蝌蚪的来了。"]
 			id: "190549F74344EA41"
 			tasks: [{
 				id: "6A3521AB921DE7B6"
@@ -3720,9 +4405,13 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
+			description: [
+				"小趣事：此矿石在旧版本，发光的挖了会爆炸。"
+				"现版本不会爆炸，矿石材质统一为发光材质。"
+			]
 			id: "2970C3721ACEDB2A"
 			tasks: [{
 				id: "7B01722B5C21E2E0"
@@ -3730,9 +4419,10 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
+			description: ["古城的陶瓷。"]
 			id: "7D52776A278E1705"
 			tasks: [{
 				id: "062BDA8A635C6FC5"
@@ -3740,9 +4430,10 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
+			description: ["掌管重力的材料。"]
 			id: "46273D0B9B0B0A7D"
 			tasks: [{
 				id: "4F1D465105C473E6"
@@ -3750,9 +4441,10 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
+			description: ["重力晶，但没有起飞功能。"]
 			id: "5E40BA47BD7BD06F"
 			tasks: [{
 				id: "24747D3E92334CD9"
@@ -3760,9 +4452,10 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
+			description: ["饿了。"]
 			id: "37E1E3E8B5EB23A2"
 			tasks: [{
 				id: "6D64E5FB2BB83F33"
@@ -3770,9 +4463,10 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
+			description: ["环球旅行家，但更加坚韧。"]
 			id: "3A6C3A32428F474C"
 			tasks: [{
 				id: "76271AC30D73A8FC"
@@ -3780,9 +4474,10 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
+			description: ["你知道的，这东西有毒。"]
 			id: "566FBCF72D8E4735"
 			tasks: [{
 				id: "56FA52DB66253331"
@@ -3790,9 +4485,10 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 3.5d
+			y: 2.5d
 		}
 		{
+			description: ["血怒了。"]
 			id: "004C15204F481725"
 			tasks: [{
 				id: "53D5FFFDF377CAFA"
@@ -3800,9 +4496,10 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 3.5d
+			y: 2.5d
 		}
 		{
+			description: ["淋巴发炎。"]
 			id: "6E8391873BA8CC17"
 			tasks: [{
 				id: "28483E20071F5E15"
@@ -3810,9 +4507,10 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 3.5d
+			y: 2.5d
 		}
 		{
+			description: ["依旧血作为启动条件。"]
 			id: "2D21577DB6FA88C1"
 			tasks: [{
 				id: "6D7883BD4A09B0CA"
@@ -3820,9 +4518,10 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 3.5d
+			y: 2.5d
 		}
 		{
+			description: ["你说得对，16级直接赢，但队友15了。"]
 			id: "7C959A1B012F6110"
 			tasks: [{
 				id: "77FE040BB39964A0"
@@ -3830,9 +4529,10 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 3.5d
+			y: 2.5d
 		}
 		{
+			description: ["真菌型史莱姆。"]
 			id: "28A8CC606C114E11"
 			tasks: [{
 				id: "166FA5FD7BE90611"
@@ -3840,7 +4540,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 3.5d
+			y: 2.5d
 		}
 		{
 			id: "4A75129A5E57BE2C"
@@ -3850,7 +4550,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 3.5d
+			y: 2.5d
 		}
 		{
 			id: "138BDCB8A1B9AE2C"
@@ -3860,7 +4560,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 3.5d
+			y: 2.5d
 		}
 		{
 			id: "78AA9C8E38C3A1B1"
@@ -3870,7 +4570,7 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 3.5d
+			y: 2.5d
 		}
 		{
 			id: "2C454656E3402821"
@@ -3880,7 +4580,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 4.5d
+			y: 3.5d
 		}
 		{
 			id: "4AFFDF3101F19245"
@@ -3890,7 +4590,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 4.5d
+			y: 3.5d
 		}
 		{
 			id: "40AE53E1FBF09321"
@@ -3900,7 +4600,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 4.5d
+			y: 3.5d
 		}
 		{
 			id: "7F0469FD10B9D24A"
@@ -3910,7 +4610,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 4.5d
+			y: 3.5d
 		}
 		{
 			id: "670587DD5684EB52"
@@ -3920,9 +4620,10 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 4.5d
+			y: 3.5d
 		}
 		{
+			description: ["黏液体系又一得力干将。"]
 			id: "5B87911C28E2BF84"
 			tasks: [{
 				id: "5EF7D3494E02CC63"
@@ -3930,9 +4631,10 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 4.5d
+			y: 3.5d
 		}
 		{
+			description: ["原来是监守钢啊，我还以为是监守者呢。"]
 			id: "0B323B4711F2E20C"
 			tasks: [{
 				id: "5EE5646FF2B536B3"
@@ -3940,9 +4642,10 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 4.5d
+			y: 3.5d
 		}
 		{
+			description: ["我勒个豆啊，掌管自然力量的大神。"]
 			id: "63EC126B80B0D585"
 			tasks: [{
 				id: "0FF3D7E04762F8A7"
@@ -3950,9 +4653,10 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 4.5d
+			y: 3.5d
 		}
 		{
+			description: ["芝士瞻远者。"]
 			id: "05C769A335D6B54A"
 			tasks: [{
 				id: "4BE0D36039D19D7E"
@@ -3960,9 +4664,10 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 4.5d
+			y: 3.5d
 		}
 		{
+			description: ["骑士水晶，骑士精神。"]
 			id: "5955D3E9657FCBCC"
 			tasks: [{
 				id: "2A7DC9BC884DE870"
@@ -3970,9 +4675,10 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 5.5d
+			y: 4.5d
 		}
 		{
+			description: ["这是强化版材料。"]
 			id: "2E0CA4BB155F6FB6"
 			tasks: [{
 				id: "02D9F8A9DA69E7A2"
@@ -3980,9 +4686,10 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 5.5d
+			y: 4.5d
 		}
 		{
+			description: ["雾隐在江东铁壁。"]
 			id: "1AC44B2AC9FDA743"
 			tasks: [{
 				id: "632D27BB843728E9"
@@ -3990,9 +4697,10 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 5.5d
+			y: 4.5d
 		}
 		{
+			description: ["可爱捏。"]
 			id: "7872213728F11A67"
 			tasks: [{
 				id: "20B41C662154D2AA"
@@ -4000,9 +4708,10 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 5.5d
+			y: 4.5d
 		}
 		{
+			description: ["字面雷霆材料。"]
 			id: "644254E753267BC0"
 			tasks: [{
 				id: "631489128E3ABE12"
@@ -4010,9 +4719,10 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 5.5d
+			y: 4.5d
 		}
 		{
+			description: ["我玩机械动力玩的。"]
 			id: "6A5E38D6DFE1EBC5"
 			tasks: [{
 				id: "415D8616242F5843"
@@ -4020,9 +4730,10 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 5.5d
+			y: 4.5d
 		}
 		{
+			description: ["凋零了。。。"]
 			id: "2F9683942699227A"
 			tasks: [{
 				id: "5AE86336238BC1FC"
@@ -4030,9 +4741,10 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 5.5d
+			y: 4.5d
 		}
 		{
+			description: ["不是你想的那个零素。"]
 			id: "775AFAFE1B295739"
 			tasks: [{
 				id: "68C58D0589BE480A"
@@ -4040,9 +4752,13 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 5.5d
+			y: 4.5d
 		}
 		{
+			description: [
+				"登神长阶的第二关。"
+				"还是时运领域大神，就是用多了会分解自己。"
+			]
 			id: "6936B3265A0B02C3"
 			tasks: [{
 				id: "7AA8611EC5D84E7B"
@@ -4050,9 +4766,10 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 5.5d
+			y: 4.5d
 		}
 		{
+			description: ["苦力怕的回响。"]
 			id: "1754B2FECD29CDEA"
 			tasks: [{
 				id: "037B9937B48FF8B3"
@@ -4060,9 +4777,10 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 6.5d
+			y: 5.5d
 		}
 		{
+			description: ["复仇之魂。"]
 			id: "76EE781D73E09512"
 			tasks: [{
 				id: "7EA907AF084C4F5A"
@@ -4070,9 +4788,10 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 6.5d
+			y: 5.5d
 		}
 		{
+			description: ["/tp"]
 			id: "3FBD98D74DE5B1B2"
 			tasks: [{
 				id: "7DBB98F6E838F14D"
@@ -4080,9 +4799,13 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 6.5d
+			y: 5.5d
 		}
 		{
+			description: [
+				"加速材料。"
+				"建议是浇铸铸件台、铸造盆和浇注口。"
+			]
 			id: "158E6F73C0B132F9"
 			tasks: [{
 				id: "3C849D6D09207FBB"
@@ -4090,9 +4813,10 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 6.5d
+			y: 5.5d
 		}
 		{
+			description: ["素质略低。"]
 			id: "04626AFDB5B84566"
 			tasks: [{
 				id: "3F8E119A2E8F3F5E"
@@ -4100,9 +4824,10 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 6.5d
+			y: 5.5d
 		}
 		{
+			description: ["你会变成龙，但也会变成吃货。"]
 			id: "6B0A69EBABFBA16A"
 			tasks: [{
 				id: "6B9F04E77740A076"
@@ -4110,9 +4835,13 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 6.5d
+			y: 5.5d
 		}
 		{
+			description: [
+				"对，这是要龙血的。"
+				"有匠魂你就不需要做锻炉了。"
+			]
 			id: "31F22DA0053A2D7A"
 			tasks: [{
 				id: "1925E6713AF7FDDF"
@@ -4120,19 +4849,24 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 6.5d
+			y: 5.5d
 		}
 		{
+			description: ["我问你我获取方式呢？"]
 			id: "2252DC60CE11AD43"
 			tasks: [{
 				id: "1ED3B92E783AFA95"
 				item: "sakuratinker:dragon_sinew"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 9.0d
 			y: 6.5d
 		}
 		{
+			description: [
+				"对，这是要龙血的。"
+				"有匠魂你就不需要做锻炉了。"
+			]
 			id: "374E2BAA8CAD99DA"
 			tasks: [{
 				id: "258CEF879C4E1E45"
@@ -4140,19 +4874,27 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 6.5d
+			y: 5.5d
 		}
 		{
+			description: [
+				"对，这是要龙血的。"
+				"有匠魂你就不需要做锻炉了。"
+			]
 			id: "10E2C74A5180BCD0"
 			tasks: [{
 				id: "7DC925A795524E2A"
 				item: "iceandfire:dragonsteel_ice_ingot"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 7.5d
+			x: 16.0d
+			y: 5.5d
 		}
 		{
+			description: [
+				"这就是龙鳞。"
+				"不过和末地乐事结合你就有两种龙鳞了。"
+			]
 			id: "7770A4F793C0F527"
 			tasks: [{
 				id: "68B617690FD54DEA"
@@ -4160,9 +4902,10 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 7.5d
+			y: 6.5d
 		}
 		{
+			description: ["吼吼吼，3种了。"]
 			id: "59ACF1C48094EEBA"
 			tasks: [{
 				id: "79C4B602B6E418D4"
@@ -4170,9 +4913,10 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 7.5d
+			y: 6.5d
 		}
 		{
+			description: ["这是小狐狸。"]
 			id: "2E9ABB3B3D71E6A9"
 			tasks: [{
 				id: "299B52C85EA07711"
@@ -4180,9 +4924,10 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 7.5d
+			y: 6.5d
 		}
 		{
+			description: ["塔玛希之骨。"]
 			id: "08CEC09BC1C847B8"
 			tasks: [{
 				id: "39CFD7BB4454AB3E"
@@ -4190,9 +4935,10 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 7.5d
+			y: 6.5d
 		}
 		{
+			description: ["精华。"]
 			id: "6CAEDC40F8CFE838"
 			tasks: [{
 				id: "6DB63996D25F2259"
@@ -4200,9 +4946,10 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 7.5d
+			y: 6.5d
 		}
 		{
+			description: ["匠魂自我更新了暮色森林联动，现在两种骑士金属导向同种材料。"]
 			id: "21E834EEEB40D29C"
 			tasks: [{
 				id: "75457DB327D5C0E7"
@@ -4218,9 +4965,10 @@
 			}]
 			title: "骑士金属"
 			x: 15.0d
-			y: 7.5d
+			y: 6.5d
 		}
 		{
+			description: ["虚假的悲悯......"]
 			id: "7C8A9169C697DC65"
 			tasks: [{
 				id: "0EAF2E1A7AC0171A"
@@ -4231,26 +4979,29 @@
 			y: 10.0d
 		}
 		{
+			description: ["数值领域究极大神。"]
 			id: "1089A5D7987DF8E3"
 			tasks: [{
 				id: "396BD32A27C7C954"
 				item: "tprt:mixeddragon"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 10.0d
+			x: 13.0d
+			y: 13.0d
 		}
 		{
+			description: ["天外来客。"]
 			id: "7054BFB88DA8D64D"
 			tasks: [{
 				id: "7820412619B0B706"
 				item: "momotinker:meteor_nucleus"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 10.0d
+			x: 15.0d
+			y: 11.0d
 		}
 		{
+			description: ["无效之怠惰......"]
 			id: "05F25F8618D39D42"
 			tasks: [{
 				id: "257C18A1DE480B17"
@@ -4261,36 +5012,44 @@
 			y: 10.0d
 		}
 		{
+			description: ["心之钢。"]
 			id: "15B3516D9D9DA785"
 			tasks: [{
 				id: "756B38325E80F944"
 				item: "momotinker:heartsteel"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 10.0d
+			x: 12.0d
+			y: 12.0d
 		}
 		{
+			description: ["无衣之色欲......"]
 			id: "147B459E5DA32AAF"
 			tasks: [{
 				id: "392AF6B3E52EDA0D"
 				item: "momotinker:lust_mirror"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 11.0d
 			y: 10.0d
 		}
 		{
+			description: ["末影龙生存之精华。"]
 			id: "414D6FAEDFC6F8FB"
 			tasks: [{
 				id: "7CE80114C36DC52A"
 				item: "momotinker:dragon_jade"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 10.0d
+			x: 17.0d
+			y: 11.0d
 		}
 		{
+			description: [
+				"我看见一老奶奶在向我招手了。"
+				"那是孟婆！"
+				"我去，不早说！"
+			]
 			id: "24ACADF6DF81D47A"
 			tasks: [{
 				id: "106771B267554908"
@@ -4298,19 +5057,21 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 10.0d
+			y: 12.0d
 		}
 		{
+			description: ["生命之暴食......"]
 			id: "697814F298E8C72B"
 			tasks: [{
 				id: "4ADD7774D8083389"
 				item: "momotinker:gluttony_core"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 13.0d
 			y: 10.0d
 		}
 		{
+			description: ["法师领域终极大神。"]
 			id: "1B72DF432AC803A1"
 			tasks: [{
 				id: "53A6995C2E55A969"
@@ -4321,16 +5082,18 @@
 			y: 11.0d
 		}
 		{
+			description: ["此为征服海洋之证明。"]
 			id: "45942DB3D5631C93"
 			tasks: [{
 				id: "18834DF627F50376"
 				item: "momotinker:hadal_platinum"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 11.0d
+			x: 11.0d
+			y: 15.0d
 		}
 		{
+			description: ["科技代表的终极成果。"]
 			id: "12FF2F70D3D61FB5"
 			tasks: [{
 				id: "7FBEF6179213F66A"
@@ -4341,6 +5104,7 @@
 			y: 11.0d
 		}
 		{
+			description: ["注：水晶矩阵有两种，且效果不同，按需使用。"]
 			id: "21444A380CAE8BF2"
 			tasks: [{
 				id: "3EDABC09ADE97083"
@@ -4351,66 +5115,73 @@
 			y: 11.0d
 		}
 		{
+			description: ["这便是罪孽的终点。"]
 			id: "0E7B58C62D478B4D"
 			tasks: [{
 				id: "04E2D761917865A7"
 				item: "momotinker:nihilism"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 11.0d
+			x: 17.0d
+			y: 10.0d
 		}
 		{
+			description: ["你已走上歪路。"]
 			id: "6F12B0F340080935"
 			tasks: [{
 				id: "5EBC3C4E193F53E1"
 				item: "momotinker:stained_blood_gold"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 11.0d
+			x: 11.0d
+			y: 16.0d
 		}
 		{
+			description: ["代表时间的材料。"]
 			id: "32F531D33984F859"
 			tasks: [{
 				id: "78D912E694D59A9B"
 				item: "momotinker:twilight_purple_gold"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 11.0d
+			x: 9.0d
+			y: 17.0d
 		}
 		{
+			description: ["此为灵魂坚韧之极致。"]
 			id: "282B392019A7BDB8"
 			tasks: [{
 				id: "6E47D2291ECBC873"
 				item: "momotinker:crystallized_platinum"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 11.0d
+			x: 12.0d
+			y: 15.0d
 		}
 		{
+			description: ["此为英雄正义之证明。"]
 			id: "06B115E62DE9D406"
 			tasks: [{
 				id: "269CE997BEB24532"
 				item: "momotinker:starry_mysterious_gold"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 11.0d
+			x: 10.0d
+			y: 16.0d
 		}
 		{
+			description: ["此为时间掌控之熟练。"]
 			id: "1973995F10CDC868"
 			tasks: [{
 				id: "3E1798461255DC2F"
 				item: "momotinker:timetrace_purple_gold"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 12.0d
+			x: 10.0d
+			y: 17.0d
 		}
 		{
+			description: ["山河社稷图？"]
 			id: "50FDDC90F95FCBBE"
 			tasks: [{
 				id: "635F037D9CBDBD8E"
@@ -4421,36 +5192,40 @@
 			y: 12.0d
 		}
 		{
+			description: ["比较懒的金属。"]
 			id: "31FA703566ABDC45"
 			tasks: [{
 				id: "07EF437AB4DB633E"
 				item: "tinkers_advanced:iridium_chunk"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 12.0d
+			x: 9.0d
+			y: 13.0d
 		}
 		{
+			description: ["异次元空间之碎片。"]
 			id: "6F9CE823253C2ADF"
 			tasks: [{
 				id: "3D6545D260BF6593"
 				item: "momotinker:dimensional_prism"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 11.0d
 			y: 12.0d
 		}
 		{
+			description: ["支配之傲慢......"]
 			id: "500EDC8942742EE7"
 			tasks: [{
 				id: "20FC6DC1A357CFC2"
 				item: "momotinker:arrogance_proof"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 12.0d
+			x: 10.0d
+			y: 10.0d
 		}
 		{
+			description: ["此即为天外来客之信。"]
 			id: "6DFD4D4B5591DD72"
 			tasks: [{
 				id: "548055AF8BEFCA47"
@@ -4458,19 +5233,21 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 12.0d
+			y: 11.0d
 		}
 		{
+			description: ["黏液家族的先驱者。"]
 			id: "1C7D59D77218490A"
 			tasks: [{
 				id: "4539708837A00F03"
 				item: "momotinker:rhythm_slime"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 12.0d
+			x: 9.0d
+			y: 14.0d
 		}
 		{
+			description: ["排外之嫉妒......"]
 			id: "362AFEBA565547AB"
 			tasks: [{
 				id: "6E84724D8083C1CE"
@@ -4478,69 +5255,76 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 12.0d
+			y: 10.0d
 		}
 		{
+			description: ["我是魔法使。"]
 			id: "49D8F64344FDBAB1"
 			tasks: [{
 				id: "027B5BAC0D76C8EE"
 				item: "sakuratinker:two_form_mist_star"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 12.0d
+			x: 10.0d
+			y: 11.0d
 		}
 		{
+			description: ["致密恒星之心。"]
 			id: "590E4BE1ED826E42"
 			tasks: [{
 				id: "7A4C5928341C9C03"
 				item: "avaritia:neutron_ingot"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 13.0d
+			x: 13.0d
+			y: 11.0d
 		}
 		{
+			description: ["它已诞生意识。"]
 			id: "209C60141B815198"
 			tasks: [{
 				id: "65BF8A2593428E27"
 				item: "momotinker:living_platinum"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 13.0d
+			x: 13.0d
+			y: 15.0d
 		}
 		{
+			description: ["登神之证。"]
 			id: "633DD6AB63057CFD"
 			tasks: [{
 				id: "7F0D28A0724FE0F7"
 				item: "tinkers_advanced:voltaic_crystal"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.0d
 			y: 13.0d
 		}
 		{
+			description: ["《核电？轻而易举啊！》第一部分。"]
 			id: "5E90F89C84AC6302"
 			tasks: [{
 				id: "37F21E7E96704551"
 				item: "tinkers_advanced:protocite_pellet"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 13.0d
+			x: 14.0d
+			y: 12.0d
 		}
 		{
+			description: ["黏液家族编外成员。"]
 			id: "307EA587BA3173C6"
 			tasks: [{
 				id: "428A5D616BF17254"
 				item: "tinkers_advanced:anti_neutronium_ingot"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 13.0d
+			x: 11.0d
+			y: 14.0d
 		}
 		{
+			description: ["魔法吃货。"]
 			id: "4CEC40AFF6518478"
 			tasks: [{
 				id: "441CA9700565064F"
@@ -4551,106 +5335,120 @@
 			y: 13.0d
 		}
 		{
+			description: ["狂徒铠甲，合体！"]
 			id: "40DD2AB58C72E827"
 			tasks: [{
 				id: "043124F1CA2192ED"
 				item: "momotinker:spirit_visage"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 13.0d
+			x: 13.0d
+			y: 12.0d
 		}
 		{
+			description: ["财富之贪婪......"]
 			id: "1C6D6419162D97A8"
 			tasks: [{
 				id: "172EF301AB22EFA5"
 				item: "momotinker:greedy_contract"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 13.0d
+			x: 14.0d
+			y: 10.0d
 		}
 		{
+			description: ["战斗之暴怒......"]
 			id: "25403A937DA91D59"
 			tasks: [{
 				id: "2451BB6DAB48F75E"
 				item: "momotinker:rage_stone_statue"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 13.0d
+			x: 15.0d
+			y: 10.0d
 		}
 		{
+			description: ["并非饕餮，只是幸运拉满了。"]
 			id: "171E99E5C1192C43"
 			tasks: [{
 				id: "57385FBE6742505F"
 				item: "sakuratinker:gluttonous"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 14.0d
+			x: 11.0d
+			y: 13.0d
 		}
 		{
+			description: ["《核电？轻而易举啊！》第二部分。"]
 			id: "16FF1CA6ECDE5EC2"
 			tasks: [{
 				id: "0DB52B4176D00E22"
 				item: "tinkers_advanced:irradium_ingot"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 14.0d
+			x: 15.0d
+			y: 12.0d
 		}
 		{
+			description: ["此即为真实。"]
 			id: "214C4EB42E77246F"
 			tasks: [{
 				id: "3034D5BD2A299766"
 				item: "sakuratinker:delusion"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 14.0d
+			x: 12.0d
+			y: 13.0d
 		}
 		{
+			description: [
+				"陪我下最后一盘。"
+				"怎么早上了？"
+			]
 			id: "52ED4C9D009E75E8"
 			tasks: [{
 				id: "19D4ECB1FFD7CB1A"
 				item: "momotinker:immortal_weiqi"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 14.0d
+			x: 9.0d
+			y: 12.0d
 		}
 		{
+			description: ["狼的低语。"]
 			id: "34D7FB3E2BD59A25"
 			tasks: [{
 				id: "24AAB95681BEB782"
 				item: "dreamtinker:metallivorous_stibium_lupus"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 14.0d
+			x: 17.0d
+			y: 13.0d
 		}
 		{
+			description: ["此为千锤百炼之灼燃。"]
 			id: "2307F92C969814EC"
 			tasks: [{
 				id: "0CA23DDF5E98A457"
 				item: "momotinker:stellar_core_platinum"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 14.0d
+			x: 10.0d
+			y: 15.0d
 		}
 		{
+			description: ["代表远古的材料。"]
 			id: "2DA6BA2BD93025BC"
 			tasks: [{
 				id: "26EAF2F4F22DE0CE"
 				item: "momotinker:ashen_platinum"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 14.0d
+			x: 9.0d
+			y: 15.0d
 		}
 		{
+			description: ["一坨小可爱。"]
 			id: "7E4E3539B6CFD858"
 			tasks: [{
 				id: "45FA9F77D1AD86A6"
@@ -4658,19 +5456,21 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 14.0d
+			y: 13.0d
 		}
 		{
+			description: ["你已领悟生命。"]
 			id: "74E2FD55886F6C44"
 			tasks: [{
 				id: "641C6FF62803E1F0"
 				item: "momotinker:reversetime_purple_gold"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 14.0d
+			x: 11.0d
+			y: 17.0d
 		}
 		{
+			description: ["代表英雄的材料。"]
 			id: "046BA921AB4E633B"
 			tasks: [{
 				id: "420776176CD3F65F"
@@ -4678,39 +5478,43 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 15.0d
+			y: 16.0d
 		}
 		{
+			description: ["黑龙之怒吼。"]
 			id: "22C073A6A67379EC"
 			tasks: [{
 				id: "178816B36A46F4D9"
 				item: "cloudertinker:magala_ingot"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 15.0d
+			x: 15.0d
+			y: 13.0d
 		}
 		{
+			description: ["此为万千幸福之集合体。"]
 			id: "296056129E683074"
 			tasks: [{
 				id: "18527DA50CE4E70F"
 				item: "dreamtinker:soul_etherium"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 15.0d
+			x: 17.0d
+			y: 12.0d
 		}
 		{
+			description: ["沉死我了。"]
 			id: "3A89AC5AA6747FE6"
 			tasks: [{
 				id: "171795FAF6BBA3B9"
 				item: "tinkers_advanced:densium_ingot"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 15.0d
+			x: 10.0d
+			y: 14.0d
 		}
 		{
+			description: ["以太的另一阵营。"]
 			id: "32FDDC068EDC3208"
 			tasks: [{
 				id: "1C187632928CE9C8"
@@ -4718,9 +5522,10 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 16.0d
+			y: 17.0d
 		}
 		{
+			description: ["纯净之代表。"]
 			id: "39D2139184F8AD5D"
 			tasks: [{
 				id: "5345E342609BCEBE"
@@ -4728,9 +5533,10 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 16.0d
+			y: 17.0d
 		}
 		{
+			description: ["给予你恐惧。"]
 			id: "743BD4AF93CC2D46"
 			tasks: [{
 				id: "203C06921CF22067"
@@ -4738,9 +5544,10 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 16.0d
+			y: 17.0d
 		}
 		{
+			description: ["在绝望中挣扎，奔向心爱之人。"]
 			id: "68E562C1163736BD"
 			tasks: [{
 				id: "0BBB952C2C9960A0"
@@ -4748,39 +5555,43 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 16.0d
+			y: 17.0d
 		}
 		{
+			description: ["它是神的臣子。"]
 			id: "13849F00BFCF3A8C"
 			tasks: [{
 				id: "4F9D3C2C4463DA69"
 				item: "sakuratinker:colorful_ingot"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 17.0d
+			x: 10.0d
+			y: 18.0d
 		}
 		{
+			description: ["黏液家族的最终王者。"]
 			id: "3336C310EDF02EDC"
 			tasks: [{
 				id: "31769F64AE3C277D"
 				item: "sakuratinker:goozma"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 17.0d
+			x: 11.0d
+			y: 18.0d
 		}
 		{
+			description: ["飞龙之力。"]
 			id: "18271B6E920F5349"
 			tasks: [{
 				id: "11A0A6EC37DB53CF"
 				item: "mushroom_daydream:dragon_gobber"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 17.0d
+			x: 15.0d
+			y: 18.0d
 		}
 		{
+			description: ["神的本身。"]
 			id: "2824F17235272E5F"
 			tasks: [{
 				id: "05FA692DF9E51A29"
@@ -4788,9 +5599,10 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 17.0d
+			y: 18.0d
 		}
 		{
+			description: ["鼠国科技之结晶。"]
 			id: "17E0CF4D59C04A9B"
 			tasks: [{
 				id: "3C56A7A3E3306699"
@@ -4798,9 +5610,10 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 19.0d
+			y: 20.0d
 		}
 		{
+			description: ["制造恒星之成果。"]
 			id: "779088A795A8128C"
 			tasks: [{
 				id: "6F07D26CF28A3E29"
@@ -4808,9 +5621,10 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 19.0d
+			y: 20.0d
 		}
 		{
+			description: ["谁啊？"]
 			id: "34E324479F68D6C9"
 			tasks: [{
 				id: "7161D2978DC2EC3D"
@@ -4818,9 +5632,10 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 19.0d
+			y: 20.0d
 		}
 		{
+			description: ["胡言乱语的来了。"]
 			id: "262AD94CD94984D2"
 			tasks: [{
 				id: "50E9C3E2C4F7B078"
@@ -4828,9 +5643,10 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 19.0d
+			y: 20.0d
 		}
 		{
+			description: ["请输入文本"]
 			id: "338EE8150C4CB538"
 			tasks: [{
 				id: "71163A39B419CF18"
@@ -4838,19 +5654,21 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 19.0d
+			y: 20.0d
 		}
 		{
+			description: ["工匠之最终成就。"]
 			id: "59B297994CB4A654"
 			tasks: [{
 				id: "36A1D153D715F6C6"
 				item: "wqjy:the_end"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 19.0d
+			x: 17.0d
+			y: 20.0d
 		}
 		{
+			description: ["小趣事：这材料是后来加的。"]
 			id: "394CA4E574F40047"
 			tasks: [{
 				id: "02C1679441C4E133"
@@ -4858,9 +5676,10 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 8.5d
+			y: 7.5d
 		}
 		{
+			description: ["作为盔甲和近战武器时会对目标施加黑暗。"]
 			id: "75FDC0600CF13F40"
 			tasks: [{
 				id: "2F76E9F4817D1E0C"
@@ -4871,6 +5690,7 @@
 			y: 8.5d
 		}
 		{
+			description: ["此即为永恒之物。"]
 			id: "1D661E78EE560736"
 			tasks: [{
 				id: "42B1E7BEEC5FF380"
@@ -4878,9 +5698,10 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 15.0d
+			y: 16.0d
 		}
 		{
+			description: ["此即为地球之证。"]
 			id: "339D60F954D7250B"
 			tasks: [{
 				id: "0D800D0096B19E80"
@@ -4888,29 +5709,32 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 15.0d
+			y: 16.0d
 		}
 		{
+			description: ["此即为自然之美。"]
 			id: "621342D9841B6389"
 			tasks: [{
 				id: "4E521F2F6FC9E483"
 				item: "wqjy:hong"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 15.0d
 			y: 16.0d
 		}
 		{
+			description: ["此即为众神之力。"]
 			id: "748FAA1EE8B92A92"
 			tasks: [{
 				id: "409E07E359986628"
 				item: "wqjy:myth"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 14.0d
 			y: 16.0d
 		}
 		{
+			description: ["老鼠偷铜。"]
 			id: "471F95022621C537"
 			tasks: [{
 				id: "67271ABC73215D37"
@@ -4918,9 +5742,10 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 7.5d
+			y: 6.5d
 		}
 		{
+			description: ["攻击时获得力量"]
 			id: "4EE26F9C108E6C1F"
 			tasks: [{
 				id: "7F1C57B963BE5078"
@@ -4928,7 +5753,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 24.0d
+			y: 25.0d
 		}
 		{
 			can_repeat: true
@@ -4956,6 +5781,10 @@
 			y: -9.0d
 		}
 		{
+			description: [
+				"拥有龙息抗性"
+				"末影龙的除外"
+			]
 			id: "720D6C9FB2833461"
 			tasks: [{
 				id: "392C99D0E9AD21EE"
@@ -4963,9 +5792,10 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 23.0d
+			y: 24.0d
 		}
 		{
+			description: ["工具使用时额外掉落海里的物品"]
 			id: "60B303F64360BD59"
 			tasks: [{
 				id: "56949690B046CB21"
@@ -4973,9 +5803,10 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 24.0d
+			y: 25.0d
 		}
 		{
+			description: ["提升数值，免疫1点及以下的伤害，猪灵不再与你敌对"]
 			id: "48298854992888E9"
 			tasks: [{
 				id: "5C46AE27E28F5F48"
@@ -4983,9 +5814,10 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 24.0d
+			y: 25.0d
 		}
 		{
+			description: ["黏液体系又一将领。"]
 			id: "3BD147201C9B3411"
 			tasks: [{
 				id: "046E7A9E4A52B188"
@@ -4993,9 +5825,10 @@
 				type: "item"
 			}]
 			x: 17.0d
-			y: 7.5d
+			y: 6.5d
 		}
 		{
+			description: ["奇美拉家的。"]
 			id: "6481594874D50A3E"
 			tasks: [{
 				id: "0709467760B14C84"
@@ -5003,69 +5836,76 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 8.5d
+			y: 7.5d
 		}
 		{
+			description: ["牢狱之灾和地心游记。"]
 			id: "04A2B6D1B0A583FD"
 			tasks: [{
 				id: "6565656A87A4C78F"
 				item: "composite_material:dungeon_steel_ingot"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 15.0d
+			x: 16.0d
+			y: 14.0d
 		}
 		{
+			description: ["悦灵友情之证明。"]
 			id: "4BAE5422B8604E54"
 			tasks: [{
 				id: "44B439491D0F4C1E"
 				item: "composite_material:allay_steel_ingot"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 15.0d
+			x: 15.0d
+			y: 14.0d
 		}
 		{
+			description: ["万能材料的代表。"]
 			id: "3D4CE61CB945E28C"
 			tasks: [{
 				id: "0AAAD3D6E8BB3F01"
 				item: "mushroom_concept:almighty"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 15.0d
+			x: 14.0d
+			y: 14.0d
 		}
 		{
+			description: ["幽匿之回响。"]
 			id: "2386093DDDB65876"
 			tasks: [{
 				id: "360EF3F7BBEBB40A"
 				item: "composite_material:echoium_ingot"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 16.0d
+			x: 17.0d
+			y: 14.0d
 		}
 		{
+			description: ["天界之神明结晶。"]
 			id: "6681B1125EA858BC"
 			tasks: [{
 				id: "6372C98575C05D0A"
 				item: "composite_material:etherite_ingot"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 17.0d
+			x: 13.0d
+			y: 18.0d
 		}
 		{
+			description: ["黏液家族的守门员。"]
 			id: "3C82B567350C7E6E"
 			tasks: [{
 				id: "32C7ED2A36D56E26"
 				item: "mushroom_concept:kira_knight_slime"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 17.0d
+			x: 14.0d
+			y: 18.0d
 		}
 		{
+			description: ["守护金字塔，或者是挖坟。"]
 			id: "0D8C78CCBDDD1404"
 			tasks: [{
 				id: "028BF4ACB7A0D6AA"
@@ -5073,9 +5913,10 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 8.5d
+			y: 7.5d
 		}
 		{
+			description: ["穿透免伤之人，但造价。"]
 			id: "0397E23B66545AA2"
 			tasks: [{
 				id: "72ED6FEBADAC5165"
@@ -5083,9 +5924,10 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 8.5d
+			y: 7.5d
 		}
 		{
+			description: ["&m我老婆"]
 			id: "6B0272E98F581B2C"
 			tasks: [{
 				id: "058F922097001645"
@@ -5093,9 +5935,10 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 19.0d
+			y: 20.0d
 		}
 		{
+			description: ["女武神的代表材料。"]
 			id: "5DD63CE44A20053D"
 			tasks: [{
 				id: "024711BEED554B7E"
@@ -5103,9 +5946,10 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 8.5d
+			y: 7.5d
 		}
 		{
+			description: ["这也是黏液体系的又一名大臣。"]
 			id: "3BEC3FAA29F3F08E"
 			tasks: [{
 				id: "74A55E38C4B3ADCA"
@@ -5113,9 +5957,10 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 8.5d
+			y: 7.5d
 		}
 		{
+			description: ["穿甲偷袭领域大神。"]
 			id: "6655D5390728A837"
 			tasks: [{
 				id: "5F8DC60ACAAF75C3"
@@ -5123,9 +5968,13 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 8.5d
+			y: 7.5d
 		}
 		{
+			description: [
+				"作为盔甲时免疫摔落伤害。"
+				"作为武器时伤害大于目标生命值则不会造成伤害。"
+			]
 			id: "30B94DF3A6B8B9CC"
 			tasks: [{
 				id: "27ED4B76930FE299"
@@ -5134,6 +5983,230 @@
 			}]
 			x: 5.5d
 			y: 8.5d
+		}
+		{
+			description: ["巨人杀手和第五击加强。"]
+			id: "312593A79AAB588B"
+			tasks: [{
+				id: "31949BFED4D57EF1"
+				item: "dreamtinker:fifth_stone"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			description: [
+				"我说鹦鹉螺壳也是一种骨头。"
+				"根据自己和敌人间的角度增伤"
+				"弹射物会追踪目标"
+			]
+			id: "704D3AED9389BCC7"
+			tasks: [{
+				id: "180E09164C60AA49"
+				item: "dreamtinker:spiral_spin"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 25.0d
+		}
+		{
+			description: ["略。"]
+			id: "2D8EDB63C43D96C4"
+			tasks: [
+				{
+					id: "2B62FE87964478E6"
+					item: "ars_nouveau:abjuration_essence"
+					type: "item"
+				}
+				{
+					id: "7266E52F7BA0D3B0"
+					item: "ars_nouveau:conjuration_essence"
+					type: "item"
+				}
+				{
+					id: "127BDEA0097EC7EA"
+					item: "ars_nouveau:air_essence"
+					type: "item"
+				}
+				{
+					id: "3908F629351DBA64"
+					item: "ars_nouveau:earth_essence"
+					type: "item"
+				}
+				{
+					id: "3A70C61505E9FA13"
+					item: "ars_nouveau:fire_essence"
+					type: "item"
+				}
+				{
+					id: "502DF6810CB4C5EF"
+					item: "ars_nouveau:manipulation_essence"
+					type: "item"
+				}
+				{
+					id: "514B35067E1DE983"
+					item: "ars_nouveau:water_essence"
+					type: "item"
+				}
+			]
+			title: "精华（新生魔艺）"
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			description: ["何处为救赎？"]
+			icon: "dreamtinker:eden_fruit"
+			id: "306B62FC7574877B"
+			tasks: [
+				{
+					id: "613B6BD4D53D255E"
+					item: {
+						Count: 1
+						id: "dreamtinker:snake_fang"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08F11182A41DC70A"
+					item: "dreamtinker:eden_fruit"
+					type: "item"
+				}
+			]
+			title: "救赎之果"
+			x: 16.0d
+			y: 11.0d
+		}
+		{
+			id: "12300173A572E6AD"
+			tasks: [{
+				id: "0B19CDE26E4649C0"
+				item: "minecraft:blue_ice"
+				type: "item"
+			}]
+			title: "月光冰"
+			x: 15.0d
+			y: 20.0d
+		}
+		{
+			description: ["我还以为是巧克力呢。"]
+			id: "1EB132AA77D847B6"
+			tasks: [{
+				id: "592310B8BE99F57F"
+				item: "dreamtinker:whimsy_coin"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 7.5d
+		}
+		{
+			description: ["历史呈螺旋上升之趋势。"]
+			icon: {
+				Count: 1
+				id: "tconstruct:flint_and_brick"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							level: 1
+							name: "tconstruct:firestarter"
+						}
+						{
+							level: 1
+							name: "tconstruct:fiery"
+						}
+						{
+							level: 1
+							name: "tconstruct:scorching"
+						}
+					]
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:durability": 100.0f
+					}
+					tic_volatile_data: {
+						upgrades: 1
+					}
+				}
+			}
+			id: "1D22CAEF94555D1B"
+			tasks: [{
+				advancement: "dreamtinker:materials/ruin_wheel"
+				criterion: ""
+				icon: "minecraft:blaze_powder"
+				id: "4C8F2687AA6FF7D3"
+				title: "历史的车轮，滚滚向前。"
+				type: "advancement"
+			}]
+			title: "烬灭"
+			x: 16.0d
+			y: 20.0d
+		}
+		{
+			description: ["这是眼泪吗？这是雷暴下的雨！"]
+			id: "22583FFA97AA5828"
+			tasks: [{
+				id: "72A08EBD4B2720CD"
+				item: "cataclysm:lacrima"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 7.5d
+		}
+		{
+			description: ["自带动力之合金。"]
+			id: "661CCC38ACC77151"
+			tasks: [{
+				id: "3854132C8925BCFF"
+				item: "tprt:void_power_alloy"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.5d
+		}
+		{
+			description: [
+				"此为风暴之化身。"
+				"人话就是风暴顺带下的雨。"
+			]
+			id: "758FAD0D3F658CF4"
+			tasks: [{
+				id: "0AADA3A246E07E2F"
+				item: "tprt:tears_of_the_storm"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 8.5d
+		}
+		{
+			description: ["这是利维坦英雄碎片。"]
+			id: "4808D31F51A2257C"
+			tasks: [{
+				id: "45B9DEDCA1E69FD7"
+				item: "tprt:abyss_fragment"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.5d
+		}
+		{
+			description: [
+				"由于4级开始群魔乱舞，不再添加效果，只会说材料的大致情况。"
+				"如果玩到这些材料都不会用JEI还在问来问去，建议是重新阅读JEI使用教程。"
+			]
+			id: "1998AE7ACBDDBFEA"
+			size: 1.5d
+			tasks: [{
+				id: "1BCA36F3A9382919"
+				title: "写累了。"
+				type: "checkmark"
+			}]
+			x: 8.25d
+			y: -9.0d
 		}
 	]
 	subtitle: ["完成"]

@@ -790,7 +790,11 @@
 		}
 		{
 			dependencies: ["43A031B552E8DA94"]
-			description: ["搜索&eRuined Citadel&r"]
+			description: [
+				"搜索&eRuined Citadel&r"
+				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"Ruined Citadel\" }}"
+			]
 			id: "65484590E67F0D4A"
 			rewards: [
 				{
@@ -818,7 +822,11 @@
 		}
 		{
 			dependencies: ["43A031B552E8DA94"]
-			description: ["搜索&eShulker Tower&r"]
+			description: [
+				"搜索&eShulker Tower&r"
+				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"Shulker Tower\" }}"
+			]
 			id: "2D76A35CDE62FF47"
 			rewards: [
 				{
@@ -851,7 +859,11 @@
 		}
 		{
 			dependencies: ["43A031B552E8DA94"]
-			description: ["搜索&eAncient Tower remains&r"]
+			description: [
+				"搜索&eAncient Tower remains&r"
+				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"Ancient Tower remains\" }}"
+			]
 			id: "5FF3AC358B702B02"
 			rewards: [
 				{
@@ -1650,7 +1662,11 @@
 		}
 		{
 			dependencies: ["43A031B552E8DA94"]
-			description: ["搜索&eSpace Station&r"]
+			description: [
+				"搜索&eSpace Station&r"
+				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"Space Station\" }}"
+			]
 			hide_dependency_lines: true
 			id: "3BC0C9050688A25E"
 			rewards: [{

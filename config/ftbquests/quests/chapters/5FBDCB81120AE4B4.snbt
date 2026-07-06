@@ -499,6 +499,8 @@
 			description: [
 				"搜索&eLich Prison&r"
 				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"Lich Prison\" }}"
+				""
 				"必须在&4夜晚&r依次将上、中、下共3块&e骨杖残片骨杖残片&r依次&5从左至右&r放置于祭坛前的&e碎裂深石中心&r，然后将&e一瓶血&r倒在祭坛中央的&e祭坛方块&r上。"
 				""
 				"{image:ftbquests:textures/picture/005.png width:160 height:90 align:center}"

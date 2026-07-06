@@ -1818,7 +1818,7 @@
 				title: "神话锭"
 				type: "checkmark"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -2069,7 +2069,7 @@
 			tasks: [{
 				count: 2L
 				id: "62746B112BD556B5"
-				item: { Count: 2, id: "create:crushing_wheel" }
+				item: "create:crushing_wheel"
 				type: "item"
 			}]
 			x: 0.0d
@@ -2259,7 +2259,7 @@
 				consume_items: true
 				count: 16L
 				id: "31C62FF61FFEC0A5"
-				item: { Count: 16, id: "thermal:netherite_coin" }
+				item: "thermal:netherite_coin"
 				type: "item"
 			}]
 			title: "前往混沌龙岛"
@@ -2516,6 +2516,38 @@
 			}]
 			x: 6.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["1A9E00F388DD0F87"]
+			description: [
+				"电弧炉需要&d石墨电极&r才能运作。"
+				"相关工程师图纸于村民处购买。"
+				"工作方块为&e工程师工作台&r。"
+			]
+			hide_dependency_lines: false
+			id: "2117A8356B128978"
+			subtitle: "运作时噪音极大，注意音量。"
+			tasks: [
+				{
+					id: "21A8277F9720382F"
+					item: "immersiveengineering:arc_furnace"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "12B5C6E4104BC97D"
+					item: {
+						Count: 3
+						id: "immersiveengineering:graphite_electrode"
+						tag: {
+							graphDmg: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.0d
 		}
 	]
 	title: "◇&6阶段5"

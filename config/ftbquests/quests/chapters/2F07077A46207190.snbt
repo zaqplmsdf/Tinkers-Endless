@@ -969,7 +969,7 @@
 					consume_items: true
 					count: 64L
 					id: "0B5A45FC3D121816"
-					item: { Count: 64, id: "minecraft:snowball" }
+					item: "minecraft:snowball"
 					type: "item"
 				}
 				{
@@ -1046,7 +1046,9 @@
 		{
 			description: [
 				"搜索&eAncient Factory&r"
-				"用下界之星唤醒"
+				"用&e下界之星&r唤醒"
+				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"Ancient Factory\" }}"
 			]
 			id: "788AF9F367FB5492"
 			rewards: [
@@ -1077,6 +1079,8 @@
 				"搜索&eCursed Pyramid&r"
 				""
 				"使用&e沙漠项链&r（用&e刷子&r刷遗迹内&e可疑沙子&r获取）唤醒"
+				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"Cursed Pyramid\" }}"
 			]
 			id: "37889F2814800EFE"
 			rewards: [
@@ -1119,6 +1123,8 @@
 				"搜索&eSunken City&r"
 				""
 				"使用&e深渊祭品&r（&5遗迹内生物&r掉落物及部分&e原版物品&r合成）在&e深渊祭坛&r上召唤"
+				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"Sunken City\" }}"
 			]
 			id: "6C8216A363280FC5"
 			rewards: [
@@ -1146,7 +1152,11 @@
 			y: 3.0d
 		}
 		{
-			description: ["搜索&eFrosted Prison&r"]
+			description: [
+				"搜索&eFrosted Prison&r"
+				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"Frosted Prison\" }}"
+			]
 			id: "18A67F72FCE5E680"
 			rewards: [
 				{
@@ -1179,7 +1189,11 @@
 			y: 3.0d
 		}
 		{
-			description: ["搜索&eAcropolis&r"]
+			description: [
+				"搜索&eAcropolis&r"
+				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"Acropolis\" }}"
+			]
 			id: "1BC56AD28DF42AEA"
 			rewards: [
 				{
@@ -1247,7 +1261,11 @@
 			y: -4.5d
 		}
 		{
-			description: ["搜索&eGorgon temple&r"]
+			description: [
+				"搜索&eGorgon temple&r"
+				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"Gorgon temple\" }}"
+			]
 			id: "43268EB4400C2F40"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1313,7 +1331,11 @@
 			y: -3.0d
 		}
 		{
-			description: ["搜索&ecloudy temple&r"]
+			description: [
+				"搜索&ecloudy temple&r"
+				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"cloudy temple\" }}"
+			]
 			id: "3B541353494D2DCB"
 			rewards: [
 				{
@@ -1369,7 +1391,11 @@
 			y: 0.75d
 		}
 		{
-			description: ["搜索&eRuined Pyramid&r"]
+			description: [
+				"搜索&eRuined Pyramid&r"
+				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"Ruined Pyramid\" }}"
+			]
 			id: "11E072CBD113AC7C"
 			rewards: [
 				{
@@ -1407,7 +1433,11 @@
 			y: 0.75d
 		}
 		{
-			description: ["搜索&eFrostbitten Temple&r"]
+			description: [
+				"搜索&eFrostbitten Temple&r"
+				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"Frostbitten Temple\" }}"
+			]
 			id: "53042977E4D73DC5"
 			rewards: [
 				{
@@ -1445,7 +1475,11 @@
 			y: 1.5d
 		}
 		{
-			description: ["搜索&eAncient Stronghold&r"]
+			description: [
+				"搜索&eAncient Stronghold&r"
+				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"Ancient Stronghold\" }}"
+			]
 			id: "6386AEE54F521728"
 			rewards: [
 				{
@@ -1483,7 +1517,11 @@
 			y: 1.5d
 		}
 		{
-			description: ["搜索&eAbandoned Crypt&r"]
+			description: [
+				"搜索&eCollapsed Kingdom&r"
+				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"Collapsed Kingdom\" }}"
+			]
 			id: "19BF65777771D739"
 			rewards: [
 				{
@@ -1521,7 +1559,11 @@
 			y: 0.75d
 		}
 		{
-			description: ["搜索&eMossy Temple&r"]
+			description: [
+				"搜索&eMossy Temple&r"
+				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"Mossy Temple\" }}"
+			]
 			id: "3D9028D744A2299D"
 			rewards: [
 				{
@@ -2191,7 +2233,11 @@
 			y: 6.0d
 		}
 		{
-			description: ["搜索&eCata Combs&r"]
+			description: [
+				"搜索&eCata Combs&r"
+				""
+				"{\"text\": \"[点击复制结构id]\",\"color\": \"light_purple\",\"blod\": \"true\",\"clickEvent\": { \"action\": \"copy_to_clipboard\", \"value\": \"Cata Combs\" }}"
+			]
 			id: "57190DA3CDF384A5"
 			rewards: [{
 				exclude_from_claim_all: true
