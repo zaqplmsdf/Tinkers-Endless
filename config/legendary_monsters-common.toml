@@ -116,7 +116,7 @@
 		"Allow Posessed Paladin Projectile Immunity" = true
 		#Damage Cap
 		#Range: 0.0 ~ 1000.0
-		"Damage Cap" = 21.0
+		"Damage Cap" = 1000
 		#Allow Possesed Paladin Invulnerability Time
 		"Allow Possesed Paladin Invulnerability Time" = true
 
